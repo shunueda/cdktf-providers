@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config
+// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#account_id Config#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#account_id Config#account_id}
   */
   readonly accountId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#config_id Config#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#config_id Config#config_id}
   */
   readonly configId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#id Config#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#id Config#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#name Config#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#name Config#name}
   */
   readonly name?: string;
   /**
@@ -53,11 +53,11 @@ export interface ConfigConfig extends cdktf.TerraformMetaArguments {
   * 				FORTIAPPSEC: FortiAppSec;
   * 				FORTIDLP: FortiDLP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#product_type Config#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#product_type Config#product_type}
   */
   readonly productType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#program_serial_number Config#program_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#program_serial_number Config#program_serial_number}
   */
   readonly programSerialNumber: string;
   /**
@@ -65,161 +65,161 @@ export interface ConfigConfig extends cdktf.TerraformMetaArguments {
   * 				ACTIVE: Enable a configuration;
   * 				DISABLED: Disable a configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#status Config#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#status Config#status}
   */
   readonly status?: string;
   /**
   * fad_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fad_vm Config#fad_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fad_vm Config#fad_vm}
   */
   readonly fadVm?: ConfigFadVm[] | cdktf.IResolvable;
   /**
   * fap_hw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fap_hw Config#fap_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fap_hw Config#fap_hw}
   */
   readonly fapHw?: ConfigFapHw[] | cdktf.IResolvable;
   /**
   * faz_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#faz_vm Config#faz_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#faz_vm Config#faz_vm}
   */
   readonly fazVm?: ConfigFazVm[] | cdktf.IResolvable;
   /**
   * fc_ems_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fc_ems_cloud Config#fc_ems_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fc_ems_cloud Config#fc_ems_cloud}
   */
   readonly fcEmsCloud?: ConfigFcEmsCloud[] | cdktf.IResolvable;
   /**
   * fc_ems_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fc_ems_op Config#fc_ems_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fc_ems_op Config#fc_ems_op}
   */
   readonly fcEmsOp?: ConfigFcEmsOp[] | cdktf.IResolvable;
   /**
   * fgt_hw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fgt_hw Config#fgt_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fgt_hw Config#fgt_hw}
   */
   readonly fgtHw?: ConfigFgtHw[] | cdktf.IResolvable;
   /**
   * fgt_vm_bundle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fgt_vm_bundle Config#fgt_vm_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fgt_vm_bundle Config#fgt_vm_bundle}
   */
   readonly fgtVmBundle?: ConfigFgtVmBundle[] | cdktf.IResolvable;
   /**
   * fgt_vm_lcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fgt_vm_lcs Config#fgt_vm_lcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fgt_vm_lcs Config#fgt_vm_lcs}
   */
   readonly fgtVmLcs?: ConfigFgtVmLcs[] | cdktf.IResolvable;
   /**
   * fmg_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fmg_vm Config#fmg_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fmg_vm Config#fmg_vm}
   */
   readonly fmgVm?: ConfigFmgVm[] | cdktf.IResolvable;
   /**
   * fortiappsec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortiappsec Config#fortiappsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortiappsec Config#fortiappsec}
   */
   readonly fortiappsec?: ConfigFortiappsec[] | cdktf.IResolvable;
   /**
   * fortidlp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortidlp Config#fortidlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortidlp Config#fortidlp}
   */
   readonly fortidlp?: ConfigFortidlp[] | cdktf.IResolvable;
   /**
   * fortiedr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortiedr Config#fortiedr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortiedr Config#fortiedr}
   */
   readonly fortiedr?: ConfigFortiedr[] | cdktf.IResolvable;
   /**
   * fortimail_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortimail_vm Config#fortimail_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortimail_vm Config#fortimail_vm}
   */
   readonly fortimailVm?: ConfigFortimailVm[] | cdktf.IResolvable;
   /**
   * fortinac_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortinac_vm Config#fortinac_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortinac_vm Config#fortinac_vm}
   */
   readonly fortinacVm?: ConfigFortinacVm[] | cdktf.IResolvable;
   /**
   * fortindr_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortindr_cloud Config#fortindr_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortindr_cloud Config#fortindr_cloud}
   */
   readonly fortindrCloud?: ConfigFortindrCloud[] | cdktf.IResolvable;
   /**
   * fortirecon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortirecon Config#fortirecon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortirecon Config#fortirecon}
   */
   readonly fortirecon?: ConfigFortirecon[] | cdktf.IResolvable;
   /**
   * fortisase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortisase Config#fortisase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortisase Config#fortisase}
   */
   readonly fortisase?: ConfigFortisase[] | cdktf.IResolvable;
   /**
   * fortisoar_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortisoar_vm Config#fortisoar_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortisoar_vm Config#fortisoar_vm}
   */
   readonly fortisoarVm?: ConfigFortisoarVm[] | cdktf.IResolvable;
   /**
   * fpc_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fpc_vm Config#fpc_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fpc_vm Config#fpc_vm}
   */
   readonly fpcVm?: ConfigFpcVm[] | cdktf.IResolvable;
   /**
   * fsw_hw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fsw_hw Config#fsw_hw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fsw_hw Config#fsw_hw}
   */
   readonly fswHw?: ConfigFswHw[] | cdktf.IResolvable;
   /**
   * fwb_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fwb_vm Config#fwb_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fwb_vm Config#fwb_vm}
   */
   readonly fwbVm?: ConfigFwbVm[] | cdktf.IResolvable;
   /**
   * fwbc_private block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fwbc_private Config#fwbc_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fwbc_private Config#fwbc_private}
   */
   readonly fwbcPrivate?: ConfigFwbcPrivate[] | cdktf.IResolvable;
   /**
   * fwbc_public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fwbc_public Config#fwbc_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fwbc_public Config#fwbc_public}
   */
   readonly fwbcPublic?: ConfigFwbcPublic[] | cdktf.IResolvable;
   /**
   * siem_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#siem_cloud Config#siem_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#siem_cloud Config#siem_cloud}
   */
   readonly siemCloud?: ConfigSiemCloud[] | cdktf.IResolvable;
 }
 export interface ConfigFadVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cpu_size Config#cpu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cpu_size Config#cpu_size}
   */
   readonly cpuSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -364,15 +364,15 @@ export class ConfigFadVmList extends cdktf.ComplexList {
 }
 export interface ConfigFapHw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#device_model Config#device_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#device_model Config#device_model}
   */
   readonly deviceModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -546,19 +546,19 @@ export class ConfigFapHwList extends cdktf.ComplexList {
 }
 export interface ConfigFazVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#adom_num Config#adom_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#adom_num Config#adom_num}
   */
   readonly adomNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#daily_storage Config#daily_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#daily_storage Config#daily_storage}
   */
   readonly dailyStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#support_service Config#support_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#support_service Config#support_service}
   */
   readonly supportService?: string;
 }
@@ -761,27 +761,27 @@ export class ConfigFazVmList extends cdktf.ComplexList {
 }
 export interface ConfigFcEmsCloud {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#chromebook Config#chromebook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#chromebook Config#chromebook}
   */
   readonly chromebook?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#epp_ztna_fgf_num Config#epp_ztna_fgf_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#epp_ztna_fgf_num Config#epp_ztna_fgf_num}
   */
   readonly eppZtnaFgfNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#epp_ztna_num Config#epp_ztna_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#epp_ztna_num Config#epp_ztna_num}
   */
   readonly eppZtnaNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#ztna_fgf_num Config#ztna_fgf_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#ztna_fgf_num Config#ztna_fgf_num}
   */
   readonly ztnaFgfNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#ztna_num Config#ztna_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#ztna_num Config#ztna_num}
   */
   readonly ztnaNum?: number;
 }
@@ -1042,23 +1042,23 @@ export class ConfigFcEmsCloudList extends cdktf.ComplexList {
 }
 export interface ConfigFcEmsOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#chromebook Config#chromebook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#chromebook Config#chromebook}
   */
   readonly chromebook?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#epp_ztna_num Config#epp_ztna_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#epp_ztna_num Config#epp_ztna_num}
   */
   readonly eppZtnaNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#support_service Config#support_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#support_service Config#support_service}
   */
   readonly supportService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#ztna_num Config#ztna_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#ztna_num Config#ztna_num}
   */
   readonly ztnaNum?: number;
 }
@@ -1290,15 +1290,15 @@ export class ConfigFcEmsOpList extends cdktf.ComplexList {
 }
 export interface ConfigFgtHw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#device_model Config#device_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#device_model Config#device_model}
   */
   readonly deviceModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -1472,27 +1472,27 @@ export class ConfigFgtHwList extends cdktf.ComplexList {
 }
 export interface ConfigFgtVmBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cloud_services Config#cloud_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cloud_services Config#cloud_services}
   */
   readonly cloudServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cpu_size Config#cpu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cpu_size Config#cpu_size}
   */
   readonly cpuSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortiguard_services Config#fortiguard_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortiguard_services Config#fortiguard_services}
   */
   readonly fortiguardServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#support_service Config#support_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#support_service Config#support_service}
   */
   readonly supportService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#vdom_num Config#vdom_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#vdom_num Config#vdom_num}
   */
   readonly vdomNum?: number;
 }
@@ -1753,23 +1753,23 @@ export class ConfigFgtVmBundleList extends cdktf.ComplexList {
 }
 export interface ConfigFgtVmLcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cloud_services Config#cloud_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cloud_services Config#cloud_services}
   */
   readonly cloudServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cpu_size Config#cpu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cpu_size Config#cpu_size}
   */
   readonly cpuSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#fortiguard_services Config#fortiguard_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#fortiguard_services Config#fortiguard_services}
   */
   readonly fortiguardServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#support_service Config#support_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#support_service Config#support_service}
   */
   readonly supportService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#vdom_num Config#vdom_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#vdom_num Config#vdom_num}
   */
   readonly vdomNum?: number;
 }
@@ -2001,11 +2001,11 @@ export class ConfigFgtVmLcsList extends cdktf.ComplexList {
 }
 export interface ConfigFmgVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#adom_num Config#adom_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#adom_num Config#adom_num}
   */
   readonly adomNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#managed_dev Config#managed_dev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#managed_dev Config#managed_dev}
   */
   readonly managedDev?: number;
 }
@@ -2150,15 +2150,15 @@ export class ConfigFmgVmList extends cdktf.ComplexList {
 }
 export interface ConfigFortiappsec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_types Config#service_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_types Config#service_types}
   */
   readonly serviceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#waf_addons Config#waf_addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#waf_addons Config#waf_addons}
   */
   readonly wafAddons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#waf_service_pkg Config#waf_service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#waf_service_pkg Config#waf_service_pkg}
   */
   readonly wafServicePkg?: string;
 }
@@ -2352,15 +2352,15 @@ export class ConfigFortiappsecList extends cdktf.ComplexList {
 }
 export interface ConfigFortidlp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#endpoints Config#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#endpoints Config#endpoints}
   */
   readonly endpoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -2534,15 +2534,15 @@ export class ConfigFortidlpList extends cdktf.ComplexList {
 }
 export interface ConfigFortiedr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#repository_storage Config#repository_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#repository_storage Config#repository_storage}
   */
   readonly repositoryStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -2721,15 +2721,15 @@ export class ConfigFortiedrList extends cdktf.ComplexList {
 }
 export interface ConfigFortimailVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cpu_size Config#cpu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cpu_size Config#cpu_size}
   */
   readonly cpuSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -2903,15 +2903,15 @@ export class ConfigFortimailVmList extends cdktf.ComplexList {
 }
 export interface ConfigFortinacVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#endpoints Config#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#endpoints Config#endpoints}
   */
   readonly endpoints?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#support_service Config#support_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#support_service Config#support_service}
   */
   readonly supportService?: string;
 }
@@ -3171,23 +3171,23 @@ export class ConfigFortindrCloudList extends cdktf.ComplexList {
 }
 export interface ConfigFortirecon {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#asset_num Config#asset_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#asset_num Config#asset_num}
   */
   readonly assetNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#executive_num Config#executive_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#executive_num Config#executive_num}
   */
   readonly executiveNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#network_num Config#network_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#network_num Config#network_num}
   */
   readonly networkNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#vendor_num Config#vendor_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#vendor_num Config#vendor_num}
   */
   readonly vendorNum?: number;
 }
@@ -3419,27 +3419,27 @@ export class ConfigFortireconList extends cdktf.ComplexList {
 }
 export interface ConfigFortisase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#additional_compute_region Config#additional_compute_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#additional_compute_region Config#additional_compute_region}
   */
   readonly additionalComputeRegion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#bandwidth Config#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#bandwidth Config#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#dedicated_ips Config#dedicated_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#dedicated_ips Config#dedicated_ips}
   */
   readonly dedicatedIps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#locations Config#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#locations Config#locations}
   */
   readonly locations?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#users Config#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#users Config#users}
   */
   readonly users?: number;
 }
@@ -3700,15 +3700,15 @@ export class ConfigFortisaseList extends cdktf.ComplexList {
 }
 export interface ConfigFortisoarVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#additional_users_license Config#additional_users_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#additional_users_license Config#additional_users_license}
   */
   readonly additionalUsersLicense?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#addons Config#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#addons Config#addons}
   */
   readonly addons?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -3882,7 +3882,7 @@ export class ConfigFortisoarVmList extends cdktf.ComplexList {
 }
 export interface ConfigFpcVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#managed_dev Config#managed_dev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#managed_dev Config#managed_dev}
   */
   readonly managedDev?: number;
 }
@@ -3998,11 +3998,11 @@ export class ConfigFpcVmList extends cdktf.ComplexList {
 }
 export interface ConfigFswHw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#device_model Config#device_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#device_model Config#device_model}
   */
   readonly deviceModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -4147,11 +4147,11 @@ export class ConfigFswHwList extends cdktf.ComplexList {
 }
 export interface ConfigFwbVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#cpu_size Config#cpu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#cpu_size Config#cpu_size}
   */
   readonly cpuSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#service_pkg Config#service_pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#service_pkg Config#service_pkg}
   */
   readonly servicePkg?: string;
 }
@@ -4296,11 +4296,11 @@ export class ConfigFwbVmList extends cdktf.ComplexList {
 }
 export interface ConfigFwbcPrivate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#average_throughput Config#average_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#average_throughput Config#average_throughput}
   */
   readonly averageThroughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#web_applications Config#web_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#web_applications Config#web_applications}
   */
   readonly webApplications?: number;
 }
@@ -4445,11 +4445,11 @@ export class ConfigFwbcPrivateList extends cdktf.ComplexList {
 }
 export interface ConfigFwbcPublic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#average_throughput Config#average_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#average_throughput Config#average_throughput}
   */
   readonly averageThroughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#web_applications Config#web_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#web_applications Config#web_applications}
   */
   readonly webApplications?: number;
 }
@@ -4594,15 +4594,15 @@ export class ConfigFwbcPublicList extends cdktf.ComplexList {
 }
 export interface ConfigSiemCloud {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#additional_online_storage Config#additional_online_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#additional_online_storage Config#additional_online_storage}
   */
   readonly additionalOnlineStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#archive_storage Config#archive_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#archive_storage Config#archive_storage}
   */
   readonly archiveStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#compute_units Config#compute_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#compute_units Config#compute_units}
   */
   readonly computeUnits?: number;
 }
@@ -4776,7 +4776,7 @@ export class ConfigSiemCloudList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config fortiflexvm_config}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config fortiflexvm_config}
 */
 export class Config extends cdktf.TerraformResource {
 
@@ -4792,7 +4792,7 @@ export class Config extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Config resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Config to import
-  * @param importFromId The id of the existing Config that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Config that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Config to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4804,7 +4804,7 @@ export class Config extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/config fortiflexvm_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/config fortiflexvm_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4815,8 +4815,8 @@ export class Config extends cdktf.TerraformResource {
       terraformResourceType: 'fortiflexvm_config',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3',
-        providerVersionConstraint: '2.4.3'
+        providerVersion: '2.4.4',
+        providerVersionConstraint: '2.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

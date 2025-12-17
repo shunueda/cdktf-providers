@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface AlertconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#action_group_ref Alertconfig#action_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#action_group_ref Alertconfig#action_group_ref}
   */
   readonly actionGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#autoscale_alert Alertconfig#autoscale_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#autoscale_alert Alertconfig#autoscale_alert}
   */
   readonly autoscaleAlert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#category Alertconfig#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#category Alertconfig#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#description Alertconfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#description Alertconfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#enabled Alertconfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#enabled Alertconfig#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#expiry_time Alertconfig#expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#expiry_time Alertconfig#expiry_time}
   */
   readonly expiryTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#id Alertconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#id Alertconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#name Alertconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#name Alertconfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#obj_uuid Alertconfig#obj_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#obj_uuid Alertconfig#obj_uuid}
   */
   readonly objUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#object_type Alertconfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#object_type Alertconfig#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#recommendation Alertconfig#recommendation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#recommendation Alertconfig#recommendation}
   */
   readonly recommendation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#rolling_window Alertconfig#rolling_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#rolling_window Alertconfig#rolling_window}
   */
   readonly rollingWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#source Alertconfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#source Alertconfig#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#summary Alertconfig#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#summary Alertconfig#summary}
   */
   readonly summary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#tenant_ref Alertconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#tenant_ref Alertconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#threshold Alertconfig#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#threshold Alertconfig#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#throttle Alertconfig#throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#throttle Alertconfig#throttle}
   */
   readonly throttle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#uuid Alertconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#uuid Alertconfig#uuid}
   */
   readonly uuid?: string;
   /**
   * alert_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#alert_rule Alertconfig#alert_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#alert_rule Alertconfig#alert_rule}
   */
   readonly alertRule: AlertconfigAlertRule[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#configpb_attributes Alertconfig#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#configpb_attributes Alertconfig#configpb_attributes}
   */
   readonly configpbAttributes?: AlertconfigConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface AlertconfigAlertRuleConnAppLogRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#filter_action Alertconfig#filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#filter_action Alertconfig#filter_action}
   */
   readonly filterAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#filter_string Alertconfig#filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#filter_string Alertconfig#filter_string}
   */
   readonly filterString: string;
 }
@@ -243,11 +243,11 @@ export class AlertconfigAlertRuleConnAppLogRuleList extends cdktf.ComplexList {
 }
 export interface AlertconfigAlertRuleMetricsRuleMetricThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#comparator Alertconfig#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#comparator Alertconfig#comparator}
   */
   readonly comparator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#threshold Alertconfig#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#threshold Alertconfig#threshold}
   */
   readonly threshold?: string;
 }
@@ -389,17 +389,17 @@ export class AlertconfigAlertRuleMetricsRuleMetricThresholdList extends cdktf.Co
 }
 export interface AlertconfigAlertRuleMetricsRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#duration Alertconfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#duration Alertconfig#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#metric_id Alertconfig#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#metric_id Alertconfig#metric_id}
   */
   readonly metricId?: string;
   /**
   * metric_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#metric_threshold Alertconfig#metric_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#metric_threshold Alertconfig#metric_threshold}
   */
   readonly metricThreshold: AlertconfigAlertRuleMetricsRuleMetricThreshold[] | cdktf.IResolvable;
 }
@@ -570,15 +570,15 @@ export class AlertconfigAlertRuleMetricsRuleList extends cdktf.ComplexList {
 }
 export interface AlertconfigAlertRuleSysEventRuleEventDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#comparator Alertconfig#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#comparator Alertconfig#comparator}
   */
   readonly comparator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#event_details_key Alertconfig#event_details_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#event_details_key Alertconfig#event_details_key}
   */
   readonly eventDetailsKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#event_details_value Alertconfig#event_details_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#event_details_value Alertconfig#event_details_value}
   */
   readonly eventDetailsValue: string;
 }
@@ -743,17 +743,17 @@ export class AlertconfigAlertRuleSysEventRuleEventDetailsList extends cdktf.Comp
 }
 export interface AlertconfigAlertRuleSysEventRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#event_id Alertconfig#event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#event_id Alertconfig#event_id}
   */
   readonly eventId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#not_cond Alertconfig#not_cond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#not_cond Alertconfig#not_cond}
   */
   readonly notCond?: string;
   /**
   * event_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#event_details Alertconfig#event_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#event_details Alertconfig#event_details}
   */
   readonly eventDetails?: AlertconfigAlertRuleSysEventRuleEventDetails[] | cdktf.IResolvable;
 }
@@ -927,29 +927,29 @@ export class AlertconfigAlertRuleSysEventRuleList extends cdktf.ComplexList {
 }
 export interface AlertconfigAlertRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#event_match_filter Alertconfig#event_match_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#event_match_filter Alertconfig#event_match_filter}
   */
   readonly eventMatchFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#operator Alertconfig#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#operator Alertconfig#operator}
   */
   readonly operator?: string;
   /**
   * conn_app_log_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#conn_app_log_rule Alertconfig#conn_app_log_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#conn_app_log_rule Alertconfig#conn_app_log_rule}
   */
   readonly connAppLogRule?: AlertconfigAlertRuleConnAppLogRule[] | cdktf.IResolvable;
   /**
   * metrics_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#metrics_rule Alertconfig#metrics_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#metrics_rule Alertconfig#metrics_rule}
   */
   readonly metricsRule?: AlertconfigAlertRuleMetricsRule[] | cdktf.IResolvable;
   /**
   * sys_event_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#sys_event_rule Alertconfig#sys_event_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#sys_event_rule Alertconfig#sys_event_rule}
   */
   readonly sysEventRule?: AlertconfigAlertRuleSysEventRule[] | cdktf.IResolvable;
 }
@@ -1181,7 +1181,7 @@ export class AlertconfigAlertRuleList extends cdktf.ComplexList {
 }
 export interface AlertconfigConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#version Alertconfig#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#version Alertconfig#version}
   */
   readonly version?: string;
 }
@@ -1297,7 +1297,7 @@ export class AlertconfigConfigpbAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig avi_alertconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig avi_alertconfig}
 */
 export class Alertconfig extends cdktf.TerraformResource {
 
@@ -1313,7 +1313,7 @@ export class Alertconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alertconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alertconfig to import
-  * @param importFromId The id of the existing Alertconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alertconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alertconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1325,7 +1325,7 @@ export class Alertconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/alertconfig avi_alertconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/alertconfig avi_alertconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1336,8 +1336,8 @@ export class Alertconfig extends cdktf.TerraformResource {
       terraformResourceType: 'avi_alertconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

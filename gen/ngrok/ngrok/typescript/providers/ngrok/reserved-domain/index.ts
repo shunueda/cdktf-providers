@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ReservedDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of a user-uploaded TLS certificate to use for connections to targeting this domain. Optional, mutually exclusive with `certificate_management_policy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#certificate_id ReservedDomain#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#certificate_id ReservedDomain#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * human-readable description of what this reserved domain will be used for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#description ReservedDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#description ReservedDomain#description}
   */
   readonly description?: string;
   /**
   * hostname of the reserved domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#domain ReservedDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#domain ReservedDomain#domain}
   */
   readonly domain?: string;
   /**
   * Custom URL with CEL Expression Variable support for redirecting when an ngrok error occurs. Max 10000 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#error_redirect_url ReservedDomain#error_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#error_redirect_url ReservedDomain#error_redirect_url}
   */
   readonly errorRedirectUrl?: string;
   /**
   * ID of an endpoint configuration of type http that will be used to handle inbound http traffic to this domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#http_endpoint_configuration_id ReservedDomain#http_endpoint_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#http_endpoint_configuration_id ReservedDomain#http_endpoint_configuration_id}
   */
   readonly httpEndpointConfigurationId?: string;
   /**
   * ID of an endpoint configuration of type https that will be used to handle inbound https traffic to this domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#https_endpoint_configuration_id ReservedDomain#https_endpoint_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#https_endpoint_configuration_id ReservedDomain#https_endpoint_configuration_id}
   */
   readonly httpsEndpointConfigurationId?: string;
   /**
   * arbitrary user-defined machine-readable data of this reserved domain. Optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#metadata ReservedDomain#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#metadata ReservedDomain#metadata}
   */
   readonly metadata?: string;
   /**
   * the domain name to reserve. It may be a full domain name like app.example.com. If the name does not contain a '.' it will reserve that subdomain on ngrok.io.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#name ReservedDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#name ReservedDomain#name}
   */
   readonly name?: string;
   /**
   * deprecated: With the launch of the ngrok Global Network domains traffic is now handled globally. This field applied only to endpoints. Note that agents may still connect to specific regions. Optional, null by default. (au, eu, ap, us, jp, in, sa)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#region ReservedDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#region ReservedDomain#region}
   */
   readonly region?: string;
   /**
   * certificate_management_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#certificate_management_policy ReservedDomain#certificate_management_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#certificate_management_policy ReservedDomain#certificate_management_policy}
   */
   readonly certificateManagementPolicy?: ReservedDomainCertificateManagementPolicy[] | cdktf.IResolvable;
 }
@@ -72,13 +72,13 @@ export interface ReservedDomainCertificateManagementPolicy {
   /**
   * certificate authority to request certificates from. The only supported value is letsencrypt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#authority ReservedDomain#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#authority ReservedDomain#authority}
   */
   readonly authority?: string;
   /**
   * type of private key to use when requesting certificates. Defaults to ecdsa, can be either rsa or ecdsa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#private_key_type ReservedDomain#private_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#private_key_type ReservedDomain#private_key_type}
   */
   readonly privateKeyType?: string;
 }
@@ -223,7 +223,7 @@ export class ReservedDomainCertificateManagementPolicyList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain ngrok_reserved_domain}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain ngrok_reserved_domain}
 */
 export class ReservedDomain extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class ReservedDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReservedDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReservedDomain to import
-  * @param importFromId The id of the existing ReservedDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReservedDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReservedDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class ReservedDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_domain ngrok_reserved_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_domain ngrok_reserved_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class ReservedDomain extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_reserved_domain',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

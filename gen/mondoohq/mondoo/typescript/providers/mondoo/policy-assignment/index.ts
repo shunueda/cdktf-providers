@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PolicyAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Policies to assign to the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment#policies PolicyAssignment#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment#policies PolicyAssignment#policies}
   */
   readonly policies: string[];
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment#space_id PolicyAssignment#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment#space_id PolicyAssignment#space_id}
   */
   readonly spaceId?: string;
   /**
   * Policy assignment state (preview, enabled, or disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment#state PolicyAssignment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment#state PolicyAssignment#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment mondoo_policy_assignment}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment mondoo_policy_assignment}
 */
 export class PolicyAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PolicyAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyAssignment to import
-  * @param importFromId The id of the existing PolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PolicyAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/policy_assignment mondoo_policy_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/policy_assignment mondoo_policy_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

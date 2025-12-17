@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PowerplatformEnvironmentApplicationAdminConfig extends cdktf.Te
   /**
   * Service‑principal *application_id* (client ID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin#application_id PowerplatformEnvironmentApplicationAdmin#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin#application_id PowerplatformEnvironmentApplicationAdmin#application_id}
   */
   readonly applicationId: string;
   /**
   * Dataverse environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin#environment_id PowerplatformEnvironmentApplicationAdmin#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin#environment_id PowerplatformEnvironmentApplicationAdmin#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin#timeouts PowerplatformEnvironmentApplicationAdmin#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin#timeouts PowerplatformEnvironmentApplicationAdmin#timeouts}
   */
   readonly timeouts?: PowerplatformEnvironmentApplicationAdminTimeouts;
 }
@@ -28,7 +28,7 @@ export interface PowerplatformEnvironmentApplicationAdminTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin#create PowerplatformEnvironmentApplicationAdmin#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin#create PowerplatformEnvironmentApplicationAdmin#create}
   */
   readonly create?: string;
 }
@@ -122,7 +122,7 @@ export class PowerplatformEnvironmentApplicationAdminTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin powerplatform_environment_application_admin}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin powerplatform_environment_application_admin}
 */
 export class PowerplatformEnvironmentApplicationAdmin extends cdktf.TerraformResource {
 
@@ -138,7 +138,7 @@ export class PowerplatformEnvironmentApplicationAdmin extends cdktf.TerraformRes
   * Generates CDKTF code for importing a PowerplatformEnvironmentApplicationAdmin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformEnvironmentApplicationAdmin to import
-  * @param importFromId The id of the existing PowerplatformEnvironmentApplicationAdmin that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformEnvironmentApplicationAdmin that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformEnvironmentApplicationAdmin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +150,7 @@ export class PowerplatformEnvironmentApplicationAdmin extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_admin powerplatform_environment_application_admin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_admin powerplatform_environment_application_admin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +161,8 @@ export class PowerplatformEnvironmentApplicationAdmin extends cdktf.TerraformRes
       terraformResourceType: 'powerplatform_environment_application_admin',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

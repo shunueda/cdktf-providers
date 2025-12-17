@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface CertificatemanagementprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#id Certificatemanagementprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#id Certificatemanagementprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#name Certificatemanagementprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#name Certificatemanagementprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#run_script_ref Certificatemanagementprofile#run_script_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#run_script_ref Certificatemanagementprofile#run_script_ref}
   */
   readonly runScriptRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#tenant_ref Certificatemanagementprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#tenant_ref Certificatemanagementprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#uuid Certificatemanagementprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#uuid Certificatemanagementprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#configpb_attributes Certificatemanagementprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#configpb_attributes Certificatemanagementprofile#configpb_attributes}
   */
   readonly configpbAttributes?: CertificatemanagementprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#markers Certificatemanagementprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#markers Certificatemanagementprofile#markers}
   */
   readonly markers?: CertificatemanagementprofileMarkers[] | cdktf.IResolvable;
   /**
   * script_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#script_params Certificatemanagementprofile#script_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#script_params Certificatemanagementprofile#script_params}
   */
   readonly scriptParams?: CertificatemanagementprofileScriptParams[] | cdktf.IResolvable;
 }
 export interface CertificatemanagementprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#version Certificatemanagementprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#version Certificatemanagementprofile#version}
   */
   readonly version?: string;
 }
@@ -167,11 +167,11 @@ export class CertificatemanagementprofileConfigpbAttributesList extends cdktf.Co
 }
 export interface CertificatemanagementprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#key Certificatemanagementprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#key Certificatemanagementprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#values Certificatemanagementprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#values Certificatemanagementprofile#values}
   */
   readonly values?: string[];
 }
@@ -313,19 +313,19 @@ export class CertificatemanagementprofileMarkersList extends cdktf.ComplexList {
 }
 export interface CertificatemanagementprofileScriptParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#is_dynamic Certificatemanagementprofile#is_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#is_dynamic Certificatemanagementprofile#is_dynamic}
   */
   readonly isDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#is_sensitive Certificatemanagementprofile#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#is_sensitive Certificatemanagementprofile#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#name Certificatemanagementprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#name Certificatemanagementprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#value Certificatemanagementprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#value Certificatemanagementprofile#value}
   */
   readonly value?: string;
 }
@@ -525,7 +525,7 @@ export class CertificatemanagementprofileScriptParamsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile avi_certificatemanagementprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile avi_certificatemanagementprofile}
 */
 export class Certificatemanagementprofile extends cdktf.TerraformResource {
 
@@ -541,7 +541,7 @@ export class Certificatemanagementprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Certificatemanagementprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Certificatemanagementprofile to import
-  * @param importFromId The id of the existing Certificatemanagementprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Certificatemanagementprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Certificatemanagementprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -553,7 +553,7 @@ export class Certificatemanagementprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/certificatemanagementprofile avi_certificatemanagementprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/certificatemanagementprofile avi_certificatemanagementprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -564,8 +564,8 @@ export class Certificatemanagementprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_certificatemanagementprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_criblio_regex`
 
-Refer to the Terraform Registry for docs: [`data_criblio_regex`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/regex).
+Refer to the Terraform Registry for docs: [`data_criblio_regex`](https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/regex).

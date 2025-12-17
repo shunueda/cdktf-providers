@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RelationshipAssignmentConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the relationship definition to use. Required when type is 'related_to'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment#definition RelationshipAssignment#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment#definition RelationshipAssignment#definition}
   */
   readonly definition?: string;
   /**
   * The ID of the source resource (where the relationship starts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment#source RelationshipAssignment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment#source RelationshipAssignment#source}
   */
   readonly source: string;
   /**
   * The ID of the target resource (where the relationship points to).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment#target RelationshipAssignment#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment#target RelationshipAssignment#target}
   */
   readonly target: string;
   /**
   * The type of relationship. Must be one of: belongs_to, depends_on, related_to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment#type RelationshipAssignment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment#type RelationshipAssignment#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment opslevel_relationship_assignment}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment opslevel_relationship_assignment}
 */
 export class RelationshipAssignment extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class RelationshipAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RelationshipAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RelationshipAssignment to import
-  * @param importFromId The id of the existing RelationshipAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RelationshipAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RelationshipAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class RelationshipAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/relationship_assignment opslevel_relationship_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_assignment opslevel_relationship_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class RelationshipAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_relationship_assignment',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

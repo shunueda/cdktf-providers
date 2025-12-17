@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyAuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization#authorizable_id DataRootlyAuthorization#authorizable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization#authorizable_id DataRootlyAuthorization#authorizable_id}
   */
   readonly authorizableId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization#authorizable_type DataRootlyAuthorization#authorizable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization#authorizable_type DataRootlyAuthorization#authorizable_type}
   */
   readonly authorizableType?: string;
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization#created_at DataRootlyAuthorization#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization#created_at DataRootlyAuthorization#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization#grantee_id DataRootlyAuthorization#grantee_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization#grantee_id DataRootlyAuthorization#grantee_id}
   */
   readonly granteeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization#grantee_type DataRootlyAuthorization#grantee_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization#grantee_type DataRootlyAuthorization#grantee_type}
   */
   readonly granteeType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization rootly_authorization}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization rootly_authorization}
 */
 export class DataRootlyAuthorization extends cdktf.TerraformDataSource {
 
@@ -48,7 +48,7 @@ export class DataRootlyAuthorization extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyAuthorization to import
-  * @param importFromId The id of the existing DataRootlyAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +60,7 @@ export class DataRootlyAuthorization extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/authorization rootly_authorization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/authorization rootly_authorization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +71,8 @@ export class DataRootlyAuthorization extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_authorization',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

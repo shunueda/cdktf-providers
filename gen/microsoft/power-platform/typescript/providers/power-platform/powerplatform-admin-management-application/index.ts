@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,14 +10,14 @@ export interface PowerplatformAdminManagementApplicationConfig extends cdktf.Ter
   /**
   * Client id for the service principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application#id PowerplatformAdminManagementApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application#id PowerplatformAdminManagementApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application#timeouts PowerplatformAdminManagementApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application#timeouts PowerplatformAdminManagementApplication#timeouts}
   */
   readonly timeouts?: PowerplatformAdminManagementApplicationTimeouts;
 }
@@ -25,19 +25,19 @@ export interface PowerplatformAdminManagementApplicationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application#create PowerplatformAdminManagementApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application#create PowerplatformAdminManagementApplication#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application#delete PowerplatformAdminManagementApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application#delete PowerplatformAdminManagementApplication#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application#read PowerplatformAdminManagementApplication#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application#read PowerplatformAdminManagementApplication#read}
   */
   readonly read?: string;
 }
@@ -189,7 +189,7 @@ export class PowerplatformAdminManagementApplicationTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application powerplatform_admin_management_application}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application powerplatform_admin_management_application}
 */
 export class PowerplatformAdminManagementApplication extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class PowerplatformAdminManagementApplication extends cdktf.TerraformReso
   * Generates CDKTF code for importing a PowerplatformAdminManagementApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformAdminManagementApplication to import
-  * @param importFromId The id of the existing PowerplatformAdminManagementApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformAdminManagementApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformAdminManagementApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class PowerplatformAdminManagementApplication extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_admin_management_application powerplatform_admin_management_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_admin_management_application powerplatform_admin_management_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class PowerplatformAdminManagementApplication extends cdktf.TerraformReso
       terraformResourceType: 'powerplatform_admin_management_application',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

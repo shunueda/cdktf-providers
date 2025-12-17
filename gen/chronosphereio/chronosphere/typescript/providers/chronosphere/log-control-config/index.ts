@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LogControlConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#id LogControlConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#id LogControlConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface LogControlConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#rules LogControlConfig#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#rules LogControlConfig#rules}
   */
   readonly rules?: LogControlConfigRules[] | cdktf.IResolvable;
 }
 export interface LogControlConfigRulesDropFieldParentPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#selector LogControlConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#selector LogControlConfig#selector}
   */
   readonly selector?: string;
 }
@@ -107,13 +107,13 @@ export class LogControlConfigRulesDropFieldParentPathOutputReference extends cdk
 }
 export interface LogControlConfigRulesDropField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#field_regex LogControlConfig#field_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#field_regex LogControlConfig#field_regex}
   */
   readonly fieldRegex?: string;
   /**
   * parent_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#parent_path LogControlConfig#parent_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#parent_path LogControlConfig#parent_path}
   */
   readonly parentPath?: LogControlConfigRulesDropFieldParentPath;
 }
@@ -226,7 +226,7 @@ export class LogControlConfigRulesDropFieldOutputReference extends cdktf.Complex
 }
 export interface LogControlConfigRulesEmitMetricsCounterValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#selector LogControlConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#selector LogControlConfig#selector}
   */
   readonly selector?: string;
 }
@@ -312,7 +312,7 @@ export interface LogControlConfigRulesEmitMetricsCounter {
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#value LogControlConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#value LogControlConfig#value}
   */
   readonly value?: LogControlConfigRulesEmitMetricsCounterValue;
 }
@@ -396,7 +396,7 @@ export class LogControlConfigRulesEmitMetricsCounterOutputReference extends cdkt
 }
 export interface LogControlConfigRulesEmitMetricsGaugeValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#selector LogControlConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#selector LogControlConfig#selector}
   */
   readonly selector?: string;
 }
@@ -480,13 +480,13 @@ export class LogControlConfigRulesEmitMetricsGaugeValueOutputReference extends c
 }
 export interface LogControlConfigRulesEmitMetricsGauge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#aggregation_type LogControlConfig#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#aggregation_type LogControlConfig#aggregation_type}
   */
   readonly aggregationType?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#value LogControlConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#value LogControlConfig#value}
   */
   readonly value?: LogControlConfigRulesEmitMetricsGaugeValue;
 }
@@ -599,7 +599,7 @@ export class LogControlConfigRulesEmitMetricsGaugeOutputReference extends cdktf.
 }
 export interface LogControlConfigRulesEmitMetricsHistogramValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#selector LogControlConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#selector LogControlConfig#selector}
   */
   readonly selector?: string;
 }
@@ -685,7 +685,7 @@ export interface LogControlConfigRulesEmitMetricsHistogram {
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#value LogControlConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#value LogControlConfig#value}
   */
   readonly value?: LogControlConfigRulesEmitMetricsHistogramValue;
 }
@@ -769,7 +769,7 @@ export class LogControlConfigRulesEmitMetricsHistogramOutputReference extends cd
 }
 export interface LogControlConfigRulesEmitMetricsLabelsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#selector LogControlConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#selector LogControlConfig#selector}
   */
   readonly selector?: string;
 }
@@ -853,13 +853,13 @@ export class LogControlConfigRulesEmitMetricsLabelsValueOutputReference extends 
 }
 export interface LogControlConfigRulesEmitMetricsLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#key LogControlConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#key LogControlConfig#key}
   */
   readonly key?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#value LogControlConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#value LogControlConfig#value}
   */
   readonly value?: LogControlConfigRulesEmitMetricsLabelsValue;
 }
@@ -1004,39 +1004,39 @@ export class LogControlConfigRulesEmitMetricsLabelsList extends cdktf.ComplexLis
 }
 export interface LogControlConfigRulesEmitMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#drop_log LogControlConfig#drop_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#drop_log LogControlConfig#drop_log}
   */
   readonly dropLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#mode LogControlConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#mode LogControlConfig#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#name LogControlConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#name LogControlConfig#name}
   */
   readonly name?: string;
   /**
   * counter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#counter LogControlConfig#counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#counter LogControlConfig#counter}
   */
   readonly counter?: LogControlConfigRulesEmitMetricsCounter;
   /**
   * gauge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#gauge LogControlConfig#gauge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#gauge LogControlConfig#gauge}
   */
   readonly gauge?: LogControlConfigRulesEmitMetricsGauge;
   /**
   * histogram block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#histogram LogControlConfig#histogram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#histogram LogControlConfig#histogram}
   */
   readonly histogram?: LogControlConfigRulesEmitMetricsHistogram;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#labels LogControlConfig#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#labels LogControlConfig#labels}
   */
   readonly labels?: LogControlConfigRulesEmitMetricsLabels[] | cdktf.IResolvable;
 }
@@ -1294,7 +1294,7 @@ export class LogControlConfigRulesEmitMetricsOutputReference extends cdktf.Compl
 }
 export interface LogControlConfigRulesReplaceFieldField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#selector LogControlConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#selector LogControlConfig#selector}
   */
   readonly selector?: string;
 }
@@ -1378,11 +1378,11 @@ export class LogControlConfigRulesReplaceFieldFieldOutputReference extends cdktf
 }
 export interface LogControlConfigRulesReplaceFieldMappedValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#key LogControlConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#key LogControlConfig#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#value LogControlConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#value LogControlConfig#value}
   */
   readonly value?: string;
 }
@@ -1527,17 +1527,17 @@ export class LogControlConfigRulesReplaceFieldMappedValuePairsList extends cdktf
 }
 export interface LogControlConfigRulesReplaceFieldMappedValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#default_value LogControlConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#default_value LogControlConfig#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#use_default LogControlConfig#use_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#use_default LogControlConfig#use_default}
   */
   readonly useDefault?: boolean | cdktf.IResolvable;
   /**
   * pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#pairs LogControlConfig#pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#pairs LogControlConfig#pairs}
   */
   readonly pairs?: LogControlConfigRulesReplaceFieldMappedValuePairs[] | cdktf.IResolvable;
 }
@@ -1679,7 +1679,7 @@ export class LogControlConfigRulesReplaceFieldMappedValueOutputReference extends
 }
 export interface LogControlConfigRulesReplaceFieldStaticValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#value LogControlConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#value LogControlConfig#value}
   */
   readonly value?: string;
 }
@@ -1763,33 +1763,33 @@ export class LogControlConfigRulesReplaceFieldStaticValueOutputReference extends
 }
 export interface LogControlConfigRulesReplaceField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#replace_all LogControlConfig#replace_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#replace_all LogControlConfig#replace_all}
   */
   readonly replaceAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#replace_mode LogControlConfig#replace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#replace_mode LogControlConfig#replace_mode}
   */
   readonly replaceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#replace_regex LogControlConfig#replace_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#replace_regex LogControlConfig#replace_regex}
   */
   readonly replaceRegex?: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#field LogControlConfig#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#field LogControlConfig#field}
   */
   readonly field?: LogControlConfigRulesReplaceFieldField;
   /**
   * mapped_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#mapped_value LogControlConfig#mapped_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#mapped_value LogControlConfig#mapped_value}
   */
   readonly mappedValue?: LogControlConfigRulesReplaceFieldMappedValue;
   /**
   * static_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#static_value LogControlConfig#static_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#static_value LogControlConfig#static_value}
   */
   readonly staticValue?: LogControlConfigRulesReplaceFieldStaticValue;
 }
@@ -2018,7 +2018,7 @@ export class LogControlConfigRulesReplaceFieldOutputReference extends cdktf.Comp
 }
 export interface LogControlConfigRulesSample {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#rate LogControlConfig#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#rate LogControlConfig#rate}
   */
   readonly rate?: number;
 }
@@ -2102,43 +2102,43 @@ export class LogControlConfigRulesSampleOutputReference extends cdktf.ComplexObj
 }
 export interface LogControlConfigRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#filter LogControlConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#filter LogControlConfig#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#mode LogControlConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#mode LogControlConfig#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#name LogControlConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#name LogControlConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#type LogControlConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#type LogControlConfig#type}
   */
   readonly type?: string;
   /**
   * drop_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#drop_field LogControlConfig#drop_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#drop_field LogControlConfig#drop_field}
   */
   readonly dropField?: LogControlConfigRulesDropField;
   /**
   * emit_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#emit_metrics LogControlConfig#emit_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#emit_metrics LogControlConfig#emit_metrics}
   */
   readonly emitMetrics?: LogControlConfigRulesEmitMetrics;
   /**
   * replace_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#replace_field LogControlConfig#replace_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#replace_field LogControlConfig#replace_field}
   */
   readonly replaceField?: LogControlConfigRulesReplaceField;
   /**
   * sample block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#sample LogControlConfig#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#sample LogControlConfig#sample}
   */
   readonly sample?: LogControlConfigRulesSample;
 }
@@ -2457,7 +2457,7 @@ export class LogControlConfigRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config chronosphere_log_control_config}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config chronosphere_log_control_config}
 */
 export class LogControlConfig extends cdktf.TerraformResource {
 
@@ -2473,7 +2473,7 @@ export class LogControlConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogControlConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogControlConfig to import
-  * @param importFromId The id of the existing LogControlConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogControlConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogControlConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2485,7 +2485,7 @@ export class LogControlConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_control_config chronosphere_log_control_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_control_config chronosphere_log_control_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2496,8 +2496,8 @@ export class LogControlConfig extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_log_control_config',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

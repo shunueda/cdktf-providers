@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateGoogleDocsPageConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#enabled WorkflowTaskUpdateGoogleDocsPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#enabled WorkflowTaskUpdateGoogleDocsPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#id WorkflowTaskUpdateGoogleDocsPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#id WorkflowTaskUpdateGoogleDocsPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateGoogleDocsPageConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#name WorkflowTaskUpdateGoogleDocsPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#name WorkflowTaskUpdateGoogleDocsPage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#position WorkflowTaskUpdateGoogleDocsPage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#position WorkflowTaskUpdateGoogleDocsPage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#skip_on_failure WorkflowTaskUpdateGoogleDocsPage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#skip_on_failure WorkflowTaskUpdateGoogleDocsPage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#workflow_id WorkflowTaskUpdateGoogleDocsPage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#workflow_id WorkflowTaskUpdateGoogleDocsPage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#task_params WorkflowTaskUpdateGoogleDocsPage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#task_params WorkflowTaskUpdateGoogleDocsPage#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateGoogleDocsPageTaskParams;
 }
@@ -55,35 +55,35 @@ export interface WorkflowTaskUpdateGoogleDocsPageTaskParams {
   /**
   * The Google Doc content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#content WorkflowTaskUpdateGoogleDocsPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#content WorkflowTaskUpdateGoogleDocsPage#content}
   */
   readonly content?: string;
   /**
   * The Google Doc file ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#file_id WorkflowTaskUpdateGoogleDocsPage#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#file_id WorkflowTaskUpdateGoogleDocsPage#file_id}
   */
   readonly fileId: string;
   /**
   * Retrospective template to use when updating page, if desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#post_mortem_template_id WorkflowTaskUpdateGoogleDocsPage#post_mortem_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#post_mortem_template_id WorkflowTaskUpdateGoogleDocsPage#post_mortem_template_id}
   */
   readonly postMortemTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#task_type WorkflowTaskUpdateGoogleDocsPage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#task_type WorkflowTaskUpdateGoogleDocsPage#task_type}
   */
   readonly taskType?: string;
   /**
   * The Google Doc file ID to use as a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#template_id WorkflowTaskUpdateGoogleDocsPage#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#template_id WorkflowTaskUpdateGoogleDocsPage#template_id}
   */
   readonly templateId?: string;
   /**
   * The Google Doc title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#title WorkflowTaskUpdateGoogleDocsPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#title WorkflowTaskUpdateGoogleDocsPage#title}
   */
   readonly title?: string;
 }
@@ -309,7 +309,7 @@ export class WorkflowTaskUpdateGoogleDocsPageTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page rootly_workflow_task_update_google_docs_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page rootly_workflow_task_update_google_docs_page}
 */
 export class WorkflowTaskUpdateGoogleDocsPage extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class WorkflowTaskUpdateGoogleDocsPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateGoogleDocsPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateGoogleDocsPage to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateGoogleDocsPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateGoogleDocsPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateGoogleDocsPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class WorkflowTaskUpdateGoogleDocsPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_google_docs_page rootly_workflow_task_update_google_docs_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_google_docs_page rootly_workflow_task_update_google_docs_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class WorkflowTaskUpdateGoogleDocsPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_google_docs_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_settings
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataPowerplatformTenantSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_settings#timeouts DataPowerplatformTenantSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_settings#timeouts DataPowerplatformTenantSettings#timeouts}
   */
   readonly timeouts?: DataPowerplatformTenantSettingsTimeouts;
 }
@@ -1057,7 +1057,7 @@ export class DataPowerplatformTenantSettingsTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_settings powerplatform_tenant_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_settings powerplatform_tenant_settings}
 */
 export class DataPowerplatformTenantSettings extends cdktf.TerraformDataSource {
 
@@ -1073,7 +1073,7 @@ export class DataPowerplatformTenantSettings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformTenantSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformTenantSettings to import
-  * @param importFromId The id of the existing DataPowerplatformTenantSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformTenantSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformTenantSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1085,7 +1085,7 @@ export class DataPowerplatformTenantSettings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_settings powerplatform_tenant_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_settings powerplatform_tenant_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1096,8 +1096,8 @@ export class DataPowerplatformTenantSettings extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_tenant_settings',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

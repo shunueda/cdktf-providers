@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface BotipreputationtypemappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#id Botipreputationtypemapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#id Botipreputationtypemapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#name Botipreputationtypemapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#name Botipreputationtypemapping#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#tenant_ref Botipreputationtypemapping#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#tenant_ref Botipreputationtypemapping#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#uuid Botipreputationtypemapping#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#uuid Botipreputationtypemapping#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_reputation_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#ip_reputation_mappings Botipreputationtypemapping#ip_reputation_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#ip_reputation_mappings Botipreputationtypemapping#ip_reputation_mappings}
   */
   readonly ipReputationMappings?: BotipreputationtypemappingIpReputationMappings[] | cdktf.IResolvable;
 }
 export interface BotipreputationtypemappingIpReputationMappingsBotIdentification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#class Botipreputationtypemapping#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#class Botipreputationtypemapping#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#identifier Botipreputationtypemapping#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#identifier Botipreputationtypemapping#identifier}
   */
   readonly identifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#type Botipreputationtypemapping#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#type Botipreputationtypemapping#type}
   */
   readonly type?: string;
 }
@@ -217,13 +217,13 @@ export class BotipreputationtypemappingIpReputationMappingsBotIdentificationList
 }
 export interface BotipreputationtypemappingIpReputationMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#ip_reputation_type Botipreputationtypemapping#ip_reputation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#ip_reputation_type Botipreputationtypemapping#ip_reputation_type}
   */
   readonly ipReputationType: string;
   /**
   * bot_identification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#bot_identification Botipreputationtypemapping#bot_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#bot_identification Botipreputationtypemapping#bot_identification}
   */
   readonly botIdentification: BotipreputationtypemappingIpReputationMappingsBotIdentification[] | cdktf.IResolvable;
 }
@@ -362,7 +362,7 @@ export class BotipreputationtypemappingIpReputationMappingsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping}
 */
 export class Botipreputationtypemapping extends cdktf.TerraformResource {
 
@@ -378,7 +378,7 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botipreputationtypemapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botipreputationtypemapping to import
-  * @param importFromId The id of the existing Botipreputationtypemapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botipreputationtypemapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botipreputationtypemapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -390,7 +390,7 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/botipreputationtypemapping avi_botipreputationtypemapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,8 +401,8 @@ export class Botipreputationtypemapping extends cdktf.TerraformResource {
       terraformResourceType: 'avi_botipreputationtypemapping',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

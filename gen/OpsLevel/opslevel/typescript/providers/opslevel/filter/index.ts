@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The logical operator to be used in conjunction with predicates. One of `and`, `or`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#connective Filter#connective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#connective Filter#connective}
   */
   readonly connective?: string;
   /**
   * The filter's display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#name Filter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#name Filter#name}
   */
   readonly name: string;
   /**
   * predicate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#predicate Filter#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#predicate Filter#predicate}
   */
   readonly predicate?: FilterPredicate[] | cdktf.IResolvable;
 }
@@ -30,37 +30,37 @@ export interface FilterPredicate {
   /**
   * Option for determining whether to compare strings case-sensitively. Not settable for all predicate types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#case_insensitive Filter#case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#case_insensitive Filter#case_insensitive}
   */
   readonly caseInsensitive?: boolean | cdktf.IResolvable;
   /**
   * Option for determining whether to compare strings case-sensitively. Not settable for all predicate types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#case_sensitive Filter#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#case_sensitive Filter#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * The condition key used by the predicate. Valid values are `aliases`, `component_type_id`, `creation_source`, `domain_id`, `filter_id`, `framework`, `group_ids`, `language`, `lifecycle_index`, `name`, `owner_id`, `owner_ids`, `product`, `properties`, `relationships`, `repository_ids`, `system_id`, `tags`, `tier_index`
+  * The condition key used by the predicate. Valid values are `aliases`, `component_category`, `component_type_id`, `creation_source`, `domain_id`, `filter_id`, `framework`, `group_ids`, `language`, `lifecycle_index`, `name`, `owner_id`, `owner_ids`, `product`, `properties`, `relationships`, `repository_ids`, `system_id`, `tags`, `tier_index`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#key Filter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#key Filter#key}
   */
   readonly key: string;
   /**
   * Additional data used by the predicate. This field is used by predicates with key = 'tags' to specify the tag key. For example, to create a predicate for services containing the tag 'db:mysql', set key_data = 'db' and value = 'mysql'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#key_data Filter#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#key_data Filter#key_data}
   */
   readonly keyData?: string;
   /**
   * The condition type used by the predicate. Valid values are `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#type Filter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#type Filter#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#value Filter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#value Filter#value}
   */
   readonly value?: string;
 }
@@ -315,7 +315,7 @@ export class FilterPredicateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter opslevel_filter}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter opslevel_filter}
 */
 export class Filter extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class Filter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Filter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Filter to import
-  * @param importFromId The id of the existing Filter that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Filter that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Filter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class Filter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/filter opslevel_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/filter opslevel_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class Filter extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_filter',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

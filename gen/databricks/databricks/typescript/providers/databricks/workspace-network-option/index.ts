@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/workspace_network_option
+// https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/workspace_network_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface WorkspaceNetworkOptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/workspace_network_option#network_policy_id WorkspaceNetworkOption#network_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/workspace_network_option#network_policy_id WorkspaceNetworkOption#network_policy_id}
   */
   readonly networkPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/workspace_network_option#workspace_id WorkspaceNetworkOption#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/workspace_network_option#workspace_id WorkspaceNetworkOption#workspace_id}
   */
   readonly workspaceId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/workspace_network_option databricks_workspace_network_option}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/workspace_network_option databricks_workspace_network_option}
 */
 export class WorkspaceNetworkOption extends cdktf.TerraformResource {
 
@@ -34,7 +34,7 @@ export class WorkspaceNetworkOption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceNetworkOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceNetworkOption to import
-  * @param importFromId The id of the existing WorkspaceNetworkOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/workspace_network_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceNetworkOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/workspace_network_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceNetworkOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class WorkspaceNetworkOption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/workspace_network_option databricks_workspace_network_option} Resource
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/workspace_network_option databricks_workspace_network_option} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class WorkspaceNetworkOption extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_workspace_network_option',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.99.0',
-        providerVersionConstraint: '1.99.0'
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '1.100.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

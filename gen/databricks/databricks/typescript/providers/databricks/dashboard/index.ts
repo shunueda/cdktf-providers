@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard
+// https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#create_time Dashboard#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#create_time Dashboard#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#dashboard_change_detected Dashboard#dashboard_change_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#dashboard_change_detected Dashboard#dashboard_change_detected}
   */
   readonly dashboardChangeDetected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#dashboard_id Dashboard#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#dashboard_id Dashboard#dashboard_id}
   */
   readonly dashboardId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#display_name Dashboard#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#dataset_catalog Dashboard#dataset_catalog}
+  */
+  readonly datasetCatalog?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#dataset_schema Dashboard#dataset_schema}
+  */
+  readonly datasetSchema?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#display_name Dashboard#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#embed_credentials Dashboard#embed_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#embed_credentials Dashboard#embed_credentials}
   */
   readonly embedCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#etag Dashboard#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#etag Dashboard#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#file_path Dashboard#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#file_path Dashboard#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#lifecycle_state Dashboard#lifecycle_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#lifecycle_state Dashboard#lifecycle_state}
   */
   readonly lifecycleState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#md5 Dashboard#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#md5 Dashboard#md5}
   */
   readonly md5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#parent_path Dashboard#parent_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#parent_path Dashboard#parent_path}
   */
   readonly parentPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#path Dashboard#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#path Dashboard#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#serialized_dashboard Dashboard#serialized_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#serialized_dashboard Dashboard#serialized_dashboard}
   */
   readonly serializedDashboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#update_time Dashboard#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#update_time Dashboard#update_time}
   */
   readonly updateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#warehouse_id Dashboard#warehouse_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#warehouse_id Dashboard#warehouse_id}
   */
   readonly warehouseId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard databricks_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard databricks_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -89,7 +97,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +109,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/dashboard databricks_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/dashboard databricks_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +120,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.99.0',
-        providerVersionConstraint: '1.99.0'
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '1.100.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -126,6 +134,8 @@ export class Dashboard extends cdktf.TerraformResource {
     this._createTime = config.createTime;
     this._dashboardChangeDetected = config.dashboardChangeDetected;
     this._dashboardId = config.dashboardId;
+    this._datasetCatalog = config.datasetCatalog;
+    this._datasetSchema = config.datasetSchema;
     this._displayName = config.displayName;
     this._embedCredentials = config.embedCredentials;
     this._etag = config.etag;
@@ -190,6 +200,38 @@ export class Dashboard extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get dashboardIdInput() {
     return this._dashboardId;
+  }
+
+  // dataset_catalog - computed: false, optional: true, required: false
+  private _datasetCatalog?: string; 
+  public get datasetCatalog() {
+    return this.getStringAttribute('dataset_catalog');
+  }
+  public set datasetCatalog(value: string) {
+    this._datasetCatalog = value;
+  }
+  public resetDatasetCatalog() {
+    this._datasetCatalog = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get datasetCatalogInput() {
+    return this._datasetCatalog;
+  }
+
+  // dataset_schema - computed: false, optional: true, required: false
+  private _datasetSchema?: string; 
+  public get datasetSchema() {
+    return this.getStringAttribute('dataset_schema');
+  }
+  public set datasetSchema(value: string) {
+    this._datasetSchema = value;
+  }
+  public resetDatasetSchema() {
+    this._datasetSchema = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get datasetSchemaInput() {
+    return this._datasetSchema;
   }
 
   // display_name - computed: false, optional: false, required: true
@@ -384,6 +426,8 @@ export class Dashboard extends cdktf.TerraformResource {
       create_time: cdktf.stringToTerraform(this._createTime),
       dashboard_change_detected: cdktf.booleanToTerraform(this._dashboardChangeDetected),
       dashboard_id: cdktf.stringToTerraform(this._dashboardId),
+      dataset_catalog: cdktf.stringToTerraform(this._datasetCatalog),
+      dataset_schema: cdktf.stringToTerraform(this._datasetSchema),
       display_name: cdktf.stringToTerraform(this._displayName),
       embed_credentials: cdktf.booleanToTerraform(this._embedCredentials),
       etag: cdktf.stringToTerraform(this._etag),
@@ -415,6 +459,18 @@ export class Dashboard extends cdktf.TerraformResource {
       },
       dashboard_id: {
         value: cdktf.stringToHclTerraform(this._dashboardId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dataset_catalog: {
+        value: cdktf.stringToHclTerraform(this._datasetCatalog),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dataset_schema: {
+        value: cdktf.stringToHclTerraform(this._datasetSchema),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

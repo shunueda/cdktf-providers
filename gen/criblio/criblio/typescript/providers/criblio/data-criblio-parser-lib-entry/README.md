@@ -1,3 +1,3 @@
 # `data_criblio_parser_lib_entry`
 
-Refer to the Terraform Registry for docs: [`data_criblio_parser_lib_entry`](https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/parser_lib_entry).
+Refer to the Terraform Registry for docs: [`data_criblio_parser_lib_entry`](https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/parser_lib_entry).

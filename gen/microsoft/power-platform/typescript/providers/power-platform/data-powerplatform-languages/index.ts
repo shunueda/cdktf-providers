@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPowerplatformLanguagesConfig extends cdktf.TerraformMetaArg
   /**
   * Location of the languages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages#location DataPowerplatformLanguages#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages#location DataPowerplatformLanguages#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages#timeouts DataPowerplatformLanguages#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages#timeouts DataPowerplatformLanguages#timeouts}
   */
   readonly timeouts?: DataPowerplatformLanguagesTimeouts;
 }
@@ -122,7 +122,7 @@ export interface DataPowerplatformLanguagesTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages#read DataPowerplatformLanguages#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages#read DataPowerplatformLanguages#read}
   */
   readonly read?: string;
 }
@@ -216,7 +216,7 @@ export class DataPowerplatformLanguagesTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages powerplatform_languages}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages powerplatform_languages}
 */
 export class DataPowerplatformLanguages extends cdktf.TerraformDataSource {
 
@@ -232,7 +232,7 @@ export class DataPowerplatformLanguages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformLanguages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformLanguages to import
-  * @param importFromId The id of the existing DataPowerplatformLanguages that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformLanguages that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformLanguages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class DataPowerplatformLanguages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_languages powerplatform_languages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_languages powerplatform_languages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class DataPowerplatformLanguages extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_languages',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

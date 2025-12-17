@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CatalogTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The GVC where the template will be deployed. Leave empty if the template creates its own GVC (check template's createsGvc field).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template#gvc CatalogTemplate#gvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template#gvc CatalogTemplate#gvc}
   */
   readonly gvc?: string;
   /**
   * The release name for this catalog release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template#name CatalogTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template#name CatalogTemplate#name}
   */
   readonly name: string;
   /**
   * The name of the catalog template to deploy (e.g., 'postgres', 'nginx', 'redis').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template#template CatalogTemplate#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template#template CatalogTemplate#template}
   */
   readonly template: string;
   /**
   * The values file content (YAML format) for customizing the template deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template#values CatalogTemplate#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template#values CatalogTemplate#values}
   */
   readonly values: string;
   /**
   * The version of the catalog template to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template#version CatalogTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template#version CatalogTemplate#version}
   */
   readonly version: string;
 }
@@ -125,7 +125,7 @@ export class CatalogTemplateResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template cpln_catalog_template}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template cpln_catalog_template}
 */
 export class CatalogTemplate extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class CatalogTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogTemplate to import
-  * @param importFromId The id of the existing CatalogTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class CatalogTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/catalog_template cpln_catalog_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/catalog_template cpln_catalog_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class CatalogTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_catalog_template',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.19',
-        providerVersionConstraint: '1.2.19'
+        providerVersion: '1.2.20',
+        providerVersionConstraint: '1.2.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

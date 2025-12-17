@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PowerplatformRestConfig extends cdktf.TerraformMetaArguments {
   /**
   * Create operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#create PowerplatformRest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#create PowerplatformRest#create}
   */
   readonly create?: PowerplatformRestCreate;
   /**
   * Destroy operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#destroy PowerplatformRest#destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#destroy PowerplatformRest#destroy}
   */
   readonly destroy?: PowerplatformRestDestroy;
   /**
   * Unique id (guid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#id PowerplatformRest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#id PowerplatformRest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,23 +31,23 @@ export interface PowerplatformRestConfig extends cdktf.TerraformMetaArguments {
   /**
   * Response after executing the web api request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#output PowerplatformRest#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#output PowerplatformRest#output}
   */
   readonly output?: PowerplatformRestOutput;
   /**
   * Read operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#read PowerplatformRest#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#read PowerplatformRest#read}
   */
   readonly read?: PowerplatformRestRead;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#timeouts PowerplatformRest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#timeouts PowerplatformRest#timeouts}
   */
   readonly timeouts?: PowerplatformRestTimeouts;
   /**
   * Update operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#update PowerplatformRest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#update PowerplatformRest#update}
   */
   readonly update?: PowerplatformRestUpdate;
 }
@@ -55,13 +55,13 @@ export interface PowerplatformRestCreateHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#name PowerplatformRest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#name PowerplatformRest#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#value PowerplatformRest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#value PowerplatformRest#value}
   */
   readonly value: string;
 }
@@ -202,37 +202,37 @@ export interface PowerplatformRestCreate {
   /**
   * Body of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#body PowerplatformRest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#body PowerplatformRest#body}
   */
   readonly body?: string;
   /**
   * Expected HTTP status code. If the response status code does not match any of the expected status codes, the operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
   */
   readonly expectedHttpStatus?: number[];
   /**
   * Headers of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
   */
   readonly headers?: PowerplatformRestCreateHeaders[] | cdktf.IResolvable;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#method PowerplatformRest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#method PowerplatformRest#method}
   */
   readonly method: string;
   /**
   * Authentication scope for the request. See more: [Authentication Scopes](https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
   */
   readonly scope: string;
   /**
   * Absolute url of the api call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#url PowerplatformRest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#url PowerplatformRest#url}
   */
   readonly url: string;
 }
@@ -464,13 +464,13 @@ export interface PowerplatformRestDestroyHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#name PowerplatformRest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#name PowerplatformRest#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#value PowerplatformRest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#value PowerplatformRest#value}
   */
   readonly value: string;
 }
@@ -611,37 +611,37 @@ export interface PowerplatformRestDestroy {
   /**
   * Body of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#body PowerplatformRest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#body PowerplatformRest#body}
   */
   readonly body?: string;
   /**
   * Expected HTTP status code. If the response status code does not match any of the expected status codes, the operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
   */
   readonly expectedHttpStatus?: number[];
   /**
   * Headers of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
   */
   readonly headers?: PowerplatformRestDestroyHeaders[] | cdktf.IResolvable;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#method PowerplatformRest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#method PowerplatformRest#method}
   */
   readonly method: string;
   /**
   * Authentication scope for the request. See more: [Authentication Scopes](https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
   */
   readonly scope: string;
   /**
   * Absolute url of the api call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#url PowerplatformRest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#url PowerplatformRest#url}
   */
   readonly url: string;
 }
@@ -937,13 +937,13 @@ export interface PowerplatformRestReadHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#name PowerplatformRest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#name PowerplatformRest#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#value PowerplatformRest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#value PowerplatformRest#value}
   */
   readonly value: string;
 }
@@ -1084,37 +1084,37 @@ export interface PowerplatformRestRead {
   /**
   * Body of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#body PowerplatformRest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#body PowerplatformRest#body}
   */
   readonly body?: string;
   /**
   * Expected HTTP status code. If the response status code does not match any of the expected status codes, the operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
   */
   readonly expectedHttpStatus?: number[];
   /**
   * Headers of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
   */
   readonly headers?: PowerplatformRestReadHeaders[] | cdktf.IResolvable;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#method PowerplatformRest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#method PowerplatformRest#method}
   */
   readonly method: string;
   /**
   * Authentication scope for the request. See more: [Authentication Scopes](https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
   */
   readonly scope: string;
   /**
   * Absolute url of the api call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#url PowerplatformRest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#url PowerplatformRest#url}
   */
   readonly url: string;
 }
@@ -1346,25 +1346,25 @@ export interface PowerplatformRestTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#create PowerplatformRest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#create PowerplatformRest#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#delete PowerplatformRest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#delete PowerplatformRest#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#read PowerplatformRest#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#read PowerplatformRest#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#update PowerplatformRest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#update PowerplatformRest#update}
   */
   readonly update?: string;
 }
@@ -1547,13 +1547,13 @@ export interface PowerplatformRestUpdateHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#name PowerplatformRest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#name PowerplatformRest#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#value PowerplatformRest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#value PowerplatformRest#value}
   */
   readonly value: string;
 }
@@ -1694,37 +1694,37 @@ export interface PowerplatformRestUpdate {
   /**
   * Body of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#body PowerplatformRest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#body PowerplatformRest#body}
   */
   readonly body?: string;
   /**
   * Expected HTTP status code. If the response status code does not match any of the expected status codes, the operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#expected_http_status PowerplatformRest#expected_http_status}
   */
   readonly expectedHttpStatus?: number[];
   /**
   * Headers of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#headers PowerplatformRest#headers}
   */
   readonly headers?: PowerplatformRestUpdateHeaders[] | cdktf.IResolvable;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#method PowerplatformRest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#method PowerplatformRest#method}
   */
   readonly method: string;
   /**
   * Authentication scope for the request. See more: [Authentication Scopes](https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#scope PowerplatformRest#scope}
   */
   readonly scope: string;
   /**
   * Absolute url of the api call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#url PowerplatformRest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#url PowerplatformRest#url}
   */
   readonly url: string;
 }
@@ -1954,7 +1954,7 @@ export class PowerplatformRestUpdateOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest powerplatform_rest}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest powerplatform_rest}
 */
 export class PowerplatformRest extends cdktf.TerraformResource {
 
@@ -1970,7 +1970,7 @@ export class PowerplatformRest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PowerplatformRest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformRest to import
-  * @param importFromId The id of the existing PowerplatformRest that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformRest that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformRest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1982,7 +1982,7 @@ export class PowerplatformRest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_rest powerplatform_rest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_rest powerplatform_rest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1993,8 +1993,8 @@ export class PowerplatformRest extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_rest',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/system
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataOpslevelSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id or alias of the System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/system#identifier DataOpslevelSystem#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/system#identifier DataOpslevelSystem#identifier}
   */
   readonly identifier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/system opslevel_system}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/system opslevel_system}
 */
 export class DataOpslevelSystem extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataOpslevelSystem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelSystem to import
-  * @param importFromId The id of the existing DataOpslevelSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataOpslevelSystem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/system opslevel_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/system opslevel_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataOpslevelSystem extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_system',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

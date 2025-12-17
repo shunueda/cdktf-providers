@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface CvsGcpVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#account CvsGcpVolume#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#account CvsGcpVolume#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#client_id CvsGcpVolume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#client_id CvsGcpVolume#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#id CvsGcpVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#id CvsGcpVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#name CvsGcpVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#name CvsGcpVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#network CvsGcpVolume#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#network CvsGcpVolume#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#protocol_types CvsGcpVolume#protocol_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#protocol_types CvsGcpVolume#protocol_types}
   */
   readonly protocolTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#region CvsGcpVolume#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#region CvsGcpVolume#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#service_level CvsGcpVolume#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#service_level CvsGcpVolume#service_level}
   */
   readonly serviceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#size CvsGcpVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#size CvsGcpVolume#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#size_unit CvsGcpVolume#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#size_unit CvsGcpVolume#size_unit}
   */
   readonly sizeUnit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#volume_path CvsGcpVolume#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#volume_path CvsGcpVolume#volume_path}
   */
   readonly volumePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#working_environment_name CvsGcpVolume#working_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#working_environment_name CvsGcpVolume#working_environment_name}
   */
   readonly workingEnvironmentName: string;
   /**
   * export_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#export_policy CvsGcpVolume#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#export_policy CvsGcpVolume#export_policy}
   */
   readonly exportPolicy?: CvsGcpVolumeExportPolicy[] | cdktf.IResolvable;
   /**
   * snapshot_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#snapshot_policy CvsGcpVolume#snapshot_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#snapshot_policy CvsGcpVolume#snapshot_policy}
   */
   readonly snapshotPolicy?: CvsGcpVolumeSnapshotPolicy[] | cdktf.IResolvable;
 }
 export interface CvsGcpVolumeExportPolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#allowed_clients CvsGcpVolume#allowed_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#allowed_clients CvsGcpVolume#allowed_clients}
   */
   readonly allowedClients?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#nfsv3 CvsGcpVolume#nfsv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#nfsv3 CvsGcpVolume#nfsv3}
   */
   readonly nfsv3?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#nfsv4 CvsGcpVolume#nfsv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#nfsv4 CvsGcpVolume#nfsv4}
   */
   readonly nfsv4?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#rule_index CvsGcpVolume#rule_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#rule_index CvsGcpVolume#rule_index}
   */
   readonly ruleIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#unix_read_only CvsGcpVolume#unix_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#unix_read_only CvsGcpVolume#unix_read_only}
   */
   readonly unixReadOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#unix_read_write CvsGcpVolume#unix_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#unix_read_write CvsGcpVolume#unix_read_write}
   */
   readonly unixReadWrite?: boolean | cdktf.IResolvable;
 }
@@ -356,7 +356,7 @@ export interface CvsGcpVolumeExportPolicy {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#rule CvsGcpVolume#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#rule CvsGcpVolume#rule}
   */
   readonly rule?: CvsGcpVolumeExportPolicyRule[] | cdktf.IResolvable;
 }
@@ -472,15 +472,15 @@ export class CvsGcpVolumeExportPolicyList extends cdktf.ComplexList {
 }
 export interface CvsGcpVolumeSnapshotPolicyDailySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#hour CvsGcpVolume#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#hour CvsGcpVolume#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
   */
   readonly minute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep?: number;
 }
@@ -654,11 +654,11 @@ export class CvsGcpVolumeSnapshotPolicyDailyScheduleList extends cdktf.ComplexLi
 }
 export interface CvsGcpVolumeSnapshotPolicyHourlySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
   */
   readonly minute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep?: number;
 }
@@ -803,19 +803,19 @@ export class CvsGcpVolumeSnapshotPolicyHourlyScheduleList extends cdktf.ComplexL
 }
 export interface CvsGcpVolumeSnapshotPolicyMonthlySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#days_of_month CvsGcpVolume#days_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#days_of_month CvsGcpVolume#days_of_month}
   */
   readonly daysOfMonth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#hour CvsGcpVolume#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#hour CvsGcpVolume#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
   */
   readonly minute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep?: number;
 }
@@ -1018,19 +1018,19 @@ export class CvsGcpVolumeSnapshotPolicyMonthlyScheduleList extends cdktf.Complex
 }
 export interface CvsGcpVolumeSnapshotPolicyWeeklySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#day CvsGcpVolume#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#day CvsGcpVolume#day}
   */
   readonly day?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#hour CvsGcpVolume#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#hour CvsGcpVolume#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#minute CvsGcpVolume#minute}
   */
   readonly minute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#snapshots_to_keep CvsGcpVolume#snapshots_to_keep}
   */
   readonly snapshotsToKeep?: number;
 }
@@ -1233,31 +1233,31 @@ export class CvsGcpVolumeSnapshotPolicyWeeklyScheduleList extends cdktf.ComplexL
 }
 export interface CvsGcpVolumeSnapshotPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#enabled CvsGcpVolume#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#enabled CvsGcpVolume#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#daily_schedule CvsGcpVolume#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#daily_schedule CvsGcpVolume#daily_schedule}
   */
   readonly dailySchedule?: CvsGcpVolumeSnapshotPolicyDailySchedule[] | cdktf.IResolvable;
   /**
   * hourly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#hourly_schedule CvsGcpVolume#hourly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#hourly_schedule CvsGcpVolume#hourly_schedule}
   */
   readonly hourlySchedule?: CvsGcpVolumeSnapshotPolicyHourlySchedule[] | cdktf.IResolvable;
   /**
   * monthly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#monthly_schedule CvsGcpVolume#monthly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#monthly_schedule CvsGcpVolume#monthly_schedule}
   */
   readonly monthlySchedule?: CvsGcpVolumeSnapshotPolicyMonthlySchedule[] | cdktf.IResolvable;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#weekly_schedule CvsGcpVolume#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#weekly_schedule CvsGcpVolume#weekly_schedule}
   */
   readonly weeklySchedule?: CvsGcpVolumeSnapshotPolicyWeeklySchedule[] | cdktf.IResolvable;
 }
@@ -1489,7 +1489,7 @@ export class CvsGcpVolumeSnapshotPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume netapp-cloudmanager_cvs_gcp_volume}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume netapp-cloudmanager_cvs_gcp_volume}
 */
 export class CvsGcpVolume extends cdktf.TerraformResource {
 
@@ -1505,7 +1505,7 @@ export class CvsGcpVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvsGcpVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvsGcpVolume to import
-  * @param importFromId The id of the existing CvsGcpVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvsGcpVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvsGcpVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1517,7 +1517,7 @@ export class CvsGcpVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvs_gcp_volume netapp-cloudmanager_cvs_gcp_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvs_gcp_volume netapp-cloudmanager_cvs_gcp_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1528,8 +1528,8 @@ export class CvsGcpVolume extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_cvs_gcp_volume',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

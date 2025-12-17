@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/certificates
+// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/certificates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -7,6 +7,12 @@ import * as cdktf from 'cdktf';
 // Configuration
 
 export interface DataCriblioCertificatesConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * The consumer group to which this instance belongs. Defaults to 'default'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/certificates#group_id DataCriblioCertificates#group_id}
+  */
+  readonly groupId: string;
 }
 export interface DataCriblioCertificatesItems {
 }
@@ -115,7 +121,7 @@ export class DataCriblioCertificatesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/certificates criblio_certificates}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/certificates criblio_certificates}
 */
 export class DataCriblioCertificates extends cdktf.TerraformDataSource {
 
@@ -131,7 +137,7 @@ export class DataCriblioCertificates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioCertificates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioCertificates to import
-  * @param importFromId The id of the existing DataCriblioCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/certificates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioCertificates that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/certificates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioCertificates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,19 +149,19 @@ export class DataCriblioCertificates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/data-sources/certificates criblio_certificates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/certificates criblio_certificates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataCriblioCertificatesConfig = {}
+  * @param options DataCriblioCertificatesConfig
   */
-  public constructor(scope: Construct, id: string, config: DataCriblioCertificatesConfig = {}) {
+  public constructor(scope: Construct, id: string, config: DataCriblioCertificatesConfig) {
     super(scope, id, {
       terraformResourceType: 'criblio_certificates',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.64',
-        providerVersionConstraint: '1.20.64'
+        providerVersion: '1.20.69',
+        providerVersionConstraint: '1.20.69'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -165,11 +171,25 @@ export class DataCriblioCertificates extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._groupId = config.groupId;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // group_id - computed: false, optional: false, required: true
+  private _groupId?: string; 
+  public get groupId() {
+    return this.getStringAttribute('group_id');
+  }
+  public set groupId(value: string) {
+    this._groupId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupIdInput() {
+    return this._groupId;
+  }
 
   // items - computed: true, optional: false, required: false
   private _items = new DataCriblioCertificatesItemsList(this, "items", false);
@@ -183,12 +203,21 @@ export class DataCriblioCertificates extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      group_id: cdktf.stringToTerraform(this._groupId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      group_id: {
+        value: cdktf.stringToHclTerraform(this._groupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
     };
-    return attrs;
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

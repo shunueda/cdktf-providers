@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ExportBigqueryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Target BigQuery dataset (project-id.dataset_id).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery#dataset_id ExportBigquery#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery#dataset_id ExportBigquery#dataset_id}
   */
   readonly datasetId: string;
   /**
   * A descriptive name for the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery#name ExportBigquery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery#name ExportBigquery#name}
   */
   readonly name: string;
   /**
   * Google service account JSON key content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery#service_account_key ExportBigquery#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery#service_account_key ExportBigquery#service_account_key}
   */
   readonly serviceAccountKey: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery#space_id ExportBigquery#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery#space_id ExportBigquery#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery mondoo_export_bigquery}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery mondoo_export_bigquery}
 */
 export class ExportBigquery extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ExportBigquery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExportBigquery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExportBigquery to import
-  * @param importFromId The id of the existing ExportBigquery that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExportBigquery that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExportBigquery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ExportBigquery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/export_bigquery mondoo_export_bigquery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/export_bigquery mondoo_export_bigquery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ExportBigquery extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_export_bigquery',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

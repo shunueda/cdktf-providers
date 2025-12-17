@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ControllersiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#address Controllersite#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#address Controllersite#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#id Controllersite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#id Controllersite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#name Controllersite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#name Controllersite#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#port Controllersite#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#port Controllersite#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#tenant_ref Controllersite#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#tenant_ref Controllersite#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#uuid Controllersite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#uuid Controllersite#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#configpb_attributes Controllersite#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#configpb_attributes Controllersite#configpb_attributes}
   */
   readonly configpbAttributes?: ControllersiteConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface ControllersiteConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#version Controllersite#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#version Controllersite#version}
   */
   readonly version?: string;
 }
@@ -159,7 +159,7 @@ export class ControllersiteConfigpbAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite avi_controllersite}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite avi_controllersite}
 */
 export class Controllersite extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class Controllersite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Controllersite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Controllersite to import
-  * @param importFromId The id of the existing Controllersite that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Controllersite that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Controllersite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class Controllersite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/controllersite avi_controllersite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/controllersite avi_controllersite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class Controllersite extends cdktf.TerraformResource {
       terraformResourceType: 'avi_controllersite',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

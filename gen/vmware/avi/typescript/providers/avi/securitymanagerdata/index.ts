@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface SecuritymanagerdataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#id Securitymanagerdata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#id Securitymanagerdata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#name Securitymanagerdata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#name Securitymanagerdata#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#tenant_ref Securitymanagerdata#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#tenant_ref Securitymanagerdata#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#uuid Securitymanagerdata#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#uuid Securitymanagerdata#uuid}
   */
   readonly uuid?: string;
   /**
   * app_learning_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#app_learning_info Securitymanagerdata#app_learning_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#app_learning_info Securitymanagerdata#app_learning_info}
   */
   readonly appLearningInfo?: SecuritymanagerdataAppLearningInfo[] | cdktf.IResolvable;
 }
 export interface SecuritymanagerdataAppLearningInfoUriInfoParamInfoParamSizeClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#hits Securitymanagerdata#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#hits Securitymanagerdata#hits}
   */
   readonly hits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#len Securitymanagerdata#len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#len Securitymanagerdata#len}
   */
   readonly len?: string;
 }
@@ -184,11 +184,11 @@ export class SecuritymanagerdataAppLearningInfoUriInfoParamInfoParamSizeClassesL
 }
 export interface SecuritymanagerdataAppLearningInfoUriInfoParamInfoParamTypeClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#hits Securitymanagerdata#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#hits Securitymanagerdata#hits}
   */
   readonly hits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#type Securitymanagerdata#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#type Securitymanagerdata#type}
   */
   readonly type?: string;
 }
@@ -333,23 +333,23 @@ export class SecuritymanagerdataAppLearningInfoUriInfoParamInfoParamTypeClassesL
 }
 export interface SecuritymanagerdataAppLearningInfoUriInfoParamInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#param_hits Securitymanagerdata#param_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#param_hits Securitymanagerdata#param_hits}
   */
   readonly paramHits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#param_key Securitymanagerdata#param_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#param_key Securitymanagerdata#param_key}
   */
   readonly paramKey?: string;
   /**
   * param_size_classes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#param_size_classes Securitymanagerdata#param_size_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#param_size_classes Securitymanagerdata#param_size_classes}
   */
   readonly paramSizeClasses?: SecuritymanagerdataAppLearningInfoUriInfoParamInfoParamSizeClasses[] | cdktf.IResolvable;
   /**
   * param_type_classes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#param_type_classes Securitymanagerdata#param_type_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#param_type_classes Securitymanagerdata#param_type_classes}
   */
   readonly paramTypeClasses?: SecuritymanagerdataAppLearningInfoUriInfoParamInfoParamTypeClasses[] | cdktf.IResolvable;
 }
@@ -552,17 +552,17 @@ export class SecuritymanagerdataAppLearningInfoUriInfoParamInfoList extends cdkt
 }
 export interface SecuritymanagerdataAppLearningInfoUriInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#uri_hits Securitymanagerdata#uri_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#uri_hits Securitymanagerdata#uri_hits}
   */
   readonly uriHits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#uri_key Securitymanagerdata#uri_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#uri_key Securitymanagerdata#uri_key}
   */
   readonly uriKey?: string;
   /**
   * param_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#param_info Securitymanagerdata#param_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#param_info Securitymanagerdata#param_info}
   */
   readonly paramInfo?: SecuritymanagerdataAppLearningInfoUriInfoParamInfo[] | cdktf.IResolvable;
 }
@@ -736,17 +736,17 @@ export class SecuritymanagerdataAppLearningInfoUriInfoList extends cdktf.Complex
 }
 export interface SecuritymanagerdataAppLearningInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#app_id Securitymanagerdata#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#app_id Securitymanagerdata#app_id}
   */
   readonly appId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#vs_uuid Securitymanagerdata#vs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#vs_uuid Securitymanagerdata#vs_uuid}
   */
   readonly vsUuid?: string;
   /**
   * uri_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#uri_info Securitymanagerdata#uri_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#uri_info Securitymanagerdata#uri_info}
   */
   readonly uriInfo?: SecuritymanagerdataAppLearningInfoUriInfo[] | cdktf.IResolvable;
 }
@@ -920,7 +920,7 @@ export class SecuritymanagerdataAppLearningInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata avi_securitymanagerdata}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata avi_securitymanagerdata}
 */
 export class Securitymanagerdata extends cdktf.TerraformResource {
 
@@ -936,7 +936,7 @@ export class Securitymanagerdata extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Securitymanagerdata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Securitymanagerdata to import
-  * @param importFromId The id of the existing Securitymanagerdata that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Securitymanagerdata that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Securitymanagerdata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -948,7 +948,7 @@ export class Securitymanagerdata extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitymanagerdata avi_securitymanagerdata} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitymanagerdata avi_securitymanagerdata} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -959,8 +959,8 @@ export class Securitymanagerdata extends cdktf.TerraformResource {
       terraformResourceType: 'avi_securitymanagerdata',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

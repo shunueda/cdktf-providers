@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface IntegrationMsdefenderConfig extends cdktf.TerraformMetaArgument
   /**
   * Azure client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#client_id IntegrationMsdefender#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#client_id IntegrationMsdefender#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#credentials IntegrationMsdefender#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#credentials IntegrationMsdefender#credentials}
   */
   readonly credentials: IntegrationMsdefenderCredentials;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#name IntegrationMsdefender#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#name IntegrationMsdefender#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#space_id IntegrationMsdefender#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#space_id IntegrationMsdefender#space_id}
   */
   readonly spaceId?: string;
   /**
   * List of Azure subscriptions from which to import Defender data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#subscription_allow_list IntegrationMsdefender#subscription_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#subscription_allow_list IntegrationMsdefender#subscription_allow_list}
   */
   readonly subscriptionAllowList?: string[];
   /**
   * List of Azure subscriptions to exclude from imports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#subscription_deny_list IntegrationMsdefender#subscription_deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#subscription_deny_list IntegrationMsdefender#subscription_deny_list}
   */
   readonly subscriptionDenyList?: string[];
   /**
   * Azure tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#tenant_id IntegrationMsdefender#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#tenant_id IntegrationMsdefender#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -52,7 +52,7 @@ export interface IntegrationMsdefenderCredentials {
   /**
   * PEM file for Azure integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#pem_file IntegrationMsdefender#pem_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#pem_file IntegrationMsdefender#pem_file}
   */
   readonly pemFile: string;
 }
@@ -143,7 +143,7 @@ export class IntegrationMsdefenderCredentialsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender mondoo_integration_msdefender}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender mondoo_integration_msdefender}
 */
 export class IntegrationMsdefender extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class IntegrationMsdefender extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationMsdefender resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationMsdefender to import
-  * @param importFromId The id of the existing IntegrationMsdefender that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationMsdefender that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationMsdefender to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class IntegrationMsdefender extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_msdefender mondoo_integration_msdefender} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_msdefender mondoo_integration_msdefender} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class IntegrationMsdefender extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_msdefender',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PowerplatformEnvironmentGroupRuleSetConfig extends cdktf.Terraf
   /**
   * Unique id of the environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#environment_group_id PowerplatformEnvironmentGroupRuleSet#environment_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#environment_group_id PowerplatformEnvironmentGroupRuleSet#environment_group_id}
   */
   readonly environmentGroupId: string;
   /**
   * Rules for the environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#rules PowerplatformEnvironmentGroupRuleSet#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#rules PowerplatformEnvironmentGroupRuleSet#rules}
   */
   readonly rules?: PowerplatformEnvironmentGroupRuleSetRules;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#timeouts PowerplatformEnvironmentGroupRuleSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#timeouts PowerplatformEnvironmentGroupRuleSet#timeouts}
   */
   readonly timeouts?: PowerplatformEnvironmentGroupRuleSetTimeouts;
 }
@@ -28,7 +28,7 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesAiGeneratedDescription
   /**
   * Enable AI generated description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#ai_description_enabled PowerplatformEnvironmentGroupRuleSet#ai_description_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#ai_description_enabled PowerplatformEnvironmentGroupRuleSet#ai_description_enabled}
   */
   readonly aiDescriptionEnabled: boolean | cdktf.IResolvable;
 }
@@ -121,13 +121,13 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesAiGenerativeSettings {
   /**
   * Agree to enable Bing search features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#bing_search_enabled PowerplatformEnvironmentGroupRuleSet#bing_search_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#bing_search_enabled PowerplatformEnvironmentGroupRuleSet#bing_search_enabled}
   */
   readonly bingSearchEnabled: boolean | cdktf.IResolvable;
   /**
   * Agree to move data across regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#move_data_across_regions_enabled PowerplatformEnvironmentGroupRuleSet#move_data_across_regions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#move_data_across_regions_enabled PowerplatformEnvironmentGroupRuleSet#move_data_across_regions_enabled}
   */
   readonly moveDataAcrossRegionsEnabled: boolean | cdktf.IResolvable;
 }
@@ -246,7 +246,7 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesBackupRetention {
   /**
   * Backup retention period in days: 7, 14, 21, 28
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#period_in_days PowerplatformEnvironmentGroupRuleSet#period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#period_in_days PowerplatformEnvironmentGroupRuleSet#period_in_days}
   */
   readonly periodInDays: number;
 }
@@ -339,13 +339,13 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesMakerWelcomeContent {
   /**
   * Maker onboarding markdown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#maker_onboarding_markdown PowerplatformEnvironmentGroupRuleSet#maker_onboarding_markdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#maker_onboarding_markdown PowerplatformEnvironmentGroupRuleSet#maker_onboarding_markdown}
   */
   readonly makerOnboardingMarkdown: string;
   /**
   * Maker onboarding URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#maker_onboarding_url PowerplatformEnvironmentGroupRuleSet#maker_onboarding_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#maker_onboarding_url PowerplatformEnvironmentGroupRuleSet#maker_onboarding_url}
   */
   readonly makerOnboardingUrl: string;
 }
@@ -464,13 +464,13 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesSharingControls {
   /**
   * Maximum total of individual who can be shared to: (-1..99). If `share_mode` is `No limit`, this value must be -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#share_max_limit PowerplatformEnvironmentGroupRuleSet#share_max_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#share_max_limit PowerplatformEnvironmentGroupRuleSet#share_max_limit}
   */
   readonly shareMaxLimit?: number;
   /**
   * Share mode for canvas apps: `No limit`, `Exclude sharing with security groups`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#share_mode PowerplatformEnvironmentGroupRuleSet#share_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#share_mode PowerplatformEnvironmentGroupRuleSet#share_mode}
   */
   readonly shareMode: string;
 }
@@ -592,13 +592,13 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesSolutionCheckerEnforce
   /**
   * Send emails only when solution is blocked, if unchecked you'll also get emails when there are warnings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#send_emails_enabled PowerplatformEnvironmentGroupRuleSet#send_emails_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#send_emails_enabled PowerplatformEnvironmentGroupRuleSet#send_emails_enabled}
   */
   readonly sendEmailsEnabled: boolean | cdktf.IResolvable;
   /**
   * Solution checker enforceemnt mode: none, warm, block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#solution_checker_mode PowerplatformEnvironmentGroupRuleSet#solution_checker_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#solution_checker_mode PowerplatformEnvironmentGroupRuleSet#solution_checker_mode}
   */
   readonly solutionCheckerMode: string;
 }
@@ -717,7 +717,7 @@ export interface PowerplatformEnvironmentGroupRuleSetRulesUsageInsights {
   /**
   * Inculde insights for all Managed Environment in this group in weekly email digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#insights_enabled PowerplatformEnvironmentGroupRuleSet#insights_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#insights_enabled PowerplatformEnvironmentGroupRuleSet#insights_enabled}
   */
   readonly insightsEnabled: boolean | cdktf.IResolvable;
 }
@@ -810,43 +810,43 @@ export interface PowerplatformEnvironmentGroupRuleSetRules {
   /**
   * AI Generated Descriptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#ai_generated_descriptions PowerplatformEnvironmentGroupRuleSet#ai_generated_descriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#ai_generated_descriptions PowerplatformEnvironmentGroupRuleSet#ai_generated_descriptions}
   */
   readonly aiGeneratedDescriptions?: PowerplatformEnvironmentGroupRuleSetRulesAiGeneratedDescriptions;
   /**
   * AI Generative Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#ai_generative_settings PowerplatformEnvironmentGroupRuleSet#ai_generative_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#ai_generative_settings PowerplatformEnvironmentGroupRuleSet#ai_generative_settings}
   */
   readonly aiGenerativeSettings?: PowerplatformEnvironmentGroupRuleSetRulesAiGenerativeSettings;
   /**
   * Backup Retention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#backup_retention PowerplatformEnvironmentGroupRuleSet#backup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#backup_retention PowerplatformEnvironmentGroupRuleSet#backup_retention}
   */
   readonly backupRetention?: PowerplatformEnvironmentGroupRuleSetRulesBackupRetention;
   /**
   * Maker Welcome Content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#maker_welcome_content PowerplatformEnvironmentGroupRuleSet#maker_welcome_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#maker_welcome_content PowerplatformEnvironmentGroupRuleSet#maker_welcome_content}
   */
   readonly makerWelcomeContent?: PowerplatformEnvironmentGroupRuleSetRulesMakerWelcomeContent;
   /**
   * Sharing controls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#sharing_controls PowerplatformEnvironmentGroupRuleSet#sharing_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#sharing_controls PowerplatformEnvironmentGroupRuleSet#sharing_controls}
   */
   readonly sharingControls?: PowerplatformEnvironmentGroupRuleSetRulesSharingControls;
   /**
   * Solution Checker Enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#solution_checker_enforcement PowerplatformEnvironmentGroupRuleSet#solution_checker_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#solution_checker_enforcement PowerplatformEnvironmentGroupRuleSet#solution_checker_enforcement}
   */
   readonly solutionCheckerEnforcement?: PowerplatformEnvironmentGroupRuleSetRulesSolutionCheckerEnforcement;
   /**
   * Usage Insights
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#usage_insights PowerplatformEnvironmentGroupRuleSet#usage_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#usage_insights PowerplatformEnvironmentGroupRuleSet#usage_insights}
   */
   readonly usageInsights?: PowerplatformEnvironmentGroupRuleSetRulesUsageInsights;
 }
@@ -1116,25 +1116,25 @@ export interface PowerplatformEnvironmentGroupRuleSetTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#create PowerplatformEnvironmentGroupRuleSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#create PowerplatformEnvironmentGroupRuleSet#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#delete PowerplatformEnvironmentGroupRuleSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#delete PowerplatformEnvironmentGroupRuleSet#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#read PowerplatformEnvironmentGroupRuleSet#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#read PowerplatformEnvironmentGroupRuleSet#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#update PowerplatformEnvironmentGroupRuleSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#update PowerplatformEnvironmentGroupRuleSet#update}
   */
   readonly update?: string;
 }
@@ -1315,7 +1315,7 @@ export class PowerplatformEnvironmentGroupRuleSetTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set powerplatform_environment_group_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set powerplatform_environment_group_rule_set}
 */
 export class PowerplatformEnvironmentGroupRuleSet extends cdktf.TerraformResource {
 
@@ -1331,7 +1331,7 @@ export class PowerplatformEnvironmentGroupRuleSet extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a PowerplatformEnvironmentGroupRuleSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformEnvironmentGroupRuleSet to import
-  * @param importFromId The id of the existing PowerplatformEnvironmentGroupRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformEnvironmentGroupRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformEnvironmentGroupRuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1343,7 +1343,7 @@ export class PowerplatformEnvironmentGroupRuleSet extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_group_rule_set powerplatform_environment_group_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_group_rule_set powerplatform_environment_group_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1354,8 +1354,8 @@ export class PowerplatformEnvironmentGroupRuleSet extends cdktf.TerraformResourc
       terraformResourceType: 'powerplatform_environment_group_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyIncidentTypeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type#color DataRootlyIncidentType#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type#color DataRootlyIncidentType#color}
   */
   readonly color?: string;
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type#created_at DataRootlyIncidentType#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type#created_at DataRootlyIncidentType#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type#name DataRootlyIncidentType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type#name DataRootlyIncidentType#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type#slug DataRootlyIncidentType#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type#slug DataRootlyIncidentType#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type rootly_incident_type}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type rootly_incident_type}
 */
 export class DataRootlyIncidentType extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataRootlyIncidentType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyIncidentType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyIncidentType to import
-  * @param importFromId The id of the existing DataRootlyIncidentType that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyIncidentType that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyIncidentType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataRootlyIncidentType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/incident_type rootly_incident_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_type rootly_incident_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataRootlyIncidentType extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_incident_type',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

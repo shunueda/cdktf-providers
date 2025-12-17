@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,138 +8,138 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetappCloudmanagerVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#aggregate_name DataNetappCloudmanagerVolume#aggregate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#aggregate_name DataNetappCloudmanagerVolume#aggregate_name}
   */
   readonly aggregateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#capacity_tier DataNetappCloudmanagerVolume#capacity_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#capacity_tier DataNetappCloudmanagerVolume#capacity_tier}
   */
   readonly capacityTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#client_id DataNetappCloudmanagerVolume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#client_id DataNetappCloudmanagerVolume#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#enable_compression DataNetappCloudmanagerVolume#enable_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#enable_compression DataNetappCloudmanagerVolume#enable_compression}
   */
   readonly enableCompression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#enable_deduplication DataNetappCloudmanagerVolume#enable_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#enable_deduplication DataNetappCloudmanagerVolume#enable_deduplication}
   */
   readonly enableDeduplication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#enable_thin_provisioning DataNetappCloudmanagerVolume#enable_thin_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#enable_thin_provisioning DataNetappCloudmanagerVolume#enable_thin_provisioning}
   */
   readonly enableThinProvisioning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#export_policy_ip DataNetappCloudmanagerVolume#export_policy_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#export_policy_ip DataNetappCloudmanagerVolume#export_policy_ip}
   */
   readonly exportPolicyIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#export_policy_name DataNetappCloudmanagerVolume#export_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#export_policy_name DataNetappCloudmanagerVolume#export_policy_name}
   */
   readonly exportPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#export_policy_nfs_version DataNetappCloudmanagerVolume#export_policy_nfs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#export_policy_nfs_version DataNetappCloudmanagerVolume#export_policy_nfs_version}
   */
   readonly exportPolicyNfsVersion?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#export_policy_type DataNetappCloudmanagerVolume#export_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#export_policy_type DataNetappCloudmanagerVolume#export_policy_type}
   */
   readonly exportPolicyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#id DataNetappCloudmanagerVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#id DataNetappCloudmanagerVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#igroups DataNetappCloudmanagerVolume#igroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#igroups DataNetappCloudmanagerVolume#igroups}
   */
   readonly igroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#iops DataNetappCloudmanagerVolume#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#iops DataNetappCloudmanagerVolume#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#mount_point DataNetappCloudmanagerVolume#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#mount_point DataNetappCloudmanagerVolume#mount_point}
   */
   readonly mountPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#name DataNetappCloudmanagerVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#name DataNetappCloudmanagerVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#os_name DataNetappCloudmanagerVolume#os_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#os_name DataNetappCloudmanagerVolume#os_name}
   */
   readonly osName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#permission DataNetappCloudmanagerVolume#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#permission DataNetappCloudmanagerVolume#permission}
   */
   readonly permission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#provider_volume_type DataNetappCloudmanagerVolume#provider_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#provider_volume_type DataNetappCloudmanagerVolume#provider_volume_type}
   */
   readonly providerVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#share_name DataNetappCloudmanagerVolume#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#share_name DataNetappCloudmanagerVolume#share_name}
   */
   readonly shareName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#size DataNetappCloudmanagerVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#size DataNetappCloudmanagerVolume#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#snapshot_policy_name DataNetappCloudmanagerVolume#snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#snapshot_policy_name DataNetappCloudmanagerVolume#snapshot_policy_name}
   */
   readonly snapshotPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#svm_name DataNetappCloudmanagerVolume#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#svm_name DataNetappCloudmanagerVolume#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#throughput DataNetappCloudmanagerVolume#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#throughput DataNetappCloudmanagerVolume#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#tiering_policy DataNetappCloudmanagerVolume#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#tiering_policy DataNetappCloudmanagerVolume#tiering_policy}
   */
   readonly tieringPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#unit DataNetappCloudmanagerVolume#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#unit DataNetappCloudmanagerVolume#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#users DataNetappCloudmanagerVolume#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#users DataNetappCloudmanagerVolume#users}
   */
   readonly users?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#volume_protocol DataNetappCloudmanagerVolume#volume_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#volume_protocol DataNetappCloudmanagerVolume#volume_protocol}
   */
   readonly volumeProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#working_environment_id DataNetappCloudmanagerVolume#working_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#working_environment_id DataNetappCloudmanagerVolume#working_environment_id}
   */
   readonly workingEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#working_environment_name DataNetappCloudmanagerVolume#working_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#working_environment_name DataNetappCloudmanagerVolume#working_environment_name}
   */
   readonly workingEnvironmentName?: string;
   /**
   * initiator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#initiator DataNetappCloudmanagerVolume#initiator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#initiator DataNetappCloudmanagerVolume#initiator}
   */
   readonly initiator?: DataNetappCloudmanagerVolumeInitiator[] | cdktf.IResolvable;
 }
 export interface DataNetappCloudmanagerVolumeInitiator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#alias DataNetappCloudmanagerVolume#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#alias DataNetappCloudmanagerVolume#alias}
   */
   readonly alias: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#iqn DataNetappCloudmanagerVolume#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#iqn DataNetappCloudmanagerVolume#iqn}
   */
   readonly iqn: string;
 }
@@ -278,7 +278,7 @@ export class DataNetappCloudmanagerVolumeInitiatorList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume netapp-cloudmanager_volume}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume netapp-cloudmanager_volume}
 */
 export class DataNetappCloudmanagerVolume extends cdktf.TerraformDataSource {
 
@@ -294,7 +294,7 @@ export class DataNetappCloudmanagerVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataNetappCloudmanagerVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappCloudmanagerVolume to import
-  * @param importFromId The id of the existing DataNetappCloudmanagerVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappCloudmanagerVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappCloudmanagerVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -306,7 +306,7 @@ export class DataNetappCloudmanagerVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/volume netapp-cloudmanager_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/volume netapp-cloudmanager_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -317,8 +317,8 @@ export class DataNetappCloudmanagerVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'netapp-cloudmanager_volume',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

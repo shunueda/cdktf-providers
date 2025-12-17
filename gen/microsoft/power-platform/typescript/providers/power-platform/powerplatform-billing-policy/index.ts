@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PowerplatformBillingPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The billing instrument of the billing policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#billing_instrument PowerplatformBillingPolicy#billing_instrument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#billing_instrument PowerplatformBillingPolicy#billing_instrument}
   */
   readonly billingInstrument: PowerplatformBillingPolicyBillingInstrument;
   /**
   * The location of the billing policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#location PowerplatformBillingPolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#location PowerplatformBillingPolicy#location}
   */
   readonly location: string;
   /**
   * The name of the billing policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#name PowerplatformBillingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#name PowerplatformBillingPolicy#name}
   */
   readonly name: string;
   /**
   * The status of the billing policy (Enabled, Disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#status PowerplatformBillingPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#status PowerplatformBillingPolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#timeouts PowerplatformBillingPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#timeouts PowerplatformBillingPolicy#timeouts}
   */
   readonly timeouts?: PowerplatformBillingPolicyTimeouts;
 }
@@ -40,13 +40,13 @@ export interface PowerplatformBillingPolicyBillingInstrument {
   /**
   * The resource group of the billing instrument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#resource_group PowerplatformBillingPolicy#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#resource_group PowerplatformBillingPolicy#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * The subscription id of the billing instrument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#subscription_id PowerplatformBillingPolicy#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#subscription_id PowerplatformBillingPolicy#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -170,25 +170,25 @@ export interface PowerplatformBillingPolicyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#create PowerplatformBillingPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#create PowerplatformBillingPolicy#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#delete PowerplatformBillingPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#delete PowerplatformBillingPolicy#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#read PowerplatformBillingPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#read PowerplatformBillingPolicy#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#update PowerplatformBillingPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#update PowerplatformBillingPolicy#update}
   */
   readonly update?: string;
 }
@@ -369,7 +369,7 @@ export class PowerplatformBillingPolicyTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy powerplatform_billing_policy}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy powerplatform_billing_policy}
 */
 export class PowerplatformBillingPolicy extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class PowerplatformBillingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PowerplatformBillingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformBillingPolicy to import
-  * @param importFromId The id of the existing PowerplatformBillingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformBillingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformBillingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class PowerplatformBillingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_billing_policy powerplatform_billing_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_billing_policy powerplatform_billing_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class PowerplatformBillingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_billing_policy',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

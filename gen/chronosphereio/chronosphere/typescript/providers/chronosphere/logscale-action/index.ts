@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface LogscaleActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#id LogscaleAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#id LogscaleAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#name LogscaleAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#name LogscaleAction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#repository LogscaleAction#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#repository LogscaleAction#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#slug LogscaleAction#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#slug LogscaleAction#slug}
   */
   readonly slug?: string;
   /**
   * email_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#email_action LogscaleAction#email_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#email_action LogscaleAction#email_action}
   */
   readonly emailAction?: LogscaleActionEmailAction;
   /**
   * humio_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#humio_action LogscaleAction#humio_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#humio_action LogscaleAction#humio_action}
   */
   readonly humioAction?: LogscaleActionHumioAction;
   /**
   * ops_genie_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#ops_genie_action LogscaleAction#ops_genie_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#ops_genie_action LogscaleAction#ops_genie_action}
   */
   readonly opsGenieAction?: LogscaleActionOpsGenieAction;
   /**
   * pager_duty_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#pager_duty_action LogscaleAction#pager_duty_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#pager_duty_action LogscaleAction#pager_duty_action}
   */
   readonly pagerDutyAction?: LogscaleActionPagerDutyAction;
   /**
   * slack_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#slack_action LogscaleAction#slack_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#slack_action LogscaleAction#slack_action}
   */
   readonly slackAction?: LogscaleActionSlackAction;
   /**
   * slack_post_message_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#slack_post_message_action LogscaleAction#slack_post_message_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#slack_post_message_action LogscaleAction#slack_post_message_action}
   */
   readonly slackPostMessageAction?: LogscaleActionSlackPostMessageAction;
   /**
   * upload_file_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#upload_file_action LogscaleAction#upload_file_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#upload_file_action LogscaleAction#upload_file_action}
   */
   readonly uploadFileAction?: LogscaleActionUploadFileAction;
   /**
   * victor_ops_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#victor_ops_action LogscaleAction#victor_ops_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#victor_ops_action LogscaleAction#victor_ops_action}
   */
   readonly victorOpsAction?: LogscaleActionVictorOpsAction;
   /**
   * webhook_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#webhook_action LogscaleAction#webhook_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#webhook_action LogscaleAction#webhook_action}
   */
   readonly webhookAction?: LogscaleActionWebhookAction;
 }
 export interface LogscaleActionEmailAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#attach_csv LogscaleAction#attach_csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#attach_csv LogscaleAction#attach_csv}
   */
   readonly attachCsv?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#body_template LogscaleAction#body_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#body_template LogscaleAction#body_template}
   */
   readonly bodyTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#recipients LogscaleAction#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#recipients LogscaleAction#recipients}
   */
   readonly recipients: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#subject_template LogscaleAction#subject_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#subject_template LogscaleAction#subject_template}
   */
   readonly subjectTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -296,7 +296,7 @@ export class LogscaleActionEmailActionOutputReference extends cdktf.ComplexObjec
 }
 export interface LogscaleActionHumioAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#ingest_token LogscaleAction#ingest_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#ingest_token LogscaleAction#ingest_token}
   */
   readonly ingestToken: string;
 }
@@ -377,15 +377,15 @@ export class LogscaleActionHumioActionOutputReference extends cdktf.ComplexObjec
 }
 export interface LogscaleActionOpsGenieAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#api_url LogscaleAction#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#api_url LogscaleAction#api_url}
   */
   readonly apiUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#ops_genie_key LogscaleAction#ops_genie_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#ops_genie_key LogscaleAction#ops_genie_key}
   */
   readonly opsGenieKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -521,15 +521,15 @@ export class LogscaleActionOpsGenieActionOutputReference extends cdktf.ComplexOb
 }
 export interface LogscaleActionPagerDutyAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#routing_key LogscaleAction#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#routing_key LogscaleAction#routing_key}
   */
   readonly routingKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#severity LogscaleAction#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#severity LogscaleAction#severity}
   */
   readonly severity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -665,15 +665,15 @@ export class LogscaleActionPagerDutyActionOutputReference extends cdktf.ComplexO
 }
 export interface LogscaleActionSlackAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#fields LogscaleAction#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#fields LogscaleAction#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#url LogscaleAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#url LogscaleAction#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -812,19 +812,19 @@ export class LogscaleActionSlackActionOutputReference extends cdktf.ComplexObjec
 }
 export interface LogscaleActionSlackPostMessageAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#api_token LogscaleAction#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#api_token LogscaleAction#api_token}
   */
   readonly apiToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#channels LogscaleAction#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#channels LogscaleAction#channels}
   */
   readonly channels: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#fields LogscaleAction#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#fields LogscaleAction#fields}
   */
   readonly fields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -989,7 +989,7 @@ export class LogscaleActionSlackPostMessageActionOutputReference extends cdktf.C
 }
 export interface LogscaleActionUploadFileAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#file_name LogscaleAction#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#file_name LogscaleAction#file_name}
   */
   readonly fileName: string;
 }
@@ -1070,15 +1070,15 @@ export class LogscaleActionUploadFileActionOutputReference extends cdktf.Complex
 }
 export interface LogscaleActionVictorOpsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#message_type LogscaleAction#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#message_type LogscaleAction#message_type}
   */
   readonly messageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#notify_url LogscaleAction#notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#notify_url LogscaleAction#notify_url}
   */
   readonly notifyUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -1214,27 +1214,27 @@ export class LogscaleActionVictorOpsActionOutputReference extends cdktf.ComplexO
 }
 export interface LogscaleActionWebhookAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#body_template LogscaleAction#body_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#body_template LogscaleAction#body_template}
   */
   readonly bodyTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#headers LogscaleAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#headers LogscaleAction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#ignore_ssl LogscaleAction#ignore_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#ignore_ssl LogscaleAction#ignore_ssl}
   */
   readonly ignoreSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#method LogscaleAction#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#method LogscaleAction#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#url LogscaleAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#url LogscaleAction#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#use_proxy LogscaleAction#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
 }
@@ -1457,7 +1457,7 @@ export class LogscaleActionWebhookActionOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action chronosphere_logscale_action}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action chronosphere_logscale_action}
 */
 export class LogscaleAction extends cdktf.TerraformResource {
 
@@ -1473,7 +1473,7 @@ export class LogscaleAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogscaleAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogscaleAction to import
-  * @param importFromId The id of the existing LogscaleAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogscaleAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogscaleAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1485,7 +1485,7 @@ export class LogscaleAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_action chronosphere_logscale_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_action chronosphere_logscale_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1496,8 +1496,8 @@ export class LogscaleAction extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_logscale_action',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

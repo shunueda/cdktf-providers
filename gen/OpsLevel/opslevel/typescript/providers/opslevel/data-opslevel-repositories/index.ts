@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelRepositoriesConfig extends cdktf.TerraformMetaArgum
   /**
   * Used to filter repositories by one of `tier`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#filter DataOpslevelRepositories#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#filter DataOpslevelRepositories#filter}
   */
   readonly filter?: DataOpslevelRepositoriesFilter;
 }
@@ -18,13 +18,13 @@ export interface DataOpslevelRepositoriesFilter {
   /**
   * The field of the target resource to filter upon. One of `tier`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#field DataOpslevelRepositories#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#field DataOpslevelRepositories#field}
   */
   readonly field: string;
   /**
   * The field value of the target resource to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#value DataOpslevelRepositories#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#value DataOpslevelRepositories#value}
   */
   readonly value: string;
 }
@@ -141,11 +141,11 @@ export class DataOpslevelRepositoriesFilterOutputReference extends cdktf.Complex
 }
 export interface DataOpslevelRepositoriesRepositoriesLanguages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#name DataOpslevelRepositories#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#name DataOpslevelRepositories#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#usage DataOpslevelRepositories#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#usage DataOpslevelRepositories#usage}
   */
   readonly usage?: number;
 }
@@ -282,13 +282,13 @@ export interface DataOpslevelRepositoriesRepositories {
   /**
   * The human-friendly, unique identifier for the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#alias DataOpslevelRepositories#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#alias DataOpslevelRepositories#alias}
   */
   readonly alias?: string;
   /**
   * The unique identifier for the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#id DataOpslevelRepositories#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#id DataOpslevelRepositories#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -442,7 +442,7 @@ export class DataOpslevelRepositoriesRepositoriesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories opslevel_repositories}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories opslevel_repositories}
 */
 export class DataOpslevelRepositories extends cdktf.TerraformDataSource {
 
@@ -458,7 +458,7 @@ export class DataOpslevelRepositories extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelRepositories resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelRepositories to import
-  * @param importFromId The id of the existing DataOpslevelRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelRepositories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class DataOpslevelRepositories extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/repositories opslevel_repositories} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/repositories opslevel_repositories} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class DataOpslevelRepositories extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_repositories',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,251 @@ import * as cdktf from 'cdktf';
 
 export interface InterfaceSwitchportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#access_vlan InterfaceSwitchport#access_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#access_vlan InterfaceSwitchport#access_vlan}
   */
   readonly accessVlan?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#delete_mode InterfaceSwitchport#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#delete_mode InterfaceSwitchport#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#device InterfaceSwitchport#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#device InterfaceSwitchport#device}
   */
   readonly device?: string;
   /**
   * Set port host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#host InterfaceSwitchport#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#host InterfaceSwitchport#host}
   */
   readonly host?: boolean | cdktf.IResolvable;
   /**
   * Set trunking mode to ACCESS unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#mode_access InterfaceSwitchport#mode_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#mode_access InterfaceSwitchport#mode_access}
   */
   readonly modeAccess?: boolean | cdktf.IResolvable;
   /**
   * set trunking mode to TUNNEL unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#mode_dot1q_tunnel InterfaceSwitchport#mode_dot1q_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#mode_dot1q_tunnel InterfaceSwitchport#mode_dot1q_tunnel}
   */
   readonly modeDot1QTunnel?: boolean | cdktf.IResolvable;
   /**
   * Set the mode to private-vlan host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#mode_private_vlan_host InterfaceSwitchport#mode_private_vlan_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#mode_private_vlan_host InterfaceSwitchport#mode_private_vlan_host}
   */
   readonly modePrivateVlanHost?: boolean | cdktf.IResolvable;
   /**
   * Set the mode to private-vlan promiscuous
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#mode_private_vlan_promiscuous InterfaceSwitchport#mode_private_vlan_promiscuous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#mode_private_vlan_promiscuous InterfaceSwitchport#mode_private_vlan_promiscuous}
   */
   readonly modePrivateVlanPromiscuous?: boolean | cdktf.IResolvable;
   /**
   * Set the mode to private-vlan trunk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#mode_private_vlan_trunk InterfaceSwitchport#mode_private_vlan_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#mode_private_vlan_trunk InterfaceSwitchport#mode_private_vlan_trunk}
   */
   readonly modePrivateVlanTrunk?: boolean | cdktf.IResolvable;
   /**
   * Set trunking mode to TRUNK unconditionally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#mode_trunk InterfaceSwitchport#mode_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#mode_trunk InterfaceSwitchport#mode_trunk}
   */
   readonly modeTrunk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#name InterfaceSwitchport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#name InterfaceSwitchport#name}
   */
   readonly name: string;
   /**
   * Device will not engage in negotiation protocol on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#nonegotiate InterfaceSwitchport#nonegotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#nonegotiate InterfaceSwitchport#nonegotiate}
   */
   readonly nonegotiate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#trunk_allowed_vlans InterfaceSwitchport#trunk_allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans InterfaceSwitchport#trunk_allowed_vlans}
   */
   readonly trunkAllowedVlans?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_add InterfaceSwitchport#trunk_allowed_vlans_add}
+  */
+  readonly trunkAllowedVlansAdd?: InterfaceSwitchportTrunkAllowedVlansAdd[] | cdktf.IResolvable;
+  /**
+  * all VLANs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_all InterfaceSwitchport#trunk_allowed_vlans_all}
+  */
+  readonly trunkAllowedVlansAll?: boolean | cdktf.IResolvable;
+  /**
+  * all VLANs except the following
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_except InterfaceSwitchport#trunk_allowed_vlans_except}
+  */
+  readonly trunkAllowedVlansExcept?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_legacy InterfaceSwitchport#trunk_allowed_vlans_legacy}
+  */
+  readonly trunkAllowedVlansLegacy?: string;
+  /**
   * no VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#trunk_allowed_vlans_none InterfaceSwitchport#trunk_allowed_vlans_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_none InterfaceSwitchport#trunk_allowed_vlans_none}
   */
   readonly trunkAllowedVlansNone?: boolean | cdktf.IResolvable;
+  /**
+  * no VLANs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_none_legacy InterfaceSwitchport#trunk_allowed_vlans_none_legacy}
+  */
+  readonly trunkAllowedVlansNoneLegacy?: boolean | cdktf.IResolvable;
+  /**
+  * VLAN IDs of disallowed VLANs when this port is in trunking mode
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_allowed_vlans_remove InterfaceSwitchport#trunk_allowed_vlans_remove}
+  */
+  readonly trunkAllowedVlansRemove?: string;
   /**
   * 
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#trunk_native_vlan InterfaceSwitchport#trunk_native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_native_vlan InterfaceSwitchport#trunk_native_vlan}
   */
   readonly trunkNativeVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#trunk_native_vlan_tag InterfaceSwitchport#trunk_native_vlan_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#trunk_native_vlan_tag InterfaceSwitchport#trunk_native_vlan_tag}
   */
   readonly trunkNativeVlanTag?: boolean | cdktf.IResolvable;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Port-channel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#type InterfaceSwitchport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#type InterfaceSwitchport#type}
   */
   readonly type: string;
 }
+export interface InterfaceSwitchportTrunkAllowedVlansAdd {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#vlans InterfaceSwitchport#vlans}
+  */
+  readonly vlans: string;
+}
+
+export function interfaceSwitchportTrunkAllowedVlansAddToTerraform(struct?: InterfaceSwitchportTrunkAllowedVlansAdd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    vlans: cdktf.stringToTerraform(struct!.vlans),
+  }
+}
+
+
+export function interfaceSwitchportTrunkAllowedVlansAddToHclTerraform(struct?: InterfaceSwitchportTrunkAllowedVlansAdd | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    vlans: {
+      value: cdktf.stringToHclTerraform(struct!.vlans),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class InterfaceSwitchportTrunkAllowedVlansAddOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): InterfaceSwitchportTrunkAllowedVlansAdd | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._vlans !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vlans = this._vlans;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: InterfaceSwitchportTrunkAllowedVlansAdd | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._vlans = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._vlans = value.vlans;
+    }
+  }
+
+  // vlans - computed: false, optional: false, required: true
+  private _vlans?: string; 
+  public get vlans() {
+    return this.getStringAttribute('vlans');
+  }
+  public set vlans(value: string) {
+    this._vlans = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vlansInput() {
+    return this._vlans;
+  }
+}
+
+export class InterfaceSwitchportTrunkAllowedVlansAddList extends cdktf.ComplexList {
+  public internalValue? : InterfaceSwitchportTrunkAllowedVlansAdd[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): InterfaceSwitchportTrunkAllowedVlansAddOutputReference {
+    return new InterfaceSwitchportTrunkAllowedVlansAddOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport iosxe_interface_switchport}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport iosxe_interface_switchport}
 */
 export class InterfaceSwitchport extends cdktf.TerraformResource {
 
@@ -123,7 +268,7 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceSwitchport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceSwitchport to import
-  * @param importFromId The id of the existing InterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceSwitchport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +280,7 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_switchport iosxe_interface_switchport} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_switchport iosxe_interface_switchport} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +291,8 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_switchport',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -170,7 +315,13 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
     this._name = config.name;
     this._nonegotiate = config.nonegotiate;
     this._trunkAllowedVlans = config.trunkAllowedVlans;
+    this._trunkAllowedVlansAdd.internalValue = config.trunkAllowedVlansAdd;
+    this._trunkAllowedVlansAll = config.trunkAllowedVlansAll;
+    this._trunkAllowedVlansExcept = config.trunkAllowedVlansExcept;
+    this._trunkAllowedVlansLegacy = config.trunkAllowedVlansLegacy;
     this._trunkAllowedVlansNone = config.trunkAllowedVlansNone;
+    this._trunkAllowedVlansNoneLegacy = config.trunkAllowedVlansNoneLegacy;
+    this._trunkAllowedVlansRemove = config.trunkAllowedVlansRemove;
     this._trunkNativeVlan = config.trunkNativeVlan;
     this._trunkNativeVlanTag = config.trunkNativeVlanTag;
     this._type = config.type;
@@ -390,6 +541,70 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
     return this._trunkAllowedVlans;
   }
 
+  // trunk_allowed_vlans_add - computed: false, optional: true, required: false
+  private _trunkAllowedVlansAdd = new InterfaceSwitchportTrunkAllowedVlansAddList(this, "trunk_allowed_vlans_add", false);
+  public get trunkAllowedVlansAdd() {
+    return this._trunkAllowedVlansAdd;
+  }
+  public putTrunkAllowedVlansAdd(value: InterfaceSwitchportTrunkAllowedVlansAdd[] | cdktf.IResolvable) {
+    this._trunkAllowedVlansAdd.internalValue = value;
+  }
+  public resetTrunkAllowedVlansAdd() {
+    this._trunkAllowedVlansAdd.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trunkAllowedVlansAddInput() {
+    return this._trunkAllowedVlansAdd.internalValue;
+  }
+
+  // trunk_allowed_vlans_all - computed: false, optional: true, required: false
+  private _trunkAllowedVlansAll?: boolean | cdktf.IResolvable; 
+  public get trunkAllowedVlansAll() {
+    return this.getBooleanAttribute('trunk_allowed_vlans_all');
+  }
+  public set trunkAllowedVlansAll(value: boolean | cdktf.IResolvable) {
+    this._trunkAllowedVlansAll = value;
+  }
+  public resetTrunkAllowedVlansAll() {
+    this._trunkAllowedVlansAll = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trunkAllowedVlansAllInput() {
+    return this._trunkAllowedVlansAll;
+  }
+
+  // trunk_allowed_vlans_except - computed: false, optional: true, required: false
+  private _trunkAllowedVlansExcept?: string; 
+  public get trunkAllowedVlansExcept() {
+    return this.getStringAttribute('trunk_allowed_vlans_except');
+  }
+  public set trunkAllowedVlansExcept(value: string) {
+    this._trunkAllowedVlansExcept = value;
+  }
+  public resetTrunkAllowedVlansExcept() {
+    this._trunkAllowedVlansExcept = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trunkAllowedVlansExceptInput() {
+    return this._trunkAllowedVlansExcept;
+  }
+
+  // trunk_allowed_vlans_legacy - computed: false, optional: true, required: false
+  private _trunkAllowedVlansLegacy?: string; 
+  public get trunkAllowedVlansLegacy() {
+    return this.getStringAttribute('trunk_allowed_vlans_legacy');
+  }
+  public set trunkAllowedVlansLegacy(value: string) {
+    this._trunkAllowedVlansLegacy = value;
+  }
+  public resetTrunkAllowedVlansLegacy() {
+    this._trunkAllowedVlansLegacy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trunkAllowedVlansLegacyInput() {
+    return this._trunkAllowedVlansLegacy;
+  }
+
   // trunk_allowed_vlans_none - computed: false, optional: true, required: false
   private _trunkAllowedVlansNone?: boolean | cdktf.IResolvable; 
   public get trunkAllowedVlansNone() {
@@ -404,6 +619,38 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get trunkAllowedVlansNoneInput() {
     return this._trunkAllowedVlansNone;
+  }
+
+  // trunk_allowed_vlans_none_legacy - computed: false, optional: true, required: false
+  private _trunkAllowedVlansNoneLegacy?: boolean | cdktf.IResolvable; 
+  public get trunkAllowedVlansNoneLegacy() {
+    return this.getBooleanAttribute('trunk_allowed_vlans_none_legacy');
+  }
+  public set trunkAllowedVlansNoneLegacy(value: boolean | cdktf.IResolvable) {
+    this._trunkAllowedVlansNoneLegacy = value;
+  }
+  public resetTrunkAllowedVlansNoneLegacy() {
+    this._trunkAllowedVlansNoneLegacy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trunkAllowedVlansNoneLegacyInput() {
+    return this._trunkAllowedVlansNoneLegacy;
+  }
+
+  // trunk_allowed_vlans_remove - computed: false, optional: true, required: false
+  private _trunkAllowedVlansRemove?: string; 
+  public get trunkAllowedVlansRemove() {
+    return this.getStringAttribute('trunk_allowed_vlans_remove');
+  }
+  public set trunkAllowedVlansRemove(value: string) {
+    this._trunkAllowedVlansRemove = value;
+  }
+  public resetTrunkAllowedVlansRemove() {
+    this._trunkAllowedVlansRemove = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get trunkAllowedVlansRemoveInput() {
+    return this._trunkAllowedVlansRemove;
   }
 
   // trunk_native_vlan - computed: false, optional: true, required: false
@@ -470,7 +717,13 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       nonegotiate: cdktf.booleanToTerraform(this._nonegotiate),
       trunk_allowed_vlans: cdktf.stringToTerraform(this._trunkAllowedVlans),
+      trunk_allowed_vlans_add: cdktf.listMapper(interfaceSwitchportTrunkAllowedVlansAddToTerraform, false)(this._trunkAllowedVlansAdd.internalValue),
+      trunk_allowed_vlans_all: cdktf.booleanToTerraform(this._trunkAllowedVlansAll),
+      trunk_allowed_vlans_except: cdktf.stringToTerraform(this._trunkAllowedVlansExcept),
+      trunk_allowed_vlans_legacy: cdktf.stringToTerraform(this._trunkAllowedVlansLegacy),
       trunk_allowed_vlans_none: cdktf.booleanToTerraform(this._trunkAllowedVlansNone),
+      trunk_allowed_vlans_none_legacy: cdktf.booleanToTerraform(this._trunkAllowedVlansNoneLegacy),
+      trunk_allowed_vlans_remove: cdktf.stringToTerraform(this._trunkAllowedVlansRemove),
       trunk_native_vlan: cdktf.numberToTerraform(this._trunkNativeVlan),
       trunk_native_vlan_tag: cdktf.booleanToTerraform(this._trunkNativeVlanTag),
       type: cdktf.stringToTerraform(this._type),
@@ -557,11 +810,47 @@ export class InterfaceSwitchport extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      trunk_allowed_vlans_add: {
+        value: cdktf.listMapperHcl(interfaceSwitchportTrunkAllowedVlansAddToHclTerraform, false)(this._trunkAllowedVlansAdd.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "InterfaceSwitchportTrunkAllowedVlansAddList",
+      },
+      trunk_allowed_vlans_all: {
+        value: cdktf.booleanToHclTerraform(this._trunkAllowedVlansAll),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      trunk_allowed_vlans_except: {
+        value: cdktf.stringToHclTerraform(this._trunkAllowedVlansExcept),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      trunk_allowed_vlans_legacy: {
+        value: cdktf.stringToHclTerraform(this._trunkAllowedVlansLegacy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       trunk_allowed_vlans_none: {
         value: cdktf.booleanToHclTerraform(this._trunkAllowedVlansNone),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      trunk_allowed_vlans_none_legacy: {
+        value: cdktf.booleanToHclTerraform(this._trunkAllowedVlansNoneLegacy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      trunk_allowed_vlans_remove: {
+        value: cdktf.stringToHclTerraform(this._trunkAllowedVlansRemove),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       trunk_native_vlan: {
         value: cdktf.numberToHclTerraform(this._trunkNativeVlan),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface IpreputationdbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#base_file_refs Ipreputationdb#base_file_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#base_file_refs Ipreputationdb#base_file_refs}
   */
   readonly baseFileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#description Ipreputationdb#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#description Ipreputationdb#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#id Ipreputationdb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#id Ipreputationdb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#incremental_file_refs Ipreputationdb#incremental_file_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#incremental_file_refs Ipreputationdb#incremental_file_refs}
   */
   readonly incrementalFileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#name Ipreputationdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#name Ipreputationdb#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#tenant_ref Ipreputationdb#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#tenant_ref Ipreputationdb#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#uuid Ipreputationdb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#uuid Ipreputationdb#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#vendor Ipreputationdb#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#vendor Ipreputationdb#vendor}
   */
   readonly vendor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#version Ipreputationdb#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#version Ipreputationdb#version}
   */
   readonly version?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#configpb_attributes Ipreputationdb#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#configpb_attributes Ipreputationdb#configpb_attributes}
   */
   readonly configpbAttributes?: IpreputationdbConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#markers Ipreputationdb#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#markers Ipreputationdb#markers}
   */
   readonly markers?: IpreputationdbMarkers[] | cdktf.IResolvable;
   /**
   * service_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#service_status Ipreputationdb#service_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#service_status Ipreputationdb#service_status}
   */
   readonly serviceStatus?: IpreputationdbServiceStatus[] | cdktf.IResolvable;
 }
 export interface IpreputationdbConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#version Ipreputationdb#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#version Ipreputationdb#version}
   */
   readonly version?: string;
 }
@@ -183,11 +183,11 @@ export class IpreputationdbConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface IpreputationdbMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#key Ipreputationdb#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#key Ipreputationdb#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#values Ipreputationdb#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#values Ipreputationdb#values}
   */
   readonly values?: string[];
 }
@@ -329,11 +329,11 @@ export class IpreputationdbMarkersList extends cdktf.ComplexList {
 }
 export interface IpreputationdbServiceStatusLastSuccessfulUpdateCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#secs Ipreputationdb#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#secs Ipreputationdb#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#usecs Ipreputationdb#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#usecs Ipreputationdb#usecs}
   */
   readonly usecs: string;
 }
@@ -472,13 +472,13 @@ export class IpreputationdbServiceStatusLastSuccessfulUpdateCheckList extends cd
 }
 export interface IpreputationdbServiceStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#error Ipreputationdb#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#error Ipreputationdb#error}
   */
   readonly error?: string;
   /**
   * last_successful_update_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#last_successful_update_check Ipreputationdb#last_successful_update_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#last_successful_update_check Ipreputationdb#last_successful_update_check}
   */
   readonly lastSuccessfulUpdateCheck?: IpreputationdbServiceStatusLastSuccessfulUpdateCheck[] | cdktf.IResolvable;
 }
@@ -623,7 +623,7 @@ export class IpreputationdbServiceStatusList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb avi_ipreputationdb}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb avi_ipreputationdb}
 */
 export class Ipreputationdb extends cdktf.TerraformResource {
 
@@ -639,7 +639,7 @@ export class Ipreputationdb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipreputationdb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipreputationdb to import
-  * @param importFromId The id of the existing Ipreputationdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipreputationdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipreputationdb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -651,7 +651,7 @@ export class Ipreputationdb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/ipreputationdb avi_ipreputationdb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/ipreputationdb avi_ipreputationdb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -662,8 +662,8 @@ export class Ipreputationdb extends cdktf.TerraformResource {
       terraformResourceType: 'avi_ipreputationdb',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

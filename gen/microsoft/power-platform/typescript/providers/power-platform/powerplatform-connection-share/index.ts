@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PowerplatformConnectionShareConfig extends cdktf.TerraformMetaA
   /**
   * Unique identifier of the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#connection_id PowerplatformConnectionShare#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#connection_id PowerplatformConnectionShare#connection_id}
   */
   readonly connectionId: string;
   /**
   * Name of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#connector_name PowerplatformConnectionShare#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#connector_name PowerplatformConnectionShare#connector_name}
   */
   readonly connectorName: string;
   /**
   * Unique identifier of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#environment_id PowerplatformConnectionShare#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#environment_id PowerplatformConnectionShare#environment_id}
   */
   readonly environmentId: string;
   /**
   * Principal to share the connection with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#principal PowerplatformConnectionShare#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#principal PowerplatformConnectionShare#principal}
   */
   readonly principal: PowerplatformConnectionSharePrincipal;
   /**
   * Name of the role to assign to the principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#role_name PowerplatformConnectionShare#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#role_name PowerplatformConnectionShare#role_name}
   */
   readonly roleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#timeouts PowerplatformConnectionShare#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#timeouts PowerplatformConnectionShare#timeouts}
   */
   readonly timeouts?: PowerplatformConnectionShareTimeouts;
 }
@@ -46,7 +46,7 @@ export interface PowerplatformConnectionSharePrincipal {
   /**
   * Entra Object Id of the principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#entra_object_id PowerplatformConnectionShare#entra_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#entra_object_id PowerplatformConnectionShare#entra_object_id}
   */
   readonly entraObjectId: string;
 }
@@ -144,25 +144,25 @@ export interface PowerplatformConnectionShareTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#create PowerplatformConnectionShare#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#create PowerplatformConnectionShare#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#delete PowerplatformConnectionShare#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#delete PowerplatformConnectionShare#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#read PowerplatformConnectionShare#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#read PowerplatformConnectionShare#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#update PowerplatformConnectionShare#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#update PowerplatformConnectionShare#update}
   */
   readonly update?: string;
 }
@@ -343,7 +343,7 @@ export class PowerplatformConnectionShareTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share powerplatform_connection_share}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share powerplatform_connection_share}
 */
 export class PowerplatformConnectionShare extends cdktf.TerraformResource {
 
@@ -359,7 +359,7 @@ export class PowerplatformConnectionShare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PowerplatformConnectionShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformConnectionShare to import
-  * @param importFromId The id of the existing PowerplatformConnectionShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformConnectionShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformConnectionShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -371,7 +371,7 @@ export class PowerplatformConnectionShare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_connection_share powerplatform_connection_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_connection_share powerplatform_connection_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -382,8 +382,8 @@ export class PowerplatformConnectionShare extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_connection_share',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

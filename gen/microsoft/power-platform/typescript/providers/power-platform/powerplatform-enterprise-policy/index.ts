@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PowerplatformEnterprisePolicyConfig extends cdktf.TerraformMeta
   /**
   * Environment id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#environment_id PowerplatformEnterprisePolicy#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#environment_id PowerplatformEnterprisePolicy#environment_id}
   */
   readonly environmentId: string;
   /**
   * Policy type [NetworkInjection, Encryption]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#policy_type PowerplatformEnterprisePolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#policy_type PowerplatformEnterprisePolicy#policy_type}
   */
   readonly policyType: string;
   /**
   * Policy SystemId value in following format `/regions/<location>/providers/Microsoft.PowerPlatform/enterprisePolicies/<policyid>`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#system_id PowerplatformEnterprisePolicy#system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#system_id PowerplatformEnterprisePolicy#system_id}
   */
   readonly systemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#timeouts PowerplatformEnterprisePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#timeouts PowerplatformEnterprisePolicy#timeouts}
   */
   readonly timeouts?: PowerplatformEnterprisePolicyTimeouts;
 }
@@ -34,25 +34,25 @@ export interface PowerplatformEnterprisePolicyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#create PowerplatformEnterprisePolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#create PowerplatformEnterprisePolicy#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#delete PowerplatformEnterprisePolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#delete PowerplatformEnterprisePolicy#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#read PowerplatformEnterprisePolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#read PowerplatformEnterprisePolicy#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#update PowerplatformEnterprisePolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#update PowerplatformEnterprisePolicy#update}
   */
   readonly update?: string;
 }
@@ -233,7 +233,7 @@ export class PowerplatformEnterprisePolicyTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy powerplatform_enterprise_policy}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy powerplatform_enterprise_policy}
 */
 export class PowerplatformEnterprisePolicy extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class PowerplatformEnterprisePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PowerplatformEnterprisePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformEnterprisePolicy to import
-  * @param importFromId The id of the existing PowerplatformEnterprisePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformEnterprisePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformEnterprisePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class PowerplatformEnterprisePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_enterprise_policy powerplatform_enterprise_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_enterprise_policy powerplatform_enterprise_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class PowerplatformEnterprisePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_enterprise_policy',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

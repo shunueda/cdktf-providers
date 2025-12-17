@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account#description ServiceAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account#description ServiceAccount#description}
   */
   readonly description?: string;
   /**
   * Name of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account#name ServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account#name ServiceAccount#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account#tags ServiceAccount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account#tags ServiceAccount#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account cpln_service_account}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account cpln_service_account}
 */
 export class ServiceAccount extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccount to import
-  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/service_account cpln_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/service_account cpln_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_service_account',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.19',
-        providerVersionConstraint: '1.2.19'
+        providerVersion: '1.2.20',
+        providerVersionConstraint: '1.2.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

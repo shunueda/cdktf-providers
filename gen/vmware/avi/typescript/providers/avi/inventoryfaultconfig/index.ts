@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface InventoryfaultconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#id Inventoryfaultconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#id Inventoryfaultconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#name Inventoryfaultconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#name Inventoryfaultconfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#tenant_ref Inventoryfaultconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#tenant_ref Inventoryfaultconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#uuid Inventoryfaultconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#uuid Inventoryfaultconfig#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#configpb_attributes Inventoryfaultconfig#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#configpb_attributes Inventoryfaultconfig#configpb_attributes}
   */
   readonly configpbAttributes?: InventoryfaultconfigConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * controller_faults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#controller_faults Inventoryfaultconfig#controller_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#controller_faults Inventoryfaultconfig#controller_faults}
   */
   readonly controllerFaults?: InventoryfaultconfigControllerFaults[] | cdktf.IResolvable;
   /**
   * serviceengine_faults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#serviceengine_faults Inventoryfaultconfig#serviceengine_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#serviceengine_faults Inventoryfaultconfig#serviceengine_faults}
   */
   readonly serviceengineFaults?: InventoryfaultconfigServiceengineFaults[] | cdktf.IResolvable;
   /**
   * virtualservice_faults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#virtualservice_faults Inventoryfaultconfig#virtualservice_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#virtualservice_faults Inventoryfaultconfig#virtualservice_faults}
   */
   readonly virtualserviceFaults?: InventoryfaultconfigVirtualserviceFaults[] | cdktf.IResolvable;
 }
 export interface InventoryfaultconfigConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#version Inventoryfaultconfig#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#version Inventoryfaultconfig#version}
   */
   readonly version?: string;
 }
@@ -169,27 +169,27 @@ export class InventoryfaultconfigConfigpbAttributesList extends cdktf.ComplexLis
 }
 export interface InventoryfaultconfigControllerFaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#backup_scheduler_faults Inventoryfaultconfig#backup_scheduler_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#backup_scheduler_faults Inventoryfaultconfig#backup_scheduler_faults}
   */
   readonly backupSchedulerFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#cluster_faults Inventoryfaultconfig#cluster_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#cluster_faults Inventoryfaultconfig#cluster_faults}
   */
   readonly clusterFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#deprecated_api_version_faults Inventoryfaultconfig#deprecated_api_version_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#deprecated_api_version_faults Inventoryfaultconfig#deprecated_api_version_faults}
   */
   readonly deprecatedApiVersionFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#license_faults Inventoryfaultconfig#license_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#license_faults Inventoryfaultconfig#license_faults}
   */
   readonly licenseFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#migration_faults Inventoryfaultconfig#migration_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#migration_faults Inventoryfaultconfig#migration_faults}
   */
   readonly migrationFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#sslprofile_faults Inventoryfaultconfig#sslprofile_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#sslprofile_faults Inventoryfaultconfig#sslprofile_faults}
   */
   readonly sslprofileFaults?: string;
 }
@@ -450,7 +450,7 @@ export class InventoryfaultconfigControllerFaultsList extends cdktf.ComplexList 
 }
 export interface InventoryfaultconfigServiceengineFaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#debug_faults Inventoryfaultconfig#debug_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#debug_faults Inventoryfaultconfig#debug_faults}
   */
   readonly debugFaults?: string;
 }
@@ -566,27 +566,27 @@ export class InventoryfaultconfigServiceengineFaultsList extends cdktf.ComplexLi
 }
 export interface InventoryfaultconfigVirtualserviceFaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#debug_faults Inventoryfaultconfig#debug_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#debug_faults Inventoryfaultconfig#debug_faults}
   */
   readonly debugFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#pool_server_faults Inventoryfaultconfig#pool_server_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#pool_server_faults Inventoryfaultconfig#pool_server_faults}
   */
   readonly poolServerFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#scaleout_faults Inventoryfaultconfig#scaleout_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#scaleout_faults Inventoryfaultconfig#scaleout_faults}
   */
   readonly scaleoutFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#shared_vip_faults Inventoryfaultconfig#shared_vip_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#shared_vip_faults Inventoryfaultconfig#shared_vip_faults}
   */
   readonly sharedVipFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#ssl_cert_expiry_faults Inventoryfaultconfig#ssl_cert_expiry_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#ssl_cert_expiry_faults Inventoryfaultconfig#ssl_cert_expiry_faults}
   */
   readonly sslCertExpiryFaults?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#ssl_cert_status_faults Inventoryfaultconfig#ssl_cert_status_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#ssl_cert_status_faults Inventoryfaultconfig#ssl_cert_status_faults}
   */
   readonly sslCertStatusFaults?: string;
 }
@@ -847,7 +847,7 @@ export class InventoryfaultconfigVirtualserviceFaultsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig avi_inventoryfaultconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig avi_inventoryfaultconfig}
 */
 export class Inventoryfaultconfig extends cdktf.TerraformResource {
 
@@ -863,7 +863,7 @@ export class Inventoryfaultconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Inventoryfaultconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Inventoryfaultconfig to import
-  * @param importFromId The id of the existing Inventoryfaultconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Inventoryfaultconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Inventoryfaultconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -875,7 +875,7 @@ export class Inventoryfaultconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/inventoryfaultconfig avi_inventoryfaultconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/inventoryfaultconfig avi_inventoryfaultconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -886,8 +886,8 @@ export class Inventoryfaultconfig extends cdktf.TerraformResource {
       terraformResourceType: 'avi_inventoryfaultconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

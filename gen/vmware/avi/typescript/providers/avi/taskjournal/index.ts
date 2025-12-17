@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface TaskjournalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#id Taskjournal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#id Taskjournal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#image_ref Taskjournal#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#image_ref Taskjournal#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#name Taskjournal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#name Taskjournal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#obj_cloud_ref Taskjournal#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#obj_cloud_ref Taskjournal#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#operation Taskjournal#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#operation Taskjournal#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#patch_image_ref Taskjournal#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#patch_image_ref Taskjournal#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#tenant_ref Taskjournal#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#tenant_ref Taskjournal#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#uuid Taskjournal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#uuid Taskjournal#uuid}
   */
   readonly uuid?: string;
   /**
   * errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#errors Taskjournal#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#errors Taskjournal#errors}
   */
   readonly errors?: TaskjournalErrors[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#info Taskjournal#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#info Taskjournal#info}
   */
   readonly info?: TaskjournalInfo[] | cdktf.IResolvable;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#summary Taskjournal#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#summary Taskjournal#summary}
   */
   readonly summary: TaskjournalSummary[] | cdktf.IResolvable;
 }
 export interface TaskjournalErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#details Taskjournal#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#details Taskjournal#details}
   */
   readonly details?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#name Taskjournal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#name Taskjournal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#object Taskjournal#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#object Taskjournal#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#tenant Taskjournal#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#tenant Taskjournal#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#uuid Taskjournal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#uuid Taskjournal#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#version Taskjournal#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#version Taskjournal#version}
   */
   readonly version?: string;
 }
@@ -344,19 +344,19 @@ export class TaskjournalErrorsList extends cdktf.ComplexList {
 }
 export interface TaskjournalInfoActionsObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#failed Taskjournal#failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#failed Taskjournal#failed}
   */
   readonly failed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#model Taskjournal#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#model Taskjournal#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#skipped Taskjournal#skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#skipped Taskjournal#skipped}
   */
   readonly skipped?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#success Taskjournal#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#success Taskjournal#success}
   */
   readonly success?: string;
 }
@@ -559,13 +559,13 @@ export class TaskjournalInfoActionsObjectsList extends cdktf.ComplexList {
 }
 export interface TaskjournalInfoActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#version Taskjournal#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#version Taskjournal#version}
   */
   readonly version?: string;
   /**
   * objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#objects Taskjournal#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#objects Taskjournal#objects}
   */
   readonly objects?: TaskjournalInfoActionsObjects[] | cdktf.IResolvable;
 }
@@ -710,17 +710,17 @@ export class TaskjournalInfoActionsList extends cdktf.ComplexList {
 }
 export interface TaskjournalInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#total_objects Taskjournal#total_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#total_objects Taskjournal#total_objects}
   */
   readonly totalObjects: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#versions Taskjournal#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#versions Taskjournal#versions}
   */
   readonly versions?: string[];
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#actions Taskjournal#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#actions Taskjournal#actions}
   */
   readonly actions?: TaskjournalInfoActions[] | cdktf.IResolvable;
 }
@@ -891,35 +891,35 @@ export class TaskjournalInfoList extends cdktf.ComplexList {
 }
 export interface TaskjournalSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#description Taskjournal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#description Taskjournal#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#duration Taskjournal#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#duration Taskjournal#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#end_time Taskjournal#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#end_time Taskjournal#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#error_count Taskjournal#error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#error_count Taskjournal#error_count}
   */
   readonly errorCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#reason Taskjournal#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#reason Taskjournal#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#start_time Taskjournal#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#start_time Taskjournal#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#status Taskjournal#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#status Taskjournal#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#type Taskjournal#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#type Taskjournal#type}
   */
   readonly type: string;
 }
@@ -1235,7 +1235,7 @@ export class TaskjournalSummaryList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal avi_taskjournal}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal avi_taskjournal}
 */
 export class Taskjournal extends cdktf.TerraformResource {
 
@@ -1251,7 +1251,7 @@ export class Taskjournal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Taskjournal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Taskjournal to import
-  * @param importFromId The id of the existing Taskjournal that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Taskjournal that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Taskjournal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1263,7 +1263,7 @@ export class Taskjournal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/taskjournal avi_taskjournal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/taskjournal avi_taskjournal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1274,8 +1274,8 @@ export class Taskjournal extends cdktf.TerraformResource {
       terraformResourceType: 'avi_taskjournal',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

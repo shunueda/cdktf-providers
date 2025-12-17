@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface AwsFsxConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#aws_credentials_name AwsFsx#aws_credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#aws_credentials_name AwsFsx#aws_credentials_name}
   */
   readonly awsCredentialsName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#endpoint_ip_address_range AwsFsx#endpoint_ip_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#endpoint_ip_address_range AwsFsx#endpoint_ip_address_range}
   */
   readonly endpointIpAddressRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#file_system_id AwsFsx#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#file_system_id AwsFsx#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#fsx_admin_password AwsFsx#fsx_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#fsx_admin_password AwsFsx#fsx_admin_password}
   */
   readonly fsxAdminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#id AwsFsx#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#id AwsFsx#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#import_file_system AwsFsx#import_file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#import_file_system AwsFsx#import_file_system}
   */
   readonly importFileSystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#kms_key_id AwsFsx#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#kms_key_id AwsFsx#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#minimum_ssd_iops AwsFsx#minimum_ssd_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#minimum_ssd_iops AwsFsx#minimum_ssd_iops}
   */
   readonly minimumSsdIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#name AwsFsx#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#name AwsFsx#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#primary_subnet_id AwsFsx#primary_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#primary_subnet_id AwsFsx#primary_subnet_id}
   */
   readonly primarySubnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#region AwsFsx#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#region AwsFsx#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#route_table_ids AwsFsx#route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#route_table_ids AwsFsx#route_table_ids}
   */
   readonly routeTableIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#secondary_subnet_id AwsFsx#secondary_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#secondary_subnet_id AwsFsx#secondary_subnet_id}
   */
   readonly secondarySubnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#security_group_ids AwsFsx#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#security_group_ids AwsFsx#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#storage_capacity_size AwsFsx#storage_capacity_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#storage_capacity_size AwsFsx#storage_capacity_size}
   */
   readonly storageCapacitySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#storage_capacity_size_unit AwsFsx#storage_capacity_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#storage_capacity_size_unit AwsFsx#storage_capacity_size_unit}
   */
   readonly storageCapacitySizeUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#tenant_id AwsFsx#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#tenant_id AwsFsx#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#throughput_capacity AwsFsx#throughput_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#throughput_capacity AwsFsx#throughput_capacity}
   */
   readonly throughputCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#workspace_id AwsFsx#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#workspace_id AwsFsx#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#tags AwsFsx#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#tags AwsFsx#tags}
   */
   readonly tags?: AwsFsxTags[] | cdktf.IResolvable;
 }
 export interface AwsFsxTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#tag_key AwsFsx#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#tag_key AwsFsx#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#tag_value AwsFsx#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#tag_value AwsFsx#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -241,7 +241,7 @@ export class AwsFsxTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx netapp-cloudmanager_aws_fsx}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx netapp-cloudmanager_aws_fsx}
 */
 export class AwsFsx extends cdktf.TerraformResource {
 
@@ -257,7 +257,7 @@ export class AwsFsx extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsFsx resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsFsx to import
-  * @param importFromId The id of the existing AwsFsx that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsFsx that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsFsx to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class AwsFsx extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx netapp-cloudmanager_aws_fsx} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx netapp-cloudmanager_aws_fsx} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class AwsFsx extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_aws_fsx',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PowerplatformEnvironmentApplicationPackageInstallConfig extends
   /**
   * Id of the Dynamics 365 environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install#environment_id PowerplatformEnvironmentApplicationPackageInstall#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install#environment_id PowerplatformEnvironmentApplicationPackageInstall#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install#timeouts PowerplatformEnvironmentApplicationPackageInstall#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install#timeouts PowerplatformEnvironmentApplicationPackageInstall#timeouts}
   */
   readonly timeouts?: PowerplatformEnvironmentApplicationPackageInstallTimeouts;
   /**
   * Unique name of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install#unique_name PowerplatformEnvironmentApplicationPackageInstall#unique_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install#unique_name PowerplatformEnvironmentApplicationPackageInstall#unique_name}
   */
   readonly uniqueName: string;
 }
@@ -28,7 +28,7 @@ export interface PowerplatformEnvironmentApplicationPackageInstallTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install#create PowerplatformEnvironmentApplicationPackageInstall#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install#create PowerplatformEnvironmentApplicationPackageInstall#create}
   */
   readonly create?: string;
 }
@@ -122,7 +122,7 @@ export class PowerplatformEnvironmentApplicationPackageInstallTimeoutsOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install powerplatform_environment_application_package_install}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install powerplatform_environment_application_package_install}
 */
 export class PowerplatformEnvironmentApplicationPackageInstall extends cdktf.TerraformResource {
 
@@ -138,7 +138,7 @@ export class PowerplatformEnvironmentApplicationPackageInstall extends cdktf.Ter
   * Generates CDKTF code for importing a PowerplatformEnvironmentApplicationPackageInstall resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformEnvironmentApplicationPackageInstall to import
-  * @param importFromId The id of the existing PowerplatformEnvironmentApplicationPackageInstall that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformEnvironmentApplicationPackageInstall that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformEnvironmentApplicationPackageInstall to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +150,7 @@ export class PowerplatformEnvironmentApplicationPackageInstall extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_environment_application_package_install powerplatform_environment_application_package_install} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_environment_application_package_install powerplatform_environment_application_package_install} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +161,8 @@ export class PowerplatformEnvironmentApplicationPackageInstall extends cdktf.Ter
       terraformResourceType: 'powerplatform_environment_application_package_install',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

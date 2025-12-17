@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FailoverBackendConfig extends cdktf.TerraformMetaArguments {
   /**
   * the ids of the child backends in order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend#backends FailoverBackend#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend#backends FailoverBackend#backends}
   */
   readonly backends?: string[];
   /**
   * human-readable description of this backend. Optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend#description FailoverBackend#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend#description FailoverBackend#description}
   */
   readonly description?: string;
   /**
   * arbitrary user-defined machine-readable data of this backend. Optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend#metadata FailoverBackend#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend#metadata FailoverBackend#metadata}
   */
   readonly metadata?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend ngrok_failover_backend}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend ngrok_failover_backend}
 */
 export class FailoverBackend extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class FailoverBackend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FailoverBackend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FailoverBackend to import
-  * @param importFromId The id of the existing FailoverBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FailoverBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FailoverBackend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FailoverBackend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/failover_backend ngrok_failover_backend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/failover_backend ngrok_failover_backend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class FailoverBackend extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_failover_backend',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

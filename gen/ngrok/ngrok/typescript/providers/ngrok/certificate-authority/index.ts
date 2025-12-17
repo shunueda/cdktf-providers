@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CertificateAuthorityConfig extends cdktf.TerraformMetaArguments
   /**
   * raw PEM of the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority#ca_pem CertificateAuthority#ca_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority#ca_pem CertificateAuthority#ca_pem}
   */
   readonly caPem: string;
   /**
   * human-readable description of this Certificate Authority. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority#description CertificateAuthority#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority#description CertificateAuthority#description}
   */
   readonly description?: string;
   /**
   * arbitrary user-defined machine-readable data of this Certificate Authority. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority#metadata CertificateAuthority#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority#metadata CertificateAuthority#metadata}
   */
   readonly metadata?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority ngrok_certificate_authority}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority ngrok_certificate_authority}
 */
 export class CertificateAuthority extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CertificateAuthority extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CertificateAuthority resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificateAuthority to import
-  * @param importFromId The id of the existing CertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificateAuthority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CertificateAuthority extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/certificate_authority ngrok_certificate_authority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/certificate_authority ngrok_certificate_authority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CertificateAuthority extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_certificate_authority',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface TenantsystemconfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#dns_virtualservice_refs Tenantsystemconfiguration#dns_virtualservice_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#dns_virtualservice_refs Tenantsystemconfiguration#dns_virtualservice_refs}
   */
   readonly dnsVirtualserviceRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#id Tenantsystemconfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#id Tenantsystemconfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#name Tenantsystemconfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#name Tenantsystemconfiguration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#tenant_ref Tenantsystemconfiguration#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#tenant_ref Tenantsystemconfiguration#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#uuid Tenantsystemconfiguration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#uuid Tenantsystemconfiguration#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#configpb_attributes Tenantsystemconfiguration#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#configpb_attributes Tenantsystemconfiguration#configpb_attributes}
   */
   readonly configpbAttributes?: TenantsystemconfigurationConfigpbAttributes[] | cdktf.IResolvable;
 }
 export interface TenantsystemconfigurationConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#version Tenantsystemconfiguration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#version Tenantsystemconfiguration#version}
   */
   readonly version?: string;
 }
@@ -155,7 +155,7 @@ export class TenantsystemconfigurationConfigpbAttributesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration avi_tenantsystemconfiguration}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration avi_tenantsystemconfiguration}
 */
 export class Tenantsystemconfiguration extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class Tenantsystemconfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tenantsystemconfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tenantsystemconfiguration to import
-  * @param importFromId The id of the existing Tenantsystemconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tenantsystemconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tenantsystemconfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class Tenantsystemconfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/tenantsystemconfiguration avi_tenantsystemconfiguration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/tenantsystemconfiguration avi_tenantsystemconfiguration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class Tenantsystemconfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'avi_tenantsystemconfiguration',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs
+// https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OnepasswordProviderConfig {
   /**
   * A valid account name or ID to use desktop app authentication. Can also be sourced from `OP_ACCOUNT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#account OnepasswordProvider#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#account OnepasswordProvider#account}
   */
   readonly account?: string;
   /**
   * A valid token for your 1Password Connect server. Can also be sourced from `OP_CONNECT_TOKEN` environment variable. Provider will use 1Password Connect server if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#connect_token OnepasswordProvider#connect_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#connect_token OnepasswordProvider#connect_token}
   */
   readonly connectToken?: string;
   /**
   * The HTTP(S) URL where your 1Password Connect server can be found. Can also be sourced `OP_CONNECT_HOST` environment variable. Provider will use 1Password Connect server if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#connect_url OnepasswordProvider#connect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#connect_url OnepasswordProvider#connect_url}
   */
   readonly connectUrl?: string;
   /**
   * A valid 1Password service account token. Can also be sourced from `OP_SERVICE_ACCOUNT_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#service_account_token OnepasswordProvider#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#service_account_token OnepasswordProvider#service_account_token}
   */
   readonly serviceAccountToken?: string;
   /**
   * A valid token for your 1Password Connect server. Can also be sourced from `OP_CONNECT_TOKEN` environment variable. Provider will use 1Password Connect server if set. Deprecated: Use `connect_token` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#token OnepasswordProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#token OnepasswordProvider#token}
   */
   readonly token?: string;
   /**
   * The HTTP(S) URL where your 1Password Connect server can be found. Can also be sourced `OP_CONNECT_HOST` environment variable. Provider will use 1Password Connect server if set. Deprecated: Use `connect_url` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#url OnepasswordProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#url OnepasswordProvider#url}
   */
   readonly url?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#alias OnepasswordProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#alias OnepasswordProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs onepassword}
+* Represents a {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs onepassword}
 */
 export class OnepasswordProvider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OnepasswordProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OnepasswordProvider to import
-  * @param importFromId The id of the existing OnepasswordProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OnepasswordProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OnepasswordProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/3.0.0/docs onepassword} Resource
+  * Create a new {@link https://registry.terraform.io/providers/1password/onepassword/3.0.1/docs onepassword} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class OnepasswordProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'onepassword',
       terraformGeneratorMetadata: {
         providerName: 'onepassword',
-        providerVersion: '3.0.0',
-        providerVersionConstraint: '3.0.0'
+        providerVersion: '3.0.1',
+        providerVersionConstraint: '3.0.1'
       },
       terraformProviderSource: '1Password/onepassword'
     });

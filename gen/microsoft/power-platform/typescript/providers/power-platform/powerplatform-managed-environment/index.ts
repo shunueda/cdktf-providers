@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface PowerplatformManagedEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Allow Power Automate Copilot to grant `Editor` permissions when agent is shared. See [Agent sharing rules](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits?tabs=new#agent-sharing-rules) for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#copilot_allow_grant_editor_permissions_when_shared PowerplatformManagedEnvironment#copilot_allow_grant_editor_permissions_when_shared}
+  */
+  readonly copilotAllowGrantEditorPermissionsWhenShared?: boolean | cdktf.IResolvable;
+  /**
+  * Limits how widely Copilot agents can be shared. Value `DisableSharing` will block granting `Viewer` permissions when sharing the agent. See [Agent sharing rules](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits?tabs=new#agent-sharing-rules) for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#copilot_limit_sharing_mode PowerplatformManagedEnvironment#copilot_limit_sharing_mode}
+  */
+  readonly copilotLimitSharingMode?: string;
+  /**
+  * Limits how many users can share copilot agents. If 'is_group_sharing_disabled' is 'False', then this value should be '-1'. See [Agent sharing rules](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits?tabs=new#agent-sharing-rules) for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#copilot_max_limit_user_sharing PowerplatformManagedEnvironment#copilot_max_limit_user_sharing}
+  */
+  readonly copilotMaxLimitUserSharing?: number;
+  /**
   * Unique environment id (guid), of the environment that is managed by these settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#environment_id PowerplatformManagedEnvironment#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#environment_id PowerplatformManagedEnvironment#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Limits how widely canvas apps can be shared. See [Managed Environment sharing limits](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits) for more details.
+  * Limits how widely canvas apps can be shared. See [Managed Environment sharing limits](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits?tabs=new#canvas-app-sharing-rules) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#is_group_sharing_disabled PowerplatformManagedEnvironment#is_group_sharing_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#is_group_sharing_disabled PowerplatformManagedEnvironment#is_group_sharing_disabled}
   */
   readonly isGroupSharingDisabled: boolean | cdktf.IResolvable;
   /**
   * [Weekly insights digest for the environment](https://learn.microsoft.com/power-platform/admin/managed-environment-usage-insights)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#is_usage_insights_disabled PowerplatformManagedEnvironment#is_usage_insights_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#is_usage_insights_disabled PowerplatformManagedEnvironment#is_usage_insights_disabled}
   */
   readonly isUsageInsightsDisabled: boolean | cdktf.IResolvable;
   /**
-  * Limits how widely canvas apps can be shared.  See [Managed Environment sharing limits](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits) for more details
+  * Limits how widely canvas apps can be shared. See [Managed Environment sharing limits](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits?tabs=new#canvas-app-sharing-rules) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#limit_sharing_mode PowerplatformManagedEnvironment#limit_sharing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#limit_sharing_mode PowerplatformManagedEnvironment#limit_sharing_mode}
   */
   readonly limitSharingMode: string;
   /**
-  * First-time Power Apps makers will see this content in the Studio.  See [Maker welcome content](https://learn.microsoft.com/power-platform/admin/welcome-content) for more details.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#maker_onboarding_markdown PowerplatformManagedEnvironment#maker_onboarding_markdown}
-  */
-  readonly makerOnboardingMarkdown: string;
-  /**
-  * Maker onboarding 'Learn more' URL. See [Maker welcome content](https://learn.microsoft.com/power-platform/admin/welcome-content) for more details.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#maker_onboarding_url PowerplatformManagedEnvironment#maker_onboarding_url}
-  */
-  readonly makerOnboardingUrl: string;
-  /**
   * Limits how many users can share canvas apps. if 'is_group_sharing_disabled' is 'False', then this values should be '-1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#max_limit_user_sharing PowerplatformManagedEnvironment#max_limit_user_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#max_limit_user_sharing PowerplatformManagedEnvironment#max_limit_user_sharing}
   */
   readonly maxLimitUserSharing: number;
   /**
-  * Automatically verify solution checker results for security and reliability issues before solution import.  See [Solution Checker enforcement](https://learn.microsoft.com/power-platform/admin/managed-environment-solution-checker) for more details.
+  * If set to `true`, sharing of solution-aware cloud flows is disabled. If set to `false`, people can share solution-aware cloud flows. See [Solution-aware cloud flow sharing rules](https://learn.microsoft.com/power-platform/admin/managed-environment-sharing-limits?tabs=new#solution-aware-cloud-flow-sharing-rules) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#solution_checker_mode PowerplatformManagedEnvironment#solution_checker_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#power_automate_is_sharing_disabled PowerplatformManagedEnvironment#power_automate_is_sharing_disabled}
+  */
+  readonly powerAutomateIsSharingDisabled?: boolean | cdktf.IResolvable;
+  /**
+  * Automatically verify solution checker results for security and reliability issues before solution import. See [Solution Checker enforcement](https://learn.microsoft.com/power-platform/admin/managed-environment-solution-checker) for more details.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#solution_checker_mode PowerplatformManagedEnvironment#solution_checker_mode}
   */
   readonly solutionCheckerMode: string;
   /**
@@ -156,17 +168,17 @@ export interface PowerplatformManagedEnvironmentConfig extends cdktf.TerraformMe
   * [Solution Checker enforcement](https://learn.microsoft.com/power-platform/admin/managed-environment-solution-checker).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#solution_checker_rule_overrides PowerplatformManagedEnvironment#solution_checker_rule_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#solution_checker_rule_overrides PowerplatformManagedEnvironment#solution_checker_rule_overrides}
   */
   readonly solutionCheckerRuleOverrides?: string[];
   /**
   * Send emails only when a solution is blocked. If 'False', you'll also get emails when there are warnings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#suppress_validation_emails PowerplatformManagedEnvironment#suppress_validation_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#suppress_validation_emails PowerplatformManagedEnvironment#suppress_validation_emails}
   */
   readonly suppressValidationEmails: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#timeouts PowerplatformManagedEnvironment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#timeouts PowerplatformManagedEnvironment#timeouts}
   */
   readonly timeouts?: PowerplatformManagedEnvironmentTimeouts;
 }
@@ -174,25 +186,25 @@ export interface PowerplatformManagedEnvironmentTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#create PowerplatformManagedEnvironment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#create PowerplatformManagedEnvironment#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#delete PowerplatformManagedEnvironment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#delete PowerplatformManagedEnvironment#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#read PowerplatformManagedEnvironment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#read PowerplatformManagedEnvironment#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#update PowerplatformManagedEnvironment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#update PowerplatformManagedEnvironment#update}
   */
   readonly update?: string;
 }
@@ -373,7 +385,7 @@ export class PowerplatformManagedEnvironmentTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment powerplatform_managed_environment}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment powerplatform_managed_environment}
 */
 export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
 
@@ -389,7 +401,7 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PowerplatformManagedEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformManagedEnvironment to import
-  * @param importFromId The id of the existing PowerplatformManagedEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformManagedEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformManagedEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +413,7 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_managed_environment powerplatform_managed_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_managed_environment powerplatform_managed_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +424,8 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_managed_environment',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -423,13 +435,15 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._copilotAllowGrantEditorPermissionsWhenShared = config.copilotAllowGrantEditorPermissionsWhenShared;
+    this._copilotLimitSharingMode = config.copilotLimitSharingMode;
+    this._copilotMaxLimitUserSharing = config.copilotMaxLimitUserSharing;
     this._environmentId = config.environmentId;
     this._isGroupSharingDisabled = config.isGroupSharingDisabled;
     this._isUsageInsightsDisabled = config.isUsageInsightsDisabled;
     this._limitSharingMode = config.limitSharingMode;
-    this._makerOnboardingMarkdown = config.makerOnboardingMarkdown;
-    this._makerOnboardingUrl = config.makerOnboardingUrl;
     this._maxLimitUserSharing = config.maxLimitUserSharing;
+    this._powerAutomateIsSharingDisabled = config.powerAutomateIsSharingDisabled;
     this._solutionCheckerMode = config.solutionCheckerMode;
     this._solutionCheckerRuleOverrides = config.solutionCheckerRuleOverrides;
     this._suppressValidationEmails = config.suppressValidationEmails;
@@ -439,6 +453,54 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // copilot_allow_grant_editor_permissions_when_shared - computed: true, optional: true, required: false
+  private _copilotAllowGrantEditorPermissionsWhenShared?: boolean | cdktf.IResolvable; 
+  public get copilotAllowGrantEditorPermissionsWhenShared() {
+    return this.getBooleanAttribute('copilot_allow_grant_editor_permissions_when_shared');
+  }
+  public set copilotAllowGrantEditorPermissionsWhenShared(value: boolean | cdktf.IResolvable) {
+    this._copilotAllowGrantEditorPermissionsWhenShared = value;
+  }
+  public resetCopilotAllowGrantEditorPermissionsWhenShared() {
+    this._copilotAllowGrantEditorPermissionsWhenShared = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get copilotAllowGrantEditorPermissionsWhenSharedInput() {
+    return this._copilotAllowGrantEditorPermissionsWhenShared;
+  }
+
+  // copilot_limit_sharing_mode - computed: true, optional: true, required: false
+  private _copilotLimitSharingMode?: string; 
+  public get copilotLimitSharingMode() {
+    return this.getStringAttribute('copilot_limit_sharing_mode');
+  }
+  public set copilotLimitSharingMode(value: string) {
+    this._copilotLimitSharingMode = value;
+  }
+  public resetCopilotLimitSharingMode() {
+    this._copilotLimitSharingMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get copilotLimitSharingModeInput() {
+    return this._copilotLimitSharingMode;
+  }
+
+  // copilot_max_limit_user_sharing - computed: true, optional: true, required: false
+  private _copilotMaxLimitUserSharing?: number; 
+  public get copilotMaxLimitUserSharing() {
+    return this.getNumberAttribute('copilot_max_limit_user_sharing');
+  }
+  public set copilotMaxLimitUserSharing(value: number) {
+    this._copilotMaxLimitUserSharing = value;
+  }
+  public resetCopilotMaxLimitUserSharing() {
+    this._copilotMaxLimitUserSharing = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get copilotMaxLimitUserSharingInput() {
+    return this._copilotMaxLimitUserSharing;
+  }
 
   // environment_id - computed: false, optional: false, required: true
   private _environmentId?: string; 
@@ -497,32 +559,6 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
     return this._limitSharingMode;
   }
 
-  // maker_onboarding_markdown - computed: false, optional: false, required: true
-  private _makerOnboardingMarkdown?: string; 
-  public get makerOnboardingMarkdown() {
-    return this.getStringAttribute('maker_onboarding_markdown');
-  }
-  public set makerOnboardingMarkdown(value: string) {
-    this._makerOnboardingMarkdown = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get makerOnboardingMarkdownInput() {
-    return this._makerOnboardingMarkdown;
-  }
-
-  // maker_onboarding_url - computed: false, optional: false, required: true
-  private _makerOnboardingUrl?: string; 
-  public get makerOnboardingUrl() {
-    return this.getStringAttribute('maker_onboarding_url');
-  }
-  public set makerOnboardingUrl(value: string) {
-    this._makerOnboardingUrl = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get makerOnboardingUrlInput() {
-    return this._makerOnboardingUrl;
-  }
-
   // max_limit_user_sharing - computed: false, optional: false, required: true
   private _maxLimitUserSharing?: number; 
   public get maxLimitUserSharing() {
@@ -534,6 +570,22 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get maxLimitUserSharingInput() {
     return this._maxLimitUserSharing;
+  }
+
+  // power_automate_is_sharing_disabled - computed: true, optional: true, required: false
+  private _powerAutomateIsSharingDisabled?: boolean | cdktf.IResolvable; 
+  public get powerAutomateIsSharingDisabled() {
+    return this.getBooleanAttribute('power_automate_is_sharing_disabled');
+  }
+  public set powerAutomateIsSharingDisabled(value: boolean | cdktf.IResolvable) {
+    this._powerAutomateIsSharingDisabled = value;
+  }
+  public resetPowerAutomateIsSharingDisabled() {
+    this._powerAutomateIsSharingDisabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get powerAutomateIsSharingDisabledInput() {
+    return this._powerAutomateIsSharingDisabled;
   }
 
   // protection_level - computed: true, optional: false, required: false
@@ -605,13 +657,15 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      copilot_allow_grant_editor_permissions_when_shared: cdktf.booleanToTerraform(this._copilotAllowGrantEditorPermissionsWhenShared),
+      copilot_limit_sharing_mode: cdktf.stringToTerraform(this._copilotLimitSharingMode),
+      copilot_max_limit_user_sharing: cdktf.numberToTerraform(this._copilotMaxLimitUserSharing),
       environment_id: cdktf.stringToTerraform(this._environmentId),
       is_group_sharing_disabled: cdktf.booleanToTerraform(this._isGroupSharingDisabled),
       is_usage_insights_disabled: cdktf.booleanToTerraform(this._isUsageInsightsDisabled),
       limit_sharing_mode: cdktf.stringToTerraform(this._limitSharingMode),
-      maker_onboarding_markdown: cdktf.stringToTerraform(this._makerOnboardingMarkdown),
-      maker_onboarding_url: cdktf.stringToTerraform(this._makerOnboardingUrl),
       max_limit_user_sharing: cdktf.numberToTerraform(this._maxLimitUserSharing),
+      power_automate_is_sharing_disabled: cdktf.booleanToTerraform(this._powerAutomateIsSharingDisabled),
       solution_checker_mode: cdktf.stringToTerraform(this._solutionCheckerMode),
       solution_checker_rule_overrides: cdktf.listMapper(cdktf.stringToTerraform, false)(this._solutionCheckerRuleOverrides),
       suppress_validation_emails: cdktf.booleanToTerraform(this._suppressValidationEmails),
@@ -621,6 +675,24 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      copilot_allow_grant_editor_permissions_when_shared: {
+        value: cdktf.booleanToHclTerraform(this._copilotAllowGrantEditorPermissionsWhenShared),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      copilot_limit_sharing_mode: {
+        value: cdktf.stringToHclTerraform(this._copilotLimitSharingMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      copilot_max_limit_user_sharing: {
+        value: cdktf.numberToHclTerraform(this._copilotMaxLimitUserSharing),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       environment_id: {
         value: cdktf.stringToHclTerraform(this._environmentId),
         isBlock: false,
@@ -645,23 +717,17 @@ export class PowerplatformManagedEnvironment extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      maker_onboarding_markdown: {
-        value: cdktf.stringToHclTerraform(this._makerOnboardingMarkdown),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      maker_onboarding_url: {
-        value: cdktf.stringToHclTerraform(this._makerOnboardingUrl),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       max_limit_user_sharing: {
         value: cdktf.numberToHclTerraform(this._maxLimitUserSharing),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      power_automate_is_sharing_disabled: {
+        value: cdktf.booleanToHclTerraform(this._powerAutomateIsSharingDisabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       solution_checker_mode: {
         value: cdktf.stringToHclTerraform(this._solutionCheckerMode),

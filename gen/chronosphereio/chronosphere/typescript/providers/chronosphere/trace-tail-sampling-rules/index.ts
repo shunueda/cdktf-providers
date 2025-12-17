@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TraceTailSamplingRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#id TraceTailSamplingRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#id TraceTailSamplingRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,23 +17,23 @@ export interface TraceTailSamplingRulesConfig extends cdktf.TerraformMetaArgumen
   /**
   * default_sample_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#default_sample_rate TraceTailSamplingRules#default_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#default_sample_rate TraceTailSamplingRules#default_sample_rate}
   */
   readonly defaultSampleRate?: TraceTailSamplingRulesDefaultSampleRate;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#rules TraceTailSamplingRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#rules TraceTailSamplingRules#rules}
   */
   readonly rules?: TraceTailSamplingRulesRules[] | cdktf.IResolvable;
 }
 export interface TraceTailSamplingRulesDefaultSampleRate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#enabled TraceTailSamplingRules#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#enabled TraceTailSamplingRules#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#sample_rate TraceTailSamplingRules#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#sample_rate TraceTailSamplingRules#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -143,11 +143,11 @@ export class TraceTailSamplingRulesDefaultSampleRateOutputReference extends cdkt
 }
 export interface TraceTailSamplingRulesRulesFilterSpanDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#max_secs TraceTailSamplingRules#max_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#max_secs TraceTailSamplingRules#max_secs}
   */
   readonly maxSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#min_secs TraceTailSamplingRules#min_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#min_secs TraceTailSamplingRules#min_secs}
   */
   readonly minSecs?: number;
 }
@@ -260,7 +260,7 @@ export class TraceTailSamplingRulesRulesFilterSpanDurationOutputReference extend
 }
 export interface TraceTailSamplingRulesRulesFilterSpanError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -341,7 +341,7 @@ export class TraceTailSamplingRulesRulesFilterSpanErrorOutputReference extends c
 }
 export interface TraceTailSamplingRulesRulesFilterSpanIsRootSpan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -422,15 +422,15 @@ export class TraceTailSamplingRulesRulesFilterSpanIsRootSpanOutputReference exte
 }
 export interface TraceTailSamplingRulesRulesFilterSpanOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value?: string;
 }
@@ -572,15 +572,15 @@ export class TraceTailSamplingRulesRulesFilterSpanOperationOutputReference exten
 }
 export interface TraceTailSamplingRulesRulesFilterSpanParentOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value?: string;
 }
@@ -722,15 +722,15 @@ export class TraceTailSamplingRulesRulesFilterSpanParentOperationOutputReference
 }
 export interface TraceTailSamplingRulesRulesFilterSpanParentService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value?: string;
 }
@@ -872,15 +872,15 @@ export class TraceTailSamplingRulesRulesFilterSpanParentServiceOutputReference e
 }
 export interface TraceTailSamplingRulesRulesFilterSpanService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value?: string;
 }
@@ -1022,11 +1022,11 @@ export class TraceTailSamplingRulesRulesFilterSpanServiceOutputReference extends
 }
 export interface TraceTailSamplingRulesRulesFilterSpanSpanCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#max TraceTailSamplingRules#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#max TraceTailSamplingRules#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#min TraceTailSamplingRules#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#min TraceTailSamplingRules#min}
   */
   readonly min?: number;
 }
@@ -1139,11 +1139,11 @@ export class TraceTailSamplingRulesRulesFilterSpanSpanCountOutputReference exten
 }
 export interface TraceTailSamplingRulesRulesFilterSpanTagNumericValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#comparison TraceTailSamplingRules#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#comparison TraceTailSamplingRules#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value: number;
 }
@@ -1250,15 +1250,15 @@ export class TraceTailSamplingRulesRulesFilterSpanTagNumericValueOutputReference
 }
 export interface TraceTailSamplingRulesRulesFilterSpanTagValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#in_values TraceTailSamplingRules#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#match TraceTailSamplingRules#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value?: string;
 }
@@ -1400,19 +1400,19 @@ export class TraceTailSamplingRulesRulesFilterSpanTagValueOutputReference extend
 }
 export interface TraceTailSamplingRulesRulesFilterSpanTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#key TraceTailSamplingRules#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#key TraceTailSamplingRules#key}
   */
   readonly key?: string;
   /**
   * numeric_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#numeric_value TraceTailSamplingRules#numeric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#numeric_value TraceTailSamplingRules#numeric_value}
   */
   readonly numericValue?: TraceTailSamplingRulesRulesFilterSpanTagNumericValue;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value?: TraceTailSamplingRulesRulesFilterSpanTagValue;
 }
@@ -1586,61 +1586,61 @@ export class TraceTailSamplingRulesRulesFilterSpanTagList extends cdktf.ComplexL
 }
 export interface TraceTailSamplingRulesRulesFilterSpan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#match_type TraceTailSamplingRules#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#match_type TraceTailSamplingRules#match_type}
   */
   readonly matchType?: string;
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#duration TraceTailSamplingRules#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#duration TraceTailSamplingRules#duration}
   */
   readonly duration?: TraceTailSamplingRulesRulesFilterSpanDuration;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#error TraceTailSamplingRules#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#error TraceTailSamplingRules#error}
   */
   readonly error?: TraceTailSamplingRulesRulesFilterSpanError;
   /**
   * is_root_span block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#is_root_span TraceTailSamplingRules#is_root_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#is_root_span TraceTailSamplingRules#is_root_span}
   */
   readonly isRootSpan?: TraceTailSamplingRulesRulesFilterSpanIsRootSpan;
   /**
   * operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#operation TraceTailSamplingRules#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#operation TraceTailSamplingRules#operation}
   */
   readonly operation?: TraceTailSamplingRulesRulesFilterSpanOperation;
   /**
   * parent_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#parent_operation TraceTailSamplingRules#parent_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#parent_operation TraceTailSamplingRules#parent_operation}
   */
   readonly parentOperation?: TraceTailSamplingRulesRulesFilterSpanParentOperation;
   /**
   * parent_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#parent_service TraceTailSamplingRules#parent_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#parent_service TraceTailSamplingRules#parent_service}
   */
   readonly parentService?: TraceTailSamplingRulesRulesFilterSpanParentService;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#service TraceTailSamplingRules#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#service TraceTailSamplingRules#service}
   */
   readonly service?: TraceTailSamplingRulesRulesFilterSpanService;
   /**
   * span_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#span_count TraceTailSamplingRules#span_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#span_count TraceTailSamplingRules#span_count}
   */
   readonly spanCount?: TraceTailSamplingRulesRulesFilterSpanSpanCount;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#tag TraceTailSamplingRules#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#tag TraceTailSamplingRules#tag}
   */
   readonly tag?: TraceTailSamplingRulesRulesFilterSpanTag[] | cdktf.IResolvable;
 }
@@ -2017,11 +2017,11 @@ export class TraceTailSamplingRulesRulesFilterSpanList extends cdktf.ComplexList
 }
 export interface TraceTailSamplingRulesRulesFilterTraceDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#max_secs TraceTailSamplingRules#max_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#max_secs TraceTailSamplingRules#max_secs}
   */
   readonly maxSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#min_secs TraceTailSamplingRules#min_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#min_secs TraceTailSamplingRules#min_secs}
   */
   readonly minSecs?: number;
 }
@@ -2134,7 +2134,7 @@ export class TraceTailSamplingRulesRulesFilterTraceDurationOutputReference exten
 }
 export interface TraceTailSamplingRulesRulesFilterTraceError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#value TraceTailSamplingRules#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2217,13 +2217,13 @@ export interface TraceTailSamplingRulesRulesFilterTrace {
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#duration TraceTailSamplingRules#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#duration TraceTailSamplingRules#duration}
   */
   readonly duration?: TraceTailSamplingRulesRulesFilterTraceDuration;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#error TraceTailSamplingRules#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#error TraceTailSamplingRules#error}
   */
   readonly error?: TraceTailSamplingRulesRulesFilterTraceError;
 }
@@ -2338,13 +2338,13 @@ export interface TraceTailSamplingRulesRulesFilter {
   /**
   * span block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#span TraceTailSamplingRules#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#span TraceTailSamplingRules#span}
   */
   readonly span?: TraceTailSamplingRulesRulesFilterSpan[] | cdktf.IResolvable;
   /**
   * trace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#trace TraceTailSamplingRules#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#trace TraceTailSamplingRules#trace}
   */
   readonly trace?: TraceTailSamplingRulesRulesFilterTrace;
 }
@@ -2457,21 +2457,21 @@ export class TraceTailSamplingRulesRulesFilterOutputReference extends cdktf.Comp
 }
 export interface TraceTailSamplingRulesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#name TraceTailSamplingRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#name TraceTailSamplingRules#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#sample_rate TraceTailSamplingRules#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#sample_rate TraceTailSamplingRules#sample_rate}
   */
   readonly sampleRate: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#system_name TraceTailSamplingRules#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#system_name TraceTailSamplingRules#system_name}
   */
   readonly systemName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#filter TraceTailSamplingRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#filter TraceTailSamplingRules#filter}
   */
   readonly filter: TraceTailSamplingRulesRulesFilter;
 }
@@ -2668,7 +2668,7 @@ export class TraceTailSamplingRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules chronosphere_trace_tail_sampling_rules}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules chronosphere_trace_tail_sampling_rules}
 */
 export class TraceTailSamplingRules extends cdktf.TerraformResource {
 
@@ -2684,7 +2684,7 @@ export class TraceTailSamplingRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TraceTailSamplingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TraceTailSamplingRules to import
-  * @param importFromId The id of the existing TraceTailSamplingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TraceTailSamplingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TraceTailSamplingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2696,7 +2696,7 @@ export class TraceTailSamplingRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_tail_sampling_rules chronosphere_trace_tail_sampling_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_tail_sampling_rules chronosphere_trace_tail_sampling_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2707,8 +2707,8 @@ export class TraceTailSamplingRules extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_trace_tail_sampling_rules',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

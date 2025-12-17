@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface StatediffsnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#gslb_name Statediffsnapshot#gslb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#gslb_name Statediffsnapshot#gslb_name}
   */
   readonly gslbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#gslb_uuid Statediffsnapshot#gslb_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#gslb_uuid Statediffsnapshot#gslb_uuid}
   */
   readonly gslbUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#id Statediffsnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#id Statediffsnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#name Statediffsnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#name Statediffsnapshot#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#pool_name Statediffsnapshot#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#pool_name Statediffsnapshot#pool_name}
   */
   readonly poolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#pool_uuid Statediffsnapshot#pool_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#pool_uuid Statediffsnapshot#pool_uuid}
   */
   readonly poolUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#se_group_name Statediffsnapshot#se_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#se_group_name Statediffsnapshot#se_group_name}
   */
   readonly seGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#se_group_uuid Statediffsnapshot#se_group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#se_group_uuid Statediffsnapshot#se_group_uuid}
   */
   readonly seGroupUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#se_name Statediffsnapshot#se_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#se_name Statediffsnapshot#se_name}
   */
   readonly seName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#se_uuid Statediffsnapshot#se_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#se_uuid Statediffsnapshot#se_uuid}
   */
   readonly seUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#snapshot_type Statediffsnapshot#snapshot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#snapshot_type Statediffsnapshot#snapshot_type}
   */
   readonly snapshotType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#statediff_operation_ref Statediffsnapshot#statediff_operation_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#statediff_operation_ref Statediffsnapshot#statediff_operation_ref}
   */
   readonly statediffOperationRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#tenant_ref Statediffsnapshot#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#tenant_ref Statediffsnapshot#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#uuid Statediffsnapshot#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#uuid Statediffsnapshot#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#vs_name Statediffsnapshot#vs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#vs_name Statediffsnapshot#vs_name}
   */
   readonly vsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#vs_uuid Statediffsnapshot#vs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#vs_uuid Statediffsnapshot#vs_uuid}
   */
   readonly vsUuid?: string;
   /**
   * post_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#post_snapshot Statediffsnapshot#post_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#post_snapshot Statediffsnapshot#post_snapshot}
   */
   readonly postSnapshot?: StatediffsnapshotPostSnapshot[] | cdktf.IResolvable;
   /**
   * pre_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#pre_snapshot Statediffsnapshot#pre_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#pre_snapshot Statediffsnapshot#pre_snapshot}
   */
   readonly preSnapshot?: StatediffsnapshotPreSnapshot[] | cdktf.IResolvable;
 }
 export interface StatediffsnapshotPostSnapshotGssnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -232,25 +232,25 @@ export class StatediffsnapshotPostSnapshotGssnapshotOperStatusLastChangedTimeLis
 }
 export interface StatediffsnapshotPostSnapshotGssnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPostSnapshotGssnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -484,7 +484,7 @@ export interface StatediffsnapshotPostSnapshotGssnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPostSnapshotGssnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -600,11 +600,11 @@ export class StatediffsnapshotPostSnapshotGssnapshotList extends cdktf.ComplexLi
 }
 export interface StatediffsnapshotPostSnapshotPoolsnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -743,25 +743,25 @@ export class StatediffsnapshotPostSnapshotPoolsnapshotOperStatusLastChangedTimeL
 }
 export interface StatediffsnapshotPostSnapshotPoolsnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPostSnapshotPoolsnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -995,7 +995,7 @@ export interface StatediffsnapshotPostSnapshotPoolsnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPostSnapshotPoolsnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -1111,11 +1111,11 @@ export class StatediffsnapshotPostSnapshotPoolsnapshotList extends cdktf.Complex
 }
 export interface StatediffsnapshotPostSnapshotSesnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -1254,25 +1254,25 @@ export class StatediffsnapshotPostSnapshotSesnapshotOperStatusLastChangedTimeLis
 }
 export interface StatediffsnapshotPostSnapshotSesnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPostSnapshotSesnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -1506,7 +1506,7 @@ export interface StatediffsnapshotPostSnapshotSesnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPostSnapshotSesnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -1622,11 +1622,11 @@ export class StatediffsnapshotPostSnapshotSesnapshotList extends cdktf.ComplexLi
 }
 export interface StatediffsnapshotPostSnapshotVssnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -1765,25 +1765,25 @@ export class StatediffsnapshotPostSnapshotVssnapshotOperStatusLastChangedTimeLis
 }
 export interface StatediffsnapshotPostSnapshotVssnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPostSnapshotVssnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -2017,7 +2017,7 @@ export interface StatediffsnapshotPostSnapshotVssnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPostSnapshotVssnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -2135,25 +2135,25 @@ export interface StatediffsnapshotPostSnapshot {
   /**
   * gssnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#gssnapshot Statediffsnapshot#gssnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#gssnapshot Statediffsnapshot#gssnapshot}
   */
   readonly gssnapshot?: StatediffsnapshotPostSnapshotGssnapshot[] | cdktf.IResolvable;
   /**
   * poolsnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#poolsnapshot Statediffsnapshot#poolsnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#poolsnapshot Statediffsnapshot#poolsnapshot}
   */
   readonly poolsnapshot?: StatediffsnapshotPostSnapshotPoolsnapshot[] | cdktf.IResolvable;
   /**
   * sesnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#sesnapshot Statediffsnapshot#sesnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#sesnapshot Statediffsnapshot#sesnapshot}
   */
   readonly sesnapshot?: StatediffsnapshotPostSnapshotSesnapshot[] | cdktf.IResolvable;
   /**
   * vssnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#vssnapshot Statediffsnapshot#vssnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#vssnapshot Statediffsnapshot#vssnapshot}
   */
   readonly vssnapshot?: StatediffsnapshotPostSnapshotVssnapshot[] | cdktf.IResolvable;
 }
@@ -2356,11 +2356,11 @@ export class StatediffsnapshotPostSnapshotList extends cdktf.ComplexList {
 }
 export interface StatediffsnapshotPreSnapshotGssnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -2499,25 +2499,25 @@ export class StatediffsnapshotPreSnapshotGssnapshotOperStatusLastChangedTimeList
 }
 export interface StatediffsnapshotPreSnapshotGssnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPreSnapshotGssnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -2751,7 +2751,7 @@ export interface StatediffsnapshotPreSnapshotGssnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPreSnapshotGssnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -2867,11 +2867,11 @@ export class StatediffsnapshotPreSnapshotGssnapshotList extends cdktf.ComplexLis
 }
 export interface StatediffsnapshotPreSnapshotPoolsnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -3010,25 +3010,25 @@ export class StatediffsnapshotPreSnapshotPoolsnapshotOperStatusLastChangedTimeLi
 }
 export interface StatediffsnapshotPreSnapshotPoolsnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPreSnapshotPoolsnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -3262,7 +3262,7 @@ export interface StatediffsnapshotPreSnapshotPoolsnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPreSnapshotPoolsnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -3378,11 +3378,11 @@ export class StatediffsnapshotPreSnapshotPoolsnapshotList extends cdktf.ComplexL
 }
 export interface StatediffsnapshotPreSnapshotSesnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -3521,25 +3521,25 @@ export class StatediffsnapshotPreSnapshotSesnapshotOperStatusLastChangedTimeList
 }
 export interface StatediffsnapshotPreSnapshotSesnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPreSnapshotSesnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -3773,7 +3773,7 @@ export interface StatediffsnapshotPreSnapshotSesnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPreSnapshotSesnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -3889,11 +3889,11 @@ export class StatediffsnapshotPreSnapshotSesnapshotList extends cdktf.ComplexLis
 }
 export interface StatediffsnapshotPreSnapshotVssnapshotOperStatusLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#secs Statediffsnapshot#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#usecs Statediffsnapshot#usecs}
   */
   readonly usecs: string;
 }
@@ -4032,25 +4032,25 @@ export class StatediffsnapshotPreSnapshotVssnapshotOperStatusLastChangedTimeList
 }
 export interface StatediffsnapshotPreSnapshotVssnapshotOperStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason Statediffsnapshot#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code Statediffsnapshot#reason_code}
   */
   readonly reasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#reason_code_string Statediffsnapshot#reason_code_string}
   */
   readonly reasonCodeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#state Statediffsnapshot#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#last_changed_time Statediffsnapshot#last_changed_time}
   */
   readonly lastChangedTime?: StatediffsnapshotPreSnapshotVssnapshotOperStatusLastChangedTime[] | cdktf.IResolvable;
 }
@@ -4284,7 +4284,7 @@ export interface StatediffsnapshotPreSnapshotVssnapshot {
   /**
   * oper_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#oper_status Statediffsnapshot#oper_status}
   */
   readonly operStatus?: StatediffsnapshotPreSnapshotVssnapshotOperStatus[] | cdktf.IResolvable;
 }
@@ -4402,25 +4402,25 @@ export interface StatediffsnapshotPreSnapshot {
   /**
   * gssnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#gssnapshot Statediffsnapshot#gssnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#gssnapshot Statediffsnapshot#gssnapshot}
   */
   readonly gssnapshot?: StatediffsnapshotPreSnapshotGssnapshot[] | cdktf.IResolvable;
   /**
   * poolsnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#poolsnapshot Statediffsnapshot#poolsnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#poolsnapshot Statediffsnapshot#poolsnapshot}
   */
   readonly poolsnapshot?: StatediffsnapshotPreSnapshotPoolsnapshot[] | cdktf.IResolvable;
   /**
   * sesnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#sesnapshot Statediffsnapshot#sesnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#sesnapshot Statediffsnapshot#sesnapshot}
   */
   readonly sesnapshot?: StatediffsnapshotPreSnapshotSesnapshot[] | cdktf.IResolvable;
   /**
   * vssnapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#vssnapshot Statediffsnapshot#vssnapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#vssnapshot Statediffsnapshot#vssnapshot}
   */
   readonly vssnapshot?: StatediffsnapshotPreSnapshotVssnapshot[] | cdktf.IResolvable;
 }
@@ -4623,7 +4623,7 @@ export class StatediffsnapshotPreSnapshotList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot avi_statediffsnapshot}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot avi_statediffsnapshot}
 */
 export class Statediffsnapshot extends cdktf.TerraformResource {
 
@@ -4639,7 +4639,7 @@ export class Statediffsnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Statediffsnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Statediffsnapshot to import
-  * @param importFromId The id of the existing Statediffsnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Statediffsnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Statediffsnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4651,7 +4651,7 @@ export class Statediffsnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/statediffsnapshot avi_statediffsnapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/statediffsnapshot avi_statediffsnapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4662,8 +4662,8 @@ export class Statediffsnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'avi_statediffsnapshot',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

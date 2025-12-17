@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface IsisConfig extends cdktf.TerraformMetaArguments {
   /**
   * IS-IS area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#area_tag Isis#area_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#area_tag Isis#area_tag}
   */
   readonly areaTag: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#delete_mode Isis#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#delete_mode Isis#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#device Isis#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#device Isis#device}
   */
   readonly device?: string;
   /**
   * Log changes in adjacency state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#log_adjacency_changes Isis#log_adjacency_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#log_adjacency_changes Isis#log_adjacency_changes}
   */
   readonly logAdjacencyChanges?: boolean | cdktf.IResolvable;
   /**
   * Log all adjacency changes including non-IIH events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#log_adjacency_changes_all Isis#log_adjacency_changes_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#log_adjacency_changes_all Isis#log_adjacency_changes_all}
   */
   readonly logAdjacencyChangesAll?: boolean | cdktf.IResolvable;
   /**
   * Use old style of TLVs with narrow metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#metric_style_narrow Isis#metric_style_narrow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#metric_style_narrow Isis#metric_style_narrow}
   */
   readonly metricStyleNarrow?: boolean | cdktf.IResolvable;
   /**
   * Send and accept both styles of TLVs during transition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#metric_style_transition Isis#metric_style_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#metric_style_transition Isis#metric_style_transition}
   */
   readonly metricStyleTransition?: boolean | cdktf.IResolvable;
   /**
   * Use new style of TLVs to carry wider metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#metric_style_wide Isis#metric_style_wide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#metric_style_wide Isis#metric_style_wide}
   */
   readonly metricStyleWide?: boolean | cdktf.IResolvable;
   /**
   * Network Entity Titles for this IS-IS process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#nets Isis#nets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#nets Isis#nets}
   */
   readonly nets?: IsisNets[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface IsisNets {
   /**
   * NET value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#tag Isis#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#tag Isis#tag}
   */
   readonly tag: string;
 }
@@ -180,7 +180,7 @@ export class IsisNetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis iosxe_isis}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis iosxe_isis}
 */
 export class Isis extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class Isis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Isis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Isis to import
-  * @param importFromId The id of the existing Isis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Isis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Isis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class Isis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/isis iosxe_isis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/isis iosxe_isis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class Isis extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_isis',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

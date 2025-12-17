@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface DynamicdnsrecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#algorithm Dynamicdnsrecord#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#algorithm Dynamicdnsrecord#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#delegated Dynamicdnsrecord#delegated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#delegated Dynamicdnsrecord#delegated}
   */
   readonly delegated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#description Dynamicdnsrecord#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#description Dynamicdnsrecord#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#dns_vs_uuid Dynamicdnsrecord#dns_vs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#dns_vs_uuid Dynamicdnsrecord#dns_vs_uuid}
   */
   readonly dnsVsUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#fqdn Dynamicdnsrecord#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#fqdn Dynamicdnsrecord#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#id Dynamicdnsrecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#id Dynamicdnsrecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#metadata Dynamicdnsrecord#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#metadata Dynamicdnsrecord#metadata}
   */
   readonly metadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#name Dynamicdnsrecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#name Dynamicdnsrecord#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#num_records_in_response Dynamicdnsrecord#num_records_in_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#num_records_in_response Dynamicdnsrecord#num_records_in_response}
   */
   readonly numRecordsInResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#tenant_ref Dynamicdnsrecord#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#tenant_ref Dynamicdnsrecord#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ttl Dynamicdnsrecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ttl Dynamicdnsrecord#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#uuid Dynamicdnsrecord#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#uuid Dynamicdnsrecord#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#wildcard_match Dynamicdnsrecord#wildcard_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#wildcard_match Dynamicdnsrecord#wildcard_match}
   */
   readonly wildcardMatch?: string;
   /**
   * cname block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#cname Dynamicdnsrecord#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#cname Dynamicdnsrecord#cname}
   */
   readonly cname?: DynamicdnsrecordCname[] | cdktf.IResolvable;
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ip6_address Dynamicdnsrecord#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ip6_address Dynamicdnsrecord#ip6_address}
   */
   readonly ip6Address?: DynamicdnsrecordIp6Address[] | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ip_address Dynamicdnsrecord#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ip_address Dynamicdnsrecord#ip_address}
   */
   readonly ipAddress?: DynamicdnsrecordIpAddress[] | cdktf.IResolvable;
   /**
   * mx_records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#mx_records Dynamicdnsrecord#mx_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#mx_records Dynamicdnsrecord#mx_records}
   */
   readonly mxRecords?: DynamicdnsrecordMxRecords[] | cdktf.IResolvable;
   /**
   * ns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ns Dynamicdnsrecord#ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ns Dynamicdnsrecord#ns}
   */
   readonly ns?: DynamicdnsrecordNs[] | cdktf.IResolvable;
   /**
   * service_locators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#service_locators Dynamicdnsrecord#service_locators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#service_locators Dynamicdnsrecord#service_locators}
   */
   readonly serviceLocators?: DynamicdnsrecordServiceLocators[] | cdktf.IResolvable;
   /**
   * txt_records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#txt_records Dynamicdnsrecord#txt_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#txt_records Dynamicdnsrecord#txt_records}
   */
   readonly txtRecords?: DynamicdnsrecordTxtRecords[] | cdktf.IResolvable;
 }
 export interface DynamicdnsrecordCname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#cname Dynamicdnsrecord#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#cname Dynamicdnsrecord#cname}
   */
   readonly cname: string;
 }
@@ -224,11 +224,11 @@ export class DynamicdnsrecordCnameList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordIp6AddressIp6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
   */
   readonly type: string;
 }
@@ -369,7 +369,7 @@ export interface DynamicdnsrecordIp6Address {
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ip6_address Dynamicdnsrecord#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ip6_address Dynamicdnsrecord#ip6_address}
   */
   readonly ip6Address: DynamicdnsrecordIp6AddressIp6Address[] | cdktf.IResolvable;
 }
@@ -482,11 +482,11 @@ export class DynamicdnsrecordIp6AddressList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordIpAddressIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
   */
   readonly type: string;
 }
@@ -627,7 +627,7 @@ export interface DynamicdnsrecordIpAddress {
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ip_address Dynamicdnsrecord#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ip_address Dynamicdnsrecord#ip_address}
   */
   readonly ipAddress: DynamicdnsrecordIpAddressIpAddress[] | cdktf.IResolvable;
 }
@@ -740,11 +740,11 @@ export class DynamicdnsrecordIpAddressList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordMxRecords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#host Dynamicdnsrecord#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#host Dynamicdnsrecord#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#priority Dynamicdnsrecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#priority Dynamicdnsrecord#priority}
   */
   readonly priority: string;
 }
@@ -883,11 +883,11 @@ export class DynamicdnsrecordMxRecordsList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordNsIp6Address {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
   */
   readonly type: string;
 }
@@ -1026,11 +1026,11 @@ export class DynamicdnsrecordNsIp6AddressList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordNsIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#addr Dynamicdnsrecord#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#type Dynamicdnsrecord#type}
   */
   readonly type: string;
 }
@@ -1169,19 +1169,19 @@ export class DynamicdnsrecordNsIpAddressList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordNs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#nsname Dynamicdnsrecord#nsname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#nsname Dynamicdnsrecord#nsname}
   */
   readonly nsname: string;
   /**
   * ip6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ip6_address Dynamicdnsrecord#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ip6_address Dynamicdnsrecord#ip6_address}
   */
   readonly ip6Address?: DynamicdnsrecordNsIp6Address[] | cdktf.IResolvable;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#ip_address Dynamicdnsrecord#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#ip_address Dynamicdnsrecord#ip_address}
   */
   readonly ipAddress?: DynamicdnsrecordNsIpAddress[] | cdktf.IResolvable;
 }
@@ -1352,19 +1352,19 @@ export class DynamicdnsrecordNsList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordServiceLocators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#port Dynamicdnsrecord#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#port Dynamicdnsrecord#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#priority Dynamicdnsrecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#priority Dynamicdnsrecord#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#target Dynamicdnsrecord#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#target Dynamicdnsrecord#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#weight Dynamicdnsrecord#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#weight Dynamicdnsrecord#weight}
   */
   readonly weight?: string;
 }
@@ -1564,7 +1564,7 @@ export class DynamicdnsrecordServiceLocatorsList extends cdktf.ComplexList {
 }
 export interface DynamicdnsrecordTxtRecords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#text_str Dynamicdnsrecord#text_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#text_str Dynamicdnsrecord#text_str}
   */
   readonly textStr: string;
 }
@@ -1677,7 +1677,7 @@ export class DynamicdnsrecordTxtRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord avi_dynamicdnsrecord}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord avi_dynamicdnsrecord}
 */
 export class Dynamicdnsrecord extends cdktf.TerraformResource {
 
@@ -1693,7 +1693,7 @@ export class Dynamicdnsrecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dynamicdnsrecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dynamicdnsrecord to import
-  * @param importFromId The id of the existing Dynamicdnsrecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dynamicdnsrecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dynamicdnsrecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1705,7 +1705,7 @@ export class Dynamicdnsrecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/dynamicdnsrecord avi_dynamicdnsrecord} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/dynamicdnsrecord avi_dynamicdnsrecord} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1716,8 +1716,8 @@ export class Dynamicdnsrecord extends cdktf.TerraformResource {
       terraformResourceType: 'avi_dynamicdnsrecord',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

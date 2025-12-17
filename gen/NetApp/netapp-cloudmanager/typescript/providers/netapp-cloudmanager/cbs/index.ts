@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface CbsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#account_id Cbs#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#account_id Cbs#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#auto_backup_enabled Cbs#auto_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#auto_backup_enabled Cbs#auto_backup_enabled}
   */
   readonly autoBackupEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#bucket Cbs#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#bucket Cbs#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#client_id Cbs#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#client_id Cbs#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#cloud_provider Cbs#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#cloud_provider Cbs#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#export_existing_snapshots Cbs#export_existing_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#export_existing_snapshots Cbs#export_existing_snapshots}
   */
   readonly exportExistingSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#id Cbs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#id Cbs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#ip_space Cbs#ip_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#ip_space Cbs#ip_space}
   */
   readonly ipSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#max_transfer_rate Cbs#max_transfer_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#max_transfer_rate Cbs#max_transfer_rate}
   */
   readonly maxTransferRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#region Cbs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#region Cbs#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#working_environment_id Cbs#working_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#working_environment_id Cbs#working_environment_id}
   */
   readonly workingEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#working_environment_name Cbs#working_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#working_environment_name Cbs#working_environment_name}
   */
   readonly workingEnvironmentName?: string;
   /**
   * aws_cbs_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#aws_cbs_parameters Cbs#aws_cbs_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#aws_cbs_parameters Cbs#aws_cbs_parameters}
   */
   readonly awsCbsParameters?: CbsAwsCbsParameters;
   /**
   * azure_cbs_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#azure_cbs_parameters Cbs#azure_cbs_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#azure_cbs_parameters Cbs#azure_cbs_parameters}
   */
   readonly azureCbsParameters?: CbsAzureCbsParameters;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#backup_policy Cbs#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#backup_policy Cbs#backup_policy}
   */
   readonly backupPolicy?: CbsBackupPolicy;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#volumes Cbs#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#volumes Cbs#volumes}
   */
   readonly volumes?: CbsVolumes[] | cdktf.IResolvable;
 }
 export interface CbsAwsCbsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#access_key Cbs#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#access_key Cbs#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#archive_storage_class Cbs#archive_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#archive_storage_class Cbs#archive_storage_class}
   */
   readonly archiveStorageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#aws_account_id Cbs#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#aws_account_id Cbs#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#kms_key_id Cbs#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#kms_key_id Cbs#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#private_endpoint_id Cbs#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#private_endpoint_id Cbs#private_endpoint_id}
   */
   readonly privateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#secret_password Cbs#secret_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#secret_password Cbs#secret_password}
   */
   readonly secretPassword?: string;
 }
@@ -334,27 +334,27 @@ export class CbsAwsCbsParametersOutputReference extends cdktf.ComplexObject {
 }
 export interface CbsAzureCbsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#key_name Cbs#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#key_name Cbs#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#key_vault_id Cbs#key_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#key_vault_id Cbs#key_vault_id}
   */
   readonly keyVaultId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#private_endpoint_id Cbs#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#private_endpoint_id Cbs#private_endpoint_id}
   */
   readonly privateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#resource_group Cbs#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#resource_group Cbs#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#storage_account Cbs#storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#storage_account Cbs#storage_account}
   */
   readonly storageAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#subscription Cbs#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#subscription Cbs#subscription}
   */
   readonly subscription?: string;
 }
@@ -583,11 +583,11 @@ export class CbsAzureCbsParametersOutputReference extends cdktf.ComplexObject {
 }
 export interface CbsBackupPolicyPolicyRulesRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#label Cbs#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#label Cbs#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#retention Cbs#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#retention Cbs#retention}
   */
   readonly retention?: string;
 }
@@ -734,7 +734,7 @@ export interface CbsBackupPolicyPolicyRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#rule Cbs#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#rule Cbs#rule}
   */
   readonly rule?: CbsBackupPolicyPolicyRulesRule[] | cdktf.IResolvable;
 }
@@ -850,21 +850,21 @@ export class CbsBackupPolicyPolicyRulesList extends cdktf.ComplexList {
 }
 export interface CbsBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#archive_after_days Cbs#archive_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#archive_after_days Cbs#archive_after_days}
   */
   readonly archiveAfterDays?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#name Cbs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#name Cbs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#object_lock Cbs#object_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#object_lock Cbs#object_lock}
   */
   readonly objectLock?: string;
   /**
   * policy_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#policy_rules Cbs#policy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#policy_rules Cbs#policy_rules}
   */
   readonly policyRules?: CbsBackupPolicyPolicyRules[] | cdktf.IResolvable;
 }
@@ -1032,11 +1032,11 @@ export class CbsBackupPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface CbsVolumesBackupPolicyPolicyRulesRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#label Cbs#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#label Cbs#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#retention Cbs#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#retention Cbs#retention}
   */
   readonly retention?: string;
 }
@@ -1183,7 +1183,7 @@ export interface CbsVolumesBackupPolicyPolicyRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#rule Cbs#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#rule Cbs#rule}
   */
   readonly rule?: CbsVolumesBackupPolicyPolicyRulesRule[] | cdktf.IResolvable;
 }
@@ -1299,21 +1299,21 @@ export class CbsVolumesBackupPolicyPolicyRulesList extends cdktf.ComplexList {
 }
 export interface CbsVolumesBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#archive_after_days Cbs#archive_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#archive_after_days Cbs#archive_after_days}
   */
   readonly archiveAfterDays?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#name Cbs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#name Cbs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#object_lock Cbs#object_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#object_lock Cbs#object_lock}
   */
   readonly objectLock?: string;
   /**
   * policy_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#policy_rules Cbs#policy_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#policy_rules Cbs#policy_rules}
   */
   readonly policyRules?: CbsVolumesBackupPolicyPolicyRules[] | cdktf.IResolvable;
 }
@@ -1481,17 +1481,17 @@ export class CbsVolumesBackupPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface CbsVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#mode Cbs#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#mode Cbs#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#volume_name Cbs#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#volume_name Cbs#volume_name}
   */
   readonly volumeName: string;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#backup_policy Cbs#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#backup_policy Cbs#backup_policy}
   */
   readonly backupPolicy?: CbsVolumesBackupPolicy;
 }
@@ -1662,7 +1662,7 @@ export class CbsVolumesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs netapp-cloudmanager_cbs}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs netapp-cloudmanager_cbs}
 */
 export class Cbs extends cdktf.TerraformResource {
 
@@ -1678,7 +1678,7 @@ export class Cbs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cbs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cbs to import
-  * @param importFromId The id of the existing Cbs that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cbs that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cbs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1690,7 +1690,7 @@ export class Cbs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cbs netapp-cloudmanager_cbs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cbs netapp-cloudmanager_cbs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1701,8 +1701,8 @@ export class Cbs extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_cbs',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

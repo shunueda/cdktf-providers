@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,204 +8,204 @@ import * as cdktf from 'cdktf';
 
 export interface HealthmonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#allow_duplicate_monitors Healthmonitor#allow_duplicate_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#allow_duplicate_monitors Healthmonitor#allow_duplicate_monitors}
   */
   readonly allowDuplicateMonitors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#description Healthmonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#description Healthmonitor#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#disable_quickstart Healthmonitor#disable_quickstart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#disable_quickstart Healthmonitor#disable_quickstart}
   */
   readonly disableQuickstart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#failed_checks Healthmonitor#failed_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#failed_checks Healthmonitor#failed_checks}
   */
   readonly failedChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#id Healthmonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#id Healthmonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#is_federated Healthmonitor#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#is_federated Healthmonitor#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#monitor_port Healthmonitor#monitor_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#monitor_port Healthmonitor#monitor_port}
   */
   readonly monitorPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#name Healthmonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#name Healthmonitor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#receive_timeout Healthmonitor#receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#receive_timeout Healthmonitor#receive_timeout}
   */
   readonly receiveTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#send_interval Healthmonitor#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#send_interval Healthmonitor#send_interval}
   */
   readonly sendInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#successful_checks Healthmonitor#successful_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#successful_checks Healthmonitor#successful_checks}
   */
   readonly successfulChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tenant_ref Healthmonitor#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#tenant_ref Healthmonitor#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#type Healthmonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#type Healthmonitor#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#uuid Healthmonitor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#uuid Healthmonitor#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#authentication Healthmonitor#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#authentication Healthmonitor#authentication}
   */
   readonly authentication?: HealthmonitorAuthentication[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#configpb_attributes Healthmonitor#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#configpb_attributes Healthmonitor#configpb_attributes}
   */
   readonly configpbAttributes?: HealthmonitorConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * dns_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#dns_monitor Healthmonitor#dns_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#dns_monitor Healthmonitor#dns_monitor}
   */
   readonly dnsMonitor?: HealthmonitorDnsMonitor[] | cdktf.IResolvable;
   /**
   * external_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#external_monitor Healthmonitor#external_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#external_monitor Healthmonitor#external_monitor}
   */
   readonly externalMonitor?: HealthmonitorExternalMonitor[] | cdktf.IResolvable;
   /**
   * ftp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ftp_monitor Healthmonitor#ftp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ftp_monitor Healthmonitor#ftp_monitor}
   */
   readonly ftpMonitor?: HealthmonitorFtpMonitor[] | cdktf.IResolvable;
   /**
   * ftps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ftps_monitor Healthmonitor#ftps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ftps_monitor Healthmonitor#ftps_monitor}
   */
   readonly ftpsMonitor?: HealthmonitorFtpsMonitor[] | cdktf.IResolvable;
   /**
   * http_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_monitor Healthmonitor#http_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_monitor Healthmonitor#http_monitor}
   */
   readonly httpMonitor?: HealthmonitorHttpMonitor[] | cdktf.IResolvable;
   /**
   * https_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#https_monitor Healthmonitor#https_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#https_monitor Healthmonitor#https_monitor}
   */
   readonly httpsMonitor?: HealthmonitorHttpsMonitor[] | cdktf.IResolvable;
   /**
   * imap_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#imap_monitor Healthmonitor#imap_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#imap_monitor Healthmonitor#imap_monitor}
   */
   readonly imapMonitor?: HealthmonitorImapMonitor[] | cdktf.IResolvable;
   /**
   * imaps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#imaps_monitor Healthmonitor#imaps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#imaps_monitor Healthmonitor#imaps_monitor}
   */
   readonly imapsMonitor?: HealthmonitorImapsMonitor[] | cdktf.IResolvable;
   /**
   * ldap_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ldap_monitor Healthmonitor#ldap_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ldap_monitor Healthmonitor#ldap_monitor}
   */
   readonly ldapMonitor?: HealthmonitorLdapMonitor[] | cdktf.IResolvable;
   /**
   * ldaps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ldaps_monitor Healthmonitor#ldaps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ldaps_monitor Healthmonitor#ldaps_monitor}
   */
   readonly ldapsMonitor?: HealthmonitorLdapsMonitor[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#markers Healthmonitor#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#markers Healthmonitor#markers}
   */
   readonly markers?: HealthmonitorMarkers[] | cdktf.IResolvable;
   /**
   * pop3_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pop3_monitor Healthmonitor#pop3_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pop3_monitor Healthmonitor#pop3_monitor}
   */
   readonly pop3Monitor?: HealthmonitorPop3Monitor[] | cdktf.IResolvable;
   /**
   * pop3s_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pop3s_monitor Healthmonitor#pop3s_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pop3s_monitor Healthmonitor#pop3s_monitor}
   */
   readonly pop3SMonitor?: HealthmonitorPop3SMonitor[] | cdktf.IResolvable;
   /**
   * radius_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#radius_monitor Healthmonitor#radius_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#radius_monitor Healthmonitor#radius_monitor}
   */
   readonly radiusMonitor?: HealthmonitorRadiusMonitor[] | cdktf.IResolvable;
   /**
   * sctp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sctp_monitor Healthmonitor#sctp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sctp_monitor Healthmonitor#sctp_monitor}
   */
   readonly sctpMonitor?: HealthmonitorSctpMonitor[] | cdktf.IResolvable;
   /**
   * sip_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_monitor Healthmonitor#sip_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sip_monitor Healthmonitor#sip_monitor}
   */
   readonly sipMonitor?: HealthmonitorSipMonitor[] | cdktf.IResolvable;
   /**
   * smtp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#smtp_monitor Healthmonitor#smtp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#smtp_monitor Healthmonitor#smtp_monitor}
   */
   readonly smtpMonitor?: HealthmonitorSmtpMonitor[] | cdktf.IResolvable;
   /**
   * smtps_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#smtps_monitor Healthmonitor#smtps_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#smtps_monitor Healthmonitor#smtps_monitor}
   */
   readonly smtpsMonitor?: HealthmonitorSmtpsMonitor[] | cdktf.IResolvable;
   /**
   * tcp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_monitor Healthmonitor#tcp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#tcp_monitor Healthmonitor#tcp_monitor}
   */
   readonly tcpMonitor?: HealthmonitorTcpMonitor[] | cdktf.IResolvable;
   /**
   * udp_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#udp_monitor Healthmonitor#udp_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#udp_monitor Healthmonitor#udp_monitor}
   */
   readonly udpMonitor?: HealthmonitorUdpMonitor[] | cdktf.IResolvable;
 }
 export interface HealthmonitorAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#password Healthmonitor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#password Healthmonitor#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#username Healthmonitor#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#username Healthmonitor#username}
   */
   readonly username: string;
 }
@@ -344,7 +344,7 @@ export class HealthmonitorAuthenticationList extends cdktf.ComplexList {
 }
 export interface HealthmonitorConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#version Healthmonitor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#version Healthmonitor#version}
   */
   readonly version?: string;
 }
@@ -460,23 +460,23 @@ export class HealthmonitorConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface HealthmonitorDnsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#qtype Healthmonitor#qtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#qtype Healthmonitor#qtype}
   */
   readonly qtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#query_name Healthmonitor#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#query_name Healthmonitor#query_name}
   */
   readonly queryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#rcode Healthmonitor#rcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#rcode Healthmonitor#rcode}
   */
   readonly rcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#record_type Healthmonitor#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#record_type Healthmonitor#record_type}
   */
   readonly recordType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#response_string Healthmonitor#response_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#response_string Healthmonitor#response_string}
   */
   readonly responseString?: string;
 }
@@ -705,19 +705,19 @@ export class HealthmonitorDnsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorExternalMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_code Healthmonitor#command_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#command_code Healthmonitor#command_code}
   */
   readonly commandCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_parameters Healthmonitor#command_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#command_parameters Healthmonitor#command_parameters}
   */
   readonly commandParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_path Healthmonitor#command_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#command_path Healthmonitor#command_path}
   */
   readonly commandPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#command_variables Healthmonitor#command_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#command_variables Healthmonitor#command_variables}
   */
   readonly commandVariables?: string;
 }
@@ -917,19 +917,19 @@ export class HealthmonitorExternalMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorFtpMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -1129,17 +1129,17 @@ export class HealthmonitorFtpMonitorSslAttributesList extends cdktf.ComplexList 
 }
 export interface HealthmonitorFtpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filename Healthmonitor#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#filename Healthmonitor#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mode Healthmonitor#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#mode Healthmonitor#mode}
   */
   readonly mode?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorFtpMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -1310,19 +1310,19 @@ export class HealthmonitorFtpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorFtpsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -1522,17 +1522,17 @@ export class HealthmonitorFtpsMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorFtpsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filename Healthmonitor#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#filename Healthmonitor#filename}
   */
   readonly filename: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mode Healthmonitor#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#mode Healthmonitor#mode}
   */
   readonly mode?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorFtpsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -1703,19 +1703,19 @@ export class HealthmonitorFtpsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorHttpMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -1915,45 +1915,45 @@ export class HealthmonitorHttpMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorHttpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
   */
   readonly exactHttpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
   */
   readonly httpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
   */
   readonly httpRequestBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
   */
   readonly httpResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
   */
   readonly httpResponseCode: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
   */
   readonly maintenanceCode?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
   */
   readonly responseSize?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorHttpMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -2327,19 +2327,19 @@ export class HealthmonitorHttpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorHttpsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -2539,45 +2539,45 @@ export class HealthmonitorHttpsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorHttpsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#auth_type Healthmonitor#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#exact_http_request Healthmonitor#exact_http_request}
   */
   readonly exactHttpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_request Healthmonitor#http_request}
   */
   readonly httpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_request_body Healthmonitor#http_request_body}
   */
   readonly httpRequestBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_response Healthmonitor#http_response}
   */
   readonly httpResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#http_response_code Healthmonitor#http_response_code}
   */
   readonly httpResponseCode: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#maintenance_code Healthmonitor#maintenance_code}
   */
   readonly maintenanceCode?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#response_size Healthmonitor#response_size}
   */
   readonly responseSize?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorHttpsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -2951,19 +2951,19 @@ export class HealthmonitorHttpsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorImapMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -3163,13 +3163,13 @@ export class HealthmonitorImapMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorImapMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#folder Healthmonitor#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#folder Healthmonitor#folder}
   */
   readonly folder?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorImapMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -3314,19 +3314,19 @@ export class HealthmonitorImapMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorImapsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -3526,13 +3526,13 @@ export class HealthmonitorImapsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorImapsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#folder Healthmonitor#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#folder Healthmonitor#folder}
   */
   readonly folder?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorImapsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -3677,19 +3677,19 @@ export class HealthmonitorImapsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorLdapMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -3889,25 +3889,25 @@ export class HealthmonitorLdapMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorLdapMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filter Healthmonitor#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#filter Healthmonitor#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#scope Healthmonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#scope Healthmonitor#scope}
   */
   readonly scope?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorLdapMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -4136,19 +4136,19 @@ export class HealthmonitorLdapMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorLdapsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -4348,25 +4348,25 @@ export class HealthmonitorLdapsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorLdapsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#attributes Healthmonitor#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#base_dn Healthmonitor#base_dn}
   */
   readonly baseDn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#filter Healthmonitor#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#filter Healthmonitor#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#scope Healthmonitor#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#scope Healthmonitor#scope}
   */
   readonly scope?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorLdapsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -4595,11 +4595,11 @@ export class HealthmonitorLdapsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#key Healthmonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#key Healthmonitor#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#values Healthmonitor#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#values Healthmonitor#values}
   */
   readonly values?: string[];
 }
@@ -4741,19 +4741,19 @@ export class HealthmonitorMarkersList extends cdktf.ComplexList {
 }
 export interface HealthmonitorPop3MonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -4955,7 +4955,7 @@ export interface HealthmonitorPop3Monitor {
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorPop3MonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -5071,19 +5071,19 @@ export class HealthmonitorPop3MonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorPop3SMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -5285,7 +5285,7 @@ export interface HealthmonitorPop3SMonitor {
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorPop3SMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -5401,15 +5401,15 @@ export class HealthmonitorPop3SMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorRadiusMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#password Healthmonitor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#password Healthmonitor#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#shared_secret Healthmonitor#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#shared_secret Healthmonitor#shared_secret}
   */
   readonly sharedSecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#username Healthmonitor#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#username Healthmonitor#username}
   */
   readonly username: string;
 }
@@ -5574,11 +5574,11 @@ export class HealthmonitorRadiusMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSctpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sctp_request Healthmonitor#sctp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sctp_request Healthmonitor#sctp_request}
   */
   readonly sctpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sctp_response Healthmonitor#sctp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sctp_response Healthmonitor#sctp_response}
   */
   readonly sctpResponse?: string;
 }
@@ -5723,15 +5723,15 @@ export class HealthmonitorSctpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSipMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_monitor_transport Healthmonitor#sip_monitor_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sip_monitor_transport Healthmonitor#sip_monitor_transport}
   */
   readonly sipMonitorTransport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_request_code Healthmonitor#sip_request_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sip_request_code Healthmonitor#sip_request_code}
   */
   readonly sipRequestCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sip_response Healthmonitor#sip_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sip_response Healthmonitor#sip_response}
   */
   readonly sipResponse?: string;
 }
@@ -5905,19 +5905,19 @@ export class HealthmonitorSipMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSmtpMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -6117,25 +6117,25 @@ export class HealthmonitorSmtpMonitorSslAttributesList extends cdktf.ComplexList
 }
 export interface HealthmonitorSmtpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
   */
   readonly mailData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
   */
   readonly recipientsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
   */
   readonly senderId?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorSmtpMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -6367,19 +6367,19 @@ export class HealthmonitorSmtpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorSmtpsMonitorSslAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#pki_profile_ref Healthmonitor#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#server_name Healthmonitor#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_key_and_certificate_ref Healthmonitor#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_profile_ref Healthmonitor#ssl_profile_ref}
   */
   readonly sslProfileRef: string;
 }
@@ -6579,25 +6579,25 @@ export class HealthmonitorSmtpsMonitorSslAttributesList extends cdktf.ComplexLis
 }
 export interface HealthmonitorSmtpsMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#domainname Healthmonitor#domainname}
   */
   readonly domainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#mail_data Healthmonitor#mail_data}
   */
   readonly mailData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#recipients_ids Healthmonitor#recipients_ids}
   */
   readonly recipientsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#sender_id Healthmonitor#sender_id}
   */
   readonly senderId?: string;
   /**
   * ssl_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#ssl_attributes Healthmonitor#ssl_attributes}
   */
   readonly sslAttributes?: HealthmonitorSmtpsMonitorSslAttributes[] | cdktf.IResolvable;
 }
@@ -6829,19 +6829,19 @@ export class HealthmonitorSmtpsMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorTcpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_half_open Healthmonitor#tcp_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#tcp_half_open Healthmonitor#tcp_half_open}
   */
   readonly tcpHalfOpen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_request Healthmonitor#tcp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#tcp_request Healthmonitor#tcp_request}
   */
   readonly tcpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#tcp_response Healthmonitor#tcp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#tcp_response Healthmonitor#tcp_response}
   */
   readonly tcpResponse?: string;
 }
@@ -7044,15 +7044,15 @@ export class HealthmonitorTcpMonitorList extends cdktf.ComplexList {
 }
 export interface HealthmonitorUdpMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#maintenance_response Healthmonitor#maintenance_response}
   */
   readonly maintenanceResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#udp_request Healthmonitor#udp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#udp_request Healthmonitor#udp_request}
   */
   readonly udpRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#udp_response Healthmonitor#udp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#udp_response Healthmonitor#udp_response}
   */
   readonly udpResponse?: string;
 }
@@ -7226,7 +7226,7 @@ export class HealthmonitorUdpMonitorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor avi_healthmonitor}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor avi_healthmonitor}
 */
 export class Healthmonitor extends cdktf.TerraformResource {
 
@@ -7242,7 +7242,7 @@ export class Healthmonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Healthmonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Healthmonitor to import
-  * @param importFromId The id of the existing Healthmonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Healthmonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Healthmonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7254,7 +7254,7 @@ export class Healthmonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/healthmonitor avi_healthmonitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/healthmonitor avi_healthmonitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7265,8 +7265,8 @@ export class Healthmonitor extends cdktf.TerraformResource {
       terraformResourceType: 'avi_healthmonitor',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

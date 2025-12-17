@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,284 +8,284 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradestatusinfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#after_reboot_rollback_fnc Upgradestatusinfo#after_reboot_rollback_fnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#after_reboot_rollback_fnc Upgradestatusinfo#after_reboot_rollback_fnc}
   */
   readonly afterRebootRollbackFnc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#after_reboot_task_name Upgradestatusinfo#after_reboot_task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#after_reboot_task_name Upgradestatusinfo#after_reboot_task_name}
   */
   readonly afterRebootTaskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#clean Upgradestatusinfo#clean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#clean Upgradestatusinfo#clean}
   */
   readonly clean?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enable_patch_rollback Upgradestatusinfo#enable_patch_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#enable_patch_rollback Upgradestatusinfo#enable_patch_rollback}
   */
   readonly enablePatchRollback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enable_rollback Upgradestatusinfo#enable_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#enable_rollback Upgradestatusinfo#enable_rollback}
   */
   readonly enableRollback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
   */
   readonly enqueueTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#fips_mode Upgradestatusinfo#fips_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#fips_mode Upgradestatusinfo#fips_mode}
   */
   readonly fipsMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#id Upgradestatusinfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#id Upgradestatusinfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_path Upgradestatusinfo#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#image_path Upgradestatusinfo#image_path}
   */
   readonly imagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#name Upgradestatusinfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#name Upgradestatusinfo#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#node_type Upgradestatusinfo#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#node_type Upgradestatusinfo#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#obj_cloud_ref Upgradestatusinfo#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#obj_cloud_ref Upgradestatusinfo#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
   */
   readonly patchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_reboot Upgradestatusinfo#patch_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_reboot Upgradestatusinfo#patch_reboot}
   */
   readonly patchReboot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#prev_image_path Upgradestatusinfo#prev_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#prev_image_path Upgradestatusinfo#prev_image_path}
   */
   readonly prevImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#prev_patch_image_path Upgradestatusinfo#prev_patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#prev_patch_image_path Upgradestatusinfo#prev_patch_image_path}
   */
   readonly prevPatchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#prev_remote_image_ref Upgradestatusinfo#prev_remote_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#prev_remote_image_ref Upgradestatusinfo#prev_remote_image_ref}
   */
   readonly prevRemoteImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_image_ref Upgradestatusinfo#previous_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#previous_image_ref Upgradestatusinfo#previous_image_ref}
   */
   readonly previousImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_patch_image_ref Upgradestatusinfo#previous_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#previous_patch_image_ref Upgradestatusinfo#previous_patch_image_ref}
   */
   readonly previousPatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_patch_version Upgradestatusinfo#previous_patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#previous_patch_version Upgradestatusinfo#previous_patch_version}
   */
   readonly previousPatchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_version Upgradestatusinfo#previous_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#previous_version Upgradestatusinfo#previous_version}
   */
   readonly previousVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#remote_image_ref Upgradestatusinfo#remote_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#remote_image_ref Upgradestatusinfo#remote_image_ref}
   */
   readonly remoteImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_patch_image_path Upgradestatusinfo#se_patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_patch_image_path Upgradestatusinfo#se_patch_image_path}
   */
   readonly sePatchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_patch_image_ref Upgradestatusinfo#se_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_patch_image_ref Upgradestatusinfo#se_patch_image_ref}
   */
   readonly sePatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
   */
   readonly statediffRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#system Upgradestatusinfo#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#system Upgradestatusinfo#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#system_report_refs Upgradestatusinfo#system_report_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#system_report_refs Upgradestatusinfo#system_report_refs}
   */
   readonly systemReportRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tasks_completed Upgradestatusinfo#tasks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#tasks_completed Upgradestatusinfo#tasks_completed}
   */
   readonly tasksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#total_tasks Upgradestatusinfo#total_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#total_tasks Upgradestatusinfo#total_tasks}
   */
   readonly totalTasks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#uuid Upgradestatusinfo#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#uuid Upgradestatusinfo#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
   */
   readonly version?: string;
   /**
   * history block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#history Upgradestatusinfo#history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#history Upgradestatusinfo#history}
   */
   readonly history?: UpgradestatusinfoHistory[] | cdktf.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#params Upgradestatusinfo#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#params Upgradestatusinfo#params}
   */
   readonly params?: UpgradestatusinfoParams[] | cdktf.IResolvable;
   /**
   * patch_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_list Upgradestatusinfo#patch_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_list Upgradestatusinfo#patch_list}
   */
   readonly patchList?: UpgradestatusinfoPatchListStruct[] | cdktf.IResolvable;
   /**
   * previous_patch_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#previous_patch_list Upgradestatusinfo#previous_patch_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#previous_patch_list Upgradestatusinfo#previous_patch_list}
   */
   readonly previousPatchList?: UpgradestatusinfoPreviousPatchListStruct[] | cdktf.IResolvable;
   /**
   * se_upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
   */
   readonly seUpgradeEvents?: UpgradestatusinfoSeUpgradeEvents[] | cdktf.IResolvable;
   /**
   * seg_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#seg_params Upgradestatusinfo#seg_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#seg_params Upgradestatusinfo#seg_params}
   */
   readonly segParams?: UpgradestatusinfoSegParams[] | cdktf.IResolvable;
   /**
   * seg_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
   */
   readonly segStatus?: UpgradestatusinfoSegStatus[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: UpgradestatusinfoState[] | cdktf.IResolvable;
   /**
   * upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
   */
   readonly upgradeEvents?: UpgradestatusinfoUpgradeEvents[] | cdktf.IResolvable;
   /**
   * upgrade_readiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_readiness Upgradestatusinfo#upgrade_readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#upgrade_readiness Upgradestatusinfo#upgrade_readiness}
   */
   readonly upgradeReadiness?: UpgradestatusinfoUpgradeReadiness[] | cdktf.IResolvable;
 }
 export interface UpgradestatusinfoHistorySeUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -749,55 +749,55 @@ export class UpgradestatusinfoHistorySeUpgradeEventsList extends cdktf.ComplexLi
 }
 export interface UpgradestatusinfoHistorySegStatusSeUpgradeErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -1261,11 +1261,11 @@ export class UpgradestatusinfoHistorySegStatusSeUpgradeErrorsList extends cdktf.
 }
 export interface UpgradestatusinfoHistorySegStatusVsErrorsEventTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -1404,41 +1404,41 @@ export class UpgradestatusinfoHistorySegStatusVsErrorsEventTimestampList extends
 }
 export interface UpgradestatusinfoHistorySegStatusVsErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
   */
   readonly vipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
   /**
   * event_timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
   */
   readonly eventTimestamp?: UpgradestatusinfoHistorySegStatusVsErrorsEventTimestamp[] | cdktf.IResolvable;
 }
@@ -1786,183 +1786,183 @@ export class UpgradestatusinfoHistorySegStatusVsErrorsList extends cdktf.Complex
 }
 export interface UpgradestatusinfoHistorySegStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
   */
   readonly controllerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
   */
   readonly disruptedVsRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
   */
   readonly enqueueTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
   */
   readonly inProgress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
   */
   readonly notes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
   */
   readonly numSeWithNoVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
   */
   readonly numSeWithVsNotScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
   */
   readonly numSeWithVsScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
   */
   readonly numVsDisrupted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
   */
   readonly requestTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
   */
   readonly seAlreadyUpgradedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
   */
   readonly seDisconnectedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
   */
   readonly seGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
   */
   readonly seGroupUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
   */
   readonly seIpMissingAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
   */
   readonly sePoweredoffAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
   */
   readonly seRebootInProgressRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
   */
   readonly seUpgradeCompleted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
   */
   readonly seUpgradeFailed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
   */
   readonly seUpgradeInProgress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
   */
   readonly seUpgradeNotStarted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
   */
   readonly seUpgradeSkipSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
   */
   readonly seUpgradeSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
   */
   readonly seWithNoVs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
   */
   readonly seWithVsNotScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
   */
   readonly seWithVsScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
   */
   readonly thread?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
   */
   readonly vsMigrateInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
   */
   readonly vsScaleinInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
   */
   readonly vsScaleoutInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
   */
   readonly worker?: string;
   /**
   * se_upgrade_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
   */
   readonly seUpgradeErrors?: UpgradestatusinfoHistorySegStatusSeUpgradeErrors[] | cdktf.IResolvable;
   /**
   * vs_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
   */
   readonly vsErrors?: UpgradestatusinfoHistorySegStatusVsErrors[] | cdktf.IResolvable;
 }
@@ -3325,11 +3325,11 @@ export class UpgradestatusinfoHistorySegStatusList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoHistoryStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -3468,21 +3468,21 @@ export class UpgradestatusinfoHistoryStateLastChangedTimeList extends cdktf.Comp
 }
 export interface UpgradestatusinfoHistoryState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatusinfoHistoryStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -3685,11 +3685,11 @@ export class UpgradestatusinfoHistoryStateList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsNodesEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -3828,33 +3828,33 @@ export class UpgradestatusinfoHistoryUpgradeEventsNodesEventsIpList extends cdkt
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsNodesEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoHistoryUpgradeEventsNodesEventsIp[] | cdktf.IResolvable;
 }
@@ -4144,11 +4144,11 @@ export class UpgradestatusinfoHistoryUpgradeEventsNodesEventsList extends cdktf.
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsSubEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -4287,33 +4287,33 @@ export class UpgradestatusinfoHistoryUpgradeEventsSubEventsIpList extends cdktf.
 }
 export interface UpgradestatusinfoHistoryUpgradeEventsSubEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoHistoryUpgradeEventsSubEventsIp[] | cdktf.IResolvable;
 }
@@ -4603,23 +4603,23 @@ export class UpgradestatusinfoHistoryUpgradeEventsSubEventsList extends cdktf.Co
 }
 export interface UpgradestatusinfoHistoryUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
   */
   readonly taskName?: string;
   /**
   * nodes_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
   */
   readonly nodesEvents?: UpgradestatusinfoHistoryUpgradeEventsNodesEvents[] | cdktf.IResolvable;
   /**
   * sub_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
   */
   readonly subEvents?: UpgradestatusinfoHistoryUpgradeEventsSubEvents[] | cdktf.IResolvable;
 }
@@ -4822,55 +4822,55 @@ export class UpgradestatusinfoHistoryUpgradeEventsList extends cdktf.ComplexList
 }
 export interface UpgradestatusinfoHistory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ops Upgradestatusinfo#ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ops Upgradestatusinfo#ops}
   */
   readonly ops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#statediff_ref Upgradestatusinfo#statediff_ref}
   */
   readonly statediffRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#version Upgradestatusinfo#version}
   */
   readonly version?: string;
   /**
   * se_upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_events Upgradestatusinfo#se_upgrade_events}
   */
   readonly seUpgradeEvents?: UpgradestatusinfoHistorySeUpgradeEvents[] | cdktf.IResolvable;
   /**
   * seg_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#seg_status Upgradestatusinfo#seg_status}
   */
   readonly segStatus?: UpgradestatusinfoHistorySegStatus[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: UpgradestatusinfoHistoryState[] | cdktf.IResolvable;
   /**
   * upgrade_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#upgrade_events Upgradestatusinfo#upgrade_events}
   */
   readonly upgradeEvents?: UpgradestatusinfoHistoryUpgradeEvents[] | cdktf.IResolvable;
 }
@@ -5276,11 +5276,11 @@ export class UpgradestatusinfoHistoryList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoParamsSeGroupOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
 }
@@ -5425,15 +5425,15 @@ export class UpgradestatusinfoParamsSeGroupOptionsList extends cdktf.ComplexList
 }
 export interface UpgradestatusinfoParamsSeGroupResumeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
   */
   readonly skipSuspended?: string;
 }
@@ -5607,23 +5607,23 @@ export class UpgradestatusinfoParamsSeGroupResumeOptionsList extends cdktf.Compl
 }
 export interface UpgradestatusinfoParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
   */
   readonly patchRef?: string;
   /**
   * se_group_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
   */
   readonly seGroupOptions?: UpgradestatusinfoParamsSeGroupOptions[] | cdktf.IResolvable;
   /**
   * se_group_resume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
   */
   readonly seGroupResumeOptions?: UpgradestatusinfoParamsSeGroupResumeOptions[] | cdktf.IResolvable;
 }
@@ -5826,15 +5826,15 @@ export class UpgradestatusinfoParamsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoPatchListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
   */
   readonly patchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
 }
@@ -6008,15 +6008,15 @@ export class UpgradestatusinfoPatchListStructList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoPreviousPatchListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_path Upgradestatusinfo#patch_image_path}
   */
   readonly patchImagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_version Upgradestatusinfo#patch_version}
   */
   readonly patchVersion?: string;
 }
@@ -6190,55 +6190,55 @@ export class UpgradestatusinfoPreviousPatchListStructList extends cdktf.ComplexL
 }
 export interface UpgradestatusinfoSeUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -6702,11 +6702,11 @@ export class UpgradestatusinfoSeUpgradeEventsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoSegParamsSeGroupOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
 }
@@ -6851,15 +6851,15 @@ export class UpgradestatusinfoSegParamsSeGroupOptionsList extends cdktf.ComplexL
 }
 export interface UpgradestatusinfoSegParamsSeGroupResumeOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#action_on_error Upgradestatusinfo#action_on_error}
   */
   readonly actionOnError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#disruptive Upgradestatusinfo#disruptive}
   */
   readonly disruptive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#skip_suspended Upgradestatusinfo#skip_suspended}
   */
   readonly skipSuspended?: string;
 }
@@ -7033,23 +7033,23 @@ export class UpgradestatusinfoSegParamsSeGroupResumeOptionsList extends cdktf.Co
 }
 export interface UpgradestatusinfoSegParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_ref Upgradestatusinfo#patch_ref}
   */
   readonly patchRef?: string;
   /**
   * se_group_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_options Upgradestatusinfo#se_group_options}
   */
   readonly seGroupOptions?: UpgradestatusinfoSegParamsSeGroupOptions[] | cdktf.IResolvable;
   /**
   * se_group_resume_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_resume_options Upgradestatusinfo#se_group_resume_options}
   */
   readonly seGroupResumeOptions?: UpgradestatusinfoSegParamsSeGroupResumeOptions[] | cdktf.IResolvable;
 }
@@ -7252,55 +7252,55 @@ export class UpgradestatusinfoSegParamsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoSegStatusSeUpgradeErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#from_se_ref Upgradestatusinfo#from_se_ref}
   */
   readonly fromSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_group Upgradestatusinfo#num_se_group}
   */
   readonly numSeGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#to_se_ref Upgradestatusinfo#to_se_ref}
   */
   readonly toSeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
 }
@@ -7764,11 +7764,11 @@ export class UpgradestatusinfoSegStatusSeUpgradeErrorsList extends cdktf.Complex
 }
 export interface UpgradestatusinfoSegStatusVsErrorsEventTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -7907,41 +7907,41 @@ export class UpgradestatusinfoSegStatusVsErrorsEventTimestampList extends cdktf.
 }
 export interface UpgradestatusinfoSegStatusVsErrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ha_mode Upgradestatusinfo#se_group_ha_mode}
   */
   readonly seGroupHaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_ref Upgradestatusinfo#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ref Upgradestatusinfo#se_ref}
   */
   readonly seRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vip_id Upgradestatusinfo#vip_id}
   */
   readonly vipId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_ref Upgradestatusinfo#vs_ref}
   */
   readonly vsRef?: string;
   /**
   * event_timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#event_timestamp Upgradestatusinfo#event_timestamp}
   */
   readonly eventTimestamp?: UpgradestatusinfoSegStatusVsErrorsEventTimestamp[] | cdktf.IResolvable;
 }
@@ -8289,183 +8289,183 @@ export class UpgradestatusinfoSegStatusVsErrorsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoSegStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#controller_version Upgradestatusinfo#controller_version}
   */
   readonly controllerVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#disrupted_vs_ref Upgradestatusinfo#disrupted_vs_ref}
   */
   readonly disruptedVsRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#enqueue_time Upgradestatusinfo#enqueue_time}
   */
   readonly enqueueTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ha_mode Upgradestatusinfo#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#in_progress Upgradestatusinfo#in_progress}
   */
   readonly inProgress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#notes Upgradestatusinfo#notes}
   */
   readonly notes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se Upgradestatusinfo#num_se}
   */
   readonly numSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_with_no_vs Upgradestatusinfo#num_se_with_no_vs}
   */
   readonly numSeWithNoVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_with_vs_not_scaledout Upgradestatusinfo#num_se_with_vs_not_scaledout}
   */
   readonly numSeWithVsNotScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_se_with_vs_scaledout Upgradestatusinfo#num_se_with_vs_scaledout}
   */
   readonly numSeWithVsScaledout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs Upgradestatusinfo#num_vs}
   */
   readonly numVs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#num_vs_disrupted Upgradestatusinfo#num_vs_disrupted}
   */
   readonly numVsDisrupted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#progress Upgradestatusinfo#progress}
   */
   readonly progress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#request_time Upgradestatusinfo#request_time}
   */
   readonly requestTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_already_upgraded_at_start Upgradestatusinfo#se_already_upgraded_at_start}
   */
   readonly seAlreadyUpgradedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_disconnected_at_start Upgradestatusinfo#se_disconnected_at_start}
   */
   readonly seDisconnectedAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_name Upgradestatusinfo#se_group_name}
   */
   readonly seGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_group_uuid Upgradestatusinfo#se_group_uuid}
   */
   readonly seGroupUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_ip_missing_at_start Upgradestatusinfo#se_ip_missing_at_start}
   */
   readonly seIpMissingAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_poweredoff_at_start Upgradestatusinfo#se_poweredoff_at_start}
   */
   readonly sePoweredoffAtStart?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_reboot_in_progress_ref Upgradestatusinfo#se_reboot_in_progress_ref}
   */
   readonly seRebootInProgressRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_completed Upgradestatusinfo#se_upgrade_completed}
   */
   readonly seUpgradeCompleted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_failed Upgradestatusinfo#se_upgrade_failed}
   */
   readonly seUpgradeFailed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_in_progress Upgradestatusinfo#se_upgrade_in_progress}
   */
   readonly seUpgradeInProgress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_not_started Upgradestatusinfo#se_upgrade_not_started}
   */
   readonly seUpgradeNotStarted?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_skip_suspended Upgradestatusinfo#se_upgrade_skip_suspended}
   */
   readonly seUpgradeSkipSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_suspended Upgradestatusinfo#se_upgrade_suspended}
   */
   readonly seUpgradeSuspended?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_with_no_vs Upgradestatusinfo#se_with_no_vs}
   */
   readonly seWithNoVs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_with_vs_not_scaledout Upgradestatusinfo#se_with_vs_not_scaledout}
   */
   readonly seWithVsNotScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_with_vs_scaledout Upgradestatusinfo#se_with_vs_scaledout}
   */
   readonly seWithVsScaledout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#tenant_ref Upgradestatusinfo#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#thread Upgradestatusinfo#thread}
   */
   readonly thread?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#traffic_status Upgradestatusinfo#traffic_status}
   */
   readonly trafficStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_migrate_in_progress_ref Upgradestatusinfo#vs_migrate_in_progress_ref}
   */
   readonly vsMigrateInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_scalein_in_progress_ref Upgradestatusinfo#vs_scalein_in_progress_ref}
   */
   readonly vsScaleinInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_scaleout_in_progress_ref Upgradestatusinfo#vs_scaleout_in_progress_ref}
   */
   readonly vsScaleoutInProgressRef?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#worker Upgradestatusinfo#worker}
   */
   readonly worker?: string;
   /**
   * se_upgrade_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#se_upgrade_errors Upgradestatusinfo#se_upgrade_errors}
   */
   readonly seUpgradeErrors?: UpgradestatusinfoSegStatusSeUpgradeErrors[] | cdktf.IResolvable;
   /**
   * vs_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#vs_errors Upgradestatusinfo#vs_errors}
   */
   readonly vsErrors?: UpgradestatusinfoSegStatusVsErrors[] | cdktf.IResolvable;
 }
@@ -9828,11 +9828,11 @@ export class UpgradestatusinfoSegStatusList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -9971,21 +9971,21 @@ export class UpgradestatusinfoStateLastChangedTimeList extends cdktf.ComplexList
 }
 export interface UpgradestatusinfoState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatusinfoStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -10188,11 +10188,11 @@ export class UpgradestatusinfoStateList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoUpgradeEventsNodesEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -10331,33 +10331,33 @@ export class UpgradestatusinfoUpgradeEventsNodesEventsIpList extends cdktf.Compl
 }
 export interface UpgradestatusinfoUpgradeEventsNodesEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoUpgradeEventsNodesEventsIp[] | cdktf.IResolvable;
 }
@@ -10647,11 +10647,11 @@ export class UpgradestatusinfoUpgradeEventsNodesEventsList extends cdktf.Complex
 }
 export interface UpgradestatusinfoUpgradeEventsSubEventsIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#addr Upgradestatusinfo#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#type Upgradestatusinfo#type}
   */
   readonly type: string;
 }
@@ -10790,33 +10790,33 @@ export class UpgradestatusinfoUpgradeEventsSubEventsIpList extends cdktf.Complex
 }
 export interface UpgradestatusinfoUpgradeEventsSubEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#message Upgradestatusinfo#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#status Upgradestatusinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_tasks Upgradestatusinfo#sub_tasks}
   */
   readonly subTasks?: string[];
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#ip Upgradestatusinfo#ip}
   */
   readonly ip?: UpgradestatusinfoUpgradeEventsSubEventsIp[] | cdktf.IResolvable;
 }
@@ -11106,23 +11106,23 @@ export class UpgradestatusinfoUpgradeEventsSubEventsList extends cdktf.ComplexLi
 }
 export interface UpgradestatusinfoUpgradeEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task Upgradestatusinfo#task}
   */
   readonly task?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#task_name Upgradestatusinfo#task_name}
   */
   readonly taskName?: string;
   /**
   * nodes_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#nodes_events Upgradestatusinfo#nodes_events}
   */
   readonly nodesEvents?: UpgradestatusinfoUpgradeEventsNodesEvents[] | cdktf.IResolvable;
   /**
   * sub_events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#sub_events Upgradestatusinfo#sub_events}
   */
   readonly subEvents?: UpgradestatusinfoUpgradeEventsSubEvents[] | cdktf.IResolvable;
 }
@@ -11325,35 +11325,35 @@ export class UpgradestatusinfoUpgradeEventsList extends cdktf.ComplexList {
 }
 export interface UpgradestatusinfoUpgradeReadinessChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#check_code Upgradestatusinfo#check_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#check_code Upgradestatusinfo#check_code}
   */
   readonly checkCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#description Upgradestatusinfo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#description Upgradestatusinfo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#details Upgradestatusinfo#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#details Upgradestatusinfo#details}
   */
   readonly details?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#error_details Upgradestatusinfo#error_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#error_details Upgradestatusinfo#error_details}
   */
   readonly errorDetails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
 }
@@ -11672,11 +11672,11 @@ export class UpgradestatusinfoUpgradeReadinessChecksList extends cdktf.ComplexLi
 }
 export interface UpgradestatusinfoUpgradeReadinessStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#secs Upgradestatusinfo#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#usecs Upgradestatusinfo#usecs}
   */
   readonly usecs: string;
 }
@@ -11815,21 +11815,21 @@ export class UpgradestatusinfoUpgradeReadinessStateLastChangedTimeList extends c
 }
 export interface UpgradestatusinfoUpgradeReadinessState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#reason Upgradestatusinfo#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#rebooted Upgradestatusinfo#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#last_changed_time Upgradestatusinfo#last_changed_time}
   */
   readonly lastChangedTime?: UpgradestatusinfoUpgradeReadinessStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -12032,47 +12032,47 @@ export class UpgradestatusinfoUpgradeReadinessStateList extends cdktf.ComplexLis
 }
 export interface UpgradestatusinfoUpgradeReadiness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#checks_completed Upgradestatusinfo#checks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#checks_completed Upgradestatusinfo#checks_completed}
   */
   readonly checksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#duration Upgradestatusinfo#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#end_time Upgradestatusinfo#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#image_ref Upgradestatusinfo#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#patch_image_ref Upgradestatusinfo#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#start_time Upgradestatusinfo#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#total_checks Upgradestatusinfo#total_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#total_checks Upgradestatusinfo#total_checks}
   */
   readonly totalChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#upgrade_ops Upgradestatusinfo#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
   * checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#checks Upgradestatusinfo#checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#checks Upgradestatusinfo#checks}
   */
   readonly checks?: UpgradestatusinfoUpgradeReadinessChecks[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#state Upgradestatusinfo#state}
   */
   readonly state?: UpgradestatusinfoUpgradeReadinessState[] | cdktf.IResolvable;
 }
@@ -12449,7 +12449,7 @@ export class UpgradestatusinfoUpgradeReadinessList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo avi_upgradestatusinfo}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo avi_upgradestatusinfo}
 */
 export class Upgradestatusinfo extends cdktf.TerraformResource {
 
@@ -12465,7 +12465,7 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Upgradestatusinfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Upgradestatusinfo to import
-  * @param importFromId The id of the existing Upgradestatusinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Upgradestatusinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Upgradestatusinfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12477,7 +12477,7 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/upgradestatusinfo avi_upgradestatusinfo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/upgradestatusinfo avi_upgradestatusinfo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12488,8 +12488,8 @@ export class Upgradestatusinfo extends cdktf.TerraformResource {
       terraformResourceType: 'avi_upgradestatusinfo',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

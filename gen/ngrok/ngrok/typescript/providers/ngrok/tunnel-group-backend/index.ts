@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TunnelGroupBackendConfig extends cdktf.TerraformMetaArguments {
   /**
   * human-readable description of this backend. Optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend#description TunnelGroupBackend#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend#description TunnelGroupBackend#description}
   */
   readonly description?: string;
   /**
   * labels to watch for tunnels on, e.g. app->foo, dc->bar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend#labels TunnelGroupBackend#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend#labels TunnelGroupBackend#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * arbitrary user-defined machine-readable data of this backend. Optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend#metadata TunnelGroupBackend#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend#metadata TunnelGroupBackend#metadata}
   */
   readonly metadata?: string;
 }
@@ -108,7 +108,7 @@ export class TunnelGroupBackendTunnelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend ngrok_tunnel_group_backend}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend ngrok_tunnel_group_backend}
 */
 export class TunnelGroupBackend extends cdktf.TerraformResource {
 
@@ -124,7 +124,7 @@ export class TunnelGroupBackend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TunnelGroupBackend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TunnelGroupBackend to import
-  * @param importFromId The id of the existing TunnelGroupBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TunnelGroupBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TunnelGroupBackend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class TunnelGroupBackend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tunnel_group_backend ngrok_tunnel_group_backend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tunnel_group_backend ngrok_tunnel_group_backend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class TunnelGroupBackend extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_tunnel_group_backend',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

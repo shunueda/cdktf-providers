@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckRepositorySearchConfig extends cdktf.TerraformMetaArgument
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#category CheckRepositorySearch#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#category CheckRepositorySearch#category}
   */
   readonly category: string;
   /**
@@ -19,55 +19,55 @@ export interface CheckRepositorySearchConfig extends cdktf.TerraformMetaArgument
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#enable_on CheckRepositorySearch#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#enable_on CheckRepositorySearch#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#enabled CheckRepositorySearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#enabled CheckRepositorySearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#file_contents_predicate CheckRepositorySearch#file_contents_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#file_contents_predicate CheckRepositorySearch#file_contents_predicate}
   */
   readonly fileContentsPredicate: CheckRepositorySearchFileContentsPredicate;
   /**
   * Restrict the search to files of given extensions. Extensions should contain only letters and numbers. For example: ["py", "rb"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#file_extensions CheckRepositorySearch#file_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#file_extensions CheckRepositorySearch#file_extensions}
   */
   readonly fileExtensions?: string[];
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#filter CheckRepositorySearch#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#filter CheckRepositorySearch#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#level CheckRepositorySearch#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#level CheckRepositorySearch#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#name CheckRepositorySearch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#name CheckRepositorySearch#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#notes CheckRepositorySearch#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#notes CheckRepositorySearch#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#owner CheckRepositorySearch#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#owner CheckRepositorySearch#owner}
   */
   readonly owner?: string;
 }
@@ -75,13 +75,13 @@ export interface CheckRepositorySearchFileContentsPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#type CheckRepositorySearch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#type CheckRepositorySearch#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#value CheckRepositorySearch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#value CheckRepositorySearch#value}
   */
   readonly value?: string;
 }
@@ -201,7 +201,7 @@ export class CheckRepositorySearchFileContentsPredicateOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search opslevel_check_repository_search}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search opslevel_check_repository_search}
 */
 export class CheckRepositorySearch extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class CheckRepositorySearch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckRepositorySearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckRepositorySearch to import
-  * @param importFromId The id of the existing CheckRepositorySearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckRepositorySearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckRepositorySearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class CheckRepositorySearch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_repository_search opslevel_check_repository_search} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_search opslevel_check_repository_search} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class CheckRepositorySearch extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_repository_search',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

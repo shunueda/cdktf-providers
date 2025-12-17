@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "netapp-cloudmanager": "26.0.0"
+    "netapp-cloudmanager": "27.0.0"
   }
 }

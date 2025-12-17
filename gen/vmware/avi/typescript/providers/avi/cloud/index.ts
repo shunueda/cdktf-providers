@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,230 +8,230 @@ import * as cdktf from 'cdktf';
 
 export interface CloudConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#autoscale_polling_interval Cloud#autoscale_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#autoscale_polling_interval Cloud#autoscale_polling_interval}
   */
   readonly autoscalePollingInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#dhcp_enabled Cloud#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#dhcp_enabled Cloud#dhcp_enabled}
   */
   readonly dhcpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#dns_provider_ref Cloud#dns_provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#dns_provider_ref Cloud#dns_provider_ref}
   */
   readonly dnsProviderRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#dns_resolution_on_se Cloud#dns_resolution_on_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#dns_resolution_on_se Cloud#dns_resolution_on_se}
   */
   readonly dnsResolutionOnSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#east_west_dns_provider_ref Cloud#east_west_dns_provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#east_west_dns_provider_ref Cloud#east_west_dns_provider_ref}
   */
   readonly eastWestDnsProviderRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#east_west_ipam_provider_ref Cloud#east_west_ipam_provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#east_west_ipam_provider_ref Cloud#east_west_ipam_provider_ref}
   */
   readonly eastWestIpamProviderRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enable_vip_on_all_interfaces Cloud#enable_vip_on_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enable_vip_on_all_interfaces Cloud#enable_vip_on_all_interfaces}
   */
   readonly enableVipOnAllInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enable_vip_static_routes Cloud#enable_vip_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enable_vip_static_routes Cloud#enable_vip_static_routes}
   */
   readonly enableVipStaticRoutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#id Cloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#id Cloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ip6_autocfg_enabled Cloud#ip6_autocfg_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ip6_autocfg_enabled Cloud#ip6_autocfg_enabled}
   */
   readonly ip6AutocfgEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ipam_provider_ref Cloud#ipam_provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ipam_provider_ref Cloud#ipam_provider_ref}
   */
   readonly ipamProviderRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#license_tier Cloud#license_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#license_tier Cloud#license_tier}
   */
   readonly licenseTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#license_type Cloud#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#license_type Cloud#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#maintenance_mode Cloud#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#maintenance_mode Cloud#maintenance_mode}
   */
   readonly maintenanceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#metrics_polling_interval Cloud#metrics_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#metrics_polling_interval Cloud#metrics_polling_interval}
   */
   readonly metricsPollingInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_ip_v4_enabled Cloud#mgmt_ip_v4_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_ip_v4_enabled Cloud#mgmt_ip_v4_enabled}
   */
   readonly mgmtIpV4Enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_ip_v6_enabled Cloud#mgmt_ip_v6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_ip_v6_enabled Cloud#mgmt_ip_v6_enabled}
   */
   readonly mgmtIpV6Enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mtu Cloud#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mtu Cloud#mtu}
   */
   readonly mtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#name Cloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#name Cloud#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#obj_name_prefix Cloud#obj_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#obj_name_prefix Cloud#obj_name_prefix}
   */
   readonly objNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#prefer_static_routes Cloud#prefer_static_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#prefer_static_routes Cloud#prefer_static_routes}
   */
   readonly preferStaticRoutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#resolve_fqdn_to_ipv6 Cloud#resolve_fqdn_to_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#resolve_fqdn_to_ipv6 Cloud#resolve_fqdn_to_ipv6}
   */
   readonly resolveFqdnToIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_group_template_ref Cloud#se_group_template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_group_template_ref Cloud#se_group_template_ref}
   */
   readonly seGroupTemplateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#state_based_dns_registration Cloud#state_based_dns_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#state_based_dns_registration Cloud#state_based_dns_registration}
   */
   readonly stateBasedDnsRegistration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tenant_ref Cloud#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tenant_ref Cloud#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#uuid Cloud#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#uuid Cloud#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vmc_deployment Cloud#vmc_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vmc_deployment Cloud#vmc_deployment}
   */
   readonly vmcDeployment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vtype Cloud#vtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vtype Cloud#vtype}
   */
   readonly vtype: string;
   /**
   * aws_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#aws_configuration Cloud#aws_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#aws_configuration Cloud#aws_configuration}
   */
   readonly awsConfiguration?: CloudAwsConfiguration[] | cdktf.IResolvable;
   /**
   * azure_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#azure_configuration Cloud#azure_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#azure_configuration Cloud#azure_configuration}
   */
   readonly azureConfiguration?: CloudAzureConfiguration[] | cdktf.IResolvable;
   /**
   * cloudstack_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#cloudstack_configuration Cloud#cloudstack_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#cloudstack_configuration Cloud#cloudstack_configuration}
   */
   readonly cloudstackConfiguration?: CloudCloudstackConfiguration[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#configpb_attributes Cloud#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#configpb_attributes Cloud#configpb_attributes}
   */
   readonly configpbAttributes?: CloudConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * custom_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#custom_tags Cloud#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#custom_tags Cloud#custom_tags}
   */
   readonly customTags?: CloudCustomTags[] | cdktf.IResolvable;
   /**
   * dns_resolvers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#dns_resolvers Cloud#dns_resolvers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#dns_resolvers Cloud#dns_resolvers}
   */
   readonly dnsResolvers?: CloudDnsResolvers[] | cdktf.IResolvable;
   /**
   * docker_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#docker_configuration Cloud#docker_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#docker_configuration Cloud#docker_configuration}
   */
   readonly dockerConfiguration?: CloudDockerConfiguration[] | cdktf.IResolvable;
   /**
   * gcp_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#gcp_configuration Cloud#gcp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#gcp_configuration Cloud#gcp_configuration}
   */
   readonly gcpConfiguration?: CloudGcpConfiguration[] | cdktf.IResolvable;
   /**
   * linuxserver_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#linuxserver_configuration Cloud#linuxserver_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#linuxserver_configuration Cloud#linuxserver_configuration}
   */
   readonly linuxserverConfiguration?: CloudLinuxserverConfiguration[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#markers Cloud#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#markers Cloud#markers}
   */
   readonly markers?: CloudMarkers[] | cdktf.IResolvable;
   /**
   * nsxt_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nsxt_configuration Cloud#nsxt_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nsxt_configuration Cloud#nsxt_configuration}
   */
   readonly nsxtConfiguration?: CloudNsxtConfiguration[] | cdktf.IResolvable;
   /**
   * ntp_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ntp_configuration Cloud#ntp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ntp_configuration Cloud#ntp_configuration}
   */
   readonly ntpConfiguration?: CloudNtpConfiguration[] | cdktf.IResolvable;
   /**
   * openstack_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#openstack_configuration Cloud#openstack_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#openstack_configuration Cloud#openstack_configuration}
   */
   readonly openstackConfiguration?: CloudOpenstackConfiguration[] | cdktf.IResolvable;
   /**
   * proxy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#proxy_configuration Cloud#proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#proxy_configuration Cloud#proxy_configuration}
   */
   readonly proxyConfiguration?: CloudProxyConfiguration[] | cdktf.IResolvable;
   /**
   * rancher_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#rancher_configuration Cloud#rancher_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#rancher_configuration Cloud#rancher_configuration}
   */
   readonly rancherConfiguration?: CloudRancherConfiguration[] | cdktf.IResolvable;
   /**
   * vca_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_configuration Cloud#vca_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_configuration Cloud#vca_configuration}
   */
   readonly vcaConfiguration?: CloudVcaConfiguration[] | cdktf.IResolvable;
   /**
   * vcenter_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vcenter_configuration Cloud#vcenter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vcenter_configuration Cloud#vcenter_configuration}
   */
   readonly vcenterConfiguration?: CloudVcenterConfiguration[] | cdktf.IResolvable;
 }
 export interface CloudAwsConfigurationEbsEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#master_key Cloud#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#master_key Cloud#master_key}
   */
   readonly masterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mode Cloud#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mode Cloud#mode}
   */
   readonly mode?: string;
 }
@@ -376,11 +376,11 @@ export class CloudAwsConfigurationEbsEncryptionList extends cdktf.ComplexList {
 }
 export interface CloudAwsConfigurationS3Encryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#master_key Cloud#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#master_key Cloud#master_key}
   */
   readonly masterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mode Cloud#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mode Cloud#mode}
   */
   readonly mode?: string;
 }
@@ -525,11 +525,11 @@ export class CloudAwsConfigurationS3EncryptionList extends cdktf.ComplexList {
 }
 export interface CloudAwsConfigurationSqsEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#master_key Cloud#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#master_key Cloud#master_key}
   */
   readonly masterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mode Cloud#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mode Cloud#mode}
   */
   readonly mode?: string;
 }
@@ -674,15 +674,15 @@ export class CloudAwsConfigurationSqsEncryptionList extends cdktf.ComplexList {
 }
 export interface CloudAwsConfigurationZones {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#availability_zone Cloud#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#availability_zone Cloud#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_network_name Cloud#mgmt_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_network_name Cloud#mgmt_network_name}
   */
   readonly mgmtNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_network_uuid Cloud#mgmt_network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_network_uuid Cloud#mgmt_network_uuid}
   */
   readonly mgmtNetworkUuid?: string;
 }
@@ -850,79 +850,79 @@ export class CloudAwsConfigurationZonesList extends cdktf.ComplexList {
 }
 export interface CloudAwsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#access_key_id Cloud#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#access_key_id Cloud#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#asg_poll_interval Cloud#asg_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#asg_poll_interval Cloud#asg_poll_interval}
   */
   readonly asgPollInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#free_elasticips Cloud#free_elasticips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#free_elasticips Cloud#free_elasticips}
   */
   readonly freeElasticips?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#iam_assume_role Cloud#iam_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#iam_assume_role Cloud#iam_assume_role}
   */
   readonly iamAssumeRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#publish_vip_to_public_zone Cloud#publish_vip_to_public_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#publish_vip_to_public_zone Cloud#publish_vip_to_public_zone}
   */
   readonly publishVipToPublicZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#region Cloud#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#region Cloud#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#route53_integration Cloud#route53_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#route53_integration Cloud#route53_integration}
   */
   readonly route53Integration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#secret_access_key Cloud#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#secret_access_key Cloud#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ttl Cloud#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ttl Cloud#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_iam_roles Cloud#use_iam_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_iam_roles Cloud#use_iam_roles}
   */
   readonly useIamRoles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_sns_sqs Cloud#use_sns_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_sns_sqs Cloud#use_sns_sqs}
   */
   readonly useSnsSqs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vpc Cloud#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vpc Cloud#vpc}
   */
   readonly vpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vpc_id Cloud#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vpc_id Cloud#vpc_id}
   */
   readonly vpcId: string;
   /**
   * ebs_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ebs_encryption Cloud#ebs_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ebs_encryption Cloud#ebs_encryption}
   */
   readonly ebsEncryption?: CloudAwsConfigurationEbsEncryption[] | cdktf.IResolvable;
   /**
   * s3_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#s3_encryption Cloud#s3_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#s3_encryption Cloud#s3_encryption}
   */
   readonly s3Encryption?: CloudAwsConfigurationS3Encryption[] | cdktf.IResolvable;
   /**
   * sqs_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#sqs_encryption Cloud#sqs_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#sqs_encryption Cloud#sqs_encryption}
   */
   readonly sqsEncryption?: CloudAwsConfigurationSqsEncryption[] | cdktf.IResolvable;
   /**
   * zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#zones Cloud#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#zones Cloud#zones}
   */
   readonly zones?: CloudAwsConfigurationZones[] | cdktf.IResolvable;
 }
@@ -1499,15 +1499,15 @@ export class CloudAwsConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudAzureConfigurationNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_network_id Cloud#management_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_network_id Cloud#management_network_id}
   */
   readonly managementNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_network_id Cloud#se_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_network_id Cloud#se_network_id}
   */
   readonly seNetworkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#virtual_network_id Cloud#virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#virtual_network_id Cloud#virtual_network_id}
   */
   readonly virtualNetworkId?: string;
 }
@@ -1681,53 +1681,53 @@ export class CloudAzureConfigurationNetworkInfoList extends cdktf.ComplexList {
 }
 export interface CloudAzureConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#availability_zones Cloud#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#availability_zones Cloud#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#cloud_credentials_ref Cloud#cloud_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#cloud_credentials_ref Cloud#cloud_credentials_ref}
   */
   readonly cloudCredentialsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#des_id Cloud#des_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#des_id Cloud#des_id}
   */
   readonly desId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#location Cloud#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#location Cloud#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#resource_group Cloud#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#resource_group Cloud#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_storage_account Cloud#se_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_storage_account Cloud#se_storage_account}
   */
   readonly seStorageAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#subscription_id Cloud#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#subscription_id Cloud#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_azure_dns Cloud#use_azure_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_azure_dns Cloud#use_azure_dns}
   */
   readonly useAzureDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_enhanced_ha Cloud#use_enhanced_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_enhanced_ha Cloud#use_enhanced_ha}
   */
   readonly useEnhancedHa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_managed_disks Cloud#use_managed_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_managed_disks Cloud#use_managed_disks}
   */
   readonly useManagedDisks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_standard_alb Cloud#use_standard_alb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_standard_alb Cloud#use_standard_alb}
   */
   readonly useStandardAlb?: string;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#network_info Cloud#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#network_info Cloud#network_info}
   */
   readonly networkInfo: CloudAzureConfigurationNetworkInfo[] | cdktf.IResolvable;
 }
@@ -2159,31 +2159,31 @@ export class CloudAzureConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudCloudstackConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#access_key_id Cloud#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#access_key_id Cloud#access_key_id}
   */
   readonly accessKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#api_url Cloud#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#api_url Cloud#api_url}
   */
   readonly apiUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#cntr_public_ip Cloud#cntr_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#cntr_public_ip Cloud#cntr_public_ip}
   */
   readonly cntrPublicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#hypervisor Cloud#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#hypervisor Cloud#hypervisor}
   */
   readonly hypervisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_network_name Cloud#mgmt_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_network_name Cloud#mgmt_network_name}
   */
   readonly mgmtNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_network_uuid Cloud#mgmt_network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_network_uuid Cloud#mgmt_network_uuid}
   */
   readonly mgmtNetworkUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#secret_access_key Cloud#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#secret_access_key Cloud#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -2461,7 +2461,7 @@ export class CloudCloudstackConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#version Cloud#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#version Cloud#version}
   */
   readonly version?: string;
 }
@@ -2577,11 +2577,11 @@ export class CloudConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface CloudCustomTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tag_key Cloud#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tag_key Cloud#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tag_val Cloud#tag_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tag_val Cloud#tag_val}
   */
   readonly tagVal?: string;
 }
@@ -2723,11 +2723,11 @@ export class CloudCustomTagsList extends cdktf.ComplexList {
 }
 export interface CloudDnsResolversNameserverIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -2866,25 +2866,25 @@ export class CloudDnsResolversNameserverIpsList extends cdktf.ComplexList {
 }
 export interface CloudDnsResolvers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#fixed_ttl Cloud#fixed_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#fixed_ttl Cloud#fixed_ttl}
   */
   readonly fixedTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#min_ttl Cloud#min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#min_ttl Cloud#min_ttl}
   */
   readonly minTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#resolver_name Cloud#resolver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#resolver_name Cloud#resolver_name}
   */
   readonly resolverName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_mgmt Cloud#use_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_mgmt Cloud#use_mgmt}
   */
   readonly useMgmt?: string;
   /**
   * nameserver_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nameserver_ips Cloud#nameserver_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nameserver_ips Cloud#nameserver_ips}
   */
   readonly nameserverIps: CloudDnsResolversNameserverIps[] | cdktf.IResolvable;
 }
@@ -3110,11 +3110,11 @@ export class CloudDnsResolversList extends cdktf.ComplexList {
 }
 export interface CloudDockerConfigurationDockerRegistrySeOshiftRegistryRegistryVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -3253,17 +3253,17 @@ export class CloudDockerConfigurationDockerRegistrySeOshiftRegistryRegistryVipLi
 }
 export interface CloudDockerConfigurationDockerRegistrySeOshiftRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry_namespace Cloud#registry_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry_namespace Cloud#registry_namespace}
   */
   readonly registryNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry_service Cloud#registry_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry_service Cloud#registry_service}
   */
   readonly registryService?: string;
   /**
   * registry_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry_vip Cloud#registry_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry_vip Cloud#registry_vip}
   */
   readonly registryVip?: CloudDockerConfigurationDockerRegistrySeOshiftRegistryRegistryVip[] | cdktf.IResolvable;
 }
@@ -3437,25 +3437,25 @@ export class CloudDockerConfigurationDockerRegistrySeOshiftRegistryList extends 
 }
 export interface CloudDockerConfigurationDockerRegistrySe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#password Cloud#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#password Cloud#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#private Cloud#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#private Cloud#private}
   */
   readonly private?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry Cloud#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry Cloud#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#username Cloud#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#username Cloud#username}
   */
   readonly username?: string;
   /**
   * oshift_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#oshift_registry Cloud#oshift_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#oshift_registry Cloud#oshift_registry}
   */
   readonly oshiftRegistry?: CloudDockerConfigurationDockerRegistrySeOshiftRegistry[] | cdktf.IResolvable;
 }
@@ -3687,11 +3687,11 @@ export class CloudDockerConfigurationDockerRegistrySeList extends cdktf.ComplexL
 }
 export interface CloudDockerConfigurationEastWestPlacementSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -3830,13 +3830,13 @@ export class CloudDockerConfigurationEastWestPlacementSubnetIpAddrList extends c
 }
 export interface CloudDockerConfigurationEastWestPlacementSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mask Cloud#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mask Cloud#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ip_addr Cloud#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ip_addr Cloud#ip_addr}
   */
   readonly ipAddr: CloudDockerConfigurationEastWestPlacementSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -3975,11 +3975,11 @@ export class CloudDockerConfigurationEastWestPlacementSubnetList extends cdktf.C
 }
 export interface CloudDockerConfigurationSeExcludeAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#attribute Cloud#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#attribute Cloud#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#value Cloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#value Cloud#value}
   */
   readonly value?: string;
 }
@@ -4121,11 +4121,11 @@ export class CloudDockerConfigurationSeExcludeAttributesList extends cdktf.Compl
 }
 export interface CloudDockerConfigurationSeIncludeAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#attribute Cloud#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#attribute Cloud#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#value Cloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#value Cloud#value}
   */
   readonly value?: string;
 }
@@ -4267,111 +4267,111 @@ export class CloudDockerConfigurationSeIncludeAttributesList extends cdktf.Compl
 }
 export interface CloudDockerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#app_sync_frequency Cloud#app_sync_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#app_sync_frequency Cloud#app_sync_frequency}
   */
   readonly appSyncFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ca_tls_key_and_certificate_ref Cloud#ca_tls_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ca_tls_key_and_certificate_ref Cloud#ca_tls_key_and_certificate_ref}
   */
   readonly caTlsKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#client_tls_key_and_certificate_ref Cloud#client_tls_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#client_tls_key_and_certificate_ref Cloud#client_tls_key_and_certificate_ref}
   */
   readonly clientTlsKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#container_port_match_http_service Cloud#container_port_match_http_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#container_port_match_http_service Cloud#container_port_match_http_service}
   */
   readonly containerPortMatchHttpService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#coredump_directory Cloud#coredump_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#coredump_directory Cloud#coredump_directory}
   */
   readonly coredumpDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#disable_auto_backend_service_sync Cloud#disable_auto_backend_service_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#disable_auto_backend_service_sync Cloud#disable_auto_backend_service_sync}
   */
   readonly disableAutoBackendServiceSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#disable_auto_frontend_service_sync Cloud#disable_auto_frontend_service_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#disable_auto_frontend_service_sync Cloud#disable_auto_frontend_service_sync}
   */
   readonly disableAutoFrontendServiceSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#disable_auto_se_creation Cloud#disable_auto_se_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#disable_auto_se_creation Cloud#disable_auto_se_creation}
   */
   readonly disableAutoSeCreation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enable_event_subscription Cloud#enable_event_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enable_event_subscription Cloud#enable_event_subscription}
   */
   readonly enableEventSubscription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#feproxy_container_port_as_service Cloud#feproxy_container_port_as_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#feproxy_container_port_as_service Cloud#feproxy_container_port_as_service}
   */
   readonly feproxyContainerPortAsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#feproxy_vips_enable_proxy_arp Cloud#feproxy_vips_enable_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#feproxy_vips_enable_proxy_arp Cloud#feproxy_vips_enable_proxy_arp}
   */
   readonly feproxyVipsEnableProxyArp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#fleet_endpoint Cloud#fleet_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#fleet_endpoint Cloud#fleet_endpoint}
   */
   readonly fleetEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#http_container_ports Cloud#http_container_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#http_container_ports Cloud#http_container_ports}
   */
   readonly httpContainerPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_deployment_method Cloud#se_deployment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_deployment_method Cloud#se_deployment_method}
   */
   readonly seDeploymentMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_spawn_rate Cloud#se_spawn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_spawn_rate Cloud#se_spawn_rate}
   */
   readonly seSpawnRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_volume Cloud#se_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_volume Cloud#se_volume}
   */
   readonly seVolume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#services_accessible_all_interfaces Cloud#services_accessible_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#services_accessible_all_interfaces Cloud#services_accessible_all_interfaces}
   */
   readonly servicesAccessibleAllInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ssh_user_ref Cloud#ssh_user_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ssh_user_ref Cloud#ssh_user_ref}
   */
   readonly sshUserRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ucp_nodes Cloud#ucp_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ucp_nodes Cloud#ucp_nodes}
   */
   readonly ucpNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_container_ip_port Cloud#use_container_ip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_container_ip_port Cloud#use_container_ip_port}
   */
   readonly useContainerIpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_controller_image Cloud#use_controller_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_controller_image Cloud#use_controller_image}
   */
   readonly useControllerImage?: string;
   /**
   * docker_registry_se block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#docker_registry_se Cloud#docker_registry_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#docker_registry_se Cloud#docker_registry_se}
   */
   readonly dockerRegistrySe?: CloudDockerConfigurationDockerRegistrySe[] | cdktf.IResolvable;
   /**
   * east_west_placement_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#east_west_placement_subnet Cloud#east_west_placement_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#east_west_placement_subnet Cloud#east_west_placement_subnet}
   */
   readonly eastWestPlacementSubnet?: CloudDockerConfigurationEastWestPlacementSubnet[] | cdktf.IResolvable;
   /**
   * se_exclude_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_exclude_attributes Cloud#se_exclude_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_exclude_attributes Cloud#se_exclude_attributes}
   */
   readonly seExcludeAttributes?: CloudDockerConfigurationSeExcludeAttributes[] | cdktf.IResolvable;
   /**
   * se_include_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_include_attributes Cloud#se_include_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_include_attributes Cloud#se_include_attributes}
   */
   readonly seIncludeAttributes?: CloudDockerConfigurationSeIncludeAttributes[] | cdktf.IResolvable;
 }
@@ -5183,19 +5183,19 @@ export class CloudDockerConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudGcpConfigurationEncryptionKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#gcs_bucket_kms_key_id Cloud#gcs_bucket_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#gcs_bucket_kms_key_id Cloud#gcs_bucket_kms_key_id}
   */
   readonly gcsBucketKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#gcs_objects_kms_key_id Cloud#gcs_objects_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#gcs_objects_kms_key_id Cloud#gcs_objects_kms_key_id}
   */
   readonly gcsObjectsKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_disk_kms_key_id Cloud#se_disk_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_disk_kms_key_id Cloud#se_disk_kms_key_id}
   */
   readonly seDiskKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_image_kms_key_id Cloud#se_image_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_image_kms_key_id Cloud#se_image_kms_key_id}
   */
   readonly seImageKmsKeyId?: string;
 }
@@ -5398,15 +5398,15 @@ export class CloudGcpConfigurationEncryptionKeysList extends cdktf.ComplexList {
 }
 export interface CloudGcpConfigurationNetworkConfigInband {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vpc_network_name Cloud#vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vpc_network_name Cloud#vpc_network_name}
   */
   readonly vpcNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vpc_project_id Cloud#vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vpc_project_id Cloud#vpc_project_id}
   */
   readonly vpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vpc_subnet_name Cloud#vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vpc_subnet_name Cloud#vpc_subnet_name}
   */
   readonly vpcSubnetName: string;
 }
@@ -5574,27 +5574,27 @@ export class CloudGcpConfigurationNetworkConfigInbandList extends cdktf.ComplexL
 }
 export interface CloudGcpConfigurationNetworkConfigOneArm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#data_vpc_network_name Cloud#data_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#data_vpc_network_name Cloud#data_vpc_network_name}
   */
   readonly dataVpcNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#data_vpc_project_id Cloud#data_vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#data_vpc_project_id Cloud#data_vpc_project_id}
   */
   readonly dataVpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#data_vpc_subnet_name Cloud#data_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#data_vpc_subnet_name Cloud#data_vpc_subnet_name}
   */
   readonly dataVpcSubnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_vpc_network_name Cloud#management_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_vpc_network_name Cloud#management_vpc_network_name}
   */
   readonly managementVpcNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_vpc_project_id Cloud#management_vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_vpc_project_id Cloud#management_vpc_project_id}
   */
   readonly managementVpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_vpc_subnet_name Cloud#management_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_vpc_subnet_name Cloud#management_vpc_subnet_name}
   */
   readonly managementVpcSubnetName: string;
 }
@@ -5843,39 +5843,39 @@ export class CloudGcpConfigurationNetworkConfigOneArmList extends cdktf.ComplexL
 }
 export interface CloudGcpConfigurationNetworkConfigTwoArm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#backend_data_vpc_network_name Cloud#backend_data_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#backend_data_vpc_network_name Cloud#backend_data_vpc_network_name}
   */
   readonly backendDataVpcNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#backend_data_vpc_project_id Cloud#backend_data_vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#backend_data_vpc_project_id Cloud#backend_data_vpc_project_id}
   */
   readonly backendDataVpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#backend_data_vpc_subnet_name Cloud#backend_data_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#backend_data_vpc_subnet_name Cloud#backend_data_vpc_subnet_name}
   */
   readonly backendDataVpcSubnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#frontend_data_vpc_network_name Cloud#frontend_data_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#frontend_data_vpc_network_name Cloud#frontend_data_vpc_network_name}
   */
   readonly frontendDataVpcNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#frontend_data_vpc_project_id Cloud#frontend_data_vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#frontend_data_vpc_project_id Cloud#frontend_data_vpc_project_id}
   */
   readonly frontendDataVpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#frontend_data_vpc_subnet_name Cloud#frontend_data_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#frontend_data_vpc_subnet_name Cloud#frontend_data_vpc_subnet_name}
   */
   readonly frontendDataVpcSubnetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_vpc_network_name Cloud#management_vpc_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_vpc_network_name Cloud#management_vpc_network_name}
   */
   readonly managementVpcNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_vpc_project_id Cloud#management_vpc_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_vpc_project_id Cloud#management_vpc_project_id}
   */
   readonly managementVpcProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_vpc_subnet_name Cloud#management_vpc_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_vpc_subnet_name Cloud#management_vpc_subnet_name}
   */
   readonly managementVpcSubnetName: string;
 }
@@ -6205,25 +6205,25 @@ export class CloudGcpConfigurationNetworkConfigTwoArmList extends cdktf.ComplexL
 }
 export interface CloudGcpConfigurationNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#config Cloud#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#config Cloud#config}
   */
   readonly config: string;
   /**
   * inband block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#inband Cloud#inband}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#inband Cloud#inband}
   */
   readonly inband?: CloudGcpConfigurationNetworkConfigInband[] | cdktf.IResolvable;
   /**
   * one_arm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#one_arm Cloud#one_arm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#one_arm Cloud#one_arm}
   */
   readonly oneArm?: CloudGcpConfigurationNetworkConfigOneArm[] | cdktf.IResolvable;
   /**
   * two_arm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#two_arm Cloud#two_arm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#two_arm Cloud#two_arm}
   */
   readonly twoArm?: CloudGcpConfigurationNetworkConfigTwoArm[] | cdktf.IResolvable;
 }
@@ -6423,7 +6423,7 @@ export class CloudGcpConfigurationNetworkConfigList extends cdktf.ComplexList {
 }
 export interface CloudGcpConfigurationVipAllocationStrategyIlb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#cloud_router_names Cloud#cloud_router_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#cloud_router_names Cloud#cloud_router_names}
   */
   readonly cloudRouterNames?: string[];
 }
@@ -6539,11 +6539,11 @@ export class CloudGcpConfigurationVipAllocationStrategyIlbList extends cdktf.Com
 }
 export interface CloudGcpConfigurationVipAllocationStrategyRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#match_se_group_subnet Cloud#match_se_group_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#match_se_group_subnet Cloud#match_se_group_subnet}
   */
   readonly matchSeGroupSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#route_priority Cloud#route_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#route_priority Cloud#route_priority}
   */
   readonly routePriority?: string;
 }
@@ -6688,19 +6688,19 @@ export class CloudGcpConfigurationVipAllocationStrategyRoutesList extends cdktf.
 }
 export interface CloudGcpConfigurationVipAllocationStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mode Cloud#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mode Cloud#mode}
   */
   readonly mode?: string;
   /**
   * ilb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ilb Cloud#ilb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ilb Cloud#ilb}
   */
   readonly ilb?: CloudGcpConfigurationVipAllocationStrategyIlb[] | cdktf.IResolvable;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#routes Cloud#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#routes Cloud#routes}
   */
   readonly routes?: CloudGcpConfigurationVipAllocationStrategyRoutes[] | cdktf.IResolvable;
 }
@@ -6874,53 +6874,53 @@ export class CloudGcpConfigurationVipAllocationStrategyList extends cdktf.Comple
 }
 export interface CloudGcpConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#cloud_credentials_ref Cloud#cloud_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#cloud_credentials_ref Cloud#cloud_credentials_ref}
   */
   readonly cloudCredentialsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#firewall_target_tags Cloud#firewall_target_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#firewall_target_tags Cloud#firewall_target_tags}
   */
   readonly firewallTargetTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#gcp_service_account_email Cloud#gcp_service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#gcp_service_account_email Cloud#gcp_service_account_email}
   */
   readonly gcpServiceAccountEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#gcs_bucket_name Cloud#gcs_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#gcs_bucket_name Cloud#gcs_bucket_name}
   */
   readonly gcsBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#gcs_project_id Cloud#gcs_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#gcs_project_id Cloud#gcs_project_id}
   */
   readonly gcsProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#region_name Cloud#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#region_name Cloud#region_name}
   */
   readonly regionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_project_id Cloud#se_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_project_id Cloud#se_project_id}
   */
   readonly seProjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#zones Cloud#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#zones Cloud#zones}
   */
   readonly zones: string[];
   /**
   * encryption_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#encryption_keys Cloud#encryption_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#encryption_keys Cloud#encryption_keys}
   */
   readonly encryptionKeys?: CloudGcpConfigurationEncryptionKeys[] | cdktf.IResolvable;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#network_config Cloud#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#network_config Cloud#network_config}
   */
   readonly networkConfig: CloudGcpConfigurationNetworkConfig[] | cdktf.IResolvable;
   /**
   * vip_allocation_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vip_allocation_strategy Cloud#vip_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vip_allocation_strategy Cloud#vip_allocation_strategy}
   */
   readonly vipAllocationStrategy: CloudGcpConfigurationVipAllocationStrategy[] | cdktf.IResolvable;
 }
@@ -7311,11 +7311,11 @@ export class CloudGcpConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudLinuxserverConfigurationHostsHostAttr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#attr_key Cloud#attr_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#attr_key Cloud#attr_key}
   */
   readonly attrKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#attr_val Cloud#attr_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#attr_val Cloud#attr_val}
   */
   readonly attrVal?: string;
 }
@@ -7457,11 +7457,11 @@ export class CloudLinuxserverConfigurationHostsHostAttrList extends cdktf.Comple
 }
 export interface CloudLinuxserverConfigurationHostsHostIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -7600,23 +7600,23 @@ export class CloudLinuxserverConfigurationHostsHostIpList extends cdktf.ComplexL
 }
 export interface CloudLinuxserverConfigurationHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#node_availability_zone Cloud#node_availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#node_availability_zone Cloud#node_availability_zone}
   */
   readonly nodeAvailabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_group_ref Cloud#se_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_group_ref Cloud#se_group_ref}
   */
   readonly seGroupRef?: string;
   /**
   * host_attr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#host_attr Cloud#host_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#host_attr Cloud#host_attr}
   */
   readonly hostAttr?: CloudLinuxserverConfigurationHostsHostAttr[] | cdktf.IResolvable;
   /**
   * host_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#host_ip Cloud#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#host_ip Cloud#host_ip}
   */
   readonly hostIp: CloudLinuxserverConfigurationHostsHostIp[] | cdktf.IResolvable;
 }
@@ -7816,33 +7816,33 @@ export class CloudLinuxserverConfigurationHostsList extends cdktf.ComplexList {
 }
 export interface CloudLinuxserverConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_inband_mgmt Cloud#se_inband_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_inband_mgmt Cloud#se_inband_mgmt}
   */
   readonly seInbandMgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_log_disk_path Cloud#se_log_disk_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_log_disk_path Cloud#se_log_disk_path}
   */
   readonly seLogDiskPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_log_disk_size_gb Cloud#se_log_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_log_disk_size_gb Cloud#se_log_disk_size_gb}
   */
   readonly seLogDiskSizeGb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_sys_disk_path Cloud#se_sys_disk_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_sys_disk_path Cloud#se_sys_disk_path}
   */
   readonly seSysDiskPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_sys_disk_size_gb Cloud#se_sys_disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_sys_disk_size_gb Cloud#se_sys_disk_size_gb}
   */
   readonly seSysDiskSizeGb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ssh_user_ref Cloud#ssh_user_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ssh_user_ref Cloud#ssh_user_ref}
   */
   readonly sshUserRef?: string;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#hosts Cloud#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#hosts Cloud#hosts}
   */
   readonly hosts?: CloudLinuxserverConfigurationHosts[] | cdktf.IResolvable;
 }
@@ -8132,11 +8132,11 @@ export class CloudLinuxserverConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#key Cloud#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#key Cloud#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#values Cloud#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#values Cloud#values}
   */
   readonly values?: string[];
 }
@@ -8278,11 +8278,11 @@ export class CloudMarkersList extends cdktf.ComplexList {
 }
 export interface CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticNsxtSegmentSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -8421,13 +8421,13 @@ export class CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticN
 }
 export interface CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticNsxtSegmentSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mask Cloud#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mask Cloud#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ip_addr Cloud#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ip_addr Cloud#ip_addr}
   */
   readonly ipAddr: CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticNsxtSegmentSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -8566,17 +8566,17 @@ export class CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticN
 }
 export interface CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#num_se_per_segment Cloud#num_se_per_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#num_se_per_segment Cloud#num_se_per_segment}
   */
   readonly numSePerSegment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tier1_lr_ids Cloud#tier1_lr_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tier1_lr_ids Cloud#tier1_lr_ids}
   */
   readonly tier1LrIds: string[];
   /**
   * nsxt_segment_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nsxt_segment_subnet Cloud#nsxt_segment_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nsxt_segment_subnet Cloud#nsxt_segment_subnet}
   */
   readonly nsxtSegmentSubnet: CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticNsxtSegmentSubnet[] | cdktf.IResolvable;
 }
@@ -8744,15 +8744,15 @@ export class CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomaticL
 }
 export interface CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigManualTier1Lrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#locale_service Cloud#locale_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#locale_service Cloud#locale_service}
   */
   readonly localeService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#segment_id Cloud#segment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#segment_id Cloud#segment_id}
   */
   readonly segmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tier1_lr_id Cloud#tier1_lr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tier1_lr_id Cloud#tier1_lr_id}
   */
   readonly tier1LrId: string;
 }
@@ -8925,7 +8925,7 @@ export interface CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigManual
   /**
   * tier1_lrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tier1_lrs Cloud#tier1_lrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tier1_lrs Cloud#tier1_lrs}
   */
   readonly tier1Lrs: CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigManualTier1Lrs[] | cdktf.IResolvable;
 }
@@ -9038,19 +9038,19 @@ export class CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigManualList
 }
 export interface CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#segment_config_mode Cloud#segment_config_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#segment_config_mode Cloud#segment_config_mode}
   */
   readonly segmentConfigMode?: string;
   /**
   * automatic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#automatic Cloud#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#automatic Cloud#automatic}
   */
   readonly automatic?: CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigAutomatic[] | cdktf.IResolvable;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#manual Cloud#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#manual Cloud#manual}
   */
   readonly manual?: CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigManual[] | cdktf.IResolvable;
 }
@@ -9224,21 +9224,21 @@ export class CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfigList exten
 }
 export interface CloudNsxtConfigurationDataNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#transport_zone Cloud#transport_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#transport_zone Cloud#transport_zone}
   */
   readonly transportZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tz_type Cloud#tz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tz_type Cloud#tz_type}
   */
   readonly tzType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vlan_segments Cloud#vlan_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vlan_segments Cloud#vlan_segments}
   */
   readonly vlanSegments?: string[];
   /**
   * tier1_segment_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tier1_segment_config Cloud#tier1_segment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tier1_segment_config Cloud#tier1_segment_config}
   */
   readonly tier1SegmentConfig?: CloudNsxtConfigurationDataNetworkConfigTier1SegmentConfig[] | cdktf.IResolvable;
 }
@@ -9441,15 +9441,15 @@ export class CloudNsxtConfigurationDataNetworkConfigList extends cdktf.ComplexLi
 }
 export interface CloudNsxtConfigurationManagementNetworkConfigOverlaySegment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#locale_service Cloud#locale_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#locale_service Cloud#locale_service}
   */
   readonly localeService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#segment_id Cloud#segment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#segment_id Cloud#segment_id}
   */
   readonly segmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tier1_lr_id Cloud#tier1_lr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tier1_lr_id Cloud#tier1_lr_id}
   */
   readonly tier1LrId: string;
 }
@@ -9620,21 +9620,21 @@ export class CloudNsxtConfigurationManagementNetworkConfigOverlaySegmentList ext
 }
 export interface CloudNsxtConfigurationManagementNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#transport_zone Cloud#transport_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#transport_zone Cloud#transport_zone}
   */
   readonly transportZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tz_type Cloud#tz_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tz_type Cloud#tz_type}
   */
   readonly tzType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vlan_segment Cloud#vlan_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vlan_segment Cloud#vlan_segment}
   */
   readonly vlanSegment?: string;
   /**
   * overlay_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#overlay_segment Cloud#overlay_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#overlay_segment Cloud#overlay_segment}
   */
   readonly overlaySegment?: CloudNsxtConfigurationManagementNetworkConfigOverlaySegment[] | cdktf.IResolvable;
 }
@@ -9831,51 +9831,51 @@ export class CloudNsxtConfigurationManagementNetworkConfigList extends cdktf.Com
 }
 export interface CloudNsxtConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#automate_dfw_objects Cloud#automate_dfw_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#automate_dfw_objects Cloud#automate_dfw_objects}
   */
   readonly automateDfwObjects?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#automate_dfw_rules Cloud#automate_dfw_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#automate_dfw_rules Cloud#automate_dfw_rules}
   */
   readonly automateDfwRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#domain_id Cloud#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#domain_id Cloud#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enforcementpoint_id Cloud#enforcementpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enforcementpoint_id Cloud#enforcementpoint_id}
   */
   readonly enforcementpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nsxt_credentials_ref Cloud#nsxt_credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nsxt_credentials_ref Cloud#nsxt_credentials_ref}
   */
   readonly nsxtCredentialsRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nsxt_url Cloud#nsxt_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nsxt_url Cloud#nsxt_url}
   */
   readonly nsxtUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#site_id Cloud#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#site_id Cloud#site_id}
   */
   readonly siteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vmc_mode Cloud#vmc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vmc_mode Cloud#vmc_mode}
   */
   readonly vmcMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vpc_mode Cloud#vpc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vpc_mode Cloud#vpc_mode}
   */
   readonly vpcMode?: string;
   /**
   * data_network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#data_network_config Cloud#data_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#data_network_config Cloud#data_network_config}
   */
   readonly dataNetworkConfig?: CloudNsxtConfigurationDataNetworkConfig[] | cdktf.IResolvable;
   /**
   * management_network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_network_config Cloud#management_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_network_config Cloud#management_network_config}
   */
   readonly managementNetworkConfig?: CloudNsxtConfigurationManagementNetworkConfig[] | cdktf.IResolvable;
 }
@@ -10281,15 +10281,15 @@ export class CloudNsxtConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudNtpConfigurationNtpAuthenticationKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#algorithm Cloud#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#algorithm Cloud#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#key Cloud#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#key Cloud#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#key_number Cloud#key_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#key_number Cloud#key_number}
   */
   readonly keyNumber: string;
 }
@@ -10457,11 +10457,11 @@ export class CloudNtpConfigurationNtpAuthenticationKeysList extends cdktf.Comple
 }
 export interface CloudNtpConfigurationNtpServerListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -10600,11 +10600,11 @@ export class CloudNtpConfigurationNtpServerListStructList extends cdktf.ComplexL
 }
 export interface CloudNtpConfigurationNtpServersServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -10743,13 +10743,13 @@ export class CloudNtpConfigurationNtpServersServerList extends cdktf.ComplexList
 }
 export interface CloudNtpConfigurationNtpServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#key_number Cloud#key_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#key_number Cloud#key_number}
   */
   readonly keyNumber?: string;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#server Cloud#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#server Cloud#server}
   */
   readonly server: CloudNtpConfigurationNtpServersServer[] | cdktf.IResolvable;
 }
@@ -10893,19 +10893,19 @@ export interface CloudNtpConfiguration {
   /**
   * ntp_authentication_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ntp_authentication_keys Cloud#ntp_authentication_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ntp_authentication_keys Cloud#ntp_authentication_keys}
   */
   readonly ntpAuthenticationKeys?: CloudNtpConfigurationNtpAuthenticationKeys[] | cdktf.IResolvable;
   /**
   * ntp_server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ntp_server_list Cloud#ntp_server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ntp_server_list Cloud#ntp_server_list}
   */
   readonly ntpServerList?: CloudNtpConfigurationNtpServerListStruct[] | cdktf.IResolvable;
   /**
   * ntp_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ntp_servers Cloud#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ntp_servers Cloud#ntp_servers}
   */
   readonly ntpServers?: CloudNtpConfigurationNtpServers[] | cdktf.IResolvable;
 }
@@ -11079,11 +11079,11 @@ export class CloudNtpConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudOpenstackConfigurationCustomSeImageProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#name Cloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#name Cloud#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#value Cloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#value Cloud#value}
   */
   readonly value?: string;
 }
@@ -11225,11 +11225,11 @@ export class CloudOpenstackConfigurationCustomSeImagePropertiesList extends cdkt
 }
 export interface CloudOpenstackConfigurationHypervisorPropertiesImageProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#name Cloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#name Cloud#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#value Cloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#value Cloud#value}
   */
   readonly value?: string;
 }
@@ -11371,13 +11371,13 @@ export class CloudOpenstackConfigurationHypervisorPropertiesImagePropertiesList 
 }
 export interface CloudOpenstackConfigurationHypervisorProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#hypervisor Cloud#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#hypervisor Cloud#hypervisor}
   */
   readonly hypervisor: string;
   /**
   * image_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#image_properties Cloud#image_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#image_properties Cloud#image_properties}
   */
   readonly imageProperties?: CloudOpenstackConfigurationHypervisorPropertiesImageProperties[] | cdktf.IResolvable;
 }
@@ -11519,11 +11519,11 @@ export class CloudOpenstackConfigurationHypervisorPropertiesList extends cdktf.C
 }
 export interface CloudOpenstackConfigurationProviderVipNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#os_network_uuid Cloud#os_network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#os_network_uuid Cloud#os_network_uuid}
   */
   readonly osNetworkUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#os_tenant_uuids Cloud#os_tenant_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#os_tenant_uuids Cloud#os_tenant_uuids}
   */
   readonly osTenantUuids?: string[];
 }
@@ -11668,11 +11668,11 @@ export class CloudOpenstackConfigurationProviderVipNetworksList extends cdktf.Co
 }
 export interface CloudOpenstackConfigurationRoleMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#avi_role Cloud#avi_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#avi_role Cloud#avi_role}
   */
   readonly aviRole: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#os_role Cloud#os_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#os_role Cloud#os_role}
   */
   readonly osRole: string;
 }
@@ -11811,163 +11811,163 @@ export class CloudOpenstackConfigurationRoleMappingList extends cdktf.ComplexLis
 }
 export interface CloudOpenstackConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#admin_tenant Cloud#admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#admin_tenant Cloud#admin_tenant}
   */
   readonly adminTenant: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#admin_tenant_uuid Cloud#admin_tenant_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#admin_tenant_uuid Cloud#admin_tenant_uuid}
   */
   readonly adminTenantUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#allowed_address_pairs Cloud#allowed_address_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#allowed_address_pairs Cloud#allowed_address_pairs}
   */
   readonly allowedAddressPairs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#anti_affinity Cloud#anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#anti_affinity Cloud#anti_affinity}
   */
   readonly antiAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#auth_url Cloud#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#auth_url Cloud#auth_url}
   */
   readonly authUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#config_drive Cloud#config_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#config_drive Cloud#config_drive}
   */
   readonly configDrive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#contrail_disable_policy Cloud#contrail_disable_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#contrail_disable_policy Cloud#contrail_disable_policy}
   */
   readonly contrailDisablePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#contrail_endpoint Cloud#contrail_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#contrail_endpoint Cloud#contrail_endpoint}
   */
   readonly contrailEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#contrail_plugin Cloud#contrail_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#contrail_plugin Cloud#contrail_plugin}
   */
   readonly contrailPlugin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enable_os_object_caching Cloud#enable_os_object_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enable_os_object_caching Cloud#enable_os_object_caching}
   */
   readonly enableOsObjectCaching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enable_tagging Cloud#enable_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enable_tagging Cloud#enable_tagging}
   */
   readonly enableTagging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#external_networks Cloud#external_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#external_networks Cloud#external_networks}
   */
   readonly externalNetworks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#free_floatingips Cloud#free_floatingips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#free_floatingips Cloud#free_floatingips}
   */
   readonly freeFloatingips?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#hypervisor Cloud#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#hypervisor Cloud#hypervisor}
   */
   readonly hypervisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#img_format Cloud#img_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#img_format Cloud#img_format}
   */
   readonly imgFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#import_keystone_tenants Cloud#import_keystone_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#import_keystone_tenants Cloud#import_keystone_tenants}
   */
   readonly importKeystoneTenants?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#insecure Cloud#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#insecure Cloud#insecure}
   */
   readonly insecure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#keystone_host Cloud#keystone_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#keystone_host Cloud#keystone_host}
   */
   readonly keystoneHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#map_admin_to_cloudadmin Cloud#map_admin_to_cloudadmin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#map_admin_to_cloudadmin Cloud#map_admin_to_cloudadmin}
   */
   readonly mapAdminToCloudadmin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_network_name Cloud#mgmt_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_network_name Cloud#mgmt_network_name}
   */
   readonly mgmtNetworkName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mgmt_network_uuid Cloud#mgmt_network_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mgmt_network_uuid Cloud#mgmt_network_uuid}
   */
   readonly mgmtNetworkUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#name_owner Cloud#name_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#name_owner Cloud#name_owner}
   */
   readonly nameOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#neutron_rbac Cloud#neutron_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#neutron_rbac Cloud#neutron_rbac}
   */
   readonly neutronRbac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#password Cloud#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#password Cloud#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#privilege Cloud#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#privilege Cloud#privilege}
   */
   readonly privilege: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#prov_name Cloud#prov_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#prov_name Cloud#prov_name}
   */
   readonly provName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#region Cloud#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#region Cloud#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#security_groups Cloud#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#security_groups Cloud#security_groups}
   */
   readonly securityGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#tenant_se Cloud#tenant_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#tenant_se Cloud#tenant_se}
   */
   readonly tenantSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_admin_url Cloud#use_admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_admin_url Cloud#use_admin_url}
   */
   readonly useAdminUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_internal_endpoints Cloud#use_internal_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_internal_endpoints Cloud#use_internal_endpoints}
   */
   readonly useInternalEndpoints?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_keystone_auth Cloud#use_keystone_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_keystone_auth Cloud#use_keystone_auth}
   */
   readonly useKeystoneAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#username Cloud#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#username Cloud#username}
   */
   readonly username: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vip_port_in_admin_tenant Cloud#vip_port_in_admin_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vip_port_in_admin_tenant Cloud#vip_port_in_admin_tenant}
   */
   readonly vipPortInAdminTenant?: string;
   /**
   * custom_se_image_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#custom_se_image_properties Cloud#custom_se_image_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#custom_se_image_properties Cloud#custom_se_image_properties}
   */
   readonly customSeImageProperties?: CloudOpenstackConfigurationCustomSeImageProperties[] | cdktf.IResolvable;
   /**
   * hypervisor_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#hypervisor_properties Cloud#hypervisor_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#hypervisor_properties Cloud#hypervisor_properties}
   */
   readonly hypervisorProperties?: CloudOpenstackConfigurationHypervisorProperties[] | cdktf.IResolvable;
   /**
   * provider_vip_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#provider_vip_networks Cloud#provider_vip_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#provider_vip_networks Cloud#provider_vip_networks}
   */
   readonly providerVipNetworks?: CloudOpenstackConfigurationProviderVipNetworks[] | cdktf.IResolvable;
   /**
   * role_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#role_mapping Cloud#role_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#role_mapping Cloud#role_mapping}
   */
   readonly roleMapping?: CloudOpenstackConfigurationRoleMapping[] | cdktf.IResolvable;
 }
@@ -13144,19 +13144,19 @@ export class CloudOpenstackConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#host Cloud#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#host Cloud#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#password Cloud#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#password Cloud#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#port Cloud#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#port Cloud#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#username Cloud#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#username Cloud#username}
   */
   readonly username?: string;
 }
@@ -13353,11 +13353,11 @@ export class CloudProxyConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudRancherConfigurationDockerRegistrySeOshiftRegistryRegistryVip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -13496,17 +13496,17 @@ export class CloudRancherConfigurationDockerRegistrySeOshiftRegistryRegistryVipL
 }
 export interface CloudRancherConfigurationDockerRegistrySeOshiftRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry_namespace Cloud#registry_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry_namespace Cloud#registry_namespace}
   */
   readonly registryNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry_service Cloud#registry_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry_service Cloud#registry_service}
   */
   readonly registryService?: string;
   /**
   * registry_vip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry_vip Cloud#registry_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry_vip Cloud#registry_vip}
   */
   readonly registryVip?: CloudRancherConfigurationDockerRegistrySeOshiftRegistryRegistryVip[] | cdktf.IResolvable;
 }
@@ -13680,25 +13680,25 @@ export class CloudRancherConfigurationDockerRegistrySeOshiftRegistryList extends
 }
 export interface CloudRancherConfigurationDockerRegistrySe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#password Cloud#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#password Cloud#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#private Cloud#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#private Cloud#private}
   */
   readonly private?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#registry Cloud#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#registry Cloud#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#username Cloud#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#username Cloud#username}
   */
   readonly username?: string;
   /**
   * oshift_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#oshift_registry Cloud#oshift_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#oshift_registry Cloud#oshift_registry}
   */
   readonly oshiftRegistry?: CloudRancherConfigurationDockerRegistrySeOshiftRegistry[] | cdktf.IResolvable;
 }
@@ -13930,11 +13930,11 @@ export class CloudRancherConfigurationDockerRegistrySeList extends cdktf.Complex
 }
 export interface CloudRancherConfigurationEastWestPlacementSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -14073,13 +14073,13 @@ export class CloudRancherConfigurationEastWestPlacementSubnetIpAddrList extends 
 }
 export interface CloudRancherConfigurationEastWestPlacementSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mask Cloud#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mask Cloud#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ip_addr Cloud#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ip_addr Cloud#ip_addr}
   */
   readonly ipAddr: CloudRancherConfigurationEastWestPlacementSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -14218,47 +14218,47 @@ export class CloudRancherConfigurationEastWestPlacementSubnetList extends cdktf.
 }
 export interface CloudRancherConfigurationNuageController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nuage_organization Cloud#nuage_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nuage_organization Cloud#nuage_organization}
   */
   readonly nuageOrganization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nuage_password Cloud#nuage_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nuage_password Cloud#nuage_password}
   */
   readonly nuagePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nuage_port Cloud#nuage_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nuage_port Cloud#nuage_port}
   */
   readonly nuagePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nuage_username Cloud#nuage_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nuage_username Cloud#nuage_username}
   */
   readonly nuageUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nuage_vsd_host Cloud#nuage_vsd_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nuage_vsd_host Cloud#nuage_vsd_host}
   */
   readonly nuageVsdHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_domain Cloud#se_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_domain Cloud#se_domain}
   */
   readonly seDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_enterprise Cloud#se_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_enterprise Cloud#se_enterprise}
   */
   readonly seEnterprise?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_network Cloud#se_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_network Cloud#se_network}
   */
   readonly seNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_policy_group Cloud#se_policy_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_policy_group Cloud#se_policy_group}
   */
   readonly sePolicyGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_user Cloud#se_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_user Cloud#se_user}
   */
   readonly seUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_zone Cloud#se_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_zone Cloud#se_zone}
   */
   readonly seZone?: string;
 }
@@ -14664,11 +14664,11 @@ export class CloudRancherConfigurationNuageControllerList extends cdktf.ComplexL
 }
 export interface CloudRancherConfigurationSeExcludeAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#attribute Cloud#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#attribute Cloud#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#value Cloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#value Cloud#value}
   */
   readonly value?: string;
 }
@@ -14810,11 +14810,11 @@ export class CloudRancherConfigurationSeExcludeAttributesList extends cdktf.Comp
 }
 export interface CloudRancherConfigurationSeIncludeAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#attribute Cloud#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#attribute Cloud#attribute}
   */
   readonly attribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#value Cloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#value Cloud#value}
   */
   readonly value?: string;
 }
@@ -14956,117 +14956,117 @@ export class CloudRancherConfigurationSeIncludeAttributesList extends cdktf.Comp
 }
 export interface CloudRancherConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#access_key Cloud#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#access_key Cloud#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#app_sync_frequency Cloud#app_sync_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#app_sync_frequency Cloud#app_sync_frequency}
   */
   readonly appSyncFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#container_port_match_http_service Cloud#container_port_match_http_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#container_port_match_http_service Cloud#container_port_match_http_service}
   */
   readonly containerPortMatchHttpService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#coredump_directory Cloud#coredump_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#coredump_directory Cloud#coredump_directory}
   */
   readonly coredumpDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#disable_auto_backend_service_sync Cloud#disable_auto_backend_service_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#disable_auto_backend_service_sync Cloud#disable_auto_backend_service_sync}
   */
   readonly disableAutoBackendServiceSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#disable_auto_frontend_service_sync Cloud#disable_auto_frontend_service_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#disable_auto_frontend_service_sync Cloud#disable_auto_frontend_service_sync}
   */
   readonly disableAutoFrontendServiceSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#disable_auto_se_creation Cloud#disable_auto_se_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#disable_auto_se_creation Cloud#disable_auto_se_creation}
   */
   readonly disableAutoSeCreation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#enable_event_subscription Cloud#enable_event_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#enable_event_subscription Cloud#enable_event_subscription}
   */
   readonly enableEventSubscription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#feproxy_container_port_as_service Cloud#feproxy_container_port_as_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#feproxy_container_port_as_service Cloud#feproxy_container_port_as_service}
   */
   readonly feproxyContainerPortAsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#feproxy_vips_enable_proxy_arp Cloud#feproxy_vips_enable_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#feproxy_vips_enable_proxy_arp Cloud#feproxy_vips_enable_proxy_arp}
   */
   readonly feproxyVipsEnableProxyArp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#fleet_endpoint Cloud#fleet_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#fleet_endpoint Cloud#fleet_endpoint}
   */
   readonly fleetEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#http_container_ports Cloud#http_container_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#http_container_ports Cloud#http_container_ports}
   */
   readonly httpContainerPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#rancher_servers Cloud#rancher_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#rancher_servers Cloud#rancher_servers}
   */
   readonly rancherServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_deployment_method Cloud#se_deployment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_deployment_method Cloud#se_deployment_method}
   */
   readonly seDeploymentMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_spawn_rate Cloud#se_spawn_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_spawn_rate Cloud#se_spawn_rate}
   */
   readonly seSpawnRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_volume Cloud#se_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_volume Cloud#se_volume}
   */
   readonly seVolume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#secret_key Cloud#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#secret_key Cloud#secret_key}
   */
   readonly secretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#services_accessible_all_interfaces Cloud#services_accessible_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#services_accessible_all_interfaces Cloud#services_accessible_all_interfaces}
   */
   readonly servicesAccessibleAllInterfaces?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ssh_user_ref Cloud#ssh_user_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ssh_user_ref Cloud#ssh_user_ref}
   */
   readonly sshUserRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_container_ip_port Cloud#use_container_ip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_container_ip_port Cloud#use_container_ip_port}
   */
   readonly useContainerIpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_controller_image Cloud#use_controller_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_controller_image Cloud#use_controller_image}
   */
   readonly useControllerImage?: string;
   /**
   * docker_registry_se block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#docker_registry_se Cloud#docker_registry_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#docker_registry_se Cloud#docker_registry_se}
   */
   readonly dockerRegistrySe?: CloudRancherConfigurationDockerRegistrySe[] | cdktf.IResolvable;
   /**
   * east_west_placement_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#east_west_placement_subnet Cloud#east_west_placement_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#east_west_placement_subnet Cloud#east_west_placement_subnet}
   */
   readonly eastWestPlacementSubnet?: CloudRancherConfigurationEastWestPlacementSubnet[] | cdktf.IResolvable;
   /**
   * nuage_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#nuage_controller Cloud#nuage_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#nuage_controller Cloud#nuage_controller}
   */
   readonly nuageController?: CloudRancherConfigurationNuageController[] | cdktf.IResolvable;
   /**
   * se_exclude_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_exclude_attributes Cloud#se_exclude_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_exclude_attributes Cloud#se_exclude_attributes}
   */
   readonly seExcludeAttributes?: CloudRancherConfigurationSeExcludeAttributes[] | cdktf.IResolvable;
   /**
   * se_include_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#se_include_attributes Cloud#se_include_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#se_include_attributes Cloud#se_include_attributes}
   */
   readonly seIncludeAttributes?: CloudRancherConfigurationSeIncludeAttributes[] | cdktf.IResolvable;
 }
@@ -15907,35 +15907,35 @@ export class CloudRancherConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudVcaConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#privilege Cloud#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#privilege Cloud#privilege}
   */
   readonly privilege: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_host Cloud#vca_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_host Cloud#vca_host}
   */
   readonly vcaHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_instance Cloud#vca_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_instance Cloud#vca_instance}
   */
   readonly vcaInstance: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_mgmt_network Cloud#vca_mgmt_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_mgmt_network Cloud#vca_mgmt_network}
   */
   readonly vcaMgmtNetwork: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_orgnization Cloud#vca_orgnization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_orgnization Cloud#vca_orgnization}
   */
   readonly vcaOrgnization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_password Cloud#vca_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_password Cloud#vca_password}
   */
   readonly vcaPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_username Cloud#vca_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_username Cloud#vca_username}
   */
   readonly vcaUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vca_vdc Cloud#vca_vdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vca_vdc Cloud#vca_vdc}
   */
   readonly vcaVdc: string;
 }
@@ -16230,14 +16230,14 @@ export class CloudVcaConfigurationList extends cdktf.ComplexList {
 }
 export interface CloudVcenterConfigurationContentLib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#id Cloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#id Cloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#name Cloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#name Cloud#name}
   */
   readonly name?: string;
 }
@@ -16382,11 +16382,11 @@ export class CloudVcenterConfigurationContentLibList extends cdktf.ComplexList {
 }
 export interface CloudVcenterConfigurationManagementIpSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#addr Cloud#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#addr Cloud#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#type Cloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#type Cloud#type}
   */
   readonly type: string;
 }
@@ -16525,13 +16525,13 @@ export class CloudVcenterConfigurationManagementIpSubnetIpAddrList extends cdktf
 }
 export interface CloudVcenterConfigurationManagementIpSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#mask Cloud#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#mask Cloud#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#ip_addr Cloud#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#ip_addr Cloud#ip_addr}
   */
   readonly ipAddr: CloudVcenterConfigurationManagementIpSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -16670,55 +16670,55 @@ export class CloudVcenterConfigurationManagementIpSubnetList extends cdktf.Compl
 }
 export interface CloudVcenterConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#datacenter Cloud#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#datacenter Cloud#datacenter}
   */
   readonly datacenter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#datacenter_managed_object_id Cloud#datacenter_managed_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#datacenter_managed_object_id Cloud#datacenter_managed_object_id}
   */
   readonly datacenterManagedObjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#is_nsx_environment Cloud#is_nsx_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#is_nsx_environment Cloud#is_nsx_environment}
   */
   readonly isNsxEnvironment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_network Cloud#management_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_network Cloud#management_network}
   */
   readonly managementNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#password Cloud#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#password Cloud#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#privilege Cloud#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#privilege Cloud#privilege}
   */
   readonly privilege: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#use_content_lib Cloud#use_content_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#use_content_lib Cloud#use_content_lib}
   */
   readonly useContentLib?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#username Cloud#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#username Cloud#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vcenter_template_se_location Cloud#vcenter_template_se_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vcenter_template_se_location Cloud#vcenter_template_se_location}
   */
   readonly vcenterTemplateSeLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#vcenter_url Cloud#vcenter_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#vcenter_url Cloud#vcenter_url}
   */
   readonly vcenterUrl?: string;
   /**
   * content_lib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#content_lib Cloud#content_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#content_lib Cloud#content_lib}
   */
   readonly contentLib?: CloudVcenterConfigurationContentLib[] | cdktf.IResolvable;
   /**
   * management_ip_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#management_ip_subnet Cloud#management_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#management_ip_subnet Cloud#management_ip_subnet}
   */
   readonly managementIpSubnet?: CloudVcenterConfigurationManagementIpSubnet[] | cdktf.IResolvable;
 }
@@ -17150,7 +17150,7 @@ export class CloudVcenterConfigurationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud avi_cloud}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud avi_cloud}
 */
 export class Cloud extends cdktf.TerraformResource {
 
@@ -17166,7 +17166,7 @@ export class Cloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cloud to import
-  * @param importFromId The id of the existing Cloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17178,7 +17178,7 @@ export class Cloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/cloud avi_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/cloud avi_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17189,8 +17189,8 @@ export class Cloud extends cdktf.TerraformResource {
       terraformResourceType: 'avi_cloud',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

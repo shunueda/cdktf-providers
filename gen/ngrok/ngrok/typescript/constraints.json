@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "ngrok": "0.5.0"
+    "ngrok": "0.6.0"
   }
 }

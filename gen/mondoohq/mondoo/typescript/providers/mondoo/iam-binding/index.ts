@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IamBindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * MRN of the identity principal (team, user, or service account) to grant roles to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding#identity_mrn IamBinding#identity_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding#identity_mrn IamBinding#identity_mrn}
   */
   readonly identityMrn: string;
   /**
   * MRN of the resource (organization, space, workspace, etc.) to grant access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding#resource_mrn IamBinding#resource_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding#resource_mrn IamBinding#resource_mrn}
   */
   readonly resourceMrn: string;
   /**
   * List of role names to assign to the identity on the resource. Can be specified as short names (e.g. "editor") or full MRNs (e.g. "//iam.api.mondoo.app/roles/editor"). Available roles: integrations-manager, sla-manager, policy-manager, policy-editor, ticket-manager, ticket-creator, exceptions-requester, query-pack-manager, query-pack-editor, viewer, editor, owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding#roles IamBinding#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding#roles IamBinding#roles}
   */
   readonly roles: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding mondoo_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding mondoo_iam_binding}
 */
 export class IamBinding extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class IamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamBinding to import
-  * @param importFromId The id of the existing IamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class IamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_binding mondoo_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_binding mondoo_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class IamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

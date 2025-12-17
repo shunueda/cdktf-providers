@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IpPolicyRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * the action to apply to the policy rule, either `allow` or `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule#action IpPolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule#action IpPolicyRule#action}
   */
   readonly action: string;
   /**
   * an IP or IP range specified in CIDR notation. IPv4 and IPv6 are both supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule#cidr IpPolicyRule#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule#cidr IpPolicyRule#cidr}
   */
   readonly cidr: string;
   /**
   * human-readable description of the source IPs of this IP rule. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule#description IpPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule#description IpPolicyRule#description}
   */
   readonly description?: string;
   /**
   * ID of the IP policy this IP policy rule will be attached to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule#ip_policy_id IpPolicyRule#ip_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule#ip_policy_id IpPolicyRule#ip_policy_id}
   */
   readonly ipPolicyId: string;
   /**
   * arbitrary user-defined machine-readable data of this IP policy rule. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule#metadata IpPolicyRule#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule#metadata IpPolicyRule#metadata}
   */
   readonly metadata?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule ngrok_ip_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule ngrok_ip_policy_rule}
 */
 export class IpPolicyRule extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IpPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpPolicyRule to import
-  * @param importFromId The id of the existing IpPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IpPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_policy_rule ngrok_ip_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_policy_rule ngrok_ip_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IpPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_ip_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

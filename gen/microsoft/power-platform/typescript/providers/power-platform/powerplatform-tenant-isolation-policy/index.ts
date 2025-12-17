@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PowerplatformTenantIsolationPolicyConfig extends cdktf.Terrafor
   /**
   * List of tenants that are allowed to connect with your tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#allowed_tenants PowerplatformTenantIsolationPolicy#allowed_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#allowed_tenants PowerplatformTenantIsolationPolicy#allowed_tenants}
   */
   readonly allowedTenants: PowerplatformTenantIsolationPolicyAllowedTenants[] | cdktf.IResolvable;
   /**
   * Whether the tenant isolation policy is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#is_disabled PowerplatformTenantIsolationPolicy#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#is_disabled PowerplatformTenantIsolationPolicy#is_disabled}
   */
   readonly isDisabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#timeouts PowerplatformTenantIsolationPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#timeouts PowerplatformTenantIsolationPolicy#timeouts}
   */
   readonly timeouts?: PowerplatformTenantIsolationPolicyTimeouts;
 }
@@ -28,19 +28,19 @@ export interface PowerplatformTenantIsolationPolicyAllowedTenants {
   /**
   * Whether inbound connections from this tenant are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#inbound PowerplatformTenantIsolationPolicy#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#inbound PowerplatformTenantIsolationPolicy#inbound}
   */
   readonly inbound: boolean | cdktf.IResolvable;
   /**
   * Whether outbound connections to this tenant are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#outbound PowerplatformTenantIsolationPolicy#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#outbound PowerplatformTenantIsolationPolicy#outbound}
   */
   readonly outbound: boolean | cdktf.IResolvable;
   /**
   * ID of the tenant that is allowed to connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#tenant_id PowerplatformTenantIsolationPolicy#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#tenant_id PowerplatformTenantIsolationPolicy#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -264,7 +264,7 @@ export class PowerplatformTenantIsolationPolicyTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy powerplatform_tenant_isolation_policy}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy powerplatform_tenant_isolation_policy}
 */
 export class PowerplatformTenantIsolationPolicy extends cdktf.TerraformResource {
 
@@ -280,7 +280,7 @@ export class PowerplatformTenantIsolationPolicy extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PowerplatformTenantIsolationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformTenantIsolationPolicy to import
-  * @param importFromId The id of the existing PowerplatformTenantIsolationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformTenantIsolationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformTenantIsolationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class PowerplatformTenantIsolationPolicy extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_isolation_policy powerplatform_tenant_isolation_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_isolation_policy powerplatform_tenant_isolation_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class PowerplatformTenantIsolationPolicy extends cdktf.TerraformResource 
       terraformResourceType: 'powerplatform_tenant_isolation_policy',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

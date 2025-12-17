@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface AggregateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#capacity_tier Aggregate#capacity_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#capacity_tier Aggregate#capacity_tier}
   */
   readonly capacityTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#client_id Aggregate#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#client_id Aggregate#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#connector_ip Aggregate#connector_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#connector_ip Aggregate#connector_ip}
   */
   readonly connectorIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#deployment_mode Aggregate#deployment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#deployment_mode Aggregate#deployment_mode}
   */
   readonly deploymentMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#disk_size_size Aggregate#disk_size_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#disk_size_size Aggregate#disk_size_size}
   */
   readonly diskSizeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#disk_size_unit Aggregate#disk_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#disk_size_unit Aggregate#disk_size_unit}
   */
   readonly diskSizeUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#home_node Aggregate#home_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#home_node Aggregate#home_node}
   */
   readonly homeNode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#id Aggregate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#id Aggregate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,63 +45,63 @@ export interface AggregateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional capacity to add to the aggregate (only available during updates)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#increase_capacity_size Aggregate#increase_capacity_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#increase_capacity_size Aggregate#increase_capacity_size}
   */
   readonly increaseCapacitySize?: number;
   /**
   * Unit for the additional capacity (Byte, KB, MB, GB, or TB) (only available during updates)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#increase_capacity_unit Aggregate#increase_capacity_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#increase_capacity_unit Aggregate#increase_capacity_unit}
   */
   readonly increaseCapacityUnit?: string;
   /**
   * Initial size for EBS Elastic Volumes aggregate. This enables the aggregate to support capacity expansion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#initial_ev_aggregate_size Aggregate#initial_ev_aggregate_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#initial_ev_aggregate_size Aggregate#initial_ev_aggregate_size}
   */
   readonly initialEvAggregateSize?: number;
   /**
   * Unit for initial EBS Elastic Volumes aggregate size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#initial_ev_aggregate_unit Aggregate#initial_ev_aggregate_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#initial_ev_aggregate_unit Aggregate#initial_ev_aggregate_unit}
   */
   readonly initialEvAggregateUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#iops Aggregate#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#iops Aggregate#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#name Aggregate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#name Aggregate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#number_of_disks Aggregate#number_of_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#number_of_disks Aggregate#number_of_disks}
   */
   readonly numberOfDisks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#provider_volume_type Aggregate#provider_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#provider_volume_type Aggregate#provider_volume_type}
   */
   readonly providerVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#tenant_id Aggregate#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#tenant_id Aggregate#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#throughput Aggregate#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#throughput Aggregate#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#working_environment_id Aggregate#working_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#working_environment_id Aggregate#working_environment_id}
   */
   readonly workingEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#working_environment_name Aggregate#working_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#working_environment_name Aggregate#working_environment_name}
   */
   readonly workingEnvironmentName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate netapp-cloudmanager_aggregate}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate netapp-cloudmanager_aggregate}
 */
 export class Aggregate extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class Aggregate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Aggregate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Aggregate to import
-  * @param importFromId The id of the existing Aggregate that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Aggregate that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Aggregate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class Aggregate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aggregate netapp-cloudmanager_aggregate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aggregate netapp-cloudmanager_aggregate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class Aggregate extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_aggregate',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

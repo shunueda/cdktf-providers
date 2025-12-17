@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/team_external_group_mapping
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/team_external_group_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TeamExternalGroupMappingConfig extends cdktf.TerraformMetaArgum
   /**
   * External group ID from the OIDC provider (e.g., group name or UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/team_external_group_mapping#external_id TeamExternalGroupMapping#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/team_external_group_mapping#external_id TeamExternalGroupMapping#external_id}
   */
   readonly externalId: string;
   /**
   * MRN of the team to map the external group to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/team_external_group_mapping#team_mrn TeamExternalGroupMapping#team_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/team_external_group_mapping#team_mrn TeamExternalGroupMapping#team_mrn}
   */
   readonly teamMrn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/team_external_group_mapping mondoo_team_external_group_mapping}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/team_external_group_mapping mondoo_team_external_group_mapping}
 */
 export class TeamExternalGroupMapping extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class TeamExternalGroupMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamExternalGroupMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamExternalGroupMapping to import
-  * @param importFromId The id of the existing TeamExternalGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/team_external_group_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamExternalGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/team_external_group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamExternalGroupMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TeamExternalGroupMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/team_external_group_mapping mondoo_team_external_group_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/team_external_group_mapping mondoo_team_external_group_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class TeamExternalGroupMapping extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_team_external_group_mapping',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

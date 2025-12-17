@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateServiceNowIncidentConfig extends cdktf.Terraf
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#enabled WorkflowTaskUpdateServiceNowIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#enabled WorkflowTaskUpdateServiceNowIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#id WorkflowTaskUpdateServiceNowIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#id WorkflowTaskUpdateServiceNowIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateServiceNowIncidentConfig extends cdktf.Terraf
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#name WorkflowTaskUpdateServiceNowIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#name WorkflowTaskUpdateServiceNowIncident#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#position WorkflowTaskUpdateServiceNowIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#position WorkflowTaskUpdateServiceNowIncident#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#skip_on_failure WorkflowTaskUpdateServiceNowIncident#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#skip_on_failure WorkflowTaskUpdateServiceNowIncident#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#workflow_id WorkflowTaskUpdateServiceNowIncident#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#workflow_id WorkflowTaskUpdateServiceNowIncident#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#task_params WorkflowTaskUpdateServiceNowIncident#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#task_params WorkflowTaskUpdateServiceNowIncident#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateServiceNowIncidentTaskParams;
 }
@@ -55,41 +55,41 @@ export interface WorkflowTaskUpdateServiceNowIncidentTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. The completion id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#completion WorkflowTaskUpdateServiceNowIncident#completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#completion WorkflowTaskUpdateServiceNowIncident#completion}
   */
   readonly completion?: { [key: string]: string };
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#custom_fields_mapping WorkflowTaskUpdateServiceNowIncident#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#custom_fields_mapping WorkflowTaskUpdateServiceNowIncident#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * The incident description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#description WorkflowTaskUpdateServiceNowIncident#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#description WorkflowTaskUpdateServiceNowIncident#description}
   */
   readonly description?: string;
   /**
   * The incident id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#incident_id WorkflowTaskUpdateServiceNowIncident#incident_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#incident_id WorkflowTaskUpdateServiceNowIncident#incident_id}
   */
   readonly incidentId: string;
   /**
   * Map must contain two fields, `id` and `name`. The priority id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#priority WorkflowTaskUpdateServiceNowIncident#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#priority WorkflowTaskUpdateServiceNowIncident#priority}
   */
   readonly priority?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#task_type WorkflowTaskUpdateServiceNowIncident#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#task_type WorkflowTaskUpdateServiceNowIncident#task_type}
   */
   readonly taskType?: string;
   /**
   * The incident title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#title WorkflowTaskUpdateServiceNowIncident#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#title WorkflowTaskUpdateServiceNowIncident#title}
   */
   readonly title?: string;
 }
@@ -344,7 +344,7 @@ export class WorkflowTaskUpdateServiceNowIncidentTaskParamsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident rootly_workflow_task_update_service_now_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident rootly_workflow_task_update_service_now_incident}
 */
 export class WorkflowTaskUpdateServiceNowIncident extends cdktf.TerraformResource {
 
@@ -360,7 +360,7 @@ export class WorkflowTaskUpdateServiceNowIncident extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a WorkflowTaskUpdateServiceNowIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateServiceNowIncident to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateServiceNowIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateServiceNowIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateServiceNowIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -372,7 +372,7 @@ export class WorkflowTaskUpdateServiceNowIncident extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_service_now_incident rootly_workflow_task_update_service_now_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_service_now_incident rootly_workflow_task_update_service_now_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,8 +383,8 @@ export class WorkflowTaskUpdateServiceNowIncident extends cdktf.TerraformResourc
       terraformResourceType: 'rootly_workflow_task_update_service_now_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

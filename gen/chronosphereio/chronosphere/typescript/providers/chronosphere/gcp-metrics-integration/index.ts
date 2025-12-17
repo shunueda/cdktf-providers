@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface GcpMetricsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#id GcpMetricsIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#id GcpMetricsIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#name GcpMetricsIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#name GcpMetricsIntegration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#slug GcpMetricsIntegration#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#slug GcpMetricsIntegration#slug}
   */
   readonly slug?: string;
   /**
   * metric_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#metric_groups GcpMetricsIntegration#metric_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#metric_groups GcpMetricsIntegration#metric_groups}
   */
   readonly metricGroups?: GcpMetricsIntegrationMetricGroups[] | cdktf.IResolvable;
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#service_account GcpMetricsIntegration#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#service_account GcpMetricsIntegration#service_account}
   */
   readonly serviceAccount?: GcpMetricsIntegrationServiceAccount;
 }
 export interface GcpMetricsIntegrationMetricGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#prefixes GcpMetricsIntegration#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#prefixes GcpMetricsIntegration#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#project_id GcpMetricsIntegration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#project_id GcpMetricsIntegration#project_id}
   */
   readonly projectId: string;
 }
@@ -183,7 +183,7 @@ export class GcpMetricsIntegrationMetricGroupsList extends cdktf.ComplexList {
 }
 export interface GcpMetricsIntegrationServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#client_email GcpMetricsIntegration#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#client_email GcpMetricsIntegration#client_email}
   */
   readonly clientEmail: string;
 }
@@ -264,7 +264,7 @@ export class GcpMetricsIntegrationServiceAccountOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration chronosphere_gcp_metrics_integration}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration chronosphere_gcp_metrics_integration}
 */
 export class GcpMetricsIntegration extends cdktf.TerraformResource {
 
@@ -280,7 +280,7 @@ export class GcpMetricsIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpMetricsIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpMetricsIntegration to import
-  * @param importFromId The id of the existing GcpMetricsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpMetricsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpMetricsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class GcpMetricsIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/gcp_metrics_integration chronosphere_gcp_metrics_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/gcp_metrics_integration chronosphere_gcp_metrics_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class GcpMetricsIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_gcp_metrics_integration',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

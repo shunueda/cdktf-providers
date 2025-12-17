@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface RollupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#aggregation RollupRule#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#aggregation RollupRule#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#bucket_id RollupRule#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#bucket_id RollupRule#bucket_id}
   */
   readonly bucketId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#drop_raw RollupRule#drop_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#drop_raw RollupRule#drop_raw}
   */
   readonly dropRaw?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#exclude_by RollupRule#exclude_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#exclude_by RollupRule#exclude_by}
   */
   readonly excludeBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#filter RollupRule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#filter RollupRule#filter}
   */
   readonly filter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#group_by RollupRule#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#group_by RollupRule#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#id RollupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#id RollupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#interval RollupRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#interval RollupRule#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#metric_type RollupRule#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#metric_type RollupRule#metric_type}
   */
   readonly metricType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#metric_type_tag RollupRule#metric_type_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#metric_type_tag RollupRule#metric_type_tag}
   */
   readonly metricTypeTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#mode RollupRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#mode RollupRule#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#name RollupRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#name RollupRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#new_metric RollupRule#new_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#new_metric RollupRule#new_metric}
   */
   readonly newMetric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#permissive RollupRule#permissive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#permissive RollupRule#permissive}
   */
   readonly permissive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#skip_on_conflict RollupRule#skip_on_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#skip_on_conflict RollupRule#skip_on_conflict}
   */
   readonly skipOnConflict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#slug RollupRule#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#slug RollupRule#slug}
   */
   readonly slug: string;
   /**
   * graphite_label_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#graphite_label_policy RollupRule#graphite_label_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#graphite_label_policy RollupRule#graphite_label_policy}
   */
   readonly graphiteLabelPolicy?: RollupRuleGraphiteLabelPolicy;
   /**
   * storage_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#storage_policies RollupRule#storage_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#storage_policies RollupRule#storage_policies}
   */
   readonly storagePolicies?: RollupRuleStoragePolicies;
 }
 export interface RollupRuleGraphiteLabelPolicyReplace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#name RollupRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#name RollupRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#new_value RollupRule#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#new_value RollupRule#new_value}
   */
   readonly newValue: string;
 }
@@ -234,7 +234,7 @@ export interface RollupRuleGraphiteLabelPolicy {
   /**
   * replace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#replace RollupRule#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#replace RollupRule#replace}
   */
   readonly replace?: RollupRuleGraphiteLabelPolicyReplace[] | cdktf.IResolvable;
 }
@@ -318,11 +318,11 @@ export class RollupRuleGraphiteLabelPolicyOutputReference extends cdktf.ComplexO
 }
 export interface RollupRuleStoragePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#resolution RollupRule#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#resolution RollupRule#resolution}
   */
   readonly resolution: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#retention RollupRule#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#retention RollupRule#retention}
   */
   readonly retention: string;
 }
@@ -429,7 +429,7 @@ export class RollupRuleStoragePoliciesOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule chronosphere_rollup_rule}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule chronosphere_rollup_rule}
 */
 export class RollupRule extends cdktf.TerraformResource {
 
@@ -445,7 +445,7 @@ export class RollupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RollupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RollupRule to import
-  * @param importFromId The id of the existing RollupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RollupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RollupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class RollupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/rollup_rule chronosphere_rollup_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/rollup_rule chronosphere_rollup_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class RollupRule extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_rollup_rule',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

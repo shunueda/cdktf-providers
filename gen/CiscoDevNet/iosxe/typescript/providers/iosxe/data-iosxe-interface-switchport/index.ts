@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,98 @@ export interface DataIosxeInterfaceSwitchportConfig extends cdktf.TerraformMetaA
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport#device DataIosxeInterfaceSwitchport#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport#device DataIosxeInterfaceSwitchport#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport#name DataIosxeInterfaceSwitchport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport#name DataIosxeInterfaceSwitchport#name}
   */
   readonly name: string;
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport#type DataIosxeInterfaceSwitchport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport#type DataIosxeInterfaceSwitchport#type}
   */
   readonly type: string;
 }
+export interface DataIosxeInterfaceSwitchportTrunkAllowedVlansAdd {
+}
+
+export function dataIosxeInterfaceSwitchportTrunkAllowedVlansAddToTerraform(struct?: DataIosxeInterfaceSwitchportTrunkAllowedVlansAdd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeInterfaceSwitchportTrunkAllowedVlansAddToHclTerraform(struct?: DataIosxeInterfaceSwitchportTrunkAllowedVlansAdd): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeInterfaceSwitchportTrunkAllowedVlansAddOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeInterfaceSwitchportTrunkAllowedVlansAdd | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeInterfaceSwitchportTrunkAllowedVlansAdd | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // vlans - computed: true, optional: false, required: false
+  public get vlans() {
+    return this.getStringAttribute('vlans');
+  }
+}
+
+export class DataIosxeInterfaceSwitchportTrunkAllowedVlansAddList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeInterfaceSwitchportTrunkAllowedVlansAddOutputReference {
+    return new DataIosxeInterfaceSwitchportTrunkAllowedVlansAddOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport iosxe_interface_switchport}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport iosxe_interface_switchport}
 */
 export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
 
@@ -42,7 +117,7 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceSwitchport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceSwitchport to import
-  * @param importFromId The id of the existing DataIosxeInterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceSwitchport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceSwitchport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +129,7 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_switchport iosxe_interface_switchport} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_switchport iosxe_interface_switchport} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +140,8 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_switchport',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -169,9 +244,40 @@ export class DataIosxeInterfaceSwitchport extends cdktf.TerraformDataSource {
     return this.getStringAttribute('trunk_allowed_vlans');
   }
 
+  // trunk_allowed_vlans_add - computed: true, optional: false, required: false
+  private _trunkAllowedVlansAdd = new DataIosxeInterfaceSwitchportTrunkAllowedVlansAddList(this, "trunk_allowed_vlans_add", false);
+  public get trunkAllowedVlansAdd() {
+    return this._trunkAllowedVlansAdd;
+  }
+
+  // trunk_allowed_vlans_all - computed: true, optional: false, required: false
+  public get trunkAllowedVlansAll() {
+    return this.getBooleanAttribute('trunk_allowed_vlans_all');
+  }
+
+  // trunk_allowed_vlans_except - computed: true, optional: false, required: false
+  public get trunkAllowedVlansExcept() {
+    return this.getStringAttribute('trunk_allowed_vlans_except');
+  }
+
+  // trunk_allowed_vlans_legacy - computed: true, optional: false, required: false
+  public get trunkAllowedVlansLegacy() {
+    return this.getStringAttribute('trunk_allowed_vlans_legacy');
+  }
+
   // trunk_allowed_vlans_none - computed: true, optional: false, required: false
   public get trunkAllowedVlansNone() {
     return this.getBooleanAttribute('trunk_allowed_vlans_none');
+  }
+
+  // trunk_allowed_vlans_none_legacy - computed: true, optional: false, required: false
+  public get trunkAllowedVlansNoneLegacy() {
+    return this.getBooleanAttribute('trunk_allowed_vlans_none_legacy');
+  }
+
+  // trunk_allowed_vlans_remove - computed: true, optional: false, required: false
+  public get trunkAllowedVlansRemove() {
+    return this.getStringAttribute('trunk_allowed_vlans_remove');
   }
 
   // trunk_native_vlan - computed: true, optional: false, required: false

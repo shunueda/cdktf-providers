@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,39 @@ export interface SecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * description of Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret#description Secret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#description Secret#description}
   */
   readonly description?: string;
   /**
   * Arbitrary user-defined metadata for this Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret#metadata Secret#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#metadata Secret#metadata}
   */
   readonly metadata?: string;
   /**
   * Name of secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret#name Secret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#name Secret#name}
   */
   readonly name?: string;
   /**
   * Value of secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret#value Secret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#value Secret#value}
   */
   readonly value?: string;
   /**
   * unique identifier of the referenced vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret#vault_id Secret#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#vault_id Secret#vault_id}
   */
-  readonly vaultId: string;
+  readonly vaultId?: string;
+  /**
+  * Name of the vault the secret is stored in
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#vault_name Secret#vault_name}
+  */
+  readonly vaultName?: string;
 }
 export interface SecretCreatedBy {
 }
@@ -280,7 +286,7 @@ export class SecretVaultList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret ngrok_secret}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret ngrok_secret}
 */
 export class Secret extends cdktf.TerraformResource {
 
@@ -296,7 +302,7 @@ export class Secret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Secret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Secret to import
-  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Secret that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Secret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,19 +314,19 @@ export class Secret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/secret ngrok_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/secret ngrok_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options SecretConfig
+  * @param options SecretConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: SecretConfig) {
+  public constructor(scope: Construct, id: string, config: SecretConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'ngrok_secret',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -335,6 +341,7 @@ export class Secret extends cdktf.TerraformResource {
     this._name = config.name;
     this._value = config.value;
     this._vaultId = config.vaultId;
+    this._vaultName = config.vaultName;
   }
 
   // ==========
@@ -428,7 +435,7 @@ export class Secret extends cdktf.TerraformResource {
     return this._vault;
   }
 
-  // vault_id - computed: false, optional: false, required: true
+  // vault_id - computed: false, optional: true, required: false
   private _vaultId?: string; 
   public get vaultId() {
     return this.getStringAttribute('vault_id');
@@ -436,9 +443,28 @@ export class Secret extends cdktf.TerraformResource {
   public set vaultId(value: string) {
     this._vaultId = value;
   }
+  public resetVaultId() {
+    this._vaultId = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get vaultIdInput() {
     return this._vaultId;
+  }
+
+  // vault_name - computed: false, optional: true, required: false
+  private _vaultName?: string; 
+  public get vaultName() {
+    return this.getStringAttribute('vault_name');
+  }
+  public set vaultName(value: string) {
+    this._vaultName = value;
+  }
+  public resetVaultName() {
+    this._vaultName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vaultNameInput() {
+    return this._vaultName;
   }
 
   // =========
@@ -452,6 +478,7 @@ export class Secret extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       value: cdktf.stringToTerraform(this._value),
       vault_id: cdktf.stringToTerraform(this._vaultId),
+      vault_name: cdktf.stringToTerraform(this._vaultName),
     };
   }
 
@@ -483,6 +510,12 @@ export class Secret extends cdktf.TerraformResource {
       },
       vault_id: {
         value: cdktf.stringToHclTerraform(this._vaultId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      vault_name: {
+        value: cdktf.stringToHclTerraform(this._vaultName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

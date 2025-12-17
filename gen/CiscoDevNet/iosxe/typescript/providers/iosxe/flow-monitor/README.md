@@ -1,3 +1,3 @@
 # `iosxe_flow_monitor`
 
-Refer to the Terraform Registry for docs: [`iosxe_flow_monitor`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_monitor).
+Refer to the Terraform Registry for docs: [`iosxe_flow_monitor`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_monitor).

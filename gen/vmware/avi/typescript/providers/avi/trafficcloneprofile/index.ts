@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface TrafficcloneprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#cloud_ref Trafficcloneprofile#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#cloud_ref Trafficcloneprofile#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#id Trafficcloneprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#id Trafficcloneprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#name Trafficcloneprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#name Trafficcloneprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#preserve_client_ip Trafficcloneprofile#preserve_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#preserve_client_ip Trafficcloneprofile#preserve_client_ip}
   */
   readonly preserveClientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#tenant_ref Trafficcloneprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#tenant_ref Trafficcloneprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#uuid Trafficcloneprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#uuid Trafficcloneprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * clone_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#clone_servers Trafficcloneprofile#clone_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#clone_servers Trafficcloneprofile#clone_servers}
   */
   readonly cloneServers?: TrafficcloneprofileCloneServers[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#configpb_attributes Trafficcloneprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#configpb_attributes Trafficcloneprofile#configpb_attributes}
   */
   readonly configpbAttributes?: TrafficcloneprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#markers Trafficcloneprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#markers Trafficcloneprofile#markers}
   */
   readonly markers?: TrafficcloneprofileMarkers[] | cdktf.IResolvable;
 }
 export interface TrafficcloneprofileCloneServersIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#addr Trafficcloneprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#addr Trafficcloneprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#type Trafficcloneprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#type Trafficcloneprofile#type}
   */
   readonly type: string;
 }
@@ -198,11 +198,11 @@ export class TrafficcloneprofileCloneServersIpAddressList extends cdktf.ComplexL
 }
 export interface TrafficcloneprofileCloneServersSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#addr Trafficcloneprofile#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#addr Trafficcloneprofile#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#type Trafficcloneprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#type Trafficcloneprofile#type}
   */
   readonly type: string;
 }
@@ -341,13 +341,13 @@ export class TrafficcloneprofileCloneServersSubnetIpAddrList extends cdktf.Compl
 }
 export interface TrafficcloneprofileCloneServersSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#mask Trafficcloneprofile#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#mask Trafficcloneprofile#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#ip_addr Trafficcloneprofile#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#ip_addr Trafficcloneprofile#ip_addr}
   */
   readonly ipAddr: TrafficcloneprofileCloneServersSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -486,23 +486,23 @@ export class TrafficcloneprofileCloneServersSubnetList extends cdktf.ComplexList
 }
 export interface TrafficcloneprofileCloneServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#mac Trafficcloneprofile#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#mac Trafficcloneprofile#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#network_ref Trafficcloneprofile#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#network_ref Trafficcloneprofile#network_ref}
   */
   readonly networkRef?: string;
   /**
   * ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#ip_address Trafficcloneprofile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#ip_address Trafficcloneprofile#ip_address}
   */
   readonly ipAddress?: TrafficcloneprofileCloneServersIpAddress[] | cdktf.IResolvable;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#subnet Trafficcloneprofile#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#subnet Trafficcloneprofile#subnet}
   */
   readonly subnet?: TrafficcloneprofileCloneServersSubnet[] | cdktf.IResolvable;
 }
@@ -705,7 +705,7 @@ export class TrafficcloneprofileCloneServersList extends cdktf.ComplexList {
 }
 export interface TrafficcloneprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#version Trafficcloneprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#version Trafficcloneprofile#version}
   */
   readonly version?: string;
 }
@@ -821,11 +821,11 @@ export class TrafficcloneprofileConfigpbAttributesList extends cdktf.ComplexList
 }
 export interface TrafficcloneprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#key Trafficcloneprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#key Trafficcloneprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#values Trafficcloneprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#values Trafficcloneprofile#values}
   */
   readonly values?: string[];
 }
@@ -967,7 +967,7 @@ export class TrafficcloneprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile avi_trafficcloneprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile avi_trafficcloneprofile}
 */
 export class Trafficcloneprofile extends cdktf.TerraformResource {
 
@@ -983,7 +983,7 @@ export class Trafficcloneprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Trafficcloneprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Trafficcloneprofile to import
-  * @param importFromId The id of the existing Trafficcloneprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Trafficcloneprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Trafficcloneprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -995,7 +995,7 @@ export class Trafficcloneprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/trafficcloneprofile avi_trafficcloneprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/trafficcloneprofile avi_trafficcloneprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1006,8 +1006,8 @@ export class Trafficcloneprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_trafficcloneprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

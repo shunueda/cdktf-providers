@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface PolicyMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * policy criteria
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#classes PolicyMap#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#classes PolicyMap#classes}
   */
   readonly classes?: PolicyMapClasses[] | cdktf.IResolvable;
   /**
   * Policy-Map description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#description PolicyMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#description PolicyMap#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#device PolicyMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#device PolicyMap#device}
   */
   readonly device?: string;
   /**
   * Name of the policy map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#name PolicyMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#name PolicyMap#name}
   */
   readonly name: string;
   /**
   * Domain name of the policy map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#subscriber PolicyMap#subscriber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#subscriber PolicyMap#subscriber}
   */
   readonly subscriber?: boolean | cdktf.IResolvable;
   /**
   * type of the policy-map
   *   - Choices: `access-control`, `appnav`, `control`, `epbr`, `inspect`, `ngsw-qos`, `packet-service`, `performance-monitor`, `queueing`, `service`, `service-chain`, `umbrella`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#type PolicyMap#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#type PolicyMap#type}
   */
   readonly type?: string;
 }
@@ -50,144 +50,144 @@ export interface PolicyMapClassesActions {
   * 
   *   - Range: `1`-`100000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#bandwidth_bits PolicyMap#bandwidth_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#bandwidth_bits PolicyMap#bandwidth_bits}
   */
   readonly bandwidthBits?: number;
   /**
   * % of total Bandwidth
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#bandwidth_percent PolicyMap#bandwidth_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#bandwidth_percent PolicyMap#bandwidth_percent}
   */
   readonly bandwidthPercent?: number;
   /**
   * 
   *   - Choices: `percent`, `ratio`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#bandwidth_remaining_option PolicyMap#bandwidth_remaining_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#bandwidth_remaining_option PolicyMap#bandwidth_remaining_option}
   */
   readonly bandwidthRemainingOption?: string;
   /**
   * % of the remaining bandwidth
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#bandwidth_remaining_percent PolicyMap#bandwidth_remaining_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#bandwidth_remaining_percent PolicyMap#bandwidth_remaining_percent}
   */
   readonly bandwidthRemainingPercent?: number;
   /**
   * ratio for sharing excess bandwidth
   *   - Range: `1`-`65536`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#bandwidth_remaining_ratio PolicyMap#bandwidth_remaining_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#bandwidth_remaining_ratio PolicyMap#bandwidth_remaining_ratio}
   */
   readonly bandwidthRemainingRatio?: number;
   /**
   * Target bit rate (bits per second) (postfix k, m, g optional),decimal point allowed
   *   - Range: `8000`-`100000000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#police_target_bitrate PolicyMap#police_target_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#police_target_bitrate PolicyMap#police_target_bitrate}
   */
   readonly policeTargetBitrate?: number;
   /**
   * Burst Byte
   *   - Range: `100`-`512000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#police_target_bitrate_conform_burst_byte PolicyMap#police_target_bitrate_conform_burst_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#police_target_bitrate_conform_burst_byte PolicyMap#police_target_bitrate_conform_burst_byte}
   */
   readonly policeTargetBitrateConformBurstByte?: number;
   /**
   * transmit packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#police_target_bitrate_conform_transmit PolicyMap#police_target_bitrate_conform_transmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#police_target_bitrate_conform_transmit PolicyMap#police_target_bitrate_conform_transmit}
   */
   readonly policeTargetBitrateConformTransmit?: boolean | cdktf.IResolvable;
   /**
   * transmit packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#police_target_bitrate_exceed_transmit PolicyMap#police_target_bitrate_exceed_transmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#police_target_bitrate_exceed_transmit PolicyMap#police_target_bitrate_exceed_transmit}
   */
   readonly policeTargetBitrateExceedTransmit?: boolean | cdktf.IResolvable;
   /**
   * Burst Byte
   *   - Range: `100`-`512000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#police_target_bitrate_excess_burst_byte PolicyMap#police_target_bitrate_excess_burst_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#police_target_bitrate_excess_burst_byte PolicyMap#police_target_bitrate_excess_burst_byte}
   */
   readonly policeTargetBitrateExcessBurstByte?: number;
   /**
   * 
   *   - Range: `32`-`2000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#priority_burst PolicyMap#priority_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#priority_burst PolicyMap#priority_burst}
   */
   readonly priorityBurst?: number;
   /**
   * Multi-Level Priority Queue
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#priority_level PolicyMap#priority_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#priority_level PolicyMap#priority_level}
   */
   readonly priorityLevel?: number;
   /**
   * 
   *   - Range: `1`-`64000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#queue_limit PolicyMap#queue_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#queue_limit PolicyMap#queue_limit}
   */
   readonly queueLimit?: number;
   /**
   * 
   *   - Choices: `bytes`, `ms`, `packets`, `us`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#queue_limit_type PolicyMap#queue_limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#queue_limit_type PolicyMap#queue_limit_type}
   */
   readonly queueLimitType?: string;
   /**
   * Target Bit Rate (bits/sec)
   *   - Range: `1000`-`100000000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#shape_average_bit_rate PolicyMap#shape_average_bit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#shape_average_bit_rate PolicyMap#shape_average_bit_rate}
   */
   readonly shapeAverageBitRate?: number;
   /**
   * bits per interval, excess.
   *   - Range: `0`-`154400000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#shape_average_bits_per_interval_excess PolicyMap#shape_average_bits_per_interval_excess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#shape_average_bits_per_interval_excess PolicyMap#shape_average_bits_per_interval_excess}
   */
   readonly shapeAverageBitsPerIntervalExcess?: number;
   /**
   * bits per interval, sustained. Recommend not to configure, algo finds the best value
   *   - Range: `32`-`800000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#shape_average_bits_per_interval_sustained PolicyMap#shape_average_bits_per_interval_sustained}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#shape_average_bits_per_interval_sustained PolicyMap#shape_average_bits_per_interval_sustained}
   */
   readonly shapeAverageBitsPerIntervalSustained?: number;
   /**
   * sustained burst in milliseconds. Recommend not to configure it, the algorithm will find out the best value
   *   - Range: `10`-`2000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#shape_average_burst_size_sustained PolicyMap#shape_average_burst_size_sustained}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#shape_average_burst_size_sustained PolicyMap#shape_average_burst_size_sustained}
   */
   readonly shapeAverageBurstSizeSustained?: number;
   /**
   * milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#shape_average_ms PolicyMap#shape_average_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#shape_average_ms PolicyMap#shape_average_ms}
   */
   readonly shapeAverageMs?: boolean | cdktf.IResolvable;
   /**
   * % of interface bandwidth for Committed information rate
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#shape_average_percent PolicyMap#shape_average_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#shape_average_percent PolicyMap#shape_average_percent}
   */
   readonly shapeAveragePercent?: number;
   /**
   * 
   *   - Choices: `bandwidth`, `compression`, `dbl`, `drop`, `estimate`, `fair-queue`, `forward`, `netflow-sampler`, `police`, `priority`, `queue-buffers`, `queue-limit`, `random-detect`, `service-policy`, `set`, `shape`, `trust`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#type PolicyMap#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#type PolicyMap#type}
   */
   readonly type: string;
 }
@@ -880,11 +880,11 @@ export class PolicyMapClassesActionsList extends cdktf.ComplexList {
 }
 export interface PolicyMapClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#actions PolicyMap#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#actions PolicyMap#actions}
   */
   readonly actions?: PolicyMapClassesActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#name PolicyMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#name PolicyMap#name}
   */
   readonly name: string;
 }
@@ -1026,7 +1026,7 @@ export class PolicyMapClassesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map iosxe_policy_map}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map iosxe_policy_map}
 */
 export class PolicyMap extends cdktf.TerraformResource {
 
@@ -1042,7 +1042,7 @@ export class PolicyMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyMap to import
-  * @param importFromId The id of the existing PolicyMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1054,7 +1054,7 @@ export class PolicyMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/policy_map iosxe_policy_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/policy_map iosxe_policy_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1065,8 +1065,8 @@ export class PolicyMap extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_policy_map',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

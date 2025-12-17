@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface PowerplatformTenantSettingsConfig extends cdktf.TerraformMetaAr
   /**
   * Disable Capacity Allocation By Environment Admins. See [Add-on capacity management](https://learn.microsoft.com/power-platform/admin/capacity-add-on#control-who-can-allocate-add-on-capacity) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_capacity_allocation_by_environment_admins PowerplatformTenantSettings#disable_capacity_allocation_by_environment_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_capacity_allocation_by_environment_admins PowerplatformTenantSettings#disable_capacity_allocation_by_environment_admins}
   */
   readonly disableCapacityAllocationByEnvironmentAdmins?: boolean | cdktf.IResolvable;
   /**
   * Disable Environment Creation By Non Admin Users. See [Control environment creation](https://learn.microsoft.com/power-platform/admin/control-environment-creation) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_environment_creation_by_non_admin_users PowerplatformTenantSettings#disable_environment_creation_by_non_admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_environment_creation_by_non_admin_users PowerplatformTenantSettings#disable_environment_creation_by_non_admin_users}
   */
   readonly disableEnvironmentCreationByNonAdminUsers?: boolean | cdktf.IResolvable;
   /**
   * Disable Newsletter Sendout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_newsletter_sendout PowerplatformTenantSettings#disable_newsletter_sendout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_newsletter_sendout PowerplatformTenantSettings#disable_newsletter_sendout}
   */
   readonly disableNewsletterSendout?: boolean | cdktf.IResolvable;
   /**
   * Disable NPS Comments Reachout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_nps_comments_reachout PowerplatformTenantSettings#disable_nps_comments_reachout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_nps_comments_reachout PowerplatformTenantSettings#disable_nps_comments_reachout}
   */
   readonly disableNpsCommentsReachout?: boolean | cdktf.IResolvable;
   /**
   * Disable Portals Creation By Non Admin Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_portals_creation_by_non_admin_users PowerplatformTenantSettings#disable_portals_creation_by_non_admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_portals_creation_by_non_admin_users PowerplatformTenantSettings#disable_portals_creation_by_non_admin_users}
   */
   readonly disablePortalsCreationByNonAdminUsers?: boolean | cdktf.IResolvable;
   /**
   * Disable Support Tickets Visible By All Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_support_tickets_visible_by_all_users PowerplatformTenantSettings#disable_support_tickets_visible_by_all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_support_tickets_visible_by_all_users PowerplatformTenantSettings#disable_support_tickets_visible_by_all_users}
   */
   readonly disableSupportTicketsVisibleByAllUsers?: boolean | cdktf.IResolvable;
   /**
   * Disable Survey Feedback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_survey_feedback PowerplatformTenantSettings#disable_survey_feedback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_survey_feedback PowerplatformTenantSettings#disable_survey_feedback}
   */
   readonly disableSurveyFeedback?: boolean | cdktf.IResolvable;
   /**
   * Disable Trial Environment Creation By Non Admin Users. See [Control environment creation](https://learn.microsoft.com/power-platform/admin/control-environment-creation) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_trial_environment_creation_by_non_admin_users PowerplatformTenantSettings#disable_trial_environment_creation_by_non_admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_trial_environment_creation_by_non_admin_users PowerplatformTenantSettings#disable_trial_environment_creation_by_non_admin_users}
   */
   readonly disableTrialEnvironmentCreationByNonAdminUsers?: boolean | cdktf.IResolvable;
   /**
   * Power Platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#power_platform PowerplatformTenantSettings#power_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#power_platform PowerplatformTenantSettings#power_platform}
   */
   readonly powerPlatform?: PowerplatformTenantSettingsPowerPlatform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#timeouts PowerplatformTenantSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#timeouts PowerplatformTenantSettings#timeouts}
   */
   readonly timeouts?: PowerplatformTenantSettingsTimeouts;
   /**
   * Walk Me Opt Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#walk_me_opt_out PowerplatformTenantSettings#walk_me_opt_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#walk_me_opt_out PowerplatformTenantSettings#walk_me_opt_out}
   */
   readonly walkMeOptOut?: boolean | cdktf.IResolvable;
 }
@@ -76,7 +76,7 @@ export interface PowerplatformTenantSettingsPowerPlatformCatalogSettings {
   /**
   * Power Catalog Audience Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#power_catalog_audience_setting PowerplatformTenantSettings#power_catalog_audience_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#power_catalog_audience_setting PowerplatformTenantSettings#power_catalog_audience_setting}
   */
   readonly powerCatalogAudienceSetting?: string;
 }
@@ -172,13 +172,13 @@ export interface PowerplatformTenantSettingsPowerPlatformChampions {
   /**
   * Disable Champions Invitation Reachout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_champions_invitation_reachout PowerplatformTenantSettings#disable_champions_invitation_reachout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_champions_invitation_reachout PowerplatformTenantSettings#disable_champions_invitation_reachout}
   */
   readonly disableChampionsInvitationReachout?: boolean | cdktf.IResolvable;
   /**
   * Disable Skills Match Invitation Reachout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_skills_match_invitation_reachout PowerplatformTenantSettings#disable_skills_match_invitation_reachout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_skills_match_invitation_reachout PowerplatformTenantSettings#disable_skills_match_invitation_reachout}
   */
   readonly disableSkillsMatchInvitationReachout?: boolean | cdktf.IResolvable;
 }
@@ -303,7 +303,7 @@ export interface PowerplatformTenantSettingsPowerPlatformEnvironments {
   /**
   * Disable Preferred Data Location For Teams Environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_preferred_data_location_for_teams_environment PowerplatformTenantSettings#disable_preferred_data_location_for_teams_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_preferred_data_location_for_teams_environment PowerplatformTenantSettings#disable_preferred_data_location_for_teams_environment}
   */
   readonly disablePreferredDataLocationForTeamsEnvironment?: boolean | cdktf.IResolvable;
 }
@@ -399,7 +399,7 @@ export interface PowerplatformTenantSettingsPowerPlatformGovernancePolicy {
   /**
   * Enable Desktop Flow Data Policy Management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_desktop_flow_data_policy_management PowerplatformTenantSettings#enable_desktop_flow_data_policy_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_desktop_flow_data_policy_management PowerplatformTenantSettings#enable_desktop_flow_data_policy_management}
   */
   readonly enableDesktopFlowDataPolicyManagement?: boolean | cdktf.IResolvable;
 }
@@ -495,43 +495,43 @@ export interface PowerplatformTenantSettingsPowerPlatformGovernance {
   /**
   * Disable Admin Digest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_admin_digest PowerplatformTenantSettings#disable_admin_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_admin_digest PowerplatformTenantSettings#disable_admin_digest}
   */
   readonly disableAdminDigest?: boolean | cdktf.IResolvable;
   /**
   * Disable Developer Environment Creation By Non Admin Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_developer_environment_creation_by_non_admin_users PowerplatformTenantSettings#disable_developer_environment_creation_by_non_admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_developer_environment_creation_by_non_admin_users PowerplatformTenantSettings#disable_developer_environment_creation_by_non_admin_users}
   */
   readonly disableDeveloperEnvironmentCreationByNonAdminUsers?: boolean | cdktf.IResolvable;
   /**
   * Enable Default Environment Routing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_default_environment_routing PowerplatformTenantSettings#enable_default_environment_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_default_environment_routing PowerplatformTenantSettings#enable_default_environment_routing}
   */
   readonly enableDefaultEnvironmentRouting?: boolean | cdktf.IResolvable;
   /**
   * Select who can be routed to a new personal developer environment. (All Makers = true, New Makers = false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#environment_routing_all_makers PowerplatformTenantSettings#environment_routing_all_makers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#environment_routing_all_makers PowerplatformTenantSettings#environment_routing_all_makers}
   */
   readonly environmentRoutingAllMakers?: boolean | cdktf.IResolvable;
   /**
   * Assign newly created personal developer environments to a specific environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#environment_routing_target_environment_group_id PowerplatformTenantSettings#environment_routing_target_environment_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#environment_routing_target_environment_group_id PowerplatformTenantSettings#environment_routing_target_environment_group_id}
   */
   readonly environmentRoutingTargetEnvironmentGroupId?: string;
   /**
   * Restrict routing to members of the following security group. (00000000-0000-0000-0000-000000000000 allows all users)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#environment_routing_target_security_group_id PowerplatformTenantSettings#environment_routing_target_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#environment_routing_target_security_group_id PowerplatformTenantSettings#environment_routing_target_security_group_id}
   */
   readonly environmentRoutingTargetSecurityGroupId?: string;
   /**
   * Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#policy PowerplatformTenantSettings#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#policy PowerplatformTenantSettings#policy}
   */
   readonly policy?: PowerplatformTenantSettingsPowerPlatformGovernancePolicy;
 }
@@ -801,13 +801,13 @@ export interface PowerplatformTenantSettingsPowerPlatformIntelligence {
   /**
   * Disable Copilot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_copilot PowerplatformTenantSettings#disable_copilot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_copilot PowerplatformTenantSettings#disable_copilot}
   */
   readonly disableCopilot?: boolean | cdktf.IResolvable;
   /**
   * Enable Open AI Bot Publishing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_open_ai_bot_publishing PowerplatformTenantSettings#enable_open_ai_bot_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_open_ai_bot_publishing PowerplatformTenantSettings#enable_open_ai_bot_publishing}
   */
   readonly enableOpenAiBotPublishing?: boolean | cdktf.IResolvable;
 }
@@ -932,31 +932,31 @@ export interface PowerplatformTenantSettingsPowerPlatformLicensing {
   /**
   * Disable Billing Policy Creation By Non Admin Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_billing_policy_creation_by_non_admin_users PowerplatformTenantSettings#disable_billing_policy_creation_by_non_admin_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_billing_policy_creation_by_non_admin_users PowerplatformTenantSettings#disable_billing_policy_creation_by_non_admin_users}
   */
   readonly disableBillingPolicyCreationByNonAdminUsers?: boolean | cdktf.IResolvable;
   /**
   * Disable Use Of Unassigned AI Builder Credits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_use_of_unassigned_ai_builder_credits PowerplatformTenantSettings#disable_use_of_unassigned_ai_builder_credits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_use_of_unassigned_ai_builder_credits PowerplatformTenantSettings#disable_use_of_unassigned_ai_builder_credits}
   */
   readonly disableUseOfUnassignedAiBuilderCredits?: boolean | cdktf.IResolvable;
   /**
   * Enable Tenant Capacity Report For Environment Admins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_tenant_capacity_report_for_environment_admins PowerplatformTenantSettings#enable_tenant_capacity_report_for_environment_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_tenant_capacity_report_for_environment_admins PowerplatformTenantSettings#enable_tenant_capacity_report_for_environment_admins}
   */
   readonly enableTenantCapacityReportForEnvironmentAdmins?: boolean | cdktf.IResolvable;
   /**
   * Enable Tenant Licensing Report For Environment Admins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_tenant_licensing_report_for_environment_admins PowerplatformTenantSettings#enable_tenant_licensing_report_for_environment_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_tenant_licensing_report_for_environment_admins PowerplatformTenantSettings#enable_tenant_licensing_report_for_environment_admins}
   */
   readonly enableTenantLicensingReportForEnvironmentAdmins?: boolean | cdktf.IResolvable;
   /**
   * Storage Capacity Consumption Warning Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#storage_capacity_consumption_warning_threshold PowerplatformTenantSettings#storage_capacity_consumption_warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#storage_capacity_consumption_warning_threshold PowerplatformTenantSettings#storage_capacity_consumption_warning_threshold}
   */
   readonly storageCapacityConsumptionWarningThreshold?: number;
 }
@@ -1168,13 +1168,13 @@ export interface PowerplatformTenantSettingsPowerPlatformModelExperimentation {
   /**
   * Disable Data Logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_data_logging PowerplatformTenantSettings#disable_data_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_data_logging PowerplatformTenantSettings#disable_data_logging}
   */
   readonly disableDataLogging?: boolean | cdktf.IResolvable;
   /**
   * Enable Model Data Sharing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_model_data_sharing PowerplatformTenantSettings#enable_model_data_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_model_data_sharing PowerplatformTenantSettings#enable_model_data_sharing}
   */
   readonly enableModelDataSharing?: boolean | cdktf.IResolvable;
 }
@@ -1299,43 +1299,43 @@ export interface PowerplatformTenantSettingsPowerPlatformPowerApps {
   /**
   * Disable Connection Sharing With Everyone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_connection_sharing_with_everyone PowerplatformTenantSettings#disable_connection_sharing_with_everyone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_connection_sharing_with_everyone PowerplatformTenantSettings#disable_connection_sharing_with_everyone}
   */
   readonly disableConnectionSharingWithEveryone?: boolean | cdktf.IResolvable;
   /**
   * Disable Create From Figma
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_create_from_figma PowerplatformTenantSettings#disable_create_from_figma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_create_from_figma PowerplatformTenantSettings#disable_create_from_figma}
   */
   readonly disableCreateFromFigma?: boolean | cdktf.IResolvable;
   /**
   * Disable Create From Image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_create_from_image PowerplatformTenantSettings#disable_create_from_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_create_from_image PowerplatformTenantSettings#disable_create_from_image}
   */
   readonly disableCreateFromImage?: boolean | cdktf.IResolvable;
   /**
   * Disable Maker Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_maker_match PowerplatformTenantSettings#disable_maker_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_maker_match PowerplatformTenantSettings#disable_maker_match}
   */
   readonly disableMakerMatch?: boolean | cdktf.IResolvable;
   /**
   * Disable Share With Everyone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_share_with_everyone PowerplatformTenantSettings#disable_share_with_everyone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_share_with_everyone PowerplatformTenantSettings#disable_share_with_everyone}
   */
   readonly disableShareWithEveryone?: boolean | cdktf.IResolvable;
   /**
   * Disable Unused License Assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_unused_license_assignment PowerplatformTenantSettings#disable_unused_license_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_unused_license_assignment PowerplatformTenantSettings#disable_unused_license_assignment}
   */
   readonly disableUnusedLicenseAssignment?: boolean | cdktf.IResolvable;
   /**
   * Enable Guests To Make
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_guests_to_make PowerplatformTenantSettings#enable_guests_to_make}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_guests_to_make PowerplatformTenantSettings#enable_guests_to_make}
   */
   readonly enableGuestsToMake?: boolean | cdktf.IResolvable;
 }
@@ -1605,7 +1605,7 @@ export interface PowerplatformTenantSettingsPowerPlatformPowerAutomate {
   /**
   * Disable Copilot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_copilot PowerplatformTenantSettings#disable_copilot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_copilot PowerplatformTenantSettings#disable_copilot}
   */
   readonly disableCopilot?: boolean | cdktf.IResolvable;
 }
@@ -1760,19 +1760,19 @@ export interface PowerplatformTenantSettingsPowerPlatformSearch {
   /**
   * Disable Bing Video Search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_bing_video_search PowerplatformTenantSettings#disable_bing_video_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_bing_video_search PowerplatformTenantSettings#disable_bing_video_search}
   */
   readonly disableBingVideoSearch?: boolean | cdktf.IResolvable;
   /**
   * Disable Community Search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_community_search PowerplatformTenantSettings#disable_community_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_community_search PowerplatformTenantSettings#disable_community_search}
   */
   readonly disableCommunitySearch?: boolean | cdktf.IResolvable;
   /**
   * Disable Docs Search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#disable_docs_search PowerplatformTenantSettings#disable_docs_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#disable_docs_search PowerplatformTenantSettings#disable_docs_search}
   */
   readonly disableDocsSearch?: boolean | cdktf.IResolvable;
 }
@@ -1926,7 +1926,7 @@ export interface PowerplatformTenantSettingsPowerPlatformTeamsIntegration {
   /**
   * Share With Colleagues User Limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#share_with_colleagues_user_limit PowerplatformTenantSettings#share_with_colleagues_user_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#share_with_colleagues_user_limit PowerplatformTenantSettings#share_with_colleagues_user_limit}
   */
   readonly shareWithColleaguesUserLimit?: number;
 }
@@ -2022,7 +2022,7 @@ export interface PowerplatformTenantSettingsPowerPlatformUserManagementSettings 
   /**
   * Enable Delete Disabled User In All Environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#enable_delete_disabled_user_in_all_environments PowerplatformTenantSettings#enable_delete_disabled_user_in_all_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#enable_delete_disabled_user_in_all_environments PowerplatformTenantSettings#enable_delete_disabled_user_in_all_environments}
   */
   readonly enableDeleteDisabledUserInAllEnvironments?: boolean | cdktf.IResolvable;
 }
@@ -2118,79 +2118,79 @@ export interface PowerplatformTenantSettingsPowerPlatform {
   /**
   * Catalog Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#catalog_settings PowerplatformTenantSettings#catalog_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#catalog_settings PowerplatformTenantSettings#catalog_settings}
   */
   readonly catalogSettings?: PowerplatformTenantSettingsPowerPlatformCatalogSettings;
   /**
   * Champions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#champions PowerplatformTenantSettings#champions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#champions PowerplatformTenantSettings#champions}
   */
   readonly champions?: PowerplatformTenantSettingsPowerPlatformChampions;
   /**
   * Environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#environments PowerplatformTenantSettings#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#environments PowerplatformTenantSettings#environments}
   */
   readonly environments?: PowerplatformTenantSettingsPowerPlatformEnvironments;
   /**
   * Governance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#governance PowerplatformTenantSettings#governance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#governance PowerplatformTenantSettings#governance}
   */
   readonly governance?: PowerplatformTenantSettingsPowerPlatformGovernance;
   /**
   * Intelligence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#intelligence PowerplatformTenantSettings#intelligence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#intelligence PowerplatformTenantSettings#intelligence}
   */
   readonly intelligence?: PowerplatformTenantSettingsPowerPlatformIntelligence;
   /**
   * Licensing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#licensing PowerplatformTenantSettings#licensing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#licensing PowerplatformTenantSettings#licensing}
   */
   readonly licensing?: PowerplatformTenantSettingsPowerPlatformLicensing;
   /**
   * Model Experimentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#model_experimentation PowerplatformTenantSettings#model_experimentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#model_experimentation PowerplatformTenantSettings#model_experimentation}
   */
   readonly modelExperimentation?: PowerplatformTenantSettingsPowerPlatformModelExperimentation;
   /**
   * Power Apps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#power_apps PowerplatformTenantSettings#power_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#power_apps PowerplatformTenantSettings#power_apps}
   */
   readonly powerApps?: PowerplatformTenantSettingsPowerPlatformPowerApps;
   /**
   * Power Automate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#power_automate PowerplatformTenantSettings#power_automate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#power_automate PowerplatformTenantSettings#power_automate}
   */
   readonly powerAutomate?: PowerplatformTenantSettingsPowerPlatformPowerAutomate;
   /**
   * Power Pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#power_pages PowerplatformTenantSettings#power_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#power_pages PowerplatformTenantSettings#power_pages}
   */
   readonly powerPages?: PowerplatformTenantSettingsPowerPlatformPowerPages;
   /**
   * Search
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#search PowerplatformTenantSettings#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#search PowerplatformTenantSettings#search}
   */
   readonly search?: PowerplatformTenantSettingsPowerPlatformSearch;
   /**
   * Teams Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#teams_integration PowerplatformTenantSettings#teams_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#teams_integration PowerplatformTenantSettings#teams_integration}
   */
   readonly teamsIntegration?: PowerplatformTenantSettingsPowerPlatformTeamsIntegration;
   /**
   * User Management Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#user_management_settings PowerplatformTenantSettings#user_management_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#user_management_settings PowerplatformTenantSettings#user_management_settings}
   */
   readonly userManagementSettings?: PowerplatformTenantSettingsPowerPlatformUserManagementSettings;
 }
@@ -2634,25 +2634,25 @@ export interface PowerplatformTenantSettingsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#create PowerplatformTenantSettings#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#create PowerplatformTenantSettings#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#delete PowerplatformTenantSettings#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#delete PowerplatformTenantSettings#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#read PowerplatformTenantSettings#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#read PowerplatformTenantSettings#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#update PowerplatformTenantSettings#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#update PowerplatformTenantSettings#update}
   */
   readonly update?: string;
 }
@@ -2833,7 +2833,7 @@ export class PowerplatformTenantSettingsTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings powerplatform_tenant_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings powerplatform_tenant_settings}
 */
 export class PowerplatformTenantSettings extends cdktf.TerraformResource {
 
@@ -2849,7 +2849,7 @@ export class PowerplatformTenantSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PowerplatformTenantSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformTenantSettings to import
-  * @param importFromId The id of the existing PowerplatformTenantSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformTenantSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformTenantSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2861,7 +2861,7 @@ export class PowerplatformTenantSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_tenant_settings powerplatform_tenant_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_tenant_settings powerplatform_tenant_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2872,8 +2872,8 @@ export class PowerplatformTenantSettings extends cdktf.TerraformResource {
       terraformResourceType: 'powerplatform_tenant_settings',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

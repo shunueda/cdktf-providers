@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CustomLocationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud Provider of the custom location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location#cloud_provider CustomLocation#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location#cloud_provider CustomLocation#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * Description of the Custom Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location#description CustomLocation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location#description CustomLocation#description}
   */
   readonly description?: string;
   /**
   * Indication if the custom location is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location#enabled CustomLocation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location#enabled CustomLocation#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name of the Custom Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location#name CustomLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location#name CustomLocation#name}
   */
   readonly name: string;
   /**
   * Key-value map of resource tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location#tags CustomLocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location#tags CustomLocation#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location cpln_custom_location}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location cpln_custom_location}
 */
 export class CustomLocation extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class CustomLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomLocation to import
-  * @param importFromId The id of the existing CustomLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CustomLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/custom_location cpln_custom_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/custom_location cpln_custom_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CustomLocation extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_custom_location',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.19',
-        providerVersionConstraint: '1.2.19'
+        providerVersion: '1.2.20',
+        providerVersionConstraint: '1.2.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

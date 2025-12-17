@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,168 +8,168 @@ import * as cdktf from 'cdktf';
 
 export interface SlackAlertNotifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#api_url SlackAlertNotifier#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#api_url SlackAlertNotifier#api_url}
   */
   readonly apiUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#basic_auth_password SlackAlertNotifier#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#basic_auth_password SlackAlertNotifier#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#basic_auth_username SlackAlertNotifier#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#basic_auth_username SlackAlertNotifier#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#bearer_token SlackAlertNotifier#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#bearer_token SlackAlertNotifier#bearer_token}
   */
   readonly bearerToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#callback_id SlackAlertNotifier#callback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#callback_id SlackAlertNotifier#callback_id}
   */
   readonly callbackId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#channel SlackAlertNotifier#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#channel SlackAlertNotifier#channel}
   */
   readonly channel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#color SlackAlertNotifier#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#color SlackAlertNotifier#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#fallback SlackAlertNotifier#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#fallback SlackAlertNotifier#fallback}
   */
   readonly fallback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#footer SlackAlertNotifier#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#footer SlackAlertNotifier#footer}
   */
   readonly footer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#icon_emoji SlackAlertNotifier#icon_emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#icon_emoji SlackAlertNotifier#icon_emoji}
   */
   readonly iconEmoji?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#icon_url SlackAlertNotifier#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#icon_url SlackAlertNotifier#icon_url}
   */
   readonly iconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#id SlackAlertNotifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#id SlackAlertNotifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#image_url SlackAlertNotifier#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#image_url SlackAlertNotifier#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#link_names SlackAlertNotifier#link_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#link_names SlackAlertNotifier#link_names}
   */
   readonly linkNames?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#mrkdwn_in SlackAlertNotifier#mrkdwn_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#mrkdwn_in SlackAlertNotifier#mrkdwn_in}
   */
   readonly mrkdwnIn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#name SlackAlertNotifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#name SlackAlertNotifier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#pretext SlackAlertNotifier#pretext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#pretext SlackAlertNotifier#pretext}
   */
   readonly pretext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#proxy_url SlackAlertNotifier#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#proxy_url SlackAlertNotifier#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#send_resolved SlackAlertNotifier#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#send_resolved SlackAlertNotifier#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#short_fields SlackAlertNotifier#short_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#short_fields SlackAlertNotifier#short_fields}
   */
   readonly shortFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#slug SlackAlertNotifier#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#slug SlackAlertNotifier#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#text SlackAlertNotifier#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#text SlackAlertNotifier#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#thumb_url SlackAlertNotifier#thumb_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#thumb_url SlackAlertNotifier#thumb_url}
   */
   readonly thumbUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#title SlackAlertNotifier#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#title SlackAlertNotifier#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#title_link SlackAlertNotifier#title_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#title_link SlackAlertNotifier#title_link}
   */
   readonly titleLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#tls_insecure_skip_verify SlackAlertNotifier#tls_insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#tls_insecure_skip_verify SlackAlertNotifier#tls_insecure_skip_verify}
   */
   readonly tlsInsecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#username SlackAlertNotifier#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#username SlackAlertNotifier#username}
   */
   readonly username?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#action SlackAlertNotifier#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#action SlackAlertNotifier#action}
   */
   readonly action?: SlackAlertNotifierAction[] | cdktf.IResolvable;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#fields SlackAlertNotifier#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#fields SlackAlertNotifier#fields}
   */
   readonly fields?: SlackAlertNotifierFields[] | cdktf.IResolvable;
 }
 export interface SlackAlertNotifierAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#action_confirm_dismiss_text SlackAlertNotifier#action_confirm_dismiss_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#action_confirm_dismiss_text SlackAlertNotifier#action_confirm_dismiss_text}
   */
   readonly actionConfirmDismissText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#action_confirm_ok_text SlackAlertNotifier#action_confirm_ok_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#action_confirm_ok_text SlackAlertNotifier#action_confirm_ok_text}
   */
   readonly actionConfirmOkText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#action_confirm_text SlackAlertNotifier#action_confirm_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#action_confirm_text SlackAlertNotifier#action_confirm_text}
   */
   readonly actionConfirmText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#action_confirm_tile SlackAlertNotifier#action_confirm_tile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#action_confirm_tile SlackAlertNotifier#action_confirm_tile}
   */
   readonly actionConfirmTile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#name SlackAlertNotifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#name SlackAlertNotifier#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#style SlackAlertNotifier#style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#style SlackAlertNotifier#style}
   */
   readonly style?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#text SlackAlertNotifier#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#text SlackAlertNotifier#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#type SlackAlertNotifier#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#type SlackAlertNotifier#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#url SlackAlertNotifier#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#url SlackAlertNotifier#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#value SlackAlertNotifier#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#value SlackAlertNotifier#value}
   */
   readonly value?: string;
 }
@@ -546,15 +546,15 @@ export class SlackAlertNotifierActionList extends cdktf.ComplexList {
 }
 export interface SlackAlertNotifierFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#short SlackAlertNotifier#short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#short SlackAlertNotifier#short}
   */
   readonly short?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#title SlackAlertNotifier#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#title SlackAlertNotifier#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#value SlackAlertNotifier#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#value SlackAlertNotifier#value}
   */
   readonly value?: string;
 }
@@ -728,7 +728,7 @@ export class SlackAlertNotifierFieldsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier chronosphere_slack_alert_notifier}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier chronosphere_slack_alert_notifier}
 */
 export class SlackAlertNotifier extends cdktf.TerraformResource {
 
@@ -744,7 +744,7 @@ export class SlackAlertNotifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlackAlertNotifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlackAlertNotifier to import
-  * @param importFromId The id of the existing SlackAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlackAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlackAlertNotifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -756,7 +756,7 @@ export class SlackAlertNotifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slack_alert_notifier chronosphere_slack_alert_notifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slack_alert_notifier chronosphere_slack_alert_notifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -767,8 +767,8 @@ export class SlackAlertNotifier extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_slack_alert_notifier',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

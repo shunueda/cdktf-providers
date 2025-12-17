@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckToolUsageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#category CheckToolUsage#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#category CheckToolUsage#category}
   */
   readonly category: string;
   /**
@@ -19,67 +19,67 @@ export interface CheckToolUsageConfig extends cdktf.TerraformMetaArguments {
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#enable_on CheckToolUsage#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#enable_on CheckToolUsage#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#enabled CheckToolUsage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#enabled CheckToolUsage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#environment_predicate CheckToolUsage#environment_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#environment_predicate CheckToolUsage#environment_predicate}
   */
   readonly environmentPredicate?: CheckToolUsageEnvironmentPredicate;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#filter CheckToolUsage#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#filter CheckToolUsage#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#level CheckToolUsage#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#level CheckToolUsage#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#name CheckToolUsage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#name CheckToolUsage#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#notes CheckToolUsage#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#notes CheckToolUsage#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#owner CheckToolUsage#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#owner CheckToolUsage#owner}
   */
   readonly owner?: string;
   /**
   * The category that the tool belongs to. One of `admin`, `api_documentation`, `architecture_diagram`, `backlog`, `code`, `continuous_integration`, `deployment`, `design_documentation`, `errors`, `feature_flag`, `health_checks`, `incidents`, `issue_tracking`, `logs`, `metrics`, `observability`, `orchestrator`, `other`, `resiliency`, `runbooks`, `security_scans`, `status_page`, `wiki`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#tool_category CheckToolUsage#tool_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#tool_category CheckToolUsage#tool_category}
   */
   readonly toolCategory: string;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#tool_name_predicate CheckToolUsage#tool_name_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#tool_name_predicate CheckToolUsage#tool_name_predicate}
   */
   readonly toolNamePredicate?: CheckToolUsageToolNamePredicate;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#tool_url_predicate CheckToolUsage#tool_url_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#tool_url_predicate CheckToolUsage#tool_url_predicate}
   */
   readonly toolUrlPredicate?: CheckToolUsageToolUrlPredicate;
 }
@@ -87,13 +87,13 @@ export interface CheckToolUsageEnvironmentPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#type CheckToolUsage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#type CheckToolUsage#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#value CheckToolUsage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#value CheckToolUsage#value}
   */
   readonly value?: string;
 }
@@ -215,13 +215,13 @@ export interface CheckToolUsageToolNamePredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#type CheckToolUsage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#type CheckToolUsage#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#value CheckToolUsage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#value CheckToolUsage#value}
   */
   readonly value?: string;
 }
@@ -343,13 +343,13 @@ export interface CheckToolUsageToolUrlPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#type CheckToolUsage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#type CheckToolUsage#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#value CheckToolUsage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#value CheckToolUsage#value}
   */
   readonly value?: string;
 }
@@ -469,7 +469,7 @@ export class CheckToolUsageToolUrlPredicateOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage opslevel_check_tool_usage}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage opslevel_check_tool_usage}
 */
 export class CheckToolUsage extends cdktf.TerraformResource {
 
@@ -485,7 +485,7 @@ export class CheckToolUsage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckToolUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckToolUsage to import
-  * @param importFromId The id of the existing CheckToolUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckToolUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckToolUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -497,7 +497,7 @@ export class CheckToolUsage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_tool_usage opslevel_check_tool_usage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_tool_usage opslevel_check_tool_usage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -508,8 +508,8 @@ export class CheckToolUsage extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_tool_usage',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

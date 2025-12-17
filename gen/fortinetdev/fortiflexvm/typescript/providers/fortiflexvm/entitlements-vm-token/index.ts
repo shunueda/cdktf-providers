@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token
+// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface EntitlementsVmTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token#config_id EntitlementsVmToken#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token#config_id EntitlementsVmToken#config_id}
   */
   readonly configId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token#id EntitlementsVmToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token#id EntitlementsVmToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token#regenerate_token EntitlementsVmToken#regenerate_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token#regenerate_token EntitlementsVmToken#regenerate_token}
   */
   readonly regenerateToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token#serial_number EntitlementsVmToken#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token#serial_number EntitlementsVmToken#serial_number}
   */
   readonly serialNumber: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token fortiflexvm_entitlements_vm_token}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token fortiflexvm_entitlements_vm_token}
 */
 export class EntitlementsVmToken extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class EntitlementsVmToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntitlementsVmToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntitlementsVmToken to import
-  * @param importFromId The id of the existing EntitlementsVmToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntitlementsVmToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntitlementsVmToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class EntitlementsVmToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm_token fortiflexvm_entitlements_vm_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm_token fortiflexvm_entitlements_vm_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class EntitlementsVmToken extends cdktf.TerraformResource {
       terraformResourceType: 'fortiflexvm_entitlements_vm_token',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3',
-        providerVersionConstraint: '2.4.3'
+        providerVersion: '2.4.4',
+        providerVersionConstraint: '2.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

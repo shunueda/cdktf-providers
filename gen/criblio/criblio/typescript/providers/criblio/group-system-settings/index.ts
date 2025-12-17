@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings
+// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktf from 'cdktf';
 
 export interface GroupSystemSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#api GroupSystemSettings#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#api GroupSystemSettings#api}
   */
   readonly api: GroupSystemSettingsApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#backups GroupSystemSettings#backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#backups GroupSystemSettings#backups}
   */
   readonly backups: GroupSystemSettingsBackups;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#custom_logo GroupSystemSettings#custom_logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#custom_logo GroupSystemSettings#custom_logo}
   */
   readonly customLogo: GroupSystemSettingsCustomLogo;
   /**
   * The hybrid worker group or edge fleet to which this instance belongs. Defaults to 'defaultHybrid'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#group_id GroupSystemSettings#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#group_id GroupSystemSettings#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#pii GroupSystemSettings#pii}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#pii GroupSystemSettings#pii}
   */
   readonly pii: GroupSystemSettingsPii;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#proxy GroupSystemSettings#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#proxy GroupSystemSettings#proxy}
   */
   readonly proxy: GroupSystemSettingsProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#rollback GroupSystemSettings#rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#rollback GroupSystemSettings#rollback}
   */
   readonly rollback: GroupSystemSettingsRollback;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#shutdown GroupSystemSettings#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#shutdown GroupSystemSettings#shutdown}
   */
   readonly shutdown: GroupSystemSettingsShutdown;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#sni GroupSystemSettings#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#sni GroupSystemSettings#sni}
   */
   readonly sni: GroupSystemSettingsSni;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#sockets GroupSystemSettings#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#sockets GroupSystemSettings#sockets}
   */
   readonly sockets?: GroupSystemSettingsSockets;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#system GroupSystemSettings#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#system GroupSystemSettings#system}
   */
   readonly systemAttribute: GroupSystemSettingsSystem;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#tls GroupSystemSettings#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#tls GroupSystemSettings#tls}
   */
   readonly tls: GroupSystemSettingsTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#upgrade_group_settings GroupSystemSettings#upgrade_group_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#upgrade_group_settings GroupSystemSettings#upgrade_group_settings}
   */
   readonly upgradeGroupSettings: GroupSystemSettingsUpgradeGroupSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#upgrade_settings GroupSystemSettings#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#upgrade_settings GroupSystemSettings#upgrade_settings}
   */
   readonly upgradeSettings: GroupSystemSettingsUpgradeSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#workers GroupSystemSettings#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#workers GroupSystemSettings#workers}
   */
   readonly workers: GroupSystemSettingsWorkers;
 }
@@ -131,23 +131,23 @@ export class GroupSystemSettingsApiHeadersOutputReference extends cdktf.ComplexO
 }
 export interface GroupSystemSettingsApiSsl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#ca_path GroupSystemSettings#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#ca_path GroupSystemSettings#ca_path}
   */
   readonly caPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#cert_path GroupSystemSettings#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#cert_path GroupSystemSettings#cert_path}
   */
   readonly certPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#disabled GroupSystemSettings#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#disabled GroupSystemSettings#disabled}
   */
   readonly disabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#passphrase GroupSystemSettings#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#passphrase GroupSystemSettings#passphrase}
   */
   readonly passphrase: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#priv_key_path GroupSystemSettings#priv_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#priv_key_path GroupSystemSettings#priv_key_path}
   */
   readonly privKeyPath: string;
 }
@@ -345,63 +345,63 @@ export class GroupSystemSettingsApiSslOutputReference extends cdktf.ComplexObjec
 }
 export interface GroupSystemSettingsApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#base_url GroupSystemSettings#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#base_url GroupSystemSettings#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#disable_api_cache GroupSystemSettings#disable_api_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#disable_api_cache GroupSystemSettings#disable_api_cache}
   */
   readonly disableApiCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#disabled GroupSystemSettings#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#disabled GroupSystemSettings#disabled}
   */
   readonly disabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#headers GroupSystemSettings#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#headers GroupSystemSettings#headers}
   */
   readonly headers?: GroupSystemSettingsApiHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#host GroupSystemSettings#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#host GroupSystemSettings#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#idle_session_ttl GroupSystemSettings#idle_session_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#idle_session_ttl GroupSystemSettings#idle_session_ttl}
   */
   readonly idleSessionTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#listen_on_port GroupSystemSettings#listen_on_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#listen_on_port GroupSystemSettings#listen_on_port}
   */
   readonly listenOnPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#login_rate_limit GroupSystemSettings#login_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#login_rate_limit GroupSystemSettings#login_rate_limit}
   */
   readonly loginRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#port GroupSystemSettings#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#port GroupSystemSettings#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#protocol GroupSystemSettings#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#protocol GroupSystemSettings#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#scripts GroupSystemSettings#scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#scripts GroupSystemSettings#scripts}
   */
   readonly scripts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#sensitive_fields GroupSystemSettings#sensitive_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#sensitive_fields GroupSystemSettings#sensitive_fields}
   */
   readonly sensitiveFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#ssl GroupSystemSettings#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#ssl GroupSystemSettings#ssl}
   */
   readonly ssl: GroupSystemSettingsApiSsl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#sso_rate_limit GroupSystemSettings#sso_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#sso_rate_limit GroupSystemSettings#sso_rate_limit}
   */
   readonly ssoRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#worker_remote_access GroupSystemSettings#worker_remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#worker_remote_access GroupSystemSettings#worker_remote_access}
   */
   readonly workerRemoteAccess: boolean | cdktf.IResolvable;
 }
@@ -883,11 +883,11 @@ export class GroupSystemSettingsApiOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupSystemSettingsBackups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#backup_persistence GroupSystemSettings#backup_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#backup_persistence GroupSystemSettings#backup_persistence}
   */
   readonly backupPersistence: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#backups_directory GroupSystemSettings#backups_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#backups_directory GroupSystemSettings#backups_directory}
   */
   readonly backupsDirectory: string;
 }
@@ -1004,15 +1004,15 @@ export class GroupSystemSettingsBackupsOutputReference extends cdktf.ComplexObje
 }
 export interface GroupSystemSettingsCustomLogo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#enabled GroupSystemSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#enabled GroupSystemSettings#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#logo_description GroupSystemSettings#logo_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#logo_description GroupSystemSettings#logo_description}
   */
   readonly logoDescription: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#logo_image GroupSystemSettings#logo_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#logo_image GroupSystemSettings#logo_image}
   */
   readonly logoImage: string;
 }
@@ -3701,7 +3701,7 @@ export class GroupSystemSettingsItemsList extends cdktf.ComplexList {
 }
 export interface GroupSystemSettingsPii {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#enable_pii_detection GroupSystemSettings#enable_pii_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#enable_pii_detection GroupSystemSettings#enable_pii_detection}
   */
   readonly enablePiiDetection: boolean | cdktf.IResolvable;
 }
@@ -3792,7 +3792,7 @@ export class GroupSystemSettingsPiiOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupSystemSettingsProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#use_env_vars GroupSystemSettings#use_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#use_env_vars GroupSystemSettings#use_env_vars}
   */
   readonly useEnvVars: boolean | cdktf.IResolvable;
 }
@@ -3883,15 +3883,15 @@ export class GroupSystemSettingsProxyOutputReference extends cdktf.ComplexObject
 }
 export interface GroupSystemSettingsRollback {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#rollback_enabled GroupSystemSettings#rollback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#rollback_enabled GroupSystemSettings#rollback_enabled}
   */
   readonly rollbackEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#rollback_retries GroupSystemSettings#rollback_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#rollback_retries GroupSystemSettings#rollback_retries}
   */
   readonly rollbackRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#rollback_timeout GroupSystemSettings#rollback_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#rollback_timeout GroupSystemSettings#rollback_timeout}
   */
   readonly rollbackTimeout?: number;
 }
@@ -4040,7 +4040,7 @@ export class GroupSystemSettingsRollbackOutputReference extends cdktf.ComplexObj
 }
 export interface GroupSystemSettingsShutdown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#drain_timeout GroupSystemSettings#drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#drain_timeout GroupSystemSettings#drain_timeout}
   */
   readonly drainTimeout: number;
 }
@@ -4131,7 +4131,7 @@ export class GroupSystemSettingsShutdownOutputReference extends cdktf.ComplexObj
 }
 export interface GroupSystemSettingsSni {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#disable_sni_routing GroupSystemSettings#disable_sni_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#disable_sni_routing GroupSystemSettings#disable_sni_routing}
   */
   readonly disableSniRouting: boolean | cdktf.IResolvable;
 }
@@ -4222,7 +4222,7 @@ export class GroupSystemSettingsSniOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupSystemSettingsSockets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#directory GroupSystemSettings#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#directory GroupSystemSettings#directory}
   */
   readonly directory?: string;
 }
@@ -4316,13 +4316,13 @@ export class GroupSystemSettingsSocketsOutputReference extends cdktf.ComplexObje
 }
 export interface GroupSystemSettingsSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#intercom GroupSystemSettings#intercom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#intercom GroupSystemSettings#intercom}
   */
   readonly intercom: boolean | cdktf.IResolvable;
   /**
   * must be one of ["false", "api"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#upgrade GroupSystemSettings#upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#upgrade GroupSystemSettings#upgrade}
   */
   readonly upgrade: string;
 }
@@ -4439,23 +4439,23 @@ export class GroupSystemSettingsSystemOutputReference extends cdktf.ComplexObjec
 }
 export interface GroupSystemSettingsTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#default_cipher_list GroupSystemSettings#default_cipher_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#default_cipher_list GroupSystemSettings#default_cipher_list}
   */
   readonly defaultCipherList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#default_ecdh_curve GroupSystemSettings#default_ecdh_curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#default_ecdh_curve GroupSystemSettings#default_ecdh_curve}
   */
   readonly defaultEcdhCurve: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#max_version GroupSystemSettings#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#max_version GroupSystemSettings#max_version}
   */
   readonly maxVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#min_version GroupSystemSettings#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#min_version GroupSystemSettings#min_version}
   */
   readonly minVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#reject_unauthorized GroupSystemSettings#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#reject_unauthorized GroupSystemSettings#reject_unauthorized}
   */
   readonly rejectUnauthorized: boolean | cdktf.IResolvable;
 }
@@ -4650,19 +4650,19 @@ export class GroupSystemSettingsTlsOutputReference extends cdktf.ComplexObject {
 }
 export interface GroupSystemSettingsUpgradeGroupSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#is_rolling GroupSystemSettings#is_rolling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#is_rolling GroupSystemSettings#is_rolling}
   */
   readonly isRolling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#quantity GroupSystemSettings#quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#quantity GroupSystemSettings#quantity}
   */
   readonly quantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#retry_count GroupSystemSettings#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#retry_count GroupSystemSettings#retry_count}
   */
   readonly retryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#retry_delay GroupSystemSettings#retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#retry_delay GroupSystemSettings#retry_delay}
   */
   readonly retryDelay?: number;
 }
@@ -4843,11 +4843,11 @@ export class GroupSystemSettingsUpgradeGroupSettingsOutputReference extends cdkt
 }
 export interface GroupSystemSettingsUpgradeSettingsPackageUrls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#package_hash_url GroupSystemSettings#package_hash_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#package_hash_url GroupSystemSettings#package_hash_url}
   */
   readonly packageHashUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#package_url GroupSystemSettings#package_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#package_url GroupSystemSettings#package_url}
   */
   readonly packageUrl: string;
 }
@@ -4989,23 +4989,23 @@ export class GroupSystemSettingsUpgradeSettingsPackageUrlsList extends cdktf.Com
 }
 export interface GroupSystemSettingsUpgradeSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#automatic_upgrade_check_period GroupSystemSettings#automatic_upgrade_check_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#automatic_upgrade_check_period GroupSystemSettings#automatic_upgrade_check_period}
   */
   readonly automaticUpgradeCheckPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#disable_automatic_upgrade GroupSystemSettings#disable_automatic_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#disable_automatic_upgrade GroupSystemSettings#disable_automatic_upgrade}
   */
   readonly disableAutomaticUpgrade: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#enable_legacy_edge_upgrade GroupSystemSettings#enable_legacy_edge_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#enable_legacy_edge_upgrade GroupSystemSettings#enable_legacy_edge_upgrade}
   */
   readonly enableLegacyEdgeUpgrade: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#package_urls GroupSystemSettings#package_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#package_urls GroupSystemSettings#package_urls}
   */
   readonly packageUrls?: GroupSystemSettingsUpgradeSettingsPackageUrls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#upgrade_source GroupSystemSettings#upgrade_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#upgrade_source GroupSystemSettings#upgrade_source}
   */
   readonly upgradeSource: string;
 }
@@ -5206,35 +5206,35 @@ export class GroupSystemSettingsUpgradeSettingsOutputReference extends cdktf.Com
 }
 export interface GroupSystemSettingsWorkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#count GroupSystemSettings#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#count GroupSystemSettings#count}
   */
   readonly count: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#enable_heap_snapshots GroupSystemSettings#enable_heap_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#enable_heap_snapshots GroupSystemSettings#enable_heap_snapshots}
   */
   readonly enableHeapSnapshots?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#load_throttle_perc GroupSystemSettings#load_throttle_perc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#load_throttle_perc GroupSystemSettings#load_throttle_perc}
   */
   readonly loadThrottlePerc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#memory GroupSystemSettings#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#memory GroupSystemSettings#memory}
   */
   readonly memory: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#minimum GroupSystemSettings#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#minimum GroupSystemSettings#minimum}
   */
   readonly minimum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#startup_max_conns GroupSystemSettings#startup_max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#startup_max_conns GroupSystemSettings#startup_max_conns}
   */
   readonly startupMaxConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#startup_throttle_timeout GroupSystemSettings#startup_throttle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#startup_throttle_timeout GroupSystemSettings#startup_throttle_timeout}
   */
   readonly startupThrottleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#v8_single_thread GroupSystemSettings#v8_single_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#v8_single_thread GroupSystemSettings#v8_single_thread}
   */
   readonly v8SingleThread?: boolean | cdktf.IResolvable;
 }
@@ -5522,7 +5522,7 @@ export class GroupSystemSettingsWorkersOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings criblio_group_system_settings}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings criblio_group_system_settings}
 */
 export class GroupSystemSettings extends cdktf.TerraformResource {
 
@@ -5538,7 +5538,7 @@ export class GroupSystemSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupSystemSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupSystemSettings to import
-  * @param importFromId The id of the existing GroupSystemSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupSystemSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupSystemSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5550,7 +5550,7 @@ export class GroupSystemSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/group_system_settings criblio_group_system_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/group_system_settings criblio_group_system_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5561,8 +5561,8 @@ export class GroupSystemSettings extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_group_system_settings',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.64',
-        providerVersionConstraint: '1.20.64'
+        providerVersion: '1.20.69',
+        providerVersionConstraint: '1.20.69'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

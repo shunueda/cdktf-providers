@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ServiceToolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The category that the tool belongs to. One of `admin`, `api_documentation`, `architecture_diagram`, `backlog`, `code`, `continuous_integration`, `deployment`, `design_documentation`, `errors`, `feature_flag`, `health_checks`, `incidents`, `issue_tracking`, `logs`, `metrics`, `observability`, `orchestrator`, `other`, `resiliency`, `runbooks`, `security_scans`, `status_page`, `wiki`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#category ServiceTool#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#category ServiceTool#category}
   */
   readonly category: string;
   /**
   * The environment that the tool belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#environment ServiceTool#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#environment ServiceTool#environment}
   */
   readonly environment?: string;
   /**
   * The display name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#name ServiceTool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#name ServiceTool#name}
   */
   readonly name: string;
   /**
   * The id of the service that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#service ServiceTool#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#service ServiceTool#service}
   */
   readonly service?: string;
   /**
   * The alias of the service that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#service_alias ServiceTool#service_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#service_alias ServiceTool#service_alias}
   */
   readonly serviceAlias?: string;
   /**
   * The URL of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#url ServiceTool#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#url ServiceTool#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool opslevel_service_tool}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool opslevel_service_tool}
 */
 export class ServiceTool extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ServiceTool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceTool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceTool to import
-  * @param importFromId The id of the existing ServiceTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceTool that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceTool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ServiceTool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tool opslevel_service_tool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tool opslevel_service_tool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ServiceTool extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_service_tool',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

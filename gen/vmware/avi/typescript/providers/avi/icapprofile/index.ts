@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface IcapprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#allow_204 Icapprofile#allow_204}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#allow_204 Icapprofile#allow_204}
   */
   readonly allow204?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#buffer_size Icapprofile#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#buffer_size Icapprofile#buffer_size}
   */
   readonly bufferSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#buffer_size_exceed_action Icapprofile#buffer_size_exceed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#buffer_size_exceed_action Icapprofile#buffer_size_exceed_action}
   */
   readonly bufferSizeExceedAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#cloud_ref Icapprofile#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#cloud_ref Icapprofile#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#description Icapprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#description Icapprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#enable_preview Icapprofile#enable_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#enable_preview Icapprofile#enable_preview}
   */
   readonly enablePreview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#fail_action Icapprofile#fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#fail_action Icapprofile#fail_action}
   */
   readonly failAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#id Icapprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#id Icapprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#name Icapprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#name Icapprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#pool_group_ref Icapprofile#pool_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#pool_group_ref Icapprofile#pool_group_ref}
   */
   readonly poolGroupRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#preview_size Icapprofile#preview_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#preview_size Icapprofile#preview_size}
   */
   readonly previewSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#response_timeout Icapprofile#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#response_timeout Icapprofile#response_timeout}
   */
   readonly responseTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#service_uri Icapprofile#service_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#service_uri Icapprofile#service_uri}
   */
   readonly serviceUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#slow_response_warning_threshold Icapprofile#slow_response_warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#slow_response_warning_threshold Icapprofile#slow_response_warning_threshold}
   */
   readonly slowResponseWarningThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#tenant_ref Icapprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#tenant_ref Icapprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#uuid Icapprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#uuid Icapprofile#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#vendor Icapprofile#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#vendor Icapprofile#vendor}
   */
   readonly vendor?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#configpb_attributes Icapprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#configpb_attributes Icapprofile#configpb_attributes}
   */
   readonly configpbAttributes?: IcapprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * nsx_defender_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#nsx_defender_config Icapprofile#nsx_defender_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#nsx_defender_config Icapprofile#nsx_defender_config}
   */
   readonly nsxDefenderConfig?: IcapprofileNsxDefenderConfig[] | cdktf.IResolvable;
 }
 export interface IcapprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#version Icapprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#version Icapprofile#version}
   */
   readonly version?: string;
 }
@@ -209,7 +209,7 @@ export class IcapprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface IcapprofileNsxDefenderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#status_url Icapprofile#status_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#status_url Icapprofile#status_url}
   */
   readonly statusUrl?: string;
 }
@@ -325,7 +325,7 @@ export class IcapprofileNsxDefenderConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile avi_icapprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile avi_icapprofile}
 */
 export class Icapprofile extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class Icapprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Icapprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Icapprofile to import
-  * @param importFromId The id of the existing Icapprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Icapprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Icapprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class Icapprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/icapprofile avi_icapprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/icapprofile avi_icapprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class Icapprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_icapprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

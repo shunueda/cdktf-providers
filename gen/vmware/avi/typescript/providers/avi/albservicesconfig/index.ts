@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface AlbservicesconfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#id Albservicesconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#id Albservicesconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#mode Albservicesconfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#mode Albservicesconfig#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#name Albservicesconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#name Albservicesconfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#polling_interval Albservicesconfig#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#polling_interval Albservicesconfig#polling_interval}
   */
   readonly pollingInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#portal_url Albservicesconfig#portal_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#portal_url Albservicesconfig#portal_url}
   */
   readonly portalUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#tenant_ref Albservicesconfig#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#tenant_ref Albservicesconfig#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#use_split_proxy Albservicesconfig#use_split_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#use_split_proxy Albservicesconfig#use_split_proxy}
   */
   readonly useSplitProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#use_tls Albservicesconfig#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#use_tls Albservicesconfig#use_tls}
   */
   readonly useTls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#uuid Albservicesconfig#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#uuid Albservicesconfig#uuid}
   */
   readonly uuid?: string;
   /**
   * app_signature_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#app_signature_config Albservicesconfig#app_signature_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#app_signature_config Albservicesconfig#app_signature_config}
   */
   readonly appSignatureConfig: AlbservicesconfigAppSignatureConfig[] | cdktf.IResolvable;
   /**
   * asset_contact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#asset_contact Albservicesconfig#asset_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#asset_contact Albservicesconfig#asset_contact}
   */
   readonly assetContact?: AlbservicesconfigAssetContact[] | cdktf.IResolvable;
   /**
   * case_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#case_config Albservicesconfig#case_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#case_config Albservicesconfig#case_config}
   */
   readonly caseConfig: AlbservicesconfigCaseConfig[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#configpb_attributes Albservicesconfig#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#configpb_attributes Albservicesconfig#configpb_attributes}
   */
   readonly configpbAttributes?: AlbservicesconfigConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * feature_opt_in_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#feature_opt_in_status Albservicesconfig#feature_opt_in_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#feature_opt_in_status Albservicesconfig#feature_opt_in_status}
   */
   readonly featureOptInStatus: AlbservicesconfigFeatureOptInStatus[] | cdktf.IResolvable;
   /**
   * inventory_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#inventory_config Albservicesconfig#inventory_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#inventory_config Albservicesconfig#inventory_config}
   */
   readonly inventoryConfig: AlbservicesconfigInventoryConfig[] | cdktf.IResolvable;
   /**
   * ip_reputation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#ip_reputation_config Albservicesconfig#ip_reputation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#ip_reputation_config Albservicesconfig#ip_reputation_config}
   */
   readonly ipReputationConfig: AlbservicesconfigIpReputationConfig[] | cdktf.IResolvable;
   /**
   * saas_licensing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#saas_licensing_config Albservicesconfig#saas_licensing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#saas_licensing_config Albservicesconfig#saas_licensing_config}
   */
   readonly saasLicensingConfig: AlbservicesconfigSaasLicensingConfig[] | cdktf.IResolvable;
   /**
   * session_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#session_config Albservicesconfig#session_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#session_config Albservicesconfig#session_config}
   */
   readonly sessionConfig?: AlbservicesconfigSessionConfig[] | cdktf.IResolvable;
   /**
   * split_proxy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#split_proxy_configuration Albservicesconfig#split_proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#split_proxy_configuration Albservicesconfig#split_proxy_configuration}
   */
   readonly splitProxyConfiguration?: AlbservicesconfigSplitProxyConfiguration[] | cdktf.IResolvable;
   /**
   * tenant_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#tenant_config Albservicesconfig#tenant_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#tenant_config Albservicesconfig#tenant_config}
   */
   readonly tenantConfig?: AlbservicesconfigTenantConfig[] | cdktf.IResolvable;
   /**
   * user_agent_db_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#user_agent_db_config Albservicesconfig#user_agent_db_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#user_agent_db_config Albservicesconfig#user_agent_db_config}
   */
   readonly userAgentDbConfig: AlbservicesconfigUserAgentDbConfig[] | cdktf.IResolvable;
   /**
   * waf_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#waf_config Albservicesconfig#waf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#waf_config Albservicesconfig#waf_config}
   */
   readonly wafConfig: AlbservicesconfigWafConfig[] | cdktf.IResolvable;
 }
 export interface AlbservicesconfigAppSignatureConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#app_signature_sync_interval Albservicesconfig#app_signature_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#app_signature_sync_interval Albservicesconfig#app_signature_sync_interval}
   */
   readonly appSignatureSyncInterval?: string;
 }
@@ -243,15 +243,15 @@ export class AlbservicesconfigAppSignatureConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigAssetContactManagedAccountsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#email Albservicesconfig#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#email Albservicesconfig#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#name Albservicesconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#name Albservicesconfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#phone Albservicesconfig#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#phone Albservicesconfig#phone}
   */
   readonly phone: string;
 }
@@ -416,20 +416,20 @@ export class AlbservicesconfigAssetContactManagedAccountsUsersList extends cdktf
 }
 export interface AlbservicesconfigAssetContactManagedAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#id Albservicesconfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#id Albservicesconfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#name Albservicesconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#name Albservicesconfig#name}
   */
   readonly name?: string;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#users Albservicesconfig#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#users Albservicesconfig#users}
   */
   readonly users?: AlbservicesconfigAssetContactManagedAccountsUsers[] | cdktf.IResolvable;
 }
@@ -603,29 +603,29 @@ export class AlbservicesconfigAssetContactManagedAccountsList extends cdktf.Comp
 }
 export interface AlbservicesconfigAssetContact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#account_id Albservicesconfig#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#account_id Albservicesconfig#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#account_name Albservicesconfig#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#account_name Albservicesconfig#account_name}
   */
   readonly accountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#email Albservicesconfig#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#email Albservicesconfig#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#name Albservicesconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#name Albservicesconfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#phone Albservicesconfig#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#phone Albservicesconfig#phone}
   */
   readonly phone?: string;
   /**
   * managed_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#managed_accounts Albservicesconfig#managed_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#managed_accounts Albservicesconfig#managed_accounts}
   */
   readonly managedAccounts?: AlbservicesconfigAssetContactManagedAccounts[] | cdktf.IResolvable;
 }
@@ -883,19 +883,19 @@ export class AlbservicesconfigAssetContactList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigCaseConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#additional_emails Albservicesconfig#additional_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#additional_emails Albservicesconfig#additional_emails}
   */
   readonly additionalEmails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_auto_case_creation_on_controller_failure Albservicesconfig#enable_auto_case_creation_on_controller_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_auto_case_creation_on_controller_failure Albservicesconfig#enable_auto_case_creation_on_controller_failure}
   */
   readonly enableAutoCaseCreationOnControllerFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_auto_case_creation_on_se_failure Albservicesconfig#enable_auto_case_creation_on_se_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_auto_case_creation_on_se_failure Albservicesconfig#enable_auto_case_creation_on_se_failure}
   */
   readonly enableAutoCaseCreationOnSeFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_cleanup_of_attached_files Albservicesconfig#enable_cleanup_of_attached_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_cleanup_of_attached_files Albservicesconfig#enable_cleanup_of_attached_files}
   */
   readonly enableCleanupOfAttachedFiles?: string;
 }
@@ -1098,7 +1098,7 @@ export class AlbservicesconfigCaseConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#version Albservicesconfig#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#version Albservicesconfig#version}
   */
   readonly version?: string;
 }
@@ -1214,27 +1214,27 @@ export class AlbservicesconfigConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigFeatureOptInStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_appsignature_sync Albservicesconfig#enable_appsignature_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_appsignature_sync Albservicesconfig#enable_appsignature_sync}
   */
   readonly enableAppsignatureSync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_ip_reputation Albservicesconfig#enable_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_ip_reputation Albservicesconfig#enable_ip_reputation}
   */
   readonly enableIpReputation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_pulse_case_management Albservicesconfig#enable_pulse_case_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_pulse_case_management Albservicesconfig#enable_pulse_case_management}
   */
   readonly enablePulseCaseManagement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_pulse_inventory Albservicesconfig#enable_pulse_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_pulse_inventory Albservicesconfig#enable_pulse_inventory}
   */
   readonly enablePulseInventory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_pulse_waf_management Albservicesconfig#enable_pulse_waf_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_pulse_waf_management Albservicesconfig#enable_pulse_waf_management}
   */
   readonly enablePulseWafManagement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_user_agent_db_sync Albservicesconfig#enable_user_agent_db_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_user_agent_db_sync Albservicesconfig#enable_user_agent_db_sync}
   */
   readonly enableUserAgentDbSync?: string;
 }
@@ -1495,7 +1495,7 @@ export class AlbservicesconfigFeatureOptInStatusList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigInventoryConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_search_info Albservicesconfig#enable_search_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_search_info Albservicesconfig#enable_search_info}
   */
   readonly enableSearchInfo?: string;
 }
@@ -1611,11 +1611,11 @@ export class AlbservicesconfigInventoryConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigIpReputationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#ip_reputation_file_object_expiry_duration Albservicesconfig#ip_reputation_file_object_expiry_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#ip_reputation_file_object_expiry_duration Albservicesconfig#ip_reputation_file_object_expiry_duration}
   */
   readonly ipReputationFileObjectExpiryDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#ip_reputation_sync_interval Albservicesconfig#ip_reputation_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#ip_reputation_sync_interval Albservicesconfig#ip_reputation_sync_interval}
   */
   readonly ipReputationSyncInterval?: string;
 }
@@ -1760,11 +1760,11 @@ export class AlbservicesconfigIpReputationConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigSaasLicensingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#max_service_units Albservicesconfig#max_service_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#max_service_units Albservicesconfig#max_service_units}
   */
   readonly maxServiceUnits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#reserve_service_units Albservicesconfig#reserve_service_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#reserve_service_units Albservicesconfig#reserve_service_units}
   */
   readonly reserveServiceUnits?: string;
 }
@@ -1909,11 +1909,11 @@ export class AlbservicesconfigSaasLicensingConfigList extends cdktf.ComplexList 
 }
 export interface AlbservicesconfigSessionConfigSessionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#name Albservicesconfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#name Albservicesconfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#value Albservicesconfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#value Albservicesconfig#value}
   */
   readonly value?: string;
 }
@@ -2060,7 +2060,7 @@ export interface AlbservicesconfigSessionConfig {
   /**
   * session_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#session_headers Albservicesconfig#session_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#session_headers Albservicesconfig#session_headers}
   */
   readonly sessionHeaders?: AlbservicesconfigSessionConfigSessionHeaders[] | cdktf.IResolvable;
 }
@@ -2176,19 +2176,19 @@ export class AlbservicesconfigSessionConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigSplitProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#host Albservicesconfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#host Albservicesconfig#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#password Albservicesconfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#password Albservicesconfig#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#port Albservicesconfig#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#port Albservicesconfig#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#username Albservicesconfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#username Albservicesconfig#username}
   */
   readonly username?: string;
 }
@@ -2385,31 +2385,31 @@ export class AlbservicesconfigSplitProxyConfigurationList extends cdktf.ComplexL
 }
 export interface AlbservicesconfigTenantConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#heartbeat_interval Albservicesconfig#heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#heartbeat_interval Albservicesconfig#heartbeat_interval}
   */
   readonly heartbeatInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#license_escrow_interval Albservicesconfig#license_escrow_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#license_escrow_interval Albservicesconfig#license_escrow_interval}
   */
   readonly licenseEscrowInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#license_expiry_interval Albservicesconfig#license_expiry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#license_expiry_interval Albservicesconfig#license_expiry_interval}
   */
   readonly licenseExpiryInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#license_reconcile_interval Albservicesconfig#license_reconcile_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#license_reconcile_interval Albservicesconfig#license_reconcile_interval}
   */
   readonly licenseReconcileInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#license_refresh_interval Albservicesconfig#license_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#license_refresh_interval Albservicesconfig#license_refresh_interval}
   */
   readonly licenseRefreshInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#license_renewal_interval Albservicesconfig#license_renewal_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#license_renewal_interval Albservicesconfig#license_renewal_interval}
   */
   readonly licenseRenewalInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#token_refresh_interval Albservicesconfig#token_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#token_refresh_interval Albservicesconfig#token_refresh_interval}
   */
   readonly tokenRefreshInterval?: string;
 }
@@ -2699,7 +2699,7 @@ export class AlbservicesconfigTenantConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigUserAgentDbConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#allowed_batch_size Albservicesconfig#allowed_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#allowed_batch_size Albservicesconfig#allowed_batch_size}
   */
   readonly allowedBatchSize?: string;
 }
@@ -2815,11 +2815,11 @@ export class AlbservicesconfigUserAgentDbConfigList extends cdktf.ComplexList {
 }
 export interface AlbservicesconfigWafConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_auto_download_waf_signatures Albservicesconfig#enable_auto_download_waf_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_auto_download_waf_signatures Albservicesconfig#enable_auto_download_waf_signatures}
   */
   readonly enableAutoDownloadWafSignatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#enable_waf_signatures_notifications Albservicesconfig#enable_waf_signatures_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#enable_waf_signatures_notifications Albservicesconfig#enable_waf_signatures_notifications}
   */
   readonly enableWafSignaturesNotifications?: string;
 }
@@ -2964,7 +2964,7 @@ export class AlbservicesconfigWafConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig avi_albservicesconfig}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig avi_albservicesconfig}
 */
 export class Albservicesconfig extends cdktf.TerraformResource {
 
@@ -2980,7 +2980,7 @@ export class Albservicesconfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Albservicesconfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Albservicesconfig to import
-  * @param importFromId The id of the existing Albservicesconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Albservicesconfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Albservicesconfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2992,7 +2992,7 @@ export class Albservicesconfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/albservicesconfig avi_albservicesconfig} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/albservicesconfig avi_albservicesconfig} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3003,8 +3003,8 @@ export class Albservicesconfig extends cdktf.TerraformResource {
       terraformResourceType: 'avi_albservicesconfig',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment
+// https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface EntityTagAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment#entity_name EntityTagAssignment#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment#entity_name EntityTagAssignment#entity_name}
   */
   readonly entityName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment#entity_type EntityTagAssignment#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment#entity_type EntityTagAssignment#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment#tag_key EntityTagAssignment#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment#tag_key EntityTagAssignment#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment#tag_value EntityTagAssignment#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment#tag_value EntityTagAssignment#tag_value}
   */
   readonly tagValue?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment databricks_entity_tag_assignment}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment databricks_entity_tag_assignment}
 */
 export class EntityTagAssignment extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class EntityTagAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntityTagAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntityTagAssignment to import
-  * @param importFromId The id of the existing EntityTagAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntityTagAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntityTagAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class EntityTagAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/entity_tag_assignment databricks_entity_tag_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/entity_tag_assignment databricks_entity_tag_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class EntityTagAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'databricks_entity_tag_assignment',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.99.0',
-        providerVersionConstraint: '1.99.0'
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '1.100.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/isis
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeIsisConfig extends cdktf.TerraformMetaArguments {
   /**
   * IS-IS area tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/isis#area_tag DataIosxeIsis#area_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/isis#area_tag DataIosxeIsis#area_tag}
   */
   readonly areaTag: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/isis#device DataIosxeIsis#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/isis#device DataIosxeIsis#device}
   */
   readonly device?: string;
 }
@@ -97,7 +97,7 @@ export class DataIosxeIsisNetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/isis iosxe_isis}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/isis iosxe_isis}
 */
 export class DataIosxeIsis extends cdktf.TerraformDataSource {
 
@@ -113,7 +113,7 @@ export class DataIosxeIsis extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeIsis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeIsis to import
-  * @param importFromId The id of the existing DataIosxeIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeIsis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class DataIosxeIsis extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/isis iosxe_isis} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/isis iosxe_isis} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class DataIosxeIsis extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_isis',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

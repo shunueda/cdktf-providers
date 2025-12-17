@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CommunicationsTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * The communication type ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#communication_type_id CommunicationsTemplate#communication_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#communication_type_id CommunicationsTemplate#communication_type_id}
   */
   readonly communicationTypeId: string;
   /**
   * The description of the communications template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#description CommunicationsTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#description CommunicationsTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#id CommunicationsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#id CommunicationsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface CommunicationsTemplateConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the communications template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#name CommunicationsTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#name CommunicationsTemplate#name}
   */
   readonly name: string;
   /**
   * Position of the communications template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#position CommunicationsTemplate#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#position CommunicationsTemplate#position}
   */
   readonly position?: number;
   /**
   * The slug of the communications template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#slug CommunicationsTemplate#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#slug CommunicationsTemplate#slug}
   */
   readonly slug?: string;
   /**
   * communication_template_stages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#communication_template_stages CommunicationsTemplate#communication_template_stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#communication_template_stages CommunicationsTemplate#communication_template_stages}
   */
   readonly communicationTemplateStages?: CommunicationsTemplateCommunicationTemplateStages[] | cdktf.IResolvable;
   /**
   * communication_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#communication_type CommunicationsTemplate#communication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#communication_type CommunicationsTemplate#communication_type}
   */
   readonly communicationType?: CommunicationsTemplateCommunicationType;
 }
@@ -61,25 +61,25 @@ export interface CommunicationsTemplateCommunicationTemplateStages {
   /**
   * The communication stage ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#communication_stage_id CommunicationsTemplate#communication_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#communication_stage_id CommunicationsTemplate#communication_stage_id}
   */
   readonly communicationStageId?: string;
   /**
   * Email body for the stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#email_body CommunicationsTemplate#email_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#email_body CommunicationsTemplate#email_body}
   */
   readonly emailBody?: string;
   /**
   * Email subject for the stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#email_subject CommunicationsTemplate#email_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#email_subject CommunicationsTemplate#email_subject}
   */
   readonly emailSubject?: string;
   /**
   * ID of the communication template stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#id CommunicationsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#id CommunicationsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,13 +88,13 @@ export interface CommunicationsTemplateCommunicationTemplateStages {
   /**
   * Slack content for the stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#slack_content CommunicationsTemplate#slack_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#slack_content CommunicationsTemplate#slack_content}
   */
   readonly slackContent?: string;
   /**
   * SMS content for the stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#sms_content CommunicationsTemplate#sms_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#sms_content CommunicationsTemplate#sms_content}
   */
   readonly smsContent?: string;
 }
@@ -357,7 +357,7 @@ export interface CommunicationsTemplateCommunicationType {
   /**
   * ID of the communication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#id CommunicationsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#id CommunicationsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -366,7 +366,7 @@ export interface CommunicationsTemplateCommunicationType {
   /**
   * Name of the communication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#name CommunicationsTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#name CommunicationsTemplate#name}
   */
   readonly name?: string;
 }
@@ -479,7 +479,7 @@ export class CommunicationsTemplateCommunicationTypeOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template rootly_communications_template}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template rootly_communications_template}
 */
 export class CommunicationsTemplate extends cdktf.TerraformResource {
 
@@ -495,7 +495,7 @@ export class CommunicationsTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CommunicationsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CommunicationsTemplate to import
-  * @param importFromId The id of the existing CommunicationsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CommunicationsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CommunicationsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +507,7 @@ export class CommunicationsTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/communications_template rootly_communications_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/communications_template rootly_communications_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +518,8 @@ export class CommunicationsTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_communications_template',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

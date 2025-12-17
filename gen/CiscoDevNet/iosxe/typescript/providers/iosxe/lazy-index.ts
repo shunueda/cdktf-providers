@@ -29,6 +29,7 @@ Object.defineProperty(exports, 'bgpL2VpnEvpnNeighbor', { get: function () { retu
 Object.defineProperty(exports, 'bgpNeighbor', { get: function () { return require('./bgp-neighbor'); } });
 Object.defineProperty(exports, 'bgpPeerPolicyTemplate', { get: function () { return require('./bgp-peer-policy-template'); } });
 Object.defineProperty(exports, 'bgpPeerSessionTemplate', { get: function () { return require('./bgp-peer-session-template'); } });
+Object.defineProperty(exports, 'bridgeDomain', { get: function () { return require('./bridge-domain'); } });
 Object.defineProperty(exports, 'cdp', { get: function () { return require('./cdp'); } });
 Object.defineProperty(exports, 'classMap', { get: function () { return require('./class-map'); } });
 Object.defineProperty(exports, 'cli', { get: function () { return require('./cli'); } });
@@ -54,9 +55,11 @@ Object.defineProperty(exports, 'errdisable', { get: function () { return require
 Object.defineProperty(exports, 'evpn', { get: function () { return require('./evpn'); } });
 Object.defineProperty(exports, 'evpnEthernetSegment', { get: function () { return require('./evpn-ethernet-segment'); } });
 Object.defineProperty(exports, 'evpnInstance', { get: function () { return require('./evpn-instance'); } });
+Object.defineProperty(exports, 'evpnProfile', { get: function () { return require('./evpn-profile'); } });
 Object.defineProperty(exports, 'flowExporter', { get: function () { return require('./flow-exporter'); } });
 Object.defineProperty(exports, 'flowMonitor', { get: function () { return require('./flow-monitor'); } });
 Object.defineProperty(exports, 'flowRecord', { get: function () { return require('./flow-record'); } });
+Object.defineProperty(exports, 'interfaceBdi', { get: function () { return require('./interface-bdi'); } });
 Object.defineProperty(exports, 'interfaceEthernet', { get: function () { return require('./interface-ethernet'); } });
 Object.defineProperty(exports, 'interfaceIsis', { get: function () { return require('./interface-isis'); } });
 Object.defineProperty(exports, 'interfaceLoopback', { get: function () { return require('./interface-loopback'); } });
@@ -146,6 +149,7 @@ Object.defineProperty(exports, 'dataIosxeBgpL2VpnEvpnNeighbor', { get: function 
 Object.defineProperty(exports, 'dataIosxeBgpNeighbor', { get: function () { return require('./data-iosxe-bgp-neighbor'); } });
 Object.defineProperty(exports, 'dataIosxeBgpPeerPolicyTemplate', { get: function () { return require('./data-iosxe-bgp-peer-policy-template'); } });
 Object.defineProperty(exports, 'dataIosxeBgpPeerSessionTemplate', { get: function () { return require('./data-iosxe-bgp-peer-session-template'); } });
+Object.defineProperty(exports, 'dataIosxeBridgeDomain', { get: function () { return require('./data-iosxe-bridge-domain'); } });
 Object.defineProperty(exports, 'dataIosxeCdp', { get: function () { return require('./data-iosxe-cdp'); } });
 Object.defineProperty(exports, 'dataIosxeClassMap', { get: function () { return require('./data-iosxe-class-map'); } });
 Object.defineProperty(exports, 'dataIosxeClock', { get: function () { return require('./data-iosxe-clock'); } });
@@ -169,9 +173,11 @@ Object.defineProperty(exports, 'dataIosxeErrdisable', { get: function () { retur
 Object.defineProperty(exports, 'dataIosxeEvpn', { get: function () { return require('./data-iosxe-evpn'); } });
 Object.defineProperty(exports, 'dataIosxeEvpnEthernetSegment', { get: function () { return require('./data-iosxe-evpn-ethernet-segment'); } });
 Object.defineProperty(exports, 'dataIosxeEvpnInstance', { get: function () { return require('./data-iosxe-evpn-instance'); } });
+Object.defineProperty(exports, 'dataIosxeEvpnProfile', { get: function () { return require('./data-iosxe-evpn-profile'); } });
 Object.defineProperty(exports, 'dataIosxeFlowExporter', { get: function () { return require('./data-iosxe-flow-exporter'); } });
 Object.defineProperty(exports, 'dataIosxeFlowMonitor', { get: function () { return require('./data-iosxe-flow-monitor'); } });
 Object.defineProperty(exports, 'dataIosxeFlowRecord', { get: function () { return require('./data-iosxe-flow-record'); } });
+Object.defineProperty(exports, 'dataIosxeInterfaceBdi', { get: function () { return require('./data-iosxe-interface-bdi'); } });
 Object.defineProperty(exports, 'dataIosxeInterfaceEthernet', { get: function () { return require('./data-iosxe-interface-ethernet'); } });
 Object.defineProperty(exports, 'dataIosxeInterfaceIsis', { get: function () { return require('./data-iosxe-interface-isis'); } });
 Object.defineProperty(exports, 'dataIosxeInterfaceLoopback', { get: function () { return require('./data-iosxe-interface-loopback'); } });

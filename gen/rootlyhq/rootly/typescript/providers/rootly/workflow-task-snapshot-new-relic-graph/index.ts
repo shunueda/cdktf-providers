@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskSnapshotNewRelicGraphConfig extends cdktf.Terraform
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#enabled WorkflowTaskSnapshotNewRelicGraph#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#enabled WorkflowTaskSnapshotNewRelicGraph#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#id WorkflowTaskSnapshotNewRelicGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#id WorkflowTaskSnapshotNewRelicGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskSnapshotNewRelicGraphConfig extends cdktf.Terraform
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#name WorkflowTaskSnapshotNewRelicGraph#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#name WorkflowTaskSnapshotNewRelicGraph#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#position WorkflowTaskSnapshotNewRelicGraph#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#position WorkflowTaskSnapshotNewRelicGraph#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#skip_on_failure WorkflowTaskSnapshotNewRelicGraph#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#skip_on_failure WorkflowTaskSnapshotNewRelicGraph#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#workflow_id WorkflowTaskSnapshotNewRelicGraph#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#workflow_id WorkflowTaskSnapshotNewRelicGraph#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#task_params WorkflowTaskSnapshotNewRelicGraph#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#task_params WorkflowTaskSnapshotNewRelicGraph#task_params}
   */
   readonly taskParams: WorkflowTaskSnapshotNewRelicGraphTaskParams;
 }
 export interface WorkflowTaskSnapshotNewRelicGraphTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#id WorkflowTaskSnapshotNewRelicGraph#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#id WorkflowTaskSnapshotNewRelicGraph#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#name WorkflowTaskSnapshotNewRelicGraph#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#name WorkflowTaskSnapshotNewRelicGraph#name}
   */
   readonly name: string;
 }
@@ -199,29 +199,29 @@ export class WorkflowTaskSnapshotNewRelicGraphTaskParamsPostToSlackChannelsList 
 }
 export interface WorkflowTaskSnapshotNewRelicGraphTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#metric_query WorkflowTaskSnapshotNewRelicGraph#metric_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#metric_query WorkflowTaskSnapshotNewRelicGraph#metric_query}
   */
   readonly metricQuery: string;
   /**
   * Value must be one of `APDEX`, `AREA`, `BAR`, `BASELINE`, `BILLBOARD`, `BULLET`, `EVENT_FEED`, `FUNNEL`, `HEATMAP`, `HISTOGRAM`, `LINE`, `PIE`, `SCATTER`, `STACKED_HORIZONTAL_BAR`, `TABLE`, `VERTICAL_BAR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#metric_type WorkflowTaskSnapshotNewRelicGraph#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#metric_type WorkflowTaskSnapshotNewRelicGraph#metric_type}
   */
   readonly metricType: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#post_to_incident_timeline WorkflowTaskSnapshotNewRelicGraph#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#post_to_incident_timeline WorkflowTaskSnapshotNewRelicGraph#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#task_type WorkflowTaskSnapshotNewRelicGraph#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#task_type WorkflowTaskSnapshotNewRelicGraph#task_type}
   */
   readonly taskType?: string;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#post_to_slack_channels WorkflowTaskSnapshotNewRelicGraph#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#post_to_slack_channels WorkflowTaskSnapshotNewRelicGraph#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskSnapshotNewRelicGraphTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -415,7 +415,7 @@ export class WorkflowTaskSnapshotNewRelicGraphTaskParamsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph rootly_workflow_task_snapshot_new_relic_graph}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph rootly_workflow_task_snapshot_new_relic_graph}
 */
 export class WorkflowTaskSnapshotNewRelicGraph extends cdktf.TerraformResource {
 
@@ -431,7 +431,7 @@ export class WorkflowTaskSnapshotNewRelicGraph extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskSnapshotNewRelicGraph resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskSnapshotNewRelicGraph to import
-  * @param importFromId The id of the existing WorkflowTaskSnapshotNewRelicGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskSnapshotNewRelicGraph that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskSnapshotNewRelicGraph to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class WorkflowTaskSnapshotNewRelicGraph extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_snapshot_new_relic_graph rootly_workflow_task_snapshot_new_relic_graph} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_snapshot_new_relic_graph rootly_workflow_task_snapshot_new_relic_graph} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class WorkflowTaskSnapshotNewRelicGraph extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_snapshot_new_relic_graph',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

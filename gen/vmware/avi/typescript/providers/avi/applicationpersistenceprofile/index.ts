@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ApplicationpersistenceprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#description Applicationpersistenceprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#description Applicationpersistenceprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#id Applicationpersistenceprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#id Applicationpersistenceprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#is_federated Applicationpersistenceprofile#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#is_federated Applicationpersistenceprofile#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#persistence_type Applicationpersistenceprofile#persistence_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#persistence_type Applicationpersistenceprofile#persistence_type}
   */
   readonly persistenceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#persistence_update_interval Applicationpersistenceprofile#persistence_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#persistence_update_interval Applicationpersistenceprofile#persistence_update_interval}
   */
   readonly persistenceUpdateInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#server_hm_down_recovery Applicationpersistenceprofile#server_hm_down_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#server_hm_down_recovery Applicationpersistenceprofile#server_hm_down_recovery}
   */
   readonly serverHmDownRecovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#tenant_ref Applicationpersistenceprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#tenant_ref Applicationpersistenceprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#uuid Applicationpersistenceprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#uuid Applicationpersistenceprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * app_cookie_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#app_cookie_persistence_profile Applicationpersistenceprofile#app_cookie_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#app_cookie_persistence_profile Applicationpersistenceprofile#app_cookie_persistence_profile}
   */
   readonly appCookiePersistenceProfile?: ApplicationpersistenceprofileAppCookiePersistenceProfile[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#configpb_attributes Applicationpersistenceprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#configpb_attributes Applicationpersistenceprofile#configpb_attributes}
   */
   readonly configpbAttributes?: ApplicationpersistenceprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * hdr_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#hdr_persistence_profile Applicationpersistenceprofile#hdr_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#hdr_persistence_profile Applicationpersistenceprofile#hdr_persistence_profile}
   */
   readonly hdrPersistenceProfile?: ApplicationpersistenceprofileHdrPersistenceProfile[] | cdktf.IResolvable;
   /**
   * http_cookie_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#http_cookie_persistence_profile Applicationpersistenceprofile#http_cookie_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#http_cookie_persistence_profile Applicationpersistenceprofile#http_cookie_persistence_profile}
   */
   readonly httpCookiePersistenceProfile?: ApplicationpersistenceprofileHttpCookiePersistenceProfile[] | cdktf.IResolvable;
   /**
   * ip_persistence_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#ip_persistence_profile Applicationpersistenceprofile#ip_persistence_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#ip_persistence_profile Applicationpersistenceprofile#ip_persistence_profile}
   */
   readonly ipPersistenceProfile?: ApplicationpersistenceprofileIpPersistenceProfile[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#markers Applicationpersistenceprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#markers Applicationpersistenceprofile#markers}
   */
   readonly markers?: ApplicationpersistenceprofileMarkers[] | cdktf.IResolvable;
 }
 export interface ApplicationpersistenceprofileAppCookiePersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
   */
   readonly prstHdrName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
   */
   readonly timeout?: string;
 }
@@ -264,7 +264,7 @@ export class ApplicationpersistenceprofileAppCookiePersistenceProfileList extend
 }
 export interface ApplicationpersistenceprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#version Applicationpersistenceprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#version Applicationpersistenceprofile#version}
   */
   readonly version?: string;
 }
@@ -380,7 +380,7 @@ export class ApplicationpersistenceprofileConfigpbAttributesList extends cdktf.C
 }
 export interface ApplicationpersistenceprofileHdrPersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#prst_hdr_name Applicationpersistenceprofile#prst_hdr_name}
   */
   readonly prstHdrName?: string;
 }
@@ -496,15 +496,15 @@ export class ApplicationpersistenceprofileHdrPersistenceProfileList extends cdkt
 }
 export interface ApplicationpersistenceprofileHttpCookiePersistenceProfileKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#aes_key Applicationpersistenceprofile#aes_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#aes_key Applicationpersistenceprofile#aes_key}
   */
   readonly aesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#hmac_key Applicationpersistenceprofile#hmac_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#hmac_key Applicationpersistenceprofile#hmac_key}
   */
   readonly hmacKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#name Applicationpersistenceprofile#name}
   */
   readonly name?: string;
 }
@@ -678,33 +678,33 @@ export class ApplicationpersistenceprofileHttpCookiePersistenceProfileKeyList ex
 }
 export interface ApplicationpersistenceprofileHttpCookiePersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#always_send_cookie Applicationpersistenceprofile#always_send_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#always_send_cookie Applicationpersistenceprofile#always_send_cookie}
   */
   readonly alwaysSendCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#cookie_name Applicationpersistenceprofile#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#cookie_name Applicationpersistenceprofile#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#encryption_key Applicationpersistenceprofile#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#http_only Applicationpersistenceprofile#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#http_only Applicationpersistenceprofile#http_only}
   */
   readonly httpOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#is_persistent_cookie Applicationpersistenceprofile#is_persistent_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#is_persistent_cookie Applicationpersistenceprofile#is_persistent_cookie}
   */
   readonly isPersistentCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#timeout Applicationpersistenceprofile#timeout}
   */
   readonly timeout?: string;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
   */
   readonly key?: ApplicationpersistenceprofileHttpCookiePersistenceProfileKey[] | cdktf.IResolvable;
 }
@@ -994,11 +994,11 @@ export class ApplicationpersistenceprofileHttpCookiePersistenceProfileList exten
 }
 export interface ApplicationpersistenceprofileIpPersistenceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#ip_mask Applicationpersistenceprofile#ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#ip_mask Applicationpersistenceprofile#ip_mask}
   */
   readonly ipMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#ip_persistent_timeout Applicationpersistenceprofile#ip_persistent_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#ip_persistent_timeout Applicationpersistenceprofile#ip_persistent_timeout}
   */
   readonly ipPersistentTimeout?: string;
 }
@@ -1143,11 +1143,11 @@ export class ApplicationpersistenceprofileIpPersistenceProfileList extends cdktf
 }
 export interface ApplicationpersistenceprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#key Applicationpersistenceprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#values Applicationpersistenceprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#values Applicationpersistenceprofile#values}
   */
   readonly values?: string[];
 }
@@ -1289,7 +1289,7 @@ export class ApplicationpersistenceprofileMarkersList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile}
 */
 export class Applicationpersistenceprofile extends cdktf.TerraformResource {
 
@@ -1305,7 +1305,7 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Applicationpersistenceprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Applicationpersistenceprofile to import
-  * @param importFromId The id of the existing Applicationpersistenceprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Applicationpersistenceprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Applicationpersistenceprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1317,7 +1317,7 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/applicationpersistenceprofile avi_applicationpersistenceprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1328,8 +1328,8 @@ export class Applicationpersistenceprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_applicationpersistenceprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

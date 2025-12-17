@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ConsumptionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#id ConsumptionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#id ConsumptionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ConsumptionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#partition ConsumptionConfig#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#partition ConsumptionConfig#partition}
   */
   readonly partition?: ConsumptionConfigPartition[] | cdktf.IResolvable;
 }
 export interface ConsumptionConfigPartitionFilterConditionLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#query ConsumptionConfig#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#query ConsumptionConfig#query}
   */
   readonly query: string;
 }
@@ -104,13 +104,13 @@ export class ConsumptionConfigPartitionFilterConditionLogFilterOutputReference e
 }
 export interface ConsumptionConfigPartitionFilterCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#dataset_id ConsumptionConfig#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#dataset_id ConsumptionConfig#dataset_id}
   */
   readonly datasetId?: string;
   /**
   * log_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#log_filter ConsumptionConfig#log_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#log_filter ConsumptionConfig#log_filter}
   */
   readonly logFilter?: ConsumptionConfigPartitionFilterConditionLogFilter;
 }
@@ -255,13 +255,13 @@ export class ConsumptionConfigPartitionFilterConditionList extends cdktf.Complex
 }
 export interface ConsumptionConfigPartitionFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#operator ConsumptionConfig#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#operator ConsumptionConfig#operator}
   */
   readonly operator?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#condition ConsumptionConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#condition ConsumptionConfig#condition}
   */
   readonly condition?: ConsumptionConfigPartitionFilterCondition[] | cdktf.IResolvable;
 }
@@ -406,23 +406,23 @@ export class ConsumptionConfigPartitionFilterList extends cdktf.ComplexList {
 }
 export interface ConsumptionConfigPartition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#name ConsumptionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#name ConsumptionConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#slug ConsumptionConfig#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#slug ConsumptionConfig#slug}
   */
   readonly slug?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#filter ConsumptionConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#filter ConsumptionConfig#filter}
   */
   readonly filter?: ConsumptionConfigPartitionFilter[] | cdktf.IResolvable;
   /**
   * partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#partition ConsumptionConfig#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#partition ConsumptionConfig#partition}
   */
   readonly partition?: ConsumptionConfigPartition[] | cdktf.IResolvable;
 }
@@ -625,7 +625,7 @@ export class ConsumptionConfigPartitionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config chronosphere_consumption_config}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config chronosphere_consumption_config}
 */
 export class ConsumptionConfig extends cdktf.TerraformResource {
 
@@ -641,7 +641,7 @@ export class ConsumptionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsumptionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsumptionConfig to import
-  * @param importFromId The id of the existing ConsumptionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsumptionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsumptionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -653,7 +653,7 @@ export class ConsumptionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_config chronosphere_consumption_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/consumption_config chronosphere_consumption_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -664,8 +664,8 @@ export class ConsumptionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_consumption_config',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

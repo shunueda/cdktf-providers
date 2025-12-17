@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface DataNetappCloudmanagerCifsServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#client_id DataNetappCloudmanagerCifsServer#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#client_id DataNetappCloudmanagerCifsServer#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#dns_domain DataNetappCloudmanagerCifsServer#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#dns_domain DataNetappCloudmanagerCifsServer#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#domain DataNetappCloudmanagerCifsServer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#domain DataNetappCloudmanagerCifsServer#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#id DataNetappCloudmanagerCifsServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#id DataNetappCloudmanagerCifsServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#ip_addresses DataNetappCloudmanagerCifsServer#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#ip_addresses DataNetappCloudmanagerCifsServer#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#is_workgroup DataNetappCloudmanagerCifsServer#is_workgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#is_workgroup DataNetappCloudmanagerCifsServer#is_workgroup}
   */
   readonly isWorkgroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#netbios DataNetappCloudmanagerCifsServer#netbios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#netbios DataNetappCloudmanagerCifsServer#netbios}
   */
   readonly netbios?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#organizational_unit DataNetappCloudmanagerCifsServer#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#organizational_unit DataNetappCloudmanagerCifsServer#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#password DataNetappCloudmanagerCifsServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#password DataNetappCloudmanagerCifsServer#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#server_name DataNetappCloudmanagerCifsServer#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#server_name DataNetappCloudmanagerCifsServer#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#svm_name DataNetappCloudmanagerCifsServer#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#svm_name DataNetappCloudmanagerCifsServer#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#username DataNetappCloudmanagerCifsServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#username DataNetappCloudmanagerCifsServer#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#workgroup_name DataNetappCloudmanagerCifsServer#workgroup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#workgroup_name DataNetappCloudmanagerCifsServer#workgroup_name}
   */
   readonly workgroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#working_environment_id DataNetappCloudmanagerCifsServer#working_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#working_environment_id DataNetappCloudmanagerCifsServer#working_environment_id}
   */
   readonly workingEnvironmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#working_environment_name DataNetappCloudmanagerCifsServer#working_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#working_environment_name DataNetappCloudmanagerCifsServer#working_environment_name}
   */
   readonly workingEnvironmentName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server netapp-cloudmanager_cifs_server}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server netapp-cloudmanager_cifs_server}
 */
 export class DataNetappCloudmanagerCifsServer extends cdktf.TerraformDataSource {
 
@@ -89,7 +89,7 @@ export class DataNetappCloudmanagerCifsServer extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataNetappCloudmanagerCifsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataNetappCloudmanagerCifsServer to import
-  * @param importFromId The id of the existing DataNetappCloudmanagerCifsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataNetappCloudmanagerCifsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataNetappCloudmanagerCifsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class DataNetappCloudmanagerCifsServer extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/data-sources/cifs_server netapp-cloudmanager_cifs_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/data-sources/cifs_server netapp-cloudmanager_cifs_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class DataNetappCloudmanagerCifsServer extends cdktf.TerraformDataSource 
       terraformResourceType: 'netapp-cloudmanager_cifs_server',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

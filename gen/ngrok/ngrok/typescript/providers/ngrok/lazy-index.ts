@@ -14,6 +14,7 @@ Object.defineProperty(exports, 'ipRestriction', { get: function () { return requ
 Object.defineProperty(exports, 'reservedAddr', { get: function () { return require('./reserved-addr'); } });
 Object.defineProperty(exports, 'reservedDomain', { get: function () { return require('./reserved-domain'); } });
 Object.defineProperty(exports, 'secret', { get: function () { return require('./secret'); } });
+Object.defineProperty(exports, 'serviceUser', { get: function () { return require('./service-user'); } });
 Object.defineProperty(exports, 'sshCertificateAuthority', { get: function () { return require('./ssh-certificate-authority'); } });
 Object.defineProperty(exports, 'sshCredential', { get: function () { return require('./ssh-credential'); } });
 Object.defineProperty(exports, 'sshHostCertificate', { get: function () { return require('./ssh-host-certificate'); } });

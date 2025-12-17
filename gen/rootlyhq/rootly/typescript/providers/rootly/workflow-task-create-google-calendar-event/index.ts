@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateGoogleCalendarEventConfig extends cdktf.Terra
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#enabled WorkflowTaskCreateGoogleCalendarEvent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#enabled WorkflowTaskCreateGoogleCalendarEvent#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#id WorkflowTaskCreateGoogleCalendarEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#id WorkflowTaskCreateGoogleCalendarEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskCreateGoogleCalendarEventConfig extends cdktf.Terra
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#name WorkflowTaskCreateGoogleCalendarEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#name WorkflowTaskCreateGoogleCalendarEvent#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#position WorkflowTaskCreateGoogleCalendarEvent#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#position WorkflowTaskCreateGoogleCalendarEvent#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#skip_on_failure WorkflowTaskCreateGoogleCalendarEvent#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#skip_on_failure WorkflowTaskCreateGoogleCalendarEvent#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#workflow_id WorkflowTaskCreateGoogleCalendarEvent#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#workflow_id WorkflowTaskCreateGoogleCalendarEvent#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#task_params WorkflowTaskCreateGoogleCalendarEvent#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#task_params WorkflowTaskCreateGoogleCalendarEvent#task_params}
   */
   readonly taskParams: WorkflowTaskCreateGoogleCalendarEventTaskParams;
 }
 export interface WorkflowTaskCreateGoogleCalendarEventTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#id WorkflowTaskCreateGoogleCalendarEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#id WorkflowTaskCreateGoogleCalendarEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#name WorkflowTaskCreateGoogleCalendarEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#name WorkflowTaskCreateGoogleCalendarEvent#name}
   */
   readonly name: string;
 }
@@ -201,99 +201,99 @@ export interface WorkflowTaskCreateGoogleCalendarEventTaskParams {
   /**
   * Emails of attendees
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#attendees WorkflowTaskCreateGoogleCalendarEvent#attendees}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#attendees WorkflowTaskCreateGoogleCalendarEvent#attendees}
   */
   readonly attendees?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#calendar_id WorkflowTaskCreateGoogleCalendarEvent#calendar_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#calendar_id WorkflowTaskCreateGoogleCalendarEvent#calendar_id}
   */
   readonly calendarId?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#can_guests_invite_others WorkflowTaskCreateGoogleCalendarEvent#can_guests_invite_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#can_guests_invite_others WorkflowTaskCreateGoogleCalendarEvent#can_guests_invite_others}
   */
   readonly canGuestsInviteOthers?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#can_guests_modify_event WorkflowTaskCreateGoogleCalendarEvent#can_guests_modify_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#can_guests_modify_event WorkflowTaskCreateGoogleCalendarEvent#can_guests_modify_event}
   */
   readonly canGuestsModifyEvent?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#can_guests_see_other_guests WorkflowTaskCreateGoogleCalendarEvent#can_guests_see_other_guests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#can_guests_see_other_guests WorkflowTaskCreateGoogleCalendarEvent#can_guests_see_other_guests}
   */
   readonly canGuestsSeeOtherGuests?: boolean | cdktf.IResolvable;
   /**
   * Sets the video conference type attached to the meeting. Value must be one of `eventHangout`, `eventNamedHangout`, `hangoutsMeet`, `addOn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#conference_solution_key WorkflowTaskCreateGoogleCalendarEvent#conference_solution_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#conference_solution_key WorkflowTaskCreateGoogleCalendarEvent#conference_solution_key}
   */
   readonly conferenceSolutionKey?: string;
   /**
   * The days until meeting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#days_until_meeting WorkflowTaskCreateGoogleCalendarEvent#days_until_meeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#days_until_meeting WorkflowTaskCreateGoogleCalendarEvent#days_until_meeting}
   */
   readonly daysUntilMeeting: string;
   /**
   * The event description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#description WorkflowTaskCreateGoogleCalendarEvent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#description WorkflowTaskCreateGoogleCalendarEvent#description}
   */
   readonly description: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#exclude_weekends WorkflowTaskCreateGoogleCalendarEvent#exclude_weekends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#exclude_weekends WorkflowTaskCreateGoogleCalendarEvent#exclude_weekends}
   */
   readonly excludeWeekends?: boolean | cdktf.IResolvable;
   /**
   * Meeting duration in format like '1 hour', '30 minutes'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#meeting_duration WorkflowTaskCreateGoogleCalendarEvent#meeting_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#meeting_duration WorkflowTaskCreateGoogleCalendarEvent#meeting_duration}
   */
   readonly meetingDuration: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#post_to_incident_timeline WorkflowTaskCreateGoogleCalendarEvent#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#post_to_incident_timeline WorkflowTaskCreateGoogleCalendarEvent#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
   * Send an email to the attendees notifying them of the event. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#send_updates WorkflowTaskCreateGoogleCalendarEvent#send_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#send_updates WorkflowTaskCreateGoogleCalendarEvent#send_updates}
   */
   readonly sendUpdates?: boolean | cdktf.IResolvable;
   /**
   * The event summary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#summary WorkflowTaskCreateGoogleCalendarEvent#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#summary WorkflowTaskCreateGoogleCalendarEvent#summary}
   */
   readonly summary: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#task_type WorkflowTaskCreateGoogleCalendarEvent#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#task_type WorkflowTaskCreateGoogleCalendarEvent#task_type}
   */
   readonly taskType?: string;
   /**
   * Time of meeting in format HH:MM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#time_of_meeting WorkflowTaskCreateGoogleCalendarEvent#time_of_meeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#time_of_meeting WorkflowTaskCreateGoogleCalendarEvent#time_of_meeting}
   */
   readonly timeOfMeeting: string;
   /**
   * A valid IANA time zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#time_zone WorkflowTaskCreateGoogleCalendarEvent#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#time_zone WorkflowTaskCreateGoogleCalendarEvent#time_zone}
   */
   readonly timeZone?: string;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#post_to_slack_channels WorkflowTaskCreateGoogleCalendarEvent#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#post_to_slack_channels WorkflowTaskCreateGoogleCalendarEvent#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskCreateGoogleCalendarEventTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -826,7 +826,7 @@ export class WorkflowTaskCreateGoogleCalendarEventTaskParamsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event rootly_workflow_task_create_google_calendar_event}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event rootly_workflow_task_create_google_calendar_event}
 */
 export class WorkflowTaskCreateGoogleCalendarEvent extends cdktf.TerraformResource {
 
@@ -842,7 +842,7 @@ export class WorkflowTaskCreateGoogleCalendarEvent extends cdktf.TerraformResour
   * Generates CDKTF code for importing a WorkflowTaskCreateGoogleCalendarEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateGoogleCalendarEvent to import
-  * @param importFromId The id of the existing WorkflowTaskCreateGoogleCalendarEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateGoogleCalendarEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateGoogleCalendarEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -854,7 +854,7 @@ export class WorkflowTaskCreateGoogleCalendarEvent extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_google_calendar_event rootly_workflow_task_create_google_calendar_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_calendar_event rootly_workflow_task_create_google_calendar_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -865,8 +865,8 @@ export class WorkflowTaskCreateGoogleCalendarEvent extends cdktf.TerraformResour
       terraformResourceType: 'rootly_workflow_task_create_google_calendar_event',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

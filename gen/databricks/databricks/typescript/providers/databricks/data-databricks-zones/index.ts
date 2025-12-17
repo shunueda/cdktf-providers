@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones
+// https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataDatabricksZonesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones#default_zone DataDatabricksZones#default_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones#default_zone DataDatabricksZones#default_zone}
   */
   readonly defaultZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones#id DataDatabricksZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones#id DataDatabricksZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones#zones DataDatabricksZones#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones#zones DataDatabricksZones#zones}
   */
   readonly zones?: string[];
   /**
   * provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones#provider_config DataDatabricksZones#provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones#provider_config DataDatabricksZones#provider_config}
   */
   readonly providerConfig?: DataDatabricksZonesProviderConfig;
 }
 export interface DataDatabricksZonesProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones#workspace_id DataDatabricksZones#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones#workspace_id DataDatabricksZones#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -112,7 +112,7 @@ export class DataDatabricksZonesProviderConfigOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones databricks_zones}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones databricks_zones}
 */
 export class DataDatabricksZones extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataDatabricksZones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDatabricksZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDatabricksZones to import
-  * @param importFromId The id of the existing DataDatabricksZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDatabricksZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDatabricksZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataDatabricksZones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/zones databricks_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/zones databricks_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataDatabricksZones extends cdktf.TerraformDataSource {
       terraformResourceType: 'databricks_zones',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.99.0',
-        providerVersionConstraint: '1.99.0'
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '1.100.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm
+// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface EntitlementsVmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#config_id EntitlementsVm#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#config_id EntitlementsVm#config_id}
   */
   readonly configId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#description EntitlementsVm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#description EntitlementsVm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#end_date EntitlementsVm#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#end_date EntitlementsVm#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#folder_path EntitlementsVm#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#folder_path EntitlementsVm#folder_path}
   */
   readonly folderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#id EntitlementsVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#id EntitlementsVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#refresh_token_when_destroy EntitlementsVm#refresh_token_when_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#refresh_token_when_destroy EntitlementsVm#refresh_token_when_destroy}
   */
   readonly refreshTokenWhenDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#serial_number EntitlementsVm#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#serial_number EntitlementsVm#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#skip_pending EntitlementsVm#skip_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#skip_pending EntitlementsVm#skip_pending}
   */
   readonly skipPending?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#status EntitlementsVm#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#status EntitlementsVm#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm fortiflexvm_entitlements_vm}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm fortiflexvm_entitlements_vm}
 */
 export class EntitlementsVm extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class EntitlementsVm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntitlementsVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntitlementsVm to import
-  * @param importFromId The id of the existing EntitlementsVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntitlementsVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntitlementsVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class EntitlementsVm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_vm fortiflexvm_entitlements_vm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_vm fortiflexvm_entitlements_vm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class EntitlementsVm extends cdktf.TerraformResource {
       terraformResourceType: 'fortiflexvm_entitlements_vm',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3',
-        providerVersionConstraint: '2.4.3'
+        providerVersion: '2.4.4',
+        providerVersionConstraint: '2.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

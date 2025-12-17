@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DashboardPanelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The panel dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#dashboard_id DashboardPanel#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#dashboard_id DashboardPanel#dashboard_id}
   */
   readonly dashboardId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#id DashboardPanel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#id DashboardPanel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DashboardPanelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the dashboard_panel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#name DashboardPanel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#name DashboardPanel#name}
   */
   readonly name?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#params DashboardPanel#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#params DashboardPanel#params}
   */
   readonly params: DashboardPanelParams;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#position DashboardPanel#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#position DashboardPanel#position}
   */
   readonly position?: DashboardPanelPosition;
 }
 export interface DashboardPanelParamsDatalabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#enabled DashboardPanel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#enabled DashboardPanel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -127,17 +127,17 @@ export interface DashboardPanelParamsDatasetsAggregate {
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#cumulative DashboardPanel#cumulative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#cumulative DashboardPanel#cumulative}
   */
   readonly cumulative?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#key DashboardPanel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#key DashboardPanel#key}
   */
   readonly key?: string;
   /**
   * Value must be one of `count`, `sum`, `average`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#operation DashboardPanel#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#operation DashboardPanel#operation}
   */
   readonly operation?: string;
 }
@@ -281,21 +281,21 @@ export interface DashboardPanelParamsDatasetsFilterRules {
   /**
   * Value must be one of `=`, `!=`, `>=`, `<=`, `exists`, `not_exists`, `contains`, `not_contains`, `assigned`, `unassigned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#condition DashboardPanel#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#condition DashboardPanel#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#key DashboardPanel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#key DashboardPanel#key}
   */
   readonly key?: string;
   /**
   * Value must be one of `and`, `or`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#operation DashboardPanel#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#operation DashboardPanel#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#value DashboardPanel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#value DashboardPanel#value}
   */
   readonly value?: string;
 }
@@ -500,13 +500,13 @@ export interface DashboardPanelParamsDatasetsFilter {
   /**
   * Value must be one of `and`, `or`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#operation DashboardPanel#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#operation DashboardPanel#operation}
   */
   readonly operation?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#rules DashboardPanel#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#rules DashboardPanel#rules}
   */
   readonly rules?: DashboardPanelParamsDatasetsFilterRules[] | cdktf.IResolvable;
 }
@@ -653,27 +653,27 @@ export interface DashboardPanelParamsDatasets {
   /**
   * Value must be one of `alerts`, `incidents`, `incident_post_mortems`, `incident_action_items`, `users`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#collection DashboardPanel#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#collection DashboardPanel#collection}
   */
   readonly collection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#group_by DashboardPanel#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#group_by DashboardPanel#group_by}
   */
   readonly groupBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#name DashboardPanel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#name DashboardPanel#name}
   */
   readonly name?: string;
   /**
   * aggregate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#aggregate DashboardPanel#aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#aggregate DashboardPanel#aggregate}
   */
   readonly aggregate?: DashboardPanelParamsDatasetsAggregate;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#filter DashboardPanel#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#filter DashboardPanel#filter}
   */
   readonly filter?: DashboardPanelParamsDatasetsFilter[] | cdktf.IResolvable;
 }
@@ -907,7 +907,7 @@ export interface DashboardPanelParamsLegend {
   /**
   * Value must be one of `all`, `charted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#groups DashboardPanel#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#groups DashboardPanel#groups}
   */
   readonly groups?: string;
 }
@@ -973,7 +973,7 @@ export class DashboardPanelParamsLegendOutputReference extends cdktf.ComplexObje
     }
   }
 
-  // groups - computed: false, optional: true, required: false
+  // groups - computed: true, optional: true, required: false
   private _groups?: string; 
   public get groups() {
     return this.getStringAttribute('groups');
@@ -991,35 +991,35 @@ export class DashboardPanelParamsLegendOutputReference extends cdktf.ComplexObje
 }
 export interface DashboardPanelParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#description DashboardPanel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#description DashboardPanel#description}
   */
   readonly description?: string;
   /**
   * Value must be one of `line_chart`, `line_stepped_chart`, `column_chart`, `stacked_column_chart`, `monitoring_chart`, `pie_chart`, `table`, `aggregate_value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#display DashboardPanel#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#display DashboardPanel#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#table_fields DashboardPanel#table_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#table_fields DashboardPanel#table_fields}
   */
   readonly tableFields?: string[];
   /**
   * datalabels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#datalabels DashboardPanel#datalabels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#datalabels DashboardPanel#datalabels}
   */
   readonly datalabels?: DashboardPanelParamsDatalabels;
   /**
   * datasets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#datasets DashboardPanel#datasets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#datasets DashboardPanel#datasets}
   */
   readonly datasets?: DashboardPanelParamsDatasets[] | cdktf.IResolvable;
   /**
   * legend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#legend DashboardPanel#legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#legend DashboardPanel#legend}
   */
   readonly legend?: DashboardPanelParamsLegend;
 }
@@ -1248,19 +1248,19 @@ export class DashboardPanelParamsOutputReference extends cdktf.ComplexObject {
 }
 export interface DashboardPanelPosition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#h DashboardPanel#h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#h DashboardPanel#h}
   */
   readonly h: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#w DashboardPanel#w}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#w DashboardPanel#w}
   */
   readonly w: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#x DashboardPanel#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#x DashboardPanel#x}
   */
   readonly x: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#y DashboardPanel#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#y DashboardPanel#y}
   */
   readonly y: number;
 }
@@ -1419,7 +1419,7 @@ export class DashboardPanelPositionOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel rootly_dashboard_panel}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel rootly_dashboard_panel}
 */
 export class DashboardPanel extends cdktf.TerraformResource {
 
@@ -1435,7 +1435,7 @@ export class DashboardPanel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardPanel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardPanel to import
-  * @param importFromId The id of the existing DashboardPanel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardPanel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardPanel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1447,7 +1447,7 @@ export class DashboardPanel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/dashboard_panel rootly_dashboard_panel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/dashboard_panel rootly_dashboard_panel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1458,8 +1458,8 @@ export class DashboardPanel extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_dashboard_panel',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

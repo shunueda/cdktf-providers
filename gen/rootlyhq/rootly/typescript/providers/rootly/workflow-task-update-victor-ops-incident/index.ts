@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateVictorOpsIncidentConfig extends cdktf.Terrafo
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#enabled WorkflowTaskUpdateVictorOpsIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#enabled WorkflowTaskUpdateVictorOpsIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#id WorkflowTaskUpdateVictorOpsIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#id WorkflowTaskUpdateVictorOpsIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateVictorOpsIncidentConfig extends cdktf.Terrafo
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#name WorkflowTaskUpdateVictorOpsIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#name WorkflowTaskUpdateVictorOpsIncident#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#position WorkflowTaskUpdateVictorOpsIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#position WorkflowTaskUpdateVictorOpsIncident#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#skip_on_failure WorkflowTaskUpdateVictorOpsIncident#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#skip_on_failure WorkflowTaskUpdateVictorOpsIncident#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#workflow_id WorkflowTaskUpdateVictorOpsIncident#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#workflow_id WorkflowTaskUpdateVictorOpsIncident#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#task_params WorkflowTaskUpdateVictorOpsIncident#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#task_params WorkflowTaskUpdateVictorOpsIncident#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateVictorOpsIncidentTaskParams;
 }
@@ -55,23 +55,23 @@ export interface WorkflowTaskUpdateVictorOpsIncidentTaskParams {
   /**
   * Resolution message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#resolution_message WorkflowTaskUpdateVictorOpsIncident#resolution_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#resolution_message WorkflowTaskUpdateVictorOpsIncident#resolution_message}
   */
   readonly resolutionMessage?: string;
   /**
   * Value must be one of `resolve`, `ack`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#status WorkflowTaskUpdateVictorOpsIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#status WorkflowTaskUpdateVictorOpsIncident#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#task_type WorkflowTaskUpdateVictorOpsIncident#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#task_type WorkflowTaskUpdateVictorOpsIncident#task_type}
   */
   readonly taskType?: string;
   /**
   * The victor_ops incident ID, this can also be a Rootly incident variable 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#victor_ops_incident_id WorkflowTaskUpdateVictorOpsIncident#victor_ops_incident_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#victor_ops_incident_id WorkflowTaskUpdateVictorOpsIncident#victor_ops_incident_id}
   */
   readonly victorOpsIncidentId: string;
 }
@@ -236,7 +236,7 @@ export class WorkflowTaskUpdateVictorOpsIncidentTaskParamsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident rootly_workflow_task_update_victor_ops_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident rootly_workflow_task_update_victor_ops_incident}
 */
 export class WorkflowTaskUpdateVictorOpsIncident extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class WorkflowTaskUpdateVictorOpsIncident extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WorkflowTaskUpdateVictorOpsIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateVictorOpsIncident to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateVictorOpsIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateVictorOpsIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateVictorOpsIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class WorkflowTaskUpdateVictorOpsIncident extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_victor_ops_incident rootly_workflow_task_update_victor_ops_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_victor_ops_incident rootly_workflow_task_update_victor_ops_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class WorkflowTaskUpdateVictorOpsIncident extends cdktf.TerraformResource
       terraformResourceType: 'rootly_workflow_task_update_victor_ops_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

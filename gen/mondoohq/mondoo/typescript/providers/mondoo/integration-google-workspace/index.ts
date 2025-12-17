@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IntegrationGoogleWorkspaceConfig extends cdktf.TerraformMetaArg
   /**
   * The GoogleWorkspace CustomerId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace#customer_id IntegrationGoogleWorkspace#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace#customer_id IntegrationGoogleWorkspace#customer_id}
   */
   readonly customerId: string;
   /**
   * The GoogleWorkspace ImpersonatedUserEmail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace#impersonated_user_email IntegrationGoogleWorkspace#impersonated_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace#impersonated_user_email IntegrationGoogleWorkspace#impersonated_user_email}
   */
   readonly impersonatedUserEmail: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace#name IntegrationGoogleWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace#name IntegrationGoogleWorkspace#name}
   */
   readonly name: string;
   /**
   * The GoogleWorkspace ServiceAccount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace#service_account IntegrationGoogleWorkspace#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace#service_account IntegrationGoogleWorkspace#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace#space_id IntegrationGoogleWorkspace#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace#space_id IntegrationGoogleWorkspace#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace mondoo_integration_google_workspace}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace mondoo_integration_google_workspace}
 */
 export class IntegrationGoogleWorkspace extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IntegrationGoogleWorkspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGoogleWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGoogleWorkspace to import
-  * @param importFromId The id of the existing IntegrationGoogleWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGoogleWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGoogleWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IntegrationGoogleWorkspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_google_workspace mondoo_integration_google_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_google_workspace mondoo_integration_google_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IntegrationGoogleWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_google_workspace',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

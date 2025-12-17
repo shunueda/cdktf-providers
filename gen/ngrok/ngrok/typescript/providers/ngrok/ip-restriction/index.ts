@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IpRestrictionConfig extends cdktf.TerraformMetaArguments {
   /**
   * human-readable description of this IP restriction. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction#description IpRestriction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction#description IpRestriction#description}
   */
   readonly description?: string;
   /**
   * true if the IP restriction will be enforced. if false, only warnings will be issued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction#enforced IpRestriction#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction#enforced IpRestriction#enforced}
   */
   readonly enforced?: boolean | cdktf.IResolvable;
   /**
   * the set of IP policy identifiers that are used to enforce the restriction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction#ip_policy_ids IpRestriction#ip_policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction#ip_policy_ids IpRestriction#ip_policy_ids}
   */
   readonly ipPolicyIds: string[];
   /**
   * arbitrary user-defined machine-readable data of this IP restriction. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction#metadata IpRestriction#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction#metadata IpRestriction#metadata}
   */
   readonly metadata?: string;
   /**
   * the type of IP restriction. this defines what traffic will be restricted with the attached policies. four values are currently supported: `dashboard`, `api`, `agent`, and `endpoints`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction#type IpRestriction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction#type IpRestriction#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction ngrok_ip_restriction}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction ngrok_ip_restriction}
 */
 export class IpRestriction extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IpRestriction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpRestriction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpRestriction to import
-  * @param importFromId The id of the existing IpRestriction that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpRestriction that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpRestriction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IpRestriction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ip_restriction ngrok_ip_restriction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ip_restriction ngrok_ip_restriction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class IpRestriction extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_ip_restriction',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

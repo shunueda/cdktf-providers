@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ResourcePoolsConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#id ResourcePoolsConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#id ResourcePoolsConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface ResourcePoolsConfigConfig extends cdktf.TerraformMetaArguments 
   /**
   * default_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#default_pool ResourcePoolsConfig#default_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#default_pool ResourcePoolsConfig#default_pool}
   */
   readonly defaultPool?: ResourcePoolsConfigDefaultPool;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#pool ResourcePoolsConfig#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#pool ResourcePoolsConfig#pool}
   */
   readonly pool?: ResourcePoolsConfigPool[] | cdktf.IResolvable;
   /**
   * pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#pools ResourcePoolsConfig#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#pools ResourcePoolsConfig#pools}
   */
   readonly pools?: ResourcePoolsConfigPools[] | cdktf.IResolvable;
 }
 export interface ResourcePoolsConfigDefaultPoolAllocationFixedValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#value ResourcePoolsConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#value ResourcePoolsConfig#value}
   */
   readonly value: number;
 }
@@ -178,11 +178,11 @@ export class ResourcePoolsConfigDefaultPoolAllocationFixedValueList extends cdkt
 }
 export interface ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsAllPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -295,11 +295,11 @@ export class ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsAllPriori
 }
 export interface ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsDefaultAndLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -412,11 +412,11 @@ export class ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsDefaultAn
 }
 export interface ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -529,25 +529,25 @@ export class ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsLowPriori
 }
 export interface ResourcePoolsConfigDefaultPoolAllocationPriorityThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
   * all_priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
   */
   readonly allPriorities?: ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsAllPriorities;
   /**
   * default_and_low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
   */
   readonly defaultAndLowPriority?: ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsDefaultAndLowPriority;
   /**
   * low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
   */
   readonly lowPriority?: ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsLowPriority;
 }
@@ -747,19 +747,19 @@ export class ResourcePoolsConfigDefaultPoolAllocationPriorityThresholdsList exte
 }
 export interface ResourcePoolsConfigDefaultPoolAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_license ResourcePoolsConfig#percent_of_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_license ResourcePoolsConfig#percent_of_license}
   */
   readonly percentOfLicense?: number;
   /**
   * fixed_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: ResourcePoolsConfigDefaultPoolAllocationFixedValue[] | cdktf.IResolvable;
   /**
   * priority_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
   */
   readonly priorityThresholds?: ResourcePoolsConfigDefaultPoolAllocationPriorityThresholds[] | cdktf.IResolvable;
 }
@@ -901,11 +901,11 @@ export class ResourcePoolsConfigDefaultPoolAllocationOutputReference extends cdk
 }
 export interface ResourcePoolsConfigDefaultPoolPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#high_priority_match_rules ResourcePoolsConfig#high_priority_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#high_priority_match_rules ResourcePoolsConfig#high_priority_match_rules}
   */
   readonly highPriorityMatchRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority_match_rules ResourcePoolsConfig#low_priority_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority_match_rules ResourcePoolsConfig#low_priority_match_rules}
   */
   readonly lowPriorityMatchRules?: string[];
 }
@@ -1018,11 +1018,11 @@ export class ResourcePoolsConfigDefaultPoolPrioritiesOutputReference extends cdk
 }
 export interface ResourcePoolsConfigDefaultPoolPriorityThresholdsAllPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -1135,11 +1135,11 @@ export class ResourcePoolsConfigDefaultPoolPriorityThresholdsAllPrioritiesOutput
 }
 export interface ResourcePoolsConfigDefaultPoolPriorityThresholdsDefaultAndLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -1252,11 +1252,11 @@ export class ResourcePoolsConfigDefaultPoolPriorityThresholdsDefaultAndLowPriori
 }
 export interface ResourcePoolsConfigDefaultPoolPriorityThresholdsLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -1369,25 +1369,25 @@ export class ResourcePoolsConfigDefaultPoolPriorityThresholdsLowPriorityOutputRe
 }
 export interface ResourcePoolsConfigDefaultPoolPriorityThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
   * all_priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
   */
   readonly allPriorities?: ResourcePoolsConfigDefaultPoolPriorityThresholdsAllPriorities;
   /**
   * default_and_low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
   */
   readonly defaultAndLowPriority?: ResourcePoolsConfigDefaultPoolPriorityThresholdsDefaultAndLowPriority;
   /**
   * low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
   */
   readonly lowPriority?: ResourcePoolsConfigDefaultPoolPriorityThresholdsLowPriority;
 }
@@ -1589,19 +1589,19 @@ export interface ResourcePoolsConfigDefaultPool {
   /**
   * allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#allocation ResourcePoolsConfig#allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#allocation ResourcePoolsConfig#allocation}
   */
   readonly allocation?: ResourcePoolsConfigDefaultPoolAllocation;
   /**
   * priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priorities ResourcePoolsConfig#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priorities ResourcePoolsConfig#priorities}
   */
   readonly priorities?: ResourcePoolsConfigDefaultPoolPriorities;
   /**
   * priority_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
   */
   readonly priorityThresholds?: ResourcePoolsConfigDefaultPoolPriorityThresholds[] | cdktf.IResolvable;
 }
@@ -1743,11 +1743,11 @@ export class ResourcePoolsConfigDefaultPoolOutputReference extends cdktf.Complex
 }
 export interface ResourcePoolsConfigPoolAllocationFixedValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#value ResourcePoolsConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#value ResourcePoolsConfig#value}
   */
   readonly value: number;
 }
@@ -1886,11 +1886,11 @@ export class ResourcePoolsConfigPoolAllocationFixedValueList extends cdktf.Compl
 }
 export interface ResourcePoolsConfigPoolAllocationPriorityThresholdsAllPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -2003,11 +2003,11 @@ export class ResourcePoolsConfigPoolAllocationPriorityThresholdsAllPrioritiesOut
 }
 export interface ResourcePoolsConfigPoolAllocationPriorityThresholdsDefaultAndLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -2120,11 +2120,11 @@ export class ResourcePoolsConfigPoolAllocationPriorityThresholdsDefaultAndLowPri
 }
 export interface ResourcePoolsConfigPoolAllocationPriorityThresholdsLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -2237,25 +2237,25 @@ export class ResourcePoolsConfigPoolAllocationPriorityThresholdsLowPriorityOutpu
 }
 export interface ResourcePoolsConfigPoolAllocationPriorityThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
   * all_priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
   */
   readonly allPriorities?: ResourcePoolsConfigPoolAllocationPriorityThresholdsAllPriorities;
   /**
   * default_and_low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
   */
   readonly defaultAndLowPriority?: ResourcePoolsConfigPoolAllocationPriorityThresholdsDefaultAndLowPriority;
   /**
   * low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
   */
   readonly lowPriority?: ResourcePoolsConfigPoolAllocationPriorityThresholdsLowPriority;
 }
@@ -2455,19 +2455,19 @@ export class ResourcePoolsConfigPoolAllocationPriorityThresholdsList extends cdk
 }
 export interface ResourcePoolsConfigPoolAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_license ResourcePoolsConfig#percent_of_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_license ResourcePoolsConfig#percent_of_license}
   */
   readonly percentOfLicense?: number;
   /**
   * fixed_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: ResourcePoolsConfigPoolAllocationFixedValue[] | cdktf.IResolvable;
   /**
   * priority_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
   */
   readonly priorityThresholds?: ResourcePoolsConfigPoolAllocationPriorityThresholds[] | cdktf.IResolvable;
 }
@@ -2609,11 +2609,11 @@ export class ResourcePoolsConfigPoolAllocationOutputReference extends cdktf.Comp
 }
 export interface ResourcePoolsConfigPoolPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#high_priority_match_rules ResourcePoolsConfig#high_priority_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#high_priority_match_rules ResourcePoolsConfig#high_priority_match_rules}
   */
   readonly highPriorityMatchRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority_match_rules ResourcePoolsConfig#low_priority_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority_match_rules ResourcePoolsConfig#low_priority_match_rules}
   */
   readonly lowPriorityMatchRules?: string[];
 }
@@ -2726,27 +2726,27 @@ export class ResourcePoolsConfigPoolPrioritiesOutputReference extends cdktf.Comp
 }
 export interface ResourcePoolsConfigPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#match_rule ResourcePoolsConfig#match_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#match_rule ResourcePoolsConfig#match_rule}
   */
   readonly matchRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#match_rules ResourcePoolsConfig#match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#match_rules ResourcePoolsConfig#match_rules}
   */
   readonly matchRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#name ResourcePoolsConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#name ResourcePoolsConfig#name}
   */
   readonly name: string;
   /**
   * allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#allocation ResourcePoolsConfig#allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#allocation ResourcePoolsConfig#allocation}
   */
   readonly allocation?: ResourcePoolsConfigPoolAllocation;
   /**
   * priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priorities ResourcePoolsConfig#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priorities ResourcePoolsConfig#priorities}
   */
   readonly priorities?: ResourcePoolsConfigPoolPriorities;
 }
@@ -2975,11 +2975,11 @@ export class ResourcePoolsConfigPoolList extends cdktf.ComplexList {
 }
 export interface ResourcePoolsConfigPoolsAllocationFixedValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#value ResourcePoolsConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#value ResourcePoolsConfig#value}
   */
   readonly value: number;
 }
@@ -3118,11 +3118,11 @@ export class ResourcePoolsConfigPoolsAllocationFixedValueList extends cdktf.Comp
 }
 export interface ResourcePoolsConfigPoolsAllocationPriorityThresholdsAllPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -3235,11 +3235,11 @@ export class ResourcePoolsConfigPoolsAllocationPriorityThresholdsAllPrioritiesOu
 }
 export interface ResourcePoolsConfigPoolsAllocationPriorityThresholdsDefaultAndLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -3352,11 +3352,11 @@ export class ResourcePoolsConfigPoolsAllocationPriorityThresholdsDefaultAndLowPr
 }
 export interface ResourcePoolsConfigPoolsAllocationPriorityThresholdsLowPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_pool_allocation ResourcePoolsConfig#percent_of_pool_allocation}
   */
   readonly percentOfPoolAllocation?: number;
 }
@@ -3469,25 +3469,25 @@ export class ResourcePoolsConfigPoolsAllocationPriorityThresholdsLowPriorityOutp
 }
 export interface ResourcePoolsConfigPoolsAllocationPriorityThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#license ResourcePoolsConfig#license}
   */
   readonly license: string;
   /**
   * all_priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#all_priorities ResourcePoolsConfig#all_priorities}
   */
   readonly allPriorities?: ResourcePoolsConfigPoolsAllocationPriorityThresholdsAllPriorities;
   /**
   * default_and_low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#default_and_low_priority ResourcePoolsConfig#default_and_low_priority}
   */
   readonly defaultAndLowPriority?: ResourcePoolsConfigPoolsAllocationPriorityThresholdsDefaultAndLowPriority;
   /**
   * low_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority ResourcePoolsConfig#low_priority}
   */
   readonly lowPriority?: ResourcePoolsConfigPoolsAllocationPriorityThresholdsLowPriority;
 }
@@ -3687,19 +3687,19 @@ export class ResourcePoolsConfigPoolsAllocationPriorityThresholdsList extends cd
 }
 export interface ResourcePoolsConfigPoolsAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#percent_of_license ResourcePoolsConfig#percent_of_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#percent_of_license ResourcePoolsConfig#percent_of_license}
   */
   readonly percentOfLicense?: number;
   /**
   * fixed_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#fixed_value ResourcePoolsConfig#fixed_value}
   */
   readonly fixedValue?: ResourcePoolsConfigPoolsAllocationFixedValue[] | cdktf.IResolvable;
   /**
   * priority_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priority_thresholds ResourcePoolsConfig#priority_thresholds}
   */
   readonly priorityThresholds?: ResourcePoolsConfigPoolsAllocationPriorityThresholds[] | cdktf.IResolvable;
 }
@@ -3841,11 +3841,11 @@ export class ResourcePoolsConfigPoolsAllocationOutputReference extends cdktf.Com
 }
 export interface ResourcePoolsConfigPoolsPriorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#high_priority_match_rules ResourcePoolsConfig#high_priority_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#high_priority_match_rules ResourcePoolsConfig#high_priority_match_rules}
   */
   readonly highPriorityMatchRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#low_priority_match_rules ResourcePoolsConfig#low_priority_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#low_priority_match_rules ResourcePoolsConfig#low_priority_match_rules}
   */
   readonly lowPriorityMatchRules?: string[];
 }
@@ -3958,27 +3958,27 @@ export class ResourcePoolsConfigPoolsPrioritiesOutputReference extends cdktf.Com
 }
 export interface ResourcePoolsConfigPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#match_rule ResourcePoolsConfig#match_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#match_rule ResourcePoolsConfig#match_rule}
   */
   readonly matchRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#match_rules ResourcePoolsConfig#match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#match_rules ResourcePoolsConfig#match_rules}
   */
   readonly matchRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#name ResourcePoolsConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#name ResourcePoolsConfig#name}
   */
   readonly name: string;
   /**
   * allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#allocation ResourcePoolsConfig#allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#allocation ResourcePoolsConfig#allocation}
   */
   readonly allocation?: ResourcePoolsConfigPoolsAllocation;
   /**
   * priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#priorities ResourcePoolsConfig#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#priorities ResourcePoolsConfig#priorities}
   */
   readonly priorities?: ResourcePoolsConfigPoolsPriorities;
 }
@@ -4207,7 +4207,7 @@ export class ResourcePoolsConfigPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config chronosphere_resource_pools_config}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config chronosphere_resource_pools_config}
 */
 export class ResourcePoolsConfig extends cdktf.TerraformResource {
 
@@ -4223,7 +4223,7 @@ export class ResourcePoolsConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourcePoolsConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcePoolsConfig to import
-  * @param importFromId The id of the existing ResourcePoolsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcePoolsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcePoolsConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4235,7 +4235,7 @@ export class ResourcePoolsConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/resource_pools_config chronosphere_resource_pools_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/resource_pools_config chronosphere_resource_pools_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4246,8 +4246,8 @@ export class ResourcePoolsConfig extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_resource_pools_config',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

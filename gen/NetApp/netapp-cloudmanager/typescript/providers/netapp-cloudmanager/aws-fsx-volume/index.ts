@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface AwsFsxVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#client_id AwsFsxVolume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#client_id AwsFsxVolume#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#enable_storage_efficiency AwsFsxVolume#enable_storage_efficiency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#enable_storage_efficiency AwsFsxVolume#enable_storage_efficiency}
   */
   readonly enableStorageEfficiency?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#export_policy_ip AwsFsxVolume#export_policy_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#export_policy_ip AwsFsxVolume#export_policy_ip}
   */
   readonly exportPolicyIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#export_policy_nfs_version AwsFsxVolume#export_policy_nfs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#export_policy_nfs_version AwsFsxVolume#export_policy_nfs_version}
   */
   readonly exportPolicyNfsVersion?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#export_policy_type AwsFsxVolume#export_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#export_policy_type AwsFsxVolume#export_policy_type}
   */
   readonly exportPolicyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#file_system_id AwsFsxVolume#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#file_system_id AwsFsxVolume#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#id AwsFsxVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#id AwsFsxVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#name AwsFsxVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#name AwsFsxVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#permission AwsFsxVolume#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#permission AwsFsxVolume#permission}
   */
   readonly permission?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#share_name AwsFsxVolume#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#share_name AwsFsxVolume#share_name}
   */
   readonly shareName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#size AwsFsxVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#size AwsFsxVolume#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#snapshot_policy_name AwsFsxVolume#snapshot_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#snapshot_policy_name AwsFsxVolume#snapshot_policy_name}
   */
   readonly snapshotPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#svm_name AwsFsxVolume#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#svm_name AwsFsxVolume#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#tags AwsFsxVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#tags AwsFsxVolume#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#tenant_id AwsFsxVolume#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#tenant_id AwsFsxVolume#tenant_id}
   */
   readonly tenantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#tiering_policy AwsFsxVolume#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#tiering_policy AwsFsxVolume#tiering_policy}
   */
   readonly tieringPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#unit AwsFsxVolume#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#unit AwsFsxVolume#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#users AwsFsxVolume#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#users AwsFsxVolume#users}
   */
   readonly users?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#volume_protocol AwsFsxVolume#volume_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#volume_protocol AwsFsxVolume#volume_protocol}
   */
   readonly volumeProtocol: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume netapp-cloudmanager_aws_fsx_volume}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume netapp-cloudmanager_aws_fsx_volume}
 */
 export class AwsFsxVolume extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class AwsFsxVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsFsxVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsFsxVolume to import
-  * @param importFromId The id of the existing AwsFsxVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsFsxVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsFsxVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class AwsFsxVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/aws_fsx_volume netapp-cloudmanager_aws_fsx_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/aws_fsx_volume netapp-cloudmanager_aws_fsx_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class AwsFsxVolume extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_aws_fsx_volume',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PowerplatformCopilotStudioApplicationInsightsConfig extends cdk
   /**
   * The connection string for the target Application Insights resource in Azure. If needed, follow [these instructions](https://learn.microsoft.com/en-us/azure/azure-monitor/app/connection-strings?tabs=net#find-your-connection-string) to find your connection string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#application_insights_connection_string PowerplatformCopilotStudioApplicationInsights#application_insights_connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#application_insights_connection_string PowerplatformCopilotStudioApplicationInsights#application_insights_connection_string}
   */
   readonly applicationInsightsConnectionString: string;
   /**
   * The ID of the Copilot for which the Application Insights configuration is to be managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#bot_id PowerplatformCopilotStudioApplicationInsights#bot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#bot_id PowerplatformCopilotStudioApplicationInsights#bot_id}
   */
   readonly botId: string;
   /**
   * Environment ID for the Power Platform environment where the Copilot exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#environment_id PowerplatformCopilotStudioApplicationInsights#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#environment_id PowerplatformCopilotStudioApplicationInsights#environment_id}
   */
   readonly environmentId: string;
   /**
   * Whether to log an event each time a node within a topic is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#include_actions PowerplatformCopilotStudioApplicationInsights#include_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#include_actions PowerplatformCopilotStudioApplicationInsights#include_actions}
   */
   readonly includeActions?: boolean | cdktf.IResolvable;
   /**
   * Whether to log details of incoming/outgoing messages and events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#include_activities PowerplatformCopilotStudioApplicationInsights#include_activities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#include_activities PowerplatformCopilotStudioApplicationInsights#include_activities}
   */
   readonly includeActivities?: boolean | cdktf.IResolvable;
   /**
   * Whether to log sensitive properties such as user ID, name, and text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#include_sensitive_information PowerplatformCopilotStudioApplicationInsights#include_sensitive_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#include_sensitive_information PowerplatformCopilotStudioApplicationInsights#include_sensitive_information}
   */
   readonly includeSensitiveInformation?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights powerplatform_copilot_studio_application_insights}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights powerplatform_copilot_studio_application_insights}
 */
 export class PowerplatformCopilotStudioApplicationInsights extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PowerplatformCopilotStudioApplicationInsights extends cdktf.Terrafo
   * Generates CDKTF code for importing a PowerplatformCopilotStudioApplicationInsights resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerplatformCopilotStudioApplicationInsights to import
-  * @param importFromId The id of the existing PowerplatformCopilotStudioApplicationInsights that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerplatformCopilotStudioApplicationInsights that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerplatformCopilotStudioApplicationInsights to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PowerplatformCopilotStudioApplicationInsights extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/resources/powerplatform_copilot_studio_application_insights powerplatform_copilot_studio_application_insights} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/resources/powerplatform_copilot_studio_application_insights powerplatform_copilot_studio_application_insights} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class PowerplatformCopilotStudioApplicationInsights extends cdktf.Terrafo
       terraformResourceType: 'powerplatform_copilot_studio_application_insights',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

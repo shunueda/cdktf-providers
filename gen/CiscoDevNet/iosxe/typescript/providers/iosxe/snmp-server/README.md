@@ -1,3 +1,3 @@
 # `iosxe_snmp_server`
 
-Refer to the Terraform Registry for docs: [`iosxe_snmp_server`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/snmp_server).
+Refer to the Terraform Registry for docs: [`iosxe_snmp_server`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/snmp_server).

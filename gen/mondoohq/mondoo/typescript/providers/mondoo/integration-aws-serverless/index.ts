@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface IntegrationAwsServerlessConfig extends cdktf.TerraformMetaArgum
   /**
   * List of AWS account IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#account_ids IntegrationAwsServerless#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#account_ids IntegrationAwsServerless#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * Enable console sign-in trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#console_sign_in_trigger IntegrationAwsServerless#console_sign_in_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#console_sign_in_trigger IntegrationAwsServerless#console_sign_in_trigger}
   */
   readonly consoleSignInTrigger?: boolean | cdktf.IResolvable;
   /**
   * Enable instance state change trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#instance_state_change_trigger IntegrationAwsServerless#instance_state_change_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#instance_state_change_trigger IntegrationAwsServerless#instance_state_change_trigger}
   */
   readonly instanceStateChangeTrigger?: boolean | cdktf.IResolvable;
   /**
   * Is organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#is_organization IntegrationAwsServerless#is_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#is_organization IntegrationAwsServerless#is_organization}
   */
   readonly isOrganization?: boolean | cdktf.IResolvable;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#name IntegrationAwsServerless#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#name IntegrationAwsServerless#name}
   */
   readonly name: string;
   /**
   * AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#region IntegrationAwsServerless#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#region IntegrationAwsServerless#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#scan_configuration IntegrationAwsServerless#scan_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#scan_configuration IntegrationAwsServerless#scan_configuration}
   */
   readonly scanConfiguration: IntegrationAwsServerlessScanConfiguration;
   /**
   * Mondoo space identifier. If there is no ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#space_id IntegrationAwsServerless#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#space_id IntegrationAwsServerless#space_id}
   */
   readonly spaceId?: string;
 }
@@ -58,13 +58,13 @@ export interface IntegrationAwsServerlessScanConfigurationEc2ScanOptionsEbsScanO
   /**
   * Max ASG instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#max_asg_instances IntegrationAwsServerless#max_asg_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#max_asg_instances IntegrationAwsServerless#max_asg_instances}
   */
   readonly maxAsgInstances?: number;
   /**
   * Target instances per scanner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#target_instances_per_scanner IntegrationAwsServerless#target_instances_per_scanner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#target_instances_per_scanner IntegrationAwsServerless#target_instances_per_scanner}
   */
   readonly targetInstancesPerScanner?: number;
 }
@@ -187,61 +187,61 @@ export class IntegrationAwsServerlessScanConfigurationEc2ScanOptionsEbsScanOptio
 }
 export interface IntegrationAwsServerlessScanConfigurationEc2ScanOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ebs_scan_options IntegrationAwsServerless#ebs_scan_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ebs_scan_options IntegrationAwsServerless#ebs_scan_options}
   */
   readonly ebsScanOptions?: IntegrationAwsServerlessScanConfigurationEc2ScanOptionsEbsScanOptions;
   /**
   * Enable EBS volume scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ebs_volume_scan IntegrationAwsServerless#ebs_volume_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ebs_volume_scan IntegrationAwsServerless#ebs_volume_scan}
   */
   readonly ebsVolumeScan?: boolean | cdktf.IResolvable;
   /**
   * List of instance IDs to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#exclude_instance_ids_filter IntegrationAwsServerless#exclude_instance_ids_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#exclude_instance_ids_filter IntegrationAwsServerless#exclude_instance_ids_filter}
   */
   readonly excludeInstanceIdsFilter?: string[];
   /**
   * List of regions to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#exclude_regions_filter IntegrationAwsServerless#exclude_regions_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#exclude_regions_filter IntegrationAwsServerless#exclude_regions_filter}
   */
   readonly excludeRegionsFilter?: string[];
   /**
   * Excluded tags filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#exclude_tags_filter IntegrationAwsServerless#exclude_tags_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#exclude_tags_filter IntegrationAwsServerless#exclude_tags_filter}
   */
   readonly excludeTagsFilter?: { [key: string]: string };
   /**
   * Enable instance connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#instance_connect IntegrationAwsServerless#instance_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#instance_connect IntegrationAwsServerless#instance_connect}
   */
   readonly instanceConnect?: boolean | cdktf.IResolvable;
   /**
   * List of instance IDs filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#instance_ids_filter IntegrationAwsServerless#instance_ids_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#instance_ids_filter IntegrationAwsServerless#instance_ids_filter}
   */
   readonly instanceIdsFilter?: string[];
   /**
   * List of regions filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#regions_filter IntegrationAwsServerless#regions_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#regions_filter IntegrationAwsServerless#regions_filter}
   */
   readonly regionsFilter?: string[];
   /**
   * Enable SSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ssm IntegrationAwsServerless#ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ssm IntegrationAwsServerless#ssm}
   */
   readonly ssm?: boolean | cdktf.IResolvable;
   /**
   * Tags filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#tags_filter IntegrationAwsServerless#tags_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#tags_filter IntegrationAwsServerless#tags_filter}
   */
   readonly tagsFilter?: { [key: string]: string };
 }
@@ -598,19 +598,19 @@ export interface IntegrationAwsServerlessScanConfigurationEventScanTriggers {
   /**
   * Event detail type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#event_detail_type IntegrationAwsServerless#event_detail_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#event_detail_type IntegrationAwsServerless#event_detail_type}
   */
   readonly eventDetailType?: string;
   /**
   * Event source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#event_source IntegrationAwsServerless#event_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#event_source IntegrationAwsServerless#event_source}
   */
   readonly eventSource?: string;
   /**
   * Scan type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#scan_type IntegrationAwsServerless#scan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#scan_type IntegrationAwsServerless#scan_type}
   */
   readonly scanType?: string;
 }
@@ -764,13 +764,13 @@ export interface IntegrationAwsServerlessScanConfigurationVpcConfigurationVpcTag
   /**
   * Key of the VPC tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#key IntegrationAwsServerless#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#key IntegrationAwsServerless#key}
   */
   readonly key: string;
   /**
   * Value of the VPC tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#value IntegrationAwsServerless#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#value IntegrationAwsServerless#value}
   */
   readonly value: string;
 }
@@ -889,25 +889,25 @@ export interface IntegrationAwsServerlessScanConfigurationVpcConfiguration {
   /**
   * CIDR block for the Mondoo VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#cidr_block IntegrationAwsServerless#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#cidr_block IntegrationAwsServerless#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Use Mondoo VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#use_mondoo_vpc IntegrationAwsServerless#use_mondoo_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#use_mondoo_vpc IntegrationAwsServerless#use_mondoo_vpc}
   */
   readonly useMondooVpc?: boolean | cdktf.IResolvable;
   /**
   * VPC flavour, one of: DEFAULT_VPC, MONDOO_NATGW, MONDOO_IGW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#vpc_flavour IntegrationAwsServerless#vpc_flavour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#vpc_flavour IntegrationAwsServerless#vpc_flavour}
   */
   readonly vpcFlavour?: string;
   /**
   * VPC tag to use when vpc_flavour is set to CUSTOM_VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#vpc_tag IntegrationAwsServerless#vpc_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#vpc_tag IntegrationAwsServerless#vpc_tag}
   */
   readonly vpcTag?: IntegrationAwsServerlessScanConfigurationVpcConfigurationVpcTag;
 }
@@ -1090,37 +1090,37 @@ export interface IntegrationAwsServerlessScanConfiguration {
   /**
   * Cron scan in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#cron_scan_in_hours IntegrationAwsServerless#cron_scan_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#cron_scan_in_hours IntegrationAwsServerless#cron_scan_in_hours}
   */
   readonly cronScanInHours?: number;
   /**
   * Enable EC2 scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ec2_scan IntegrationAwsServerless#ec2_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ec2_scan IntegrationAwsServerless#ec2_scan}
   */
   readonly ec2Scan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ec2_scan_options IntegrationAwsServerless#ec2_scan_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ec2_scan_options IntegrationAwsServerless#ec2_scan_options}
   */
   readonly ec2ScanOptions: IntegrationAwsServerlessScanConfigurationEc2ScanOptions;
   /**
   * Enable ECR scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ecr_scan IntegrationAwsServerless#ecr_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ecr_scan IntegrationAwsServerless#ecr_scan}
   */
   readonly ecrScan?: boolean | cdktf.IResolvable;
   /**
   * Enable ECS scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#ecs_scan IntegrationAwsServerless#ecs_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#ecs_scan IntegrationAwsServerless#ecs_scan}
   */
   readonly ecsScan?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#event_scan_triggers IntegrationAwsServerless#event_scan_triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#event_scan_triggers IntegrationAwsServerless#event_scan_triggers}
   */
   readonly eventScanTriggers?: IntegrationAwsServerlessScanConfigurationEventScanTriggers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#vpc_configuration IntegrationAwsServerless#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#vpc_configuration IntegrationAwsServerless#vpc_configuration}
   */
   readonly vpcConfiguration?: IntegrationAwsServerlessScanConfigurationVpcConfiguration;
 }
@@ -1385,7 +1385,7 @@ export class IntegrationAwsServerlessScanConfigurationOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless mondoo_integration_aws_serverless}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless mondoo_integration_aws_serverless}
 */
 export class IntegrationAwsServerless extends cdktf.TerraformResource {
 
@@ -1401,7 +1401,7 @@ export class IntegrationAwsServerless extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAwsServerless resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAwsServerless to import
-  * @param importFromId The id of the existing IntegrationAwsServerless that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAwsServerless that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAwsServerless to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1413,7 +1413,7 @@ export class IntegrationAwsServerless extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_aws_serverless mondoo_integration_aws_serverless} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_aws_serverless mondoo_integration_aws_serverless} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1424,8 +1424,8 @@ export class IntegrationAwsServerless extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_aws_serverless',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

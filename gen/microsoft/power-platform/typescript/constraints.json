@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "power-platform": "3.9.1"
+    "power-platform": "4.0.0"
   }
 }

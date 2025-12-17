@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface ChronosphereProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#api_token ChronosphereProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#api_token ChronosphereProvider#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#disable_dryrun ChronosphereProvider#disable_dryrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#disable_dryrun ChronosphereProvider#disable_dryrun}
   */
   readonly disableDryrun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#entity_namespace ChronosphereProvider#entity_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#entity_namespace ChronosphereProvider#entity_namespace}
   */
   readonly entityNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#org ChronosphereProvider#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#org ChronosphereProvider#org}
   */
   readonly org: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#unstable ChronosphereProvider#unstable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#unstable ChronosphereProvider#unstable}
   */
   readonly unstable?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#alias ChronosphereProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#alias ChronosphereProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs chronosphere}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs chronosphere}
 */
 export class ChronosphereProvider extends cdktf.TerraformProvider {
 
@@ -52,7 +52,7 @@ export class ChronosphereProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ChronosphereProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChronosphereProvider to import
-  * @param importFromId The id of the existing ChronosphereProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChronosphereProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChronosphereProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class ChronosphereProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs chronosphere} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs chronosphere} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class ChronosphereProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'chronosphere',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       terraformProviderSource: 'chronosphereio/chronosphere'
     });

@@ -14,6 +14,7 @@ export * as ipRestriction from './ip-restriction';
 export * as reservedAddr from './reserved-addr';
 export * as reservedDomain from './reserved-domain';
 export * as secret from './secret';
+export * as serviceUser from './service-user';
 export * as sshCertificateAuthority from './ssh-certificate-authority';
 export * as sshCredential from './ssh-credential';
 export * as sshHostCertificate from './ssh-host-certificate';

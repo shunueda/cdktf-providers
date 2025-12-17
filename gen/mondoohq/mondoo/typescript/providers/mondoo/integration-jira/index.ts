@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface IntegrationJiraConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically close Jira issues for resolved Mondoo findings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#auto_close IntegrationJira#auto_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#auto_close IntegrationJira#auto_close}
   */
   readonly autoClose?: boolean | cdktf.IResolvable;
   /**
   * Automatically create Jira issues for Mondoo findings. This corresponds to the **'Create drift issues in this integration'** toggle in the Mondoo Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#auto_create IntegrationJira#auto_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#auto_create IntegrationJira#auto_create}
   */
   readonly autoCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#credentials IntegrationJira#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#credentials IntegrationJira#credentials}
   */
   readonly credentials: IntegrationJiraCredentials;
   /**
   * Default Jira project (represented by the project key, such as `SEC` or `SECURITY`). This corresponds to the **'Select a default drift issue destination'** dropdown in the Mondoo Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#default_project IntegrationJira#default_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#default_project IntegrationJira#default_project}
   */
   readonly defaultProject?: string;
   /**
   * Jira user email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#email IntegrationJira#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#email IntegrationJira#email}
   */
   readonly email: string;
   /**
   * Jira host URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#host IntegrationJira#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#host IntegrationJira#host}
   */
   readonly host: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#name IntegrationJira#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#name IntegrationJira#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#space_id IntegrationJira#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#space_id IntegrationJira#space_id}
   */
   readonly spaceId?: string;
 }
@@ -58,7 +58,7 @@ export interface IntegrationJiraCredentials {
   /**
   * Jira API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#token IntegrationJira#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#token IntegrationJira#token}
   */
   readonly token: string;
 }
@@ -149,7 +149,7 @@ export class IntegrationJiraCredentialsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira mondoo_integration_jira}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira mondoo_integration_jira}
 */
 export class IntegrationJira extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class IntegrationJira extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationJira resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationJira to import
-  * @param importFromId The id of the existing IntegrationJira that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationJira that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationJira to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class IntegrationJira extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_jira mondoo_integration_jira} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_jira mondoo_integration_jira} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class IntegrationJira extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_jira',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

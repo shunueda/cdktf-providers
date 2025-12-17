@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataPowerplatformConnectionSharesConfig extends cdktf.Terraform
   /**
   * Connection Id. The unique identifier of the connection that the shares are associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares#connection_id DataPowerplatformConnectionShares#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares#connection_id DataPowerplatformConnectionShares#connection_id}
   */
   readonly connectionId: string;
   /**
   * Connector Name. The unique identifier of the connector that the connection are associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares#connector_name DataPowerplatformConnectionShares#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares#connector_name DataPowerplatformConnectionShares#connector_name}
   */
   readonly connectorName: string;
   /**
   * Environment Id. The unique identifier of the environment that the connection are associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares#environment_id DataPowerplatformConnectionShares#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares#environment_id DataPowerplatformConnectionShares#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares#timeouts DataPowerplatformConnectionShares#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares#timeouts DataPowerplatformConnectionShares#timeouts}
   */
   readonly timeouts?: DataPowerplatformConnectionSharesTimeouts;
 }
@@ -179,7 +179,7 @@ export interface DataPowerplatformConnectionSharesTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares#read DataPowerplatformConnectionShares#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares#read DataPowerplatformConnectionShares#read}
   */
   readonly read?: string;
 }
@@ -273,7 +273,7 @@ export class DataPowerplatformConnectionSharesTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares powerplatform_connection_shares}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares powerplatform_connection_shares}
 */
 export class DataPowerplatformConnectionShares extends cdktf.TerraformDataSource {
 
@@ -289,7 +289,7 @@ export class DataPowerplatformConnectionShares extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataPowerplatformConnectionShares resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformConnectionShares to import
-  * @param importFromId The id of the existing DataPowerplatformConnectionShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformConnectionShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformConnectionShares to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class DataPowerplatformConnectionShares extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connection_shares powerplatform_connection_shares} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connection_shares powerplatform_connection_shares} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class DataPowerplatformConnectionShares extends cdktf.TerraformDataSource
       terraformResourceType: 'powerplatform_connection_shares',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

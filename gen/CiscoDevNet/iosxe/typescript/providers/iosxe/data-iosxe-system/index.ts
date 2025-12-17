@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/system
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIosxeSystemConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/system#device DataIosxeSystem#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/system#device DataIosxeSystem#device}
   */
   readonly device?: string;
 }
@@ -1103,7 +1103,7 @@ export class DataIosxeSystemTrackObjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/system iosxe_system}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/system iosxe_system}
 */
 export class DataIosxeSystem extends cdktf.TerraformDataSource {
 
@@ -1119,7 +1119,7 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeSystem to import
-  * @param importFromId The id of the existing DataIosxeSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1131,7 +1131,7 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/system iosxe_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/system iosxe_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1142,8 +1142,8 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_system',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1311,6 +1311,26 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // igmp_snooping_querier - computed: true, optional: false, required: false
+  public get igmpSnoopingQuerier() {
+    return this.getBooleanAttribute('igmp_snooping_querier');
+  }
+
+  // igmp_snooping_querier_max_response_time - computed: true, optional: false, required: false
+  public get igmpSnoopingQuerierMaxResponseTime() {
+    return this.getNumberAttribute('igmp_snooping_querier_max_response_time');
+  }
+
+  // igmp_snooping_querier_timer_expiry - computed: true, optional: false, required: false
+  public get igmpSnoopingQuerierTimerExpiry() {
+    return this.getNumberAttribute('igmp_snooping_querier_timer_expiry');
+  }
+
+  // igmp_snooping_querier_version - computed: true, optional: false, required: false
+  public get igmpSnoopingQuerierVersion() {
+    return this.getNumberAttribute('igmp_snooping_querier_version');
   }
 
   // ip_bgp_community_new_format - computed: true, optional: false, required: false
@@ -1743,6 +1763,21 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
     return this.getStringAttribute('ip_tacacs_source_interface_vrf');
   }
 
+  // ip_tcp_mss - computed: true, optional: false, required: false
+  public get ipTcpMss() {
+    return this.getNumberAttribute('ip_tcp_mss');
+  }
+
+  // ip_tcp_path_mtu_discovery - computed: true, optional: false, required: false
+  public get ipTcpPathMtuDiscovery() {
+    return this.getBooleanAttribute('ip_tcp_path_mtu_discovery');
+  }
+
+  // ip_tcp_window_size - computed: true, optional: false, required: false
+  public get ipTcpWindowSize() {
+    return this.getNumberAttribute('ip_tcp_window_size');
+  }
+
   // ipv6_cef_load_sharing_algorithm_include_ports_destination - computed: true, optional: false, required: false
   public get ipv6CefLoadSharingAlgorithmIncludePortsDestination() {
     return this.getBooleanAttribute('ipv6_cef_load_sharing_algorithm_include_ports_destination');
@@ -1791,6 +1826,16 @@ export class DataIosxeSystem extends cdktf.TerraformDataSource {
   // memory_free_low_watermark_processor - computed: true, optional: false, required: false
   public get memoryFreeLowWatermarkProcessor() {
     return this.getNumberAttribute('memory_free_low_watermark_processor');
+  }
+
+  // mld_snooping - computed: true, optional: false, required: false
+  public get mldSnooping() {
+    return this.getBooleanAttribute('mld_snooping');
+  }
+
+  // mld_snooping_querier - computed: true, optional: false, required: false
+  public get mldSnoopingQuerier() {
+    return this.getBooleanAttribute('mld_snooping_querier');
   }
 
   // mtu - computed: true, optional: false, required: false

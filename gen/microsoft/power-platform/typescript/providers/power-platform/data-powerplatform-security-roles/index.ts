@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataPowerplatformSecurityRolesConfig extends cdktf.TerraformMet
   /**
   * Id of the business unit to filter the security roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles#business_unit_id DataPowerplatformSecurityRoles#business_unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles#business_unit_id DataPowerplatformSecurityRoles#business_unit_id}
   */
   readonly businessUnitId?: string;
   /**
   * Id of the Dynamics 365 environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles#environment_id DataPowerplatformSecurityRoles#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles#environment_id DataPowerplatformSecurityRoles#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles#timeouts DataPowerplatformSecurityRoles#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles#timeouts DataPowerplatformSecurityRoles#timeouts}
   */
   readonly timeouts?: DataPowerplatformSecurityRolesTimeouts;
 }
@@ -118,7 +118,7 @@ export interface DataPowerplatformSecurityRolesTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles#read DataPowerplatformSecurityRoles#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles#read DataPowerplatformSecurityRoles#read}
   */
   readonly read?: string;
 }
@@ -212,7 +212,7 @@ export class DataPowerplatformSecurityRolesTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles powerplatform_security_roles}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles powerplatform_security_roles}
 */
 export class DataPowerplatformSecurityRoles extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataPowerplatformSecurityRoles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformSecurityRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformSecurityRoles to import
-  * @param importFromId The id of the existing DataPowerplatformSecurityRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformSecurityRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformSecurityRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataPowerplatformSecurityRoles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_security_roles powerplatform_security_roles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_security_roles powerplatform_security_roles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataPowerplatformSecurityRoles extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_security_roles',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

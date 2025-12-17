@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataIosxeOspfVrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf#device DataIosxeOspfVrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf#device DataIosxeOspfVrf#device}
   */
   readonly device?: string;
   /**
   * Process ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf#process_id DataIosxeOspfVrf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf#process_id DataIosxeOspfVrf#process_id}
   */
   readonly processId: number;
   /**
   * VPN Routing/Forwarding Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf#vrf DataIosxeOspfVrf#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf#vrf DataIosxeOspfVrf#vrf}
   */
   readonly vrf: string;
 }
@@ -1438,7 +1438,7 @@ export class DataIosxeOspfVrfSummaryAddressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf iosxe_ospf_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf iosxe_ospf_vrf}
 */
 export class DataIosxeOspfVrf extends cdktf.TerraformDataSource {
 
@@ -1454,7 +1454,7 @@ export class DataIosxeOspfVrf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeOspfVrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeOspfVrf to import
-  * @param importFromId The id of the existing DataIosxeOspfVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeOspfVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeOspfVrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1466,7 +1466,7 @@ export class DataIosxeOspfVrf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/ospf_vrf iosxe_ospf_vrf} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/ospf_vrf iosxe_ospf_vrf} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1477,8 +1477,8 @@ export class DataIosxeOspfVrf extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_ospf_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

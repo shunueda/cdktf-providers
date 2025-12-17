@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface SystemreportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#archive_ref Systemreport#archive_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#archive_ref Systemreport#archive_ref}
   */
   readonly archiveRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#controller_patch_image_ref Systemreport#controller_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#controller_patch_image_ref Systemreport#controller_patch_image_ref}
   */
   readonly controllerPatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#downloadable Systemreport#downloadable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#downloadable Systemreport#downloadable}
   */
   readonly downloadable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#id Systemreport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#id Systemreport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#image_ref Systemreport#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#image_ref Systemreport#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#name Systemreport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#name Systemreport#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#se_patch_image_ref Systemreport#se_patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#se_patch_image_ref Systemreport#se_patch_image_ref}
   */
   readonly sePatchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#tenant_ref Systemreport#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#tenant_ref Systemreport#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#uuid Systemreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#uuid Systemreport#uuid}
   */
   readonly uuid?: string;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#events Systemreport#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#events Systemreport#events}
   */
   readonly events?: SystemreportEvents[] | cdktf.IResolvable;
   /**
   * readiness_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#readiness_reports Systemreport#readiness_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#readiness_reports Systemreport#readiness_reports}
   */
   readonly readinessReports?: SystemreportReadinessReports[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: SystemreportState[] | cdktf.IResolvable;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#summary Systemreport#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#summary Systemreport#summary}
   */
   readonly summary?: SystemreportSummary[] | cdktf.IResolvable;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#tasks Systemreport#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#tasks Systemreport#tasks}
   */
   readonly tasks?: SystemreportTasks[] | cdktf.IResolvable;
 }
 export interface SystemreportEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#event_name Systemreport#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#event_name Systemreport#event_name}
   */
   readonly eventName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#messages Systemreport#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#messages Systemreport#messages}
   */
   readonly messages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#status Systemreport#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#status Systemreport#status}
   */
   readonly status?: string;
 }
@@ -360,35 +360,35 @@ export class SystemreportEventsList extends cdktf.ComplexList {
 }
 export interface SystemreportReadinessReportsSystemReadinessChecks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#check_code Systemreport#check_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#check_code Systemreport#check_code}
   */
   readonly checkCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#description Systemreport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#description Systemreport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#details Systemreport#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#details Systemreport#details}
   */
   readonly details?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#error_details Systemreport#error_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#error_details Systemreport#error_details}
   */
   readonly errorDetails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: string;
 }
@@ -707,11 +707,11 @@ export class SystemreportReadinessReportsSystemReadinessChecksList extends cdktf
 }
 export interface SystemreportReadinessReportsSystemReadinessStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#secs Systemreport#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#secs Systemreport#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#usecs Systemreport#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#usecs Systemreport#usecs}
   */
   readonly usecs: string;
 }
@@ -850,21 +850,21 @@ export class SystemreportReadinessReportsSystemReadinessStateLastChangedTimeList
 }
 export interface SystemreportReadinessReportsSystemReadinessState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#rebooted Systemreport#rebooted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#rebooted Systemreport#rebooted}
   */
   readonly rebooted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
   */
   readonly lastChangedTime?: SystemreportReadinessReportsSystemReadinessStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -1067,47 +1067,47 @@ export class SystemreportReadinessReportsSystemReadinessStateList extends cdktf.
 }
 export interface SystemreportReadinessReportsSystemReadiness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#checks_completed Systemreport#checks_completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#checks_completed Systemreport#checks_completed}
   */
   readonly checksCompleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#image_ref Systemreport#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#image_ref Systemreport#image_ref}
   */
   readonly imageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#patch_image_ref Systemreport#patch_image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#patch_image_ref Systemreport#patch_image_ref}
   */
   readonly patchImageRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#total_checks Systemreport#total_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#total_checks Systemreport#total_checks}
   */
   readonly totalChecks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#upgrade_ops Systemreport#upgrade_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#upgrade_ops Systemreport#upgrade_ops}
   */
   readonly upgradeOps?: string;
   /**
   * checks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#checks Systemreport#checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#checks Systemreport#checks}
   */
   readonly checks?: SystemreportReadinessReportsSystemReadinessChecks[] | cdktf.IResolvable;
   /**
   * state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: SystemreportReadinessReportsSystemReadinessState[] | cdktf.IResolvable;
 }
@@ -1484,25 +1484,25 @@ export class SystemreportReadinessReportsSystemReadinessList extends cdktf.Compl
 }
 export interface SystemreportReadinessReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#name Systemreport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#name Systemreport#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#node_ref Systemreport#node_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#node_ref Systemreport#node_ref}
   */
   readonly nodeRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#node_type Systemreport#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#node_type Systemreport#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#obj_cloud_ref Systemreport#obj_cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#obj_cloud_ref Systemreport#obj_cloud_ref}
   */
   readonly objCloudRef?: string;
   /**
   * system_readiness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#system_readiness Systemreport#system_readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#system_readiness Systemreport#system_readiness}
   */
   readonly systemReadiness?: SystemreportReadinessReportsSystemReadiness[] | cdktf.IResolvable;
 }
@@ -1734,11 +1734,11 @@ export class SystemreportReadinessReportsList extends cdktf.ComplexList {
 }
 export interface SystemreportStateLastChangedTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#secs Systemreport#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#secs Systemreport#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#usecs Systemreport#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#usecs Systemreport#usecs}
   */
   readonly usecs: string;
 }
@@ -1877,17 +1877,17 @@ export class SystemreportStateLastChangedTimeList extends cdktf.ComplexList {
 }
 export interface SystemreportState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#state Systemreport#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#state Systemreport#state}
   */
   readonly state?: string;
   /**
   * last_changed_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#last_changed_time Systemreport#last_changed_time}
   */
   readonly lastChangedTime?: SystemreportStateLastChangedTime[] | cdktf.IResolvable;
 }
@@ -2061,15 +2061,15 @@ export class SystemreportStateList extends cdktf.ComplexList {
 }
 export interface SystemreportSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#description Systemreport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#description Systemreport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#previews Systemreport#previews}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#previews Systemreport#previews}
   */
   readonly previews?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#title Systemreport#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#title Systemreport#title}
   */
   readonly title?: string;
 }
@@ -2243,35 +2243,35 @@ export class SystemreportSummaryList extends cdktf.ComplexList {
 }
 export interface SystemreportTasksSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#description Systemreport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#description Systemreport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#duration Systemreport#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#duration Systemreport#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#end_time Systemreport#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#end_time Systemreport#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#error_count Systemreport#error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#error_count Systemreport#error_count}
   */
   readonly errorCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#start_time Systemreport#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#start_time Systemreport#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#status Systemreport#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#status Systemreport#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#type Systemreport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#type Systemreport#type}
   */
   readonly type: string;
 }
@@ -2587,21 +2587,21 @@ export class SystemreportTasksSummaryList extends cdktf.ComplexList {
 }
 export interface SystemreportTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#name Systemreport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#name Systemreport#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#reason Systemreport#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#reason Systemreport#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#task_journal_ref Systemreport#task_journal_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#task_journal_ref Systemreport#task_journal_ref}
   */
   readonly taskJournalRef?: string;
   /**
   * summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#summary Systemreport#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#summary Systemreport#summary}
   */
   readonly summary?: SystemreportTasksSummary[] | cdktf.IResolvable;
 }
@@ -2801,7 +2801,7 @@ export class SystemreportTasksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport avi_systemreport}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport avi_systemreport}
 */
 export class Systemreport extends cdktf.TerraformResource {
 
@@ -2817,7 +2817,7 @@ export class Systemreport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemreport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemreport to import
-  * @param importFromId The id of the existing Systemreport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemreport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemreport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2829,7 +2829,7 @@ export class Systemreport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemreport avi_systemreport} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemreport avi_systemreport} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2840,8 +2840,8 @@ export class Systemreport extends cdktf.TerraformResource {
       terraformResourceType: 'avi_systemreport',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

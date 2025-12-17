@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,262 +8,262 @@ import * as cdktf from 'cdktf';
 
 export interface CvoAwsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#assume_role_arn CvoAws#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#assume_role_arn CvoAws#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#aws_encryption_kms_key_arn CvoAws#aws_encryption_kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#aws_encryption_kms_key_arn CvoAws#aws_encryption_kms_key_arn}
   */
   readonly awsEncryptionKmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#aws_encryption_kms_key_id CvoAws#aws_encryption_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#aws_encryption_kms_key_id CvoAws#aws_encryption_kms_key_id}
   */
   readonly awsEncryptionKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#backup_volumes_to_cbs CvoAws#backup_volumes_to_cbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#backup_volumes_to_cbs CvoAws#backup_volumes_to_cbs}
   */
   readonly backupVolumesToCbs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#capacity_package_name CvoAws#capacity_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#capacity_package_name CvoAws#capacity_package_name}
   */
   readonly capacityPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#capacity_tier CvoAws#capacity_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#capacity_tier CvoAws#capacity_tier}
   */
   readonly capacityTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#client_id CvoAws#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#client_id CvoAws#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#cloud_provider_account CvoAws#cloud_provider_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#cloud_provider_account CvoAws#cloud_provider_account}
   */
   readonly cloudProviderAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#cluster_floating_ip CvoAws#cluster_floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#cluster_floating_ip CvoAws#cluster_floating_ip}
   */
   readonly clusterFloatingIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#cluster_key_pair_name CvoAws#cluster_key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#cluster_key_pair_name CvoAws#cluster_key_pair_name}
   */
   readonly clusterKeyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#data_encryption_type CvoAws#data_encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#data_encryption_type CvoAws#data_encryption_type}
   */
   readonly dataEncryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#data_floating_ip CvoAws#data_floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#data_floating_ip CvoAws#data_floating_ip}
   */
   readonly dataFloatingIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#data_floating_ip2 CvoAws#data_floating_ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#data_floating_ip2 CvoAws#data_floating_ip2}
   */
   readonly dataFloatingIp2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#ebs_volume_size CvoAws#ebs_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#ebs_volume_size CvoAws#ebs_volume_size}
   */
   readonly ebsVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#ebs_volume_size_unit CvoAws#ebs_volume_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#ebs_volume_size_unit CvoAws#ebs_volume_size_unit}
   */
   readonly ebsVolumeSizeUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#ebs_volume_type CvoAws#ebs_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#ebs_volume_type CvoAws#ebs_volume_type}
   */
   readonly ebsVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#enable_compliance CvoAws#enable_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#enable_compliance CvoAws#enable_compliance}
   */
   readonly enableCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#enable_monitoring CvoAws#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#enable_monitoring CvoAws#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#failover_mode CvoAws#failover_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#failover_mode CvoAws#failover_mode}
   */
   readonly failoverMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#id CvoAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#id CvoAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#instance_profile_name CvoAws#instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#instance_profile_name CvoAws#instance_profile_name}
   */
   readonly instanceProfileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#instance_tenancy CvoAws#instance_tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#instance_tenancy CvoAws#instance_tenancy}
   */
   readonly instanceTenancy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#instance_type CvoAws#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#instance_type CvoAws#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#iops CvoAws#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#iops CvoAws#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#is_ha CvoAws#is_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#is_ha CvoAws#is_ha}
   */
   readonly isHa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#license_type CvoAws#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#license_type CvoAws#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#mediator_assign_public_ip CvoAws#mediator_assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#mediator_assign_public_ip CvoAws#mediator_assign_public_ip}
   */
   readonly mediatorAssignPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#mediator_instance_profile_name CvoAws#mediator_instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#mediator_instance_profile_name CvoAws#mediator_instance_profile_name}
   */
   readonly mediatorInstanceProfileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#mediator_key_pair_name CvoAws#mediator_key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#mediator_key_pair_name CvoAws#mediator_key_pair_name}
   */
   readonly mediatorKeyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#mediator_security_group_id CvoAws#mediator_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#mediator_security_group_id CvoAws#mediator_security_group_id}
   */
   readonly mediatorSecurityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#mediator_subnet_id CvoAws#mediator_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#mediator_subnet_id CvoAws#mediator_subnet_id}
   */
   readonly mediatorSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#name CvoAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#name CvoAws#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#node1_subnet_id CvoAws#node1_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#node1_subnet_id CvoAws#node1_subnet_id}
   */
   readonly node1SubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#node2_subnet_id CvoAws#node2_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#node2_subnet_id CvoAws#node2_subnet_id}
   */
   readonly node2SubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#nss_account CvoAws#nss_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#nss_account CvoAws#nss_account}
   */
   readonly nssAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#ontap_version CvoAws#ontap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#ontap_version CvoAws#ontap_version}
   */
   readonly ontapVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#open_security_group CvoAws#open_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#open_security_group CvoAws#open_security_group}
   */
   readonly openSecurityGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#optimized_network_utilization CvoAws#optimized_network_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#optimized_network_utilization CvoAws#optimized_network_utilization}
   */
   readonly optimizedNetworkUtilization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#platform_serial_number CvoAws#platform_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#platform_serial_number CvoAws#platform_serial_number}
   */
   readonly platformSerialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#platform_serial_number_node1 CvoAws#platform_serial_number_node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#platform_serial_number_node1 CvoAws#platform_serial_number_node1}
   */
   readonly platformSerialNumberNode1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#platform_serial_number_node2 CvoAws#platform_serial_number_node2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#platform_serial_number_node2 CvoAws#platform_serial_number_node2}
   */
   readonly platformSerialNumberNode2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#provided_license CvoAws#provided_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#provided_license CvoAws#provided_license}
   */
   readonly providedLicense?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#region CvoAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#region CvoAws#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#retries CvoAws#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#retries CvoAws#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#route_table_ids CvoAws#route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#route_table_ids CvoAws#route_table_ids}
   */
   readonly routeTableIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#saas_subscription_id CvoAws#saas_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#saas_subscription_id CvoAws#saas_subscription_id}
   */
   readonly saasSubscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#security_group_id CvoAws#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#security_group_id CvoAws#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#subnet_id CvoAws#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#subnet_id CvoAws#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#svm_floating_ip CvoAws#svm_floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#svm_floating_ip CvoAws#svm_floating_ip}
   */
   readonly svmFloatingIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#svm_name CvoAws#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#svm_name CvoAws#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#svm_password CvoAws#svm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#svm_password CvoAws#svm_password}
   */
   readonly svmPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#throughput CvoAws#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#throughput CvoAws#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#tier_level CvoAws#tier_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#tier_level CvoAws#tier_level}
   */
   readonly tierLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#upgrade_ontap_version CvoAws#upgrade_ontap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#upgrade_ontap_version CvoAws#upgrade_ontap_version}
   */
   readonly upgradeOntapVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#use_latest_version CvoAws#use_latest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#use_latest_version CvoAws#use_latest_version}
   */
   readonly useLatestVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#vpc_id CvoAws#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#vpc_id CvoAws#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#workspace_id CvoAws#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#workspace_id CvoAws#workspace_id}
   */
   readonly workspaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#worm_retention_period_length CvoAws#worm_retention_period_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#worm_retention_period_length CvoAws#worm_retention_period_length}
   */
   readonly wormRetentionPeriodLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#worm_retention_period_unit CvoAws#worm_retention_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#worm_retention_period_unit CvoAws#worm_retention_period_unit}
   */
   readonly wormRetentionPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#writing_speed_state CvoAws#writing_speed_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#writing_speed_state CvoAws#writing_speed_state}
   */
   readonly writingSpeedState?: string;
   /**
   * aws_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#aws_tag CvoAws#aws_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#aws_tag CvoAws#aws_tag}
   */
   readonly awsTag?: CvoAwsAwsTag[] | cdktf.IResolvable;
 }
 export interface CvoAwsAwsTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#tag_key CvoAws#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#tag_key CvoAws#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#tag_value CvoAws#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#tag_value CvoAws#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -405,7 +405,7 @@ export class CvoAwsAwsTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws netapp-cloudmanager_cvo_aws}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws netapp-cloudmanager_cvo_aws}
 */
 export class CvoAws extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class CvoAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvoAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvoAws to import
-  * @param importFromId The id of the existing CvoAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvoAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvoAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class CvoAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_aws netapp-cloudmanager_cvo_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_aws netapp-cloudmanager_cvo_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class CvoAws extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_cvo_aws',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

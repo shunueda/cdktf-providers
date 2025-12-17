@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "onepassword": "3.0.0"
+    "onepassword": "3.0.1"
   }
 }

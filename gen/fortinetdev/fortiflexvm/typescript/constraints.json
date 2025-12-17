@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "fortiflexvm": "2.4.3"
+    "fortiflexvm": "2.4.4"
   }
 }

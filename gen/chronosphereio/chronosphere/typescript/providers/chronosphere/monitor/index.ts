@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface MonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#annotations Monitor#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#annotations Monitor#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#bucket_id Monitor#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#bucket_id Monitor#bucket_id}
   */
   readonly bucketId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#collection_id Monitor#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#collection_id Monitor#collection_id}
   */
   readonly collectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#id Monitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#id Monitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#interval Monitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#interval Monitor#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#labels Monitor#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#labels Monitor#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#name Monitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#name Monitor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#notification_policy_id Monitor#notification_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#notification_policy_id Monitor#notification_policy_id}
   */
   readonly notificationPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#slug Monitor#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#slug Monitor#slug}
   */
   readonly slug?: string;
   /**
   * query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#query Monitor#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#query Monitor#query}
   */
   readonly query: MonitorQuery;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#schedule Monitor#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#schedule Monitor#schedule}
   */
   readonly schedule?: MonitorSchedule;
   /**
   * series_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#series_conditions Monitor#series_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#series_conditions Monitor#series_conditions}
   */
   readonly seriesConditions: MonitorSeriesConditions;
   /**
   * signal_grouping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#signal_grouping Monitor#signal_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#signal_grouping Monitor#signal_grouping}
   */
   readonly signalGrouping?: MonitorSignalGrouping;
 }
 export interface MonitorQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#graphite_expr Monitor#graphite_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#graphite_expr Monitor#graphite_expr}
   */
   readonly graphiteExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#logging_expr Monitor#logging_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#logging_expr Monitor#logging_expr}
   */
   readonly loggingExpr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#prometheus_expr Monitor#prometheus_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#prometheus_expr Monitor#prometheus_expr}
   */
   readonly prometheusExpr?: string;
 }
@@ -223,15 +223,15 @@ export class MonitorQueryOutputReference extends cdktf.ComplexObject {
 }
 export interface MonitorScheduleRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#day Monitor#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#day Monitor#day}
   */
   readonly day: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#end Monitor#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#end Monitor#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#start Monitor#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#start Monitor#start}
   */
   readonly start: string;
 }
@@ -396,13 +396,13 @@ export class MonitorScheduleRangeList extends cdktf.ComplexList {
 }
 export interface MonitorSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#timezone Monitor#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#timezone Monitor#timezone}
   */
   readonly timezone: string;
   /**
   * range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#range Monitor#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#range Monitor#range}
   */
   readonly range?: MonitorScheduleRange[] | cdktf.IResolvable;
 }
@@ -512,23 +512,23 @@ export class MonitorScheduleOutputReference extends cdktf.ComplexObject {
 }
 export interface MonitorSeriesConditionsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#op Monitor#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#op Monitor#op}
   */
   readonly op: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#resolve_sustain Monitor#resolve_sustain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#resolve_sustain Monitor#resolve_sustain}
   */
   readonly resolveSustain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#severity Monitor#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#severity Monitor#severity}
   */
   readonly severity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#sustain Monitor#sustain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#sustain Monitor#sustain}
   */
   readonly sustain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#value Monitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#value Monitor#value}
   */
   readonly value?: number;
 }
@@ -754,23 +754,23 @@ export class MonitorSeriesConditionsConditionList extends cdktf.ComplexList {
 }
 export interface MonitorSeriesConditionsOverrideCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#op Monitor#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#op Monitor#op}
   */
   readonly op: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#resolve_sustain Monitor#resolve_sustain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#resolve_sustain Monitor#resolve_sustain}
   */
   readonly resolveSustain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#severity Monitor#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#severity Monitor#severity}
   */
   readonly severity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#sustain Monitor#sustain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#sustain Monitor#sustain}
   */
   readonly sustain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#value Monitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#value Monitor#value}
   */
   readonly value?: number;
 }
@@ -996,15 +996,15 @@ export class MonitorSeriesConditionsOverrideConditionList extends cdktf.ComplexL
 }
 export interface MonitorSeriesConditionsOverrideLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#name Monitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#name Monitor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#type Monitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#type Monitor#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#value Monitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#value Monitor#value}
   */
   readonly value: string;
 }
@@ -1171,13 +1171,13 @@ export interface MonitorSeriesConditionsOverride {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#condition Monitor#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#condition Monitor#condition}
   */
   readonly condition: MonitorSeriesConditionsOverrideCondition[] | cdktf.IResolvable;
   /**
   * label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#label_matcher Monitor#label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#label_matcher Monitor#label_matcher}
   */
   readonly labelMatcher: MonitorSeriesConditionsOverrideLabelMatcher[] | cdktf.IResolvable;
 }
@@ -1318,13 +1318,13 @@ export interface MonitorSeriesConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#condition Monitor#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#condition Monitor#condition}
   */
   readonly condition: MonitorSeriesConditionsCondition[] | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#override Monitor#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#override Monitor#override}
   */
   readonly override?: MonitorSeriesConditionsOverride[] | cdktf.IResolvable;
 }
@@ -1434,11 +1434,11 @@ export class MonitorSeriesConditionsOutputReference extends cdktf.ComplexObject 
 }
 export interface MonitorSignalGrouping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#label_names Monitor#label_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#label_names Monitor#label_names}
   */
   readonly labelNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#signal_per_series Monitor#signal_per_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#signal_per_series Monitor#signal_per_series}
   */
   readonly signalPerSeries?: boolean | cdktf.IResolvable;
 }
@@ -1551,7 +1551,7 @@ export class MonitorSignalGroupingOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor chronosphere_monitor}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor chronosphere_monitor}
 */
 export class Monitor extends cdktf.TerraformResource {
 
@@ -1567,7 +1567,7 @@ export class Monitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Monitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Monitor to import
-  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Monitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Monitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1579,7 +1579,7 @@ export class Monitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/monitor chronosphere_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/monitor chronosphere_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1590,8 +1590,8 @@ export class Monitor extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_monitor',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

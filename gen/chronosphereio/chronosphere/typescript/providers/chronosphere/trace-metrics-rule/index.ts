@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface TraceMetricsRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#histogram_buckets_seconds TraceMetricsRule#histogram_buckets_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#histogram_buckets_seconds TraceMetricsRule#histogram_buckets_seconds}
   */
   readonly histogramBucketsSeconds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#id TraceMetricsRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#id TraceMetricsRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#metric_labels TraceMetricsRule#metric_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#metric_labels TraceMetricsRule#metric_labels}
   */
   readonly metricLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#metric_name TraceMetricsRule#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#metric_name TraceMetricsRule#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#name TraceMetricsRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#name TraceMetricsRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#slug TraceMetricsRule#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#slug TraceMetricsRule#slug}
   */
   readonly slug?: string;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#group_by TraceMetricsRule#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#group_by TraceMetricsRule#group_by}
   */
   readonly groupBy?: TraceMetricsRuleGroupBy[] | cdktf.IResolvable;
   /**
   * trace_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#trace_filter TraceMetricsRule#trace_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#trace_filter TraceMetricsRule#trace_filter}
   */
   readonly traceFilter: TraceMetricsRuleTraceFilter;
 }
 export interface TraceMetricsRuleGroupByKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#named_key TraceMetricsRule#named_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#named_key TraceMetricsRule#named_key}
   */
   readonly namedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#type TraceMetricsRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#type TraceMetricsRule#type}
   */
   readonly type: string;
 }
@@ -163,13 +163,13 @@ export class TraceMetricsRuleGroupByKeyOutputReference extends cdktf.ComplexObje
 }
 export interface TraceMetricsRuleGroupBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#label TraceMetricsRule#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#label TraceMetricsRule#label}
   */
   readonly label: string;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#key TraceMetricsRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#key TraceMetricsRule#key}
   */
   readonly key: TraceMetricsRuleGroupByKey;
 }
@@ -308,11 +308,11 @@ export class TraceMetricsRuleGroupByList extends cdktf.ComplexList {
 }
 export interface TraceMetricsRuleTraceFilterSpanDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#max_secs TraceMetricsRule#max_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#max_secs TraceMetricsRule#max_secs}
   */
   readonly maxSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#min_secs TraceMetricsRule#min_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#min_secs TraceMetricsRule#min_secs}
   */
   readonly minSecs?: number;
 }
@@ -425,7 +425,7 @@ export class TraceMetricsRuleTraceFilterSpanDurationOutputReference extends cdkt
 }
 export interface TraceMetricsRuleTraceFilterSpanError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -506,7 +506,7 @@ export class TraceMetricsRuleTraceFilterSpanErrorOutputReference extends cdktf.C
 }
 export interface TraceMetricsRuleTraceFilterSpanIsRootSpan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -587,15 +587,15 @@ export class TraceMetricsRuleTraceFilterSpanIsRootSpanOutputReference extends cd
 }
 export interface TraceMetricsRuleTraceFilterSpanOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value?: string;
 }
@@ -737,15 +737,15 @@ export class TraceMetricsRuleTraceFilterSpanOperationOutputReference extends cdk
 }
 export interface TraceMetricsRuleTraceFilterSpanParentOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value?: string;
 }
@@ -887,15 +887,15 @@ export class TraceMetricsRuleTraceFilterSpanParentOperationOutputReference exten
 }
 export interface TraceMetricsRuleTraceFilterSpanParentService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value?: string;
 }
@@ -1037,15 +1037,15 @@ export class TraceMetricsRuleTraceFilterSpanParentServiceOutputReference extends
 }
 export interface TraceMetricsRuleTraceFilterSpanService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value?: string;
 }
@@ -1187,11 +1187,11 @@ export class TraceMetricsRuleTraceFilterSpanServiceOutputReference extends cdktf
 }
 export interface TraceMetricsRuleTraceFilterSpanSpanCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#max TraceMetricsRule#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#max TraceMetricsRule#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#min TraceMetricsRule#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#min TraceMetricsRule#min}
   */
   readonly min?: number;
 }
@@ -1304,11 +1304,11 @@ export class TraceMetricsRuleTraceFilterSpanSpanCountOutputReference extends cdk
 }
 export interface TraceMetricsRuleTraceFilterSpanTagNumericValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#comparison TraceMetricsRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#comparison TraceMetricsRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value: number;
 }
@@ -1415,15 +1415,15 @@ export class TraceMetricsRuleTraceFilterSpanTagNumericValueOutputReference exten
 }
 export interface TraceMetricsRuleTraceFilterSpanTagValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#in_values TraceMetricsRule#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#match TraceMetricsRule#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value?: string;
 }
@@ -1565,19 +1565,19 @@ export class TraceMetricsRuleTraceFilterSpanTagValueOutputReference extends cdkt
 }
 export interface TraceMetricsRuleTraceFilterSpanTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#key TraceMetricsRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#key TraceMetricsRule#key}
   */
   readonly key?: string;
   /**
   * numeric_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#numeric_value TraceMetricsRule#numeric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#numeric_value TraceMetricsRule#numeric_value}
   */
   readonly numericValue?: TraceMetricsRuleTraceFilterSpanTagNumericValue;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value?: TraceMetricsRuleTraceFilterSpanTagValue;
 }
@@ -1751,61 +1751,61 @@ export class TraceMetricsRuleTraceFilterSpanTagList extends cdktf.ComplexList {
 }
 export interface TraceMetricsRuleTraceFilterSpan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#match_type TraceMetricsRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#match_type TraceMetricsRule#match_type}
   */
   readonly matchType?: string;
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#duration TraceMetricsRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#duration TraceMetricsRule#duration}
   */
   readonly duration?: TraceMetricsRuleTraceFilterSpanDuration;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#error TraceMetricsRule#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#error TraceMetricsRule#error}
   */
   readonly error?: TraceMetricsRuleTraceFilterSpanError;
   /**
   * is_root_span block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#is_root_span TraceMetricsRule#is_root_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#is_root_span TraceMetricsRule#is_root_span}
   */
   readonly isRootSpan?: TraceMetricsRuleTraceFilterSpanIsRootSpan;
   /**
   * operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#operation TraceMetricsRule#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#operation TraceMetricsRule#operation}
   */
   readonly operation?: TraceMetricsRuleTraceFilterSpanOperation;
   /**
   * parent_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#parent_operation TraceMetricsRule#parent_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#parent_operation TraceMetricsRule#parent_operation}
   */
   readonly parentOperation?: TraceMetricsRuleTraceFilterSpanParentOperation;
   /**
   * parent_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#parent_service TraceMetricsRule#parent_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#parent_service TraceMetricsRule#parent_service}
   */
   readonly parentService?: TraceMetricsRuleTraceFilterSpanParentService;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#service TraceMetricsRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#service TraceMetricsRule#service}
   */
   readonly service?: TraceMetricsRuleTraceFilterSpanService;
   /**
   * span_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#span_count TraceMetricsRule#span_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#span_count TraceMetricsRule#span_count}
   */
   readonly spanCount?: TraceMetricsRuleTraceFilterSpanSpanCount;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#tag TraceMetricsRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#tag TraceMetricsRule#tag}
   */
   readonly tag?: TraceMetricsRuleTraceFilterSpanTag[] | cdktf.IResolvable;
 }
@@ -2182,11 +2182,11 @@ export class TraceMetricsRuleTraceFilterSpanList extends cdktf.ComplexList {
 }
 export interface TraceMetricsRuleTraceFilterTraceDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#max_secs TraceMetricsRule#max_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#max_secs TraceMetricsRule#max_secs}
   */
   readonly maxSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#min_secs TraceMetricsRule#min_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#min_secs TraceMetricsRule#min_secs}
   */
   readonly minSecs?: number;
 }
@@ -2299,7 +2299,7 @@ export class TraceMetricsRuleTraceFilterTraceDurationOutputReference extends cdk
 }
 export interface TraceMetricsRuleTraceFilterTraceError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#value TraceMetricsRule#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2382,13 +2382,13 @@ export interface TraceMetricsRuleTraceFilterTrace {
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#duration TraceMetricsRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#duration TraceMetricsRule#duration}
   */
   readonly duration?: TraceMetricsRuleTraceFilterTraceDuration;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#error TraceMetricsRule#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#error TraceMetricsRule#error}
   */
   readonly error?: TraceMetricsRuleTraceFilterTraceError;
 }
@@ -2503,13 +2503,13 @@ export interface TraceMetricsRuleTraceFilter {
   /**
   * span block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#span TraceMetricsRule#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#span TraceMetricsRule#span}
   */
   readonly span?: TraceMetricsRuleTraceFilterSpan[] | cdktf.IResolvable;
   /**
   * trace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#trace TraceMetricsRule#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#trace TraceMetricsRule#trace}
   */
   readonly trace?: TraceMetricsRuleTraceFilterTrace;
 }
@@ -2622,7 +2622,7 @@ export class TraceMetricsRuleTraceFilterOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule chronosphere_trace_metrics_rule}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule chronosphere_trace_metrics_rule}
 */
 export class TraceMetricsRule extends cdktf.TerraformResource {
 
@@ -2638,7 +2638,7 @@ export class TraceMetricsRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TraceMetricsRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TraceMetricsRule to import
-  * @param importFromId The id of the existing TraceMetricsRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TraceMetricsRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TraceMetricsRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2650,7 +2650,7 @@ export class TraceMetricsRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_metrics_rule chronosphere_trace_metrics_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/trace_metrics_rule chronosphere_trace_metrics_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2661,8 +2661,8 @@ export class TraceMetricsRule extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_trace_metrics_rule',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

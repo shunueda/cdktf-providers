@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users
+// https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface DataDatabricksUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#extra_attributes DataDatabricksUsers#extra_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#extra_attributes DataDatabricksUsers#extra_attributes}
   */
   readonly extraAttributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#filter DataDatabricksUsers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#filter DataDatabricksUsers#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#users DataDatabricksUsers#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#users DataDatabricksUsers#users}
   */
   readonly users?: DataDatabricksUsersUsers[] | cdktf.IResolvable;
 }
 export interface DataDatabricksUsersUsersEmails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#display DataDatabricksUsers#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#display DataDatabricksUsers#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#type DataDatabricksUsers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#type DataDatabricksUsers#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#value DataDatabricksUsers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#value DataDatabricksUsers#value}
   */
   readonly value?: string;
 }
@@ -270,23 +270,23 @@ export class DataDatabricksUsersUsersEmailsList extends cdktf.ComplexList {
 }
 export interface DataDatabricksUsersUsersEntitlements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#display DataDatabricksUsers#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#display DataDatabricksUsers#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#type DataDatabricksUsers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#type DataDatabricksUsers#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#value DataDatabricksUsers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#value DataDatabricksUsers#value}
   */
   readonly value?: string;
 }
@@ -518,23 +518,23 @@ export class DataDatabricksUsersUsersEntitlementsList extends cdktf.ComplexList 
 }
 export interface DataDatabricksUsersUsersGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#display DataDatabricksUsers#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#display DataDatabricksUsers#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#type DataDatabricksUsers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#type DataDatabricksUsers#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#value DataDatabricksUsers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#value DataDatabricksUsers#value}
   */
   readonly value?: string;
 }
@@ -766,11 +766,11 @@ export class DataDatabricksUsersUsersGroupsList extends cdktf.ComplexList {
 }
 export interface DataDatabricksUsersUsersName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#family_name DataDatabricksUsers#family_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#family_name DataDatabricksUsers#family_name}
   */
   readonly familyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#given_name DataDatabricksUsers#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#given_name DataDatabricksUsers#given_name}
   */
   readonly givenName?: string;
 }
@@ -893,23 +893,23 @@ export class DataDatabricksUsersUsersNameOutputReference extends cdktf.ComplexOb
 }
 export interface DataDatabricksUsersUsersRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#display DataDatabricksUsers#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#display DataDatabricksUsers#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#primary DataDatabricksUsers#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#ref DataDatabricksUsers#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#type DataDatabricksUsers#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#type DataDatabricksUsers#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#value DataDatabricksUsers#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#value DataDatabricksUsers#value}
   */
   readonly value?: string;
 }
@@ -1141,50 +1141,50 @@ export class DataDatabricksUsersUsersRolesList extends cdktf.ComplexList {
 }
 export interface DataDatabricksUsersUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#active DataDatabricksUsers#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#active DataDatabricksUsers#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#display_name DataDatabricksUsers#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#display_name DataDatabricksUsers#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#emails DataDatabricksUsers#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#emails DataDatabricksUsers#emails}
   */
   readonly emails?: DataDatabricksUsersUsersEmails[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#entitlements DataDatabricksUsers#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#entitlements DataDatabricksUsers#entitlements}
   */
   readonly entitlements?: DataDatabricksUsersUsersEntitlements[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#external_id DataDatabricksUsers#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#external_id DataDatabricksUsers#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#groups DataDatabricksUsers#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#groups DataDatabricksUsers#groups}
   */
   readonly groups?: DataDatabricksUsersUsersGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#id DataDatabricksUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#id DataDatabricksUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#name DataDatabricksUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#name DataDatabricksUsers#name}
   */
   readonly name?: DataDatabricksUsersUsersName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#roles DataDatabricksUsers#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#roles DataDatabricksUsers#roles}
   */
   readonly roles?: DataDatabricksUsersUsersRoles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#schemas DataDatabricksUsers#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#schemas DataDatabricksUsers#schemas}
   */
   readonly schemas?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#user_name DataDatabricksUsers#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#user_name DataDatabricksUsers#user_name}
   */
   readonly userName?: string;
 }
@@ -1590,7 +1590,7 @@ export class DataDatabricksUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users databricks_users}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users databricks_users}
 */
 export class DataDatabricksUsers extends cdktf.TerraformDataSource {
 
@@ -1606,7 +1606,7 @@ export class DataDatabricksUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDatabricksUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDatabricksUsers to import
-  * @param importFromId The id of the existing DataDatabricksUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDatabricksUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDatabricksUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1618,7 +1618,7 @@ export class DataDatabricksUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/data-sources/users databricks_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/data-sources/users databricks_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1629,8 +1629,8 @@ export class DataDatabricksUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'databricks_users',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.99.0',
-        providerVersionConstraint: '1.99.0'
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '1.100.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

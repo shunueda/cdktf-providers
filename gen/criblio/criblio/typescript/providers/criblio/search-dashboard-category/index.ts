@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category
+// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface SearchDashboardCategoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category#description SearchDashboardCategory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category#description SearchDashboardCategory#description}
   */
   readonly description?: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category#id SearchDashboardCategory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category#id SearchDashboardCategory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category#is_pack SearchDashboardCategory#is_pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category#is_pack SearchDashboardCategory#is_pack}
   */
   readonly isPack?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category#name SearchDashboardCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category#name SearchDashboardCategory#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category criblio_search_dashboard_category}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category criblio_search_dashboard_category}
 */
 export class SearchDashboardCategory extends cdktf.TerraformResource {
 
@@ -47,7 +47,7 @@ export class SearchDashboardCategory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchDashboardCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchDashboardCategory to import
-  * @param importFromId The id of the existing SearchDashboardCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchDashboardCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchDashboardCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class SearchDashboardCategory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/search_dashboard_category criblio_search_dashboard_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/search_dashboard_category criblio_search_dashboard_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class SearchDashboardCategory extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_dashboard_category',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.64',
-        providerVersionConstraint: '1.20.64'
+        providerVersion: '1.20.69',
+        providerVersionConstraint: '1.20.69'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

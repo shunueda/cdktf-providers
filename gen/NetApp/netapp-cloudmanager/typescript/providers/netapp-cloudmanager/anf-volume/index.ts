@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface AnfVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#account AnfVolume#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#account AnfVolume#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#capacity_pool AnfVolume#capacity_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#capacity_pool AnfVolume#capacity_pool}
   */
   readonly capacityPool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#client_id AnfVolume#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#client_id AnfVolume#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#id AnfVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#id AnfVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#location AnfVolume#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#location AnfVolume#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#name AnfVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#name AnfVolume#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#netapp_account AnfVolume#netapp_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#netapp_account AnfVolume#netapp_account}
   */
   readonly netappAccount: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#protocol_types AnfVolume#protocol_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#protocol_types AnfVolume#protocol_types}
   */
   readonly protocolTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#resource_groups AnfVolume#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#resource_groups AnfVolume#resource_groups}
   */
   readonly resourceGroups: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#service_level AnfVolume#service_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#service_level AnfVolume#service_level}
   */
   readonly serviceLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#size AnfVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#size AnfVolume#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#size_unit AnfVolume#size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#size_unit AnfVolume#size_unit}
   */
   readonly sizeUnit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#subnet AnfVolume#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#subnet AnfVolume#subnet}
   */
   readonly subnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#subscription AnfVolume#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#subscription AnfVolume#subscription}
   */
   readonly subscription: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#virtual_network AnfVolume#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#virtual_network AnfVolume#virtual_network}
   */
   readonly virtualNetwork: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#volume_path AnfVolume#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#volume_path AnfVolume#volume_path}
   */
   readonly volumePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#working_environment_name AnfVolume#working_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#working_environment_name AnfVolume#working_environment_name}
   */
   readonly workingEnvironmentName: string;
   /**
   * export_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#export_policy AnfVolume#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#export_policy AnfVolume#export_policy}
   */
   readonly exportPolicy?: AnfVolumeExportPolicy[] | cdktf.IResolvable;
 }
 export interface AnfVolumeExportPolicyRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#allowed_clients AnfVolume#allowed_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#allowed_clients AnfVolume#allowed_clients}
   */
   readonly allowedClients?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#cifs AnfVolume#cifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#cifs AnfVolume#cifs}
   */
   readonly cifs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#nfsv3 AnfVolume#nfsv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#nfsv3 AnfVolume#nfsv3}
   */
   readonly nfsv3?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#nfsv41 AnfVolume#nfsv41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#nfsv41 AnfVolume#nfsv41}
   */
   readonly nfsv41?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#rule_index AnfVolume#rule_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#rule_index AnfVolume#rule_index}
   */
   readonly ruleIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#unix_read_only AnfVolume#unix_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#unix_read_only AnfVolume#unix_read_only}
   */
   readonly unixReadOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#unix_read_write AnfVolume#unix_read_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#unix_read_write AnfVolume#unix_read_write}
   */
   readonly unixReadWrite?: boolean | cdktf.IResolvable;
 }
@@ -403,7 +403,7 @@ export interface AnfVolumeExportPolicy {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#rule AnfVolume#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#rule AnfVolume#rule}
   */
   readonly rule?: AnfVolumeExportPolicyRule[] | cdktf.IResolvable;
 }
@@ -519,7 +519,7 @@ export class AnfVolumeExportPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume netapp-cloudmanager_anf_volume}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume netapp-cloudmanager_anf_volume}
 */
 export class AnfVolume extends cdktf.TerraformResource {
 
@@ -535,7 +535,7 @@ export class AnfVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AnfVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AnfVolume to import
-  * @param importFromId The id of the existing AnfVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AnfVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AnfVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -547,7 +547,7 @@ export class AnfVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/anf_volume netapp-cloudmanager_anf_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/anf_volume netapp-cloudmanager_anf_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -558,8 +558,8 @@ export class AnfVolume extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_anf_volume',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

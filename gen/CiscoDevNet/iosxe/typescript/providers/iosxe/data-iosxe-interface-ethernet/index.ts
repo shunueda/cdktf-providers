@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIosxeInterfaceEthernetConfig extends cdktf.TerraformMetaArg
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet#device DataIosxeInterfaceEthernet#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet#device DataIosxeInterfaceEthernet#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet#name DataIosxeInterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet#name DataIosxeInterfaceEthernet#name}
   */
   readonly name: string;
   /**
   * Interface type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet#type DataIosxeInterfaceEthernet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet#type DataIosxeInterfaceEthernet#type}
   */
   readonly type: string;
 }
@@ -659,6 +659,91 @@ export class DataIosxeInterfaceEthernetIpv6LinkLocalAddressesList extends cdktf.
     return new DataIosxeInterfaceEthernetIpv6LinkLocalAddressesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataIosxeInterfaceEthernetServiceInstances {
+}
+
+export function dataIosxeInterfaceEthernetServiceInstancesToTerraform(struct?: DataIosxeInterfaceEthernetServiceInstances): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIosxeInterfaceEthernetServiceInstancesToHclTerraform(struct?: DataIosxeInterfaceEthernetServiceInstances): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIosxeInterfaceEthernetServiceInstancesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIosxeInterfaceEthernetServiceInstances | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIosxeInterfaceEthernetServiceInstances | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // encapsulation_untagged - computed: true, optional: false, required: false
+  public get encapsulationUntagged() {
+    return this.getBooleanAttribute('encapsulation_untagged');
+  }
+
+  // ethernet - computed: true, optional: false, required: false
+  public get ethernet() {
+    return this.getBooleanAttribute('ethernet');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getNumberAttribute('id');
+  }
+}
+
+export class DataIosxeInterfaceEthernetServiceInstancesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIosxeInterfaceEthernetServiceInstancesOutputReference {
+    return new DataIosxeInterfaceEthernetServiceInstancesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIosxeInterfaceEthernetSourceTemplate {
 }
 
@@ -741,7 +826,7 @@ export class DataIosxeInterfaceEthernetSourceTemplateList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet iosxe_interface_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet iosxe_interface_ethernet}
 */
 export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
 
@@ -757,7 +842,7 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceEthernet to import
-  * @param importFromId The id of the existing DataIosxeInterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -769,7 +854,7 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_ethernet iosxe_interface_ethernet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/interface_ethernet iosxe_interface_ethernet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -780,8 +865,8 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1395,6 +1480,12 @@ export class DataIosxeInterfaceEthernet extends cdktf.TerraformDataSource {
   // negotiation_auto - computed: true, optional: false, required: false
   public get negotiationAuto() {
     return this.getBooleanAttribute('negotiation_auto');
+  }
+
+  // service_instances - computed: true, optional: false, required: false
+  private _serviceInstances = new DataIosxeInterfaceEthernetServiceInstancesList(this, "service_instances", false);
+  public get serviceInstances() {
+    return this._serviceInstances;
   }
 
   // service_policy_input - computed: true, optional: false, required: false

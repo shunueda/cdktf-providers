@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviWafprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile#id DataAviWafprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#id DataAviWafprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile#name DataAviWafprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#name DataAviWafprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile#tenant_ref DataAviWafprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#tenant_ref DataAviWafprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile#uuid DataAviWafprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#uuid DataAviWafprofile#uuid}
   */
   readonly uuid?: string;
 }
@@ -540,7 +540,7 @@ export class DataAviWafprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile avi_wafprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile avi_wafprofile}
 */
 export class DataAviWafprofile extends cdktf.TerraformDataSource {
 
@@ -556,7 +556,7 @@ export class DataAviWafprofile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviWafprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviWafprofile to import
-  * @param importFromId The id of the existing DataAviWafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviWafprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviWafprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -568,7 +568,7 @@ export class DataAviWafprofile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/wafprofile avi_wafprofile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/wafprofile avi_wafprofile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -579,8 +579,8 @@ export class DataAviWafprofile extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_wafprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

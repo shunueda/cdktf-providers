@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataPowerplatformEnvironmentSettingsConfig extends cdktf.Terraf
   /**
   * Audit and Logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#audit_and_logs DataPowerplatformEnvironmentSettings#audit_and_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#audit_and_logs DataPowerplatformEnvironmentSettings#audit_and_logs}
   */
   readonly auditAndLogs?: DataPowerplatformEnvironmentSettingsAuditAndLogs;
   /**
   * Email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#email DataPowerplatformEnvironmentSettings#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#email DataPowerplatformEnvironmentSettings#email}
   */
   readonly email?: DataPowerplatformEnvironmentSettingsEmail;
   /**
   * Unique environment id (guid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#environment_id DataPowerplatformEnvironmentSettings#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#environment_id DataPowerplatformEnvironmentSettings#environment_id}
   */
   readonly environmentId: string;
   /**
   * Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#product DataPowerplatformEnvironmentSettings#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#product DataPowerplatformEnvironmentSettings#product}
   */
   readonly product?: DataPowerplatformEnvironmentSettingsProduct;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#timeouts DataPowerplatformEnvironmentSettings#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#timeouts DataPowerplatformEnvironmentSettings#timeouts}
   */
   readonly timeouts?: DataPowerplatformEnvironmentSettingsTimeouts;
 }
@@ -40,25 +40,25 @@ export interface DataPowerplatformEnvironmentSettingsAuditAndLogsAuditSettings {
   /**
   * Is audit enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#is_audit_enabled DataPowerplatformEnvironmentSettings#is_audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#is_audit_enabled DataPowerplatformEnvironmentSettings#is_audit_enabled}
   */
   readonly isAuditEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is read audit enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#is_read_audit_enabled DataPowerplatformEnvironmentSettings#is_read_audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#is_read_audit_enabled DataPowerplatformEnvironmentSettings#is_read_audit_enabled}
   */
   readonly isReadAuditEnabled?: boolean | cdktf.IResolvable;
   /**
   * Is user access audit enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#is_user_access_audit_enabled DataPowerplatformEnvironmentSettings#is_user_access_audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#is_user_access_audit_enabled DataPowerplatformEnvironmentSettings#is_user_access_audit_enabled}
   */
   readonly isUserAccessAuditEnabled?: boolean | cdktf.IResolvable;
   /**
   * Retain these logs for. See [Start/stop auditing for an environment and set retention policy](https://learn.microsoft.com/power-platform/admin/manage-dataverse-auditing#startstop-auditing-for-an-environment-and-set-retention-policy) You can set a retention period for how long audit logs are kept in an environment. Under Retain these logs for, choose the period of time you wish to retain the logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#log_retention_period_in_days DataPowerplatformEnvironmentSettings#log_retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#log_retention_period_in_days DataPowerplatformEnvironmentSettings#log_retention_period_in_days}
   */
   readonly logRetentionPeriodInDays?: number;
 }
@@ -241,13 +241,13 @@ export interface DataPowerplatformEnvironmentSettingsAuditAndLogs {
   /**
   * Audit Settings. See [Audit Settings Overview](https://learn.microsoft.com/power-platform/admin/system-settings-dialog-box-auditing-tab) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#audit_settings DataPowerplatformEnvironmentSettings#audit_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#audit_settings DataPowerplatformEnvironmentSettings#audit_settings}
   */
   readonly auditSettings?: DataPowerplatformEnvironmentSettingsAuditAndLogsAuditSettings;
   /**
   * Plugin trace log setting. Available options: Off, Exception, All. See [Plugin Trace Log Settings Overview](https://learn.microsoft.com/power-apps/developer/data-platform/logging-tracing) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#plugin_trace_log_setting DataPowerplatformEnvironmentSettings#plugin_trace_log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#plugin_trace_log_setting DataPowerplatformEnvironmentSettings#plugin_trace_log_setting}
   */
   readonly pluginTraceLogSetting?: string;
 }
@@ -372,7 +372,7 @@ export interface DataPowerplatformEnvironmentSettingsEmailEmailSettings {
   /**
   * Maximum file size that can be uploaded to the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#max_upload_file_size_in_bytes DataPowerplatformEnvironmentSettings#max_upload_file_size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#max_upload_file_size_in_bytes DataPowerplatformEnvironmentSettings#max_upload_file_size_in_bytes}
   */
   readonly maxUploadFileSizeInBytes?: number;
 }
@@ -468,7 +468,7 @@ export interface DataPowerplatformEnvironmentSettingsEmail {
   /**
   * Email Settings. See [Email Settings Overview](https://learn.microsoft.com/power-platform/admin/settings-email) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#email_settings DataPowerplatformEnvironmentSettings#email_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#email_settings DataPowerplatformEnvironmentSettings#email_settings}
   */
   readonly emailSettings?: DataPowerplatformEnvironmentSettingsEmailEmailSettings;
 }
@@ -564,7 +564,7 @@ export interface DataPowerplatformEnvironmentSettingsProductBehaviorSettings {
   /**
   * Show dashboard cards in expanded state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#show_dashboard_cards_in_expanded_state DataPowerplatformEnvironmentSettings#show_dashboard_cards_in_expanded_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#show_dashboard_cards_in_expanded_state DataPowerplatformEnvironmentSettings#show_dashboard_cards_in_expanded_state}
   */
   readonly showDashboardCardsInExpandedState?: boolean | cdktf.IResolvable;
 }
@@ -660,91 +660,91 @@ export interface DataPowerplatformEnvironmentSettingsProductFeatures {
   /**
   * Allows AI to generate automatic suggestions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#ai_form_fill_automatic_suggestions DataPowerplatformEnvironmentSettings#ai_form_fill_automatic_suggestions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#ai_form_fill_automatic_suggestions DataPowerplatformEnvironmentSettings#ai_form_fill_automatic_suggestions}
   */
   readonly aiFormFillAutomaticSuggestions?: string;
   /**
   * Allows AI to provide smart paste and file suggestions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#ai_form_fill_smart_paste_and_file_suggestions DataPowerplatformEnvironmentSettings#ai_form_fill_smart_paste_and_file_suggestions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#ai_form_fill_smart_paste_and_file_suggestions DataPowerplatformEnvironmentSettings#ai_form_fill_smart_paste_and_file_suggestions}
   */
   readonly aiFormFillSmartPasteAndFileSuggestions?: string;
   /**
   * Allows AI to provide a form fill toolbar with suggestions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#ai_form_fill_toolbar DataPowerplatformEnvironmentSettings#ai_form_fill_toolbar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#ai_form_fill_toolbar DataPowerplatformEnvironmentSettings#ai_form_fill_toolbar}
   */
   readonly aiFormFillToolbar?: string;
   /**
   * Allow AI to generate charts to visualize the data in a view. [Learn more](https://go.microsoft.com/fwlink/?linkid=2300297)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#allow_ai_to_generate_charts DataPowerplatformEnvironmentSettings#allow_ai_to_generate_charts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#allow_ai_to_generate_charts DataPowerplatformEnvironmentSettings#allow_ai_to_generate_charts}
   */
   readonly allowAiToGenerateCharts?: string;
   /**
   * Allow agent access owners and editors to see session transcripts from conversations interactions in their agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_access_to_session_transcripts_for_copilot_studio DataPowerplatformEnvironmentSettings#enable_access_to_session_transcripts_for_copilot_studio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_access_to_session_transcripts_for_copilot_studio DataPowerplatformEnvironmentSettings#enable_access_to_session_transcripts_for_copilot_studio}
   */
   readonly enableAccessToSessionTranscriptsForCopilotStudio?: boolean | cdktf.IResolvable;
   /**
   * Allow users to analyze data using an AI-powered chat experience in [canvas](https://go.microsoft.com/fwlink/?linkid=2244583) and [model-driven apps](https://go.microsoft.com/fwlink/?linkid=2244584). [Learn more](https://go.microsoft.com/fwlink/?linkid=2247541) [Requires Copilot licensing](https://go.microsoft.com/fwlink/?linkid=2263413)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_ai_powered_chat DataPowerplatformEnvironmentSettings#enable_ai_powered_chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_ai_powered_chat DataPowerplatformEnvironmentSettings#enable_ai_powered_chat}
   */
   readonly enableAiPoweredChat?: string;
   /**
   * Enable the AI prompts feature in Power Platform and Copilot Studio. [Learn more](https://go.microsoft.com/fwlink/?linkid=2283738)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_ai_prompts DataPowerplatformEnvironmentSettings#enable_ai_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_ai_prompts DataPowerplatformEnvironmentSettings#enable_ai_prompts}
   */
   readonly enableAiPrompts?: boolean | cdktf.IResolvable;
   /**
   * Allow canvas editors to insert the Copilot answer component, which allows users to receive an AI-powered answer to a predefined data query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_copilot_answer_control DataPowerplatformEnvironmentSettings#enable_copilot_answer_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_copilot_answer_control DataPowerplatformEnvironmentSettings#enable_copilot_answer_control}
   */
   readonly enableCopilotAnswerControl?: boolean | cdktf.IResolvable;
   /**
   * Allow cross-geo sharing of aggregated analytics data if your tenant preferred data location for Viva Insights is different from the location of your Copilot Studio environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_copilot_studio_cross_geo_share_data_with_viva_insights DataPowerplatformEnvironmentSettings#enable_copilot_studio_cross_geo_share_data_with_viva_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_copilot_studio_cross_geo_share_data_with_viva_insights DataPowerplatformEnvironmentSettings#enable_copilot_studio_cross_geo_share_data_with_viva_insights}
   */
   readonly enableCopilotStudioCrossGeoShareDataWithVivaInsights?: boolean | cdktf.IResolvable;
   /**
   * Allow Copilot Studio to share data with Viva Insights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_copilot_studio_share_data_with_viva_insights DataPowerplatformEnvironmentSettings#enable_copilot_studio_share_data_with_viva_insights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_copilot_studio_share_data_with_viva_insights DataPowerplatformEnvironmentSettings#enable_copilot_studio_share_data_with_viva_insights}
   */
   readonly enableCopilotStudioShareDataWithVivaInsights?: boolean | cdktf.IResolvable;
   /**
   * Enable new AI-powered Copilot features for people who make apps. [Learn more](https://go.microsoft.com/fwlink/?linkid=2223555)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_powerapps_maker_bot DataPowerplatformEnvironmentSettings#enable_powerapps_maker_bot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_powerapps_maker_bot DataPowerplatformEnvironmentSettings#enable_powerapps_maker_bot}
   */
   readonly enablePowerappsMakerBot?: boolean | cdktf.IResolvable;
   /**
   * Let people use AI models that are experimental or in preview to make agents, prompts, apps, flow and more in Copilot Studio. [Learn more](https://go.microsoft.com/fwlink/?linkid=2331400)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_preview_and_experimental_ai_models DataPowerplatformEnvironmentSettings#enable_preview_and_experimental_ai_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_preview_and_experimental_ai_models DataPowerplatformEnvironmentSettings#enable_preview_and_experimental_ai_models}
   */
   readonly enablePreviewAndExperimentalAiModels?: boolean | cdktf.IResolvable;
   /**
   * Allow conversation transcripts and their associated metadata to be saved in Dataverse (required for enhanced reporting).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_transcript_recording_for_copilot_studio DataPowerplatformEnvironmentSettings#enable_transcript_recording_for_copilot_studio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_transcript_recording_for_copilot_studio DataPowerplatformEnvironmentSettings#enable_transcript_recording_for_copilot_studio}
   */
   readonly enableTranscriptRecordingForCopilotStudio?: boolean | cdktf.IResolvable;
   /**
   * Find your data in model-driven app views with the help of Copilot. [Learn more](https://go.microsoft.com/fwlink/?linkid=2281374)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#natural_language_grid_and_view_search DataPowerplatformEnvironmentSettings#natural_language_grid_and_view_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#natural_language_grid_and_view_search DataPowerplatformEnvironmentSettings#natural_language_grid_and_view_search}
   */
   readonly naturalLanguageGridAndViewSearch?: string;
   /**
   * Power Apps component framework for canvas apps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#power_apps_component_framework_for_canvas_apps DataPowerplatformEnvironmentSettings#power_apps_component_framework_for_canvas_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#power_apps_component_framework_for_canvas_apps DataPowerplatformEnvironmentSettings#power_apps_component_framework_for_canvas_apps}
   */
   readonly powerAppsComponentFrameworkForCanvasApps?: boolean | cdktf.IResolvable;
 }
@@ -1246,49 +1246,49 @@ export interface DataPowerplatformEnvironmentSettingsProductSecurity {
   /**
   * Allow application user access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#allow_application_user_access DataPowerplatformEnvironmentSettings#allow_application_user_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#allow_application_user_access DataPowerplatformEnvironmentSettings#allow_application_user_access}
   */
   readonly allowApplicationUserAccess?: boolean | cdktf.IResolvable;
   /**
   * Allow Microsoft trusted service tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#allow_microsoft_trusted_service_tags DataPowerplatformEnvironmentSettings#allow_microsoft_trusted_service_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#allow_microsoft_trusted_service_tags DataPowerplatformEnvironmentSettings#allow_microsoft_trusted_service_tags}
   */
   readonly allowMicrosoftTrustedServiceTags?: boolean | cdktf.IResolvable;
   /**
   * Allowed IP range for firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#allowed_ip_range_for_firewall DataPowerplatformEnvironmentSettings#allowed_ip_range_for_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#allowed_ip_range_for_firewall DataPowerplatformEnvironmentSettings#allowed_ip_range_for_firewall}
   */
   readonly allowedIpRangeForFirewall?: string[];
   /**
   * Allowed service tags for firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#allowed_service_tags_for_firewall DataPowerplatformEnvironmentSettings#allowed_service_tags_for_firewall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#allowed_service_tags_for_firewall DataPowerplatformEnvironmentSettings#allowed_service_tags_for_firewall}
   */
   readonly allowedServiceTagsForFirewall?: string[];
   /**
   * Enable IP based cookie binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_ip_based_cookie_binding DataPowerplatformEnvironmentSettings#enable_ip_based_cookie_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_ip_based_cookie_binding DataPowerplatformEnvironmentSettings#enable_ip_based_cookie_binding}
   */
   readonly enableIpBasedCookieBinding?: boolean | cdktf.IResolvable;
   /**
   * Enable IP based firewall rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_ip_based_firewall_rule DataPowerplatformEnvironmentSettings#enable_ip_based_firewall_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_ip_based_firewall_rule DataPowerplatformEnvironmentSettings#enable_ip_based_firewall_rule}
   */
   readonly enableIpBasedFirewallRule?: boolean | cdktf.IResolvable;
   /**
   * Enable IP based firewall rule in audit mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#enable_ip_based_firewall_rule_in_audit_mode DataPowerplatformEnvironmentSettings#enable_ip_based_firewall_rule_in_audit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#enable_ip_based_firewall_rule_in_audit_mode DataPowerplatformEnvironmentSettings#enable_ip_based_firewall_rule_in_audit_mode}
   */
   readonly enableIpBasedFirewallRuleInAuditMode?: boolean | cdktf.IResolvable;
   /**
   * Reverse proxy IP addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#reverse_proxy_ip_addresses DataPowerplatformEnvironmentSettings#reverse_proxy_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#reverse_proxy_ip_addresses DataPowerplatformEnvironmentSettings#reverse_proxy_ip_addresses}
   */
   readonly reverseProxyIpAddresses?: string[];
 }
@@ -1587,19 +1587,19 @@ export interface DataPowerplatformEnvironmentSettingsProduct {
   /**
   * Behavior Settings.See [Behavior Settings Overview](https://learn.microsoft.com/power-platform/admin/settings-behavior) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#behavior_settings DataPowerplatformEnvironmentSettings#behavior_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#behavior_settings DataPowerplatformEnvironmentSettings#behavior_settings}
   */
   readonly behaviorSettings?: DataPowerplatformEnvironmentSettingsProductBehaviorSettings;
   /**
   * Features. See [Features Overview](https://learn.microsoft.com/power-platform/admin/settings-features) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#features DataPowerplatformEnvironmentSettings#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#features DataPowerplatformEnvironmentSettings#features}
   */
   readonly features?: DataPowerplatformEnvironmentSettingsProductFeatures;
   /**
   * Security. See [Security Overview](https://learn.microsoft.com/en-us/power-platform/admin/settings-privacy-security) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#security DataPowerplatformEnvironmentSettings#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#security DataPowerplatformEnvironmentSettings#security}
   */
   readonly security?: DataPowerplatformEnvironmentSettingsProductSecurity;
 }
@@ -1810,7 +1810,7 @@ export class DataPowerplatformEnvironmentSettingsTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings powerplatform_environment_settings}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings powerplatform_environment_settings}
 */
 export class DataPowerplatformEnvironmentSettings extends cdktf.TerraformDataSource {
 
@@ -1826,7 +1826,7 @@ export class DataPowerplatformEnvironmentSettings extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataPowerplatformEnvironmentSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformEnvironmentSettings to import
-  * @param importFromId The id of the existing DataPowerplatformEnvironmentSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformEnvironmentSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformEnvironmentSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1838,7 +1838,7 @@ export class DataPowerplatformEnvironmentSettings extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_environment_settings powerplatform_environment_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_environment_settings powerplatform_environment_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1849,8 +1849,8 @@ export class DataPowerplatformEnvironmentSettings extends cdktf.TerraformDataSou
       terraformResourceType: 'powerplatform_environment_settings',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

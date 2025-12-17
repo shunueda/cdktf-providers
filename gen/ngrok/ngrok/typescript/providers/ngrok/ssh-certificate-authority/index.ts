@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SshCertificateAuthorityConfig extends cdktf.TerraformMetaArgume
   /**
   * human-readable description of this SSH Certificate Authority. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority#description SshCertificateAuthority#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority#description SshCertificateAuthority#description}
   */
   readonly description?: string;
   /**
   * the type of elliptic curve to use when creating an ECDSA key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority#elliptic_curve SshCertificateAuthority#elliptic_curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority#elliptic_curve SshCertificateAuthority#elliptic_curve}
   */
   readonly ellipticCurve?: string;
   /**
   * the key size to use when creating an RSA key. one of `2048` or `4096`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority#key_size SshCertificateAuthority#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority#key_size SshCertificateAuthority#key_size}
   */
   readonly keySize?: number;
   /**
   * arbitrary user-defined machine-readable data of this SSH Certificate Authority. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority#metadata SshCertificateAuthority#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority#metadata SshCertificateAuthority#metadata}
   */
   readonly metadata?: string;
   /**
   * the type of private key to generate. one of `rsa`, `ecdsa`, `ed25519`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority#private_key_type SshCertificateAuthority#private_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority#private_key_type SshCertificateAuthority#private_key_type}
   */
   readonly privateKeyType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority ngrok_ssh_certificate_authority}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority ngrok_ssh_certificate_authority}
 */
 export class SshCertificateAuthority extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SshCertificateAuthority extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshCertificateAuthority resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshCertificateAuthority to import
-  * @param importFromId The id of the existing SshCertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshCertificateAuthority that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshCertificateAuthority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SshCertificateAuthority extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_certificate_authority ngrok_ssh_certificate_authority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_certificate_authority ngrok_ssh_certificate_authority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SshCertificateAuthority extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_ssh_certificate_authority',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

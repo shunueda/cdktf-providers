@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface IntegrationSentinelOneConfig extends cdktf.TerraformMetaArgumen
   /**
   * The account ID of the SentinelOne integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#account IntegrationSentinelOne#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#account IntegrationSentinelOne#account}
   */
   readonly account: string;
   /**
   * Credentials require one of certificate or client secret to be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#credentials IntegrationSentinelOne#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#credentials IntegrationSentinelOne#credentials}
   */
   readonly credentials: IntegrationSentinelOneCredentials;
   /**
   * The host of the SentinelOne integration. Must include URL scheme, e.g., https://domain.sentinelone.net.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#host IntegrationSentinelOne#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#host IntegrationSentinelOne#host}
   */
   readonly host: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#name IntegrationSentinelOne#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#name IntegrationSentinelOne#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#space_id IntegrationSentinelOne#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#space_id IntegrationSentinelOne#space_id}
   */
   readonly spaceId?: string;
 }
@@ -42,13 +42,13 @@ export interface IntegrationSentinelOneCredentials {
   /**
   * The certificate for the SentinelOne integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#certificate IntegrationSentinelOne#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#certificate IntegrationSentinelOne#certificate}
   */
   readonly certificate?: string;
   /**
   * The client secret of the SentinelOne integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#client_secret IntegrationSentinelOne#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#client_secret IntegrationSentinelOne#client_secret}
   */
   readonly clientSecret?: string;
 }
@@ -171,7 +171,7 @@ export class IntegrationSentinelOneCredentialsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one mondoo_integration_sentinel_one}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one mondoo_integration_sentinel_one}
 */
 export class IntegrationSentinelOne extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class IntegrationSentinelOne extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationSentinelOne resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationSentinelOne to import
-  * @param importFromId The id of the existing IntegrationSentinelOne that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationSentinelOne that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationSentinelOne to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class IntegrationSentinelOne extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_sentinel_one mondoo_integration_sentinel_one} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_sentinel_one mondoo_integration_sentinel_one} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class IntegrationSentinelOne extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_sentinel_one',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

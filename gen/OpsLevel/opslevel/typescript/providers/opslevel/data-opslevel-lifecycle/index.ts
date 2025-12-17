@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelLifecycleConfig extends cdktf.TerraformMetaArgument
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle#filter DataOpslevelLifecycle#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle#filter DataOpslevelLifecycle#filter}
   */
   readonly filter: DataOpslevelLifecycleFilter;
 }
@@ -18,13 +18,13 @@ export interface DataOpslevelLifecycleFilter {
   /**
   * The field of the target resource to filter upon. One of `alias`, `id`, `index`, `name`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle#field DataOpslevelLifecycle#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle#field DataOpslevelLifecycle#field}
   */
   readonly field: string;
   /**
   * The field value of the target resource to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle#value DataOpslevelLifecycle#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle#value DataOpslevelLifecycle#value}
   */
   readonly value: string;
 }
@@ -141,7 +141,7 @@ export class DataOpslevelLifecycleFilterOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle opslevel_lifecycle}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle opslevel_lifecycle}
 */
 export class DataOpslevelLifecycle extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataOpslevelLifecycle extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelLifecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelLifecycle to import
-  * @param importFromId The id of the existing DataOpslevelLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelLifecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataOpslevelLifecycle extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/data-sources/lifecycle opslevel_lifecycle} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/lifecycle opslevel_lifecycle} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataOpslevelLifecycle extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

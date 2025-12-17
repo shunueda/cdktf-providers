@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface SloConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#annotations Slo#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#annotations Slo#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#collection_id Slo#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#collection_id Slo#collection_id}
   */
   readonly collectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#description Slo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#description Slo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#id Slo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#id Slo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#labels Slo#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#labels Slo#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#notification_policy_id Slo#notification_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#notification_policy_id Slo#notification_policy_id}
   */
   readonly notificationPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#slug Slo#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#slug Slo#slug}
   */
   readonly slug?: string;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#definition Slo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#definition Slo#definition}
   */
   readonly definition: SloDefinition;
   /**
   * signal_grouping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#signal_grouping Slo#signal_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#signal_grouping Slo#signal_grouping}
   */
   readonly signalGrouping?: SloSignalGrouping;
   /**
   * sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#sli Slo#sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#sli Slo#sli}
   */
   readonly sli: SloSli;
 }
 export interface SloDefinitionBurnRateAlertingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#budget Slo#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#budget Slo#budget}
   */
   readonly budget: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#labels Slo#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#labels Slo#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#severity Slo#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#severity Slo#severity}
   */
   readonly severity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#window Slo#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#window Slo#window}
   */
   readonly window: string;
 }
@@ -269,7 +269,7 @@ export class SloDefinitionBurnRateAlertingConfigList extends cdktf.ComplexList {
 }
 export interface SloDefinitionTimeWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#duration Slo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#duration Slo#duration}
   */
   readonly duration: string;
 }
@@ -350,23 +350,23 @@ export class SloDefinitionTimeWindowOutputReference extends cdktf.ComplexObject 
 }
 export interface SloDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#enable_burn_rate_alerting Slo#enable_burn_rate_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#enable_burn_rate_alerting Slo#enable_burn_rate_alerting}
   */
   readonly enableBurnRateAlerting?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#objective Slo#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#objective Slo#objective}
   */
   readonly objective: number;
   /**
   * burn_rate_alerting_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#burn_rate_alerting_config Slo#burn_rate_alerting_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#burn_rate_alerting_config Slo#burn_rate_alerting_config}
   */
   readonly burnRateAlertingConfig?: SloDefinitionBurnRateAlertingConfig[] | cdktf.IResolvable;
   /**
   * time_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#time_window Slo#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#time_window Slo#time_window}
   */
   readonly timeWindow?: SloDefinitionTimeWindow;
 }
@@ -534,11 +534,11 @@ export class SloDefinitionOutputReference extends cdktf.ComplexObject {
 }
 export interface SloSignalGrouping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#label_names Slo#label_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#label_names Slo#label_names}
   */
   readonly labelNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#signal_per_series Slo#signal_per_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#signal_per_series Slo#signal_per_series}
   */
   readonly signalPerSeries?: boolean | cdktf.IResolvable;
 }
@@ -651,15 +651,15 @@ export class SloSignalGroupingOutputReference extends cdktf.ComplexObject {
 }
 export interface SloSliAdditionalPromqlFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#name Slo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#name Slo#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#type Slo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#type Slo#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#value Slo#value}
   */
   readonly value: string;
 }
@@ -824,15 +824,15 @@ export class SloSliAdditionalPromqlFiltersList extends cdktf.ComplexList {
 }
 export interface SloSliCustomIndicator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#bad_query_template Slo#bad_query_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#bad_query_template Slo#bad_query_template}
   */
   readonly badQueryTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#good_query_template Slo#good_query_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#good_query_template Slo#good_query_template}
   */
   readonly goodQueryTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#total_query_template Slo#total_query_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#total_query_template Slo#total_query_template}
   */
   readonly totalQueryTemplate: string;
 }
@@ -971,11 +971,11 @@ export class SloSliCustomIndicatorOutputReference extends cdktf.ComplexObject {
 }
 export interface SloSliCustomTimesliceIndicatorCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#op Slo#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#op Slo#op}
   */
   readonly op: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#value Slo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#value Slo#value}
   */
   readonly value: number;
 }
@@ -1082,17 +1082,17 @@ export class SloSliCustomTimesliceIndicatorConditionOutputReference extends cdkt
 }
 export interface SloSliCustomTimesliceIndicator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#query_template Slo#query_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#query_template Slo#query_template}
   */
   readonly queryTemplate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#timeslice_size Slo#timeslice_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#timeslice_size Slo#timeslice_size}
   */
   readonly timesliceSize: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#condition Slo#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#condition Slo#condition}
   */
   readonly condition: SloSliCustomTimesliceIndicatorCondition;
 }
@@ -1225,25 +1225,25 @@ export class SloSliCustomTimesliceIndicatorOutputReference extends cdktf.Complex
 }
 export interface SloSli {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#custom_dimension_labels Slo#custom_dimension_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#custom_dimension_labels Slo#custom_dimension_labels}
   */
   readonly customDimensionLabels?: string[];
   /**
   * additional_promql_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#additional_promql_filters Slo#additional_promql_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#additional_promql_filters Slo#additional_promql_filters}
   */
   readonly additionalPromqlFilters?: SloSliAdditionalPromqlFilters[] | cdktf.IResolvable;
   /**
   * custom_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#custom_indicator Slo#custom_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#custom_indicator Slo#custom_indicator}
   */
   readonly customIndicator?: SloSliCustomIndicator;
   /**
   * custom_timeslice_indicator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#custom_timeslice_indicator Slo#custom_timeslice_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#custom_timeslice_indicator Slo#custom_timeslice_indicator}
   */
   readonly customTimesliceIndicator?: SloSliCustomTimesliceIndicator;
 }
@@ -1414,7 +1414,7 @@ export class SloSliOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo chronosphere_slo}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo chronosphere_slo}
 */
 export class Slo extends cdktf.TerraformResource {
 
@@ -1430,7 +1430,7 @@ export class Slo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Slo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Slo to import
-  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Slo that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Slo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1442,7 +1442,7 @@ export class Slo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/slo chronosphere_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/slo chronosphere_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1453,8 +1453,8 @@ export class Slo extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_slo',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

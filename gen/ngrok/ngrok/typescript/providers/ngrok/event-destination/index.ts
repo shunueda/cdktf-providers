@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface EventDestinationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable description of the Event Destination. Optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#description EventDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#description EventDestination#description}
   */
   readonly description?: string;
   /**
   * The output format you would like to serialize events into when sending to their target. Currently the only accepted value is `JSON`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#format EventDestination#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#format EventDestination#format}
   */
   readonly format?: string;
   /**
   * Arbitrary user-defined machine-readable data of this Event Destination. Optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#metadata EventDestination#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#metadata EventDestination#metadata}
   */
   readonly metadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#verify_with_test_event EventDestination#verify_with_test_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#verify_with_test_event EventDestination#verify_with_test_event}
   */
   readonly verifyWithTestEvent?: boolean | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#target EventDestination#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#target EventDestination#target}
   */
   readonly target?: EventDestinationTarget[] | cdktf.IResolvable;
 }
@@ -40,37 +40,37 @@ export interface EventDestinationTargetAzureLogsIngestion {
   /**
   * Client ID for the application client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#client_id EventDestination#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#client_id EventDestination#client_id}
   */
   readonly clientId: string;
   /**
   * Client Secret for the application client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#client_secret EventDestination#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#client_secret EventDestination#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Data collection rule immutable ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#data_collection_rule_id EventDestination#data_collection_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#data_collection_rule_id EventDestination#data_collection_rule_id}
   */
   readonly dataCollectionRuleId: string;
   /**
   * Data collection stream name to use as destination, located inside the DCR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#data_collection_stream_name EventDestination#data_collection_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#data_collection_stream_name EventDestination#data_collection_stream_name}
   */
   readonly dataCollectionStreamName: string;
   /**
   * Data collection endpoint logs ingestion URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#logs_ingestion_uri EventDestination#logs_ingestion_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#logs_ingestion_uri EventDestination#logs_ingestion_uri}
   */
   readonly logsIngestionUri: string;
   /**
   * Tenant ID for the Azure account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#tenant_id EventDestination#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#tenant_id EventDestination#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -315,13 +315,13 @@ export interface EventDestinationTargetCloudwatchLogsAuthCreds {
   /**
   * The ID portion of an AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#aws_access_key_id EventDestination#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#aws_access_key_id EventDestination#aws_access_key_id}
   */
   readonly awsAccessKeyId: string;
   /**
   * The secret portion of an AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#aws_secret_access_key EventDestination#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#aws_secret_access_key EventDestination#aws_secret_access_key}
   */
   readonly awsSecretAccessKey: string;
 }
@@ -462,7 +462,7 @@ export interface EventDestinationTargetCloudwatchLogsAuthRole {
   /**
   * An ARN that specifies the role that ngrok should use to deliver to the configured target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#role_arn EventDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#role_arn EventDestination#role_arn}
   */
   readonly roleArn: string;
 }
@@ -577,13 +577,13 @@ export interface EventDestinationTargetCloudwatchLogsAuth {
   /**
   * creds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#creds EventDestination#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#creds EventDestination#creds}
   */
   readonly creds?: EventDestinationTargetCloudwatchLogsAuthCreds[] | cdktf.IResolvable;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#role EventDestination#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#role EventDestination#role}
   */
   readonly role?: EventDestinationTargetCloudwatchLogsAuthRole[] | cdktf.IResolvable;
 }
@@ -730,13 +730,13 @@ export interface EventDestinationTargetCloudwatchLogs {
   /**
   * An Amazon Resource Name specifying the CloudWatch Logs group to deposit events into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#log_group_arn EventDestination#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#log_group_arn EventDestination#log_group_arn}
   */
   readonly logGroupArn?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#auth EventDestination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#auth EventDestination#auth}
   */
   readonly auth?: EventDestinationTargetCloudwatchLogsAuth[] | cdktf.IResolvable;
 }
@@ -883,25 +883,25 @@ export interface EventDestinationTargetDatadog {
   /**
   * Datadog API key to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#api_key EventDestination#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#api_key EventDestination#api_key}
   */
   readonly apiKey?: string;
   /**
   * Datadog site to send event to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#ddsite EventDestination#ddsite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#ddsite EventDestination#ddsite}
   */
   readonly ddsite?: string;
   /**
   * Tags to send with the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#ddtags EventDestination#ddtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#ddtags EventDestination#ddtags}
   */
   readonly ddtags?: string;
   /**
   * Service name to send with the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#service EventDestination#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#service EventDestination#service}
   */
   readonly service?: string;
 }
@@ -1106,13 +1106,13 @@ export interface EventDestinationTargetDebug {
   /**
   * URL to send events to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#callback_url EventDestination#callback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#callback_url EventDestination#callback_url}
   */
   readonly callbackUrl?: string;
   /**
   * Whether or not to output to publisher service logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#log EventDestination#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#log EventDestination#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
 }
@@ -1259,13 +1259,13 @@ export interface EventDestinationTargetFirehoseAuthCreds {
   /**
   * The ID portion of an AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#aws_access_key_id EventDestination#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#aws_access_key_id EventDestination#aws_access_key_id}
   */
   readonly awsAccessKeyId: string;
   /**
   * The secret portion of an AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#aws_secret_access_key EventDestination#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#aws_secret_access_key EventDestination#aws_secret_access_key}
   */
   readonly awsSecretAccessKey: string;
 }
@@ -1406,7 +1406,7 @@ export interface EventDestinationTargetFirehoseAuthRole {
   /**
   * An ARN that specifies the role that ngrok should use to deliver to the configured target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#role_arn EventDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#role_arn EventDestination#role_arn}
   */
   readonly roleArn: string;
 }
@@ -1521,13 +1521,13 @@ export interface EventDestinationTargetFirehoseAuth {
   /**
   * creds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#creds EventDestination#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#creds EventDestination#creds}
   */
   readonly creds?: EventDestinationTargetFirehoseAuthCreds[] | cdktf.IResolvable;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#role EventDestination#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#role EventDestination#role}
   */
   readonly role?: EventDestinationTargetFirehoseAuthRole[] | cdktf.IResolvable;
 }
@@ -1674,13 +1674,13 @@ export interface EventDestinationTargetFirehose {
   /**
   * An Amazon Resource Name specifying the Firehose delivery stream to deposit events into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#delivery_stream_arn EventDestination#delivery_stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#delivery_stream_arn EventDestination#delivery_stream_arn}
   */
   readonly deliveryStreamArn?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#auth EventDestination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#auth EventDestination#auth}
   */
   readonly auth?: EventDestinationTargetFirehoseAuth[] | cdktf.IResolvable;
 }
@@ -1827,13 +1827,13 @@ export interface EventDestinationTargetKinesisAuthCreds {
   /**
   * The ID portion of an AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#aws_access_key_id EventDestination#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#aws_access_key_id EventDestination#aws_access_key_id}
   */
   readonly awsAccessKeyId: string;
   /**
   * The secret portion of an AWS access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#aws_secret_access_key EventDestination#aws_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#aws_secret_access_key EventDestination#aws_secret_access_key}
   */
   readonly awsSecretAccessKey: string;
 }
@@ -1974,7 +1974,7 @@ export interface EventDestinationTargetKinesisAuthRole {
   /**
   * An ARN that specifies the role that ngrok should use to deliver to the configured target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#role_arn EventDestination#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#role_arn EventDestination#role_arn}
   */
   readonly roleArn: string;
 }
@@ -2089,13 +2089,13 @@ export interface EventDestinationTargetKinesisAuth {
   /**
   * creds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#creds EventDestination#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#creds EventDestination#creds}
   */
   readonly creds?: EventDestinationTargetKinesisAuthCreds[] | cdktf.IResolvable;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#role EventDestination#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#role EventDestination#role}
   */
   readonly role?: EventDestinationTargetKinesisAuthRole[] | cdktf.IResolvable;
 }
@@ -2242,13 +2242,13 @@ export interface EventDestinationTargetKinesis {
   /**
   * An Amazon Resource Name specifying the Kinesis stream to deposit events into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#stream_arn EventDestination#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#stream_arn EventDestination#stream_arn}
   */
   readonly streamArn?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#auth EventDestination#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#auth EventDestination#auth}
   */
   readonly auth?: EventDestinationTargetKinesisAuth[] | cdktf.IResolvable;
 }
@@ -2395,37 +2395,37 @@ export interface EventDestinationTarget {
   /**
   * azure_logs_ingestion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#azure_logs_ingestion EventDestination#azure_logs_ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#azure_logs_ingestion EventDestination#azure_logs_ingestion}
   */
   readonly azureLogsIngestion?: EventDestinationTargetAzureLogsIngestion[] | cdktf.IResolvable;
   /**
   * cloudwatch_logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#cloudwatch_logs EventDestination#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#cloudwatch_logs EventDestination#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: EventDestinationTargetCloudwatchLogs[] | cdktf.IResolvable;
   /**
   * datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#datadog EventDestination#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#datadog EventDestination#datadog}
   */
   readonly datadog?: EventDestinationTargetDatadog[] | cdktf.IResolvable;
   /**
   * debug block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#debug EventDestination#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#debug EventDestination#debug}
   */
   readonly debug?: EventDestinationTargetDebug[] | cdktf.IResolvable;
   /**
   * firehose block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#firehose EventDestination#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#firehose EventDestination#firehose}
   */
   readonly firehose?: EventDestinationTargetFirehose[] | cdktf.IResolvable;
   /**
   * kinesis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#kinesis EventDestination#kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#kinesis EventDestination#kinesis}
   */
   readonly kinesis?: EventDestinationTargetKinesis[] | cdktf.IResolvable;
 }
@@ -2686,7 +2686,7 @@ export class EventDestinationTargetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination ngrok_event_destination}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination ngrok_event_destination}
 */
 export class EventDestination extends cdktf.TerraformResource {
 
@@ -2702,7 +2702,7 @@ export class EventDestination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventDestination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventDestination to import
-  * @param importFromId The id of the existing EventDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2714,7 +2714,7 @@ export class EventDestination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_destination ngrok_event_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_destination ngrok_event_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2725,8 +2725,8 @@ export class EventDestination extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_event_destination',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

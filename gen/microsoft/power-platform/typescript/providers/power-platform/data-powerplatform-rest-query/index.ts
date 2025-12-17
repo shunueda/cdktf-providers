@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataPowerplatformRestQueryConfig extends cdktf.TerraformMetaArg
   /**
   * Body of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#body DataPowerplatformRestQuery#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#body DataPowerplatformRestQuery#body}
   */
   readonly body?: string;
   /**
   * Expected HTTP status code. If the response status code does not match any of the expected status codes, the operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#expected_http_status DataPowerplatformRestQuery#expected_http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#expected_http_status DataPowerplatformRestQuery#expected_http_status}
   */
   readonly expectedHttpStatus?: number[];
   /**
   * Headers of the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#headers DataPowerplatformRestQuery#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#headers DataPowerplatformRestQuery#headers}
   */
   readonly headers?: DataPowerplatformRestQueryHeaders[] | cdktf.IResolvable;
   /**
   * HTTP method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#method DataPowerplatformRestQuery#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#method DataPowerplatformRestQuery#method}
   */
   readonly method: string;
   /**
   * Authentication scope for the request. See more: [Authentication Scopes](https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#scope DataPowerplatformRestQuery#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#scope DataPowerplatformRestQuery#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#timeouts DataPowerplatformRestQuery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#timeouts DataPowerplatformRestQuery#timeouts}
   */
   readonly timeouts?: DataPowerplatformRestQueryTimeouts;
   /**
   * Absolute url of the api call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#url DataPowerplatformRestQuery#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#url DataPowerplatformRestQuery#url}
   */
   readonly url: string;
 }
@@ -52,13 +52,13 @@ export interface DataPowerplatformRestQueryHeaders {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#name DataPowerplatformRestQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#name DataPowerplatformRestQuery#name}
   */
   readonly name: string;
   /**
   * Header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#value DataPowerplatformRestQuery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#value DataPowerplatformRestQuery#value}
   */
   readonly value: string;
 }
@@ -253,7 +253,7 @@ export interface DataPowerplatformRestQueryTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#read DataPowerplatformRestQuery#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#read DataPowerplatformRestQuery#read}
   */
   readonly read?: string;
 }
@@ -347,7 +347,7 @@ export class DataPowerplatformRestQueryTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query powerplatform_rest_query}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query powerplatform_rest_query}
 */
 export class DataPowerplatformRestQuery extends cdktf.TerraformDataSource {
 
@@ -363,7 +363,7 @@ export class DataPowerplatformRestQuery extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformRestQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformRestQuery to import
-  * @param importFromId The id of the existing DataPowerplatformRestQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformRestQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformRestQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class DataPowerplatformRestQuery extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_rest_query powerplatform_rest_query} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_rest_query powerplatform_rest_query} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class DataPowerplatformRestQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_rest_query',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

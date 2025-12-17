@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group
+// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface RetrieveVmGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#config_id RetrieveVmGroup#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#config_id RetrieveVmGroup#config_id}
   */
   readonly configId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#count_num RetrieveVmGroup#count_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#count_num RetrieveVmGroup#count_num}
   */
   readonly countNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#id RetrieveVmGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#id RetrieveVmGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#preempt_interval RetrieveVmGroup#preempt_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#preempt_interval RetrieveVmGroup#preempt_interval}
   */
   readonly preemptInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#refresh_token_when_create RetrieveVmGroup#refresh_token_when_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#refresh_token_when_create RetrieveVmGroup#refresh_token_when_create}
   */
   readonly refreshTokenWhenCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#refresh_token_when_destroy RetrieveVmGroup#refresh_token_when_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#refresh_token_when_destroy RetrieveVmGroup#refresh_token_when_destroy}
   */
   readonly refreshTokenWhenDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#require_exact_count RetrieveVmGroup#require_exact_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#require_exact_count RetrieveVmGroup#require_exact_count}
   */
   readonly requireExactCount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#retrieve_status RetrieveVmGroup#retrieve_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#retrieve_status RetrieveVmGroup#retrieve_status}
   */
   readonly retrieveStatus?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#task_name RetrieveVmGroup#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#task_name RetrieveVmGroup#task_name}
   */
   readonly taskName: string;
 }
@@ -164,7 +164,7 @@ export class RetrieveVmGroupEntitlementsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group fortiflexvm_retrieve_vm_group}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group fortiflexvm_retrieve_vm_group}
 */
 export class RetrieveVmGroup extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class RetrieveVmGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RetrieveVmGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RetrieveVmGroup to import
-  * @param importFromId The id of the existing RetrieveVmGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RetrieveVmGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RetrieveVmGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class RetrieveVmGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/retrieve_vm_group fortiflexvm_retrieve_vm_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/retrieve_vm_group fortiflexvm_retrieve_vm_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class RetrieveVmGroup extends cdktf.TerraformResource {
       terraformResourceType: 'fortiflexvm_retrieve_vm_group',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3',
-        providerVersionConstraint: '2.4.3'
+        providerVersion: '2.4.4',
+        providerVersionConstraint: '2.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

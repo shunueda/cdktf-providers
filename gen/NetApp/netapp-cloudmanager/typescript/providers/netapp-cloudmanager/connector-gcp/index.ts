@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectorGcpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#account_id ConnectorGcp#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#account_id ConnectorGcp#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#associate_public_ip ConnectorGcp#associate_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#associate_public_ip ConnectorGcp#associate_public_ip}
   */
   readonly associatePublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#company ConnectorGcp#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#company ConnectorGcp#company}
   */
   readonly company: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#firewall_tags ConnectorGcp#firewall_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#firewall_tags ConnectorGcp#firewall_tags}
   */
   readonly firewallTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#gcp_block_project_ssh_keys ConnectorGcp#gcp_block_project_ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#gcp_block_project_ssh_keys ConnectorGcp#gcp_block_project_ssh_keys}
   */
   readonly gcpBlockProjectSshKeys?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#gcp_enable_os_login ConnectorGcp#gcp_enable_os_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#gcp_enable_os_login ConnectorGcp#gcp_enable_os_login}
   */
   readonly gcpEnableOsLogin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#gcp_enable_os_login_sk ConnectorGcp#gcp_enable_os_login_sk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#gcp_enable_os_login_sk ConnectorGcp#gcp_enable_os_login_sk}
   */
   readonly gcpEnableOsLoginSk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#gcp_serial_port_enable ConnectorGcp#gcp_serial_port_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#gcp_serial_port_enable ConnectorGcp#gcp_serial_port_enable}
   */
   readonly gcpSerialPortEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#id ConnectorGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#id ConnectorGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#labels ConnectorGcp#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#labels ConnectorGcp#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#machine_type ConnectorGcp#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#machine_type ConnectorGcp#machine_type}
   */
   readonly machineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#name ConnectorGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#name ConnectorGcp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#network_project_id ConnectorGcp#network_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#network_project_id ConnectorGcp#network_project_id}
   */
   readonly networkProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#project_id ConnectorGcp#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#project_id ConnectorGcp#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#proxy_certificates ConnectorGcp#proxy_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#proxy_certificates ConnectorGcp#proxy_certificates}
   */
   readonly proxyCertificates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#proxy_password ConnectorGcp#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#proxy_password ConnectorGcp#proxy_password}
   */
   readonly proxyPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#proxy_url ConnectorGcp#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#proxy_url ConnectorGcp#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#proxy_user_name ConnectorGcp#proxy_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#proxy_user_name ConnectorGcp#proxy_user_name}
   */
   readonly proxyUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#service_account_email ConnectorGcp#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#service_account_email ConnectorGcp#service_account_email}
   */
   readonly serviceAccountEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#service_account_key ConnectorGcp#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#service_account_key ConnectorGcp#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#service_account_path ConnectorGcp#service_account_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#service_account_path ConnectorGcp#service_account_path}
   */
   readonly serviceAccountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#subnet_id ConnectorGcp#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#subnet_id ConnectorGcp#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#tags ConnectorGcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#tags ConnectorGcp#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#zone ConnectorGcp#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#zone ConnectorGcp#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp netapp-cloudmanager_connector_gcp}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp netapp-cloudmanager_connector_gcp}
 */
 export class ConnectorGcp extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class ConnectorGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorGcp to import
-  * @param importFromId The id of the existing ConnectorGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class ConnectorGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_gcp netapp-cloudmanager_connector_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_gcp netapp-cloudmanager_connector_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class ConnectorGcp extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_connector_gcp',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

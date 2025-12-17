@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface WebhookActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the Webhook Action expects an additional, asynchronous response upon completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#async WebhookAction#async}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#async WebhookAction#async}
   */
   readonly async?: boolean | cdktf.IResolvable;
   /**
   * The description of the Webhook Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#description WebhookAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#description WebhookAction#description}
   */
   readonly description?: string;
   /**
   * HTTP headers to be passed along with your webhook when triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#headers WebhookAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#headers WebhookAction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * The http method used to call the Webhook Action. One of `DELETE`, `GET`, `PATCH`, `POST`, `PUT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#method WebhookAction#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#method WebhookAction#method}
   */
   readonly method: string;
   /**
   * The name of the Webhook Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#name WebhookAction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#name WebhookAction#name}
   */
   readonly name: string;
   /**
   * Template that can be used to generate a webhook payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#payload WebhookAction#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#payload WebhookAction#payload}
   */
   readonly payload: string;
   /**
   * The URL of the Webhook Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#url WebhookAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#url WebhookAction#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action opslevel_webhook_action}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action opslevel_webhook_action}
 */
 export class WebhookAction extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class WebhookAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhookAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhookAction to import
-  * @param importFromId The id of the existing WebhookAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhookAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhookAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class WebhookAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/webhook_action opslevel_webhook_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/webhook_action opslevel_webhook_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class WebhookAction extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_webhook_action',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

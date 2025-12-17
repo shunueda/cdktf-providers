@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature
+// https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface FeatureEngineeringMaterializedFeatureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#feature_name FeatureEngineeringMaterializedFeature#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#cron_schedule FeatureEngineeringMaterializedFeature#cron_schedule}
+  */
+  readonly cronSchedule?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#feature_name FeatureEngineeringMaterializedFeature#feature_name}
   */
   readonly featureName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#offline_store_config FeatureEngineeringMaterializedFeature#offline_store_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#offline_store_config FeatureEngineeringMaterializedFeature#offline_store_config}
   */
   readonly offlineStoreConfig?: FeatureEngineeringMaterializedFeatureOfflineStoreConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#online_store_config FeatureEngineeringMaterializedFeature#online_store_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#online_store_config FeatureEngineeringMaterializedFeature#online_store_config}
   */
   readonly onlineStoreConfig?: FeatureEngineeringMaterializedFeatureOnlineStoreConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#pipeline_schedule_state FeatureEngineeringMaterializedFeature#pipeline_schedule_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#pipeline_schedule_state FeatureEngineeringMaterializedFeature#pipeline_schedule_state}
   */
   readonly pipelineScheduleState?: string;
 }
 export interface FeatureEngineeringMaterializedFeatureOfflineStoreConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#catalog_name FeatureEngineeringMaterializedFeature#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#catalog_name FeatureEngineeringMaterializedFeature#catalog_name}
   */
   readonly catalogName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#schema_name FeatureEngineeringMaterializedFeature#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#schema_name FeatureEngineeringMaterializedFeature#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#table_name_prefix FeatureEngineeringMaterializedFeature#table_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#table_name_prefix FeatureEngineeringMaterializedFeature#table_name_prefix}
   */
   readonly tableNamePrefix: string;
 }
@@ -177,19 +181,19 @@ export class FeatureEngineeringMaterializedFeatureOfflineStoreConfigOutputRefere
 }
 export interface FeatureEngineeringMaterializedFeatureOnlineStoreConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#catalog_name FeatureEngineeringMaterializedFeature#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#catalog_name FeatureEngineeringMaterializedFeature#catalog_name}
   */
   readonly catalogName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#online_store_name FeatureEngineeringMaterializedFeature#online_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#online_store_name FeatureEngineeringMaterializedFeature#online_store_name}
   */
   readonly onlineStoreName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#schema_name FeatureEngineeringMaterializedFeature#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#schema_name FeatureEngineeringMaterializedFeature#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#table_name_prefix FeatureEngineeringMaterializedFeature#table_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#table_name_prefix FeatureEngineeringMaterializedFeature#table_name_prefix}
   */
   readonly tableNamePrefix: string;
 }
@@ -358,7 +362,7 @@ export class FeatureEngineeringMaterializedFeatureOnlineStoreConfigOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature}
+* Represents a {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature}
 */
 export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResource {
 
@@ -374,7 +378,7 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
   * Generates CDKTF code for importing a FeatureEngineeringMaterializedFeature resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FeatureEngineeringMaterializedFeature to import
-  * @param importFromId The id of the existing FeatureEngineeringMaterializedFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FeatureEngineeringMaterializedFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FeatureEngineeringMaterializedFeature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +390,7 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/databricks/databricks/1.100.0/docs/resources/feature_engineering_materialized_feature databricks_feature_engineering_materialized_feature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +401,8 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
       terraformResourceType: 'databricks_feature_engineering_materialized_feature',
       terraformGeneratorMetadata: {
         providerName: 'databricks',
-        providerVersion: '1.99.0',
-        providerVersionConstraint: '1.99.0'
+        providerVersion: '1.100.0',
+        providerVersionConstraint: '1.100.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -408,6 +412,7 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
       connection: config.connection,
       forEach: config.forEach
     });
+    this._cronSchedule = config.cronSchedule;
     this._featureName = config.featureName;
     this._offlineStoreConfig.internalValue = config.offlineStoreConfig;
     this._onlineStoreConfig.internalValue = config.onlineStoreConfig;
@@ -417,6 +422,22 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // cron_schedule - computed: false, optional: true, required: false
+  private _cronSchedule?: string; 
+  public get cronSchedule() {
+    return this.getStringAttribute('cron_schedule');
+  }
+  public set cronSchedule(value: string) {
+    this._cronSchedule = value;
+  }
+  public resetCronSchedule() {
+    this._cronSchedule = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cronScheduleInput() {
+    return this._cronSchedule;
+  }
 
   // feature_name - computed: false, optional: false, required: true
   private _featureName?: string; 
@@ -500,6 +521,7 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cron_schedule: cdktf.stringToTerraform(this._cronSchedule),
       feature_name: cdktf.stringToTerraform(this._featureName),
       offline_store_config: featureEngineeringMaterializedFeatureOfflineStoreConfigToTerraform(this._offlineStoreConfig.internalValue),
       online_store_config: featureEngineeringMaterializedFeatureOnlineStoreConfigToTerraform(this._onlineStoreConfig.internalValue),
@@ -509,6 +531,12 @@ export class FeatureEngineeringMaterializedFeature extends cdktf.TerraformResour
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      cron_schedule: {
+        value: cdktf.stringToHclTerraform(this._cronSchedule),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       feature_name: {
         value: cdktf.stringToHclTerraform(this._featureName),
         isBlock: false,

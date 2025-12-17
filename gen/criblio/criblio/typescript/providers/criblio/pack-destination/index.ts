@@ -259,278 +259,278 @@ export interface PackDestinationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#group_id PackDestination#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#group_id PackDestination#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#id PackDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#id PackDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_azure_blob PackDestination#output_azure_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_azure_blob PackDestination#output_azure_blob}
   */
   readonly outputAzureBlob?: PackDestinationOutputAzureBlob;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_azure_data_explorer PackDestination#output_azure_data_explorer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_azure_data_explorer PackDestination#output_azure_data_explorer}
   */
   readonly outputAzureDataExplorer?: PackDestinationOutputAzureDataExplorer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_azure_eventhub PackDestination#output_azure_eventhub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_azure_eventhub PackDestination#output_azure_eventhub}
   */
   readonly outputAzureEventhub?: PackDestinationOutputAzureEventhub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_azure_logs PackDestination#output_azure_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_azure_logs PackDestination#output_azure_logs}
   */
   readonly outputAzureLogs?: PackDestinationOutputAzureLogs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_click_house PackDestination#output_click_house}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_click_house PackDestination#output_click_house}
   */
   readonly outputClickHouse?: PackDestinationOutputClickHouse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_cloudwatch PackDestination#output_cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_cloudwatch PackDestination#output_cloudwatch}
   */
   readonly outputCloudwatch?: PackDestinationOutputCloudwatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_confluent_cloud PackDestination#output_confluent_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_confluent_cloud PackDestination#output_confluent_cloud}
   */
   readonly outputConfluentCloud?: PackDestinationOutputConfluentCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_cribl_http PackDestination#output_cribl_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_cribl_http PackDestination#output_cribl_http}
   */
   readonly outputCriblHttp?: PackDestinationOutputCriblHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_cribl_lake PackDestination#output_cribl_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_cribl_lake PackDestination#output_cribl_lake}
   */
   readonly outputCriblLake?: PackDestinationOutputCriblLake;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_cribl_tcp PackDestination#output_cribl_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_cribl_tcp PackDestination#output_cribl_tcp}
   */
   readonly outputCriblTcp?: PackDestinationOutputCriblTcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_crowdstrike_next_gen_siem PackDestination#output_crowdstrike_next_gen_siem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_crowdstrike_next_gen_siem PackDestination#output_crowdstrike_next_gen_siem}
   */
   readonly outputCrowdstrikeNextGenSiem?: PackDestinationOutputCrowdstrikeNextGenSiem;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_datadog PackDestination#output_datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_datadog PackDestination#output_datadog}
   */
   readonly outputDatadog?: PackDestinationOutputDatadog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_dataset PackDestination#output_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_dataset PackDestination#output_dataset}
   */
   readonly outputDataset?: PackDestinationOutputDataset;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_default PackDestination#output_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_default PackDestination#output_default}
   */
   readonly outputDefault?: PackDestinationOutputDefault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_devnull PackDestination#output_devnull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_devnull PackDestination#output_devnull}
   */
   readonly outputDevnull?: PackDestinationOutputDevnull;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_disk_spool PackDestination#output_disk_spool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_disk_spool PackDestination#output_disk_spool}
   */
   readonly outputDiskSpool?: PackDestinationOutputDiskSpool;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_dl_s3 PackDestination#output_dl_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_dl_s3 PackDestination#output_dl_s3}
   */
   readonly outputDlS3?: PackDestinationOutputDlS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_dynatrace_http PackDestination#output_dynatrace_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_dynatrace_http PackDestination#output_dynatrace_http}
   */
   readonly outputDynatraceHttp?: PackDestinationOutputDynatraceHttp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_dynatrace_otlp PackDestination#output_dynatrace_otlp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_dynatrace_otlp PackDestination#output_dynatrace_otlp}
   */
   readonly outputDynatraceOtlp?: PackDestinationOutputDynatraceOtlp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_elastic PackDestination#output_elastic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_elastic PackDestination#output_elastic}
   */
   readonly outputElastic?: PackDestinationOutputElastic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_elastic_cloud PackDestination#output_elastic_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_elastic_cloud PackDestination#output_elastic_cloud}
   */
   readonly outputElasticCloud?: PackDestinationOutputElasticCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_exabeam PackDestination#output_exabeam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_exabeam PackDestination#output_exabeam}
   */
   readonly outputExabeam?: PackDestinationOutputExabeam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_filesystem PackDestination#output_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_filesystem PackDestination#output_filesystem}
   */
   readonly outputFilesystem?: PackDestinationOutputFilesystem;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_google_chronicle PackDestination#output_google_chronicle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_google_chronicle PackDestination#output_google_chronicle}
   */
   readonly outputGoogleChronicle?: PackDestinationOutputGoogleChronicle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_google_cloud_logging PackDestination#output_google_cloud_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_google_cloud_logging PackDestination#output_google_cloud_logging}
   */
   readonly outputGoogleCloudLogging?: PackDestinationOutputGoogleCloudLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_google_cloud_storage PackDestination#output_google_cloud_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_google_cloud_storage PackDestination#output_google_cloud_storage}
   */
   readonly outputGoogleCloudStorage?: PackDestinationOutputGoogleCloudStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_google_pubsub PackDestination#output_google_pubsub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_google_pubsub PackDestination#output_google_pubsub}
   */
   readonly outputGooglePubsub?: PackDestinationOutputGooglePubsub;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_grafana_cloud PackDestination#output_grafana_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_grafana_cloud PackDestination#output_grafana_cloud}
   */
   readonly outputGrafanaCloud?: PackDestinationOutputGrafanaCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_graphite PackDestination#output_graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_graphite PackDestination#output_graphite}
   */
   readonly outputGraphite?: PackDestinationOutputGraphite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_honeycomb PackDestination#output_honeycomb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_honeycomb PackDestination#output_honeycomb}
   */
   readonly outputHoneycomb?: PackDestinationOutputHoneycomb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_humio_hec PackDestination#output_humio_hec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_humio_hec PackDestination#output_humio_hec}
   */
   readonly outputHumioHec?: PackDestinationOutputHumioHec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_influxdb PackDestination#output_influxdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_influxdb PackDestination#output_influxdb}
   */
   readonly outputInfluxdb?: PackDestinationOutputInfluxdb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_kafka PackDestination#output_kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_kafka PackDestination#output_kafka}
   */
   readonly outputKafka?: PackDestinationOutputKafka;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_kinesis PackDestination#output_kinesis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_kinesis PackDestination#output_kinesis}
   */
   readonly outputKinesis?: PackDestinationOutputKinesis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_loki PackDestination#output_loki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_loki PackDestination#output_loki}
   */
   readonly outputLoki?: PackDestinationOutputLoki;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_minio PackDestination#output_minio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_minio PackDestination#output_minio}
   */
   readonly outputMinio?: PackDestinationOutputMinio;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_msk PackDestination#output_msk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_msk PackDestination#output_msk}
   */
   readonly outputMsk?: PackDestinationOutputMsk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_netflow PackDestination#output_netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_netflow PackDestination#output_netflow}
   */
   readonly outputNetflow?: PackDestinationOutputNetflow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_newrelic PackDestination#output_newrelic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_newrelic PackDestination#output_newrelic}
   */
   readonly outputNewrelic?: PackDestinationOutputNewrelic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_newrelic_events PackDestination#output_newrelic_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_newrelic_events PackDestination#output_newrelic_events}
   */
   readonly outputNewrelicEvents?: PackDestinationOutputNewrelicEvents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_open_telemetry PackDestination#output_open_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_open_telemetry PackDestination#output_open_telemetry}
   */
   readonly outputOpenTelemetry?: PackDestinationOutputOpenTelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_prometheus PackDestination#output_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_prometheus PackDestination#output_prometheus}
   */
   readonly outputPrometheus?: PackDestinationOutputPrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_ring PackDestination#output_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_ring PackDestination#output_ring}
   */
   readonly outputRing?: PackDestinationOutputRing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_router PackDestination#output_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_router PackDestination#output_router}
   */
   readonly outputRouter?: PackDestinationOutputRouter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_s3 PackDestination#output_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_s3 PackDestination#output_s3}
   */
   readonly outputS3?: PackDestinationOutputS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_security_lake PackDestination#output_security_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_security_lake PackDestination#output_security_lake}
   */
   readonly outputSecurityLake?: PackDestinationOutputSecurityLake;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_sentinel PackDestination#output_sentinel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_sentinel PackDestination#output_sentinel}
   */
   readonly outputSentinel?: PackDestinationOutputSentinel;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_service_now PackDestination#output_service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_service_now PackDestination#output_service_now}
   */
   readonly outputServiceNow?: PackDestinationOutputServiceNow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_signalfx PackDestination#output_signalfx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_signalfx PackDestination#output_signalfx}
   */
   readonly outputSignalfx?: PackDestinationOutputSignalfx;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_snmp PackDestination#output_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_snmp PackDestination#output_snmp}
   */
   readonly outputSnmp?: PackDestinationOutputSnmp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_sns PackDestination#output_sns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_sns PackDestination#output_sns}
   */
   readonly outputSns?: PackDestinationOutputSns;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_splunk PackDestination#output_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_splunk PackDestination#output_splunk}
   */
   readonly outputSplunk?: PackDestinationOutputSplunk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_splunk_hec PackDestination#output_splunk_hec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_splunk_hec PackDestination#output_splunk_hec}
   */
   readonly outputSplunkHec?: PackDestinationOutputSplunkHec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_splunk_lb PackDestination#output_splunk_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_splunk_lb PackDestination#output_splunk_lb}
   */
   readonly outputSplunkLb?: PackDestinationOutputSplunkLb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_sqs PackDestination#output_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_sqs PackDestination#output_sqs}
   */
   readonly outputSqs?: PackDestinationOutputSqs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_statsd PackDestination#output_statsd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_statsd PackDestination#output_statsd}
   */
   readonly outputStatsd?: PackDestinationOutputStatsd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_statsd_ext PackDestination#output_statsd_ext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_statsd_ext PackDestination#output_statsd_ext}
   */
   readonly outputStatsdExt?: PackDestinationOutputStatsdExt;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_sumo_logic PackDestination#output_sumo_logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_sumo_logic PackDestination#output_sumo_logic}
   */
   readonly outputSumoLogic?: PackDestinationOutputSumoLogic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_syslog PackDestination#output_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_syslog PackDestination#output_syslog}
   */
   readonly outputSyslog?: PackDestinationOutputSyslog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_tcpjson PackDestination#output_tcpjson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_tcpjson PackDestination#output_tcpjson}
   */
   readonly outputTcpjson?: PackDestinationOutputTcpjson;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_wavefront PackDestination#output_wavefront}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_wavefront PackDestination#output_wavefront}
   */
   readonly outputWavefront?: PackDestinationOutputWavefront;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_webhook PackDestination#output_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_webhook PackDestination#output_webhook}
   */
   readonly outputWebhook?: PackDestinationOutputWebhook;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#output_xsiam PackDestination#output_xsiam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#output_xsiam PackDestination#output_xsiam}
   */
   readonly outputXsiam?: PackDestinationOutputXsiam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#pack PackDestination#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#pack PackDestination#pack}
   */
   readonly pack: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination criblio_pack_destination}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination criblio_pack_destination}
 */
 export class PackDestination extends cdktf.TerraformResource {
 
@@ -546,7 +546,7 @@ export class PackDestination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackDestination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackDestination to import
-  * @param importFromId The id of the existing PackDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -558,7 +558,7 @@ export class PackDestination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack_destination criblio_pack_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack_destination criblio_pack_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -569,8 +569,8 @@ export class PackDestination extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack_destination',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.64',
-        providerVersionConstraint: '1.20.64'
+        providerVersion: '1.20.69',
+        providerVersionConstraint: '1.20.69'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `iosxe_static_route`
 
-Refer to the Terraform Registry for docs: [`iosxe_static_route`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/static_route).
+Refer to the Terraform Registry for docs: [`iosxe_static_route`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/static_route).

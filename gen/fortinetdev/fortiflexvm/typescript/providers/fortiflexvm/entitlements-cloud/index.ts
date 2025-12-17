@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud
+// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface EntitlementsCloudConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#config_id EntitlementsCloud#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#config_id EntitlementsCloud#config_id}
   */
   readonly configId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#description EntitlementsCloud#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#description EntitlementsCloud#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#end_date EntitlementsCloud#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#end_date EntitlementsCloud#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#folder_path EntitlementsCloud#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#folder_path EntitlementsCloud#folder_path}
   */
   readonly folderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#id EntitlementsCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#id EntitlementsCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#serial_number EntitlementsCloud#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#serial_number EntitlementsCloud#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#status EntitlementsCloud#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#status EntitlementsCloud#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud fortiflexvm_entitlements_cloud}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud fortiflexvm_entitlements_cloud}
 */
 export class EntitlementsCloud extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class EntitlementsCloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntitlementsCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntitlementsCloud to import
-  * @param importFromId The id of the existing EntitlementsCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntitlementsCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntitlementsCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class EntitlementsCloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/resources/entitlements_cloud fortiflexvm_entitlements_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/resources/entitlements_cloud fortiflexvm_entitlements_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class EntitlementsCloud extends cdktf.TerraformResource {
       terraformResourceType: 'fortiflexvm_entitlements_cloud',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3',
-        providerVersionConstraint: '2.4.3'
+        providerVersion: '2.4.4',
+        providerVersionConstraint: '2.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

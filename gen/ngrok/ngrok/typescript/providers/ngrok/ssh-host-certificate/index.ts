@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SshHostCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * human-readable description of this SSH Host Certificate. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#description SshHostCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#description SshHostCertificate#description}
   */
   readonly description?: string;
   /**
   * arbitrary user-defined machine-readable data of this SSH Host Certificate. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#metadata SshHostCertificate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#metadata SshHostCertificate#metadata}
   */
   readonly metadata?: string;
   /**
   * the list of principals included in the ssh host certificate. This is the list of hostnames and/or IP addresses that are authorized to serve SSH traffic with this certificate. Dangerously, if no principals are specified, this certificate is considered valid for all hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#principals SshHostCertificate#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#principals SshHostCertificate#principals}
   */
   readonly principals?: string[];
   /**
   * a public key in OpenSSH Authorized Keys format that this certificate signs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#public_key SshHostCertificate#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#public_key SshHostCertificate#public_key}
   */
   readonly publicKey: string;
   /**
   * the ssh certificate authority that is used to sign this ssh host certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#ssh_certificate_authority_id SshHostCertificate#ssh_certificate_authority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#ssh_certificate_authority_id SshHostCertificate#ssh_certificate_authority_id}
   */
   readonly sshCertificateAuthorityId: string;
   /**
   * the time when the ssh host certificate becomes valid, in RFC 3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#valid_after SshHostCertificate#valid_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#valid_after SshHostCertificate#valid_after}
   */
   readonly validAfter?: string;
   /**
   * the time after which the ssh host certificate becomes invalid, in RFC 3339 format. the OpenSSH certificates RFC calls this `valid_before`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#valid_until SshHostCertificate#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#valid_until SshHostCertificate#valid_until}
   */
   readonly validUntil?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate ngrok_ssh_host_certificate}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate ngrok_ssh_host_certificate}
 */
 export class SshHostCertificate extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class SshHostCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshHostCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshHostCertificate to import
-  * @param importFromId The id of the existing SshHostCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshHostCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshHostCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class SshHostCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_host_certificate ngrok_ssh_host_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_host_certificate ngrok_ssh_host_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class SshHostCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_ssh_host_certificate',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

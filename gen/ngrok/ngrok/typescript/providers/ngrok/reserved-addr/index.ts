@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ReservedAddrConfig extends cdktf.TerraformMetaArguments {
   /**
   * human-readable description of what this reserved address will be used for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr#description ReservedAddr#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr#description ReservedAddr#description}
   */
   readonly description?: string;
   /**
   * ID of an endpoint configuration of type tcp that will be used to handle inbound traffic to this address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr#endpoint_configuration_id ReservedAddr#endpoint_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr#endpoint_configuration_id ReservedAddr#endpoint_configuration_id}
   */
   readonly endpointConfigurationId?: string;
   /**
   * arbitrary user-defined machine-readable data of this reserved address. Optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr#metadata ReservedAddr#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr#metadata ReservedAddr#metadata}
   */
   readonly metadata?: string;
   /**
   * reserve the address in this geographic ngrok datacenter. Optional, default is us. (au, eu, ap, us, jp, in, sa)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr#region ReservedAddr#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr#region ReservedAddr#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr ngrok_reserved_addr}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr ngrok_reserved_addr}
 */
 export class ReservedAddr extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ReservedAddr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReservedAddr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReservedAddr to import
-  * @param importFromId The id of the existing ReservedAddr that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReservedAddr that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReservedAddr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ReservedAddr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/reserved_addr ngrok_reserved_addr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/reserved_addr ngrok_reserved_addr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ReservedAddr extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_reserved_addr',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

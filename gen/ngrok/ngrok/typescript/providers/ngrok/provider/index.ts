@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NgrokProviderConfig {
   /**
   * base URL for the ngrok API. only overridden for ngrok's internal testing purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs#api_base_url NgrokProvider#api_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs#api_base_url NgrokProvider#api_base_url}
   */
   readonly apiBaseUrl?: string;
   /**
   * ngrok API key used for authenticating to the API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs#api_key NgrokProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs#api_key NgrokProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs#alias NgrokProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs#alias NgrokProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs ngrok}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs ngrok}
 */
 export class NgrokProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class NgrokProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NgrokProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgrokProvider to import
-  * @param importFromId The id of the existing NgrokProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgrokProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgrokProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class NgrokProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs ngrok} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs ngrok} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class NgrokProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ngrok',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       terraformProviderSource: 'ngrok/ngrok'
     });

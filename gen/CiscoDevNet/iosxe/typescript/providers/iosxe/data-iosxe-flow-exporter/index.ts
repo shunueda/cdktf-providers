@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/flow_exporter
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/flow_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIosxeFlowExporterConfig extends cdktf.TerraformMetaArgument
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/flow_exporter#device DataIosxeFlowExporter#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/flow_exporter#device DataIosxeFlowExporter#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/flow_exporter#name DataIosxeFlowExporter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/flow_exporter#name DataIosxeFlowExporter#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/flow_exporter iosxe_flow_exporter}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/flow_exporter iosxe_flow_exporter}
 */
 export class DataIosxeFlowExporter extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataIosxeFlowExporter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeFlowExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeFlowExporter to import
-  * @param importFromId The id of the existing DataIosxeFlowExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/flow_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeFlowExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/flow_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeFlowExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataIosxeFlowExporter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/flow_exporter iosxe_flow_exporter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/flow_exporter iosxe_flow_exporter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataIosxeFlowExporter extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_flow_exporter',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

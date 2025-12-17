@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface LogscaleAlertConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#action_ids LogscaleAlert#action_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#action_ids LogscaleAlert#action_ids}
   */
   readonly actionIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#alert_type LogscaleAlert#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#alert_type LogscaleAlert#alert_type}
   */
   readonly alertType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#description LogscaleAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#description LogscaleAlert#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#disabled LogscaleAlert#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#disabled LogscaleAlert#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#id LogscaleAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#id LogscaleAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#name LogscaleAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#name LogscaleAlert#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#query LogscaleAlert#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#query LogscaleAlert#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#repository LogscaleAlert#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#repository LogscaleAlert#repository}
   */
   readonly repository: string;
   /**
   * Email of the user that the alert runs on behalf of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#run_as_user LogscaleAlert#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#run_as_user LogscaleAlert#run_as_user}
   */
   readonly runAsUser: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#slug LogscaleAlert#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#slug LogscaleAlert#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#tags LogscaleAlert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#tags LogscaleAlert#tags}
   */
   readonly tags?: string[];
   /**
   * Required for STANDARD type alerts, optional for FILTER type alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#throttle_duration LogscaleAlert#throttle_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#throttle_duration LogscaleAlert#throttle_duration}
   */
   readonly throttleDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#throttle_field LogscaleAlert#throttle_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#throttle_field LogscaleAlert#throttle_field}
   */
   readonly throttleField?: string;
   /**
   * Required for STANDARD type alerts, ignored for FILTER type alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#time_window LogscaleAlert#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#time_window LogscaleAlert#time_window}
   */
   readonly timeWindow?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert chronosphere_logscale_alert}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert chronosphere_logscale_alert}
 */
 export class LogscaleAlert extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class LogscaleAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogscaleAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogscaleAlert to import
-  * @param importFromId The id of the existing LogscaleAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogscaleAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogscaleAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class LogscaleAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/logscale_alert chronosphere_logscale_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/logscale_alert chronosphere_logscale_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class LogscaleAlert extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_logscale_alert',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

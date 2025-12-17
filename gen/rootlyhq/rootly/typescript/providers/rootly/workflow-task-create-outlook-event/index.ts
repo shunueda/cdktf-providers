@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateOutlookEventConfig extends cdktf.TerraformMet
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#enabled WorkflowTaskCreateOutlookEvent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#enabled WorkflowTaskCreateOutlookEvent#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#id WorkflowTaskCreateOutlookEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#id WorkflowTaskCreateOutlookEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskCreateOutlookEventConfig extends cdktf.TerraformMet
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#name WorkflowTaskCreateOutlookEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#name WorkflowTaskCreateOutlookEvent#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#position WorkflowTaskCreateOutlookEvent#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#position WorkflowTaskCreateOutlookEvent#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#skip_on_failure WorkflowTaskCreateOutlookEvent#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#skip_on_failure WorkflowTaskCreateOutlookEvent#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#workflow_id WorkflowTaskCreateOutlookEvent#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#workflow_id WorkflowTaskCreateOutlookEvent#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#task_params WorkflowTaskCreateOutlookEvent#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#task_params WorkflowTaskCreateOutlookEvent#task_params}
   */
   readonly taskParams: WorkflowTaskCreateOutlookEventTaskParams;
 }
 export interface WorkflowTaskCreateOutlookEventTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#id WorkflowTaskCreateOutlookEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#id WorkflowTaskCreateOutlookEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#name WorkflowTaskCreateOutlookEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#name WorkflowTaskCreateOutlookEvent#name}
   */
   readonly name: string;
 }
@@ -201,77 +201,77 @@ export interface WorkflowTaskCreateOutlookEventTaskParams {
   /**
   * Emails of attendees
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#attendees WorkflowTaskCreateOutlookEvent#attendees}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#attendees WorkflowTaskCreateOutlookEvent#attendees}
   */
   readonly attendees?: string[];
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#calendar WorkflowTaskCreateOutlookEvent#calendar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#calendar WorkflowTaskCreateOutlookEvent#calendar}
   */
   readonly calendar: { [key: string]: string };
   /**
   * The days until meeting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#days_until_meeting WorkflowTaskCreateOutlookEvent#days_until_meeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#days_until_meeting WorkflowTaskCreateOutlookEvent#days_until_meeting}
   */
   readonly daysUntilMeeting: string;
   /**
   * The event description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#description WorkflowTaskCreateOutlookEvent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#description WorkflowTaskCreateOutlookEvent#description}
   */
   readonly description: string;
   /**
   * Enable Microsoft Teams online meeting. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#enable_online_meeting WorkflowTaskCreateOutlookEvent#enable_online_meeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#enable_online_meeting WorkflowTaskCreateOutlookEvent#enable_online_meeting}
   */
   readonly enableOnlineMeeting?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#exclude_weekends WorkflowTaskCreateOutlookEvent#exclude_weekends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#exclude_weekends WorkflowTaskCreateOutlookEvent#exclude_weekends}
   */
   readonly excludeWeekends?: boolean | cdktf.IResolvable;
   /**
   * Meeting duration in format like '1 hour', '30 minutes'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#meeting_duration WorkflowTaskCreateOutlookEvent#meeting_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#meeting_duration WorkflowTaskCreateOutlookEvent#meeting_duration}
   */
   readonly meetingDuration: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#post_to_incident_timeline WorkflowTaskCreateOutlookEvent#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#post_to_incident_timeline WorkflowTaskCreateOutlookEvent#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
   * The event summary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#summary WorkflowTaskCreateOutlookEvent#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#summary WorkflowTaskCreateOutlookEvent#summary}
   */
   readonly summary: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#task_type WorkflowTaskCreateOutlookEvent#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#task_type WorkflowTaskCreateOutlookEvent#task_type}
   */
   readonly taskType?: string;
   /**
   * Time of meeting in format HH:MM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#time_of_meeting WorkflowTaskCreateOutlookEvent#time_of_meeting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#time_of_meeting WorkflowTaskCreateOutlookEvent#time_of_meeting}
   */
   readonly timeOfMeeting: string;
   /**
   * A valid IANA time zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#time_zone WorkflowTaskCreateOutlookEvent#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#time_zone WorkflowTaskCreateOutlookEvent#time_zone}
   */
   readonly timeZone?: string;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#post_to_slack_channels WorkflowTaskCreateOutlookEvent#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#post_to_slack_channels WorkflowTaskCreateOutlookEvent#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskCreateOutlookEventTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -685,7 +685,7 @@ export class WorkflowTaskCreateOutlookEventTaskParamsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event rootly_workflow_task_create_outlook_event}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event rootly_workflow_task_create_outlook_event}
 */
 export class WorkflowTaskCreateOutlookEvent extends cdktf.TerraformResource {
 
@@ -701,7 +701,7 @@ export class WorkflowTaskCreateOutlookEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateOutlookEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateOutlookEvent to import
-  * @param importFromId The id of the existing WorkflowTaskCreateOutlookEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateOutlookEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateOutlookEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -713,7 +713,7 @@ export class WorkflowTaskCreateOutlookEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_create_outlook_event rootly_workflow_task_create_outlook_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_outlook_event rootly_workflow_task_create_outlook_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -724,8 +724,8 @@ export class WorkflowTaskCreateOutlookEvent extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_outlook_event',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

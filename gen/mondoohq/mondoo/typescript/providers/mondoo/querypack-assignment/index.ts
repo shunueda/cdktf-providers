@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface QuerypackAssignmentConfig extends cdktf.TerraformMetaArguments 
   /**
   * QueryPacks to assign to the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment#querypacks QuerypackAssignment#querypacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment#querypacks QuerypackAssignment#querypacks}
   */
   readonly querypacks?: string[];
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment#space_id QuerypackAssignment#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment#space_id QuerypackAssignment#space_id}
   */
   readonly spaceId?: string;
   /**
   * QueryPack Assignment State (enabled or disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment#state QuerypackAssignment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment#state QuerypackAssignment#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment mondoo_querypack_assignment}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment mondoo_querypack_assignment}
 */
 export class QuerypackAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class QuerypackAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QuerypackAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuerypackAssignment to import
-  * @param importFromId The id of the existing QuerypackAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuerypackAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuerypackAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class QuerypackAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/querypack_assignment mondoo_querypack_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/querypack_assignment mondoo_querypack_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class QuerypackAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_querypack_assignment',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

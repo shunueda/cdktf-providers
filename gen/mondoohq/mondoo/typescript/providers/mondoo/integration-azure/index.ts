@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface IntegrationAzureConfig extends cdktf.TerraformMetaArguments {
   /**
   * Azure client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#client_id IntegrationAzure#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#client_id IntegrationAzure#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#credentials IntegrationAzure#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#credentials IntegrationAzure#credentials}
   */
   readonly credentials: IntegrationAzureCredentials;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#name IntegrationAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#name IntegrationAzure#name}
   */
   readonly name: string;
   /**
   * Scan VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#scan_vms IntegrationAzure#scan_vms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#scan_vms IntegrationAzure#scan_vms}
   */
   readonly scanVms?: boolean | cdktf.IResolvable;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#space_id IntegrationAzure#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#space_id IntegrationAzure#space_id}
   */
   readonly spaceId?: string;
   /**
   * List of Azure subscriptions to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#subscription_allow_list IntegrationAzure#subscription_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#subscription_allow_list IntegrationAzure#subscription_allow_list}
   */
   readonly subscriptionAllowList?: string[];
   /**
   * List of Azure subscriptions to exclude from scanning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#subscription_deny_list IntegrationAzure#subscription_deny_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#subscription_deny_list IntegrationAzure#subscription_deny_list}
   */
   readonly subscriptionDenyList?: string[];
   /**
   * Azure tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#tenant_id IntegrationAzure#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#tenant_id IntegrationAzure#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -58,7 +58,7 @@ export interface IntegrationAzureCredentials {
   /**
   * PEM file for Azure integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#pem_file IntegrationAzure#pem_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#pem_file IntegrationAzure#pem_file}
   */
   readonly pemFile: string;
 }
@@ -149,7 +149,7 @@ export class IntegrationAzureCredentialsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure mondoo_integration_azure}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure mondoo_integration_azure}
 */
 export class IntegrationAzure extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class IntegrationAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAzure to import
-  * @param importFromId The id of the existing IntegrationAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class IntegrationAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_azure mondoo_integration_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_azure mondoo_integration_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class IntegrationAzure extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_azure',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

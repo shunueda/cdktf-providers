@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPowerplatformConnectorsConfig extends cdktf.TerraformMetaAr
   /**
   * Id of the environment to filter connectors. If not specified, defaults to 'Default' environment which returns tenant-level connectors. Specify an environment Id to get all connectors including those that are specific for environments, including custom connectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors#environment_id DataPowerplatformConnectors#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors#environment_id DataPowerplatformConnectors#environment_id}
   */
   readonly environmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors#timeouts DataPowerplatformConnectors#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors#timeouts DataPowerplatformConnectors#timeouts}
   */
   readonly timeouts?: DataPowerplatformConnectorsTimeouts;
 }
@@ -132,7 +132,7 @@ export interface DataPowerplatformConnectorsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors#read DataPowerplatformConnectors#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors#read DataPowerplatformConnectors#read}
   */
   readonly read?: string;
 }
@@ -226,7 +226,7 @@ export class DataPowerplatformConnectorsTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors powerplatform_connectors}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors powerplatform_connectors}
 */
 export class DataPowerplatformConnectors extends cdktf.TerraformDataSource {
 
@@ -242,7 +242,7 @@ export class DataPowerplatformConnectors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformConnectors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformConnectors to import
-  * @param importFromId The id of the existing DataPowerplatformConnectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformConnectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformConnectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class DataPowerplatformConnectors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_connectors powerplatform_connectors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_connectors powerplatform_connectors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class DataPowerplatformConnectors extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_connectors',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,284 +8,284 @@ import * as cdktf from 'cdktf';
 
 export interface CvoGcpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#backup_volumes_to_cbs CvoGcp#backup_volumes_to_cbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#backup_volumes_to_cbs CvoGcp#backup_volumes_to_cbs}
   */
   readonly backupVolumesToCbs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#capacity_package_name CvoGcp#capacity_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#capacity_package_name CvoGcp#capacity_package_name}
   */
   readonly capacityPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#capacity_tier CvoGcp#capacity_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#capacity_tier CvoGcp#capacity_tier}
   */
   readonly capacityTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#client_id CvoGcp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#client_id CvoGcp#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#connector_ip CvoGcp#connector_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#connector_ip CvoGcp#connector_ip}
   */
   readonly connectorIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#data_encryption_type CvoGcp#data_encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#data_encryption_type CvoGcp#data_encryption_type}
   */
   readonly dataEncryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#deployment_mode CvoGcp#deployment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#deployment_mode CvoGcp#deployment_mode}
   */
   readonly deploymentMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#enable_compliance CvoGcp#enable_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#enable_compliance CvoGcp#enable_compliance}
   */
   readonly enableCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#firewall_ip_ranges CvoGcp#firewall_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#firewall_ip_ranges CvoGcp#firewall_ip_ranges}
   */
   readonly firewallIpRanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#firewall_rule CvoGcp#firewall_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#firewall_rule CvoGcp#firewall_rule}
   */
   readonly firewallRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#firewall_tag_name_rule CvoGcp#firewall_tag_name_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#firewall_tag_name_rule CvoGcp#firewall_tag_name_rule}
   */
   readonly firewallTagNameRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#flash_cache CvoGcp#flash_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#flash_cache CvoGcp#flash_cache}
   */
   readonly flashCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#gcp_encryption_parameters CvoGcp#gcp_encryption_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#gcp_encryption_parameters CvoGcp#gcp_encryption_parameters}
   */
   readonly gcpEncryptionParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#gcp_service_account CvoGcp#gcp_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#gcp_service_account CvoGcp#gcp_service_account}
   */
   readonly gcpServiceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#gcp_volume_size CvoGcp#gcp_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#gcp_volume_size CvoGcp#gcp_volume_size}
   */
   readonly gcpVolumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#gcp_volume_size_unit CvoGcp#gcp_volume_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#gcp_volume_size_unit CvoGcp#gcp_volume_size_unit}
   */
   readonly gcpVolumeSizeUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#gcp_volume_type CvoGcp#gcp_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#gcp_volume_type CvoGcp#gcp_volume_type}
   */
   readonly gcpVolumeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#id CvoGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#id CvoGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#instance_type CvoGcp#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#instance_type CvoGcp#instance_type}
   */
-  readonly instanceType?: string;
+  readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#is_ha CvoGcp#is_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#is_ha CvoGcp#is_ha}
   */
   readonly isHa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#license_type CvoGcp#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#license_type CvoGcp#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#mediator_zone CvoGcp#mediator_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#mediator_zone CvoGcp#mediator_zone}
   */
   readonly mediatorZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#name CvoGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#name CvoGcp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#network_project_id CvoGcp#network_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#network_project_id CvoGcp#network_project_id}
   */
   readonly networkProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#node1_zone CvoGcp#node1_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#node1_zone CvoGcp#node1_zone}
   */
   readonly node1Zone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#node2_zone CvoGcp#node2_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#node2_zone CvoGcp#node2_zone}
   */
   readonly node2Zone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#nss_account CvoGcp#nss_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#nss_account CvoGcp#nss_account}
   */
   readonly nssAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#ontap_version CvoGcp#ontap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#ontap_version CvoGcp#ontap_version}
   */
   readonly ontapVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#platform_serial_number_node1 CvoGcp#platform_serial_number_node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#platform_serial_number_node1 CvoGcp#platform_serial_number_node1}
   */
   readonly platformSerialNumberNode1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#platform_serial_number_node2 CvoGcp#platform_serial_number_node2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#platform_serial_number_node2 CvoGcp#platform_serial_number_node2}
   */
   readonly platformSerialNumberNode2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#project_id CvoGcp#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#project_id CvoGcp#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#provided_license CvoGcp#provided_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#provided_license CvoGcp#provided_license}
   */
   readonly providedLicense?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#retries CvoGcp#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#retries CvoGcp#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#saas_subscription_id CvoGcp#saas_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#saas_subscription_id CvoGcp#saas_subscription_id}
   */
   readonly saasSubscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#serial_number CvoGcp#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#serial_number CvoGcp#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#subnet0_node_and_data_connectivity CvoGcp#subnet0_node_and_data_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#subnet0_node_and_data_connectivity CvoGcp#subnet0_node_and_data_connectivity}
   */
   readonly subnet0NodeAndDataConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#subnet1_cluster_connectivity CvoGcp#subnet1_cluster_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#subnet1_cluster_connectivity CvoGcp#subnet1_cluster_connectivity}
   */
   readonly subnet1ClusterConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#subnet2_ha_connectivity CvoGcp#subnet2_ha_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#subnet2_ha_connectivity CvoGcp#subnet2_ha_connectivity}
   */
   readonly subnet2HaConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#subnet3_data_replication CvoGcp#subnet3_data_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#subnet3_data_replication CvoGcp#subnet3_data_replication}
   */
   readonly subnet3DataReplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#subnet_id CvoGcp#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#subnet_id CvoGcp#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#svm_name CvoGcp#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#svm_name CvoGcp#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#svm_password CvoGcp#svm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#svm_password CvoGcp#svm_password}
   */
   readonly svmPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#tenant_id CvoGcp#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#tenant_id CvoGcp#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#tier_level CvoGcp#tier_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#tier_level CvoGcp#tier_level}
   */
   readonly tierLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#upgrade_ontap_version CvoGcp#upgrade_ontap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#upgrade_ontap_version CvoGcp#upgrade_ontap_version}
   */
   readonly upgradeOntapVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#use_latest_version CvoGcp#use_latest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#use_latest_version CvoGcp#use_latest_version}
   */
   readonly useLatestVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc0_firewall_rule_name CvoGcp#vpc0_firewall_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc0_firewall_rule_name CvoGcp#vpc0_firewall_rule_name}
   */
   readonly vpc0FirewallRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc0_firewall_rule_tag_name CvoGcp#vpc0_firewall_rule_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc0_firewall_rule_tag_name CvoGcp#vpc0_firewall_rule_tag_name}
   */
   readonly vpc0FirewallRuleTagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc0_node_and_data_connectivity CvoGcp#vpc0_node_and_data_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc0_node_and_data_connectivity CvoGcp#vpc0_node_and_data_connectivity}
   */
   readonly vpc0NodeAndDataConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc1_cluster_connectivity CvoGcp#vpc1_cluster_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc1_cluster_connectivity CvoGcp#vpc1_cluster_connectivity}
   */
   readonly vpc1ClusterConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc1_firewall_rule_name CvoGcp#vpc1_firewall_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc1_firewall_rule_name CvoGcp#vpc1_firewall_rule_name}
   */
   readonly vpc1FirewallRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc1_firewall_rule_tag_name CvoGcp#vpc1_firewall_rule_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc1_firewall_rule_tag_name CvoGcp#vpc1_firewall_rule_tag_name}
   */
   readonly vpc1FirewallRuleTagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc2_firewall_rule_name CvoGcp#vpc2_firewall_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc2_firewall_rule_name CvoGcp#vpc2_firewall_rule_name}
   */
   readonly vpc2FirewallRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc2_firewall_rule_tag_name CvoGcp#vpc2_firewall_rule_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc2_firewall_rule_tag_name CvoGcp#vpc2_firewall_rule_tag_name}
   */
   readonly vpc2FirewallRuleTagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc2_ha_connectivity CvoGcp#vpc2_ha_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc2_ha_connectivity CvoGcp#vpc2_ha_connectivity}
   */
   readonly vpc2HaConnectivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc3_data_replication CvoGcp#vpc3_data_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc3_data_replication CvoGcp#vpc3_data_replication}
   */
   readonly vpc3DataReplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc3_firewall_rule_name CvoGcp#vpc3_firewall_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc3_firewall_rule_name CvoGcp#vpc3_firewall_rule_name}
   */
   readonly vpc3FirewallRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc3_firewall_rule_tag_name CvoGcp#vpc3_firewall_rule_tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc3_firewall_rule_tag_name CvoGcp#vpc3_firewall_rule_tag_name}
   */
   readonly vpc3FirewallRuleTagName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#vpc_id CvoGcp#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#vpc_id CvoGcp#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#workspace_id CvoGcp#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#workspace_id CvoGcp#workspace_id}
   */
   readonly workspaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#worm_retention_period_length CvoGcp#worm_retention_period_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#worm_retention_period_length CvoGcp#worm_retention_period_length}
   */
   readonly wormRetentionPeriodLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#worm_retention_period_unit CvoGcp#worm_retention_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#worm_retention_period_unit CvoGcp#worm_retention_period_unit}
   */
   readonly wormRetentionPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#writing_speed_state CvoGcp#writing_speed_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#writing_speed_state CvoGcp#writing_speed_state}
   */
   readonly writingSpeedState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#zone CvoGcp#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#zone CvoGcp#zone}
   */
   readonly zone?: string;
   /**
   * gcp_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#gcp_label CvoGcp#gcp_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#gcp_label CvoGcp#gcp_label}
   */
   readonly gcpLabel?: CvoGcpGcpLabel[] | cdktf.IResolvable;
   /**
   * svm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#svm CvoGcp#svm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#svm CvoGcp#svm}
   */
   readonly svm?: CvoGcpSvm[] | cdktf.IResolvable;
 }
 export interface CvoGcpGcpLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#label_key CvoGcp#label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#label_key CvoGcp#label_key}
   */
   readonly labelKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#label_value CvoGcp#label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#label_value CvoGcp#label_value}
   */
   readonly labelValue?: string;
 }
@@ -427,7 +427,11 @@ export class CvoGcpGcpLabelList extends cdktf.ComplexList {
 }
 export interface CvoGcpSvm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#svm_name CvoGcp#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#root_volume_aggregate CvoGcp#root_volume_aggregate}
+  */
+  readonly rootVolumeAggregate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#svm_name CvoGcp#svm_name}
   */
   readonly svmName: string;
 }
@@ -438,6 +442,7 @@ export function cvoGcpSvmToTerraform(struct?: CvoGcpSvm | cdktf.IResolvable): an
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    root_volume_aggregate: cdktf.stringToTerraform(struct!.rootVolumeAggregate),
     svm_name: cdktf.stringToTerraform(struct!.svmName),
   }
 }
@@ -449,6 +454,12 @@ export function cvoGcpSvmToHclTerraform(struct?: CvoGcpSvm | cdktf.IResolvable):
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    root_volume_aggregate: {
+      value: cdktf.stringToHclTerraform(struct!.rootVolumeAggregate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     svm_name: {
       value: cdktf.stringToHclTerraform(struct!.svmName),
       isBlock: false,
@@ -481,6 +492,10 @@ export class CvoGcpSvmOutputReference extends cdktf.ComplexObject {
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._rootVolumeAggregate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootVolumeAggregate = this._rootVolumeAggregate;
+    }
     if (this._svmName !== undefined) {
       hasAnyValues = true;
       internalValueResult.svmName = this._svmName;
@@ -492,6 +507,7 @@ export class CvoGcpSvmOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._rootVolumeAggregate = undefined;
       this._svmName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -501,8 +517,25 @@ export class CvoGcpSvmOutputReference extends cdktf.ComplexObject {
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._rootVolumeAggregate = value.rootVolumeAggregate;
       this._svmName = value.svmName;
     }
+  }
+
+  // root_volume_aggregate - computed: false, optional: true, required: false
+  private _rootVolumeAggregate?: string; 
+  public get rootVolumeAggregate() {
+    return this.getStringAttribute('root_volume_aggregate');
+  }
+  public set rootVolumeAggregate(value: string) {
+    this._rootVolumeAggregate = value;
+  }
+  public resetRootVolumeAggregate() {
+    this._rootVolumeAggregate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootVolumeAggregateInput() {
+    return this._rootVolumeAggregate;
   }
 
   // svm_name - computed: false, optional: false, required: true
@@ -540,7 +573,7 @@ export class CvoGcpSvmList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp netapp-cloudmanager_cvo_gcp}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp netapp-cloudmanager_cvo_gcp}
 */
 export class CvoGcp extends cdktf.TerraformResource {
 
@@ -556,7 +589,7 @@ export class CvoGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvoGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvoGcp to import
-  * @param importFromId The id of the existing CvoGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvoGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvoGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -568,7 +601,7 @@ export class CvoGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_gcp netapp-cloudmanager_cvo_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_gcp netapp-cloudmanager_cvo_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -579,8 +612,8 @@ export class CvoGcp extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_cvo_gcp',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -947,16 +980,13 @@ export class CvoGcp extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // instance_type - computed: false, optional: true, required: false
+  // instance_type - computed: false, optional: false, required: true
   private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
   public set instanceType(value: string) {
     this._instanceType = value;
-  }
-  public resetInstanceType() {
-    this._instanceType = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get instanceTypeInput() {

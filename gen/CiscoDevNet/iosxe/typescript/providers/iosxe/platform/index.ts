@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface PlatformConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform#device Platform#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform#device Platform#device}
   */
   readonly device?: string;
   /**
   * Disable IOSXE kernel core generation for keepalive fault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform#punt_keepalive_disable_kernel_core Platform#punt_keepalive_disable_kernel_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform#punt_keepalive_disable_kernel_core Platform#punt_keepalive_disable_kernel_core}
   */
   readonly puntKeepaliveDisableKernelCore?: boolean | cdktf.IResolvable;
   /**
   * Set punt-inject keepalive fatal count
   *   - Range: `15`-`60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform#punt_keepalive_settings_fatal_count Platform#punt_keepalive_settings_fatal_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform#punt_keepalive_settings_fatal_count Platform#punt_keepalive_settings_fatal_count}
   */
   readonly puntKeepaliveSettingsFatalCount?: number;
   /**
   * Set punt-inject keepalive transmit interval
   *   - Range: `2`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform#punt_keepalive_settings_transmit_interval Platform#punt_keepalive_settings_transmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform#punt_keepalive_settings_transmit_interval Platform#punt_keepalive_settings_transmit_interval}
   */
   readonly puntKeepaliveSettingsTransmitInterval?: number;
   /**
   * Set punt-inject keepalive warning count
   *   - Range: `10`-`60`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform#punt_keepalive_settings_warning_count Platform#punt_keepalive_settings_warning_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform#punt_keepalive_settings_warning_count Platform#punt_keepalive_settings_warning_count}
   */
   readonly puntKeepaliveSettingsWarningCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform iosxe_platform}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform iosxe_platform}
 */
 export class Platform extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class Platform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Platform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Platform to import
-  * @param importFromId The id of the existing Platform that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Platform that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Platform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class Platform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/platform iosxe_platform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/platform iosxe_platform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class Platform extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_platform',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

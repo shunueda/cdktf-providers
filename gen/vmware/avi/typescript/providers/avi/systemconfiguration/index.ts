@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,158 +8,158 @@ import * as cdktf from 'cdktf';
 
 export interface SystemconfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#common_criteria_mode Systemconfiguration#common_criteria_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#common_criteria_mode Systemconfiguration#common_criteria_mode}
   */
   readonly commonCriteriaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#default_license_tier Systemconfiguration#default_license_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#default_license_tier Systemconfiguration#default_license_tier}
   */
   readonly defaultLicenseTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#dns_virtualservice_refs Systemconfiguration#dns_virtualservice_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#dns_virtualservice_refs Systemconfiguration#dns_virtualservice_refs}
   */
   readonly dnsVirtualserviceRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#docker_mode Systemconfiguration#docker_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#docker_mode Systemconfiguration#docker_mode}
   */
   readonly dockerMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#enable_cors Systemconfiguration#enable_cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#enable_cors Systemconfiguration#enable_cors}
   */
   readonly enableCors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#fips_mode Systemconfiguration#fips_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#fips_mode Systemconfiguration#fips_mode}
   */
   readonly fipsMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#host_key_algorithm_exclude Systemconfiguration#host_key_algorithm_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#host_key_algorithm_exclude Systemconfiguration#host_key_algorithm_exclude}
   */
   readonly hostKeyAlgorithmExclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#id Systemconfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#id Systemconfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#kex_algorithm_exclude Systemconfiguration#kex_algorithm_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#kex_algorithm_exclude Systemconfiguration#kex_algorithm_exclude}
   */
   readonly kexAlgorithmExclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#rekey_time_limit Systemconfiguration#rekey_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#rekey_time_limit Systemconfiguration#rekey_time_limit}
   */
   readonly rekeyTimeLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#rekey_volume_limit Systemconfiguration#rekey_volume_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#rekey_volume_limit Systemconfiguration#rekey_volume_limit}
   */
   readonly rekeyVolumeLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ssh_ciphers Systemconfiguration#ssh_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ssh_ciphers Systemconfiguration#ssh_ciphers}
   */
   readonly sshCiphers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ssh_hmacs Systemconfiguration#ssh_hmacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ssh_hmacs Systemconfiguration#ssh_hmacs}
   */
   readonly sshHmacs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#uuid Systemconfiguration#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#uuid Systemconfiguration#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#welcome_workflow_complete Systemconfiguration#welcome_workflow_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#welcome_workflow_complete Systemconfiguration#welcome_workflow_complete}
   */
   readonly welcomeWorkflowComplete?: string;
   /**
   * admin_auth_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#admin_auth_configuration Systemconfiguration#admin_auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#admin_auth_configuration Systemconfiguration#admin_auth_configuration}
   */
   readonly adminAuthConfiguration?: SystemconfigurationAdminAuthConfiguration[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#configpb_attributes Systemconfiguration#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#configpb_attributes Systemconfiguration#configpb_attributes}
   */
   readonly configpbAttributes?: SystemconfigurationConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * controller_analytics_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#controller_analytics_policy Systemconfiguration#controller_analytics_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#controller_analytics_policy Systemconfiguration#controller_analytics_policy}
   */
   readonly controllerAnalyticsPolicy?: SystemconfigurationControllerAnalyticsPolicy[] | cdktf.IResolvable;
   /**
   * dns_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#dns_configuration Systemconfiguration#dns_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#dns_configuration Systemconfiguration#dns_configuration}
   */
   readonly dnsConfiguration?: SystemconfigurationDnsConfiguration[] | cdktf.IResolvable;
   /**
   * email_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#email_configuration Systemconfiguration#email_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#email_configuration Systemconfiguration#email_configuration}
   */
   readonly emailConfiguration?: SystemconfigurationEmailConfiguration[] | cdktf.IResolvable;
   /**
   * global_tenant_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#global_tenant_config Systemconfiguration#global_tenant_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#global_tenant_config Systemconfiguration#global_tenant_config}
   */
   readonly globalTenantConfig?: SystemconfigurationGlobalTenantConfig[] | cdktf.IResolvable;
   /**
   * linux_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#linux_configuration Systemconfiguration#linux_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#linux_configuration Systemconfiguration#linux_configuration}
   */
   readonly linuxConfiguration?: SystemconfigurationLinuxConfiguration[] | cdktf.IResolvable;
   /**
   * mgmt_ip_access_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mgmt_ip_access_control Systemconfiguration#mgmt_ip_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mgmt_ip_access_control Systemconfiguration#mgmt_ip_access_control}
   */
   readonly mgmtIpAccessControl?: SystemconfigurationMgmtIpAccessControl[] | cdktf.IResolvable;
   /**
   * ntp_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ntp_configuration Systemconfiguration#ntp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ntp_configuration Systemconfiguration#ntp_configuration}
   */
   readonly ntpConfiguration?: SystemconfigurationNtpConfiguration[] | cdktf.IResolvable;
   /**
   * portal_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#portal_configuration Systemconfiguration#portal_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#portal_configuration Systemconfiguration#portal_configuration}
   */
   readonly portalConfiguration?: SystemconfigurationPortalConfiguration[] | cdktf.IResolvable;
   /**
   * proxy_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#proxy_configuration Systemconfiguration#proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#proxy_configuration Systemconfiguration#proxy_configuration}
   */
   readonly proxyConfiguration?: SystemconfigurationProxyConfiguration[] | cdktf.IResolvable;
   /**
   * secure_channel_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#secure_channel_configuration Systemconfiguration#secure_channel_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#secure_channel_configuration Systemconfiguration#secure_channel_configuration}
   */
   readonly secureChannelConfiguration?: SystemconfigurationSecureChannelConfiguration[] | cdktf.IResolvable;
   /**
   * snmp_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#snmp_configuration Systemconfiguration#snmp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#snmp_configuration Systemconfiguration#snmp_configuration}
   */
   readonly snmpConfiguration?: SystemconfigurationSnmpConfiguration[] | cdktf.IResolvable;
 }
 export interface SystemconfigurationAdminAuthConfigurationRemoteAuthConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#auth_mapping_profile_ref Systemconfiguration#auth_mapping_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#auth_mapping_profile_ref Systemconfiguration#auth_mapping_profile_ref}
   */
   readonly authMappingProfileRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#auth_profile_ref Systemconfiguration#auth_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#auth_profile_ref Systemconfiguration#auth_profile_ref}
   */
   readonly authProfileRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#index Systemconfiguration#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#index Systemconfiguration#index}
   */
   readonly index: string;
 }
@@ -324,15 +324,15 @@ export class SystemconfigurationAdminAuthConfigurationRemoteAuthConfigurationsLi
 }
 export interface SystemconfigurationAdminAuthConfigurationServiceAuthConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#index Systemconfiguration#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#index Systemconfiguration#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#service_auth_mapping_profile_ref Systemconfiguration#service_auth_mapping_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#service_auth_mapping_profile_ref Systemconfiguration#service_auth_mapping_profile_ref}
   */
   readonly serviceAuthMappingProfileRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#service_auth_profile_ref Systemconfiguration#service_auth_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#service_auth_profile_ref Systemconfiguration#service_auth_profile_ref}
   */
   readonly serviceAuthProfileRef: string;
 }
@@ -497,19 +497,19 @@ export class SystemconfigurationAdminAuthConfigurationServiceAuthConfigurationsL
 }
 export interface SystemconfigurationAdminAuthConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#allow_local_user_login Systemconfiguration#allow_local_user_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#allow_local_user_login Systemconfiguration#allow_local_user_login}
   */
   readonly allowLocalUserLogin?: string;
   /**
   * remote_auth_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#remote_auth_configurations Systemconfiguration#remote_auth_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#remote_auth_configurations Systemconfiguration#remote_auth_configurations}
   */
   readonly remoteAuthConfigurations?: SystemconfigurationAdminAuthConfigurationRemoteAuthConfigurations[] | cdktf.IResolvable;
   /**
   * service_auth_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#service_auth_configurations Systemconfiguration#service_auth_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#service_auth_configurations Systemconfiguration#service_auth_configurations}
   */
   readonly serviceAuthConfigurations?: SystemconfigurationAdminAuthConfigurationServiceAuthConfigurations[] | cdktf.IResolvable;
 }
@@ -683,7 +683,7 @@ export class SystemconfigurationAdminAuthConfigurationList extends cdktf.Complex
 }
 export interface SystemconfigurationConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#version Systemconfiguration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#version Systemconfiguration#version}
   */
   readonly version?: string;
 }
@@ -799,15 +799,15 @@ export class SystemconfigurationConfigpbAttributesList extends cdktf.ComplexList
 }
 export interface SystemconfigurationControllerAnalyticsPolicyMetricsEventThresholds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#metrics_event_threshold_type Systemconfiguration#metrics_event_threshold_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#metrics_event_threshold_type Systemconfiguration#metrics_event_threshold_type}
   */
   readonly metricsEventThresholdType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#reset_threshold Systemconfiguration#reset_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#reset_threshold Systemconfiguration#reset_threshold}
   */
   readonly resetThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#watermark_thresholds Systemconfiguration#watermark_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#watermark_thresholds Systemconfiguration#watermark_thresholds}
   */
   readonly watermarkThresholds?: number[];
 }
@@ -980,7 +980,7 @@ export interface SystemconfigurationControllerAnalyticsPolicy {
   /**
   * metrics_event_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#metrics_event_thresholds Systemconfiguration#metrics_event_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#metrics_event_thresholds Systemconfiguration#metrics_event_thresholds}
   */
   readonly metricsEventThresholds?: SystemconfigurationControllerAnalyticsPolicyMetricsEventThresholds[] | cdktf.IResolvable;
 }
@@ -1096,11 +1096,11 @@ export class SystemconfigurationControllerAnalyticsPolicyList extends cdktf.Comp
 }
 export interface SystemconfigurationDnsConfigurationServerListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -1239,13 +1239,13 @@ export class SystemconfigurationDnsConfigurationServerListStructList extends cdk
 }
 export interface SystemconfigurationDnsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#search_domain Systemconfiguration#search_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#search_domain Systemconfiguration#search_domain}
   */
   readonly searchDomain?: string;
   /**
   * server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#server_list Systemconfiguration#server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#server_list Systemconfiguration#server_list}
   */
   readonly serverList?: SystemconfigurationDnsConfigurationServerListStruct[] | cdktf.IResolvable;
 }
@@ -1390,39 +1390,39 @@ export class SystemconfigurationDnsConfigurationList extends cdktf.ComplexList {
 }
 export interface SystemconfigurationEmailConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#auth_password Systemconfiguration#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#auth_password Systemconfiguration#auth_password}
   */
   readonly authPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#auth_username Systemconfiguration#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#auth_username Systemconfiguration#auth_username}
   */
   readonly authUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#disable_tls Systemconfiguration#disable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#disable_tls Systemconfiguration#disable_tls}
   */
   readonly disableTls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#email_timezone Systemconfiguration#email_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#email_timezone Systemconfiguration#email_timezone}
   */
   readonly emailTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#from_email Systemconfiguration#from_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#from_email Systemconfiguration#from_email}
   */
   readonly fromEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#from_name Systemconfiguration#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#from_name Systemconfiguration#from_name}
   */
   readonly fromName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mail_server_name Systemconfiguration#mail_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mail_server_name Systemconfiguration#mail_server_name}
   */
   readonly mailServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mail_server_port Systemconfiguration#mail_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mail_server_port Systemconfiguration#mail_server_port}
   */
   readonly mailServerPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#smtp_type Systemconfiguration#smtp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#smtp_type Systemconfiguration#smtp_type}
   */
   readonly smtpType: string;
 }
@@ -1767,15 +1767,15 @@ export class SystemconfigurationEmailConfigurationList extends cdktf.ComplexList
 }
 export interface SystemconfigurationGlobalTenantConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#se_in_provider_context Systemconfiguration#se_in_provider_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#se_in_provider_context Systemconfiguration#se_in_provider_context}
   */
   readonly seInProviderContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#tenant_access_to_provider_se Systemconfiguration#tenant_access_to_provider_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#tenant_access_to_provider_se Systemconfiguration#tenant_access_to_provider_se}
   */
   readonly tenantAccessToProviderSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#tenant_vrf Systemconfiguration#tenant_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#tenant_vrf Systemconfiguration#tenant_vrf}
   */
   readonly tenantVrf?: string;
 }
@@ -1949,15 +1949,15 @@ export class SystemconfigurationGlobalTenantConfigList extends cdktf.ComplexList
 }
 export interface SystemconfigurationLinuxConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#banner Systemconfiguration#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#banner Systemconfiguration#banner}
   */
   readonly banner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#cis_mode Systemconfiguration#cis_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#cis_mode Systemconfiguration#cis_mode}
   */
   readonly cisMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#motd Systemconfiguration#motd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#motd Systemconfiguration#motd}
   */
   readonly motd?: string;
 }
@@ -2131,11 +2131,11 @@ export class SystemconfigurationLinuxConfigurationList extends cdktf.ComplexList
 }
 export interface SystemconfigurationMgmtIpAccessControlApiAccessAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -2274,11 +2274,11 @@ export class SystemconfigurationMgmtIpAccessControlApiAccessAddrsList extends cd
 }
 export interface SystemconfigurationMgmtIpAccessControlApiAccessPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -2417,13 +2417,13 @@ export class SystemconfigurationMgmtIpAccessControlApiAccessPrefixesIpAddrList e
 }
 export interface SystemconfigurationMgmtIpAccessControlApiAccessPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
   */
   readonly ipAddr: SystemconfigurationMgmtIpAccessControlApiAccessPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -2562,11 +2562,11 @@ export class SystemconfigurationMgmtIpAccessControlApiAccessPrefixesList extends
 }
 export interface SystemconfigurationMgmtIpAccessControlApiAccessRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -2705,11 +2705,11 @@ export class SystemconfigurationMgmtIpAccessControlApiAccessRangesBeginList exte
 }
 export interface SystemconfigurationMgmtIpAccessControlApiAccessRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -2850,13 +2850,13 @@ export interface SystemconfigurationMgmtIpAccessControlApiAccessRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
   */
   readonly begin: SystemconfigurationMgmtIpAccessControlApiAccessRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#end Systemconfiguration#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#end Systemconfiguration#end}
   */
   readonly end: SystemconfigurationMgmtIpAccessControlApiAccessRangesEnd[] | cdktf.IResolvable;
 }
@@ -2995,29 +2995,29 @@ export class SystemconfigurationMgmtIpAccessControlApiAccessRangesList extends c
 }
 export interface SystemconfigurationMgmtIpAccessControlApiAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
   */
   readonly addrs?: SystemconfigurationMgmtIpAccessControlApiAccessAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
   */
   readonly prefixes?: SystemconfigurationMgmtIpAccessControlApiAccessPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
   */
   readonly ranges?: SystemconfigurationMgmtIpAccessControlApiAccessRanges[] | cdktf.IResolvable;
 }
@@ -3246,11 +3246,11 @@ export class SystemconfigurationMgmtIpAccessControlApiAccessList extends cdktf.C
 }
 export interface SystemconfigurationMgmtIpAccessControlShellServerAccessAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -3389,11 +3389,11 @@ export class SystemconfigurationMgmtIpAccessControlShellServerAccessAddrsList ex
 }
 export interface SystemconfigurationMgmtIpAccessControlShellServerAccessPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -3532,13 +3532,13 @@ export class SystemconfigurationMgmtIpAccessControlShellServerAccessPrefixesIpAd
 }
 export interface SystemconfigurationMgmtIpAccessControlShellServerAccessPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
   */
   readonly ipAddr: SystemconfigurationMgmtIpAccessControlShellServerAccessPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -3677,11 +3677,11 @@ export class SystemconfigurationMgmtIpAccessControlShellServerAccessPrefixesList
 }
 export interface SystemconfigurationMgmtIpAccessControlShellServerAccessRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -3820,11 +3820,11 @@ export class SystemconfigurationMgmtIpAccessControlShellServerAccessRangesBeginL
 }
 export interface SystemconfigurationMgmtIpAccessControlShellServerAccessRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -3965,13 +3965,13 @@ export interface SystemconfigurationMgmtIpAccessControlShellServerAccessRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
   */
   readonly begin: SystemconfigurationMgmtIpAccessControlShellServerAccessRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#end Systemconfiguration#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#end Systemconfiguration#end}
   */
   readonly end: SystemconfigurationMgmtIpAccessControlShellServerAccessRangesEnd[] | cdktf.IResolvable;
 }
@@ -4110,29 +4110,29 @@ export class SystemconfigurationMgmtIpAccessControlShellServerAccessRangesList e
 }
 export interface SystemconfigurationMgmtIpAccessControlShellServerAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
   */
   readonly addrs?: SystemconfigurationMgmtIpAccessControlShellServerAccessAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
   */
   readonly prefixes?: SystemconfigurationMgmtIpAccessControlShellServerAccessPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
   */
   readonly ranges?: SystemconfigurationMgmtIpAccessControlShellServerAccessRanges[] | cdktf.IResolvable;
 }
@@ -4361,11 +4361,11 @@ export class SystemconfigurationMgmtIpAccessControlShellServerAccessList extends
 }
 export interface SystemconfigurationMgmtIpAccessControlSnmpAccessAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -4504,11 +4504,11 @@ export class SystemconfigurationMgmtIpAccessControlSnmpAccessAddrsList extends c
 }
 export interface SystemconfigurationMgmtIpAccessControlSnmpAccessPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -4647,13 +4647,13 @@ export class SystemconfigurationMgmtIpAccessControlSnmpAccessPrefixesIpAddrList 
 }
 export interface SystemconfigurationMgmtIpAccessControlSnmpAccessPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
   */
   readonly ipAddr: SystemconfigurationMgmtIpAccessControlSnmpAccessPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -4792,11 +4792,11 @@ export class SystemconfigurationMgmtIpAccessControlSnmpAccessPrefixesList extend
 }
 export interface SystemconfigurationMgmtIpAccessControlSnmpAccessRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -4935,11 +4935,11 @@ export class SystemconfigurationMgmtIpAccessControlSnmpAccessRangesBeginList ext
 }
 export interface SystemconfigurationMgmtIpAccessControlSnmpAccessRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -5080,13 +5080,13 @@ export interface SystemconfigurationMgmtIpAccessControlSnmpAccessRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
   */
   readonly begin: SystemconfigurationMgmtIpAccessControlSnmpAccessRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#end Systemconfiguration#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#end Systemconfiguration#end}
   */
   readonly end: SystemconfigurationMgmtIpAccessControlSnmpAccessRangesEnd[] | cdktf.IResolvable;
 }
@@ -5225,29 +5225,29 @@ export class SystemconfigurationMgmtIpAccessControlSnmpAccessRangesList extends 
 }
 export interface SystemconfigurationMgmtIpAccessControlSnmpAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
   */
   readonly addrs?: SystemconfigurationMgmtIpAccessControlSnmpAccessAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
   */
   readonly prefixes?: SystemconfigurationMgmtIpAccessControlSnmpAccessPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
   */
   readonly ranges?: SystemconfigurationMgmtIpAccessControlSnmpAccessRanges[] | cdktf.IResolvable;
 }
@@ -5476,11 +5476,11 @@ export class SystemconfigurationMgmtIpAccessControlSnmpAccessList extends cdktf.
 }
 export interface SystemconfigurationMgmtIpAccessControlSshAccessAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -5619,11 +5619,11 @@ export class SystemconfigurationMgmtIpAccessControlSshAccessAddrsList extends cd
 }
 export interface SystemconfigurationMgmtIpAccessControlSshAccessPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -5762,13 +5762,13 @@ export class SystemconfigurationMgmtIpAccessControlSshAccessPrefixesIpAddrList e
 }
 export interface SystemconfigurationMgmtIpAccessControlSshAccessPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
   */
   readonly ipAddr: SystemconfigurationMgmtIpAccessControlSshAccessPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -5907,11 +5907,11 @@ export class SystemconfigurationMgmtIpAccessControlSshAccessPrefixesList extends
 }
 export interface SystemconfigurationMgmtIpAccessControlSshAccessRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -6050,11 +6050,11 @@ export class SystemconfigurationMgmtIpAccessControlSshAccessRangesBeginList exte
 }
 export interface SystemconfigurationMgmtIpAccessControlSshAccessRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -6195,13 +6195,13 @@ export interface SystemconfigurationMgmtIpAccessControlSshAccessRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
   */
   readonly begin: SystemconfigurationMgmtIpAccessControlSshAccessRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#end Systemconfiguration#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#end Systemconfiguration#end}
   */
   readonly end: SystemconfigurationMgmtIpAccessControlSshAccessRangesEnd[] | cdktf.IResolvable;
 }
@@ -6340,29 +6340,29 @@ export class SystemconfigurationMgmtIpAccessControlSshAccessRangesList extends c
 }
 export interface SystemconfigurationMgmtIpAccessControlSshAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
   */
   readonly addrs?: SystemconfigurationMgmtIpAccessControlSshAccessAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
   */
   readonly prefixes?: SystemconfigurationMgmtIpAccessControlSshAccessPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
   */
   readonly ranges?: SystemconfigurationMgmtIpAccessControlSshAccessRanges[] | cdktf.IResolvable;
 }
@@ -6591,11 +6591,11 @@ export class SystemconfigurationMgmtIpAccessControlSshAccessList extends cdktf.C
 }
 export interface SystemconfigurationMgmtIpAccessControlSysintAccessAddrs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -6734,11 +6734,11 @@ export class SystemconfigurationMgmtIpAccessControlSysintAccessAddrsList extends
 }
 export interface SystemconfigurationMgmtIpAccessControlSysintAccessPrefixesIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -6877,13 +6877,13 @@ export class SystemconfigurationMgmtIpAccessControlSysintAccessPrefixesIpAddrLis
 }
 export interface SystemconfigurationMgmtIpAccessControlSysintAccessPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#mask Systemconfiguration#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ip_addr Systemconfiguration#ip_addr}
   */
   readonly ipAddr: SystemconfigurationMgmtIpAccessControlSysintAccessPrefixesIpAddr[] | cdktf.IResolvable;
 }
@@ -7022,11 +7022,11 @@ export class SystemconfigurationMgmtIpAccessControlSysintAccessPrefixesList exte
 }
 export interface SystemconfigurationMgmtIpAccessControlSysintAccessRangesBegin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -7165,11 +7165,11 @@ export class SystemconfigurationMgmtIpAccessControlSysintAccessRangesBeginList e
 }
 export interface SystemconfigurationMgmtIpAccessControlSysintAccessRangesEnd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -7310,13 +7310,13 @@ export interface SystemconfigurationMgmtIpAccessControlSysintAccessRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#begin Systemconfiguration#begin}
   */
   readonly begin: SystemconfigurationMgmtIpAccessControlSysintAccessRangesBegin[] | cdktf.IResolvable;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#end Systemconfiguration#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#end Systemconfiguration#end}
   */
   readonly end: SystemconfigurationMgmtIpAccessControlSysintAccessRangesEnd[] | cdktf.IResolvable;
 }
@@ -7455,29 +7455,29 @@ export class SystemconfigurationMgmtIpAccessControlSysintAccessRangesList extend
 }
 export interface SystemconfigurationMgmtIpAccessControlSysintAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#group_refs Systemconfiguration#group_refs}
   */
   readonly groupRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#match_criteria Systemconfiguration#match_criteria}
   */
   readonly matchCriteria: string;
   /**
   * addrs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addrs Systemconfiguration#addrs}
   */
   readonly addrs?: SystemconfigurationMgmtIpAccessControlSysintAccessAddrs[] | cdktf.IResolvable;
   /**
   * prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#prefixes Systemconfiguration#prefixes}
   */
   readonly prefixes?: SystemconfigurationMgmtIpAccessControlSysintAccessPrefixes[] | cdktf.IResolvable;
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ranges Systemconfiguration#ranges}
   */
   readonly ranges?: SystemconfigurationMgmtIpAccessControlSysintAccessRanges[] | cdktf.IResolvable;
 }
@@ -7708,31 +7708,31 @@ export interface SystemconfigurationMgmtIpAccessControl {
   /**
   * api_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#api_access Systemconfiguration#api_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#api_access Systemconfiguration#api_access}
   */
   readonly apiAccess?: SystemconfigurationMgmtIpAccessControlApiAccess[] | cdktf.IResolvable;
   /**
   * shell_server_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#shell_server_access Systemconfiguration#shell_server_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#shell_server_access Systemconfiguration#shell_server_access}
   */
   readonly shellServerAccess?: SystemconfigurationMgmtIpAccessControlShellServerAccess[] | cdktf.IResolvable;
   /**
   * snmp_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#snmp_access Systemconfiguration#snmp_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#snmp_access Systemconfiguration#snmp_access}
   */
   readonly snmpAccess?: SystemconfigurationMgmtIpAccessControlSnmpAccess[] | cdktf.IResolvable;
   /**
   * ssh_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ssh_access Systemconfiguration#ssh_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ssh_access Systemconfiguration#ssh_access}
   */
   readonly sshAccess?: SystemconfigurationMgmtIpAccessControlSshAccess[] | cdktf.IResolvable;
   /**
   * sysint_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#sysint_access Systemconfiguration#sysint_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#sysint_access Systemconfiguration#sysint_access}
   */
   readonly sysintAccess?: SystemconfigurationMgmtIpAccessControlSysintAccess[] | cdktf.IResolvable;
 }
@@ -7964,15 +7964,15 @@ export class SystemconfigurationMgmtIpAccessControlList extends cdktf.ComplexLis
 }
 export interface SystemconfigurationNtpConfigurationNtpAuthenticationKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#algorithm Systemconfiguration#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#algorithm Systemconfiguration#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#key Systemconfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#key Systemconfiguration#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#key_number Systemconfiguration#key_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#key_number Systemconfiguration#key_number}
   */
   readonly keyNumber: string;
 }
@@ -8140,11 +8140,11 @@ export class SystemconfigurationNtpConfigurationNtpAuthenticationKeysList extend
 }
 export interface SystemconfigurationNtpConfigurationNtpServerListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -8283,11 +8283,11 @@ export class SystemconfigurationNtpConfigurationNtpServerListStructList extends 
 }
 export interface SystemconfigurationNtpConfigurationNtpServersServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#addr Systemconfiguration#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#type Systemconfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#type Systemconfiguration#type}
   */
   readonly type: string;
 }
@@ -8426,13 +8426,13 @@ export class SystemconfigurationNtpConfigurationNtpServersServerList extends cdk
 }
 export interface SystemconfigurationNtpConfigurationNtpServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#key_number Systemconfiguration#key_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#key_number Systemconfiguration#key_number}
   */
   readonly keyNumber?: string;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#server Systemconfiguration#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#server Systemconfiguration#server}
   */
   readonly server: SystemconfigurationNtpConfigurationNtpServersServer[] | cdktf.IResolvable;
 }
@@ -8576,19 +8576,19 @@ export interface SystemconfigurationNtpConfiguration {
   /**
   * ntp_authentication_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ntp_authentication_keys Systemconfiguration#ntp_authentication_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ntp_authentication_keys Systemconfiguration#ntp_authentication_keys}
   */
   readonly ntpAuthenticationKeys?: SystemconfigurationNtpConfigurationNtpAuthenticationKeys[] | cdktf.IResolvable;
   /**
   * ntp_server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ntp_server_list Systemconfiguration#ntp_server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ntp_server_list Systemconfiguration#ntp_server_list}
   */
   readonly ntpServerList?: SystemconfigurationNtpConfigurationNtpServerListStruct[] | cdktf.IResolvable;
   /**
   * ntp_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#ntp_servers Systemconfiguration#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#ntp_servers Systemconfiguration#ntp_servers}
   */
   readonly ntpServers?: SystemconfigurationNtpConfigurationNtpServers[] | cdktf.IResolvable;
 }
@@ -8762,67 +8762,67 @@ export class SystemconfigurationNtpConfigurationList extends cdktf.ComplexList {
 }
 export interface SystemconfigurationPortalConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#allow_basic_authentication Systemconfiguration#allow_basic_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#allow_basic_authentication Systemconfiguration#allow_basic_authentication}
   */
   readonly allowBasicAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#api_force_timeout Systemconfiguration#api_force_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#api_force_timeout Systemconfiguration#api_force_timeout}
   */
   readonly apiForceTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#disable_remote_cli_shell Systemconfiguration#disable_remote_cli_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#disable_remote_cli_shell Systemconfiguration#disable_remote_cli_shell}
   */
   readonly disableRemoteCliShell?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#disable_swagger Systemconfiguration#disable_swagger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#disable_swagger Systemconfiguration#disable_swagger}
   */
   readonly disableSwagger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#enable_clickjacking_protection Systemconfiguration#enable_clickjacking_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#enable_clickjacking_protection Systemconfiguration#enable_clickjacking_protection}
   */
   readonly enableClickjackingProtection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#enable_http Systemconfiguration#enable_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#enable_http Systemconfiguration#enable_http}
   */
   readonly enableHttp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#enable_https Systemconfiguration#enable_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#enable_https Systemconfiguration#enable_https}
   */
   readonly enableHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#http_port Systemconfiguration#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#http_port Systemconfiguration#http_port}
   */
   readonly httpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#https_port Systemconfiguration#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#https_port Systemconfiguration#https_port}
   */
   readonly httpsPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#minimum_password_length Systemconfiguration#minimum_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#minimum_password_length Systemconfiguration#minimum_password_length}
   */
   readonly minimumPasswordLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#password_strength_check Systemconfiguration#password_strength_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#password_strength_check Systemconfiguration#password_strength_check}
   */
   readonly passwordStrengthCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#pkiprofile_ref Systemconfiguration#pkiprofile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#pkiprofile_ref Systemconfiguration#pkiprofile_ref}
   */
   readonly pkiprofileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#redirect_to_https Systemconfiguration#redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#redirect_to_https Systemconfiguration#redirect_to_https}
   */
   readonly redirectToHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#sslkeyandcertificate_refs Systemconfiguration#sslkeyandcertificate_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#sslkeyandcertificate_refs Systemconfiguration#sslkeyandcertificate_refs}
   */
   readonly sslkeyandcertificateRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#sslprofile_ref Systemconfiguration#sslprofile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#sslprofile_ref Systemconfiguration#sslprofile_ref}
   */
   readonly sslprofileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#use_uuid_from_input Systemconfiguration#use_uuid_from_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#use_uuid_from_input Systemconfiguration#use_uuid_from_input}
   */
   readonly useUuidFromInput?: string;
 }
@@ -9373,19 +9373,19 @@ export class SystemconfigurationPortalConfigurationList extends cdktf.ComplexLis
 }
 export interface SystemconfigurationProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#host Systemconfiguration#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#host Systemconfiguration#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#password Systemconfiguration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#password Systemconfiguration#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#port Systemconfiguration#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#port Systemconfiguration#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#username Systemconfiguration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#username Systemconfiguration#username}
   */
   readonly username?: string;
 }
@@ -9582,7 +9582,7 @@ export class SystemconfigurationProxyConfigurationList extends cdktf.ComplexList
 }
 export interface SystemconfigurationSecureChannelConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#sslkeyandcertificate_refs Systemconfiguration#sslkeyandcertificate_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#sslkeyandcertificate_refs Systemconfiguration#sslkeyandcertificate_refs}
   */
   readonly sslkeyandcertificateRefs?: string[];
 }
@@ -9698,23 +9698,23 @@ export class SystemconfigurationSecureChannelConfigurationList extends cdktf.Com
 }
 export interface SystemconfigurationSnmpConfigurationSnmpV3ConfigUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#auth_passphrase Systemconfiguration#auth_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#auth_passphrase Systemconfiguration#auth_passphrase}
   */
   readonly authPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#auth_type Systemconfiguration#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#auth_type Systemconfiguration#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#priv_passphrase Systemconfiguration#priv_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#priv_passphrase Systemconfiguration#priv_passphrase}
   */
   readonly privPassphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#priv_type Systemconfiguration#priv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#priv_type Systemconfiguration#priv_type}
   */
   readonly privType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#username Systemconfiguration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#username Systemconfiguration#username}
   */
   readonly username?: string;
 }
@@ -9946,13 +9946,13 @@ export class SystemconfigurationSnmpConfigurationSnmpV3ConfigUserList extends cd
 }
 export interface SystemconfigurationSnmpConfigurationSnmpV3Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#engine_id Systemconfiguration#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#engine_id Systemconfiguration#engine_id}
   */
   readonly engineId?: string;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#user Systemconfiguration#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#user Systemconfiguration#user}
   */
   readonly user?: SystemconfigurationSnmpConfigurationSnmpV3ConfigUser[] | cdktf.IResolvable;
 }
@@ -10097,29 +10097,29 @@ export class SystemconfigurationSnmpConfigurationSnmpV3ConfigList extends cdktf.
 }
 export interface SystemconfigurationSnmpConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#community Systemconfiguration#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#community Systemconfiguration#community}
   */
   readonly community?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#large_trap_payload Systemconfiguration#large_trap_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#large_trap_payload Systemconfiguration#large_trap_payload}
   */
   readonly largeTrapPayload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#sys_contact Systemconfiguration#sys_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#sys_contact Systemconfiguration#sys_contact}
   */
   readonly sysContact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#sys_location Systemconfiguration#sys_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#sys_location Systemconfiguration#sys_location}
   */
   readonly sysLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#version Systemconfiguration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#version Systemconfiguration#version}
   */
   readonly version?: string;
   /**
   * snmp_v3_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#snmp_v3_config Systemconfiguration#snmp_v3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#snmp_v3_config Systemconfiguration#snmp_v3_config}
   */
   readonly snmpV3Config?: SystemconfigurationSnmpConfigurationSnmpV3Config[] | cdktf.IResolvable;
 }
@@ -10380,7 +10380,7 @@ export class SystemconfigurationSnmpConfigurationList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration avi_systemconfiguration}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration avi_systemconfiguration}
 */
 export class Systemconfiguration extends cdktf.TerraformResource {
 
@@ -10396,7 +10396,7 @@ export class Systemconfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemconfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemconfiguration to import
-  * @param importFromId The id of the existing Systemconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemconfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemconfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10408,7 +10408,7 @@ export class Systemconfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/systemconfiguration avi_systemconfiguration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/systemconfiguration avi_systemconfiguration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10419,8 +10419,8 @@ export class Systemconfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'avi_systemconfiguration',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

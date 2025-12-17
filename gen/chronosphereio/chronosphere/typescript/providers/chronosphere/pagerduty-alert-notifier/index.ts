@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface PagerdutyAlertNotifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#basic_auth_password PagerdutyAlertNotifier#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#basic_auth_password PagerdutyAlertNotifier#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#basic_auth_username PagerdutyAlertNotifier#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#basic_auth_username PagerdutyAlertNotifier#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#bearer_token PagerdutyAlertNotifier#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#bearer_token PagerdutyAlertNotifier#bearer_token}
   */
   readonly bearerToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#class PagerdutyAlertNotifier#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#class PagerdutyAlertNotifier#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#client PagerdutyAlertNotifier#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#client PagerdutyAlertNotifier#client}
   */
   readonly client?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#client_url PagerdutyAlertNotifier#client_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#client_url PagerdutyAlertNotifier#client_url}
   */
   readonly clientUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#component PagerdutyAlertNotifier#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#component PagerdutyAlertNotifier#component}
   */
   readonly component?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#description PagerdutyAlertNotifier#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#description PagerdutyAlertNotifier#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#details PagerdutyAlertNotifier#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#details PagerdutyAlertNotifier#details}
   */
   readonly details?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#group PagerdutyAlertNotifier#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#group PagerdutyAlertNotifier#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#id PagerdutyAlertNotifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#id PagerdutyAlertNotifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#name PagerdutyAlertNotifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#name PagerdutyAlertNotifier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#proxy_url PagerdutyAlertNotifier#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#proxy_url PagerdutyAlertNotifier#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#routing_key PagerdutyAlertNotifier#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#routing_key PagerdutyAlertNotifier#routing_key}
   */
   readonly routingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#send_resolved PagerdutyAlertNotifier#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#send_resolved PagerdutyAlertNotifier#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#service_key PagerdutyAlertNotifier#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#service_key PagerdutyAlertNotifier#service_key}
   */
   readonly serviceKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#severity PagerdutyAlertNotifier#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#severity PagerdutyAlertNotifier#severity}
   */
   readonly severity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#slug PagerdutyAlertNotifier#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#slug PagerdutyAlertNotifier#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#tls_insecure_skip_verify PagerdutyAlertNotifier#tls_insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#tls_insecure_skip_verify PagerdutyAlertNotifier#tls_insecure_skip_verify}
   */
   readonly tlsInsecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#url PagerdutyAlertNotifier#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#url PagerdutyAlertNotifier#url}
   */
   readonly url: string;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#image PagerdutyAlertNotifier#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#image PagerdutyAlertNotifier#image}
   */
   readonly image?: PagerdutyAlertNotifierImage[] | cdktf.IResolvable;
   /**
   * link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#link PagerdutyAlertNotifier#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#link PagerdutyAlertNotifier#link}
   */
   readonly link?: PagerdutyAlertNotifierLink[] | cdktf.IResolvable;
 }
 export interface PagerdutyAlertNotifierImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#alt PagerdutyAlertNotifier#alt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#alt PagerdutyAlertNotifier#alt}
   */
   readonly alt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#href PagerdutyAlertNotifier#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#href PagerdutyAlertNotifier#href}
   */
   readonly href?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#src PagerdutyAlertNotifier#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#src PagerdutyAlertNotifier#src}
   */
   readonly src: string;
 }
@@ -284,11 +284,11 @@ export class PagerdutyAlertNotifierImageList extends cdktf.ComplexList {
 }
 export interface PagerdutyAlertNotifierLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#href PagerdutyAlertNotifier#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#href PagerdutyAlertNotifier#href}
   */
   readonly href: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#text PagerdutyAlertNotifier#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#text PagerdutyAlertNotifier#text}
   */
   readonly text?: string;
 }
@@ -430,7 +430,7 @@ export class PagerdutyAlertNotifierLinkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier chronosphere_pagerduty_alert_notifier}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier chronosphere_pagerduty_alert_notifier}
 */
 export class PagerdutyAlertNotifier extends cdktf.TerraformResource {
 
@@ -446,7 +446,7 @@ export class PagerdutyAlertNotifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PagerdutyAlertNotifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PagerdutyAlertNotifier to import
-  * @param importFromId The id of the existing PagerdutyAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PagerdutyAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PagerdutyAlertNotifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class PagerdutyAlertNotifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/pagerduty_alert_notifier chronosphere_pagerduty_alert_notifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/pagerduty_alert_notifier chronosphere_pagerduty_alert_notifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class PagerdutyAlertNotifier extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_pagerduty_alert_notifier',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

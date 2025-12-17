@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface AuthmappingprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#description Authmappingprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#description Authmappingprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#id Authmappingprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#id Authmappingprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#name Authmappingprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#name Authmappingprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#tenant_ref Authmappingprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#tenant_ref Authmappingprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#type Authmappingprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#type Authmappingprofile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#uuid Authmappingprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#uuid Authmappingprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#configpb_attributes Authmappingprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#configpb_attributes Authmappingprofile#configpb_attributes}
   */
   readonly configpbAttributes?: AuthmappingprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * mapping_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#mapping_rules Authmappingprofile#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#mapping_rules Authmappingprofile#mapping_rules}
   */
   readonly mappingRules: AuthmappingprofileMappingRules[] | cdktf.IResolvable;
 }
 export interface AuthmappingprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#version Authmappingprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#version Authmappingprofile#version}
   */
   readonly version?: string;
 }
@@ -165,15 +165,15 @@ export class AuthmappingprofileConfigpbAttributesList extends cdktf.ComplexList 
 }
 export interface AuthmappingprofileMappingRulesAttributeMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#criteria Authmappingprofile#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#criteria Authmappingprofile#criteria}
   */
   readonly criteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#name Authmappingprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#name Authmappingprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#values Authmappingprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#values Authmappingprofile#values}
   */
   readonly values?: string[];
 }
@@ -344,11 +344,11 @@ export class AuthmappingprofileMappingRulesAttributeMatchList extends cdktf.Comp
 }
 export interface AuthmappingprofileMappingRulesGroupMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#criteria Authmappingprofile#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#criteria Authmappingprofile#criteria}
   */
   readonly criteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#groups Authmappingprofile#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#groups Authmappingprofile#groups}
   */
   readonly groups?: string[];
 }
@@ -490,71 +490,71 @@ export class AuthmappingprofileMappingRulesGroupMatchList extends cdktf.ComplexL
 }
 export interface AuthmappingprofileMappingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#assign_policy Authmappingprofile#assign_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#assign_policy Authmappingprofile#assign_policy}
   */
   readonly assignPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#assign_role Authmappingprofile#assign_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#assign_role Authmappingprofile#assign_role}
   */
   readonly assignRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#assign_tenant Authmappingprofile#assign_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#assign_tenant Authmappingprofile#assign_tenant}
   */
   readonly assignTenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#assign_userprofile Authmappingprofile#assign_userprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#assign_userprofile Authmappingprofile#assign_userprofile}
   */
   readonly assignUserprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#default_tenant_ref Authmappingprofile#default_tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#default_tenant_ref Authmappingprofile#default_tenant_ref}
   */
   readonly defaultTenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#index Authmappingprofile#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#index Authmappingprofile#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#is_superuser Authmappingprofile#is_superuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#is_superuser Authmappingprofile#is_superuser}
   */
   readonly isSuperuser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#policy_attribute_name Authmappingprofile#policy_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#policy_attribute_name Authmappingprofile#policy_attribute_name}
   */
   readonly policyAttributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#role_attribute_name Authmappingprofile#role_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#role_attribute_name Authmappingprofile#role_attribute_name}
   */
   readonly roleAttributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#role_refs Authmappingprofile#role_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#role_refs Authmappingprofile#role_refs}
   */
   readonly roleRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#tenant_attribute_name Authmappingprofile#tenant_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#tenant_attribute_name Authmappingprofile#tenant_attribute_name}
   */
   readonly tenantAttributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#tenant_refs Authmappingprofile#tenant_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#tenant_refs Authmappingprofile#tenant_refs}
   */
   readonly tenantRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#userprofile_attribute_name Authmappingprofile#userprofile_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#userprofile_attribute_name Authmappingprofile#userprofile_attribute_name}
   */
   readonly userprofileAttributeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#userprofile_ref Authmappingprofile#userprofile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#userprofile_ref Authmappingprofile#userprofile_ref}
   */
   readonly userprofileRef?: string;
   /**
   * attribute_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#attribute_match Authmappingprofile#attribute_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#attribute_match Authmappingprofile#attribute_match}
   */
   readonly attributeMatch?: AuthmappingprofileMappingRulesAttributeMatch[] | cdktf.IResolvable;
   /**
   * group_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#group_match Authmappingprofile#group_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#group_match Authmappingprofile#group_match}
   */
   readonly groupMatch?: AuthmappingprofileMappingRulesGroupMatch[] | cdktf.IResolvable;
 }
@@ -1102,7 +1102,7 @@ export class AuthmappingprofileMappingRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile avi_authmappingprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile avi_authmappingprofile}
 */
 export class Authmappingprofile extends cdktf.TerraformResource {
 
@@ -1118,7 +1118,7 @@ export class Authmappingprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authmappingprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authmappingprofile to import
-  * @param importFromId The id of the existing Authmappingprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authmappingprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authmappingprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1130,7 +1130,7 @@ export class Authmappingprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/authmappingprofile avi_authmappingprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/authmappingprofile avi_authmappingprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1141,8 +1141,8 @@ export class Authmappingprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_authmappingprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataPowerplatformTenantApplicationPackagesConfig extends cdktf.
   /**
   * Name of the Dynamics 365 application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages#name DataPowerplatformTenantApplicationPackages#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages#name DataPowerplatformTenantApplicationPackages#name}
   */
   readonly name?: string;
   /**
   * Publisher Name of the Dynamics 365 application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages#publisher_name DataPowerplatformTenantApplicationPackages#publisher_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages#publisher_name DataPowerplatformTenantApplicationPackages#publisher_name}
   */
   readonly publisherName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages#timeouts DataPowerplatformTenantApplicationPackages#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages#timeouts DataPowerplatformTenantApplicationPackages#timeouts}
   */
   readonly timeouts?: DataPowerplatformTenantApplicationPackagesTimeouts;
 }
@@ -259,7 +259,7 @@ export interface DataPowerplatformTenantApplicationPackagesTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages#read DataPowerplatformTenantApplicationPackages#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages#read DataPowerplatformTenantApplicationPackages#read}
   */
   readonly read?: string;
 }
@@ -353,7 +353,7 @@ export class DataPowerplatformTenantApplicationPackagesTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages powerplatform_tenant_application_packages}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages powerplatform_tenant_application_packages}
 */
 export class DataPowerplatformTenantApplicationPackages extends cdktf.TerraformDataSource {
 
@@ -369,7 +369,7 @@ export class DataPowerplatformTenantApplicationPackages extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataPowerplatformTenantApplicationPackages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformTenantApplicationPackages to import
-  * @param importFromId The id of the existing DataPowerplatformTenantApplicationPackages that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformTenantApplicationPackages that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformTenantApplicationPackages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class DataPowerplatformTenantApplicationPackages extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_application_packages powerplatform_tenant_application_packages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_application_packages powerplatform_tenant_application_packages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class DataPowerplatformTenantApplicationPackages extends cdktf.TerraformD
       terraformResourceType: 'powerplatform_tenant_application_packages',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

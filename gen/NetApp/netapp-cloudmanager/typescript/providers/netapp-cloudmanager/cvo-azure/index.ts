@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,220 +8,232 @@ import * as cdktf from 'cdktf';
 
 export interface CvoAzureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#allow_deploy_in_existing_rg CvoAzure#allow_deploy_in_existing_rg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#allow_deploy_in_existing_rg CvoAzure#allow_deploy_in_existing_rg}
   */
   readonly allowDeployInExistingRg?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#availability_zone CvoAzure#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#availability_zone CvoAzure#availability_zone}
   */
   readonly availabilityZone?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#availability_zone_node1 CvoAzure#availability_zone_node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#availability_zone_node1 CvoAzure#availability_zone_node1}
   */
   readonly availabilityZoneNode1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#availability_zone_node2 CvoAzure#availability_zone_node2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#availability_zone_node2 CvoAzure#availability_zone_node2}
   */
   readonly availabilityZoneNode2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#backup_volumes_to_cbs CvoAzure#backup_volumes_to_cbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#backup_volumes_to_cbs CvoAzure#backup_volumes_to_cbs}
   */
   readonly backupVolumesToCbs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#capacity_package_name CvoAzure#capacity_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#capacity_package_name CvoAzure#capacity_package_name}
   */
   readonly capacityPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#capacity_tier CvoAzure#capacity_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#capacity_tier CvoAzure#capacity_tier}
   */
   readonly capacityTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#cidr CvoAzure#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#cidr CvoAzure#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#client_id CvoAzure#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#client_id CvoAzure#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#cloud_provider_account CvoAzure#cloud_provider_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#cloud_provider_account CvoAzure#cloud_provider_account}
   */
   readonly cloudProviderAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#data_encryption_type CvoAzure#data_encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#data_encryption_type CvoAzure#data_encryption_type}
   */
   readonly dataEncryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#disk_size CvoAzure#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#disk_size CvoAzure#disk_size}
   */
   readonly diskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#disk_size_unit CvoAzure#disk_size_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#disk_size_unit CvoAzure#disk_size_unit}
   */
   readonly diskSizeUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#enable_compliance CvoAzure#enable_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#enable_compliance CvoAzure#enable_compliance}
   */
   readonly enableCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#enable_monitoring CvoAzure#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#enable_monitoring CvoAzure#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#ha_enable_https CvoAzure#ha_enable_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#ha_enable_https CvoAzure#ha_enable_https}
   */
   readonly haEnableHttps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#id CvoAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#id CvoAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#instance_type CvoAzure#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#instance_type CvoAzure#instance_type}
   */
-  readonly instanceType?: string;
+  readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#is_ha CvoAzure#is_ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#is_ha CvoAzure#is_ha}
   */
   readonly isHa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#license_type CvoAzure#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#license_type CvoAzure#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#location CvoAzure#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#location CvoAzure#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#name CvoAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#name CvoAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#nss_account CvoAzure#nss_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#nss_account CvoAzure#nss_account}
   */
   readonly nssAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#ontap_version CvoAzure#ontap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#ontap_version CvoAzure#ontap_version}
   */
   readonly ontapVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#open_security_group CvoAzure#open_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#open_security_group CvoAzure#open_security_group}
   */
   readonly openSecurityGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#platform_serial_number_node1 CvoAzure#platform_serial_number_node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#platform_serial_number_node1 CvoAzure#platform_serial_number_node1}
   */
   readonly platformSerialNumberNode1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#platform_serial_number_node2 CvoAzure#platform_serial_number_node2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#platform_serial_number_node2 CvoAzure#platform_serial_number_node2}
   */
   readonly platformSerialNumberNode2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#provided_license CvoAzure#provided_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#provided_license CvoAzure#provided_license}
   */
   readonly providedLicense?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#resource_group CvoAzure#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#resource_group CvoAzure#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#retries CvoAzure#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#retries CvoAzure#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#saas_subscription_id CvoAzure#saas_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#saas_subscription_id CvoAzure#saas_subscription_id}
   */
   readonly saasSubscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#security_group_id CvoAzure#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#security_group_id CvoAzure#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#serial_number CvoAzure#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#serial_number CvoAzure#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#storage_type CvoAzure#storage_type}
+  * Controls network access for the storage account. Accepted values: Enabled, Disabled, SecuredByPerimeter.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#storage_account_network_access CvoAzure#storage_account_network_access}
+  */
+  readonly storageAccountNetworkAccess?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#storage_type CvoAzure#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#subnet_id CvoAzure#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#subnet_id CvoAzure#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#subscription_id CvoAzure#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#subscription_id CvoAzure#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#svm_name CvoAzure#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#svm_name CvoAzure#svm_name}
   */
   readonly svmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#svm_password CvoAzure#svm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#svm_password CvoAzure#svm_password}
   */
   readonly svmPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#tier_level CvoAzure#tier_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#tier_level CvoAzure#tier_level}
   */
   readonly tierLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#upgrade_ontap_version CvoAzure#upgrade_ontap_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#upgrade_ontap_version CvoAzure#upgrade_ontap_version}
   */
   readonly upgradeOntapVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#use_latest_version CvoAzure#use_latest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#use_latest_version CvoAzure#use_latest_version}
   */
   readonly useLatestVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#vnet_id CvoAzure#vnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#vnet_id CvoAzure#vnet_id}
   */
   readonly vnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#vnet_resource_group CvoAzure#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#vnet_resource_group CvoAzure#vnet_resource_group}
   */
   readonly vnetResourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#workspace_id CvoAzure#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#workspace_id CvoAzure#workspace_id}
   */
   readonly workspaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#worm_retention_period_length CvoAzure#worm_retention_period_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#worm_retention_period_length CvoAzure#worm_retention_period_length}
   */
   readonly wormRetentionPeriodLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#worm_retention_period_unit CvoAzure#worm_retention_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#worm_retention_period_unit CvoAzure#worm_retention_period_unit}
   */
   readonly wormRetentionPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#writing_speed_state CvoAzure#writing_speed_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#writing_speed_state CvoAzure#writing_speed_state}
   */
   readonly writingSpeedState?: string;
   /**
   * azure_encryption_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#azure_encryption_parameters CvoAzure#azure_encryption_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#azure_encryption_parameters CvoAzure#azure_encryption_parameters}
   */
   readonly azureEncryptionParameters?: CvoAzureAzureEncryptionParameters;
   /**
   * azure_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#azure_tag CvoAzure#azure_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#azure_tag CvoAzure#azure_tag}
   */
   readonly azureTag?: CvoAzureAzureTag[] | cdktf.IResolvable;
+  /**
+  * svm block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#svm CvoAzure#svm}
+  */
+  readonly svm?: CvoAzureSvm[] | cdktf.IResolvable;
 }
 export interface CvoAzureAzureEncryptionParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#key CvoAzure#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#key CvoAzure#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#user_assigned_identity CvoAzure#user_assigned_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#user_assigned_identity CvoAzure#user_assigned_identity}
   */
   readonly userAssignedIdentity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#vault_name CvoAzure#vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#vault_name CvoAzure#vault_name}
   */
   readonly vaultName: string;
 }
@@ -357,11 +369,11 @@ export class CvoAzureAzureEncryptionParametersOutputReference extends cdktf.Comp
 }
 export interface CvoAzureAzureTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#tag_key CvoAzure#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#tag_key CvoAzure#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#tag_value CvoAzure#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#tag_value CvoAzure#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -501,9 +513,155 @@ export class CvoAzureAzureTagList extends cdktf.ComplexList {
     return new CvoAzureAzureTagOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface CvoAzureSvm {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#root_volume_aggregate CvoAzure#root_volume_aggregate}
+  */
+  readonly rootVolumeAggregate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#svm_name CvoAzure#svm_name}
+  */
+  readonly svmName: string;
+}
+
+export function cvoAzureSvmToTerraform(struct?: CvoAzureSvm | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    root_volume_aggregate: cdktf.stringToTerraform(struct!.rootVolumeAggregate),
+    svm_name: cdktf.stringToTerraform(struct!.svmName),
+  }
+}
+
+
+export function cvoAzureSvmToHclTerraform(struct?: CvoAzureSvm | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    root_volume_aggregate: {
+      value: cdktf.stringToHclTerraform(struct!.rootVolumeAggregate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    svm_name: {
+      value: cdktf.stringToHclTerraform(struct!.svmName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CvoAzureSvmOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CvoAzureSvm | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._rootVolumeAggregate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rootVolumeAggregate = this._rootVolumeAggregate;
+    }
+    if (this._svmName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.svmName = this._svmName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CvoAzureSvm | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._rootVolumeAggregate = undefined;
+      this._svmName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._rootVolumeAggregate = value.rootVolumeAggregate;
+      this._svmName = value.svmName;
+    }
+  }
+
+  // root_volume_aggregate - computed: false, optional: true, required: false
+  private _rootVolumeAggregate?: string; 
+  public get rootVolumeAggregate() {
+    return this.getStringAttribute('root_volume_aggregate');
+  }
+  public set rootVolumeAggregate(value: string) {
+    this._rootVolumeAggregate = value;
+  }
+  public resetRootVolumeAggregate() {
+    this._rootVolumeAggregate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootVolumeAggregateInput() {
+    return this._rootVolumeAggregate;
+  }
+
+  // svm_name - computed: false, optional: false, required: true
+  private _svmName?: string; 
+  public get svmName() {
+    return this.getStringAttribute('svm_name');
+  }
+  public set svmName(value: string) {
+    this._svmName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svmNameInput() {
+    return this._svmName;
+  }
+}
+
+export class CvoAzureSvmList extends cdktf.ComplexList {
+  public internalValue? : CvoAzureSvm[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CvoAzureSvmOutputReference {
+    return new CvoAzureSvmOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure netapp-cloudmanager_cvo_azure}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure netapp-cloudmanager_cvo_azure}
 */
 export class CvoAzure extends cdktf.TerraformResource {
 
@@ -519,7 +677,7 @@ export class CvoAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvoAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvoAzure to import
-  * @param importFromId The id of the existing CvoAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvoAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvoAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +689,7 @@ export class CvoAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/cvo_azure netapp-cloudmanager_cvo_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/cvo_azure netapp-cloudmanager_cvo_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +700,8 @@ export class CvoAzure extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_cvo_azure',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -586,6 +744,7 @@ export class CvoAzure extends cdktf.TerraformResource {
     this._saasSubscriptionId = config.saasSubscriptionId;
     this._securityGroupId = config.securityGroupId;
     this._serialNumber = config.serialNumber;
+    this._storageAccountNetworkAccess = config.storageAccountNetworkAccess;
     this._storageType = config.storageType;
     this._subnetId = config.subnetId;
     this._subscriptionId = config.subscriptionId;
@@ -602,6 +761,7 @@ export class CvoAzure extends cdktf.TerraformResource {
     this._writingSpeedState = config.writingSpeedState;
     this._azureEncryptionParameters.internalValue = config.azureEncryptionParameters;
     this._azureTag.internalValue = config.azureTag;
+    this._svm.internalValue = config.svm;
   }
 
   // ==========
@@ -877,16 +1037,13 @@ export class CvoAzure extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // instance_type - computed: false, optional: true, required: false
+  // instance_type - computed: false, optional: false, required: true
   private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
   public set instanceType(value: string) {
     this._instanceType = value;
-  }
-  public resetInstanceType() {
-    this._instanceType = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get instanceTypeInput() {
@@ -1125,6 +1282,22 @@ export class CvoAzure extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get serialNumberInput() {
     return this._serialNumber;
+  }
+
+  // storage_account_network_access - computed: false, optional: true, required: false
+  private _storageAccountNetworkAccess?: string; 
+  public get storageAccountNetworkAccess() {
+    return this.getStringAttribute('storage_account_network_access');
+  }
+  public set storageAccountNetworkAccess(value: string) {
+    this._storageAccountNetworkAccess = value;
+  }
+  public resetStorageAccountNetworkAccess() {
+    this._storageAccountNetworkAccess = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageAccountNetworkAccessInput() {
+    return this._storageAccountNetworkAccess;
   }
 
   // storage_type - computed: false, optional: true, required: false
@@ -1371,6 +1544,22 @@ export class CvoAzure extends cdktf.TerraformResource {
     return this._azureTag.internalValue;
   }
 
+  // svm - computed: false, optional: true, required: false
+  private _svm = new CvoAzureSvmList(this, "svm", true);
+  public get svm() {
+    return this._svm;
+  }
+  public putSvm(value: CvoAzureSvm[] | cdktf.IResolvable) {
+    this._svm.internalValue = value;
+  }
+  public resetSvm() {
+    this._svm.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get svmInput() {
+    return this._svm.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1410,6 +1599,7 @@ export class CvoAzure extends cdktf.TerraformResource {
       saas_subscription_id: cdktf.stringToTerraform(this._saasSubscriptionId),
       security_group_id: cdktf.stringToTerraform(this._securityGroupId),
       serial_number: cdktf.stringToTerraform(this._serialNumber),
+      storage_account_network_access: cdktf.stringToTerraform(this._storageAccountNetworkAccess),
       storage_type: cdktf.stringToTerraform(this._storageType),
       subnet_id: cdktf.stringToTerraform(this._subnetId),
       subscription_id: cdktf.stringToTerraform(this._subscriptionId),
@@ -1426,6 +1616,7 @@ export class CvoAzure extends cdktf.TerraformResource {
       writing_speed_state: cdktf.stringToTerraform(this._writingSpeedState),
       azure_encryption_parameters: cvoAzureAzureEncryptionParametersToTerraform(this._azureEncryptionParameters.internalValue),
       azure_tag: cdktf.listMapper(cvoAzureAzureTagToTerraform, true)(this._azureTag.internalValue),
+      svm: cdktf.listMapper(cvoAzureSvmToTerraform, true)(this._svm.internalValue),
     };
   }
 
@@ -1629,6 +1820,12 @@ export class CvoAzure extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      storage_account_network_access: {
+        value: cdktf.stringToHclTerraform(this._storageAccountNetworkAccess),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       storage_type: {
         value: cdktf.stringToHclTerraform(this._storageType),
         isBlock: false,
@@ -1724,6 +1921,12 @@ export class CvoAzure extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "CvoAzureAzureTagList",
+      },
+      svm: {
+        value: cdktf.listMapperHcl(cvoAzureSvmToHclTerraform, true)(this._svm.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "CvoAzureSvmList",
       },
     };
 

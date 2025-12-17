@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace
+// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * User-friendly alias for the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace#alias Workspace#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace#alias Workspace#alias}
   */
   readonly alias?: string;
   /**
   * Detailed description of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace#description Workspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace#description Workspace#description}
   */
   readonly description?: string;
   /**
   * The <code>id</code> of the Organization where you want to create the Workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace#organization_id Workspace#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace#organization_id Workspace#organization_id}
   */
   readonly organizationId: string;
   /**
   * Tags associated with the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace#tags Workspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace#tags Workspace#tags}
   */
   readonly tags?: string[];
   /**
   * Unique identifier for the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace#workspace_id Workspace#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace#workspace_id Workspace#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace criblio_workspace}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace criblio_workspace}
 */
 export class Workspace extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Workspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Workspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Workspace to import
-  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Workspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Workspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Workspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/workspace criblio_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/workspace criblio_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Workspace extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_workspace',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.64',
-        providerVersionConstraint: '1.20.64'
+        providerVersion: '1.20.69',
+        providerVersionConstraint: '1.20.69'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

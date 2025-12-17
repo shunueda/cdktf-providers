@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckGitBranchProtectionConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#category CheckGitBranchProtection#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#category CheckGitBranchProtection#category}
   */
   readonly category: string;
   /**
@@ -19,49 +19,49 @@ export interface CheckGitBranchProtectionConfig extends cdktf.TerraformMetaArgum
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#enable_on CheckGitBranchProtection#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#enable_on CheckGitBranchProtection#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#enabled CheckGitBranchProtection#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#enabled CheckGitBranchProtection#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#filter CheckGitBranchProtection#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#filter CheckGitBranchProtection#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#level CheckGitBranchProtection#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#level CheckGitBranchProtection#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#name CheckGitBranchProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#name CheckGitBranchProtection#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#notes CheckGitBranchProtection#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#notes CheckGitBranchProtection#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#owner CheckGitBranchProtection#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#owner CheckGitBranchProtection#owner}
   */
   readonly owner?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection opslevel_check_git_branch_protection}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection opslevel_check_git_branch_protection}
 */
 export class CheckGitBranchProtection extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class CheckGitBranchProtection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckGitBranchProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckGitBranchProtection to import
-  * @param importFromId The id of the existing CheckGitBranchProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckGitBranchProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckGitBranchProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class CheckGitBranchProtection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/check_git_branch_protection opslevel_check_git_branch_protection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_git_branch_protection opslevel_check_git_branch_protection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class CheckGitBranchProtection extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_git_branch_protection',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

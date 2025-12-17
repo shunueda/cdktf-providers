@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,342 +8,342 @@ import * as cdktf from 'cdktf';
 
 export interface PoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#analytics_profile_ref Pool#analytics_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#analytics_profile_ref Pool#analytics_profile_ref}
   */
   readonly analyticsProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#append_port Pool#append_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#append_port Pool#append_port}
   */
   readonly appendPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#application_persistence_profile_ref Pool#application_persistence_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#application_persistence_profile_ref Pool#application_persistence_profile_ref}
   */
   readonly applicationPersistenceProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#autoscale_launch_config_ref Pool#autoscale_launch_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#autoscale_launch_config_ref Pool#autoscale_launch_config_ref}
   */
   readonly autoscaleLaunchConfigRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#autoscale_networks Pool#autoscale_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#autoscale_networks Pool#autoscale_networks}
   */
   readonly autoscaleNetworks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#autoscale_policy_ref Pool#autoscale_policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#autoscale_policy_ref Pool#autoscale_policy_ref}
   */
   readonly autoscalePolicyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#capacity_estimation Pool#capacity_estimation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#capacity_estimation Pool#capacity_estimation}
   */
   readonly capacityEstimation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#capacity_estimation_ttfb_thresh Pool#capacity_estimation_ttfb_thresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#capacity_estimation_ttfb_thresh Pool#capacity_estimation_ttfb_thresh}
   */
   readonly capacityEstimationTtfbThresh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#cloud_config_cksum Pool#cloud_config_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#cloud_config_cksum Pool#cloud_config_cksum}
   */
   readonly cloudConfigCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#cloud_ref Pool#cloud_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#cloud_ref Pool#cloud_ref}
   */
   readonly cloudRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#connection_ramp_duration Pool#connection_ramp_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#connection_ramp_duration Pool#connection_ramp_duration}
   */
   readonly connectionRampDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#created_by Pool#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#created_by Pool#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#default_server_port Pool#default_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#default_server_port Pool#default_server_port}
   */
   readonly defaultServerPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#delete_server_on_dns_refresh Pool#delete_server_on_dns_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#delete_server_on_dns_refresh Pool#delete_server_on_dns_refresh}
   */
   readonly deleteServerOnDnsRefresh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#description Pool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#description Pool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#domain_name Pool#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#domain_name Pool#domain_name}
   */
   readonly domainName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#east_west Pool#east_west}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#east_west Pool#east_west}
   */
   readonly eastWest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#enable_http2 Pool#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#enable_http2 Pool#enable_http2}
   */
   readonly enableHttp2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#enabled Pool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#enabled Pool#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#external_autoscale_groups Pool#external_autoscale_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#external_autoscale_groups Pool#external_autoscale_groups}
   */
   readonly externalAutoscaleGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#fewest_tasks_feedback_delay Pool#fewest_tasks_feedback_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#fewest_tasks_feedback_delay Pool#fewest_tasks_feedback_delay}
   */
   readonly fewestTasksFeedbackDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#graceful_disable_timeout Pool#graceful_disable_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#graceful_disable_timeout Pool#graceful_disable_timeout}
   */
   readonly gracefulDisableTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#graceful_hm_down_disable_timeout Pool#graceful_hm_down_disable_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#graceful_hm_down_disable_timeout Pool#graceful_hm_down_disable_timeout}
   */
   readonly gracefulHmDownDisableTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#gslb_sp_enabled Pool#gslb_sp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#gslb_sp_enabled Pool#gslb_sp_enabled}
   */
   readonly gslbSpEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#health_monitor_refs Pool#health_monitor_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#health_monitor_refs Pool#health_monitor_refs}
   */
   readonly healthMonitorRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#host_check_enabled Pool#host_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#host_check_enabled Pool#host_check_enabled}
   */
   readonly hostCheckEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#id Pool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#id Pool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ignore_server_port Pool#ignore_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ignore_server_port Pool#ignore_server_port}
   */
   readonly ignoreServerPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ignore_servers Pool#ignore_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ignore_servers Pool#ignore_servers}
   */
   readonly ignoreServers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#inline_health_monitor Pool#inline_health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#inline_health_monitor Pool#inline_health_monitor}
   */
   readonly inlineHealthMonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ipaddrgroup_ref Pool#ipaddrgroup_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ipaddrgroup_ref Pool#ipaddrgroup_ref}
   */
   readonly ipaddrgroupRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#lb_algo_rr_per_se Pool#lb_algo_rr_per_se}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#lb_algo_rr_per_se Pool#lb_algo_rr_per_se}
   */
   readonly lbAlgoRrPerSe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#lb_algorithm Pool#lb_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#lb_algorithm Pool#lb_algorithm}
   */
   readonly lbAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#lb_algorithm_consistent_hash_hdr Pool#lb_algorithm_consistent_hash_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#lb_algorithm_consistent_hash_hdr Pool#lb_algorithm_consistent_hash_hdr}
   */
   readonly lbAlgorithmConsistentHashHdr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#lb_algorithm_core_nonaffinity Pool#lb_algorithm_core_nonaffinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#lb_algorithm_core_nonaffinity Pool#lb_algorithm_core_nonaffinity}
   */
   readonly lbAlgorithmCoreNonaffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#lb_algorithm_hash Pool#lb_algorithm_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#lb_algorithm_hash Pool#lb_algorithm_hash}
   */
   readonly lbAlgorithmHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#lookup_server_by_name Pool#lookup_server_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#lookup_server_by_name Pool#lookup_server_by_name}
   */
   readonly lookupServerByName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#max_concurrent_connections_per_server Pool#max_concurrent_connections_per_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#max_concurrent_connections_per_server Pool#max_concurrent_connections_per_server}
   */
   readonly maxConcurrentConnectionsPerServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#min_health_monitors_up Pool#min_health_monitors_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#min_health_monitors_up Pool#min_health_monitors_up}
   */
   readonly minHealthMonitorsUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#min_servers_up Pool#min_servers_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#min_servers_up Pool#min_servers_up}
   */
   readonly minServersUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#name Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#name Pool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#nsx_securitygroup Pool#nsx_securitygroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#nsx_securitygroup Pool#nsx_securitygroup}
   */
   readonly nsxSecuritygroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#pki_profile_ref Pool#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#pki_profile_ref Pool#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#pool_type Pool#pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#pool_type Pool#pool_type}
   */
   readonly poolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#request_queue_depth Pool#request_queue_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#request_queue_depth Pool#request_queue_depth}
   */
   readonly requestQueueDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#request_queue_enabled Pool#request_queue_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#request_queue_enabled Pool#request_queue_enabled}
   */
   readonly requestQueueEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#resolve_pool_by_dns Pool#resolve_pool_by_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#resolve_pool_by_dns Pool#resolve_pool_by_dns}
   */
   readonly resolvePoolByDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#rewrite_host_header_to_server_name Pool#rewrite_host_header_to_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#rewrite_host_header_to_server_name Pool#rewrite_host_header_to_server_name}
   */
   readonly rewriteHostHeaderToServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#rewrite_host_header_to_sni Pool#rewrite_host_header_to_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#rewrite_host_header_to_sni Pool#rewrite_host_header_to_sni}
   */
   readonly rewriteHostHeaderToSni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#routing_pool Pool#routing_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#routing_pool Pool#routing_pool}
   */
   readonly routingPool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#server_disable_type Pool#server_disable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#server_disable_type Pool#server_disable_type}
   */
   readonly serverDisableType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#server_name Pool#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#server_name Pool#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#server_timeout Pool#server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#server_timeout Pool#server_timeout}
   */
   readonly serverTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#service_metadata Pool#service_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#service_metadata Pool#service_metadata}
   */
   readonly serviceMetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#sni_enabled Pool#sni_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#sni_enabled Pool#sni_enabled}
   */
   readonly sniEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ssl_key_and_certificate_ref Pool#ssl_key_and_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ssl_key_and_certificate_ref Pool#ssl_key_and_certificate_ref}
   */
   readonly sslKeyAndCertificateRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ssl_profile_ref Pool#ssl_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ssl_profile_ref Pool#ssl_profile_ref}
   */
   readonly sslProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#tenant_ref Pool#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#tenant_ref Pool#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#tier1_lr Pool#tier1_lr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#tier1_lr Pool#tier1_lr}
   */
   readonly tier1Lr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#use_service_port Pool#use_service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#use_service_port Pool#use_service_port}
   */
   readonly useServicePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#use_service_ssl_mode Pool#use_service_ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#use_service_ssl_mode Pool#use_service_ssl_mode}
   */
   readonly useServiceSslMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#uuid Pool#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#uuid Pool#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#vrf_ref Pool#vrf_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#vrf_ref Pool#vrf_ref}
   */
   readonly vrfRef?: string;
   /**
   * analytics_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#analytics_policy Pool#analytics_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#analytics_policy Pool#analytics_policy}
   */
   readonly analyticsPolicy?: PoolAnalyticsPolicy[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#configpb_attributes Pool#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#configpb_attributes Pool#configpb_attributes}
   */
   readonly configpbAttributes?: PoolConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * conn_pool_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#conn_pool_properties Pool#conn_pool_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#conn_pool_properties Pool#conn_pool_properties}
   */
   readonly connPoolProperties?: PoolConnPoolProperties[] | cdktf.IResolvable;
   /**
   * fail_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#fail_action Pool#fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#fail_action Pool#fail_action}
   */
   readonly failAction?: PoolFailAction[] | cdktf.IResolvable;
   /**
   * horizon_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#horizon_profile Pool#horizon_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#horizon_profile Pool#horizon_profile}
   */
   readonly horizonProfile?: PoolHorizonProfile[] | cdktf.IResolvable;
   /**
   * http2_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#http2_properties Pool#http2_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#http2_properties Pool#http2_properties}
   */
   readonly http2Properties?: PoolHttp2Properties[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#markers Pool#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#markers Pool#markers}
   */
   readonly markers?: PoolMarkers[] | cdktf.IResolvable;
   /**
   * max_conn_rate_per_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#max_conn_rate_per_server Pool#max_conn_rate_per_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#max_conn_rate_per_server Pool#max_conn_rate_per_server}
   */
   readonly maxConnRatePerServer?: PoolMaxConnRatePerServer[] | cdktf.IResolvable;
   /**
   * networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#networks Pool#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#networks Pool#networks}
   */
   readonly networks?: PoolNetworks[] | cdktf.IResolvable;
   /**
   * placement_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#placement_networks Pool#placement_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#placement_networks Pool#placement_networks}
   */
   readonly placementNetworks?: PoolPlacementNetworks[] | cdktf.IResolvable;
   /**
   * server_reselect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#server_reselect Pool#server_reselect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#server_reselect Pool#server_reselect}
   */
   readonly serverReselect?: PoolServerReselect[] | cdktf.IResolvable;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#servers Pool#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#servers Pool#servers}
   */
   readonly servers?: PoolServers[] | cdktf.IResolvable;
   /**
   * sp_gs_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#sp_gs_info Pool#sp_gs_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#sp_gs_info Pool#sp_gs_info}
   */
   readonly spGsInfo?: PoolSpGsInfo[] | cdktf.IResolvable;
 }
 export interface PoolAnalyticsPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#enable_realtime_metrics Pool#enable_realtime_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#enable_realtime_metrics Pool#enable_realtime_metrics}
   */
   readonly enableRealtimeMetrics?: string;
 }
@@ -459,7 +459,7 @@ export class PoolAnalyticsPolicyList extends cdktf.ComplexList {
 }
 export interface PoolConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#version Pool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#version Pool#version}
   */
   readonly version?: string;
 }
@@ -575,19 +575,19 @@ export class PoolConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface PoolConnPoolProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#upstream_connpool_conn_idle_tmo Pool#upstream_connpool_conn_idle_tmo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#upstream_connpool_conn_idle_tmo Pool#upstream_connpool_conn_idle_tmo}
   */
   readonly upstreamConnpoolConnIdleTmo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#upstream_connpool_conn_life_tmo Pool#upstream_connpool_conn_life_tmo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#upstream_connpool_conn_life_tmo Pool#upstream_connpool_conn_life_tmo}
   */
   readonly upstreamConnpoolConnLifeTmo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#upstream_connpool_conn_max_reuse Pool#upstream_connpool_conn_max_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#upstream_connpool_conn_max_reuse Pool#upstream_connpool_conn_max_reuse}
   */
   readonly upstreamConnpoolConnMaxReuse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#upstream_connpool_server_max_cache Pool#upstream_connpool_server_max_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#upstream_connpool_server_max_cache Pool#upstream_connpool_server_max_cache}
   */
   readonly upstreamConnpoolServerMaxCache?: string;
 }
@@ -790,15 +790,15 @@ export class PoolConnPoolPropertiesList extends cdktf.ComplexList {
 }
 export interface PoolFailActionLocalRspFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#content_type Pool#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#content_type Pool#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#file_content Pool#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#file_content Pool#file_content}
   */
   readonly fileContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#file_length Pool#file_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#file_length Pool#file_length}
   */
   readonly fileLength?: string;
 }
@@ -966,13 +966,13 @@ export class PoolFailActionLocalRspFileList extends cdktf.ComplexList {
 }
 export interface PoolFailActionLocalRsp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#status_code Pool#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#status_code Pool#status_code}
   */
   readonly statusCode?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#file Pool#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#file Pool#file}
   */
   readonly file?: PoolFailActionLocalRspFile[] | cdktf.IResolvable;
 }
@@ -1117,23 +1117,23 @@ export class PoolFailActionLocalRspList extends cdktf.ComplexList {
 }
 export interface PoolFailActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#host Pool#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#host Pool#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#path Pool#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#path Pool#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#protocol Pool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#protocol Pool#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#query Pool#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#query Pool#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#status_code Pool#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#status_code Pool#status_code}
   */
   readonly statusCode?: string;
 }
@@ -1362,19 +1362,19 @@ export class PoolFailActionRedirectList extends cdktf.ComplexList {
 }
 export interface PoolFailAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
   /**
   * local_rsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#local_rsp Pool#local_rsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#local_rsp Pool#local_rsp}
   */
   readonly localRsp?: PoolFailActionLocalRsp[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#redirect Pool#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#redirect Pool#redirect}
   */
   readonly redirect?: PoolFailActionRedirect[] | cdktf.IResolvable;
 }
@@ -1545,11 +1545,11 @@ export class PoolFailActionList extends cdktf.ComplexList {
 }
 export interface PoolHorizonProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#blast_port Pool#blast_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#blast_port Pool#blast_port}
   */
   readonly blastPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#pcoip_port Pool#pcoip_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#pcoip_port Pool#pcoip_port}
   */
   readonly pcoipPort?: string;
 }
@@ -1694,11 +1694,11 @@ export class PoolHorizonProfileList extends cdktf.ComplexList {
 }
 export interface PoolHttp2Properties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#max_http2_control_frames_per_connection Pool#max_http2_control_frames_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#max_http2_control_frames_per_connection Pool#max_http2_control_frames_per_connection}
   */
   readonly maxHttp2ControlFramesPerConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#max_http2_header_field_size Pool#max_http2_header_field_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#max_http2_header_field_size Pool#max_http2_header_field_size}
   */
   readonly maxHttp2HeaderFieldSize?: string;
 }
@@ -1843,11 +1843,11 @@ export class PoolHttp2PropertiesList extends cdktf.ComplexList {
 }
 export interface PoolMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#key Pool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#key Pool#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#values Pool#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#values Pool#values}
   */
   readonly values?: string[];
 }
@@ -1989,15 +1989,15 @@ export class PoolMarkersList extends cdktf.ComplexList {
 }
 export interface PoolMaxConnRatePerServerActionFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#content_type Pool#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#content_type Pool#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#file_content Pool#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#file_content Pool#file_content}
   */
   readonly fileContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#file_length Pool#file_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#file_length Pool#file_length}
   */
   readonly fileLength?: string;
 }
@@ -2165,19 +2165,19 @@ export class PoolMaxConnRatePerServerActionFileList extends cdktf.ComplexList {
 }
 export interface PoolMaxConnRatePerServerActionRedirectHostTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#end_index Pool#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#end_index Pool#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#start_index Pool#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#start_index Pool#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#str_value Pool#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#str_value Pool#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
 }
@@ -2377,13 +2377,13 @@ export class PoolMaxConnRatePerServerActionRedirectHostTokensList extends cdktf.
 }
 export interface PoolMaxConnRatePerServerActionRedirectHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#tokens Pool#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#tokens Pool#tokens}
   */
   readonly tokens: PoolMaxConnRatePerServerActionRedirectHostTokens[] | cdktf.IResolvable;
 }
@@ -2522,19 +2522,19 @@ export class PoolMaxConnRatePerServerActionRedirectHostList extends cdktf.Comple
 }
 export interface PoolMaxConnRatePerServerActionRedirectPathTokens {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#end_index Pool#end_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#end_index Pool#end_index}
   */
   readonly endIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#start_index Pool#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#start_index Pool#start_index}
   */
   readonly startIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#str_value Pool#str_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#str_value Pool#str_value}
   */
   readonly strValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
 }
@@ -2734,13 +2734,13 @@ export class PoolMaxConnRatePerServerActionRedirectPathTokensList extends cdktf.
 }
 export interface PoolMaxConnRatePerServerActionRedirectPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
   /**
   * tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#tokens Pool#tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#tokens Pool#tokens}
   */
   readonly tokens: PoolMaxConnRatePerServerActionRedirectPathTokens[] | cdktf.IResolvable;
 }
@@ -2879,35 +2879,35 @@ export class PoolMaxConnRatePerServerActionRedirectPathList extends cdktf.Comple
 }
 export interface PoolMaxConnRatePerServerActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#add_string Pool#add_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#add_string Pool#add_string}
   */
   readonly addString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#keep_query Pool#keep_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#keep_query Pool#keep_query}
   */
   readonly keepQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#port Pool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#port Pool#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#protocol Pool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#protocol Pool#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#status_code Pool#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#status_code Pool#status_code}
   */
   readonly statusCode?: string;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#host Pool#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#host Pool#host}
   */
   readonly host?: PoolMaxConnRatePerServerActionRedirectHost[] | cdktf.IResolvable;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#path Pool#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#path Pool#path}
   */
   readonly path?: PoolMaxConnRatePerServerActionRedirectPath[] | cdktf.IResolvable;
 }
@@ -3194,23 +3194,23 @@ export class PoolMaxConnRatePerServerActionRedirectList extends cdktf.ComplexLis
 }
 export interface PoolMaxConnRatePerServerAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#status_code Pool#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#status_code Pool#status_code}
   */
   readonly statusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#file Pool#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#file Pool#file}
   */
   readonly file?: PoolMaxConnRatePerServerActionFile[] | cdktf.IResolvable;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#redirect Pool#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#redirect Pool#redirect}
   */
   readonly redirect?: PoolMaxConnRatePerServerActionRedirect[] | cdktf.IResolvable;
 }
@@ -3413,19 +3413,19 @@ export class PoolMaxConnRatePerServerActionList extends cdktf.ComplexList {
 }
 export interface PoolMaxConnRatePerServerRateLimiter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#burst_sz Pool#burst_sz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#burst_sz Pool#burst_sz}
   */
   readonly burstSz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#count Pool#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#count Pool#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#name Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#name Pool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#period Pool#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#period Pool#period}
   */
   readonly period?: string;
 }
@@ -3628,31 +3628,31 @@ export class PoolMaxConnRatePerServerRateLimiterList extends cdktf.ComplexList {
 }
 export interface PoolMaxConnRatePerServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#explicit_tracking Pool#explicit_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#explicit_tracking Pool#explicit_tracking}
   */
   readonly explicitTracking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#fine_grain Pool#fine_grain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#fine_grain Pool#fine_grain}
   */
   readonly fineGrain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#http_cookie Pool#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#http_cookie Pool#http_cookie}
   */
   readonly httpCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#http_header Pool#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#http_header Pool#http_header}
   */
   readonly httpHeader?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#action Pool#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#action Pool#action}
   */
   readonly action: PoolMaxConnRatePerServerAction[] | cdktf.IResolvable;
   /**
   * rate_limiter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#rate_limiter Pool#rate_limiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#rate_limiter Pool#rate_limiter}
   */
   readonly rateLimiter?: PoolMaxConnRatePerServerRateLimiter[] | cdktf.IResolvable;
 }
@@ -3910,11 +3910,11 @@ export class PoolMaxConnRatePerServerList extends cdktf.ComplexList {
 }
 export interface PoolNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#network_ref Pool#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#network_ref Pool#network_ref}
   */
   readonly networkRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#server_filter Pool#server_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#server_filter Pool#server_filter}
   */
   readonly serverFilter?: string;
 }
@@ -4056,11 +4056,11 @@ export class PoolNetworksList extends cdktf.ComplexList {
 }
 export interface PoolPlacementNetworksSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#addr Pool#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#addr Pool#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
 }
@@ -4199,13 +4199,13 @@ export class PoolPlacementNetworksSubnetIpAddrList extends cdktf.ComplexList {
 }
 export interface PoolPlacementNetworksSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#mask Pool#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#mask Pool#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ip_addr Pool#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ip_addr Pool#ip_addr}
   */
   readonly ipAddr: PoolPlacementNetworksSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -4344,13 +4344,13 @@ export class PoolPlacementNetworksSubnetList extends cdktf.ComplexList {
 }
 export interface PoolPlacementNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#network_ref Pool#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#network_ref Pool#network_ref}
   */
   readonly networkRef: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#subnet Pool#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#subnet Pool#subnet}
   */
   readonly subnet: PoolPlacementNetworksSubnet[] | cdktf.IResolvable;
 }
@@ -4489,11 +4489,11 @@ export class PoolPlacementNetworksList extends cdktf.ComplexList {
 }
 export interface PoolServerReselectSvrRespCodeRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#begin Pool#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#begin Pool#begin}
   */
   readonly begin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#end Pool#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#end Pool#end}
   */
   readonly end: string;
 }
@@ -4632,17 +4632,17 @@ export class PoolServerReselectSvrRespCodeRangesList extends cdktf.ComplexList {
 }
 export interface PoolServerReselectSvrRespCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#codes Pool#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#codes Pool#codes}
   */
   readonly codes?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#resp_code_block Pool#resp_code_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#resp_code_block Pool#resp_code_block}
   */
   readonly respCodeBlock?: string[];
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ranges Pool#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ranges Pool#ranges}
   */
   readonly ranges?: PoolServerReselectSvrRespCodeRanges[] | cdktf.IResolvable;
 }
@@ -4816,25 +4816,25 @@ export class PoolServerReselectSvrRespCodeList extends cdktf.ComplexList {
 }
 export interface PoolServerReselect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#enabled Pool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#enabled Pool#enabled}
   */
   readonly enabled: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#num_retries Pool#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#num_retries Pool#num_retries}
   */
   readonly numRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#retry_nonidempotent Pool#retry_nonidempotent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#retry_nonidempotent Pool#retry_nonidempotent}
   */
   readonly retryNonidempotent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#retry_timeout Pool#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#retry_timeout Pool#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
   * svr_resp_code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#svr_resp_code Pool#svr_resp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#svr_resp_code Pool#svr_resp_code}
   */
   readonly svrRespCode?: PoolServerReselectSvrRespCode[] | cdktf.IResolvable;
 }
@@ -5063,11 +5063,11 @@ export class PoolServerReselectList extends cdktf.ComplexList {
 }
 export interface PoolServersDiscoveredNetworksSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#addr Pool#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#addr Pool#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
 }
@@ -5206,13 +5206,13 @@ export class PoolServersDiscoveredNetworksSubnetIpAddrList extends cdktf.Complex
 }
 export interface PoolServersDiscoveredNetworksSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#mask Pool#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#mask Pool#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ip_addr Pool#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ip_addr Pool#ip_addr}
   */
   readonly ipAddr: PoolServersDiscoveredNetworksSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -5351,11 +5351,11 @@ export class PoolServersDiscoveredNetworksSubnetList extends cdktf.ComplexList {
 }
 export interface PoolServersDiscoveredNetworksSubnet6IpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#addr Pool#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#addr Pool#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
 }
@@ -5494,13 +5494,13 @@ export class PoolServersDiscoveredNetworksSubnet6IpAddrList extends cdktf.Comple
 }
 export interface PoolServersDiscoveredNetworksSubnet6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#mask Pool#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#mask Pool#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ip_addr Pool#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ip_addr Pool#ip_addr}
   */
   readonly ipAddr: PoolServersDiscoveredNetworksSubnet6IpAddr[] | cdktf.IResolvable;
 }
@@ -5639,19 +5639,19 @@ export class PoolServersDiscoveredNetworksSubnet6List extends cdktf.ComplexList 
 }
 export interface PoolServersDiscoveredNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#network_ref Pool#network_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#network_ref Pool#network_ref}
   */
   readonly networkRef: string;
   /**
   * subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#subnet Pool#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#subnet Pool#subnet}
   */
   readonly subnet?: PoolServersDiscoveredNetworksSubnet[] | cdktf.IResolvable;
   /**
   * subnet6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#subnet6 Pool#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#subnet6 Pool#subnet6}
   */
   readonly subnet6?: PoolServersDiscoveredNetworksSubnet6[] | cdktf.IResolvable;
 }
@@ -5822,11 +5822,11 @@ export class PoolServersDiscoveredNetworksList extends cdktf.ComplexList {
 }
 export interface PoolServersIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#addr Pool#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#addr Pool#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#type Pool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#type Pool#type}
   */
   readonly type: string;
 }
@@ -5965,19 +5965,19 @@ export class PoolServersIpList extends cdktf.ComplexList {
 }
 export interface PoolServersLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#latitude Pool#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#latitude Pool#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#longitude Pool#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#longitude Pool#longitude}
   */
   readonly longitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#name Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#name Pool#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#tag Pool#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#tag Pool#tag}
   */
   readonly tag?: string;
 }
@@ -6180,97 +6180,97 @@ export class PoolServersLocationList extends cdktf.ComplexList {
 }
 export interface PoolServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#autoscaling_group_name Pool#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#autoscaling_group_name Pool#autoscaling_group_name}
   */
   readonly autoscalingGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#availability_zone Pool#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#availability_zone Pool#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#description Pool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#description Pool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#enabled Pool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#enabled Pool#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#external_orchestration_id Pool#external_orchestration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#external_orchestration_id Pool#external_orchestration_id}
   */
   readonly externalOrchestrationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#external_uuid Pool#external_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#external_uuid Pool#external_uuid}
   */
   readonly externalUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#hostname Pool#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#hostname Pool#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#mac_address Pool#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#mac_address Pool#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#nw_ref Pool#nw_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#nw_ref Pool#nw_ref}
   */
   readonly nwRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#port Pool#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#port Pool#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#preference_order Pool#preference_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#preference_order Pool#preference_order}
   */
   readonly preferenceOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#prst_hdr_val Pool#prst_hdr_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#prst_hdr_val Pool#prst_hdr_val}
   */
   readonly prstHdrVal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ratio Pool#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ratio Pool#ratio}
   */
   readonly ratio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#resolve_server_by_dns Pool#resolve_server_by_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#resolve_server_by_dns Pool#resolve_server_by_dns}
   */
   readonly resolveServerByDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#rewrite_host_header Pool#rewrite_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#rewrite_host_header Pool#rewrite_host_header}
   */
   readonly rewriteHostHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#server_node Pool#server_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#server_node Pool#server_node}
   */
   readonly serverNode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#static Pool#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#static Pool#static}
   */
   readonly static?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#verify_network Pool#verify_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#verify_network Pool#verify_network}
   */
   readonly verifyNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#vm_ref Pool#vm_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#vm_ref Pool#vm_ref}
   */
   readonly vmRef?: string;
   /**
   * discovered_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#discovered_networks Pool#discovered_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#discovered_networks Pool#discovered_networks}
   */
   readonly discoveredNetworks?: PoolServersDiscoveredNetworks[] | cdktf.IResolvable;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#ip Pool#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#ip Pool#ip}
   */
   readonly ip: PoolServersIp[] | cdktf.IResolvable;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#location Pool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#location Pool#location}
   */
   readonly location?: PoolServersLocation[] | cdktf.IResolvable;
 }
@@ -6992,11 +6992,11 @@ export class PoolServersList extends cdktf.ComplexList {
 }
 export interface PoolSpGsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#fqdns Pool#fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#fqdns Pool#fqdns}
   */
   readonly fqdns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#gs_ref Pool#gs_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#gs_ref Pool#gs_ref}
   */
   readonly gsRef?: string;
 }
@@ -7141,7 +7141,7 @@ export class PoolSpGsInfoList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool avi_pool}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool avi_pool}
 */
 export class Pool extends cdktf.TerraformResource {
 
@@ -7157,7 +7157,7 @@ export class Pool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pool to import
-  * @param importFromId The id of the existing Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7169,7 +7169,7 @@ export class Pool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pool avi_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pool avi_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7180,8 +7180,8 @@ export class Pool extends cdktf.TerraformResource {
       terraformResourceType: 'avi_pool',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

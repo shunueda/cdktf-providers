@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LogIngestConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#id LogIngestConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#id LogIngestConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface LogIngestConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * field_normalization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#field_normalization LogIngestConfig#field_normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#field_normalization LogIngestConfig#field_normalization}
   */
   readonly fieldNormalization?: LogIngestConfigFieldNormalization;
   /**
   * field_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#field_parser LogIngestConfig#field_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#field_parser LogIngestConfig#field_parser}
   */
   readonly fieldParser?: LogIngestConfigFieldParser[] | cdktf.IResolvable;
   /**
   * plaintext_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#plaintext_parser LogIngestConfig#plaintext_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#plaintext_parser LogIngestConfig#plaintext_parser}
   */
   readonly plaintextParser?: LogIngestConfigPlaintextParser[] | cdktf.IResolvable;
 }
 export interface LogIngestConfigFieldNormalizationCustomFieldNormalizationNormalizationSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -148,21 +148,21 @@ export class LogIngestConfigFieldNormalizationCustomFieldNormalizationNormalizat
 }
 export interface LogIngestConfigFieldNormalizationCustomFieldNormalizationNormalization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
   */
   readonly sanitizePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
   */
   readonly valueMap?: { [key: string]: string };
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
   */
   readonly source?: LogIngestConfigFieldNormalizationCustomFieldNormalizationNormalizationSource[] | cdktf.IResolvable;
 }
@@ -333,13 +333,13 @@ export class LogIngestConfigFieldNormalizationCustomFieldNormalizationNormalizat
 }
 export interface LogIngestConfigFieldNormalizationCustomFieldNormalization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#target LogIngestConfig#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#target LogIngestConfig#target}
   */
   readonly target?: string;
   /**
   * normalization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#normalization LogIngestConfig#normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#normalization LogIngestConfig#normalization}
   */
   readonly normalization?: LogIngestConfigFieldNormalizationCustomFieldNormalizationNormalization;
 }
@@ -484,7 +484,7 @@ export class LogIngestConfigFieldNormalizationCustomFieldNormalizationList exten
 }
 export interface LogIngestConfigFieldNormalizationMessageSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -597,21 +597,21 @@ export class LogIngestConfigFieldNormalizationMessageSourceList extends cdktf.Co
 }
 export interface LogIngestConfigFieldNormalizationMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
   */
   readonly sanitizePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
   */
   readonly valueMap?: { [key: string]: string };
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
   */
   readonly source?: LogIngestConfigFieldNormalizationMessageSource[] | cdktf.IResolvable;
 }
@@ -782,7 +782,7 @@ export class LogIngestConfigFieldNormalizationMessageOutputReference extends cdk
 }
 export interface LogIngestConfigFieldNormalizationPrimaryKeyNormalizationSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -895,21 +895,21 @@ export class LogIngestConfigFieldNormalizationPrimaryKeyNormalizationSourceList 
 }
 export interface LogIngestConfigFieldNormalizationPrimaryKeyNormalization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
   */
   readonly sanitizePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
   */
   readonly valueMap?: { [key: string]: string };
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
   */
   readonly source?: LogIngestConfigFieldNormalizationPrimaryKeyNormalizationSource[] | cdktf.IResolvable;
 }
@@ -1080,13 +1080,13 @@ export class LogIngestConfigFieldNormalizationPrimaryKeyNormalizationOutputRefer
 }
 export interface LogIngestConfigFieldNormalizationPrimaryKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#target LogIngestConfig#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#target LogIngestConfig#target}
   */
   readonly target?: string;
   /**
   * normalization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#normalization LogIngestConfig#normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#normalization LogIngestConfig#normalization}
   */
   readonly normalization?: LogIngestConfigFieldNormalizationPrimaryKeyNormalization;
 }
@@ -1199,7 +1199,7 @@ export class LogIngestConfigFieldNormalizationPrimaryKeyOutputReference extends 
 }
 export interface LogIngestConfigFieldNormalizationSeveritySource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -1312,21 +1312,21 @@ export class LogIngestConfigFieldNormalizationSeveritySourceList extends cdktf.C
 }
 export interface LogIngestConfigFieldNormalizationSeverity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#default_value LogIngestConfig#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#sanitize_patterns LogIngestConfig#sanitize_patterns}
   */
   readonly sanitizePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#value_map LogIngestConfig#value_map}
   */
   readonly valueMap?: { [key: string]: string };
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
   */
   readonly source?: LogIngestConfigFieldNormalizationSeveritySource[] | cdktf.IResolvable;
 }
@@ -1497,7 +1497,7 @@ export class LogIngestConfigFieldNormalizationSeverityOutputReference extends cd
 }
 export interface LogIngestConfigFieldNormalizationTimestampSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -1612,7 +1612,7 @@ export interface LogIngestConfigFieldNormalizationTimestamp {
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
   */
   readonly source?: LogIngestConfigFieldNormalizationTimestampSource[] | cdktf.IResolvable;
 }
@@ -1698,31 +1698,31 @@ export interface LogIngestConfigFieldNormalization {
   /**
   * custom_field_normalization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#custom_field_normalization LogIngestConfig#custom_field_normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#custom_field_normalization LogIngestConfig#custom_field_normalization}
   */
   readonly customFieldNormalization?: LogIngestConfigFieldNormalizationCustomFieldNormalization[] | cdktf.IResolvable;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#message LogIngestConfig#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#message LogIngestConfig#message}
   */
   readonly message?: LogIngestConfigFieldNormalizationMessage;
   /**
   * primary_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#primary_key LogIngestConfig#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#primary_key LogIngestConfig#primary_key}
   */
   readonly primaryKey?: LogIngestConfigFieldNormalizationPrimaryKey;
   /**
   * severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#severity LogIngestConfig#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#severity LogIngestConfig#severity}
   */
   readonly severity?: LogIngestConfigFieldNormalizationSeverity;
   /**
   * timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#timestamp LogIngestConfig#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#timestamp LogIngestConfig#timestamp}
   */
   readonly timestamp?: LogIngestConfigFieldNormalizationTimestamp;
 }
@@ -1922,7 +1922,7 @@ export class LogIngestConfigFieldNormalizationOutputReference extends cdktf.Comp
 }
 export interface LogIngestConfigFieldParserDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -2003,15 +2003,15 @@ export class LogIngestConfigFieldParserDestinationOutputReference extends cdktf.
 }
 export interface LogIngestConfigFieldParserParserKeyValueParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#delimiter LogIngestConfig#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#delimiter LogIngestConfig#delimiter}
   */
   readonly delimiter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#pair_separator LogIngestConfig#pair_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#pair_separator LogIngestConfig#pair_separator}
   */
   readonly pairSeparator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#trim_set LogIngestConfig#trim_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#trim_set LogIngestConfig#trim_set}
   */
   readonly trimSet?: string;
 }
@@ -2147,7 +2147,7 @@ export class LogIngestConfigFieldParserParserKeyValueParserOutputReference exten
 }
 export interface LogIngestConfigFieldParserParserRegexParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#regex LogIngestConfig#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#regex LogIngestConfig#regex}
   */
   readonly regex: string;
 }
@@ -2228,19 +2228,19 @@ export class LogIngestConfigFieldParserParserRegexParserOutputReference extends 
 }
 export interface LogIngestConfigFieldParserParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#parser_type LogIngestConfig#parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#parser_type LogIngestConfig#parser_type}
   */
   readonly parserType: string;
   /**
   * key_value_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#key_value_parser LogIngestConfig#key_value_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#key_value_parser LogIngestConfig#key_value_parser}
   */
   readonly keyValueParser?: LogIngestConfigFieldParserParserKeyValueParser;
   /**
   * regex_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#regex_parser LogIngestConfig#regex_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#regex_parser LogIngestConfig#regex_parser}
   */
   readonly regexParser?: LogIngestConfigFieldParserParserRegexParser;
 }
@@ -2379,7 +2379,7 @@ export class LogIngestConfigFieldParserParserOutputReference extends cdktf.Compl
 }
 export interface LogIngestConfigFieldParserSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#selector LogIngestConfig#selector}
   */
   readonly selector: string;
 }
@@ -2460,25 +2460,25 @@ export class LogIngestConfigFieldParserSourceOutputReference extends cdktf.Compl
 }
 export interface LogIngestConfigFieldParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#mode LogIngestConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#mode LogIngestConfig#mode}
   */
   readonly mode?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#destination LogIngestConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#destination LogIngestConfig#destination}
   */
   readonly destination?: LogIngestConfigFieldParserDestination;
   /**
   * parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#parser LogIngestConfig#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#parser LogIngestConfig#parser}
   */
   readonly parser: LogIngestConfigFieldParserParser;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#source LogIngestConfig#source}
   */
   readonly source: LogIngestConfigFieldParserSource;
 }
@@ -2675,15 +2675,15 @@ export class LogIngestConfigFieldParserList extends cdktf.ComplexList {
 }
 export interface LogIngestConfigPlaintextParserParserKeyValueParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#delimiter LogIngestConfig#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#delimiter LogIngestConfig#delimiter}
   */
   readonly delimiter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#pair_separator LogIngestConfig#pair_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#pair_separator LogIngestConfig#pair_separator}
   */
   readonly pairSeparator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#trim_set LogIngestConfig#trim_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#trim_set LogIngestConfig#trim_set}
   */
   readonly trimSet?: string;
 }
@@ -2819,7 +2819,7 @@ export class LogIngestConfigPlaintextParserParserKeyValueParserOutputReference e
 }
 export interface LogIngestConfigPlaintextParserParserRegexParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#regex LogIngestConfig#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#regex LogIngestConfig#regex}
   */
   readonly regex: string;
 }
@@ -2900,19 +2900,19 @@ export class LogIngestConfigPlaintextParserParserRegexParserOutputReference exte
 }
 export interface LogIngestConfigPlaintextParserParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#parser_type LogIngestConfig#parser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#parser_type LogIngestConfig#parser_type}
   */
   readonly parserType: string;
   /**
   * key_value_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#key_value_parser LogIngestConfig#key_value_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#key_value_parser LogIngestConfig#key_value_parser}
   */
   readonly keyValueParser?: LogIngestConfigPlaintextParserParserKeyValueParser;
   /**
   * regex_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#regex_parser LogIngestConfig#regex_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#regex_parser LogIngestConfig#regex_parser}
   */
   readonly regexParser?: LogIngestConfigPlaintextParserParserRegexParser;
 }
@@ -3051,21 +3051,21 @@ export class LogIngestConfigPlaintextParserParserOutputReference extends cdktf.C
 }
 export interface LogIngestConfigPlaintextParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#keep_original LogIngestConfig#keep_original}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#keep_original LogIngestConfig#keep_original}
   */
   readonly keepOriginal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#mode LogIngestConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#mode LogIngestConfig#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#name LogIngestConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#name LogIngestConfig#name}
   */
   readonly name: string;
   /**
   * parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#parser LogIngestConfig#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#parser LogIngestConfig#parser}
   */
   readonly parser: LogIngestConfigPlaintextParserParser;
 }
@@ -3262,7 +3262,7 @@ export class LogIngestConfigPlaintextParserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config chronosphere_log_ingest_config}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config chronosphere_log_ingest_config}
 */
 export class LogIngestConfig extends cdktf.TerraformResource {
 
@@ -3278,7 +3278,7 @@ export class LogIngestConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogIngestConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogIngestConfig to import
-  * @param importFromId The id of the existing LogIngestConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogIngestConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogIngestConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3290,7 +3290,7 @@ export class LogIngestConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_ingest_config chronosphere_log_ingest_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/log_ingest_config chronosphere_log_ingest_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3301,8 +3301,8 @@ export class LogIngestConfig extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_log_ingest_config',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

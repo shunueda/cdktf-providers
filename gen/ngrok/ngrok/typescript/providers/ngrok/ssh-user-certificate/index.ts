@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SshUserCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map of critical options included in the certificate. Only two critical options are currently defined by OpenSSH: `force-command` and `source-address`. See [the OpenSSH certificate protocol spec](https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.certkeys) for additional details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#critical_options SshUserCertificate#critical_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#critical_options SshUserCertificate#critical_options}
   */
   readonly criticalOptions?: { [key: string]: string };
   /**
   * human-readable description of this SSH User Certificate. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#description SshUserCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#description SshUserCertificate#description}
   */
   readonly description?: string;
   /**
   * A map of extensions included in the certificate. Extensions are additional metadata that can be interpreted by the SSH server for any purpose. These can be used to permit or deny the ability to open a terminal, do port forwarding, x11 forwarding, and more. If unspecified, the certificate will include limited permissions with the following extension map: `{"permit-pty": "", "permit-user-rc": ""}` OpenSSH understands a number of predefined extensions. See [the OpenSSH certificate protocol spec](https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.certkeys) for additional details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#extensions SshUserCertificate#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#extensions SshUserCertificate#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
   * arbitrary user-defined machine-readable data of this SSH User Certificate. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#metadata SshUserCertificate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#metadata SshUserCertificate#metadata}
   */
   readonly metadata?: string;
   /**
   * the list of principals included in the ssh user certificate. This is the list of usernames that the certificate holder may sign in as on a machine authorizing the signing certificate authority. Dangerously, if no principals are specified, this certificate may be used to log in as any user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#principals SshUserCertificate#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#principals SshUserCertificate#principals}
   */
   readonly principals?: string[];
   /**
   * a public key in OpenSSH Authorized Keys format that this certificate signs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#public_key SshUserCertificate#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#public_key SshUserCertificate#public_key}
   */
   readonly publicKey: string;
   /**
   * the ssh certificate authority that is used to sign this ssh user certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#ssh_certificate_authority_id SshUserCertificate#ssh_certificate_authority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#ssh_certificate_authority_id SshUserCertificate#ssh_certificate_authority_id}
   */
   readonly sshCertificateAuthorityId: string;
   /**
   * the time when the ssh host certificate becomes valid, in RFC 3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#valid_after SshUserCertificate#valid_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#valid_after SshUserCertificate#valid_after}
   */
   readonly validAfter?: string;
   /**
   * the time after which the ssh host certificate becomes invalid, in RFC 3339 format. the OpenSSH certificates RFC calls this `valid_before`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#valid_until SshUserCertificate#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#valid_until SshUserCertificate#valid_until}
   */
   readonly validUntil?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate ngrok_ssh_user_certificate}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate ngrok_ssh_user_certificate}
 */
 export class SshUserCertificate extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class SshUserCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshUserCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshUserCertificate to import
-  * @param importFromId The id of the existing SshUserCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshUserCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshUserCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class SshUserCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/ssh_user_certificate ngrok_ssh_user_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/ssh_user_certificate ngrok_ssh_user_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class SshUserCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_ssh_user_certificate',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

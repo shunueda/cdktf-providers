@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,44 @@ export interface OverrideShiftConfig extends cdktf.TerraformMetaArguments {
   /**
   * End datetime of shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#ends_at OverrideShift#ends_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#ends_at OverrideShift#ends_at}
   */
   readonly endsAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#id OverrideShift#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#id OverrideShift#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Denotes shift is an override shift. Value must be one of true or false
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#is_override OverrideShift#is_override}
-  */
-  readonly isOverride?: boolean | cdktf.IResolvable;
-  /**
   * ID of rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#rotation_id OverrideShift#rotation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#rotation_id OverrideShift#rotation_id}
   */
   readonly rotationId?: string;
   /**
   * ID of schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#schedule_id OverrideShift#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#schedule_id OverrideShift#schedule_id}
   */
   readonly scheduleId?: string;
   /**
-  * Override metadata
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#shift_override OverrideShift#shift_override}
-  */
-  readonly shiftOverride?: { [key: string]: string };
-  /**
   * Start datetime of shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#starts_at OverrideShift#starts_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#starts_at OverrideShift#starts_at}
   */
   readonly startsAt: string;
   /**
   * Override shift user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#user_id OverrideShift#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#user_id OverrideShift#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift rootly_override_shift}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift rootly_override_shift}
 */
 export class OverrideShift extends cdktf.TerraformResource {
 
@@ -75,7 +63,7 @@ export class OverrideShift extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OverrideShift resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverrideShift to import
-  * @param importFromId The id of the existing OverrideShift that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverrideShift that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverrideShift to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +75,7 @@ export class OverrideShift extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/override_shift rootly_override_shift} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/override_shift rootly_override_shift} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +86,8 @@ export class OverrideShift extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_override_shift',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -111,10 +99,8 @@ export class OverrideShift extends cdktf.TerraformResource {
     });
     this._endsAt = config.endsAt;
     this._id = config.id;
-    this._isOverride = config.isOverride;
     this._rotationId = config.rotationId;
     this._scheduleId = config.scheduleId;
-    this._shiftOverride = config.shiftOverride;
     this._startsAt = config.startsAt;
     this._userId = config.userId;
   }
@@ -152,22 +138,6 @@ export class OverrideShift extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // is_override - computed: true, optional: true, required: false
-  private _isOverride?: boolean | cdktf.IResolvable; 
-  public get isOverride() {
-    return this.getBooleanAttribute('is_override');
-  }
-  public set isOverride(value: boolean | cdktf.IResolvable) {
-    this._isOverride = value;
-  }
-  public resetIsOverride() {
-    this._isOverride = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get isOverrideInput() {
-    return this._isOverride;
-  }
-
   // rotation_id - computed: true, optional: true, required: false
   private _rotationId?: string; 
   public get rotationId() {
@@ -198,22 +168,6 @@ export class OverrideShift extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get scheduleIdInput() {
     return this._scheduleId;
-  }
-
-  // shift_override - computed: true, optional: true, required: false
-  private _shiftOverride?: { [key: string]: string }; 
-  public get shiftOverride() {
-    return this.getStringMapAttribute('shift_override');
-  }
-  public set shiftOverride(value: { [key: string]: string }) {
-    this._shiftOverride = value;
-  }
-  public resetShiftOverride() {
-    this._shiftOverride = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get shiftOverrideInput() {
-    return this._shiftOverride;
   }
 
   // starts_at - computed: false, optional: false, required: true
@@ -250,10 +204,8 @@ export class OverrideShift extends cdktf.TerraformResource {
     return {
       ends_at: cdktf.stringToTerraform(this._endsAt),
       id: cdktf.stringToTerraform(this._id),
-      is_override: cdktf.booleanToTerraform(this._isOverride),
       rotation_id: cdktf.stringToTerraform(this._rotationId),
       schedule_id: cdktf.stringToTerraform(this._scheduleId),
-      shift_override: cdktf.hashMapper(cdktf.stringToTerraform)(this._shiftOverride),
       starts_at: cdktf.stringToTerraform(this._startsAt),
       user_id: cdktf.numberToTerraform(this._userId),
     };
@@ -273,12 +225,6 @@ export class OverrideShift extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      is_override: {
-        value: cdktf.booleanToHclTerraform(this._isOverride),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "boolean",
-      },
       rotation_id: {
         value: cdktf.stringToHclTerraform(this._rotationId),
         isBlock: false,
@@ -290,12 +236,6 @@ export class OverrideShift extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      shift_override: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._shiftOverride),
-        isBlock: false,
-        type: "map",
-        storageClassType: "stringMap",
       },
       starts_at: {
         value: cdktf.stringToHclTerraform(this._startsAt),

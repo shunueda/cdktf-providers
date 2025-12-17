@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_capacity
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_capacity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataPowerplatformTenantCapacityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The tenant ID for which the capacity information is to be fetched.
+  * [DEPRECATED] The tenant ID for which the capacity information is to be fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_capacity#tenant_id DataPowerplatformTenantCapacity#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_capacity#tenant_id DataPowerplatformTenantCapacity#tenant_id}
   */
-  readonly tenantId: string;
+  readonly tenantId?: string;
 }
 export interface DataPowerplatformTenantCapacityTenantCapacitiesConsumption {
 }
@@ -186,7 +186,7 @@ export class DataPowerplatformTenantCapacityTenantCapacitiesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_capacity powerplatform_tenant_capacity}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_capacity powerplatform_tenant_capacity}
 */
 export class DataPowerplatformTenantCapacity extends cdktf.TerraformDataSource {
 
@@ -202,7 +202,7 @@ export class DataPowerplatformTenantCapacity extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformTenantCapacity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformTenantCapacity to import
-  * @param importFromId The id of the existing DataPowerplatformTenantCapacity that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_capacity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformTenantCapacity that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_capacity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformTenantCapacity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,19 +214,19 @@ export class DataPowerplatformTenantCapacity extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_tenant_capacity powerplatform_tenant_capacity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_tenant_capacity powerplatform_tenant_capacity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataPowerplatformTenantCapacityConfig
+  * @param options DataPowerplatformTenantCapacityConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: DataPowerplatformTenantCapacityConfig) {
+  public constructor(scope: Construct, id: string, config: DataPowerplatformTenantCapacityConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'powerplatform_tenant_capacity',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -254,13 +254,16 @@ export class DataPowerplatformTenantCapacity extends cdktf.TerraformDataSource {
     return this._tenantCapacities;
   }
 
-  // tenant_id - computed: false, optional: false, required: true
+  // tenant_id - computed: false, optional: true, required: false
   private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
   public set tenantId(value: string) {
     this._tenantId = value;
+  }
+  public resetTenantId() {
+    this._tenantId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get tenantIdInput() {

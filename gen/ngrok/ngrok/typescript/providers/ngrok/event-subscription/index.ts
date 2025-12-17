@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,41 @@ export interface EventSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Arbitrary customer supplied information intended to be human readable. Optional, max 255 chars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#description EventSubscription#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#description EventSubscription#description}
   */
   readonly description?: string;
   /**
   * A list of Event Destination IDs which should be used for this Event Subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#destination_ids EventSubscription#destination_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#destination_ids EventSubscription#destination_ids}
   */
   readonly destinationIds?: string[];
   /**
   * Arbitrary customer supplied information intended to be machine readable. Optional, max 4096 chars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#metadata EventSubscription#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#metadata EventSubscription#metadata}
   */
   readonly metadata?: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#sources EventSubscription#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#sources EventSubscription#sources}
   */
   readonly sources?: EventSubscriptionSources[] | cdktf.IResolvable;
 }
 export interface EventSubscriptionSources {
   /**
-  * TODO
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#fields EventSubscription#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#fields EventSubscription#fields}
   */
   readonly fields?: string[];
   /**
-  * TODO
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#filter EventSubscription#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#filter EventSubscription#filter}
   */
   readonly filter?: string;
   /**
   * Type of event for which an event subscription will trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#type EventSubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#type EventSubscription#type}
   */
   readonly type?: string;
 }
@@ -227,7 +223,7 @@ export class EventSubscriptionSourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription ngrok_event_subscription}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription ngrok_event_subscription}
 */
 export class EventSubscription extends cdktf.TerraformResource {
 
@@ -243,7 +239,7 @@ export class EventSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventSubscription to import
-  * @param importFromId The id of the existing EventSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +251,7 @@ export class EventSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/event_subscription ngrok_event_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/event_subscription ngrok_event_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +262,8 @@ export class EventSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_event_subscription',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

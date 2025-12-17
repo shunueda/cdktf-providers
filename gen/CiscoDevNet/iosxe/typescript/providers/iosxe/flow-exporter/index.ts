@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,164 +11,164 @@ export interface FlowExporterConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#delete_mode FlowExporter#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#delete_mode FlowExporter#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Provide a description for this Flow Exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#description FlowExporter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#description FlowExporter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#destination_ip FlowExporter#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#destination_ip FlowExporter#destination_ip}
   */
   readonly destinationIp?: string;
   /**
   * Optional VRF label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#destination_ip_vrf FlowExporter#destination_ip_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#destination_ip_vrf FlowExporter#destination_ip_vrf}
   */
   readonly destinationIpVrf?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#device FlowExporter#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#device FlowExporter#device}
   */
   readonly device?: string;
   /**
   * Export protocol version
   *   - Choices: `ipfix`, `netflow-v5`, `netflow-v9`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#export_protocol FlowExporter#export_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#export_protocol FlowExporter#export_protocol}
   */
   readonly exportProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#name FlowExporter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#name FlowExporter#name}
   */
   readonly name: string;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#option_application_attributes_timeout FlowExporter#option_application_attributes_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#option_application_attributes_timeout FlowExporter#option_application_attributes_timeout}
   */
   readonly optionApplicationAttributesTimeout?: number;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#option_application_table_timeout FlowExporter#option_application_table_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#option_application_table_timeout FlowExporter#option_application_table_timeout}
   */
   readonly optionApplicationTableTimeout?: number;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#option_interface_table_timeout FlowExporter#option_interface_table_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#option_interface_table_timeout FlowExporter#option_interface_table_timeout}
   */
   readonly optionInterfaceTableTimeout?: number;
   /**
   * Export Sampler Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#option_sampler_table FlowExporter#option_sampler_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#option_sampler_table FlowExporter#option_sampler_table}
   */
   readonly optionSamplerTable?: boolean | cdktf.IResolvable;
   /**
   * Option resend time
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#option_vrf_table_timeout FlowExporter#option_vrf_table_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#option_vrf_table_timeout FlowExporter#option_vrf_table_timeout}
   */
   readonly optionVrfTableTimeout?: number;
   /**
   * Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_five_gigabit_ethernet FlowExporter#source_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_five_gigabit_ethernet FlowExporter#source_five_gigabit_ethernet}
   */
   readonly sourceFiveGigabitEthernet?: string;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_forty_gigabit_ethernet FlowExporter#source_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_forty_gigabit_ethernet FlowExporter#source_forty_gigabit_ethernet}
   */
   readonly sourceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_gigabit_ethernet FlowExporter#source_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_gigabit_ethernet FlowExporter#source_gigabit_ethernet}
   */
   readonly sourceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_hundred_gigabit_ethernet FlowExporter#source_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_hundred_gigabit_ethernet FlowExporter#source_hundred_gigabit_ethernet}
   */
   readonly sourceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_loopback FlowExporter#source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_loopback FlowExporter#source_loopback}
   */
   readonly sourceLoopback?: number;
   /**
   * Ethernet Channel of interfaces
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_port_channel FlowExporter#source_port_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_port_channel FlowExporter#source_port_channel}
   */
   readonly sourcePortChannel?: number;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_ten_gigabit_ethernet FlowExporter#source_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_ten_gigabit_ethernet FlowExporter#source_ten_gigabit_ethernet}
   */
   readonly sourceTenGigabitEthernet?: string;
   /**
   * Twenty Five GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_twenty_five_gigabit_ethernet FlowExporter#source_twenty_five_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_twenty_five_gigabit_ethernet FlowExporter#source_twenty_five_gigabit_ethernet}
   */
   readonly sourceTwentyFiveGigabitEthernet?: string;
   /**
   * Two GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_two_gigabit_ethernet FlowExporter#source_two_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_two_gigabit_ethernet FlowExporter#source_two_gigabit_ethernet}
   */
   readonly sourceTwoGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#source_vlan FlowExporter#source_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#source_vlan FlowExporter#source_vlan}
   */
   readonly sourceVlan?: number;
   /**
   * Resend data based on a timeout
   *   - Range: `1`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#template_data_timeout FlowExporter#template_data_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#template_data_timeout FlowExporter#template_data_timeout}
   */
   readonly templateDataTimeout?: number;
   /**
   * UDP transport protocol
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#transport_udp FlowExporter#transport_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#transport_udp FlowExporter#transport_udp}
   */
   readonly transportUdp?: number;
   /**
   * Optional TTL or hop limit
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#ttl FlowExporter#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#ttl FlowExporter#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter iosxe_flow_exporter}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter iosxe_flow_exporter}
 */
 export class FlowExporter extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class FlowExporter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlowExporter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlowExporter to import
-  * @param importFromId The id of the existing FlowExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlowExporter that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlowExporter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class FlowExporter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/flow_exporter iosxe_flow_exporter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/flow_exporter iosxe_flow_exporter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class FlowExporter extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_flow_exporter',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

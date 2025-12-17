@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectorAzureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#account_id ConnectorAzure#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#account_id ConnectorAzure#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#admin_password ConnectorAzure#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#admin_password ConnectorAzure#admin_password}
   */
   readonly adminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#admin_username ConnectorAzure#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#admin_username ConnectorAzure#admin_username}
   */
   readonly adminUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#associate_public_ip_address ConnectorAzure#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#associate_public_ip_address ConnectorAzure#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#company ConnectorAzure#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#company ConnectorAzure#company}
   */
   readonly company: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#id ConnectorAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#id ConnectorAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#location ConnectorAzure#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#location ConnectorAzure#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#name ConnectorAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#name ConnectorAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#network_security_group_name ConnectorAzure#network_security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#network_security_group_name ConnectorAzure#network_security_group_name}
   */
   readonly networkSecurityGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#network_security_resource_group ConnectorAzure#network_security_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#network_security_resource_group ConnectorAzure#network_security_resource_group}
   */
   readonly networkSecurityResourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#principal_id ConnectorAzure#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#principal_id ConnectorAzure#principal_id}
   */
   readonly principalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#proxy_certificates ConnectorAzure#proxy_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#proxy_certificates ConnectorAzure#proxy_certificates}
   */
   readonly proxyCertificates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#proxy_password ConnectorAzure#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#proxy_password ConnectorAzure#proxy_password}
   */
   readonly proxyPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#proxy_url ConnectorAzure#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#proxy_url ConnectorAzure#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#proxy_user_name ConnectorAzure#proxy_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#proxy_user_name ConnectorAzure#proxy_user_name}
   */
   readonly proxyUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#resource_group ConnectorAzure#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#resource_group ConnectorAzure#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#storage_account ConnectorAzure#storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#storage_account ConnectorAzure#storage_account}
   */
   readonly storageAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#subnet_id ConnectorAzure#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#subnet_id ConnectorAzure#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#subscription_id ConnectorAzure#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#subscription_id ConnectorAzure#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#virtual_machine_size ConnectorAzure#virtual_machine_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#virtual_machine_size ConnectorAzure#virtual_machine_size}
   */
   readonly virtualMachineSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#vnet_id ConnectorAzure#vnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#vnet_id ConnectorAzure#vnet_id}
   */
   readonly vnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#vnet_resource_group ConnectorAzure#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#vnet_resource_group ConnectorAzure#vnet_resource_group}
   */
   readonly vnetResourceGroup?: string;
   /**
   * azure_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#azure_tag ConnectorAzure#azure_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#azure_tag ConnectorAzure#azure_tag}
   */
   readonly azureTag?: ConnectorAzureAzureTag[] | cdktf.IResolvable;
 }
 export interface ConnectorAzureAzureTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#tag_key ConnectorAzure#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#tag_key ConnectorAzure#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#tag_value ConnectorAzure#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#tag_value ConnectorAzure#tag_value}
   */
   readonly tagValue: string;
 }
@@ -250,7 +250,7 @@ export class ConnectorAzureAzureTagList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure netapp-cloudmanager_connector_azure}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure netapp-cloudmanager_connector_azure}
 */
 export class ConnectorAzure extends cdktf.TerraformResource {
 
@@ -266,7 +266,7 @@ export class ConnectorAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorAzure to import
-  * @param importFromId The id of the existing ConnectorAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class ConnectorAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs/resources/connector_azure netapp-cloudmanager_connector_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs/resources/connector_azure netapp-cloudmanager_connector_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class ConnectorAzure extends cdktf.TerraformResource {
       terraformResourceType: 'netapp-cloudmanager_connector_azure',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

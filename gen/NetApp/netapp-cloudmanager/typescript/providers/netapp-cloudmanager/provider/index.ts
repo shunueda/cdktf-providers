@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs
+// https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface NetappCloudmanagerProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#aws_profile NetappCloudmanagerProvider#aws_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#aws_profile NetappCloudmanagerProvider#aws_profile}
   */
   readonly awsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#aws_profile_file_path NetappCloudmanagerProvider#aws_profile_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#aws_profile_file_path NetappCloudmanagerProvider#aws_profile_file_path}
   */
   readonly awsProfileFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#azure_auth_methods NetappCloudmanagerProvider#azure_auth_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#azure_auth_methods NetappCloudmanagerProvider#azure_auth_methods}
   */
   readonly azureAuthMethods?: string[];
   /**
   * Connector Host when not using BlueXP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#connector_host NetappCloudmanagerProvider#connector_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#connector_host NetappCloudmanagerProvider#connector_host}
   */
   readonly connectorHost?: string;
   /**
   * The environment for OCCM operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#environment NetappCloudmanagerProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#environment NetappCloudmanagerProvider#environment}
   */
   readonly environment?: string;
   /**
   * The refresh_token for OCCM operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#refresh_token NetappCloudmanagerProvider#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#refresh_token NetappCloudmanagerProvider#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * The environment for OCCM operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#sa_client_id NetappCloudmanagerProvider#sa_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#sa_client_id NetappCloudmanagerProvider#sa_client_id}
   */
   readonly saClientId?: string;
   /**
   * The environment for OCCM operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#sa_secret_key NetappCloudmanagerProvider#sa_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#sa_secret_key NetappCloudmanagerProvider#sa_secret_key}
   */
   readonly saSecretKey?: string;
   /**
   * The environment for OCCM operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#simulator NetappCloudmanagerProvider#simulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#simulator NetappCloudmanagerProvider#simulator}
   */
   readonly simulator?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#alias NetappCloudmanagerProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#alias NetappCloudmanagerProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs netapp-cloudmanager}
+* Represents a {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs netapp-cloudmanager}
 */
 export class NetappCloudmanagerProvider extends cdktf.TerraformProvider {
 
@@ -80,7 +80,7 @@ export class NetappCloudmanagerProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a NetappCloudmanagerProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetappCloudmanagerProvider to import
-  * @param importFromId The id of the existing NetappCloudmanagerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetappCloudmanagerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetappCloudmanagerProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class NetappCloudmanagerProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/26.0.0/docs netapp-cloudmanager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/netapp/netapp-cloudmanager/27.0.0/docs netapp-cloudmanager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class NetappCloudmanagerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'netapp-cloudmanager',
       terraformGeneratorMetadata: {
         providerName: 'netapp-cloudmanager',
-        providerVersion: '26.0.0',
-        providerVersionConstraint: '26.0.0'
+        providerVersion: '27.0.0',
+        providerVersionConstraint: '27.0.0'
       },
       terraformProviderSource: 'NetApp/netapp-cloudmanager'
     });

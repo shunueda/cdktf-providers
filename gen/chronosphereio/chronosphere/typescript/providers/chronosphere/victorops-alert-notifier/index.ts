@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface VictoropsAlertNotifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#api_key VictoropsAlertNotifier#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#api_key VictoropsAlertNotifier#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#api_url VictoropsAlertNotifier#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#api_url VictoropsAlertNotifier#api_url}
   */
   readonly apiUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#basic_auth_password VictoropsAlertNotifier#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#basic_auth_password VictoropsAlertNotifier#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#basic_auth_username VictoropsAlertNotifier#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#basic_auth_username VictoropsAlertNotifier#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#bearer_token VictoropsAlertNotifier#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#bearer_token VictoropsAlertNotifier#bearer_token}
   */
   readonly bearerToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#custom_fields VictoropsAlertNotifier#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#custom_fields VictoropsAlertNotifier#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#entity_display_name VictoropsAlertNotifier#entity_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#entity_display_name VictoropsAlertNotifier#entity_display_name}
   */
   readonly entityDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#id VictoropsAlertNotifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#id VictoropsAlertNotifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#message_type VictoropsAlertNotifier#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#message_type VictoropsAlertNotifier#message_type}
   */
   readonly messageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#monitoring_tool VictoropsAlertNotifier#monitoring_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#monitoring_tool VictoropsAlertNotifier#monitoring_tool}
   */
   readonly monitoringTool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#name VictoropsAlertNotifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#name VictoropsAlertNotifier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#proxy_url VictoropsAlertNotifier#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#proxy_url VictoropsAlertNotifier#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#routing_key VictoropsAlertNotifier#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#routing_key VictoropsAlertNotifier#routing_key}
   */
   readonly routingKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#send_resolved VictoropsAlertNotifier#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#send_resolved VictoropsAlertNotifier#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#slug VictoropsAlertNotifier#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#slug VictoropsAlertNotifier#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#state_message VictoropsAlertNotifier#state_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#state_message VictoropsAlertNotifier#state_message}
   */
   readonly stateMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#tls_insecure_skip_verify VictoropsAlertNotifier#tls_insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#tls_insecure_skip_verify VictoropsAlertNotifier#tls_insecure_skip_verify}
   */
   readonly tlsInsecureSkipVerify?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier chronosphere_victorops_alert_notifier}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier chronosphere_victorops_alert_notifier}
 */
 export class VictoropsAlertNotifier extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class VictoropsAlertNotifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VictoropsAlertNotifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VictoropsAlertNotifier to import
-  * @param importFromId The id of the existing VictoropsAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VictoropsAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VictoropsAlertNotifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class VictoropsAlertNotifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/victorops_alert_notifier chronosphere_victorops_alert_notifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/victorops_alert_notifier chronosphere_victorops_alert_notifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class VictoropsAlertNotifier extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_victorops_alert_notifier',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

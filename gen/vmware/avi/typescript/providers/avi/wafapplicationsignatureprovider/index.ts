@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface WafapplicationsignatureproviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#filter_rules_on_import Wafapplicationsignatureprovider#filter_rules_on_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#filter_rules_on_import Wafapplicationsignatureprovider#filter_rules_on_import}
   */
   readonly filterRulesOnImport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#id Wafapplicationsignatureprovider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#id Wafapplicationsignatureprovider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#name Wafapplicationsignatureprovider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#name Wafapplicationsignatureprovider#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#ruleset_version Wafapplicationsignatureprovider#ruleset_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#ruleset_version Wafapplicationsignatureprovider#ruleset_version}
   */
   readonly rulesetVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#tenant_ref Wafapplicationsignatureprovider#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#tenant_ref Wafapplicationsignatureprovider#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#uuid Wafapplicationsignatureprovider#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#uuid Wafapplicationsignatureprovider#uuid}
   */
   readonly uuid?: string;
   /**
   * available_applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#available_applications Wafapplicationsignatureprovider#available_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#available_applications Wafapplicationsignatureprovider#available_applications}
   */
   readonly availableApplications?: WafapplicationsignatureproviderAvailableApplications[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#configpb_attributes Wafapplicationsignatureprovider#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#configpb_attributes Wafapplicationsignatureprovider#configpb_attributes}
   */
   readonly configpbAttributes?: WafapplicationsignatureproviderConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * service_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#service_status Wafapplicationsignatureprovider#service_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#service_status Wafapplicationsignatureprovider#service_status}
   */
   readonly serviceStatus?: WafapplicationsignatureproviderServiceStatus[] | cdktf.IResolvable;
   /**
   * signatures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#signatures Wafapplicationsignatureprovider#signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#signatures Wafapplicationsignatureprovider#signatures}
   */
   readonly signatures?: WafapplicationsignatureproviderSignatures[] | cdktf.IResolvable;
 }
 export interface WafapplicationsignatureproviderAvailableApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#application Wafapplicationsignatureprovider#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#application Wafapplicationsignatureprovider#application}
   */
   readonly application?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#last_changed_ruleset_version Wafapplicationsignatureprovider#last_changed_ruleset_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#last_changed_ruleset_version Wafapplicationsignatureprovider#last_changed_ruleset_version}
   */
   readonly lastChangedRulesetVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#number_of_rules Wafapplicationsignatureprovider#number_of_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#number_of_rules Wafapplicationsignatureprovider#number_of_rules}
   */
   readonly numberOfRules?: string;
 }
@@ -243,7 +243,7 @@ export class WafapplicationsignatureproviderAvailableApplicationsList extends cd
 }
 export interface WafapplicationsignatureproviderConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#version Wafapplicationsignatureprovider#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#version Wafapplicationsignatureprovider#version}
   */
   readonly version?: string;
 }
@@ -359,11 +359,11 @@ export class WafapplicationsignatureproviderConfigpbAttributesList extends cdktf
 }
 export interface WafapplicationsignatureproviderServiceStatusLastSuccessfulUpdateCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#secs Wafapplicationsignatureprovider#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#secs Wafapplicationsignatureprovider#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#usecs Wafapplicationsignatureprovider#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#usecs Wafapplicationsignatureprovider#usecs}
   */
   readonly usecs: string;
 }
@@ -502,11 +502,11 @@ export class WafapplicationsignatureproviderServiceStatusLastSuccessfulUpdateChe
 }
 export interface WafapplicationsignatureproviderServiceStatusUpstreamSyncTimestamp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#secs Wafapplicationsignatureprovider#secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#secs Wafapplicationsignatureprovider#secs}
   */
   readonly secs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#usecs Wafapplicationsignatureprovider#usecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#usecs Wafapplicationsignatureprovider#usecs}
   */
   readonly usecs: string;
 }
@@ -645,19 +645,19 @@ export class WafapplicationsignatureproviderServiceStatusUpstreamSyncTimestampLi
 }
 export interface WafapplicationsignatureproviderServiceStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#error Wafapplicationsignatureprovider#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#error Wafapplicationsignatureprovider#error}
   */
   readonly error?: string;
   /**
   * last_successful_update_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#last_successful_update_check Wafapplicationsignatureprovider#last_successful_update_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#last_successful_update_check Wafapplicationsignatureprovider#last_successful_update_check}
   */
   readonly lastSuccessfulUpdateCheck?: WafapplicationsignatureproviderServiceStatusLastSuccessfulUpdateCheck[] | cdktf.IResolvable;
   /**
   * upstream_sync_timestamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#upstream_sync_timestamp Wafapplicationsignatureprovider#upstream_sync_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#upstream_sync_timestamp Wafapplicationsignatureprovider#upstream_sync_timestamp}
   */
   readonly upstreamSyncTimestamp?: WafapplicationsignatureproviderServiceStatusUpstreamSyncTimestamp[] | cdktf.IResolvable;
 }
@@ -831,11 +831,11 @@ export class WafapplicationsignatureproviderServiceStatusList extends cdktf.Comp
 }
 export interface WafapplicationsignatureproviderSignaturesExcludeListClientSubnetIpAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#addr Wafapplicationsignatureprovider#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#addr Wafapplicationsignatureprovider#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#type Wafapplicationsignatureprovider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#type Wafapplicationsignatureprovider#type}
   */
   readonly type: string;
 }
@@ -974,13 +974,13 @@ export class WafapplicationsignatureproviderSignaturesExcludeListClientSubnetIpA
 }
 export interface WafapplicationsignatureproviderSignaturesExcludeListClientSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#mask Wafapplicationsignatureprovider#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#mask Wafapplicationsignatureprovider#mask}
   */
   readonly mask: string;
   /**
   * ip_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#ip_addr Wafapplicationsignatureprovider#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#ip_addr Wafapplicationsignatureprovider#ip_addr}
   */
   readonly ipAddr: WafapplicationsignatureproviderSignaturesExcludeListClientSubnetIpAddr[] | cdktf.IResolvable;
 }
@@ -1119,11 +1119,11 @@ export class WafapplicationsignatureproviderSignaturesExcludeListClientSubnetLis
 }
 export interface WafapplicationsignatureproviderSignaturesExcludeListMatchElementCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#match_case Wafapplicationsignatureprovider#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#match_case Wafapplicationsignatureprovider#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#match_op Wafapplicationsignatureprovider#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#match_op Wafapplicationsignatureprovider#match_op}
   */
   readonly matchOp?: string;
 }
@@ -1268,11 +1268,11 @@ export class WafapplicationsignatureproviderSignaturesExcludeListMatchElementCri
 }
 export interface WafapplicationsignatureproviderSignaturesExcludeListUriMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#match_case Wafapplicationsignatureprovider#match_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#match_case Wafapplicationsignatureprovider#match_case}
   */
   readonly matchCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#match_op Wafapplicationsignatureprovider#match_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#match_op Wafapplicationsignatureprovider#match_op}
   */
   readonly matchOp?: string;
 }
@@ -1417,33 +1417,33 @@ export class WafapplicationsignatureproviderSignaturesExcludeListUriMatchCriteri
 }
 export interface WafapplicationsignatureproviderSignaturesExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#description Wafapplicationsignatureprovider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#description Wafapplicationsignatureprovider#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#match_element Wafapplicationsignatureprovider#match_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#match_element Wafapplicationsignatureprovider#match_element}
   */
   readonly matchElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#uri_path Wafapplicationsignatureprovider#uri_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#uri_path Wafapplicationsignatureprovider#uri_path}
   */
   readonly uriPath?: string;
   /**
   * client_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#client_subnet Wafapplicationsignatureprovider#client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#client_subnet Wafapplicationsignatureprovider#client_subnet}
   */
   readonly clientSubnet?: WafapplicationsignatureproviderSignaturesExcludeListClientSubnet[] | cdktf.IResolvable;
   /**
   * match_element_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#match_element_criteria Wafapplicationsignatureprovider#match_element_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#match_element_criteria Wafapplicationsignatureprovider#match_element_criteria}
   */
   readonly matchElementCriteria?: WafapplicationsignatureproviderSignaturesExcludeListMatchElementCriteria[] | cdktf.IResolvable;
   /**
   * uri_match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#uri_match_criteria Wafapplicationsignatureprovider#uri_match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#uri_match_criteria Wafapplicationsignatureprovider#uri_match_criteria}
   */
   readonly uriMatchCriteria?: WafapplicationsignatureproviderSignaturesExcludeListUriMatchCriteria[] | cdktf.IResolvable;
 }
@@ -1704,49 +1704,49 @@ export class WafapplicationsignatureproviderSignaturesExcludeListStructList exte
 }
 export interface WafapplicationsignatureproviderSignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#enable Wafapplicationsignatureprovider#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#enable Wafapplicationsignatureprovider#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#index Wafapplicationsignatureprovider#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#index Wafapplicationsignatureprovider#index}
   */
   readonly index: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#is_sensitive Wafapplicationsignatureprovider#is_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#is_sensitive Wafapplicationsignatureprovider#is_sensitive}
   */
   readonly isSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#mode Wafapplicationsignatureprovider#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#mode Wafapplicationsignatureprovider#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#name Wafapplicationsignatureprovider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#name Wafapplicationsignatureprovider#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#paranoia_level Wafapplicationsignatureprovider#paranoia_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#paranoia_level Wafapplicationsignatureprovider#paranoia_level}
   */
   readonly paranoiaLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#phase Wafapplicationsignatureprovider#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#phase Wafapplicationsignatureprovider#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#rule Wafapplicationsignatureprovider#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#rule Wafapplicationsignatureprovider#rule}
   */
   readonly rule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#rule_id Wafapplicationsignatureprovider#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#rule_id Wafapplicationsignatureprovider#rule_id}
   */
   readonly ruleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#tags Wafapplicationsignatureprovider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#tags Wafapplicationsignatureprovider#tags}
   */
   readonly tags?: string[];
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#exclude_list Wafapplicationsignatureprovider#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#exclude_list Wafapplicationsignatureprovider#exclude_list}
   */
   readonly excludeList?: WafapplicationsignatureproviderSignaturesExcludeListStruct[] | cdktf.IResolvable;
 }
@@ -2146,7 +2146,7 @@ export class WafapplicationsignatureproviderSignaturesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider avi_wafapplicationsignatureprovider}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider avi_wafapplicationsignatureprovider}
 */
 export class Wafapplicationsignatureprovider extends cdktf.TerraformResource {
 
@@ -2162,7 +2162,7 @@ export class Wafapplicationsignatureprovider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wafapplicationsignatureprovider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafapplicationsignatureprovider to import
-  * @param importFromId The id of the existing Wafapplicationsignatureprovider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafapplicationsignatureprovider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafapplicationsignatureprovider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2174,7 +2174,7 @@ export class Wafapplicationsignatureprovider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/wafapplicationsignatureprovider avi_wafapplicationsignatureprovider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/wafapplicationsignatureprovider avi_wafapplicationsignatureprovider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2185,8 +2185,8 @@ export class Wafapplicationsignatureprovider extends cdktf.TerraformResource {
       terraformResourceType: 'avi_wafapplicationsignatureprovider',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

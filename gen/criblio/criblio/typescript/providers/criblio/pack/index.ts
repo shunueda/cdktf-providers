@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack
+// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface PackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#allow_custom_functions Pack#allow_custom_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#allow_custom_functions Pack#allow_custom_functions}
   */
   readonly allowCustomFunctions?: boolean | cdktf.IResolvable;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#author Pack#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#author Pack#author}
   */
   readonly author?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#description Pack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#description Pack#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#disabled Pack#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#disabled Pack#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#display_name Pack#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#display_name Pack#display_name}
   */
   readonly displayName?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#exports Pack#exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#exports Pack#exports}
   */
   readonly exports?: string[];
   /**
   * the file to upload, if this option is used, the description and display_name will be ignored and the pack file's metadata will be used. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#filename Pack#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#filename Pack#filename}
   */
   readonly filename?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#force Pack#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#force Pack#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#group_id Pack#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#group_id Pack#group_id}
   */
   readonly groupId: string;
   /**
   * Pack name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#id Pack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#id Pack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,49 +71,49 @@ export interface PackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#inputs Pack#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#inputs Pack#inputs}
   */
   readonly inputs?: number;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#is_disabled Pack#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#is_disabled Pack#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#min_log_stream_version Pack#min_log_stream_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#min_log_stream_version Pack#min_log_stream_version}
   */
   readonly minLogStreamVersion?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#outputs Pack#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#outputs Pack#outputs}
   */
   readonly outputs?: number;
   /**
   * body string required Pack source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#source Pack#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#source Pack#source}
   */
   readonly source?: string;
   /**
   * body string optional Specify a branch, tag or a semver spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#spec Pack#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#spec Pack#spec}
   */
   readonly spec?: string;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#tags Pack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#tags Pack#tags}
   */
   readonly tags?: PackTags;
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#version Pack#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#version Pack#version}
   */
   readonly version?: string;
 }
@@ -337,25 +337,25 @@ export interface PackTags {
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#data_type Pack#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#data_type Pack#data_type}
   */
   readonly dataType: string[];
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#domain Pack#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#domain Pack#domain}
   */
   readonly domain: string[];
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#streamtags Pack#streamtags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#streamtags Pack#streamtags}
   */
   readonly streamtags: string[];
   /**
   * Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#technology Pack#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#technology Pack#technology}
   */
   readonly technology: string[];
 }
@@ -524,7 +524,7 @@ export class PackTagsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack criblio_pack}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack criblio_pack}
 */
 export class Pack extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class Pack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pack to import
-  * @param importFromId The id of the existing Pack that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pack that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class Pack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.64/docs/resources/pack criblio_pack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/pack criblio_pack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class Pack extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_pack',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.64',
-        providerVersionConstraint: '1.20.64'
+        providerVersion: '1.20.69',
+        providerVersionConstraint: '1.20.69'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ErrorpageprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#id Errorpageprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#id Errorpageprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#name Errorpageprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#name Errorpageprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#tenant_ref Errorpageprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#tenant_ref Errorpageprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#uuid Errorpageprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#uuid Errorpageprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#configpb_attributes Errorpageprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#configpb_attributes Errorpageprofile#configpb_attributes}
   */
   readonly configpbAttributes?: ErrorpageprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * error_pages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#error_pages Errorpageprofile#error_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#error_pages Errorpageprofile#error_pages}
   */
   readonly errorPages?: ErrorpageprofileErrorPages[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#markers Errorpageprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#markers Errorpageprofile#markers}
   */
   readonly markers?: ErrorpageprofileMarkers[] | cdktf.IResolvable;
 }
 export interface ErrorpageprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#version Errorpageprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#version Errorpageprofile#version}
   */
   readonly version?: string;
 }
@@ -163,11 +163,11 @@ export class ErrorpageprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface ErrorpageprofileErrorPagesMatchRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#begin Errorpageprofile#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#begin Errorpageprofile#begin}
   */
   readonly begin: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#end Errorpageprofile#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#end Errorpageprofile#end}
   */
   readonly end: string;
 }
@@ -306,17 +306,17 @@ export class ErrorpageprofileErrorPagesMatchRangesList extends cdktf.ComplexList
 }
 export interface ErrorpageprofileErrorPagesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#match_criteria Errorpageprofile#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#match_criteria Errorpageprofile#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#status_codes Errorpageprofile#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#status_codes Errorpageprofile#status_codes}
   */
   readonly statusCodes?: number[];
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#ranges Errorpageprofile#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#ranges Errorpageprofile#ranges}
   */
   readonly ranges?: ErrorpageprofileErrorPagesMatchRanges[] | cdktf.IResolvable;
 }
@@ -487,25 +487,25 @@ export class ErrorpageprofileErrorPagesMatchList extends cdktf.ComplexList {
 }
 export interface ErrorpageprofileErrorPages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#enable Errorpageprofile#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#enable Errorpageprofile#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#error_page_body_ref Errorpageprofile#error_page_body_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#error_page_body_ref Errorpageprofile#error_page_body_ref}
   */
   readonly errorPageBodyRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#error_redirect Errorpageprofile#error_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#error_redirect Errorpageprofile#error_redirect}
   */
   readonly errorRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#index Errorpageprofile#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#index Errorpageprofile#index}
   */
   readonly index?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#match Errorpageprofile#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#match Errorpageprofile#match}
   */
   readonly match?: ErrorpageprofileErrorPagesMatch[] | cdktf.IResolvable;
 }
@@ -737,11 +737,11 @@ export class ErrorpageprofileErrorPagesList extends cdktf.ComplexList {
 }
 export interface ErrorpageprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#key Errorpageprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#key Errorpageprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#values Errorpageprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#values Errorpageprofile#values}
   */
   readonly values?: string[];
 }
@@ -883,7 +883,7 @@ export class ErrorpageprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile avi_errorpageprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile avi_errorpageprofile}
 */
 export class Errorpageprofile extends cdktf.TerraformResource {
 
@@ -899,7 +899,7 @@ export class Errorpageprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Errorpageprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Errorpageprofile to import
-  * @param importFromId The id of the existing Errorpageprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Errorpageprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Errorpageprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -911,7 +911,7 @@ export class Errorpageprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/errorpageprofile avi_errorpageprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/errorpageprofile avi_errorpageprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -922,8 +922,8 @@ export class Errorpageprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_errorpageprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataAviSecuritymanagerdataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata#id DataAviSecuritymanagerdata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata#id DataAviSecuritymanagerdata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata#name DataAviSecuritymanagerdata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata#name DataAviSecuritymanagerdata#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata#tenant_ref DataAviSecuritymanagerdata#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata#tenant_ref DataAviSecuritymanagerdata#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata#uuid DataAviSecuritymanagerdata#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata#uuid DataAviSecuritymanagerdata#uuid}
   */
   readonly uuid?: string;
 }
@@ -453,7 +453,7 @@ export class DataAviSecuritymanagerdataAppLearningInfoList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata avi_securitymanagerdata}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata avi_securitymanagerdata}
 */
 export class DataAviSecuritymanagerdata extends cdktf.TerraformDataSource {
 
@@ -469,7 +469,7 @@ export class DataAviSecuritymanagerdata extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAviSecuritymanagerdata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAviSecuritymanagerdata to import
-  * @param importFromId The id of the existing DataAviSecuritymanagerdata that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAviSecuritymanagerdata that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAviSecuritymanagerdata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class DataAviSecuritymanagerdata extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/data-sources/securitymanagerdata avi_securitymanagerdata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/data-sources/securitymanagerdata avi_securitymanagerdata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class DataAviSecuritymanagerdata extends cdktf.TerraformDataSource {
       terraformResourceType: 'avi_securitymanagerdata',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

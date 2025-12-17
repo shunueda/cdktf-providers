@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "databricks": "1.99.0"
+    "databricks": "1.100.0"
   }
 }

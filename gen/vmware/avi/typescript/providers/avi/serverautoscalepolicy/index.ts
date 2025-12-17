@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface ServerautoscalepolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#delay_for_server_garbage_collection Serverautoscalepolicy#delay_for_server_garbage_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#delay_for_server_garbage_collection Serverautoscalepolicy#delay_for_server_garbage_collection}
   */
   readonly delayForServerGarbageCollection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#description Serverautoscalepolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#description Serverautoscalepolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#id Serverautoscalepolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#id Serverautoscalepolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#intelligent_autoscale Serverautoscalepolicy#intelligent_autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#intelligent_autoscale Serverautoscalepolicy#intelligent_autoscale}
   */
   readonly intelligentAutoscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#intelligent_scalein_margin Serverautoscalepolicy#intelligent_scalein_margin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#intelligent_scalein_margin Serverautoscalepolicy#intelligent_scalein_margin}
   */
   readonly intelligentScaleinMargin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#intelligent_scaleout_margin Serverautoscalepolicy#intelligent_scaleout_margin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#intelligent_scaleout_margin Serverautoscalepolicy#intelligent_scaleout_margin}
   */
   readonly intelligentScaleoutMargin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#max_scalein_adjustment_step Serverautoscalepolicy#max_scalein_adjustment_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#max_scalein_adjustment_step Serverautoscalepolicy#max_scalein_adjustment_step}
   */
   readonly maxScaleinAdjustmentStep?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#max_scaleout_adjustment_step Serverautoscalepolicy#max_scaleout_adjustment_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#max_scaleout_adjustment_step Serverautoscalepolicy#max_scaleout_adjustment_step}
   */
   readonly maxScaleoutAdjustmentStep?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#max_size Serverautoscalepolicy#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#max_size Serverautoscalepolicy#max_size}
   */
   readonly maxSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#min_size Serverautoscalepolicy#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#min_size Serverautoscalepolicy#min_size}
   */
   readonly minSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#name Serverautoscalepolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#name Serverautoscalepolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#scalein_alertconfig_refs Serverautoscalepolicy#scalein_alertconfig_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#scalein_alertconfig_refs Serverautoscalepolicy#scalein_alertconfig_refs}
   */
   readonly scaleinAlertconfigRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#scalein_cooldown Serverautoscalepolicy#scalein_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#scalein_cooldown Serverautoscalepolicy#scalein_cooldown}
   */
   readonly scaleinCooldown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#scaleout_alertconfig_refs Serverautoscalepolicy#scaleout_alertconfig_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#scaleout_alertconfig_refs Serverautoscalepolicy#scaleout_alertconfig_refs}
   */
   readonly scaleoutAlertconfigRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#scaleout_cooldown Serverautoscalepolicy#scaleout_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#scaleout_cooldown Serverautoscalepolicy#scaleout_cooldown}
   */
   readonly scaleoutCooldown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#tenant_ref Serverautoscalepolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#tenant_ref Serverautoscalepolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#use_predicted_load Serverautoscalepolicy#use_predicted_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#use_predicted_load Serverautoscalepolicy#use_predicted_load}
   */
   readonly usePredictedLoad?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#uuid Serverautoscalepolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#uuid Serverautoscalepolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#configpb_attributes Serverautoscalepolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#configpb_attributes Serverautoscalepolicy#configpb_attributes}
   */
   readonly configpbAttributes?: ServerautoscalepolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#markers Serverautoscalepolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#markers Serverautoscalepolicy#markers}
   */
   readonly markers?: ServerautoscalepolicyMarkers[] | cdktf.IResolvable;
   /**
   * scheduled_scalings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#scheduled_scalings Serverautoscalepolicy#scheduled_scalings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#scheduled_scalings Serverautoscalepolicy#scheduled_scalings}
   */
   readonly scheduledScalings?: ServerautoscalepolicyScheduledScalings[] | cdktf.IResolvable;
 }
 export interface ServerautoscalepolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#version Serverautoscalepolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#version Serverautoscalepolicy#version}
   */
   readonly version?: string;
 }
@@ -219,11 +219,11 @@ export class ServerautoscalepolicyConfigpbAttributesList extends cdktf.ComplexLi
 }
 export interface ServerautoscalepolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#key Serverautoscalepolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#key Serverautoscalepolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#values Serverautoscalepolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#values Serverautoscalepolicy#values}
   */
   readonly values?: string[];
 }
@@ -365,31 +365,31 @@ export class ServerautoscalepolicyMarkersList extends cdktf.ComplexList {
 }
 export interface ServerautoscalepolicyScheduledScalings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#autoscaling_duration Serverautoscalepolicy#autoscaling_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#autoscaling_duration Serverautoscalepolicy#autoscaling_duration}
   */
   readonly autoscalingDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#cron_expression Serverautoscalepolicy#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#cron_expression Serverautoscalepolicy#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#desired_capacity Serverautoscalepolicy#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#desired_capacity Serverautoscalepolicy#desired_capacity}
   */
   readonly desiredCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#enable Serverautoscalepolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#enable Serverautoscalepolicy#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#end_date Serverautoscalepolicy#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#end_date Serverautoscalepolicy#end_date}
   */
   readonly endDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#schedule_max_step Serverautoscalepolicy#schedule_max_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#schedule_max_step Serverautoscalepolicy#schedule_max_step}
   */
   readonly scheduleMaxStep?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#start_date Serverautoscalepolicy#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#start_date Serverautoscalepolicy#start_date}
   */
   readonly startDate?: string;
 }
@@ -679,7 +679,7 @@ export class ServerautoscalepolicyScheduledScalingsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy avi_serverautoscalepolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy avi_serverautoscalepolicy}
 */
 export class Serverautoscalepolicy extends cdktf.TerraformResource {
 
@@ -695,7 +695,7 @@ export class Serverautoscalepolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Serverautoscalepolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Serverautoscalepolicy to import
-  * @param importFromId The id of the existing Serverautoscalepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Serverautoscalepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Serverautoscalepolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -707,7 +707,7 @@ export class Serverautoscalepolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/serverautoscalepolicy avi_serverautoscalepolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/serverautoscalepolicy avi_serverautoscalepolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -718,8 +718,8 @@ export class Serverautoscalepolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_serverautoscalepolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

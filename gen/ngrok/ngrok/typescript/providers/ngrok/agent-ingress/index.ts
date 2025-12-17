@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AgentIngressConfig extends cdktf.TerraformMetaArguments {
   /**
   * human-readable description of the use of this Agent Ingress. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#description AgentIngress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#description AgentIngress#description}
   */
   readonly description?: string;
   /**
   * the domain that you own to be used as the base domain name to generate regional agent ingress domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#domain AgentIngress#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#domain AgentIngress#domain}
   */
   readonly domain: string;
   /**
   * arbitrary user-defined machine-readable data of this Agent Ingress. optional, max 4096 bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#metadata AgentIngress#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#metadata AgentIngress#metadata}
   */
   readonly metadata?: string;
   /**
   * certificate_management_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#certificate_management_policy AgentIngress#certificate_management_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#certificate_management_policy AgentIngress#certificate_management_policy}
   */
   readonly certificateManagementPolicy?: AgentIngressCertificateManagementPolicy[] | cdktf.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface AgentIngressCertificateManagementPolicy {
   /**
   * certificate authority to request certificates from. The only supported value is letsencrypt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#authority AgentIngress#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#authority AgentIngress#authority}
   */
   readonly authority?: string;
   /**
   * type of private key to use when requesting certificates. Defaults to rsa, can be either rsa or ecdsa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#private_key_type AgentIngress#private_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#private_key_type AgentIngress#private_key_type}
   */
   readonly privateKeyType?: string;
 }
@@ -187,7 +187,7 @@ export class AgentIngressCertificateManagementPolicyList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress ngrok_agent_ingress}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress ngrok_agent_ingress}
 */
 export class AgentIngress extends cdktf.TerraformResource {
 
@@ -203,7 +203,7 @@ export class AgentIngress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AgentIngress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AgentIngress to import
-  * @param importFromId The id of the existing AgentIngress that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AgentIngress that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AgentIngress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -215,7 +215,7 @@ export class AgentIngress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/agent_ingress ngrok_agent_ingress} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/agent_ingress ngrok_agent_ingress} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,8 +226,8 @@ export class AgentIngress extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_agent_ingress',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

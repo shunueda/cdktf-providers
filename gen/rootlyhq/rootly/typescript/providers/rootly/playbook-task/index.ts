@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface PlaybookTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task#description PlaybookTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task#description PlaybookTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task#id PlaybookTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task#id PlaybookTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task#playbook_id PlaybookTask#playbook_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task#playbook_id PlaybookTask#playbook_id}
   */
   readonly playbookId?: string;
   /**
   * The position of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task#position PlaybookTask#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task#position PlaybookTask#position}
   */
   readonly position?: number;
   /**
   * The task of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task#task PlaybookTask#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task#task PlaybookTask#task}
   */
   readonly task: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task rootly_playbook_task}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task rootly_playbook_task}
 */
 export class PlaybookTask extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class PlaybookTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlaybookTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlaybookTask to import
-  * @param importFromId The id of the existing PlaybookTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlaybookTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlaybookTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class PlaybookTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/playbook_task rootly_playbook_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/playbook_task rootly_playbook_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class PlaybookTask extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_playbook_task',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

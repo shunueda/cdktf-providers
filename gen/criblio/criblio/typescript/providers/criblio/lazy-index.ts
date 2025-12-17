@@ -14,6 +14,7 @@ Object.defineProperty(exports, 'grok', { get: function () { return require('./gr
 Object.defineProperty(exports, 'group', { get: function () { return require('./group'); } });
 Object.defineProperty(exports, 'groupSystemSettings', { get: function () { return require('./group-system-settings'); } });
 Object.defineProperty(exports, 'hmacFunction', { get: function () { return require('./hmac-function'); } });
+Object.defineProperty(exports, 'key', { get: function () { return require('./key'); } });
 Object.defineProperty(exports, 'lakehouseDatasetConnection', { get: function () { return require('./lakehouse-dataset-connection'); } });
 Object.defineProperty(exports, 'lookupFile', { get: function () { return require('./lookup-file'); } });
 Object.defineProperty(exports, 'mappingRuleset', { get: function () { return require('./mapping-ruleset'); } });
@@ -41,6 +42,7 @@ Object.defineProperty(exports, 'searchDatasetProvider', { get: function () { ret
 Object.defineProperty(exports, 'searchMacro', { get: function () { return require('./search-macro'); } });
 Object.defineProperty(exports, 'searchSavedQuery', { get: function () { return require('./search-saved-query'); } });
 Object.defineProperty(exports, 'searchUsageGroup', { get: function () { return require('./search-usage-group'); } });
+Object.defineProperty(exports, 'secret', { get: function () { return require('./secret'); } });
 Object.defineProperty(exports, 'source', { get: function () { return require('./source'); } });
 Object.defineProperty(exports, 'subscription', { get: function () { return require('./subscription'); } });
 Object.defineProperty(exports, 'workspace', { get: function () { return require('./workspace'); } });
@@ -62,6 +64,8 @@ Object.defineProperty(exports, 'dataCriblioGroup', { get: function () { return r
 Object.defineProperty(exports, 'dataCriblioGroupSystemSettings', { get: function () { return require('./data-criblio-group-system-settings'); } });
 Object.defineProperty(exports, 'dataCriblioHmacFunction', { get: function () { return require('./data-criblio-hmac-function'); } });
 Object.defineProperty(exports, 'dataCriblioInstanceSettings', { get: function () { return require('./data-criblio-instance-settings'); } });
+Object.defineProperty(exports, 'dataCriblioKey', { get: function () { return require('./data-criblio-key'); } });
+Object.defineProperty(exports, 'dataCriblioKeys', { get: function () { return require('./data-criblio-keys'); } });
 Object.defineProperty(exports, 'dataCriblioLookupFile', { get: function () { return require('./data-criblio-lookup-file'); } });
 Object.defineProperty(exports, 'dataCriblioMappingRuleset', { get: function () { return require('./data-criblio-mapping-ruleset'); } });
 Object.defineProperty(exports, 'dataCriblioMappings', { get: function () { return require('./data-criblio-mappings'); } });
@@ -90,6 +94,7 @@ Object.defineProperty(exports, 'dataCriblioSearchDatasetProvider', { get: functi
 Object.defineProperty(exports, 'dataCriblioSearchMacro', { get: function () { return require('./data-criblio-search-macro'); } });
 Object.defineProperty(exports, 'dataCriblioSearchSavedQuery', { get: function () { return require('./data-criblio-search-saved-query'); } });
 Object.defineProperty(exports, 'dataCriblioSearchUsageGroup', { get: function () { return require('./data-criblio-search-usage-group'); } });
+Object.defineProperty(exports, 'dataCriblioSecret', { get: function () { return require('./data-criblio-secret'); } });
 Object.defineProperty(exports, 'dataCriblioSource', { get: function () { return require('./data-criblio-source'); } });
 Object.defineProperty(exports, 'dataCriblioSources', { get: function () { return require('./data-criblio-sources'); } });
 Object.defineProperty(exports, 'dataCriblioSubscription', { get: function () { return require('./data-criblio-subscription'); } });

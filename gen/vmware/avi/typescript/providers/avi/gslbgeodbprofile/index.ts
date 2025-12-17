@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface GslbgeodbprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#description Gslbgeodbprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#description Gslbgeodbprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#id Gslbgeodbprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#id Gslbgeodbprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#is_federated Gslbgeodbprofile#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#is_federated Gslbgeodbprofile#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#name Gslbgeodbprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#name Gslbgeodbprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#tenant_ref Gslbgeodbprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#tenant_ref Gslbgeodbprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#uuid Gslbgeodbprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#uuid Gslbgeodbprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#configpb_attributes Gslbgeodbprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#configpb_attributes Gslbgeodbprofile#configpb_attributes}
   */
   readonly configpbAttributes?: GslbgeodbprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#entries Gslbgeodbprofile#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#entries Gslbgeodbprofile#entries}
   */
   readonly entries: GslbgeodbprofileEntries[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#markers Gslbgeodbprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#markers Gslbgeodbprofile#markers}
   */
   readonly markers?: GslbgeodbprofileMarkers[] | cdktf.IResolvable;
 }
 export interface GslbgeodbprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#version Gslbgeodbprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#version Gslbgeodbprofile#version}
   */
   readonly version?: string;
 }
@@ -171,27 +171,27 @@ export class GslbgeodbprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface GslbgeodbprofileEntriesFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#checksum Gslbgeodbprofile#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#checksum Gslbgeodbprofile#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#file_id Gslbgeodbprofile#file_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#file_id Gslbgeodbprofile#file_id}
   */
   readonly fileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#file_id_checksum Gslbgeodbprofile#file_id_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#file_id_checksum Gslbgeodbprofile#file_id_checksum}
   */
   readonly fileIdChecksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#filename Gslbgeodbprofile#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#filename Gslbgeodbprofile#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#format Gslbgeodbprofile#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#format Gslbgeodbprofile#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#timestamp Gslbgeodbprofile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#timestamp Gslbgeodbprofile#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -452,13 +452,13 @@ export class GslbgeodbprofileEntriesFileList extends cdktf.ComplexList {
 }
 export interface GslbgeodbprofileEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#priority Gslbgeodbprofile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#priority Gslbgeodbprofile#priority}
   */
   readonly priority?: string;
   /**
   * file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#file Gslbgeodbprofile#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#file Gslbgeodbprofile#file}
   */
   readonly file: GslbgeodbprofileEntriesFile[] | cdktf.IResolvable;
 }
@@ -600,11 +600,11 @@ export class GslbgeodbprofileEntriesList extends cdktf.ComplexList {
 }
 export interface GslbgeodbprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#key Gslbgeodbprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#key Gslbgeodbprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#values Gslbgeodbprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#values Gslbgeodbprofile#values}
   */
   readonly values?: string[];
 }
@@ -746,7 +746,7 @@ export class GslbgeodbprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile}
 */
 export class Gslbgeodbprofile extends cdktf.TerraformResource {
 
@@ -762,7 +762,7 @@ export class Gslbgeodbprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbgeodbprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbgeodbprofile to import
-  * @param importFromId The id of the existing Gslbgeodbprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbgeodbprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbgeodbprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -774,7 +774,7 @@ export class Gslbgeodbprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbgeodbprofile avi_gslbgeodbprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -785,8 +785,8 @@ export class Gslbgeodbprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_gslbgeodbprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

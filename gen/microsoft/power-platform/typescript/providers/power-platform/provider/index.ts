@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface PowerPlatformProviderConfig {
   /**
   * The IDs of the additional Entra tenants that Power Platform API uses to authenticate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#auxiliary_tenant_ids PowerPlatformProvider#auxiliary_tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#auxiliary_tenant_ids PowerPlatformProvider#auxiliary_tenant_ids}
   */
   readonly auxiliaryTenantIds?: string[];
   /**
   * The service connection id of the Azure DevOps service connection. For use in workload identity federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#azdo_service_connection_id PowerPlatformProvider#azdo_service_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#azdo_service_connection_id PowerPlatformProvider#azdo_service_connection_id}
   */
   readonly azdoServiceConnectionId?: string;
   /**
   * Base64 encoded PKCS#12 certificate bundle. For use when authenticating as a Service Principal using a Client Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#client_certificate PowerPlatformProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#client_certificate PowerPlatformProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The path to the Client Certificate associated with the Service Principal for use when authenticating as a Service Principal using a Client Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#client_certificate_file_path PowerPlatformProvider#client_certificate_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#client_certificate_file_path PowerPlatformProvider#client_certificate_file_path}
   */
   readonly clientCertificateFilePath?: string;
   /**
   * The password associated with the Client Certificate. For use when authenticating as a Service Principal using a Client Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#client_certificate_password PowerPlatformProvider#client_certificate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#client_certificate_password PowerPlatformProvider#client_certificate_password}
   */
   readonly clientCertificatePassword?: string;
   /**
   * The client id of the Power Platform API app registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#client_id PowerPlatformProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#client_id PowerPlatformProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The secret of the Power Platform API app registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#client_secret PowerPlatformProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#client_secret PowerPlatformProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The cloud to use for authentication and Power Platform API requests. Default is `public`. Valid values are `public`, `gcc`, `gcchigh`, `china`, `dod`, `ex`, `rx`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#cloud PowerPlatformProvider#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#cloud PowerPlatformProvider#cloud}
   */
   readonly cloud?: string;
   /**
   * Disable sending the default Terraform partner ID when no custom partner_id is provided. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#disable_terraform_partner_id PowerPlatformProvider#disable_terraform_partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#disable_terraform_partner_id PowerPlatformProvider#disable_terraform_partner_id}
   */
   readonly disableTerraformPartnerId?: boolean | cdktf.IResolvable;
   /**
   * Enables Continuous Access Evaluation (CAE) for authentication tokens. CAE allows for near real-time security policy enforcement such as user termination, password changes, and location policy changes. [Learn more about CAE](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-continuous-access-evaluation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#enable_continuous_access_evaluation PowerPlatformProvider#enable_continuous_access_evaluation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#enable_continuous_access_evaluation PowerPlatformProvider#enable_continuous_access_evaluation}
   */
   readonly enableContinuousAccessEvaluation?: boolean | cdktf.IResolvable;
   /**
   * The bearer token for the request to the OIDC provider. For use When authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#oidc_request_token PowerPlatformProvider#oidc_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#oidc_request_token PowerPlatformProvider#oidc_request_token}
   */
   readonly oidcRequestToken?: string;
   /**
   * The URL for the OIDC provider from which to request an ID token. For use When authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#oidc_request_url PowerPlatformProvider#oidc_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#oidc_request_url PowerPlatformProvider#oidc_request_url}
   */
   readonly oidcRequestUrl?: string;
   /**
   * The OIDC ID token for use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#oidc_token PowerPlatformProvider#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#oidc_token PowerPlatformProvider#oidc_token}
   */
   readonly oidcToken?: string;
   /**
   * The path to a file containing an OIDC ID token for use when authenticating as a Service Principal using OpenID Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#oidc_token_file_path PowerPlatformProvider#oidc_token_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#oidc_token_file_path PowerPlatformProvider#oidc_token_file_path}
   */
   readonly oidcTokenFilePath?: string;
   /**
   * The GUID of the partner for Customer Usage Attribution (CUA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#partner_id PowerPlatformProvider#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#partner_id PowerPlatformProvider#partner_id}
   */
   readonly partnerId?: string;
   /**
   * Flag to indicate whether to opt out of telemetry. Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#telemetry_optout PowerPlatformProvider#telemetry_optout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#telemetry_optout PowerPlatformProvider#telemetry_optout}
   */
   readonly telemetryOptout?: boolean | cdktf.IResolvable;
   /**
   * The id of the AAD tenant that Power Platform API uses to authenticate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#tenant_id PowerPlatformProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#tenant_id PowerPlatformProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Flag to indicate whether to use the CLI for authentication. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#use_cli PowerPlatformProvider#use_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#use_cli PowerPlatformProvider#use_cli}
   */
   readonly useCli?: boolean | cdktf.IResolvable;
   /**
   * Flag to indicate whether to use the Azure Developer CLI for authentication. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#use_dev_cli PowerPlatformProvider#use_dev_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#use_dev_cli PowerPlatformProvider#use_dev_cli}
   */
   readonly useDevCli?: boolean | cdktf.IResolvable;
   /**
   * Flag to indicate whether to use managed identity for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#use_msi PowerPlatformProvider#use_msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#use_msi PowerPlatformProvider#use_msi}
   */
   readonly useMsi?: boolean | cdktf.IResolvable;
   /**
   * Allow OpenID Connect to be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#use_oidc PowerPlatformProvider#use_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#use_oidc PowerPlatformProvider#use_oidc}
   */
   readonly useOidc?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#alias PowerPlatformProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#alias PowerPlatformProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs power-platform}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs power-platform}
 */
 export class PowerPlatformProvider extends cdktf.TerraformProvider {
 
@@ -158,7 +158,7 @@ export class PowerPlatformProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PowerPlatformProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PowerPlatformProvider to import
-  * @param importFromId The id of the existing PowerPlatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PowerPlatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PowerPlatformProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class PowerPlatformProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs power-platform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs power-platform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class PowerPlatformProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'power-platform',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       terraformProviderSource: 'microsoft/power-platform'
     });

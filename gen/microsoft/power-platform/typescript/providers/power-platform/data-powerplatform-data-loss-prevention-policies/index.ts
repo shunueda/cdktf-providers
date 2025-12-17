@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataPowerplatformDataLossPreventionPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#timeouts DataPowerplatformDataLossPreventionPolicies#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#timeouts DataPowerplatformDataLossPreventionPolicies#timeouts}
   */
   readonly timeouts?: DataPowerplatformDataLossPreventionPoliciesTimeouts;
 }
@@ -16,13 +16,13 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesBlockedConne
   /**
   * ID of the action rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#action_id DataPowerplatformDataLossPreventionPolicies#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#action_id DataPowerplatformDataLossPreventionPolicies#action_id}
   */
   readonly actionId: string;
   /**
   * Behavior of the action rule ("Allow", "Block")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
   */
   readonly behavior: string;
 }
@@ -163,19 +163,19 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesBlockedConne
   /**
   * Behavior of the endpoint rule ("Allow", "Deny")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
   */
   readonly behavior: string;
   /**
   * Endpoint of the endpoint rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint DataPowerplatformDataLossPreventionPolicies#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint DataPowerplatformDataLossPreventionPolicies#endpoint}
   */
   readonly endpoint: string;
   /**
   * Order of the endpoint rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#order DataPowerplatformDataLossPreventionPolicies#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#order DataPowerplatformDataLossPreventionPolicies#order}
   */
   readonly order: number;
 }
@@ -342,25 +342,25 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesBlockedConne
   /**
   * Action rules for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#action_rules DataPowerplatformDataLossPreventionPolicies#action_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#action_rules DataPowerplatformDataLossPreventionPolicies#action_rules}
   */
   readonly actionRules?: DataPowerplatformDataLossPreventionPoliciesPoliciesBlockedConnectorsActionRules[] | cdktf.IResolvable;
   /**
   * Default action rule behavior for the connector ("Allow", "Block")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#default_action_rule_behavior DataPowerplatformDataLossPreventionPolicies#default_action_rule_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#default_action_rule_behavior DataPowerplatformDataLossPreventionPolicies#default_action_rule_behavior}
   */
   readonly defaultActionRuleBehavior?: string;
   /**
   * Endpoint rules for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint_rules DataPowerplatformDataLossPreventionPolicies#endpoint_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint_rules DataPowerplatformDataLossPreventionPolicies#endpoint_rules}
   */
   readonly endpointRules?: DataPowerplatformDataLossPreventionPoliciesPoliciesBlockedConnectorsEndpointRules[] | cdktf.IResolvable;
   /**
   * ID of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#id DataPowerplatformDataLossPreventionPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#id DataPowerplatformDataLossPreventionPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -558,13 +558,13 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesBusinessConn
   /**
   * ID of the action rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#action_id DataPowerplatformDataLossPreventionPolicies#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#action_id DataPowerplatformDataLossPreventionPolicies#action_id}
   */
   readonly actionId: string;
   /**
   * Behavior of the action rule ("Allow", "Block")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
   */
   readonly behavior: string;
 }
@@ -705,19 +705,19 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesBusinessConn
   /**
   * Behavior of the endpoint rule ("Allow", "Deny")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
   */
   readonly behavior: string;
   /**
   * Endpoint of the endpoint rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint DataPowerplatformDataLossPreventionPolicies#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint DataPowerplatformDataLossPreventionPolicies#endpoint}
   */
   readonly endpoint: string;
   /**
   * Order of the endpoint rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#order DataPowerplatformDataLossPreventionPolicies#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#order DataPowerplatformDataLossPreventionPolicies#order}
   */
   readonly order: number;
 }
@@ -884,25 +884,25 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesBusinessConn
   /**
   * Action rules for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#action_rules DataPowerplatformDataLossPreventionPolicies#action_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#action_rules DataPowerplatformDataLossPreventionPolicies#action_rules}
   */
   readonly actionRules?: DataPowerplatformDataLossPreventionPoliciesPoliciesBusinessConnectorsActionRules[] | cdktf.IResolvable;
   /**
   * Default action rule behavior for the connector ("Allow", "Block")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#default_action_rule_behavior DataPowerplatformDataLossPreventionPolicies#default_action_rule_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#default_action_rule_behavior DataPowerplatformDataLossPreventionPolicies#default_action_rule_behavior}
   */
   readonly defaultActionRuleBehavior?: string;
   /**
   * Endpoint rules for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint_rules DataPowerplatformDataLossPreventionPolicies#endpoint_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint_rules DataPowerplatformDataLossPreventionPolicies#endpoint_rules}
   */
   readonly endpointRules?: DataPowerplatformDataLossPreventionPoliciesPoliciesBusinessConnectorsEndpointRules[] | cdktf.IResolvable;
   /**
   * ID of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#id DataPowerplatformDataLossPreventionPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#id DataPowerplatformDataLossPreventionPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1185,13 +1185,13 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesNonBusinessC
   /**
   * ID of the action rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#action_id DataPowerplatformDataLossPreventionPolicies#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#action_id DataPowerplatformDataLossPreventionPolicies#action_id}
   */
   readonly actionId: string;
   /**
   * Behavior of the action rule ("Allow", "Block")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
   */
   readonly behavior: string;
 }
@@ -1332,19 +1332,19 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesNonBusinessC
   /**
   * Behavior of the endpoint rule ("Allow", "Deny")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#behavior DataPowerplatformDataLossPreventionPolicies#behavior}
   */
   readonly behavior: string;
   /**
   * Endpoint of the endpoint rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint DataPowerplatformDataLossPreventionPolicies#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint DataPowerplatformDataLossPreventionPolicies#endpoint}
   */
   readonly endpoint: string;
   /**
   * Order of the endpoint rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#order DataPowerplatformDataLossPreventionPolicies#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#order DataPowerplatformDataLossPreventionPolicies#order}
   */
   readonly order: number;
 }
@@ -1511,25 +1511,25 @@ export interface DataPowerplatformDataLossPreventionPoliciesPoliciesNonBusinessC
   /**
   * Action rules for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#action_rules DataPowerplatformDataLossPreventionPolicies#action_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#action_rules DataPowerplatformDataLossPreventionPolicies#action_rules}
   */
   readonly actionRules?: DataPowerplatformDataLossPreventionPoliciesPoliciesNonBusinessConnectorsActionRules[] | cdktf.IResolvable;
   /**
   * Default action rule behavior for the connector ("Allow", "Block")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#default_action_rule_behavior DataPowerplatformDataLossPreventionPolicies#default_action_rule_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#default_action_rule_behavior DataPowerplatformDataLossPreventionPolicies#default_action_rule_behavior}
   */
   readonly defaultActionRuleBehavior?: string;
   /**
   * Endpoint rules for the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint_rules DataPowerplatformDataLossPreventionPolicies#endpoint_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#endpoint_rules DataPowerplatformDataLossPreventionPolicies#endpoint_rules}
   */
   readonly endpointRules?: DataPowerplatformDataLossPreventionPoliciesPoliciesNonBusinessConnectorsEndpointRules[] | cdktf.IResolvable;
   /**
   * ID of the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#id DataPowerplatformDataLossPreventionPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#id DataPowerplatformDataLossPreventionPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1727,7 +1727,7 @@ export interface DataPowerplatformDataLossPreventionPoliciesPolicies {
   /**
   * Default environment handling for the policy ("AllEnvironments", "ExceptEnvironments", "OnlyEnvironments")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#environment_type DataPowerplatformDataLossPreventionPolicies#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#environment_type DataPowerplatformDataLossPreventionPolicies#environment_type}
   */
   readonly environmentType: string;
 }
@@ -1953,7 +1953,7 @@ export class DataPowerplatformDataLossPreventionPoliciesTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies powerplatform_data_loss_prevention_policies}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies powerplatform_data_loss_prevention_policies}
 */
 export class DataPowerplatformDataLossPreventionPolicies extends cdktf.TerraformDataSource {
 
@@ -1969,7 +1969,7 @@ export class DataPowerplatformDataLossPreventionPolicies extends cdktf.Terraform
   * Generates CDKTF code for importing a DataPowerplatformDataLossPreventionPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformDataLossPreventionPolicies to import
-  * @param importFromId The id of the existing DataPowerplatformDataLossPreventionPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformDataLossPreventionPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformDataLossPreventionPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1981,7 +1981,7 @@ export class DataPowerplatformDataLossPreventionPolicies extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_loss_prevention_policies powerplatform_data_loss_prevention_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_loss_prevention_policies powerplatform_data_loss_prevention_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1992,8 +1992,8 @@ export class DataPowerplatformDataLossPreventionPolicies extends cdktf.Terraform
       terraformResourceType: 'powerplatform_data_loss_prevention_policies',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

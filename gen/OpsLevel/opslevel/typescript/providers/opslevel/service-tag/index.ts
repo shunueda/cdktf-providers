@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ServiceTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag#key ServiceTag#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag#key ServiceTag#key}
   */
   readonly key: string;
   /**
   * The id of the service that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag#service ServiceTag#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag#service ServiceTag#service}
   */
   readonly service?: string;
   /**
   * The alias of the service that this will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag#service_alias ServiceTag#service_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag#service_alias ServiceTag#service_alias}
   */
   readonly serviceAlias?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag#value ServiceTag#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag#value ServiceTag#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag opslevel_service_tag}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag opslevel_service_tag}
 */
 export class ServiceTag extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ServiceTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceTag to import
-  * @param importFromId The id of the existing ServiceTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ServiceTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.7.0/docs/resources/service_tag opslevel_service_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_tag opslevel_service_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ServiceTag extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_service_tag',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

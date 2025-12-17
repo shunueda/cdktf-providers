@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OtelMetricsIngestionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#id OtelMetricsIngestion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#id OtelMetricsIngestion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface OtelMetricsIngestionConfig extends cdktf.TerraformMetaArguments
   /**
   * resource_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#resource_attributes OtelMetricsIngestion#resource_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#resource_attributes OtelMetricsIngestion#resource_attributes}
   */
   readonly resourceAttributes?: OtelMetricsIngestionResourceAttributes;
 }
 export interface OtelMetricsIngestionResourceAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#exclude_keys OtelMetricsIngestion#exclude_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#exclude_keys OtelMetricsIngestion#exclude_keys}
   */
   readonly excludeKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#filter_mode OtelMetricsIngestion#filter_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#filter_mode OtelMetricsIngestion#filter_mode}
   */
   readonly filterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#flatten_mode OtelMetricsIngestion#flatten_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#flatten_mode OtelMetricsIngestion#flatten_mode}
   */
   readonly flattenMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#generate_target_info OtelMetricsIngestion#generate_target_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#generate_target_info OtelMetricsIngestion#generate_target_info}
   */
   readonly generateTargetInfo?: boolean | cdktf.IResolvable;
 }
@@ -206,7 +206,7 @@ export class OtelMetricsIngestionResourceAttributesOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion chronosphere_otel_metrics_ingestion}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion chronosphere_otel_metrics_ingestion}
 */
 export class OtelMetricsIngestion extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class OtelMetricsIngestion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OtelMetricsIngestion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OtelMetricsIngestion to import
-  * @param importFromId The id of the existing OtelMetricsIngestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OtelMetricsIngestion that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OtelMetricsIngestion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class OtelMetricsIngestion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/otel_metrics_ingestion chronosphere_otel_metrics_ingestion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/otel_metrics_ingestion chronosphere_otel_metrics_ingestion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class OtelMetricsIngestion extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_otel_metrics_ingestion',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points
+// https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataFortiflexvmEntitlementsPointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points#account_id DataFortiflexvmEntitlementsPoints#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points#account_id DataFortiflexvmEntitlementsPoints#account_id}
   */
   readonly accountId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points#config_id DataFortiflexvmEntitlementsPoints#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points#config_id DataFortiflexvmEntitlementsPoints#config_id}
   */
   readonly configId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points#end_date DataFortiflexvmEntitlementsPoints#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points#end_date DataFortiflexvmEntitlementsPoints#end_date}
   */
   readonly endDate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points#id DataFortiflexvmEntitlementsPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points#id DataFortiflexvmEntitlementsPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points#start_date DataFortiflexvmEntitlementsPoints#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points#start_date DataFortiflexvmEntitlementsPoints#start_date}
   */
   readonly startDate: string;
 }
@@ -118,7 +118,7 @@ export class DataFortiflexvmEntitlementsPointsEntitlementsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points fortiflexvm_entitlements_points}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points fortiflexvm_entitlements_points}
 */
 export class DataFortiflexvmEntitlementsPoints extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataFortiflexvmEntitlementsPoints extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataFortiflexvmEntitlementsPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFortiflexvmEntitlementsPoints to import
-  * @param importFromId The id of the existing DataFortiflexvmEntitlementsPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFortiflexvmEntitlementsPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFortiflexvmEntitlementsPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataFortiflexvmEntitlementsPoints extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.3/docs/data-sources/entitlements_points fortiflexvm_entitlements_points} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortiflexvm/2.4.4/docs/data-sources/entitlements_points fortiflexvm_entitlements_points} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DataFortiflexvmEntitlementsPoints extends cdktf.TerraformDataSource
       terraformResourceType: 'fortiflexvm_entitlements_points',
       terraformGeneratorMetadata: {
         providerName: 'fortiflexvm',
-        providerVersion: '2.4.3',
-        providerVersionConstraint: '2.4.3'
+        providerVersion: '2.4.4',
+        providerVersionConstraint: '2.4.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

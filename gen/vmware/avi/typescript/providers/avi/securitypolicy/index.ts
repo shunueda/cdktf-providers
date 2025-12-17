@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface SecuritypolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#description Securitypolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#description Securitypolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#dns_policy_index Securitypolicy#dns_policy_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#dns_policy_index Securitypolicy#dns_policy_index}
   */
   readonly dnsPolicyIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#id Securitypolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#id Securitypolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#name Securitypolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#name Securitypolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#network_security_policy_index Securitypolicy#network_security_policy_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#network_security_policy_index Securitypolicy#network_security_policy_index}
   */
   readonly networkSecurityPolicyIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#oper_mode Securitypolicy#oper_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#oper_mode Securitypolicy#oper_mode}
   */
   readonly operMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#tenant_ref Securitypolicy#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#tenant_ref Securitypolicy#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#uuid Securitypolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#uuid Securitypolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#configpb_attributes Securitypolicy#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#configpb_attributes Securitypolicy#configpb_attributes}
   */
   readonly configpbAttributes?: SecuritypolicyConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * dns_amplification_denyports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#dns_amplification_denyports Securitypolicy#dns_amplification_denyports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#dns_amplification_denyports Securitypolicy#dns_amplification_denyports}
   */
   readonly dnsAmplificationDenyports?: SecuritypolicyDnsAmplificationDenyports[] | cdktf.IResolvable;
   /**
   * dns_attacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#dns_attacks Securitypolicy#dns_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#dns_attacks Securitypolicy#dns_attacks}
   */
   readonly dnsAttacks?: SecuritypolicyDnsAttacks[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#markers Securitypolicy#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#markers Securitypolicy#markers}
   */
   readonly markers?: SecuritypolicyMarkers[] | cdktf.IResolvable;
   /**
   * tcp_attacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#tcp_attacks Securitypolicy#tcp_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#tcp_attacks Securitypolicy#tcp_attacks}
   */
   readonly tcpAttacks?: SecuritypolicyTcpAttacks[] | cdktf.IResolvable;
   /**
   * udp_attacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#udp_attacks Securitypolicy#udp_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#udp_attacks Securitypolicy#udp_attacks}
   */
   readonly udpAttacks?: SecuritypolicyUdpAttacks[] | cdktf.IResolvable;
 }
 export interface SecuritypolicyConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#version Securitypolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#version Securitypolicy#version}
   */
   readonly version?: string;
 }
@@ -197,11 +197,11 @@ export class SecuritypolicyConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface SecuritypolicyDnsAmplificationDenyportsRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#end Securitypolicy#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#end Securitypolicy#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#start Securitypolicy#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#start Securitypolicy#start}
   */
   readonly start: string;
 }
@@ -340,17 +340,17 @@ export class SecuritypolicyDnsAmplificationDenyportsRangesList extends cdktf.Com
 }
 export interface SecuritypolicyDnsAmplificationDenyports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#match_criteria Securitypolicy#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#match_criteria Securitypolicy#match_criteria}
   */
   readonly matchCriteria: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#ports Securitypolicy#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#ports Securitypolicy#ports}
   */
   readonly ports?: number[];
   /**
   * ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#ranges Securitypolicy#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#ranges Securitypolicy#ranges}
   */
   readonly ranges?: SecuritypolicyDnsAmplificationDenyportsRanges[] | cdktf.IResolvable;
 }
@@ -521,7 +521,7 @@ export class SecuritypolicyDnsAmplificationDenyportsList extends cdktf.ComplexLi
 }
 export interface SecuritypolicyDnsAttacksAttacksMitigationAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#deny Securitypolicy#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#deny Securitypolicy#deny}
   */
   readonly deny?: string;
 }
@@ -637,25 +637,25 @@ export class SecuritypolicyDnsAttacksAttacksMitigationActionList extends cdktf.C
 }
 export interface SecuritypolicyDnsAttacksAttacks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#attack_vector Securitypolicy#attack_vector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#attack_vector Securitypolicy#attack_vector}
   */
   readonly attackVector: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#enabled Securitypolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#enabled Securitypolicy#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#max_mitigation_age Securitypolicy#max_mitigation_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#max_mitigation_age Securitypolicy#max_mitigation_age}
   */
   readonly maxMitigationAge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#threshold Securitypolicy#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#threshold Securitypolicy#threshold}
   */
   readonly threshold?: string;
   /**
   * mitigation_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#mitigation_action Securitypolicy#mitigation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#mitigation_action Securitypolicy#mitigation_action}
   */
   readonly mitigationAction?: SecuritypolicyDnsAttacksAttacksMitigationAction[] | cdktf.IResolvable;
 }
@@ -884,13 +884,13 @@ export class SecuritypolicyDnsAttacksAttacksList extends cdktf.ComplexList {
 }
 export interface SecuritypolicyDnsAttacks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#oper_mode Securitypolicy#oper_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#oper_mode Securitypolicy#oper_mode}
   */
   readonly operMode?: string;
   /**
   * attacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#attacks Securitypolicy#attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#attacks Securitypolicy#attacks}
   */
   readonly attacks?: SecuritypolicyDnsAttacksAttacks[] | cdktf.IResolvable;
 }
@@ -1035,11 +1035,11 @@ export class SecuritypolicyDnsAttacksList extends cdktf.ComplexList {
 }
 export interface SecuritypolicyMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#key Securitypolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#key Securitypolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#values Securitypolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#values Securitypolicy#values}
   */
   readonly values?: string[];
 }
@@ -1343,7 +1343,7 @@ export class SecuritypolicyUdpAttacksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy avi_securitypolicy}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy avi_securitypolicy}
 */
 export class Securitypolicy extends cdktf.TerraformResource {
 
@@ -1359,7 +1359,7 @@ export class Securitypolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Securitypolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Securitypolicy to import
-  * @param importFromId The id of the existing Securitypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Securitypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Securitypolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1371,7 +1371,7 @@ export class Securitypolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/securitypolicy avi_securitypolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/securitypolicy avi_securitypolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1382,8 +1382,8 @@ export class Securitypolicy extends cdktf.TerraformResource {
       terraformResourceType: 'avi_securitypolicy',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Apply)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#aggregate-data]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#apply DataPowerplatformDataRecords#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#apply DataPowerplatformDataRecords#apply}
   */
   readonly apply?: string;
   /**
@@ -28,13 +28,13 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * *contacts(firstname='Joe',emailaddress1='joe@contoso.com') when using (alternate key(s))[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-alternate-key-reference-record?tabs=webapi] for single record retrieval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#entity_collection DataPowerplatformDataRecords#entity_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#entity_collection DataPowerplatformDataRecords#entity_collection}
   */
   readonly entityCollection: string;
   /**
   * Id of the Power Platform environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#environment_id DataPowerplatformDataRecords#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#environment_id DataPowerplatformDataRecords#environment_id}
   */
   readonly environmentId: string;
   /**
@@ -42,7 +42,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Expand)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#join-tables]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#expand DataPowerplatformDataRecords#expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#expand DataPowerplatformDataRecords#expand}
   */
   readonly expand?: DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable;
   /**
@@ -50,7 +50,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Filter)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#filter-rows]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#filter DataPowerplatformDataRecords#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#filter DataPowerplatformDataRecords#filter}
   */
   readonly filter?: string;
   /**
@@ -58,7 +58,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Order By)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#order-rows]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#order_by DataPowerplatformDataRecords#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#order_by DataPowerplatformDataRecords#order_by}
   */
   readonly orderBy?: string;
   /**
@@ -66,7 +66,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Count)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#count-number-of-rows]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#return_total_rows_count DataPowerplatformDataRecords#return_total_rows_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#return_total_rows_count DataPowerplatformDataRecords#return_total_rows_count}
   */
   readonly returnTotalRowsCount?: boolean | cdktf.IResolvable;
   /**
@@ -74,7 +74,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (Saved Query)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/retrieve-and-execute-predefined-queries]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#saved_query DataPowerplatformDataRecords#saved_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#saved_query DataPowerplatformDataRecords#saved_query}
   */
   readonly savedQuery?: string;
   /**
@@ -82,11 +82,11 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Select)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#select-columns]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#select DataPowerplatformDataRecords#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#select DataPowerplatformDataRecords#select}
   */
   readonly select?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#timeouts DataPowerplatformDataRecords#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#timeouts DataPowerplatformDataRecords#timeouts}
   */
   readonly timeouts?: DataPowerplatformDataRecordsTimeouts;
   /**
@@ -94,7 +94,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (OData Top)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#odata-query-options]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#top DataPowerplatformDataRecords#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#top DataPowerplatformDataRecords#top}
   */
   readonly top?: number;
   /**
@@ -102,7 +102,7 @@ export interface DataPowerplatformDataRecordsConfig extends cdktf.TerraformMetaA
   * 
   * More information on (Saved Query)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/retrieve-and-execute-predefined-queries]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#user_query DataPowerplatformDataRecords#user_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#user_query DataPowerplatformDataRecords#user_query}
   */
   readonly userQuery?: string;
 }
@@ -112,7 +112,7 @@ export interface DataPowerplatformDataRecordsExpand {
   * 
   * More information on (OData Expand)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#join-tables]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#expand DataPowerplatformDataRecords#expand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#expand DataPowerplatformDataRecords#expand}
   */
   readonly expand?: DataPowerplatformDataRecordsExpand[] | cdktf.IResolvable;
   /**
@@ -120,7 +120,7 @@ export interface DataPowerplatformDataRecordsExpand {
   * 
   * More information on (OData Filter)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#filter-rows]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#filter DataPowerplatformDataRecords#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#filter DataPowerplatformDataRecords#filter}
   */
   readonly filter?: string;
   /**
@@ -128,7 +128,7 @@ export interface DataPowerplatformDataRecordsExpand {
   * 
   * More information on (OData Navigation)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#expand-collection-valued-navigation-properties]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#navigation_property DataPowerplatformDataRecords#navigation_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#navigation_property DataPowerplatformDataRecords#navigation_property}
   */
   readonly navigationProperty: string;
   /**
@@ -136,7 +136,7 @@ export interface DataPowerplatformDataRecordsExpand {
   * 
   * More information on (OData Order By)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#order-rows]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#order_by DataPowerplatformDataRecords#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#order_by DataPowerplatformDataRecords#order_by}
   */
   readonly orderBy?: string;
   /**
@@ -144,7 +144,7 @@ export interface DataPowerplatformDataRecordsExpand {
   * 
   * More information on (OData Select)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#select-columns]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#select DataPowerplatformDataRecords#select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#select DataPowerplatformDataRecords#select}
   */
   readonly select?: string[];
   /**
@@ -152,7 +152,7 @@ export interface DataPowerplatformDataRecordsExpand {
   * 
   * More information on (OData Top)[https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api#odata-query-options]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#top DataPowerplatformDataRecords#top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#top DataPowerplatformDataRecords#top}
   */
   readonly top?: number;
 }
@@ -412,7 +412,7 @@ export interface DataPowerplatformDataRecordsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#read DataPowerplatformDataRecords#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#read DataPowerplatformDataRecords#read}
   */
   readonly read?: string;
 }
@@ -506,7 +506,7 @@ export class DataPowerplatformDataRecordsTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records powerplatform_data_records}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records powerplatform_data_records}
 */
 export class DataPowerplatformDataRecords extends cdktf.TerraformDataSource {
 
@@ -522,7 +522,7 @@ export class DataPowerplatformDataRecords extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformDataRecords resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformDataRecords to import
-  * @param importFromId The id of the existing DataPowerplatformDataRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformDataRecords that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformDataRecords to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -534,7 +534,7 @@ export class DataPowerplatformDataRecords extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_data_records powerplatform_data_records} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_data_records powerplatform_data_records} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,8 +545,8 @@ export class DataPowerplatformDataRecords extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_data_records',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

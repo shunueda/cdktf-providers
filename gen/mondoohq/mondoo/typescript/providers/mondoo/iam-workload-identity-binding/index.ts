@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IamWorkloadIdentityBindingConfig extends cdktf.TerraformMetaArg
   /**
   *  List of allowed audiences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#allowed_audiences IamWorkloadIdentityBinding#allowed_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#allowed_audiences IamWorkloadIdentityBinding#allowed_audiences}
   */
   readonly allowedAudiences?: string[];
   /**
   * Description of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#description IamWorkloadIdentityBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#description IamWorkloadIdentityBinding#description}
   */
   readonly description?: string;
   /**
   * Expiration in seconds associated with the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#expiration IamWorkloadIdentityBinding#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#expiration IamWorkloadIdentityBinding#expiration}
   */
   readonly expiration?: number;
   /**
   * URI for the token issuer, e.g. https://accounts.google.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#issuer_uri IamWorkloadIdentityBinding#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#issuer_uri IamWorkloadIdentityBinding#issuer_uri}
   */
   readonly issuerUri: string;
   /**
   * List of additional configurations to confirm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#mappings IamWorkloadIdentityBinding#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#mappings IamWorkloadIdentityBinding#mappings}
   */
   readonly mappings?: { [key: string]: string };
   /**
   * Name of the binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#name IamWorkloadIdentityBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#name IamWorkloadIdentityBinding#name}
   */
   readonly name: string;
   /**
   * List of role names to assign to the binding. Can be specified as short names (e.g. "editor") or full MRNs (e.g. "//iam.api.mondoo.app/roles/editor"). Available roles: integrations-manager, sla-manager, policy-manager, policy-editor, ticket-manager, ticket-creator, exceptions-requester, query-pack-manager, query-pack-editor, viewer, editor, owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#roles IamWorkloadIdentityBinding#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#roles IamWorkloadIdentityBinding#roles}
   */
   readonly roles?: string[];
   /**
   * The MRN of the scope (either space or organization). If there is no scope, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#scope_mrn IamWorkloadIdentityBinding#scope_mrn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#scope_mrn IamWorkloadIdentityBinding#scope_mrn}
   */
   readonly scopeMrn?: string;
   /**
   * Unique identifier to confirm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#subject IamWorkloadIdentityBinding#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#subject IamWorkloadIdentityBinding#subject}
   */
   readonly subject: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding mondoo_iam_workload_identity_binding}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding mondoo_iam_workload_identity_binding}
 */
 export class IamWorkloadIdentityBinding extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class IamWorkloadIdentityBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamWorkloadIdentityBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamWorkloadIdentityBinding to import
-  * @param importFromId The id of the existing IamWorkloadIdentityBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamWorkloadIdentityBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamWorkloadIdentityBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class IamWorkloadIdentityBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/iam_workload_identity_binding mondoo_iam_workload_identity_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/iam_workload_identity_binding mondoo_iam_workload_identity_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class IamWorkloadIdentityBinding extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_iam_workload_identity_binding',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

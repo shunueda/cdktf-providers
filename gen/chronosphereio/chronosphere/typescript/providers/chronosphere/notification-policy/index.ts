@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface NotificationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#id NotificationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#id NotificationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#name NotificationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#name NotificationPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#notification_policy_data NotificationPolicy#notification_policy_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#notification_policy_data NotificationPolicy#notification_policy_data}
   */
   readonly notificationPolicyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#slug NotificationPolicy#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#slug NotificationPolicy#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#team_id NotificationPolicy#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#team_id NotificationPolicy#team_id}
   */
   readonly teamId?: string;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#override NotificationPolicy#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#override NotificationPolicy#override}
   */
   readonly override?: NotificationPolicyOverride[] | cdktf.IResolvable;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#route NotificationPolicy#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#route NotificationPolicy#route}
   */
   readonly route?: NotificationPolicyRoute[] | cdktf.IResolvable;
 }
 export interface NotificationPolicyOverrideAlertLabelMatcher {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#name NotificationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#name NotificationPolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#type NotificationPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#type NotificationPolicy#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#value NotificationPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#value NotificationPolicy#value}
   */
   readonly value: string;
 }
@@ -218,7 +218,7 @@ export class NotificationPolicyOverrideAlertLabelMatcherList extends cdktf.Compl
 }
 export interface NotificationPolicyOverrideRouteGroupBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#label_names NotificationPolicy#label_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#label_names NotificationPolicy#label_names}
   */
   readonly labelNames?: string[];
 }
@@ -302,21 +302,21 @@ export class NotificationPolicyOverrideRouteGroupByOutputReference extends cdktf
 }
 export interface NotificationPolicyOverrideRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#notifiers NotificationPolicy#notifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#notifiers NotificationPolicy#notifiers}
   */
   readonly notifiers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#repeat_interval NotificationPolicy#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#repeat_interval NotificationPolicy#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#severity NotificationPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#severity NotificationPolicy#severity}
   */
   readonly severity: string;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#group_by NotificationPolicy#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#group_by NotificationPolicy#group_by}
   */
   readonly groupBy?: NotificationPolicyOverrideRouteGroupBy;
 }
@@ -518,13 +518,13 @@ export interface NotificationPolicyOverride {
   /**
   * alert_label_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#alert_label_matcher NotificationPolicy#alert_label_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#alert_label_matcher NotificationPolicy#alert_label_matcher}
   */
   readonly alertLabelMatcher: NotificationPolicyOverrideAlertLabelMatcher[] | cdktf.IResolvable;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#route NotificationPolicy#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#route NotificationPolicy#route}
   */
   readonly route?: NotificationPolicyOverrideRoute[] | cdktf.IResolvable;
 }
@@ -666,7 +666,7 @@ export class NotificationPolicyOverrideList extends cdktf.ComplexList {
 }
 export interface NotificationPolicyRouteGroupBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#label_names NotificationPolicy#label_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#label_names NotificationPolicy#label_names}
   */
   readonly labelNames?: string[];
 }
@@ -750,21 +750,21 @@ export class NotificationPolicyRouteGroupByOutputReference extends cdktf.Complex
 }
 export interface NotificationPolicyRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#notifiers NotificationPolicy#notifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#notifiers NotificationPolicy#notifiers}
   */
   readonly notifiers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#repeat_interval NotificationPolicy#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#repeat_interval NotificationPolicy#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#severity NotificationPolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#severity NotificationPolicy#severity}
   */
   readonly severity: string;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#group_by NotificationPolicy#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#group_by NotificationPolicy#group_by}
   */
   readonly groupBy?: NotificationPolicyRouteGroupBy;
 }
@@ -964,7 +964,7 @@ export class NotificationPolicyRouteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy chronosphere_notification_policy}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy chronosphere_notification_policy}
 */
 export class NotificationPolicy extends cdktf.TerraformResource {
 
@@ -980,7 +980,7 @@ export class NotificationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationPolicy to import
-  * @param importFromId The id of the existing NotificationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -992,7 +992,7 @@ export class NotificationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/notification_policy chronosphere_notification_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.19.0/docs/resources/notification_policy chronosphere_notification_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1003,8 +1003,8 @@ export class NotificationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_notification_policy',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.18.0',
-        providerVersionConstraint: '1.18.0'
+        providerVersion: '1.19.0',
+        providerVersionConstraint: '1.19.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

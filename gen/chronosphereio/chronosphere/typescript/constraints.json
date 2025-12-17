@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "chronosphere": "1.18.0"
+    "chronosphere": "1.19.0"
   }
 }

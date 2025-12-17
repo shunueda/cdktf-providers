@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface StatusPageTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the event the template will populate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#body StatusPageTemplate#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#body StatusPageTemplate#body}
   */
   readonly body: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#enabled StatusPageTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#enabled StatusPageTemplate#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#id StatusPageTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#id StatusPageTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,41 +27,41 @@ export interface StatusPageTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The kind of the status page template. Value must be one of `normal`, `scheduled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#kind StatusPageTemplate#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#kind StatusPageTemplate#kind}
   */
   readonly kind?: string;
   /**
   * Position of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#position StatusPageTemplate#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#position StatusPageTemplate#position}
   */
   readonly position?: number;
   /**
   * Controls if incident subscribers should be notified. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#should_notify_subscribers StatusPageTemplate#should_notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#should_notify_subscribers StatusPageTemplate#should_notify_subscribers}
   */
   readonly shouldNotifySubscribers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#status_page_id StatusPageTemplate#status_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#status_page_id StatusPageTemplate#status_page_id}
   */
   readonly statusPageId?: string;
   /**
   * Title of the template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#title StatusPageTemplate#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#title StatusPageTemplate#title}
   */
   readonly title: string;
   /**
   * Status of the event the template will populate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#update_status StatusPageTemplate#update_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#update_status StatusPageTemplate#update_status}
   */
   readonly updateStatus?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template rootly_status_page_template}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template rootly_status_page_template}
 */
 export class StatusPageTemplate extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class StatusPageTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatusPageTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatusPageTemplate to import
-  * @param importFromId The id of the existing StatusPageTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatusPageTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatusPageTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class StatusPageTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/status_page_template rootly_status_page_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/status_page_template rootly_status_page_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class StatusPageTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_status_page_template',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

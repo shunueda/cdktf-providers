@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface SpanningTreeConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#device SpanningTree#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#device SpanningTree#device}
   */
   readonly device?: string;
   /**
   * Extend system-id into priority portion of the bridge id (PVST & Rapid PVST only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#extend_system_id SpanningTree#extend_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#extend_system_id SpanningTree#extend_system_id}
   */
   readonly extendSystemId?: boolean | cdktf.IResolvable;
   /**
   * Enable Spanning tree logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#logging SpanningTree#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#logging SpanningTree#logging}
   */
   readonly logging?: boolean | cdktf.IResolvable;
   /**
   * Enable loopguard by default on all ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#loopguard_default SpanningTree#loopguard_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#loopguard_default SpanningTree#loopguard_default}
   */
   readonly loopguardDefault?: boolean | cdktf.IResolvable;
   /**
   * Spanning tree operating mode
   *   - Choices: `mst`, `pvst`, `rapid-pvst`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#mode SpanningTree#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#mode SpanningTree#mode}
   */
   readonly mode?: string;
   /**
   * Map vlans to an MST instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#mst_instances SpanningTree#mst_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#mst_instances SpanningTree#mst_instances}
   */
   readonly mstInstances?: SpanningTreeMstInstances[] | cdktf.IResolvable;
   /**
   * Enable bpdu guard by default on all portfast edge ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#portfast_bpduguard_default SpanningTree#portfast_bpduguard_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#portfast_bpduguard_default SpanningTree#portfast_bpduguard_default}
   */
   readonly portfastBpduguardDefault?: boolean | cdktf.IResolvable;
   /**
   * Enable portfast by default on all access ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#portfast_default SpanningTree#portfast_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#portfast_default SpanningTree#portfast_default}
   */
   readonly portfastDefault?: boolean | cdktf.IResolvable;
   /**
   * VLAN Switch Spanning Tree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#vlans SpanningTree#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#vlans SpanningTree#vlans}
   */
   readonly vlans?: SpanningTreeVlans[] | cdktf.IResolvable;
 }
@@ -68,7 +68,7 @@ export interface SpanningTreeMstInstances {
   * 
   *   - Range: `0`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#id SpanningTree#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#id SpanningTree#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ export interface SpanningTreeMstInstances {
   /**
   * Range of vlans to add to the instance mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#vlan_ids SpanningTree#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#vlan_ids SpanningTree#vlan_ids}
   */
   readonly vlanIds?: number[];
 }
@@ -219,7 +219,7 @@ export class SpanningTreeMstInstancesList extends cdktf.ComplexList {
 }
 export interface SpanningTreeVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#id SpanningTree#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#id SpanningTree#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -229,7 +229,7 @@ export interface SpanningTreeVlans {
   * Set the bridge priority for the spanning tree
   *   - Range: `0`-`61440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#priority SpanningTree#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#priority SpanningTree#priority}
   */
   readonly priority?: number;
 }
@@ -371,7 +371,7 @@ export class SpanningTreeVlansList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree iosxe_spanning_tree}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree iosxe_spanning_tree}
 */
 export class SpanningTree extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class SpanningTree extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SpanningTree resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpanningTree to import
-  * @param importFromId The id of the existing SpanningTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpanningTree that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpanningTree to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class SpanningTree extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/spanning_tree iosxe_spanning_tree} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/spanning_tree iosxe_spanning_tree} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class SpanningTree extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_spanning_tree',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

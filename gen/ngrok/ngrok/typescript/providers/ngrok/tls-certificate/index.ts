@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate
+// https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TlsCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * chain of PEM-encoded certificates, leaf first. See [Certificate Bundles](https://ngrok.com/docs/cloud-edge/endpoints#certificate-chains).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate#certificate_pem TlsCertificate#certificate_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate#certificate_pem TlsCertificate#certificate_pem}
   */
   readonly certificatePem: string;
   /**
   * human-readable description of this TLS certificate. optional, max 255 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate#description TlsCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate#description TlsCertificate#description}
   */
   readonly description?: string;
   /**
   * arbitrary user-defined machine-readable data of this TLS certificate. optional, max 4096 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate#metadata TlsCertificate#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate#metadata TlsCertificate#metadata}
   */
   readonly metadata?: string;
   /**
   * private key for the TLS certificate, PEM-encoded. See [Private Keys](https://ngrok.com/docs/cloud-edge/endpoints#private-keys).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate#private_key_pem TlsCertificate#private_key_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate#private_key_pem TlsCertificate#private_key_pem}
   */
   readonly privateKeyPem: string;
 }
@@ -114,7 +114,7 @@ export class TlsCertificateSubjectAlternativeNamesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate ngrok_tls_certificate}
+* Represents a {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate ngrok_tls_certificate}
 */
 export class TlsCertificate extends cdktf.TerraformResource {
 
@@ -130,7 +130,7 @@ export class TlsCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsCertificate to import
-  * @param importFromId The id of the existing TlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class TlsCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.5.0/docs/resources/tls_certificate ngrok_tls_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ngrok/ngrok/0.6.0/docs/resources/tls_certificate ngrok_tls_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class TlsCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'ngrok_tls_certificate',
       terraformGeneratorMetadata: {
         providerName: 'ngrok',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

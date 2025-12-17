@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies
+// https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPowerplatformCurrenciesConfig extends cdktf.TerraformMetaAr
   /**
   * Location of the currencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies#location DataPowerplatformCurrencies#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies#location DataPowerplatformCurrencies#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies#timeouts DataPowerplatformCurrencies#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies#timeouts DataPowerplatformCurrencies#timeouts}
   */
   readonly timeouts?: DataPowerplatformCurrenciesTimeouts;
 }
@@ -122,7 +122,7 @@ export interface DataPowerplatformCurrenciesTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies#read DataPowerplatformCurrencies#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies#read DataPowerplatformCurrencies#read}
   */
   readonly read?: string;
 }
@@ -216,7 +216,7 @@ export class DataPowerplatformCurrenciesTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies powerplatform_currencies}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies powerplatform_currencies}
 */
 export class DataPowerplatformCurrencies extends cdktf.TerraformDataSource {
 
@@ -232,7 +232,7 @@ export class DataPowerplatformCurrencies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPowerplatformCurrencies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPowerplatformCurrencies to import
-  * @param importFromId The id of the existing DataPowerplatformCurrencies that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPowerplatformCurrencies that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPowerplatformCurrencies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class DataPowerplatformCurrencies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/3.9.1/docs/data-sources/powerplatform_currencies powerplatform_currencies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/power-platform/4.0.0/docs/data-sources/powerplatform_currencies powerplatform_currencies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class DataPowerplatformCurrencies extends cdktf.TerraformDataSource {
       terraformResourceType: 'powerplatform_currencies',
       terraformGeneratorMetadata: {
         providerName: 'power-platform',
-        providerVersion: '3.9.1',
-        providerVersionConstraint: '3.9.1'
+        providerVersion: '4.0.0',
+        providerVersionConstraint: '4.0.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

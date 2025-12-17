@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab
+// https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface IntegrationGitlabConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base URL of the GitLab instance (only set this if your instance is self-hosted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#base_url IntegrationGitlab#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#base_url IntegrationGitlab#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#credentials IntegrationGitlab#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#credentials IntegrationGitlab#credentials}
   */
   readonly credentials: IntegrationGitlabCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#discovery IntegrationGitlab#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#discovery IntegrationGitlab#discovery}
   */
   readonly discovery?: IntegrationGitlabDiscovery;
   /**
   * Group to assign the integration to (by default all groups are discovered).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#group IntegrationGitlab#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#group IntegrationGitlab#group}
   */
   readonly group?: string;
   /**
   * Name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#name IntegrationGitlab#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#name IntegrationGitlab#name}
   */
   readonly name: string;
   /**
   * Mondoo space identifier. If there is no space ID, the provider space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#space_id IntegrationGitlab#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#space_id IntegrationGitlab#space_id}
   */
   readonly spaceId?: string;
 }
@@ -44,7 +44,7 @@ export interface IntegrationGitlabCredentials {
   /**
   * Token for GitLab integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#token IntegrationGitlab#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#token IntegrationGitlab#token}
   */
   readonly token: string;
 }
@@ -137,25 +137,25 @@ export interface IntegrationGitlabDiscovery {
   /**
   * Enable discovery of GitLab groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#groups IntegrationGitlab#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#groups IntegrationGitlab#groups}
   */
   readonly groups?: boolean | cdktf.IResolvable;
   /**
   * Enable discovery of Kubernetes manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#k8s_manifests IntegrationGitlab#k8s_manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#k8s_manifests IntegrationGitlab#k8s_manifests}
   */
   readonly k8SManifests?: boolean | cdktf.IResolvable;
   /**
   * Enable discovery of GitLab projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#projects IntegrationGitlab#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#projects IntegrationGitlab#projects}
   */
   readonly projects?: boolean | cdktf.IResolvable;
   /**
   * Enable discovery of Terraform configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#terraform IntegrationGitlab#terraform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#terraform IntegrationGitlab#terraform}
   */
   readonly terraform?: boolean | cdktf.IResolvable;
 }
@@ -336,7 +336,7 @@ export class IntegrationGitlabDiscoveryOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab mondoo_integration_gitlab}
+* Represents a {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab mondoo_integration_gitlab}
 */
 export class IntegrationGitlab extends cdktf.TerraformResource {
 
@@ -352,7 +352,7 @@ export class IntegrationGitlab extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGitlab resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGitlab to import
-  * @param importFromId The id of the existing IntegrationGitlab that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGitlab that should be imported. Refer to the {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGitlab to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class IntegrationGitlab extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.0/docs/resources/integration_gitlab mondoo_integration_gitlab} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mondoohq/mondoo/0.35.2/docs/resources/integration_gitlab mondoo_integration_gitlab} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class IntegrationGitlab extends cdktf.TerraformResource {
       terraformResourceType: 'mondoo_integration_gitlab',
       terraformGeneratorMetadata: {
         providerName: 'mondoo',
-        providerVersion: '0.35.0',
-        providerVersionConstraint: '0.35.0'
+        providerVersion: '0.35.2',
+        providerVersionConstraint: '0.35.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

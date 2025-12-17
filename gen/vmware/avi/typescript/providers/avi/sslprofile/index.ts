@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface SslprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#accepted_ciphers Sslprofile#accepted_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#accepted_ciphers Sslprofile#accepted_ciphers}
   */
   readonly acceptedCiphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#cipher_enums Sslprofile#cipher_enums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#cipher_enums Sslprofile#cipher_enums}
   */
   readonly cipherEnums?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#ciphersuites Sslprofile#ciphersuites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#ciphersuites Sslprofile#ciphersuites}
   */
   readonly ciphersuites?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#description Sslprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#description Sslprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#dhparam Sslprofile#dhparam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#dhparam Sslprofile#dhparam}
   */
   readonly dhparam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#ec_named_curve Sslprofile#ec_named_curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#ec_named_curve Sslprofile#ec_named_curve}
   */
   readonly ecNamedCurve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#enable_early_data Sslprofile#enable_early_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#enable_early_data Sslprofile#enable_early_data}
   */
   readonly enableEarlyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#enable_ssl_session_reuse Sslprofile#enable_ssl_session_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#enable_ssl_session_reuse Sslprofile#enable_ssl_session_reuse}
   */
   readonly enableSslSessionReuse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#id Sslprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#id Sslprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#is_federated Sslprofile#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#is_federated Sslprofile#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#name Sslprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#name Sslprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#prefer_client_cipher_ordering Sslprofile#prefer_client_cipher_ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#prefer_client_cipher_ordering Sslprofile#prefer_client_cipher_ordering}
   */
   readonly preferClientCipherOrdering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#send_close_notify Sslprofile#send_close_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#send_close_notify Sslprofile#send_close_notify}
   */
   readonly sendCloseNotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#signature_algorithm Sslprofile#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#signature_algorithm Sslprofile#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#ssl_session_timeout Sslprofile#ssl_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#ssl_session_timeout Sslprofile#ssl_session_timeout}
   */
   readonly sslSessionTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#tenant_ref Sslprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#tenant_ref Sslprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#type Sslprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#type Sslprofile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#uuid Sslprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#uuid Sslprofile#uuid}
   */
   readonly uuid?: string;
   /**
   * accepted_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#accepted_versions Sslprofile#accepted_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#accepted_versions Sslprofile#accepted_versions}
   */
   readonly acceptedVersions: SslprofileAcceptedVersions[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#configpb_attributes Sslprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#configpb_attributes Sslprofile#configpb_attributes}
   */
   readonly configpbAttributes?: SslprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#markers Sslprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#markers Sslprofile#markers}
   */
   readonly markers?: SslprofileMarkers[] | cdktf.IResolvable;
   /**
   * ssl_rating block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#ssl_rating Sslprofile#ssl_rating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#ssl_rating Sslprofile#ssl_rating}
   */
   readonly sslRating?: SslprofileSslRating[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#tags Sslprofile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#tags Sslprofile#tags}
   */
   readonly tags?: SslprofileTags[] | cdktf.IResolvable;
 }
 export interface SslprofileAcceptedVersions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#type Sslprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#type Sslprofile#type}
   */
   readonly type: string;
 }
@@ -228,7 +228,7 @@ export class SslprofileAcceptedVersionsList extends cdktf.ComplexList {
 }
 export interface SslprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#version Sslprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#version Sslprofile#version}
   */
   readonly version?: string;
 }
@@ -344,11 +344,11 @@ export class SslprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface SslprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#key Sslprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#key Sslprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#values Sslprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#values Sslprofile#values}
   */
   readonly values?: string[];
 }
@@ -490,15 +490,15 @@ export class SslprofileMarkersList extends cdktf.ComplexList {
 }
 export interface SslprofileSslRating {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#compatibility_rating Sslprofile#compatibility_rating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#compatibility_rating Sslprofile#compatibility_rating}
   */
   readonly compatibilityRating?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#performance_rating Sslprofile#performance_rating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#performance_rating Sslprofile#performance_rating}
   */
   readonly performanceRating?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#security_score Sslprofile#security_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#security_score Sslprofile#security_score}
   */
   readonly securityScore?: string;
 }
@@ -672,11 +672,11 @@ export class SslprofileSslRatingList extends cdktf.ComplexList {
 }
 export interface SslprofileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#type Sslprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#type Sslprofile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#value Sslprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#value Sslprofile#value}
   */
   readonly value: string;
 }
@@ -818,7 +818,7 @@ export class SslprofileTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile avi_sslprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile avi_sslprofile}
 */
 export class Sslprofile extends cdktf.TerraformResource {
 
@@ -834,7 +834,7 @@ export class Sslprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslprofile to import
-  * @param importFromId The id of the existing Sslprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -846,7 +846,7 @@ export class Sslprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/sslprofile avi_sslprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/sslprofile avi_sslprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -857,8 +857,8 @@ export class Sslprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_sslprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateAirtableTableRecordConfig extends cdktf.Terra
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#enabled WorkflowTaskUpdateAirtableTableRecord#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#enabled WorkflowTaskUpdateAirtableTableRecord#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#id WorkflowTaskUpdateAirtableTableRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#id WorkflowTaskUpdateAirtableTableRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateAirtableTableRecordConfig extends cdktf.Terra
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#name WorkflowTaskUpdateAirtableTableRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#name WorkflowTaskUpdateAirtableTableRecord#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#position WorkflowTaskUpdateAirtableTableRecord#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#position WorkflowTaskUpdateAirtableTableRecord#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#skip_on_failure WorkflowTaskUpdateAirtableTableRecord#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#skip_on_failure WorkflowTaskUpdateAirtableTableRecord#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#workflow_id WorkflowTaskUpdateAirtableTableRecord#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#workflow_id WorkflowTaskUpdateAirtableTableRecord#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#task_params WorkflowTaskUpdateAirtableTableRecord#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#task_params WorkflowTaskUpdateAirtableTableRecord#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateAirtableTableRecordTaskParams;
 }
@@ -55,29 +55,29 @@ export interface WorkflowTaskUpdateAirtableTableRecordTaskParams {
   /**
   * The base key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#base_key WorkflowTaskUpdateAirtableTableRecord#base_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#base_key WorkflowTaskUpdateAirtableTableRecord#base_key}
   */
   readonly baseKey: string;
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#custom_fields_mapping WorkflowTaskUpdateAirtableTableRecord#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#custom_fields_mapping WorkflowTaskUpdateAirtableTableRecord#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * The record id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#record_id WorkflowTaskUpdateAirtableTableRecord#record_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#record_id WorkflowTaskUpdateAirtableTableRecord#record_id}
   */
   readonly recordId: string;
   /**
   * The table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#table_name WorkflowTaskUpdateAirtableTableRecord#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#table_name WorkflowTaskUpdateAirtableTableRecord#table_name}
   */
   readonly tableName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#task_type WorkflowTaskUpdateAirtableTableRecord#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#task_type WorkflowTaskUpdateAirtableTableRecord#task_type}
   */
   readonly taskType?: string;
 }
@@ -268,7 +268,7 @@ export class WorkflowTaskUpdateAirtableTableRecordTaskParamsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record rootly_workflow_task_update_airtable_table_record}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record rootly_workflow_task_update_airtable_table_record}
 */
 export class WorkflowTaskUpdateAirtableTableRecord extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class WorkflowTaskUpdateAirtableTableRecord extends cdktf.TerraformResour
   * Generates CDKTF code for importing a WorkflowTaskUpdateAirtableTableRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateAirtableTableRecord to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateAirtableTableRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateAirtableTableRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateAirtableTableRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class WorkflowTaskUpdateAirtableTableRecord extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/resources/workflow_task_update_airtable_table_record rootly_workflow_task_update_airtable_table_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_airtable_table_record rootly_workflow_task_update_airtable_table_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class WorkflowTaskUpdateAirtableTableRecord extends cdktf.TerraformResour
       terraformResourceType: 'rootly_workflow_task_update_airtable_table_record',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

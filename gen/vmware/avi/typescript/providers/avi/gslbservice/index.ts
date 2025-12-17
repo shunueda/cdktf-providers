@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,132 +8,132 @@ import * as cdktf from 'cdktf';
 
 export interface GslbserviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#application_persistence_profile_ref Gslbservice#application_persistence_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#application_persistence_profile_ref Gslbservice#application_persistence_profile_ref}
   */
   readonly applicationPersistenceProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#controller_health_status_enabled Gslbservice#controller_health_status_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#controller_health_status_enabled Gslbservice#controller_health_status_enabled}
   */
   readonly controllerHealthStatusEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#created_by Gslbservice#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#created_by Gslbservice#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#description Gslbservice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#description Gslbservice#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#domain_names Gslbservice#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#domain_names Gslbservice#domain_names}
   */
   readonly domainNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#enabled Gslbservice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#enabled Gslbservice#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#health_monitor_refs Gslbservice#health_monitor_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#health_monitor_refs Gslbservice#health_monitor_refs}
   */
   readonly healthMonitorRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#health_monitor_scope Gslbservice#health_monitor_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#health_monitor_scope Gslbservice#health_monitor_scope}
   */
   readonly healthMonitorScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#hm_off Gslbservice#hm_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#hm_off Gslbservice#hm_off}
   */
   readonly hmOff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#id Gslbservice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#id Gslbservice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#is_federated Gslbservice#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#is_federated Gslbservice#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#min_members Gslbservice#min_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#min_members Gslbservice#min_members}
   */
   readonly minMembers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#name Gslbservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#name Gslbservice#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#num_dns_ip Gslbservice#num_dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#num_dns_ip Gslbservice#num_dns_ip}
   */
   readonly numDnsIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#pki_profile_ref Gslbservice#pki_profile_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#pki_profile_ref Gslbservice#pki_profile_ref}
   */
   readonly pkiProfileRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#pool_algorithm Gslbservice#pool_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#pool_algorithm Gslbservice#pool_algorithm}
   */
   readonly poolAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#resolve_cname Gslbservice#resolve_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#resolve_cname Gslbservice#resolve_cname}
   */
   readonly resolveCname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#site_persistence_enabled Gslbservice#site_persistence_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#site_persistence_enabled Gslbservice#site_persistence_enabled}
   */
   readonly sitePersistenceEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#tenant_ref Gslbservice#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#tenant_ref Gslbservice#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#topology_policy_enabled Gslbservice#topology_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#topology_policy_enabled Gslbservice#topology_policy_enabled}
   */
   readonly topologyPolicyEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#ttl Gslbservice#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#ttl Gslbservice#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#use_edns_client_subnet Gslbservice#use_edns_client_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#use_edns_client_subnet Gslbservice#use_edns_client_subnet}
   */
   readonly useEdnsClientSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#uuid Gslbservice#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#uuid Gslbservice#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#wildcard_match Gslbservice#wildcard_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#wildcard_match Gslbservice#wildcard_match}
   */
   readonly wildcardMatch?: string;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#configpb_attributes Gslbservice#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#configpb_attributes Gslbservice#configpb_attributes}
   */
   readonly configpbAttributes?: GslbserviceConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * down_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#down_response Gslbservice#down_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#down_response Gslbservice#down_response}
   */
   readonly downResponse?: GslbserviceDownResponse[] | cdktf.IResolvable;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#groups Gslbservice#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#groups Gslbservice#groups}
   */
   readonly groups: GslbserviceGroups[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#markers Gslbservice#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#markers Gslbservice#markers}
   */
   readonly markers?: GslbserviceMarkers[] | cdktf.IResolvable;
 }
 export interface GslbserviceConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#version Gslbservice#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#version Gslbservice#version}
   */
   readonly version?: string;
 }
@@ -249,11 +249,11 @@ export class GslbserviceConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface GslbserviceDownResponseFallbackIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#addr Gslbservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#addr Gslbservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#type Gslbservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#type Gslbservice#type}
   */
   readonly type: string;
 }
@@ -392,11 +392,11 @@ export class GslbserviceDownResponseFallbackIpList extends cdktf.ComplexList {
 }
 export interface GslbserviceDownResponseFallbackIp6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#addr Gslbservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#addr Gslbservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#type Gslbservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#type Gslbservice#type}
   */
   readonly type: string;
 }
@@ -535,23 +535,23 @@ export class GslbserviceDownResponseFallbackIp6List extends cdktf.ComplexList {
 }
 export interface GslbserviceDownResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#fallback_cname Gslbservice#fallback_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#fallback_cname Gslbservice#fallback_cname}
   */
   readonly fallbackCname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#type Gslbservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#type Gslbservice#type}
   */
   readonly type?: string;
   /**
   * fallback_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#fallback_ip Gslbservice#fallback_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#fallback_ip Gslbservice#fallback_ip}
   */
   readonly fallbackIp?: GslbserviceDownResponseFallbackIp[] | cdktf.IResolvable;
   /**
   * fallback_ip6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#fallback_ip6 Gslbservice#fallback_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#fallback_ip6 Gslbservice#fallback_ip6}
   */
   readonly fallbackIp6?: GslbserviceDownResponseFallbackIp6[] | cdktf.IResolvable;
 }
@@ -754,11 +754,11 @@ export class GslbserviceDownResponseList extends cdktf.ComplexList {
 }
 export interface GslbserviceGroupsMembersIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#addr Gslbservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#addr Gslbservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#type Gslbservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#type Gslbservice#type}
   */
   readonly type: string;
 }
@@ -897,19 +897,19 @@ export class GslbserviceGroupsMembersIpList extends cdktf.ComplexList {
 }
 export interface GslbserviceGroupsMembersLocationLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#latitude Gslbservice#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#latitude Gslbservice#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#longitude Gslbservice#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#longitude Gslbservice#longitude}
   */
   readonly longitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#name Gslbservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#name Gslbservice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#tag Gslbservice#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#tag Gslbservice#tag}
   */
   readonly tag?: string;
 }
@@ -1112,13 +1112,13 @@ export class GslbserviceGroupsMembersLocationLocationList extends cdktf.ComplexL
 }
 export interface GslbserviceGroupsMembersLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#source Gslbservice#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#source Gslbservice#source}
   */
   readonly source: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#location Gslbservice#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#location Gslbservice#location}
   */
   readonly location?: GslbserviceGroupsMembersLocationLocation[] | cdktf.IResolvable;
 }
@@ -1260,11 +1260,11 @@ export class GslbserviceGroupsMembersLocationList extends cdktf.ComplexList {
 }
 export interface GslbserviceGroupsMembersPublicIpIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#addr Gslbservice#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#addr Gslbservice#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#type Gslbservice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#type Gslbservice#type}
   */
   readonly type: string;
 }
@@ -1405,7 +1405,7 @@ export interface GslbserviceGroupsMembersPublicIp {
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#ip Gslbservice#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#ip Gslbservice#ip}
   */
   readonly ip?: GslbserviceGroupsMembersPublicIpIp[] | cdktf.IResolvable;
 }
@@ -1521,61 +1521,61 @@ export class GslbserviceGroupsMembersPublicIpList extends cdktf.ComplexList {
 }
 export interface GslbserviceGroupsMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#cloud_uuid Gslbservice#cloud_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#cloud_uuid Gslbservice#cloud_uuid}
   */
   readonly cloudUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#cluster_uuid Gslbservice#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#cluster_uuid Gslbservice#cluster_uuid}
   */
   readonly clusterUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#description Gslbservice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#description Gslbservice#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#enabled Gslbservice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#enabled Gslbservice#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#fqdn Gslbservice#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#fqdn Gslbservice#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#hostname Gslbservice#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#hostname Gslbservice#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#preference_order Gslbservice#preference_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#preference_order Gslbservice#preference_order}
   */
   readonly preferenceOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#ratio Gslbservice#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#ratio Gslbservice#ratio}
   */
   readonly ratio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#resolve_fqdn_to_v6 Gslbservice#resolve_fqdn_to_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#resolve_fqdn_to_v6 Gslbservice#resolve_fqdn_to_v6}
   */
   readonly resolveFqdnToV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#vs_uuid Gslbservice#vs_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#vs_uuid Gslbservice#vs_uuid}
   */
   readonly vsUuid?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#ip Gslbservice#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#ip Gslbservice#ip}
   */
   readonly ip?: GslbserviceGroupsMembersIp[] | cdktf.IResolvable;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#location Gslbservice#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#location Gslbservice#location}
   */
   readonly location?: GslbserviceGroupsMembersLocation[] | cdktf.IResolvable;
   /**
   * public_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#public_ip Gslbservice#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#public_ip Gslbservice#public_ip}
   */
   readonly publicIp?: GslbserviceGroupsMembersPublicIp[] | cdktf.IResolvable;
 }
@@ -2039,49 +2039,49 @@ export class GslbserviceGroupsMembersList extends cdktf.ComplexList {
 }
 export interface GslbserviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#algorithm Gslbservice#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#algorithm Gslbservice#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#consistent_hash_mask Gslbservice#consistent_hash_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#consistent_hash_mask Gslbservice#consistent_hash_mask}
   */
   readonly consistentHashMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#consistent_hash_mask6 Gslbservice#consistent_hash_mask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#consistent_hash_mask6 Gslbservice#consistent_hash_mask6}
   */
   readonly consistentHashMask6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#description Gslbservice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#description Gslbservice#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#enabled Gslbservice#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#enabled Gslbservice#enabled}
   */
   readonly enabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#fallback_algorithm Gslbservice#fallback_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#fallback_algorithm Gslbservice#fallback_algorithm}
   */
   readonly fallbackAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#manual_resume Gslbservice#manual_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#manual_resume Gslbservice#manual_resume}
   */
   readonly manualResume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#min_health_monitors_up Gslbservice#min_health_monitors_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#min_health_monitors_up Gslbservice#min_health_monitors_up}
   */
   readonly minHealthMonitorsUp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#name Gslbservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#name Gslbservice#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#priority Gslbservice#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#priority Gslbservice#priority}
   */
   readonly priority?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#members Gslbservice#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#members Gslbservice#members}
   */
   readonly members: GslbserviceGroupsMembers[] | cdktf.IResolvable;
 }
@@ -2481,11 +2481,11 @@ export class GslbserviceGroupsList extends cdktf.ComplexList {
 }
 export interface GslbserviceMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#key Gslbservice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#key Gslbservice#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#values Gslbservice#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#values Gslbservice#values}
   */
   readonly values?: string[];
 }
@@ -2627,7 +2627,7 @@ export class GslbserviceMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice avi_gslbservice}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice avi_gslbservice}
 */
 export class Gslbservice extends cdktf.TerraformResource {
 
@@ -2643,7 +2643,7 @@ export class Gslbservice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbservice to import
-  * @param importFromId The id of the existing Gslbservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2655,7 +2655,7 @@ export class Gslbservice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/gslbservice avi_gslbservice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/gslbservice avi_gslbservice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2666,8 +2666,8 @@ export class Gslbservice extends cdktf.TerraformResource {
       terraformResourceType: 'avi_gslbservice',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

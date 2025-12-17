@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OrgTracingConfig extends cdktf.TerraformMetaArguments {
   /**
   * controlplane_tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#controlplane_tracing OrgTracing#controlplane_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#controlplane_tracing OrgTracing#controlplane_tracing}
   */
   readonly controlplaneTracing?: OrgTracingControlplaneTracing[] | cdktf.IResolvable;
   /**
   * lightstep_tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#lightstep_tracing OrgTracing#lightstep_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#lightstep_tracing OrgTracing#lightstep_tracing}
   */
   readonly lightstepTracing?: OrgTracingLightstepTracing[] | cdktf.IResolvable;
   /**
   * otel_tracing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#otel_tracing OrgTracing#otel_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#otel_tracing OrgTracing#otel_tracing}
   */
   readonly otelTracing?: OrgTracingOtelTracing[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface OrgTracingControlplaneTracing {
   /**
   * Key-value map of custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#custom_tags OrgTracing#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#custom_tags OrgTracing#custom_tags}
   */
   readonly customTags?: { [key: string]: string };
   /**
   * Determines what percentage of requests should be traced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#sampling OrgTracing#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#sampling OrgTracing#sampling}
   */
   readonly sampling: number;
 }
@@ -180,25 +180,25 @@ export interface OrgTracingLightstepTracing {
   /**
   * Full link to referenced Opaque Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#credentials OrgTracing#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#credentials OrgTracing#credentials}
   */
   readonly credentials?: string;
   /**
   * Key-value map of custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#custom_tags OrgTracing#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#custom_tags OrgTracing#custom_tags}
   */
   readonly customTags?: { [key: string]: string };
   /**
   * Tracing Endpoint Workload. Either the canonical endpoint or internal endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#endpoint OrgTracing#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#endpoint OrgTracing#endpoint}
   */
   readonly endpoint: string;
   /**
   * Determines what percentage of requests should be traced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#sampling OrgTracing#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#sampling OrgTracing#sampling}
   */
   readonly sampling: number;
 }
@@ -397,19 +397,19 @@ export interface OrgTracingOtelTracing {
   /**
   * Key-value map of custom tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#custom_tags OrgTracing#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#custom_tags OrgTracing#custom_tags}
   */
   readonly customTags?: { [key: string]: string };
   /**
   * Tracing Endpoint Workload. Either the canonical endpoint or internal endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#endpoint OrgTracing#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#endpoint OrgTracing#endpoint}
   */
   readonly endpoint: string;
   /**
   * Determines what percentage of requests should be traced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#sampling OrgTracing#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#sampling OrgTracing#sampling}
   */
   readonly sampling: number;
 }
@@ -577,7 +577,7 @@ export class OrgTracingOtelTracingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing cpln_org_tracing}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing cpln_org_tracing}
 */
 export class OrgTracing extends cdktf.TerraformResource {
 
@@ -593,7 +593,7 @@ export class OrgTracing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgTracing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgTracing to import
-  * @param importFromId The id of the existing OrgTracing that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgTracing that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgTracing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -605,7 +605,7 @@ export class OrgTracing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs/resources/org_tracing cpln_org_tracing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs/resources/org_tracing cpln_org_tracing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -616,8 +616,8 @@ export class OrgTracing extends cdktf.TerraformResource {
       terraformResourceType: 'cpln_org_tracing',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.19',
-        providerVersionConstraint: '1.2.19'
+        providerVersion: '1.2.20',
+        providerVersionConstraint: '1.2.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

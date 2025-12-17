@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile
+// https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface PkiprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#allow_pki_errors Pkiprofile#allow_pki_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#allow_pki_errors Pkiprofile#allow_pki_errors}
   */
   readonly allowPkiErrors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#created_by Pkiprofile#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#created_by Pkiprofile#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#crl_check Pkiprofile#crl_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#crl_check Pkiprofile#crl_check}
   */
   readonly crlCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#crl_file_refs Pkiprofile#crl_file_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#crl_file_refs Pkiprofile#crl_file_refs}
   */
   readonly crlFileRefs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#id Pkiprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#id Pkiprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#ignore_peer_chain Pkiprofile#ignore_peer_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#ignore_peer_chain Pkiprofile#ignore_peer_chain}
   */
   readonly ignorePeerChain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#is_federated Pkiprofile#is_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#is_federated Pkiprofile#is_federated}
   */
   readonly isFederated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#name Pkiprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#name Pkiprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#tenant_ref Pkiprofile#tenant_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#tenant_ref Pkiprofile#tenant_ref}
   */
   readonly tenantRef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#uuid Pkiprofile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#uuid Pkiprofile#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#validate_only_leaf_crl Pkiprofile#validate_only_leaf_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#validate_only_leaf_crl Pkiprofile#validate_only_leaf_crl}
   */
   readonly validateOnlyLeafCrl?: string;
   /**
   * ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#ca_certs Pkiprofile#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#ca_certs Pkiprofile#ca_certs}
   */
   readonly caCerts?: PkiprofileCaCerts[] | cdktf.IResolvable;
   /**
   * configpb_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#configpb_attributes Pkiprofile#configpb_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#configpb_attributes Pkiprofile#configpb_attributes}
   */
   readonly configpbAttributes?: PkiprofileConfigpbAttributes[] | cdktf.IResolvable;
   /**
   * markers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#markers Pkiprofile#markers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#markers Pkiprofile#markers}
   */
   readonly markers?: PkiprofileMarkers[] | cdktf.IResolvable;
 }
 export interface PkiprofileCaCertsIssuer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#common_name Pkiprofile#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#common_name Pkiprofile#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#country Pkiprofile#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#country Pkiprofile#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#distinguished_name Pkiprofile#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#distinguished_name Pkiprofile#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#email_address Pkiprofile#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#email_address Pkiprofile#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#locality Pkiprofile#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#locality Pkiprofile#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#organization Pkiprofile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#organization Pkiprofile#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#organization_unit Pkiprofile#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#organization_unit Pkiprofile#organization_unit}
   */
   readonly organizationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#state Pkiprofile#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#state Pkiprofile#state}
   */
   readonly state?: string;
 }
@@ -422,7 +422,7 @@ export class PkiprofileCaCertsIssuerList extends cdktf.ComplexList {
 }
 export interface PkiprofileCaCertsKeyParamsEcParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#curve Pkiprofile#curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#curve Pkiprofile#curve}
   */
   readonly curve?: string;
 }
@@ -538,11 +538,11 @@ export class PkiprofileCaCertsKeyParamsEcParamsList extends cdktf.ComplexList {
 }
 export interface PkiprofileCaCertsKeyParamsRsaParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#exponent Pkiprofile#exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#exponent Pkiprofile#exponent}
   */
   readonly exponent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#key_size Pkiprofile#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#key_size Pkiprofile#key_size}
   */
   readonly keySize?: string;
 }
@@ -687,19 +687,19 @@ export class PkiprofileCaCertsKeyParamsRsaParamsList extends cdktf.ComplexList {
 }
 export interface PkiprofileCaCertsKeyParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#algorithm Pkiprofile#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#algorithm Pkiprofile#algorithm}
   */
   readonly algorithm: string;
   /**
   * ec_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#ec_params Pkiprofile#ec_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#ec_params Pkiprofile#ec_params}
   */
   readonly ecParams?: PkiprofileCaCertsKeyParamsEcParams[] | cdktf.IResolvable;
   /**
   * rsa_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#rsa_params Pkiprofile#rsa_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#rsa_params Pkiprofile#rsa_params}
   */
   readonly rsaParams?: PkiprofileCaCertsKeyParamsRsaParams[] | cdktf.IResolvable;
 }
@@ -870,35 +870,35 @@ export class PkiprofileCaCertsKeyParamsList extends cdktf.ComplexList {
 }
 export interface PkiprofileCaCertsSubject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#common_name Pkiprofile#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#common_name Pkiprofile#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#country Pkiprofile#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#country Pkiprofile#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#distinguished_name Pkiprofile#distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#distinguished_name Pkiprofile#distinguished_name}
   */
   readonly distinguishedName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#email_address Pkiprofile#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#email_address Pkiprofile#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#locality Pkiprofile#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#locality Pkiprofile#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#organization Pkiprofile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#organization Pkiprofile#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#organization_unit Pkiprofile#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#organization_unit Pkiprofile#organization_unit}
   */
   readonly organizationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#state Pkiprofile#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#state Pkiprofile#state}
   */
   readonly state?: string;
 }
@@ -1217,85 +1217,85 @@ export class PkiprofileCaCertsSubjectList extends cdktf.ComplexList {
 }
 export interface PkiprofileCaCerts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#certificate Pkiprofile#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#certificate Pkiprofile#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#certificate_signing_request Pkiprofile#certificate_signing_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#certificate_signing_request Pkiprofile#certificate_signing_request}
   */
   readonly certificateSigningRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#chain_verified Pkiprofile#chain_verified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#chain_verified Pkiprofile#chain_verified}
   */
   readonly chainVerified?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#days_until_expire Pkiprofile#days_until_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#days_until_expire Pkiprofile#days_until_expire}
   */
   readonly daysUntilExpire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#expiry_status Pkiprofile#expiry_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#expiry_status Pkiprofile#expiry_status}
   */
   readonly expiryStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#fingerprint Pkiprofile#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#fingerprint Pkiprofile#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#not_after Pkiprofile#not_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#not_after Pkiprofile#not_after}
   */
   readonly notAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#not_before Pkiprofile#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#not_before Pkiprofile#not_before}
   */
   readonly notBefore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#public_key Pkiprofile#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#public_key Pkiprofile#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#self_signed Pkiprofile#self_signed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#self_signed Pkiprofile#self_signed}
   */
   readonly selfSigned?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#serial_number Pkiprofile#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#serial_number Pkiprofile#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#signature Pkiprofile#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#signature Pkiprofile#signature}
   */
   readonly signature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#signature_algorithm Pkiprofile#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#signature_algorithm Pkiprofile#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#subject_alt_names Pkiprofile#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#subject_alt_names Pkiprofile#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#text Pkiprofile#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#text Pkiprofile#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#version Pkiprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#version Pkiprofile#version}
   */
   readonly version?: string;
   /**
   * issuer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#issuer Pkiprofile#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#issuer Pkiprofile#issuer}
   */
   readonly issuer?: PkiprofileCaCertsIssuer[] | cdktf.IResolvable;
   /**
   * key_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#key_params Pkiprofile#key_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#key_params Pkiprofile#key_params}
   */
   readonly keyParams?: PkiprofileCaCertsKeyParams[] | cdktf.IResolvable;
   /**
   * subject block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#subject Pkiprofile#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#subject Pkiprofile#subject}
   */
   readonly subject?: PkiprofileCaCertsSubject[] | cdktf.IResolvable;
 }
@@ -1933,7 +1933,7 @@ export class PkiprofileCaCertsList extends cdktf.ComplexList {
 }
 export interface PkiprofileConfigpbAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#version Pkiprofile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#version Pkiprofile#version}
   */
   readonly version?: string;
 }
@@ -2049,11 +2049,11 @@ export class PkiprofileConfigpbAttributesList extends cdktf.ComplexList {
 }
 export interface PkiprofileMarkers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#key Pkiprofile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#key Pkiprofile#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#values Pkiprofile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#values Pkiprofile#values}
   */
   readonly values?: string[];
 }
@@ -2195,7 +2195,7 @@ export class PkiprofileMarkersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile avi_pkiprofile}
+* Represents a {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile avi_pkiprofile}
 */
 export class Pkiprofile extends cdktf.TerraformResource {
 
@@ -2211,7 +2211,7 @@ export class Pkiprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pkiprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pkiprofile to import
-  * @param importFromId The id of the existing Pkiprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pkiprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pkiprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2223,7 +2223,7 @@ export class Pkiprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.5/docs/resources/pkiprofile avi_pkiprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vmware/avi/30.2.6/docs/resources/pkiprofile avi_pkiprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2234,8 +2234,8 @@ export class Pkiprofile extends cdktf.TerraformResource {
       terraformResourceType: 'avi_pkiprofile',
       terraformGeneratorMetadata: {
         providerName: 'avi',
-        providerVersion: '30.2.5',
-        providerVersionConstraint: '30.2.5'
+        providerVersion: '30.2.6',
+        providerVersionConstraint: '30.2.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

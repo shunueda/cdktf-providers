@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/status_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/status_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyStatusPageConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/status_page#created_at DataRootlyStatusPage#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/status_page#created_at DataRootlyStatusPage#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/status_page#slug DataRootlyStatusPage#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/status_page#slug DataRootlyStatusPage#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/status_page rootly_status_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/status_page rootly_status_page}
 */
 export class DataRootlyStatusPage extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlyStatusPage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyStatusPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyStatusPage to import
-  * @param importFromId The id of the existing DataRootlyStatusPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/status_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyStatusPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/status_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyStatusPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlyStatusPage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.0.0/docs/data-sources/status_page rootly_status_page} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/status_page rootly_status_page} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlyStatusPage extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_status_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.0.0',
-        providerVersionConstraint: '5.0.0'
+        providerVersion: '5.1.0',
+        providerVersionConstraint: '5.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

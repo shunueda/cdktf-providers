@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface BgpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#asn Bgp#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#asn Bgp#asn}
   */
   readonly asn: string;
   /**
   * Graceful restart capability parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#bgp_graceful_restart Bgp#bgp_graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#bgp_graceful_restart Bgp#bgp_graceful_restart}
   */
   readonly bgpGracefulRestart?: boolean | cdktf.IResolvable;
   /**
   * Set the max initial delay for sending update
   *   - Range: `1`-`3600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#bgp_update_delay Bgp#bgp_update_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#bgp_update_delay Bgp#bgp_update_delay}
   */
   readonly bgpUpdateDelay?: number;
   /**
   * Activate ipv4-unicast for a peer by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#default_ipv4_unicast Bgp#default_ipv4_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#default_ipv4_unicast Bgp#default_ipv4_unicast}
   */
   readonly defaultIpv4Unicast?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#delete_mode Bgp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#delete_mode Bgp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#device Bgp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#device Bgp#device}
   */
   readonly device?: string;
   /**
   * Log neighbor up/down and reset reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#log_neighbor_changes Bgp#log_neighbor_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#log_neighbor_changes Bgp#log_neighbor_changes}
   */
   readonly logNeighborChanges?: boolean | cdktf.IResolvable;
   /**
   * Manually configured router identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#router_id_ip Bgp#router_id_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#router_id_ip Bgp#router_id_ip}
   */
   readonly routerIdIp?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#router_id_loopback Bgp#router_id_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#router_id_loopback Bgp#router_id_loopback}
   */
   readonly routerIdLoopback?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp iosxe_bgp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp iosxe_bgp}
 */
 export class Bgp extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class Bgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bgp to import
-  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class Bgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp iosxe_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp iosxe_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class Bgp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.14.4',
+        providerVersionConstraint: '0.14.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

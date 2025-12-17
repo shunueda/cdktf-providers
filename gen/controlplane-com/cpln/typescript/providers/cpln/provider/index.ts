@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs
+// https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CplnProviderConfig {
   /**
   * The Control Plane Data Service API endpoint. Default is: https://api.cpln.io. Can be specified with the CPLN_ENDPOINT environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#endpoint CplnProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#endpoint CplnProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The Control Plane org that this provider will perform actions against. Can be specified with the CPLN_ORG environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#org CplnProvider#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#org CplnProvider#org}
   */
   readonly org?: string;
   /**
   * The user/service account profile that this provider will use to authenticate to the data service. Can be specified with the CPLN_PROFILE environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#profile CplnProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#profile CplnProvider#profile}
   */
   readonly profile?: string;
   /**
   * A generated token that can be used to authenticate to the data service API. Can be specified with the CPLN_REFRESH_TOKEN environment variable. Used when the provider is required to create an org or update the auth_config property. Refer to the section above on how to obtain the refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#refresh_token CplnProvider#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#refresh_token CplnProvider#refresh_token}
   */
   readonly refreshToken?: string;
   /**
   * A generated token that can be used to authenticate to the data service API. Can be specified with the CPLN_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#token CplnProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#token CplnProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#alias CplnProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#alias CplnProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs cpln}
+* Represents a {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs cpln}
 */
 export class CplnProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class CplnProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CplnProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CplnProvider to import
-  * @param importFromId The id of the existing CplnProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CplnProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CplnProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CplnProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.19/docs cpln} Resource
+  * Create a new {@link https://registry.terraform.io/providers/controlplane-com/cpln/1.2.20/docs cpln} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CplnProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cpln',
       terraformGeneratorMetadata: {
         providerName: 'cpln',
-        providerVersion: '1.2.19',
-        providerVersionConstraint: '1.2.19'
+        providerVersion: '1.2.20',
+        providerVersionConstraint: '1.2.20'
       },
       terraformProviderSource: 'controlplane-com/cpln'
     });
