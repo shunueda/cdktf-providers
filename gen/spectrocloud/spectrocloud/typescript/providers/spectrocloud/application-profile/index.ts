@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApplicationProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The cloud provider the profile is eligible for. Default value is `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#cloud ApplicationProfile#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#cloud ApplicationProfile#cloud}
   */
   readonly cloud?: string;
   /**
   * Context of the profile. Allowed values are `project`, `cluster`, or `namespace`. Default value is `project`.If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#context ApplicationProfile#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#context ApplicationProfile#context}
   */
   readonly context?: string;
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#description ApplicationProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#description ApplicationProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#id ApplicationProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#id ApplicationProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface ApplicationProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the application profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#name ApplicationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#name ApplicationProfile#name}
   */
   readonly name: string;
   /**
   * A list of tags to be applied to the application profile. Tags must be in the form of `key:value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#tags ApplicationProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#tags ApplicationProfile#tags}
   */
   readonly tags?: string[];
   /**
   * Version of the profile. Default value is 1.0.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#version ApplicationProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#version ApplicationProfile#version}
   */
   readonly version?: string;
   /**
   * pack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#pack ApplicationProfile#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#pack ApplicationProfile#pack}
   */
   readonly pack: ApplicationProfilePack[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#timeouts ApplicationProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#timeouts ApplicationProfile#timeouts}
   */
   readonly timeouts?: ApplicationProfileTimeouts;
 }
@@ -67,13 +67,13 @@ export interface ApplicationProfilePackManifest {
   /**
   * The content of the manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#content ApplicationProfile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#content ApplicationProfile#content}
   */
   readonly content: string;
   /**
   * The name of the manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#name ApplicationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#name ApplicationProfile#name}
   */
   readonly name: string;
 }
@@ -219,67 +219,67 @@ export interface ApplicationProfilePack {
   /**
   * The installation priority order of the app profile. The order of priority goes from lowest number to highest number. For example, a value of `-3` would be installed before an app profile with a higher number value. No upper and lower limits exist, and you may specify positive and negative integers. The default value is `0`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#install_order ApplicationProfile#install_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#install_order ApplicationProfile#install_order}
   */
   readonly installOrder?: number;
   /**
   * The name of the specified pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#name ApplicationProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#name ApplicationProfile#name}
   */
   readonly name: string;
   /**
   * The various properties required by different database tiers eg: `databaseName` and `databaseVolumeSize` size for Redis etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#properties ApplicationProfile#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#properties ApplicationProfile#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The name of the registry to be used for the pack. This can be used instead of `registry_uid` for better readability. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#registry_name ApplicationProfile#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#registry_name ApplicationProfile#registry_name}
   */
   readonly registryName?: string;
   /**
   * The unique id of the registry to be used for the pack. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#registry_uid ApplicationProfile#registry_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#registry_uid ApplicationProfile#registry_uid}
   */
   readonly registryUid?: string;
   /**
   * The unique id of the pack to be used as the source for the pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#source_app_tier ApplicationProfile#source_app_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#source_app_tier ApplicationProfile#source_app_tier}
   */
   readonly sourceAppTier?: string;
   /**
   * The identifier or version to label the pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#tag ApplicationProfile#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#tag ApplicationProfile#tag}
   */
   readonly tag?: string;
   /**
   * The type of Pack. Allowed values are `container`, `helm`, `manifest`, or `operator-instance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#type ApplicationProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#type ApplicationProfile#type}
   */
   readonly type?: string;
   /**
   * The unique id of the pack. This is a computed field and is not required to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#uid ApplicationProfile#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#uid ApplicationProfile#uid}
   */
   readonly uid?: string;
   /**
   * The values to be used for the pack. This is a stringified JSON object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#values ApplicationProfile#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#values ApplicationProfile#values}
   */
   readonly values?: string;
   /**
   * manifest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#manifest ApplicationProfile#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#manifest ApplicationProfile#manifest}
   */
   readonly manifest?: ApplicationProfilePackManifest[] | cdktf.IResolvable;
 }
@@ -682,15 +682,15 @@ export class ApplicationProfilePackList extends cdktf.ComplexList {
 }
 export interface ApplicationProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#create ApplicationProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#create ApplicationProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#delete ApplicationProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#delete ApplicationProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#update ApplicationProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#update ApplicationProfile#update}
   */
   readonly update?: string;
 }
@@ -842,7 +842,7 @@ export class ApplicationProfileTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile spectrocloud_application_profile}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile spectrocloud_application_profile}
 */
 export class ApplicationProfile extends cdktf.TerraformResource {
 
@@ -858,7 +858,7 @@ export class ApplicationProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationProfile to import
-  * @param importFromId The id of the existing ApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -870,7 +870,7 @@ export class ApplicationProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/application_profile spectrocloud_application_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/application_profile spectrocloud_application_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -881,8 +881,8 @@ export class ApplicationProfile extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_application_profile',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

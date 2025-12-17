@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,44 +11,44 @@ export interface ActiveDirectoryAddGroupsConfig extends cdktf.TerraformMetaArgum
   * String that contains the names of the scopes that the active directory belongs to. Names are separated by comm
   *   - Default value: `Default_Scope`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#ad_scopes_names ActiveDirectoryAddGroups#ad_scopes_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#ad_scopes_names ActiveDirectoryAddGroups#ad_scopes_names}
   */
   readonly adScopesNames?: string;
   /**
   * Join point Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#description ActiveDirectoryAddGroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#description ActiveDirectoryAddGroups#description}
   */
   readonly description?: string;
   /**
   * AD domain associated with the join point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#domain ActiveDirectoryAddGroups#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#domain ActiveDirectoryAddGroups#domain}
   */
   readonly domain: string;
   /**
   * 
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#enable_domain_allowed_list ActiveDirectoryAddGroups#enable_domain_allowed_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#enable_domain_allowed_list ActiveDirectoryAddGroups#enable_domain_allowed_list}
   */
   readonly enableDomainAllowedList?: boolean | cdktf.IResolvable;
   /**
   * List of AD Groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#groups ActiveDirectoryAddGroups#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#groups ActiveDirectoryAddGroups#groups}
   */
   readonly groups?: ActiveDirectoryAddGroupsGroups[] | cdktf.IResolvable;
   /**
   * Active Directory Join Point ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#join_point_id ActiveDirectoryAddGroups#join_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#join_point_id ActiveDirectoryAddGroups#join_point_id}
   */
   readonly joinPointId: string;
   /**
   * The name of the active directory join point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#name ActiveDirectoryAddGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#name ActiveDirectoryAddGroups#name}
   */
   readonly name: string;
 }
@@ -56,17 +56,17 @@ export interface ActiveDirectoryAddGroupsGroups {
   /**
   * Required for each group in the group list with no duplication between groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#name ActiveDirectoryAddGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#name ActiveDirectoryAddGroups#name}
   */
   readonly name: string;
   /**
   * Required for each group in the group list with no duplication between groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#sid ActiveDirectoryAddGroups#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#sid ActiveDirectoryAddGroups#sid}
   */
   readonly sid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#type ActiveDirectoryAddGroups#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#type ActiveDirectoryAddGroups#type}
   */
   readonly type?: string;
 }
@@ -234,7 +234,7 @@ export class ActiveDirectoryAddGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups ise_active_directory_add_groups}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups ise_active_directory_add_groups}
 */
 export class ActiveDirectoryAddGroups extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class ActiveDirectoryAddGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ActiveDirectoryAddGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ActiveDirectoryAddGroups to import
-  * @param importFromId The id of the existing ActiveDirectoryAddGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ActiveDirectoryAddGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ActiveDirectoryAddGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class ActiveDirectoryAddGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/active_directory_add_groups ise_active_directory_add_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/active_directory_add_groups ise_active_directory_add_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class ActiveDirectoryAddGroups extends cdktf.TerraformResource {
       terraformResourceType: 'ise_active_directory_add_groups',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

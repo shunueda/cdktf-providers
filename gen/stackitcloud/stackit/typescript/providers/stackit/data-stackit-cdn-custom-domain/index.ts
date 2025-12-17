@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataStackitCdnCustomDomainConfig extends cdktf.TerraformMetaArg
   /**
   * The TLS certificate for the custom domain. If omitted, a managed certificate will be used. If the block is specified, a custom certificate is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain#certificate DataStackitCdnCustomDomain#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain#certificate DataStackitCdnCustomDomain#certificate}
   */
   readonly certificate?: DataStackitCdnCustomDomainCertificate;
   /**
   * CDN distribution ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain#distribution_id DataStackitCdnCustomDomain#distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain#distribution_id DataStackitCdnCustomDomain#distribution_id}
   */
   readonly distributionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain#name DataStackitCdnCustomDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain#name DataStackitCdnCustomDomain#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID associated with the distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain#project_id DataStackitCdnCustomDomain#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain#project_id DataStackitCdnCustomDomain#project_id}
   */
   readonly projectId: string;
 }
@@ -96,7 +96,7 @@ export class DataStackitCdnCustomDomainCertificateOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain stackit_cdn_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain stackit_cdn_custom_domain}
 */
 export class DataStackitCdnCustomDomain extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataStackitCdnCustomDomain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitCdnCustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitCdnCustomDomain to import
-  * @param importFromId The id of the existing DataStackitCdnCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitCdnCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitCdnCustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataStackitCdnCustomDomain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/cdn_custom_domain stackit_cdn_custom_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/cdn_custom_domain stackit_cdn_custom_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataStackitCdnCustomDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_cdn_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

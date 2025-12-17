@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudaccountVsphereConfig extends cdktf.TerraformMetaArguments 
   /**
   * Context of the cloud account. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#context CloudaccountVsphere#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#context CloudaccountVsphere#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#id CloudaccountVsphere#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#id CloudaccountVsphere#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface CloudaccountVsphereConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the cloud account. This name is used to identify the cloud account in the Spectro Cloud UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#name CloudaccountVsphere#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#name CloudaccountVsphere#name}
   */
   readonly name: string;
   /**
   * ID of the private cloud gateway. This is the ID of the private cloud gateway that is used to connect to the vSphere cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#private_cloud_gateway_id CloudaccountVsphere#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#private_cloud_gateway_id CloudaccountVsphere#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
   /**
   * Ignore insecure error. This is a boolean value that indicates whether to ignore the insecure error or not. If not specified, the default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#vsphere_ignore_insecure_error CloudaccountVsphere#vsphere_ignore_insecure_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#vsphere_ignore_insecure_error CloudaccountVsphere#vsphere_ignore_insecure_error}
   */
   readonly vsphereIgnoreInsecureError?: boolean | cdktf.IResolvable;
   /**
   * Password of the vSphere cloud. This is the password of the vSphere cloud that is used to connect to the vSphere cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#vsphere_password CloudaccountVsphere#vsphere_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#vsphere_password CloudaccountVsphere#vsphere_password}
   */
   readonly vspherePassword: string;
   /**
   * Username of the vSphere cloud. This is the username of the vSphere cloud that is used to connect to the vSphere cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#vsphere_username CloudaccountVsphere#vsphere_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#vsphere_username CloudaccountVsphere#vsphere_username}
   */
   readonly vsphereUsername: string;
   /**
   * vCenter server address. This is the address of the vCenter server that is used to connect to the vSphere cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#vsphere_vcenter CloudaccountVsphere#vsphere_vcenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#vsphere_vcenter CloudaccountVsphere#vsphere_vcenter}
   */
   readonly vsphereVcenter: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere spectrocloud_cloudaccount_vsphere}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere spectrocloud_cloudaccount_vsphere}
 */
 export class CloudaccountVsphere extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CloudaccountVsphere extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountVsphere resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountVsphere to import
-  * @param importFromId The id of the existing CloudaccountVsphere that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountVsphere that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountVsphere to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CloudaccountVsphere extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_vsphere spectrocloud_cloudaccount_vsphere} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_vsphere spectrocloud_cloudaccount_vsphere} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CloudaccountVsphere extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_vsphere',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

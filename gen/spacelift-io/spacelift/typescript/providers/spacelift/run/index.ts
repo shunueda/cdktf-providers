@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface RunConfig extends cdktf.TerraformMetaArguments {
   /**
   * The commit SHA for which to trigger a run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#commit_sha Run#commit_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#commit_sha Run#commit_sha}
   */
   readonly commitSha?: string;
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#keepers Run#keepers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#keepers Run#keepers}
   */
   readonly keepers?: { [key: string]: string };
   /**
   * Whether the run is a proposed run. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#proposed Run#proposed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#proposed Run#proposed}
   */
   readonly proposed?: boolean | cdktf.IResolvable;
   /**
   * ID of the stack on which the run is to be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#stack_id Run#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#stack_id Run#stack_id}
   */
   readonly stackId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#timeouts Run#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#timeouts Run#timeouts}
   */
   readonly timeouts?: RunTimeouts;
   /**
   * wait block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#wait Run#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#wait Run#wait}
   */
   readonly wait?: RunWait;
 }
 export interface RunTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#create Run#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#create Run#create}
   */
   readonly create?: string;
 }
@@ -142,19 +142,19 @@ export interface RunWait {
   /**
   * Continue on the specified states of a finished run. If not specified, the default is `[ 'finished' ]`. You can use following states: `applying`, `canceled`, `confirmed`, `destroying`, `discarded`, `failed`, `finished`, `initializing`, `pending_review`, `performing`, `planning`, `preparing_apply`, `preparing_replan`, `preparing`, `queued`, `ready`, `replan_requested`, `skipped`, `stopped`, `unconfirmed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#continue_on_state Run#continue_on_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#continue_on_state Run#continue_on_state}
   */
   readonly continueOnState?: string[];
   /**
   * Continue if run timed out, i.e. did not reach any defined end state in time. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#continue_on_timeout Run#continue_on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#continue_on_timeout Run#continue_on_timeout}
   */
   readonly continueOnTimeout?: boolean | cdktf.IResolvable;
   /**
   * Whether waiting for a job is disabled or not. Default: `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#disabled Run#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#disabled Run#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -296,7 +296,7 @@ export class RunWaitOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run spacelift_run}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run spacelift_run}
 */
 export class Run extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class Run extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Run resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Run to import
-  * @param importFromId The id of the existing Run that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Run that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Run to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class Run extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/run spacelift_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/run spacelift_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class Run extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_run',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

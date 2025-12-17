@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIseDeviceAdminAuthorizationRuleConfig extends cdktf.Terrafo
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule#id DataIseDeviceAdminAuthorizationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule#id DataIseDeviceAdminAuthorizationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataIseDeviceAdminAuthorizationRuleConfig extends cdktf.Terrafo
   /**
   * Rule name, [Valid characters are alphanumerics, underscore, hyphen, space, period, parentheses]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule#name DataIseDeviceAdminAuthorizationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule#name DataIseDeviceAdminAuthorizationRule#name}
   */
   readonly name?: string;
   /**
   * Policy set ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule#policy_set_id DataIseDeviceAdminAuthorizationRule#policy_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule#policy_set_id DataIseDeviceAdminAuthorizationRule#policy_set_id}
   */
   readonly policySetId: string;
 }
@@ -257,7 +257,7 @@ export class DataIseDeviceAdminAuthorizationRuleChildrenList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule ise_device_admin_authorization_rule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule ise_device_admin_authorization_rule}
 */
 export class DataIseDeviceAdminAuthorizationRule extends cdktf.TerraformDataSource {
 
@@ -273,7 +273,7 @@ export class DataIseDeviceAdminAuthorizationRule extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIseDeviceAdminAuthorizationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIseDeviceAdminAuthorizationRule to import
-  * @param importFromId The id of the existing DataIseDeviceAdminAuthorizationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIseDeviceAdminAuthorizationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIseDeviceAdminAuthorizationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class DataIseDeviceAdminAuthorizationRule extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/data-sources/device_admin_authorization_rule ise_device_admin_authorization_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/data-sources/device_admin_authorization_rule ise_device_admin_authorization_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class DataIseDeviceAdminAuthorizationRule extends cdktf.TerraformDataSour
       terraformResourceType: 'ise_device_admin_authorization_rule',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

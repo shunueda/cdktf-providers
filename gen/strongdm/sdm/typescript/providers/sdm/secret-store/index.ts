@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store
+// https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecretStoreConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#id SecretStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#id SecretStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,175 +17,175 @@ export interface SecretStoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * active_directory_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#active_directory_store SecretStore#active_directory_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#active_directory_store SecretStore#active_directory_store}
   */
   readonly activeDirectoryStore?: SecretStoreActiveDirectoryStore;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#aws SecretStore#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#aws SecretStore#aws}
   */
   readonly aws?: SecretStoreAws;
   /**
   * aws_cert_x509 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#aws_cert_x509 SecretStore#aws_cert_x509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#aws_cert_x509 SecretStore#aws_cert_x509}
   */
   readonly awsCertX509?: SecretStoreAwsCertX509;
   /**
   * azure_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#azure_store SecretStore#azure_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#azure_store SecretStore#azure_store}
   */
   readonly azureStore?: SecretStoreAzureStore;
   /**
   * cyberark_conjur block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#cyberark_conjur SecretStore#cyberark_conjur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#cyberark_conjur SecretStore#cyberark_conjur}
   */
   readonly cyberarkConjur?: SecretStoreCyberarkConjur;
   /**
   * cyberark_pam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#cyberark_pam SecretStore#cyberark_pam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#cyberark_pam SecretStore#cyberark_pam}
   */
   readonly cyberarkPam?: SecretStoreCyberarkPam;
   /**
   * cyberark_pam_experimental block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#cyberark_pam_experimental SecretStore#cyberark_pam_experimental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#cyberark_pam_experimental SecretStore#cyberark_pam_experimental}
   */
   readonly cyberarkPamExperimental?: SecretStoreCyberarkPamExperimental;
   /**
   * delinea_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#delinea_store SecretStore#delinea_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#delinea_store SecretStore#delinea_store}
   */
   readonly delineaStore?: SecretStoreDelineaStore;
   /**
   * gcp_cert_x_509_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#gcp_cert_x_509_store SecretStore#gcp_cert_x_509_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#gcp_cert_x_509_store SecretStore#gcp_cert_x_509_store}
   */
   readonly gcpCertX509Store?: SecretStoreGcpCertX509Store;
   /**
   * gcp_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#gcp_store SecretStore#gcp_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#gcp_store SecretStore#gcp_store}
   */
   readonly gcpStore?: SecretStoreGcpStore;
   /**
   * keyfactor_ssh_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#keyfactor_ssh_store SecretStore#keyfactor_ssh_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#keyfactor_ssh_store SecretStore#keyfactor_ssh_store}
   */
   readonly keyfactorSshStore?: SecretStoreKeyfactorSshStore;
   /**
   * keyfactor_x_509_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#keyfactor_x_509_store SecretStore#keyfactor_x_509_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#keyfactor_x_509_store SecretStore#keyfactor_x_509_store}
   */
   readonly keyfactorX509Store?: SecretStoreKeyfactorX509Store;
   /**
   * strong_vault block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#strong_vault SecretStore#strong_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#strong_vault SecretStore#strong_vault}
   */
   readonly strongVault?: SecretStoreStrongVault;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#timeouts SecretStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#timeouts SecretStore#timeouts}
   */
   readonly timeouts?: SecretStoreTimeouts;
   /**
   * vault_approle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_approle SecretStore#vault_approle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_approle SecretStore#vault_approle}
   */
   readonly vaultApprole?: SecretStoreVaultApprole;
   /**
   * vault_approle_cert_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_approle_cert_ssh SecretStore#vault_approle_cert_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_approle_cert_ssh SecretStore#vault_approle_cert_ssh}
   */
   readonly vaultApproleCertSsh?: SecretStoreVaultApproleCertSsh;
   /**
   * vault_approle_cert_x509 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_approle_cert_x509 SecretStore#vault_approle_cert_x509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_approle_cert_x509 SecretStore#vault_approle_cert_x509}
   */
   readonly vaultApproleCertX509?: SecretStoreVaultApproleCertX509;
   /**
   * vault_aws_ec2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_aws_ec2 SecretStore#vault_aws_ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_aws_ec2 SecretStore#vault_aws_ec2}
   */
   readonly vaultAwsEc2?: SecretStoreVaultAwsEc2;
   /**
   * vault_aws_ec2_cert_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_aws_ec2_cert_ssh SecretStore#vault_aws_ec2_cert_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_aws_ec2_cert_ssh SecretStore#vault_aws_ec2_cert_ssh}
   */
   readonly vaultAwsEc2CertSsh?: SecretStoreVaultAwsEc2CertSsh;
   /**
   * vault_aws_ec2_cert_x509 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_aws_ec2_cert_x509 SecretStore#vault_aws_ec2_cert_x509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_aws_ec2_cert_x509 SecretStore#vault_aws_ec2_cert_x509}
   */
   readonly vaultAwsEc2CertX509?: SecretStoreVaultAwsEc2CertX509;
   /**
   * vault_aws_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_aws_iam SecretStore#vault_aws_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_aws_iam SecretStore#vault_aws_iam}
   */
   readonly vaultAwsIam?: SecretStoreVaultAwsIam;
   /**
   * vault_aws_iam_cert_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_aws_iam_cert_ssh SecretStore#vault_aws_iam_cert_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_aws_iam_cert_ssh SecretStore#vault_aws_iam_cert_ssh}
   */
   readonly vaultAwsIamCertSsh?: SecretStoreVaultAwsIamCertSsh;
   /**
   * vault_aws_iam_cert_x509 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_aws_iam_cert_x509 SecretStore#vault_aws_iam_cert_x509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_aws_iam_cert_x509 SecretStore#vault_aws_iam_cert_x509}
   */
   readonly vaultAwsIamCertX509?: SecretStoreVaultAwsIamCertX509;
   /**
   * vault_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_tls SecretStore#vault_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_tls SecretStore#vault_tls}
   */
   readonly vaultTls?: SecretStoreVaultTls;
   /**
   * vault_tls_cert_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_tls_cert_ssh SecretStore#vault_tls_cert_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_tls_cert_ssh SecretStore#vault_tls_cert_ssh}
   */
   readonly vaultTlsCertSsh?: SecretStoreVaultTlsCertSsh;
   /**
   * vault_tls_cert_x509 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_tls_cert_x509 SecretStore#vault_tls_cert_x509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_tls_cert_x509 SecretStore#vault_tls_cert_x509}
   */
   readonly vaultTlsCertX509?: SecretStoreVaultTlsCertX509;
   /**
   * vault_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_token SecretStore#vault_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_token SecretStore#vault_token}
   */
   readonly vaultToken?: SecretStoreVaultToken;
   /**
   * vault_token_cert_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_token_cert_ssh SecretStore#vault_token_cert_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_token_cert_ssh SecretStore#vault_token_cert_ssh}
   */
   readonly vaultTokenCertSsh?: SecretStoreVaultTokenCertSsh;
   /**
   * vault_token_cert_x509 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_token_cert_x509 SecretStore#vault_token_cert_x509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_token_cert_x509 SecretStore#vault_token_cert_x509}
   */
   readonly vaultTokenCertX509?: SecretStoreVaultTokenCertX509;
 }
@@ -193,19 +193,19 @@ export interface SecretStoreActiveDirectoryStore {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * Hostname of server that is hosting NDES (Network Device Enrollment Services). Often this is the same host as Active Directory Certificate Services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -343,31 +343,31 @@ export interface SecretStoreAws {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The AWS region to target e.g. us-east-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#region SecretStore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#region SecretStore#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#role_arn SecretStore#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#role_arn SecretStore#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#role_external_id SecretStore#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#role_external_id SecretStore#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -563,43 +563,43 @@ export interface SecretStoreAwsCertX509 {
   /**
   * The ARN of the CA in AWS Private CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_arn SecretStore#ca_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_arn SecretStore#ca_arn}
   */
   readonly caArn: string;
   /**
   * The ARN of the AWS certificate template for requested certificates. Must allow SAN, key usage, and ext key usage passthrough from CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#certificate_template_arn SecretStore#certificate_template_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#certificate_template_arn SecretStore#certificate_template_arn}
   */
   readonly certificateTemplateArn: string;
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The AWS region to target e.g. us-east-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#region SecretStore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#region SecretStore#region}
   */
   readonly region: string;
   /**
   * The specified signing algorithm family (RSA or ECDSA) must match the algorithm family of the CA's secret key. e.g. SHA256WITHRSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_algo SecretStore#signing_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_algo SecretStore#signing_algo}
   */
   readonly signingAlgo: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -841,19 +841,19 @@ export interface SecretStoreAzureStore {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The URI of the key vault to target e.g. https://myvault.vault.azure.net
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#vault_uri SecretStore#vault_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#vault_uri SecretStore#vault_uri}
   */
   readonly vaultUri: string;
 }
@@ -991,19 +991,19 @@ export interface SecretStoreCyberarkConjur {
   /**
   * The URL of the Cyberark instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#app_url SecretStore#app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#app_url SecretStore#app_url}
   */
   readonly appUrl: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1141,19 +1141,19 @@ export interface SecretStoreCyberarkPam {
   /**
   * The URL of the Cyberark instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#app_url SecretStore#app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#app_url SecretStore#app_url}
   */
   readonly appUrl: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1291,19 +1291,19 @@ export interface SecretStoreCyberarkPamExperimental {
   /**
   * The URL of the Cyberark instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#app_url SecretStore#app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#app_url SecretStore#app_url}
   */
   readonly appUrl: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1441,25 +1441,25 @@ export interface SecretStoreDelineaStore {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The URL of the Delinea instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_url SecretStore#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_url SecretStore#server_url}
   */
   readonly serverUrl?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The tenant name to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tenant_name SecretStore#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tenant_name SecretStore#tenant_name}
   */
   readonly tenantName?: string;
 }
@@ -1629,43 +1629,43 @@ export interface SecretStoreGcpCertX509Store {
   /**
   * The ID of the target CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_id SecretStore#ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_id SecretStore#ca_id}
   */
   readonly caId?: string;
   /**
   * The ID of the target CA pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_pool_id SecretStore#ca_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_pool_id SecretStore#ca_pool_id}
   */
   readonly caPoolId: string;
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * The Region for the CA in GCP format e.g. us-west1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#location SecretStore#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#location SecretStore#location}
   */
   readonly location: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The GCP project ID to target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#project_id SecretStore#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#project_id SecretStore#project_id}
   */
   readonly projectId: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1910,19 +1910,19 @@ export interface SecretStoreGcpStore {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The GCP project ID to target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#project_id SecretStore#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#project_id SecretStore#project_id}
   */
   readonly projectId: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2060,67 +2060,67 @@ export interface SecretStoreKeyfactorSshStore {
   /**
   * Path to the root CA that signed the certificate passed to the client for HTTPS connection. This is not required if the CA is trusted by the host operating system. This should be a PEM formatted certificate, and doesn't necessarily have to be the CA that signed CertificateFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_file_path SecretStore#ca_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_file_path SecretStore#ca_file_path}
   */
   readonly caFilePath?: string;
   /**
   * Path to client certificate in PEM format. This certificate must contain a client certificate that is recognized by the EJBCA instance represented by Hostname. This PEM file may also contain the private key associated with the certificate, but KeyFile can also be set to configure the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#certificate_file_path SecretStore#certificate_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#certificate_file_path SecretStore#certificate_file_path}
   */
   readonly certificateFilePath: string;
   /**
   * Name of EJBCA certificate authority that will enroll CSR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default_certificate_authority_name SecretStore#default_certificate_authority_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default_certificate_authority_name SecretStore#default_certificate_authority_name}
   */
   readonly defaultCertificateAuthorityName: string;
   /**
   * Certificate profile name that EJBCA will enroll the CSR with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default_certificate_profile_name SecretStore#default_certificate_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default_certificate_profile_name SecretStore#default_certificate_profile_name}
   */
   readonly defaultCertificateProfileName: string;
   /**
   * End entity profile that EJBCA will enroll the CSR with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default_end_entity_profile_name SecretStore#default_end_entity_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default_end_entity_profile_name SecretStore#default_end_entity_profile_name}
   */
   readonly defaultEndEntityProfileName: string;
   /**
   * code used by EJBCA during enrollment. May be left blank if no code is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#enrollment_code_env_var SecretStore#enrollment_code_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#enrollment_code_env_var SecretStore#enrollment_code_env_var}
   */
   readonly enrollmentCodeEnvVar?: string;
   /**
   * username that used by the EJBCA during enrollment. This can be left out.  If so, the username must be auto-generated on the Keyfactor side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#enrollment_username_env_var SecretStore#enrollment_username_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#enrollment_username_env_var SecretStore#enrollment_username_env_var}
   */
   readonly enrollmentUsernameEnvVar?: string;
   /**
   * Path to private key in PEM format. This file should contain the private key associated with the client certificate configured in CertificateFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#key_file_path SecretStore#key_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#key_file_path SecretStore#key_file_path}
   */
   readonly keyFilePath?: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * the host of the Key Factor CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2478,67 +2478,67 @@ export interface SecretStoreKeyfactorX509Store {
   /**
   * Path to the root CA that signed the certificate passed to the client for HTTPS connection. This is not required if the CA is trusted by the host operating system. This should be a PEM formatted certificate, and doesn't necessarily have to be the CA that signed CertificateFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_file_path SecretStore#ca_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_file_path SecretStore#ca_file_path}
   */
   readonly caFilePath?: string;
   /**
   * Path to client certificate in PEM format. This certificate must contain a client certificate that is recognized by the EJBCA instance represented by Hostname. This PEM file may also contain the private key associated with the certificate, but KeyFile can also be set to configure the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#certificate_file_path SecretStore#certificate_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#certificate_file_path SecretStore#certificate_file_path}
   */
   readonly certificateFilePath: string;
   /**
   * Name of EJBCA certificate authority that will enroll CSR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default_certificate_authority_name SecretStore#default_certificate_authority_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default_certificate_authority_name SecretStore#default_certificate_authority_name}
   */
   readonly defaultCertificateAuthorityName: string;
   /**
   * Certificate profile name that EJBCA will enroll the CSR with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default_certificate_profile_name SecretStore#default_certificate_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default_certificate_profile_name SecretStore#default_certificate_profile_name}
   */
   readonly defaultCertificateProfileName: string;
   /**
   * End entity profile that EJBCA will enroll the CSR with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default_end_entity_profile_name SecretStore#default_end_entity_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default_end_entity_profile_name SecretStore#default_end_entity_profile_name}
   */
   readonly defaultEndEntityProfileName: string;
   /**
   * code used by EJBCA during enrollment. May be left blank if no code is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#enrollment_code_env_var SecretStore#enrollment_code_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#enrollment_code_env_var SecretStore#enrollment_code_env_var}
   */
   readonly enrollmentCodeEnvVar?: string;
   /**
   * username that used by the EJBCA during enrollment. This can be left out.  If so, the username must be auto-generated on the Keyfactor side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#enrollment_username_env_var SecretStore#enrollment_username_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#enrollment_username_env_var SecretStore#enrollment_username_env_var}
   */
   readonly enrollmentUsernameEnvVar?: string;
   /**
   * Path to private key in PEM format. This file should contain the private key associated with the client certificate configured in CertificateFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#key_file_path SecretStore#key_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#key_file_path SecretStore#key_file_path}
   */
   readonly keyFilePath?: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * the host of the Key Factor CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2896,13 +2896,13 @@ export interface SecretStoreStrongVault {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -3012,23 +3012,23 @@ export class SecretStoreStrongVaultOutputReference extends cdktf.ComplexObject {
 }
 export interface SecretStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#create SecretStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#create SecretStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#default SecretStore#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#default SecretStore#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#delete SecretStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#delete SecretStore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#read SecretStore#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#read SecretStore#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#update SecretStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#update SecretStore#update}
   */
   readonly update?: string;
 }
@@ -3240,25 +3240,25 @@ export interface SecretStoreVaultApprole {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -3425,43 +3425,43 @@ export interface SecretStoreVaultApproleCertSsh {
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * The mount point of the SSH engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
   */
   readonly sshMountPoint: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -3706,43 +3706,43 @@ export interface SecretStoreVaultApproleCertX509 {
   /**
   * The lifetime of certificates issued by this CA in minutes. Recommended value is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The mount point of the PKI engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
   */
   readonly pkiMountPoint: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -3987,25 +3987,25 @@ export interface SecretStoreVaultAwsEc2 {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4172,43 +4172,43 @@ export interface SecretStoreVaultAwsEc2CertSsh {
   /**
   * The lifetime of certificates issued by this CA in minutes. Recommended value is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * The mount point of the SSH engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
   */
   readonly sshMountPoint: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4453,43 +4453,43 @@ export interface SecretStoreVaultAwsEc2CertX509 {
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The mount point of the PKI engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
   */
   readonly pkiMountPoint: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4734,25 +4734,25 @@ export interface SecretStoreVaultAwsIam {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4919,43 +4919,43 @@ export interface SecretStoreVaultAwsIamCertSsh {
   /**
   * The lifetime of certificates issued by this CA in minutes. Recommended value is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * The mount point of the SSH engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
   */
   readonly sshMountPoint: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -5200,43 +5200,43 @@ export interface SecretStoreVaultAwsIamCertX509 {
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The mount point of the PKI engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
   */
   readonly pkiMountPoint: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -5481,43 +5481,43 @@ export interface SecretStoreVaultTls {
   /**
   * A path to a CA file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_cert_path SecretStore#ca_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_cert_path SecretStore#ca_cert_path}
   */
   readonly caCertPath?: string;
   /**
   * A path to a client certificate file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#client_cert_path SecretStore#client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#client_cert_path SecretStore#client_cert_path}
   */
   readonly clientCertPath: string;
   /**
   * A path to a client key file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#client_key_path SecretStore#client_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#client_key_path SecretStore#client_key_path}
   */
   readonly clientKeyPath: string;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -5765,61 +5765,61 @@ export interface SecretStoreVaultTlsCertSsh {
   /**
   * A path to a CA file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_cert_path SecretStore#ca_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_cert_path SecretStore#ca_cert_path}
   */
   readonly caCertPath?: string;
   /**
   * A path to a client certificate file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#client_cert_path SecretStore#client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#client_cert_path SecretStore#client_cert_path}
   */
   readonly clientCertPath: string;
   /**
   * A path to a client key file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#client_key_path SecretStore#client_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#client_key_path SecretStore#client_key_path}
   */
   readonly clientKeyPath: string;
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * The mount point of the SSH engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
   */
   readonly sshMountPoint: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -6145,61 +6145,61 @@ export interface SecretStoreVaultTlsCertX509 {
   /**
   * A path to a CA file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ca_cert_path SecretStore#ca_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ca_cert_path SecretStore#ca_cert_path}
   */
   readonly caCertPath?: string;
   /**
   * A path to a client certificate file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#client_cert_path SecretStore#client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#client_cert_path SecretStore#client_cert_path}
   */
   readonly clientCertPath: string;
   /**
   * A path to a client key file accessible by a Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#client_key_path SecretStore#client_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#client_key_path SecretStore#client_key_path}
   */
   readonly clientKeyPath: string;
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The mount point of the PKI engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
   */
   readonly pkiMountPoint: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -6525,25 +6525,25 @@ export interface SecretStoreVaultToken {
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -6710,43 +6710,43 @@ export interface SecretStoreVaultTokenCertSsh {
   /**
   * The lifetime of certificates issued by this CA in minutes. Recommended value is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * The mount point of the SSH engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#ssh_mount_point SecretStore#ssh_mount_point}
   */
   readonly sshMountPoint: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -6991,43 +6991,43 @@ export interface SecretStoreVaultTokenCertX509 {
   /**
   * The lifetime of certificates issued by this CA represented in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#issued_cert_ttl_minutes SecretStore#issued_cert_ttl_minutes}
   */
   readonly issuedCertTtlMinutes: number;
   /**
   * Unique human-readable name of the SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#name SecretStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#name SecretStore#name}
   */
   readonly name: string;
   /**
   * The namespace to make requests within
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#namespace SecretStore#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#namespace SecretStore#namespace}
   */
   readonly namespace?: string;
   /**
   * The mount point of the PKI engine configured with the desired CA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#pki_mount_point SecretStore#pki_mount_point}
   */
   readonly pkiMountPoint: string;
   /**
   * The URL of the Vault to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#server_address SecretStore#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#server_address SecretStore#server_address}
   */
   readonly serverAddress: string;
   /**
   * The signing role to be used for signing certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#signing_role SecretStore#signing_role}
   */
   readonly signingRole: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#tags SecretStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#tags SecretStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -7270,7 +7270,7 @@ export class SecretStoreVaultTokenCertX509OutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store sdm_secret_store}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store sdm_secret_store}
 */
 export class SecretStore extends cdktf.TerraformResource {
 
@@ -7286,7 +7286,7 @@ export class SecretStore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecretStore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretStore to import
-  * @param importFromId The id of the existing SecretStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7298,7 +7298,7 @@ export class SecretStore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store sdm_secret_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store sdm_secret_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7309,8 +7309,8 @@ export class SecretStore extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_secret_store',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.40.0',
-        providerVersionConstraint: '15.40.0'
+        providerVersion: '15.41.0',
+        providerVersionConstraint: '15.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

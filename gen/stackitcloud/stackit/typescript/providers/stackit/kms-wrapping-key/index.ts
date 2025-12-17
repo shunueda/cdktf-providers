@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface KmsWrappingKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access scope of the key. Default is `PUBLIC`. Possible values are: `PUBLIC`, `SNA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#access_scope KmsWrappingKey#access_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#access_scope KmsWrappingKey#access_scope}
   */
   readonly accessScope?: string;
   /**
   * The wrapping algorithm used to wrap the key to import. Possible values are: `rsa_2048_oaep_sha256`, `rsa_3072_oaep_sha256`, `rsa_4096_oaep_sha256`, `rsa_4096_oaep_sha512`, `rsa_2048_oaep_sha256_aes_256_key_wrap`, `rsa_3072_oaep_sha256_aes_256_key_wrap`, `rsa_4096_oaep_sha256_aes_256_key_wrap`, `rsa_4096_oaep_sha512_aes_256_key_wrap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#algorithm KmsWrappingKey#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#algorithm KmsWrappingKey#algorithm}
   */
   readonly algorithm: string;
   /**
   * A user chosen description to distinguish multiple wrapping keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#description KmsWrappingKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#description KmsWrappingKey#description}
   */
   readonly description?: string;
   /**
   * The display name to distinguish multiple wrapping keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#display_name KmsWrappingKey#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#display_name KmsWrappingKey#display_name}
   */
   readonly displayName: string;
   /**
   * The ID of the associated keyring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#keyring_id KmsWrappingKey#keyring_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#keyring_id KmsWrappingKey#keyring_id}
   */
   readonly keyringId: string;
   /**
   * STACKIT project ID to which the keyring is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#project_id KmsWrappingKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#project_id KmsWrappingKey#project_id}
   */
   readonly projectId: string;
   /**
   * The underlying system that is responsible for protecting the key material. Possible values are: `software`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#protection KmsWrappingKey#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#protection KmsWrappingKey#protection}
   */
   readonly protection: string;
   /**
   * The purpose for which the key will be used. Possible values are: `wrap_symmetric_key`, `wrap_asymmetric_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#purpose KmsWrappingKey#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#purpose KmsWrappingKey#purpose}
   */
   readonly purpose: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#region KmsWrappingKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#region KmsWrappingKey#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key stackit_kms_wrapping_key}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key stackit_kms_wrapping_key}
 */
 export class KmsWrappingKey extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class KmsWrappingKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsWrappingKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsWrappingKey to import
-  * @param importFromId The id of the existing KmsWrappingKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsWrappingKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsWrappingKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class KmsWrappingKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_wrapping_key stackit_kms_wrapping_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_wrapping_key stackit_kms_wrapping_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class KmsWrappingKey extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_kms_wrapping_key',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

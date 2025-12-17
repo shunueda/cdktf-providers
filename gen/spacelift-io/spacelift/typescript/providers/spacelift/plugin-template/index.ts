@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PluginTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Free-form plugin template description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template#description PluginTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template#description PluginTemplate#description}
   */
   readonly description?: string;
   /**
   * Labels to apply to the plugin template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template#labels PluginTemplate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template#labels PluginTemplate#labels}
   */
   readonly labels?: string[];
   /**
   * The plugin manifest defining the plugin's behavior
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template#manifest PluginTemplate#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template#manifest PluginTemplate#manifest}
   */
   readonly manifest: string;
   /**
   * Name of the plugin template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template#name PluginTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template#name PluginTemplate#name}
   */
   readonly name: string;
 }
@@ -139,7 +139,7 @@ export class PluginTemplateParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template spacelift_plugin_template}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template spacelift_plugin_template}
 */
 export class PluginTemplate extends cdktf.TerraformResource {
 
@@ -155,7 +155,7 @@ export class PluginTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PluginTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PluginTemplate to import
-  * @param importFromId The id of the existing PluginTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PluginTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PluginTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class PluginTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/plugin_template spacelift_plugin_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/plugin_template spacelift_plugin_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class PluginTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_plugin_template',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

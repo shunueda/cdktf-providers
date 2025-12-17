@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ScfOrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#name ScfOrganization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#name ScfOrganization#name}
   */
   readonly name: string;
   /**
   * The ID of the platform associated with the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#platform_id ScfOrganization#platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#platform_id ScfOrganization#platform_id}
   */
   readonly platformId?: string;
   /**
   * The ID of the project associated with the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#project_id ScfOrganization#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#project_id ScfOrganization#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the quota associated with the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#quota_id ScfOrganization#quota_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#quota_id ScfOrganization#quota_id}
   */
   readonly quotaId?: string;
   /**
   * The resource region. If not defined, the provider region is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#region ScfOrganization#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#region ScfOrganization#region}
   */
   readonly region?: string;
   /**
   * A boolean indicating whether the organization is suspended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#suspended ScfOrganization#suspended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#suspended ScfOrganization#suspended}
   */
   readonly suspended?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization stackit_scf_organization}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization stackit_scf_organization}
 */
 export class ScfOrganization extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ScfOrganization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfOrganization to import
-  * @param importFromId The id of the existing ScfOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ScfOrganization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/scf_organization stackit_scf_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/scf_organization stackit_scf_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ScfOrganization extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_scf_organization',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

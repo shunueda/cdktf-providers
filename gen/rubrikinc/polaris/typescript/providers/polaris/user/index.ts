@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/user
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * User email address. Note, all letters must be lower case. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/user#email User#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/user#email User#email}
   */
   readonly email: string;
   /**
   * Roles assigned to the user (UUIDs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/user#role_ids User#role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/user#role_ids User#role_ids}
   */
   readonly roleIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/user polaris_user}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/user polaris_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/user polaris_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/user polaris_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_user',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

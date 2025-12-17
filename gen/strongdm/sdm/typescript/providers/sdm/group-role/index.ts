@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role
+// https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GroupRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The assigned Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#group_id GroupRole#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#group_id GroupRole#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#id GroupRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#id GroupRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface GroupRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The assigned Role ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#role_id GroupRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#role_id GroupRole#role_id}
   */
   readonly roleId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#timeouts GroupRole#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#timeouts GroupRole#timeouts}
   */
   readonly timeouts?: GroupRoleTimeouts;
 }
 export interface GroupRoleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#create GroupRole#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#create GroupRole#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#default GroupRole#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#default GroupRole#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#delete GroupRole#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#delete GroupRole#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#read GroupRole#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#read GroupRole#read}
   */
   readonly read?: string;
 }
@@ -228,7 +228,7 @@ export class GroupRoleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role sdm_group_role}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role sdm_group_role}
 */
 export class GroupRole extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class GroupRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupRole to import
-  * @param importFromId The id of the existing GroupRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class GroupRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/group_role sdm_group_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/group_role sdm_group_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class GroupRole extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_group_role',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.40.0',
-        providerVersionConstraint: '15.40.0'
+        providerVersion: '15.41.0',
+        providerVersionConstraint: '15.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CloudaccountGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The context of the GCP configuration. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp#context CloudaccountGcp#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp#context CloudaccountGcp#context}
   */
   readonly context?: string;
   /**
   * The GCP credentials in JSON format. These credentials are required to authenticate and manage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp#gcp_json_credentials CloudaccountGcp#gcp_json_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp#gcp_json_credentials CloudaccountGcp#gcp_json_credentials}
   */
   readonly gcpJsonCredentials: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp#id CloudaccountGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp#id CloudaccountGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface CloudaccountGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the GCP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp#name CloudaccountGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp#name CloudaccountGcp#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp spectrocloud_cloudaccount_gcp}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp spectrocloud_cloudaccount_gcp}
 */
 export class CloudaccountGcp extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CloudaccountGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountGcp to import
-  * @param importFromId The id of the existing CloudaccountGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CloudaccountGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_gcp spectrocloud_cloudaccount_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_gcp spectrocloud_cloudaccount_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CloudaccountGcp extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_gcp',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

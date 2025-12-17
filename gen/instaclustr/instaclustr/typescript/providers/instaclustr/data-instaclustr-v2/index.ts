@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface DataInstaclustrV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#id DataInstaclustrV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#id DataInstaclustrV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * cloud_provider_node_sizes block
+  * application_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#cloud_provider_node_sizes DataInstaclustrV2#cloud_provider_node_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#application_versions DataInstaclustrV2#application_versions}
   */
-  readonly cloudProviderNodeSizes?: DataInstaclustrV2CloudProviderNodeSizes[] | cdktf.IResolvable;
+  readonly applicationVersions?: DataInstaclustrV2ApplicationVersions[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#filter DataInstaclustrV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#filter DataInstaclustrV2#filter}
   */
   readonly filter?: DataInstaclustrV2Filter[] | cdktf.IResolvable;
 }
-export interface DataInstaclustrV2CloudProviderNodeSizes {
+export interface DataInstaclustrV2ApplicationVersions {
   /**
-  * Name of a cloud provider service.
+  * Name of an application, including primary and addon types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#cloud_provider DataInstaclustrV2#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#application DataInstaclustrV2#application}
   */
-  readonly cloudProvider?: string;
+  readonly application?: string;
   /**
-  * Cloud provider documentation of the virtual machine instances.
+  * List of sematic versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#document DataInstaclustrV2#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#versions DataInstaclustrV2#versions}
   */
-  readonly document?: string;
-  /**
-  * List of node size names.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#node_sizes DataInstaclustrV2#node_sizes}
-  */
-  readonly nodeSizes?: string[];
+  readonly versions?: string[];
 }
 
-export function dataInstaclustrV2CloudProviderNodeSizesToTerraform(struct?: DataInstaclustrV2CloudProviderNodeSizes | cdktf.IResolvable): any {
+export function dataInstaclustrV2ApplicationVersionsToTerraform(struct?: DataInstaclustrV2ApplicationVersions | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cloud_provider: cdktf.stringToTerraform(struct!.cloudProvider),
-    document: cdktf.stringToTerraform(struct!.document),
-    node_sizes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.nodeSizes),
+    application: cdktf.stringToTerraform(struct!.application),
+    versions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.versions),
   }
 }
 
 
-export function dataInstaclustrV2CloudProviderNodeSizesToHclTerraform(struct?: DataInstaclustrV2CloudProviderNodeSizes | cdktf.IResolvable): any {
+export function dataInstaclustrV2ApplicationVersionsToHclTerraform(struct?: DataInstaclustrV2ApplicationVersions | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    cloud_provider: {
-      value: cdktf.stringToHclTerraform(struct!.cloudProvider),
+    application: {
+      value: cdktf.stringToHclTerraform(struct!.application),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
-    document: {
-      value: cdktf.stringToHclTerraform(struct!.document),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    node_sizes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.nodeSizes),
+    versions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.versions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -91,7 +78,7 @@ export function dataInstaclustrV2CloudProviderNodeSizesToHclTerraform(struct?: D
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DataInstaclustrV2CloudProviderNodeSizesOutputReference extends cdktf.ComplexObject {
+export class DataInstaclustrV2ApplicationVersionsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -105,34 +92,29 @@ export class DataInstaclustrV2CloudProviderNodeSizesOutputReference extends cdkt
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataInstaclustrV2CloudProviderNodeSizes | cdktf.IResolvable | undefined {
+  public get internalValue(): DataInstaclustrV2ApplicationVersions | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._cloudProvider !== undefined) {
+    if (this._application !== undefined) {
       hasAnyValues = true;
-      internalValueResult.cloudProvider = this._cloudProvider;
+      internalValueResult.application = this._application;
     }
-    if (this._document !== undefined) {
+    if (this._versions !== undefined) {
       hasAnyValues = true;
-      internalValueResult.document = this._document;
-    }
-    if (this._nodeSizes !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nodeSizes = this._nodeSizes;
+      internalValueResult.versions = this._versions;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataInstaclustrV2CloudProviderNodeSizes | cdktf.IResolvable | undefined) {
+  public set internalValue(value: DataInstaclustrV2ApplicationVersions | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._cloudProvider = undefined;
-      this._document = undefined;
-      this._nodeSizes = undefined;
+      this._application = undefined;
+      this._versions = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -141,63 +123,46 @@ export class DataInstaclustrV2CloudProviderNodeSizesOutputReference extends cdkt
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._cloudProvider = value.cloudProvider;
-      this._document = value.document;
-      this._nodeSizes = value.nodeSizes;
+      this._application = value.application;
+      this._versions = value.versions;
     }
   }
 
-  // cloud_provider - computed: true, optional: true, required: false
-  private _cloudProvider?: string; 
-  public get cloudProvider() {
-    return this.getStringAttribute('cloud_provider');
+  // application - computed: true, optional: true, required: false
+  private _application?: string; 
+  public get application() {
+    return this.getStringAttribute('application');
   }
-  public set cloudProvider(value: string) {
-    this._cloudProvider = value;
+  public set application(value: string) {
+    this._application = value;
   }
-  public resetCloudProvider() {
-    this._cloudProvider = undefined;
+  public resetApplication() {
+    this._application = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get cloudProviderInput() {
-    return this._cloudProvider;
+  public get applicationInput() {
+    return this._application;
   }
 
-  // document - computed: true, optional: true, required: false
-  private _document?: string; 
-  public get document() {
-    return this.getStringAttribute('document');
+  // versions - computed: true, optional: true, required: false
+  private _versions?: string[]; 
+  public get versions() {
+    return this.getListAttribute('versions');
   }
-  public set document(value: string) {
-    this._document = value;
+  public set versions(value: string[]) {
+    this._versions = value;
   }
-  public resetDocument() {
-    this._document = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get documentInput() {
-    return this._document;
-  }
-
-  // node_sizes - computed: true, optional: true, required: false
-  private _nodeSizes?: string[]; 
-  public get nodeSizes() {
-    return this.getListAttribute('node_sizes');
-  }
-  public set nodeSizes(value: string[]) {
-    this._nodeSizes = value;
-  }
-  public resetNodeSizes() {
-    this._nodeSizes = undefined;
+  public resetVersions() {
+    this._versions = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get nodeSizesInput() {
-    return this._nodeSizes;
+  public get versionsInput() {
+    return this._versions;
   }
 }
 
-export class DataInstaclustrV2CloudProviderNodeSizesList extends cdktf.ComplexList {
-  public internalValue? : DataInstaclustrV2CloudProviderNodeSizes[] | cdktf.IResolvable
+export class DataInstaclustrV2ApplicationVersionsList extends cdktf.ComplexList {
+  public internalValue? : DataInstaclustrV2ApplicationVersions[] | cdktf.IResolvable
 
   /**
   * @param terraformResource The parent resource
@@ -211,17 +176,17 @@ export class DataInstaclustrV2CloudProviderNodeSizesList extends cdktf.ComplexLi
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataInstaclustrV2CloudProviderNodeSizesOutputReference {
-    return new DataInstaclustrV2CloudProviderNodeSizesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataInstaclustrV2ApplicationVersionsOutputReference {
+    return new DataInstaclustrV2ApplicationVersionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataInstaclustrV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#name DataInstaclustrV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#name DataInstaclustrV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#values DataInstaclustrV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#values DataInstaclustrV2#values}
   */
   readonly values: string[];
 }
@@ -360,7 +325,7 @@ export class DataInstaclustrV2FilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2 instaclustr_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2 instaclustr_v2}
 */
 export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
 
@@ -376,7 +341,7 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataInstaclustrV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrV2 to import
-  * @param importFromId The id of the existing DataInstaclustrV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +353,7 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/v2 instaclustr_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/v2 instaclustr_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +364,8 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'instaclustr_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.37',
-        providerVersionConstraint: '2.1.37'
+        providerVersion: '2.1.38',
+        providerVersionConstraint: '2.1.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -411,7 +376,7 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._cloudProviderNodeSizes.internalValue = config.cloudProviderNodeSizes;
+    this._applicationVersions.internalValue = config.applicationVersions;
     this._filter.internalValue = config.filter;
   }
 
@@ -435,20 +400,20 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // cloud_provider_node_sizes - computed: false, optional: true, required: false
-  private _cloudProviderNodeSizes = new DataInstaclustrV2CloudProviderNodeSizesList(this, "cloud_provider_node_sizes", false);
-  public get cloudProviderNodeSizes() {
-    return this._cloudProviderNodeSizes;
+  // application_versions - computed: false, optional: true, required: false
+  private _applicationVersions = new DataInstaclustrV2ApplicationVersionsList(this, "application_versions", false);
+  public get applicationVersions() {
+    return this._applicationVersions;
   }
-  public putCloudProviderNodeSizes(value: DataInstaclustrV2CloudProviderNodeSizes[] | cdktf.IResolvable) {
-    this._cloudProviderNodeSizes.internalValue = value;
+  public putApplicationVersions(value: DataInstaclustrV2ApplicationVersions[] | cdktf.IResolvable) {
+    this._applicationVersions.internalValue = value;
   }
-  public resetCloudProviderNodeSizes() {
-    this._cloudProviderNodeSizes.internalValue = undefined;
+  public resetApplicationVersions() {
+    this._applicationVersions.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get cloudProviderNodeSizesInput() {
-    return this._cloudProviderNodeSizes.internalValue;
+  public get applicationVersionsInput() {
+    return this._applicationVersions.internalValue;
   }
 
   // filter - computed: false, optional: true, required: false
@@ -474,7 +439,7 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      cloud_provider_node_sizes: cdktf.listMapper(dataInstaclustrV2CloudProviderNodeSizesToTerraform, true)(this._cloudProviderNodeSizes.internalValue),
+      application_versions: cdktf.listMapper(dataInstaclustrV2ApplicationVersionsToTerraform, true)(this._applicationVersions.internalValue),
       filter: cdktf.listMapper(dataInstaclustrV2FilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -487,11 +452,11 @@ export class DataInstaclustrV2 extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "string",
       },
-      cloud_provider_node_sizes: {
-        value: cdktf.listMapperHcl(dataInstaclustrV2CloudProviderNodeSizesToHclTerraform, true)(this._cloudProviderNodeSizes.internalValue),
+      application_versions: {
+        value: cdktf.listMapperHcl(dataInstaclustrV2ApplicationVersionsToHclTerraform, true)(this._applicationVersions.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DataInstaclustrV2CloudProviderNodeSizesList",
+        storageClassType: "DataInstaclustrV2ApplicationVersionsList",
       },
       filter: {
         value: cdktf.listMapperHcl(dataInstaclustrV2FilterToHclTerraform, true)(this._filter.internalValue),

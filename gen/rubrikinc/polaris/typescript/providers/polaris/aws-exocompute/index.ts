@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface AwsExocomputeConfig extends cdktf.TerraformMetaArguments {
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#account_id AwsExocompute#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#account_id AwsExocompute#account_id}
   */
   readonly accountId: string;
   /**
   * AWS security group ID for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#cluster_security_group_id AwsExocompute#cluster_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#cluster_security_group_id AwsExocompute#cluster_security_group_id}
   */
   readonly clusterSecurityGroupId?: string;
   /**
   * Exocompute host cloud account ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#host_account_id AwsExocompute#host_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#host_account_id AwsExocompute#host_account_id}
   */
   readonly hostAccountId?: string;
   /**
   * AWS security group ID for the nodes. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#node_security_group_id AwsExocompute#node_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#node_security_group_id AwsExocompute#node_security_group_id}
   */
   readonly nodeSecurityGroupId?: string;
   /**
   * AWS region to run the Exocompute instance in. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#region AwsExocompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#region AwsExocompute#region}
   */
   readonly region?: string;
   /**
   * AWS subnet IDs for the cluster subnets. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#subnets AwsExocompute#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#subnets AwsExocompute#subnets}
   */
   readonly subnets?: string[];
   /**
   * AWS VPC ID for the cluster network. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#vpc_id AwsExocompute#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#vpc_id AwsExocompute#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute polaris_aws_exocompute}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute polaris_aws_exocompute}
 */
 export class AwsExocompute extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class AwsExocompute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsExocompute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsExocompute to import
-  * @param importFromId The id of the existing AwsExocompute that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsExocompute that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsExocompute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class AwsExocompute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_exocompute polaris_aws_exocompute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_exocompute polaris_aws_exocompute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class AwsExocompute extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_exocompute',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

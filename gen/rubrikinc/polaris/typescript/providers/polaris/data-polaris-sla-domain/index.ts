@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/sla_domain
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/sla_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataPolarisSlaDomainConfig extends cdktf.TerraformMetaArguments
   /**
   * SLA domain ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/sla_domain#id DataPolarisSlaDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/sla_domain#id DataPolarisSlaDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataPolarisSlaDomainConfig extends cdktf.TerraformMetaArguments
   /**
   * SLA domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/sla_domain#name DataPolarisSlaDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/sla_domain#name DataPolarisSlaDomain#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/sla_domain polaris_sla_domain}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/sla_domain polaris_sla_domain}
 */
 export class DataPolarisSlaDomain extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataPolarisSlaDomain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisSlaDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisSlaDomain to import
-  * @param importFromId The id of the existing DataPolarisSlaDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/sla_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisSlaDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/sla_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisSlaDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataPolarisSlaDomain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/sla_domain polaris_sla_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/sla_domain polaris_sla_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataPolarisSlaDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_sla_domain',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

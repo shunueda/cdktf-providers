@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface LatitudeshProviderConfig {
   /**
   * Latitude.sh API authentication token. Can also be set via the LATITUDESH_AUTH_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs#auth_token LatitudeshProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs#auth_token LatitudeshProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * The project ID to use for all resources. If not set, project must be defined in the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs#project LatitudeshProvider#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs#project LatitudeshProvider#project}
   */
   readonly project?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs#alias LatitudeshProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs#alias LatitudeshProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs latitudesh}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs latitudesh}
 */
 export class LatitudeshProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class LatitudeshProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LatitudeshProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LatitudeshProvider to import
-  * @param importFromId The id of the existing LatitudeshProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LatitudeshProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LatitudeshProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class LatitudeshProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs latitudesh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs latitudesh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class LatitudeshProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'latitudesh',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.6',
-        providerVersionConstraint: '2.8.6'
+        providerVersion: '2.8.7',
+        providerVersionConstraint: '2.8.7'
       },
       terraformProviderSource: 'latitudesh/latitudesh'
     });

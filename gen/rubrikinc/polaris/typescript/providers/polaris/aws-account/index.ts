@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface AwsAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Role ARN of role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#assume_role AwsAccount#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#assume_role AwsAccount#assume_role}
   */
   readonly assumeRole?: string;
   /**
   * Should snapshots be deleted when the resource is destroyed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#delete_snapshots_on_destroy AwsAccount#delete_snapshots_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#delete_snapshots_on_destroy AwsAccount#delete_snapshots_on_destroy}
   */
   readonly deleteSnapshotsOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Account name in Polaris. If not given the name is taken from AWS Organizations or, if the required permissions are missing, is derived from the AWS account ID and the named profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#name AwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#name AwsAccount#name}
   */
   readonly name?: string;
   /**
   * When set to 'update' feature permissions can be updated by applying the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permissions AwsAccount#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permissions AwsAccount#permissions}
   */
   readonly permissions?: string;
   /**
   * AWS named profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#profile AwsAccount#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#profile AwsAccount#profile}
   */
   readonly profile?: string;
   /**
   * cloud_native_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#cloud_native_protection AwsAccount#cloud_native_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#cloud_native_protection AwsAccount#cloud_native_protection}
   */
   readonly cloudNativeProtection: AwsAccountCloudNativeProtection;
   /**
   * cyber_recovery_data_scanning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#cyber_recovery_data_scanning AwsAccount#cyber_recovery_data_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#cyber_recovery_data_scanning AwsAccount#cyber_recovery_data_scanning}
   */
   readonly cyberRecoveryDataScanning?: AwsAccountCyberRecoveryDataScanning;
   /**
   * data_scanning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#data_scanning AwsAccount#data_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#data_scanning AwsAccount#data_scanning}
   */
   readonly dataScanning?: AwsAccountDataScanning;
   /**
   * dspm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#dspm AwsAccount#dspm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#dspm AwsAccount#dspm}
   */
   readonly dspm?: AwsAccountDspm;
   /**
   * exocompute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#exocompute AwsAccount#exocompute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#exocompute AwsAccount#exocompute}
   */
   readonly exocompute?: AwsAccountExocompute;
   /**
   * outpost block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#outpost AwsAccount#outpost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#outpost AwsAccount#outpost}
   */
   readonly outpost?: AwsAccountOutpost;
 }
@@ -78,13 +78,13 @@ export interface AwsAccountCloudNativeProtection {
   /**
   * Permission groups to assign to the Cloud Native Protection feature. Possible values are `BASIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Regions that RSC will monitor for instances to automatically protect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#regions AwsAccount#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#regions AwsAccount#regions}
   */
   readonly regions: string[];
 }
@@ -206,13 +206,13 @@ export interface AwsAccountCyberRecoveryDataScanning {
   /**
   * Permission groups to assign to the Cyber Recovery Data Scanning feature. Possible values are `BASIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
   */
   readonly permissionGroups: string[];
   /**
   * Regions to enable the Cyber Recovery Data Scanning feature in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#regions AwsAccount#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#regions AwsAccount#regions}
   */
   readonly regions: string[];
 }
@@ -331,13 +331,13 @@ export interface AwsAccountDataScanning {
   /**
   * Permission groups to assign to the Data Scanning feature. Possible values are `BASIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
   */
   readonly permissionGroups: string[];
   /**
   * Regions to enable the Data Scanning feature in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#regions AwsAccount#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#regions AwsAccount#regions}
   */
   readonly regions: string[];
 }
@@ -456,13 +456,13 @@ export interface AwsAccountDspm {
   /**
   * Permission groups to assign to the DSPM feature. Possible values are `BASIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
   */
   readonly permissionGroups: string[];
   /**
   * Regions to enable the DSPM feature in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#regions AwsAccount#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#regions AwsAccount#regions}
   */
   readonly regions: string[];
 }
@@ -581,13 +581,13 @@ export interface AwsAccountExocompute {
   /**
   * Permission groups to assign to the Exocompute feature. Possible values are `BASIC` and `RSC_MANAGED_CLUSTER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Regions to enable the Exocompute feature in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#regions AwsAccount#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#regions AwsAccount#regions}
   */
   readonly regions: string[];
 }
@@ -709,19 +709,19 @@ export interface AwsAccountOutpost {
   /**
   * AWS account ID of the outpost account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#outpost_account_id AwsAccount#outpost_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#outpost_account_id AwsAccount#outpost_account_id}
   */
   readonly outpostAccountId: string;
   /**
   * AWS named profile for the outpost account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#outpost_account_profile AwsAccount#outpost_account_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#outpost_account_profile AwsAccount#outpost_account_profile}
   */
   readonly outpostAccountProfile?: string;
   /**
   * Permission groups to assign to the Outpost feature. Possible values are `BASIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#permission_groups AwsAccount#permission_groups}
   */
   readonly permissionGroups: string[];
 }
@@ -867,7 +867,7 @@ export class AwsAccountOutpostOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account polaris_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account polaris_aws_account}
 */
 export class AwsAccount extends cdktf.TerraformResource {
 
@@ -883,7 +883,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsAccount to import
-  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -895,7 +895,7 @@ export class AwsAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_account polaris_aws_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/aws_account polaris_aws_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -906,8 +906,8 @@ export class AwsAccount extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataSpectrocloudPackConfig extends cdktf.TerraformMetaArguments
   /**
   * Filter results by cloud type. If not provided, all cloud types are returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#cloud DataSpectrocloudPack#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#cloud DataSpectrocloudPack#cloud}
   */
   readonly cloud?: string[];
   /**
   * Filters to apply when searching for a pack. This is a string of the form 'key1=value1' with 'AND', 'OR` operators. Refer to the Palette API [pack search API endpoint documentation](https://docs.spectrocloud.com/api/v1/v-1-packs-search/) for filter examples. The filter attribute will be deprecated soon; use `advance_filter` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#filters DataSpectrocloudPack#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#filters DataSpectrocloudPack#filters}
   */
   readonly filters?: string;
   /**
   * The UID of the pack returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#id DataSpectrocloudPack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#id DataSpectrocloudPack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,31 +31,31 @@ export interface DataSpectrocloudPackConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the pack to search for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#name DataSpectrocloudPack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#name DataSpectrocloudPack#name}
   */
   readonly name?: string;
   /**
   * The unique identifier (UID) of the registry where the pack is located. Specify `registry_uid` to search within a specific registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#registry_uid DataSpectrocloudPack#registry_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#registry_uid DataSpectrocloudPack#registry_uid}
   */
   readonly registryUid?: string;
   /**
   * The type of pack to search for. Supported values are `helm`, `manifest`, `container`, `operator-instance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#type DataSpectrocloudPack#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#type DataSpectrocloudPack#type}
   */
   readonly type?: string;
   /**
   * Specify the version of the pack to search for. If not set, the latest available version from the specified registry will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#version DataSpectrocloudPack#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#version DataSpectrocloudPack#version}
   */
   readonly version?: string;
   /**
   * advance_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#advance_filters DataSpectrocloudPack#advance_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#advance_filters DataSpectrocloudPack#advance_filters}
   */
   readonly advanceFilters?: DataSpectrocloudPackAdvanceFilters;
 }
@@ -63,37 +63,37 @@ export interface DataSpectrocloudPackAdvanceFilters {
   /**
   * Defines the type of add-on pack. Allowed values are `load balancer`, `ingress`, `logging`, `monitoring`, `security`, `authentication`, `servicemesh`, `system app`, `app services`, `registry` and `integration`. If not specified, all options will be set by default. For `storage` and `network` addon_type set `csi` or `cni` respectively in pack_layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#addon_type DataSpectrocloudPack#addon_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#addon_type DataSpectrocloudPack#addon_type}
   */
   readonly addonType?: string[];
   /**
   * Defines the environment where the pack will be deployed. Options include `all`, `aws`, `eks`, `azure`, `aks`, `gcp`, `gke`, `vsphere`, `maas`, `openstack` and `edge-native`. If not specified, all options will be set by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#environment DataSpectrocloudPack#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#environment DataSpectrocloudPack#environment}
   */
   readonly environment?: string[];
   /**
   * Indicates whether the pack is FIPS-compliant. If `true`, only FIPS-compliant components will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#is_fips DataSpectrocloudPack#is_fips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#is_fips DataSpectrocloudPack#is_fips}
   */
   readonly isFips?: boolean | cdktf.IResolvable;
   /**
   * Indicates the pack layer, such as `kernel`, `os`, `k8s`, `cni`, `csi`, or `addon`. If not specified, all options will be set by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#pack_layer DataSpectrocloudPack#pack_layer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#pack_layer DataSpectrocloudPack#pack_layer}
   */
   readonly packLayer?: string[];
   /**
   * Specify the source of the pack. Allowed values are `spectrocloud` and `community`. If not specified, all options will be set by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#pack_source DataSpectrocloudPack#pack_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#pack_source DataSpectrocloudPack#pack_source}
   */
   readonly packSource?: string[];
   /**
   * Specify the type of pack. Allowed values are `helm`, `spectro`, `oci`, and `manifest`. If not specified, all options will be set by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#pack_type DataSpectrocloudPack#pack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#pack_type DataSpectrocloudPack#pack_type}
   */
   readonly packType?: string[];
 }
@@ -322,7 +322,7 @@ export class DataSpectrocloudPackAdvanceFiltersOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack spectrocloud_pack}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack spectrocloud_pack}
 */
 export class DataSpectrocloudPack extends cdktf.TerraformDataSource {
 
@@ -338,7 +338,7 @@ export class DataSpectrocloudPack extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpectrocloudPack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudPack to import
-  * @param importFromId The id of the existing DataSpectrocloudPack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudPack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudPack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class DataSpectrocloudPack extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/pack spectrocloud_pack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/pack spectrocloud_pack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class DataSpectrocloudPack extends cdktf.TerraformDataSource {
       terraformResourceType: 'spectrocloud_pack',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

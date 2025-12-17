@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PortActionPermissionsConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#action_identifier PortActionPermissions#action_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#action_identifier PortActionPermissions#action_identifier}
   */
   readonly actionIdentifier: string;
   /**
   * The ID of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#blueprint_identifier PortActionPermissions#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#blueprint_identifier PortActionPermissions#blueprint_identifier}
   */
   readonly blueprintIdentifier?: string;
   /**
   * The permissions for the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#permissions PortActionPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#permissions PortActionPermissions#permissions}
   */
   readonly permissions: PortActionPermissionsPermissions;
 }
@@ -30,25 +30,25 @@ export interface PortActionPermissionsPermissionsApprove {
   /**
   * The policy to use for approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#policy PortActionPermissions#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#policy PortActionPermissions#policy}
   */
   readonly policy?: string;
   /**
   * The roles with approval permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#roles PortActionPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#roles PortActionPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * The teams with approval permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#teams PortActionPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#teams PortActionPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * The users with approval permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#users PortActionPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#users PortActionPermissions#users}
   */
   readonly users?: string[];
 }
@@ -231,31 +231,31 @@ export interface PortActionPermissionsPermissionsExecute {
   /**
   * Give execution permission to the teams who own the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#owned_by_team PortActionPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#owned_by_team PortActionPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * The policy to use for execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#policy PortActionPermissions#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#policy PortActionPermissions#policy}
   */
   readonly policy?: string;
   /**
   * The roles with execution permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#roles PortActionPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#roles PortActionPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * The teams with execution permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#teams PortActionPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#teams PortActionPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * The users with execution permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#users PortActionPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#users PortActionPermissions#users}
   */
   readonly users?: string[];
 }
@@ -467,13 +467,13 @@ export interface PortActionPermissionsPermissions {
   /**
   * The permission to approve the action's runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#approve PortActionPermissions#approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#approve PortActionPermissions#approve}
   */
   readonly approve: PortActionPermissionsPermissionsApprove;
   /**
   * The permission to execute the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#execute PortActionPermissions#execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#execute PortActionPermissions#execute}
   */
   readonly execute: PortActionPermissionsPermissionsExecute;
 }
@@ -590,7 +590,7 @@ export class PortActionPermissionsPermissionsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions port_action_permissions}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions port_action_permissions}
 */
 export class PortActionPermissions extends cdktf.TerraformResource {
 
@@ -606,7 +606,7 @@ export class PortActionPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortActionPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortActionPermissions to import
-  * @param importFromId The id of the existing PortActionPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortActionPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortActionPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -618,7 +618,7 @@ export class PortActionPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_action_permissions port_action_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_action_permissions port_action_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -629,8 +629,8 @@ export class PortActionPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'port_action_permissions',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.3',
-        providerVersionConstraint: '2.17.3'
+        providerVersion: '2.17.4',
+        providerVersionConstraint: '2.17.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

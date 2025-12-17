@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface AzureSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Should snapshots be deleted when the resource is destroyed. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#delete_snapshots_on_destroy AzureSubscription#delete_snapshots_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#delete_snapshots_on_destroy AzureSubscription#delete_snapshots_on_destroy}
   */
   readonly deleteSnapshotsOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * Azure subscription ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#subscription_id AzureSubscription#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#subscription_id AzureSubscription#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Azure subscription name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#subscription_name AzureSubscription#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#subscription_name AzureSubscription#subscription_name}
   */
   readonly subscriptionName?: string;
   /**
   * Azure tenant primary domain. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#tenant_domain AzureSubscription#tenant_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#tenant_domain AzureSubscription#tenant_domain}
   */
   readonly tenantDomain: string;
   /**
   * cloud_native_archival block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#cloud_native_archival AzureSubscription#cloud_native_archival}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#cloud_native_archival AzureSubscription#cloud_native_archival}
   */
   readonly cloudNativeArchival?: AzureSubscriptionCloudNativeArchival;
   /**
   * cloud_native_archival_encryption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#cloud_native_archival_encryption AzureSubscription#cloud_native_archival_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#cloud_native_archival_encryption AzureSubscription#cloud_native_archival_encryption}
   */
   readonly cloudNativeArchivalEncryption?: AzureSubscriptionCloudNativeArchivalEncryption;
   /**
   * cloud_native_blob_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#cloud_native_blob_protection AzureSubscription#cloud_native_blob_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#cloud_native_blob_protection AzureSubscription#cloud_native_blob_protection}
   */
   readonly cloudNativeBlobProtection?: AzureSubscriptionCloudNativeBlobProtection;
   /**
   * cloud_native_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#cloud_native_protection AzureSubscription#cloud_native_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#cloud_native_protection AzureSubscription#cloud_native_protection}
   */
   readonly cloudNativeProtection?: AzureSubscriptionCloudNativeProtection;
   /**
   * exocompute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#exocompute AzureSubscription#exocompute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#exocompute AzureSubscription#exocompute}
   */
   readonly exocompute?: AzureSubscriptionExocompute;
   /**
   * servers_and_apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#servers_and_apps AzureSubscription#servers_and_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#servers_and_apps AzureSubscription#servers_and_apps}
   */
   readonly serversAndApps?: AzureSubscriptionServersAndApps;
   /**
   * sql_db_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#sql_db_protection AzureSubscription#sql_db_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#sql_db_protection AzureSubscription#sql_db_protection}
   */
   readonly sqlDbProtection?: AzureSubscriptionSqlDbProtection;
   /**
   * sql_mi_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#sql_mi_protection AzureSubscription#sql_mi_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#sql_mi_protection AzureSubscription#sql_mi_protection}
   */
   readonly sqlMiProtection?: AzureSubscriptionSqlMiProtection;
 }
@@ -84,37 +84,37 @@ export interface AzureSubscriptionCloudNativeArchival {
   /**
   * Permission groups to assign to the Cloud Native Archival feature. Possible values are `BASIC`, `ENCRYPTION` and `SQL_ARCHIVAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions to enable the Cloud Native Archival feature in. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
   /**
   * Name of the Azure resource group where RSC places all resources created by the feature. RSC assumes the resource group already exists. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Region of the Azure resource group. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
   */
   readonly resourceGroupRegion?: string;
   /**
   * Tags to add to the Azure resource group. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
   */
   readonly resourceGroupTags?: { [key: string]: string };
 }
@@ -347,61 +347,61 @@ export interface AzureSubscriptionCloudNativeArchivalEncryption {
   /**
   * Permission groups to assign to the Cloud Native Archival Encryption feature. Possible values are `BASIC` and `ENCRYPTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions to enable the Cloud Native Archival Encryption feature in. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
   /**
   * Name of the Azure resource group where RSC places all resources created by the feature. RSC assumes the resource group already exists. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Region of the Azure resource group. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
   */
   readonly resourceGroupRegion?: string;
   /**
   * Tags to add to the Azure resource group. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
   */
   readonly resourceGroupTags?: { [key: string]: string };
   /**
   * User-assigned managed identity name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#user_assigned_managed_identity_name AzureSubscription#user_assigned_managed_identity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#user_assigned_managed_identity_name AzureSubscription#user_assigned_managed_identity_name}
   */
   readonly userAssignedManagedIdentityName: string;
   /**
   * ID of the service principal object associated with the user-assigned managed identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#user_assigned_managed_identity_principal_id AzureSubscription#user_assigned_managed_identity_principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#user_assigned_managed_identity_principal_id AzureSubscription#user_assigned_managed_identity_principal_id}
   */
   readonly userAssignedManagedIdentityPrincipalId: string;
   /**
   * User-assigned managed identity region. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#user_assigned_managed_identity_region AzureSubscription#user_assigned_managed_identity_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#user_assigned_managed_identity_region AzureSubscription#user_assigned_managed_identity_region}
   */
   readonly userAssignedManagedIdentityRegion: string;
   /**
   * User-assigned managed identity resource group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#user_assigned_managed_identity_resource_group_name AzureSubscription#user_assigned_managed_identity_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#user_assigned_managed_identity_resource_group_name AzureSubscription#user_assigned_managed_identity_resource_group_name}
   */
   readonly userAssignedManagedIdentityResourceGroupName: string;
 }
@@ -738,19 +738,19 @@ export interface AzureSubscriptionCloudNativeBlobProtection {
   /**
   * Permission groups to assign to the Cloud Native Blob Protection feature. Possible values are `BASIC` and `RECOVERY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions that RSC will monitor for resources to protect according to SLA Domains. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
 }
@@ -896,37 +896,37 @@ export interface AzureSubscriptionCloudNativeProtection {
   /**
   * Permission groups to assign to the Cloud Native Protection feature. Possible values are `BASIC`, `EXPORT_AND_RESTORE`, `FILE_LEVEL_RECOVERY`, `CLOUD_CLUSTER_ES` and `SNAPSHOT_PRIVATE_ACCESS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions that RSC will monitor for resources to protect according to SLA Domains. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
   /**
   * Name of the Azure resource group where RSC places all resources created by the feature. RSC assumes the resource group already exists. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Region of the Azure resource group. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
   */
   readonly resourceGroupRegion?: string;
   /**
   * Tags to add to the Azure resource group. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
   */
   readonly resourceGroupTags?: { [key: string]: string };
 }
@@ -1159,37 +1159,37 @@ export interface AzureSubscriptionExocompute {
   /**
   * Permission groups to assign to the Exocompute feature. Possible values are `BASIC`, `PRIVATE_ENDPOINTS` and `CUSTOMER_MANAGED_BASIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions to enable the Exocompute feature in. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
   /**
   * Name of the Azure resource group where RSC places all resources created by the feature. RSC assumes the resource group already exists. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Region of the Azure resource group. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
   */
   readonly resourceGroupRegion?: string;
   /**
   * Tags to add to the Azure resource group. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
   */
   readonly resourceGroupTags?: { [key: string]: string };
 }
@@ -1422,37 +1422,37 @@ export interface AzureSubscriptionServersAndApps {
   /**
   * Permission groups to assign to the Cloud Cluster feature. Possible values are `CLOUD_CLUSTER_ES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions to enable the Cloud Cluster feature in. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
   /**
   * Name of the Azure resource group where RSC places all resources created by the feature. RSC assumes the resource group already exists. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Region of the Azure resource group. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
   */
   readonly resourceGroupRegion?: string;
   /**
   * Tags to add to the Azure resource group. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
   */
   readonly resourceGroupTags?: { [key: string]: string };
 }
@@ -1685,37 +1685,37 @@ export interface AzureSubscriptionSqlDbProtection {
   /**
   * Permission groups to assign to the SQL DB Protection feature. Possible values are `BASIC`, `RECOVERY` and `BACKUP_V2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions to enable the SQL DB Protection feature in. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
   /**
   * Name of the Azure resource group where RSC places all resources created by the feature. RSC assumes the resource group already exists. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_name AzureSubscription#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Region of the Azure resource group. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_region AzureSubscription#resource_group_region}
   */
   readonly resourceGroupRegion?: string;
   /**
   * Tags to add to the Azure resource group. Changing this forces the RSC feature to be re-onboarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#resource_group_tags AzureSubscription#resource_group_tags}
   */
   readonly resourceGroupTags?: { [key: string]: string };
 }
@@ -1948,19 +1948,19 @@ export interface AzureSubscriptionSqlMiProtection {
   /**
   * Permission groups to assign to the SQL MI Protection feature. Possible values are `BASIC`, `RECOVERY` and `BACKUP_V2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permission_groups AzureSubscription#permission_groups}
   */
   readonly permissionGroups?: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_azure_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#permissions AzureSubscription#permissions}
   */
   readonly permissions?: string;
   /**
   * Azure regions to enable the SQL MI Protection feature in. Should be specified in the standard Azure style, e.g. `eastus`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#regions AzureSubscription#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#regions AzureSubscription#regions}
   */
   readonly regions: string[];
 }
@@ -2104,7 +2104,7 @@ export class AzureSubscriptionSqlMiProtectionOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription polaris_azure_subscription}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription polaris_azure_subscription}
 */
 export class AzureSubscription extends cdktf.TerraformResource {
 
@@ -2120,7 +2120,7 @@ export class AzureSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureSubscription to import
-  * @param importFromId The id of the existing AzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2132,7 +2132,7 @@ export class AzureSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_subscription polaris_azure_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_subscription polaris_azure_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2143,8 +2143,8 @@ export class AzureSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_subscription',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

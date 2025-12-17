@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataPolarisAzurePermissionsConfig extends cdktf.TerraformMetaAr
   /**
   * RSC feature. Note that the feature must be given in the `EXAMPLE_FEATURE_NAME` style. Possible values are `AZURE_SQL_DB_PROTECTION`, `AZURE_SQL_MI_PROTECTION`,  `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_ARCHIVAL_ENCRYPTION`, `CLOUD_NATIVE_BLOB_PROTECTION`, `CLOUD_NATIVE_PROTECTION`, `SERVERS_AND_APPS` and `EXOCOMPUTE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions#feature DataPolarisAzurePermissions#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions#feature DataPolarisAzurePermissions#feature}
   */
   readonly feature?: string;
   /**
   * RSC features. Possible values are `AZURE_SQL_DB_PROTECTION`, `AZURE_SQL_MI_PROTECTION`, `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_ARCHIVAL_ENCRYPTION`, `CLOUD_NATIVE_BLOB_PROTECTION`, `CLOUD_NATIVE_PROTECTION`, `SERVERS_AND_APPS`  and `EXOCOMPUTE`. **Deprecated:** use `feature` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions#features DataPolarisAzurePermissions#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions#features DataPolarisAzurePermissions#features}
   */
   readonly features?: string[];
   /**
   * Permission groups for the RSC feature. Possible values are `BASIC`, `EXPORT_AND_RESTORE`, `FILE_LEVEL_RECOVERY`, `SNAPSHOT_PRIVATE_ACCESS`, `PRIVATE_ENDPOINTS`, `CUSTOMER_MANAGED_BASIC`, `ENCRYPTION`, `SQL_ARCHIVAL`, `RECOVERY`, `CLOUD_CLUSTER_ES` and `BACKUP_V2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions#permission_groups DataPolarisAzurePermissions#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions#permission_groups DataPolarisAzurePermissions#permission_groups}
   */
   readonly permissionGroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions polaris_azure_permissions}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions polaris_azure_permissions}
 */
 export class DataPolarisAzurePermissions extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataPolarisAzurePermissions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisAzurePermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisAzurePermissions to import
-  * @param importFromId The id of the existing DataPolarisAzurePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisAzurePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisAzurePermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataPolarisAzurePermissions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/azure_permissions polaris_azure_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/azure_permissions polaris_azure_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataPolarisAzurePermissions extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_azure_permissions',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

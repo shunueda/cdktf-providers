@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector
+// https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#id Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#id Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface ConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#aws Connector#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#aws Connector#aws}
   */
   readonly aws?: ConnectorAws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#azure Connector#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#azure Connector#azure}
   */
   readonly azure?: ConnectorAzure;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#gcp Connector#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#gcp Connector#gcp}
   */
   readonly gcp?: ConnectorGcp;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#timeouts Connector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#timeouts Connector#timeouts}
   */
   readonly timeouts?: ConnectorTimeouts;
 }
@@ -43,13 +43,13 @@ export interface ConnectorAwsExcludeTags {
   /**
   * The name or key of this tag. Each name can only refer to one value on a tagged entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The value of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -196,13 +196,13 @@ export interface ConnectorAwsIncludeTags {
   /**
   * The name or key of this tag. Each name can only refer to one value on a tagged entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The value of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -349,49 +349,49 @@ export interface ConnectorAws {
   /**
   * AccountIds is the list of AWS Accounts to scan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#account_ids Connector#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#account_ids Connector#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * Description of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#description Connector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#description Connector#description}
   */
   readonly description?: string;
   /**
   * Unique human-readable name of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name: string;
   /**
   * RoleName is the Role we're assuming into for an account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#role_name Connector#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#role_name Connector#role_name}
   */
   readonly roleName?: string;
   /**
   * ScanPeriod identifies which remote system this Connector discovers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#scan_period Connector#scan_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#scan_period Connector#scan_period}
   */
   readonly scanPeriod?: string;
   /**
   * Services is a list of services this connector should scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#services Connector#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#services Connector#services}
   */
   readonly services?: string[];
   /**
   * exclude_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#exclude_tags Connector#exclude_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#exclude_tags Connector#exclude_tags}
   */
   readonly excludeTags?: ConnectorAwsExcludeTags[] | cdktf.IResolvable;
   /**
   * include_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#include_tags Connector#include_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#include_tags Connector#include_tags}
   */
   readonly includeTags?: ConnectorAwsIncludeTags[] | cdktf.IResolvable;
 }
@@ -677,13 +677,13 @@ export interface ConnectorAzureExcludeTags {
   /**
   * The name or key of this tag. Each name can only refer to one value on a tagged entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The value of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -830,13 +830,13 @@ export interface ConnectorAzureIncludeTags {
   /**
   * The name or key of this tag. Each name can only refer to one value on a tagged entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The value of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -983,55 +983,55 @@ export interface ConnectorAzure {
   /**
   * ClientId is the ID of the Application / Service Account we're acting as
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#client_id Connector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#client_id Connector#client_id}
   */
   readonly clientId?: string;
   /**
   * Description of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#description Connector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#description Connector#description}
   */
   readonly description?: string;
   /**
   * Unique human-readable name of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name: string;
   /**
   * ScanPeriod identifies which remote system this Connector discovers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#scan_period Connector#scan_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#scan_period Connector#scan_period}
   */
   readonly scanPeriod?: string;
   /**
   * Services is a list of services this connector should scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#services Connector#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#services Connector#services}
   */
   readonly services?: string[];
   /**
   * SubscriptionIds are the targets of discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#subscription_ids Connector#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#subscription_ids Connector#subscription_ids}
   */
   readonly subscriptionIds?: string[];
   /**
   * TenantId is the Azure Tenant we're discovering in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#tenant_id Connector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#tenant_id Connector#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * exclude_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#exclude_tags Connector#exclude_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#exclude_tags Connector#exclude_tags}
   */
   readonly excludeTags?: ConnectorAzureExcludeTags[] | cdktf.IResolvable;
   /**
   * include_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#include_tags Connector#include_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#include_tags Connector#include_tags}
   */
   readonly includeTags?: ConnectorAzureIncludeTags[] | cdktf.IResolvable;
 }
@@ -1346,13 +1346,13 @@ export interface ConnectorGcpExcludeTags {
   /**
   * The name or key of this tag. Each name can only refer to one value on a tagged entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The value of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -1499,13 +1499,13 @@ export interface ConnectorGcpIncludeTags {
   /**
   * The name or key of this tag. Each name can only refer to one value on a tagged entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name?: string;
   /**
   * The value of this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#value Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#value Connector#value}
   */
   readonly value?: string;
 }
@@ -1652,61 +1652,61 @@ export interface ConnectorGcp {
   /**
   * Description of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#description Connector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#description Connector#description}
   */
   readonly description?: string;
   /**
   * Unique human-readable name of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#name Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#name Connector#name}
   */
   readonly name: string;
   /**
   * PoolId is the GCP Workload Pool Identifier used to authenticate our JWT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#pool_id Connector#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#pool_id Connector#pool_id}
   */
   readonly poolId?: string;
   /**
   * ProjectIds is the list of GCP Projects the connector will scan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#project_ids Connector#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#project_ids Connector#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * ProjectNumber is the GCP Project the Workload Pool is defined in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#project_number Connector#project_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#project_number Connector#project_number}
   */
   readonly projectNumber?: string;
   /**
   * ProviderId is the GCP Workload Provider Identifier used to authenticate our JWT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#provider_id Connector#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#provider_id Connector#provider_id}
   */
   readonly providerId?: string;
   /**
   * ScanPeriod identifies which remote system this Connector discovers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#scan_period Connector#scan_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#scan_period Connector#scan_period}
   */
   readonly scanPeriod?: string;
   /**
   * Services is a list of services this connector should scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#services Connector#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#services Connector#services}
   */
   readonly services?: string[];
   /**
   * exclude_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#exclude_tags Connector#exclude_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#exclude_tags Connector#exclude_tags}
   */
   readonly excludeTags?: ConnectorGcpExcludeTags[] | cdktf.IResolvable;
   /**
   * include_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#include_tags Connector#include_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#include_tags Connector#include_tags}
   */
   readonly includeTags?: ConnectorGcpIncludeTags[] | cdktf.IResolvable;
 }
@@ -2048,23 +2048,23 @@ export class ConnectorGcpOutputReference extends cdktf.ComplexObject {
 }
 export interface ConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#create Connector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#create Connector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#default Connector#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#default Connector#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#delete Connector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#delete Connector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#read Connector#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#read Connector#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#update Connector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#update Connector#update}
   */
   readonly update?: string;
 }
@@ -2274,7 +2274,7 @@ export class ConnectorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector sdm_connector}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector sdm_connector}
 */
 export class Connector extends cdktf.TerraformResource {
 
@@ -2290,7 +2290,7 @@ export class Connector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connector to import
-  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2302,7 +2302,7 @@ export class Connector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/connector sdm_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/connector sdm_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2313,8 +2313,8 @@ export class Connector extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_connector',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.40.0',
-        providerVersionConstraint: '15.40.0'
+        providerVersion: '15.41.0',
+        providerVersionConstraint: '15.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

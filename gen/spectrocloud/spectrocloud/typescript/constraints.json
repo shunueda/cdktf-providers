@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "spectrocloud": "0.26.0"
+    "spectrocloud": "0.26.1"
   }
 }

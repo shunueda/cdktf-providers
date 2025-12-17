@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AzureExocomputeClusterAttachmentConfig extends cdktf.TerraformM
   /**
   * Azure AKS cluster name. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment#cluster_name AzureExocomputeClusterAttachment#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment#cluster_name AzureExocomputeClusterAttachment#cluster_name}
   */
   readonly clusterName: string;
   /**
   * RSC exocompute configuration ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment#exocompute_id AzureExocomputeClusterAttachment#exocompute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment#exocompute_id AzureExocomputeClusterAttachment#exocompute_id}
   */
   readonly exocomputeId: string;
   /**
   * To force a refresh of the authentication token, part of the connection command and manifest, increase the value of this field. The token is valid for 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment#token_refresh AzureExocomputeClusterAttachment#token_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment#token_refresh AzureExocomputeClusterAttachment#token_refresh}
   */
   readonly tokenRefresh?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment polaris_azure_exocompute_cluster_attachment}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment polaris_azure_exocompute_cluster_attachment}
 */
 export class AzureExocomputeClusterAttachment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AzureExocomputeClusterAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureExocomputeClusterAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureExocomputeClusterAttachment to import
-  * @param importFromId The id of the existing AzureExocomputeClusterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureExocomputeClusterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureExocomputeClusterAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AzureExocomputeClusterAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute_cluster_attachment polaris_azure_exocompute_cluster_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute_cluster_attachment polaris_azure_exocompute_cluster_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AzureExocomputeClusterAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_exocompute_cluster_attachment',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

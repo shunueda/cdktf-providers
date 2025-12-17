@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface CdmBootstrapCcesAzureConfig extends cdktf.TerraformMetaArgument
   /**
   * The Rubrik cluster sends messages for the admin account to this email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#admin_email CdmBootstrapCcesAzure#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#admin_email CdmBootstrapCcesAzure#admin_email}
   */
   readonly adminEmail: string;
   /**
   * Password for the admin account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#admin_password CdmBootstrapCcesAzure#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#admin_password CdmBootstrapCcesAzure#admin_password}
   */
   readonly adminPassword: string;
   /**
   * Unique name to assign to the Rubrik cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#cluster_name CdmBootstrapCcesAzure#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#cluster_name CdmBootstrapCcesAzure#cluster_name}
   */
   readonly clusterName: string;
   /**
   * IP address of the cluster node to connect to. If not specified, a random node from the `cluster_nodes` map will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#cluster_node_ip_address CdmBootstrapCcesAzure#cluster_node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#cluster_node_ip_address CdmBootstrapCcesAzure#cluster_node_ip_address}
   */
   readonly clusterNodeIpAddress?: string;
   /**
   * The node name and IP formatted as a map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#cluster_nodes CdmBootstrapCcesAzure#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#cluster_nodes CdmBootstrapCcesAzure#cluster_nodes}
   */
   readonly clusterNodes?: { [key: string]: string };
   /**
   * The connection string for the Azure storage account where CCES will store its data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#connection_string CdmBootstrapCcesAzure#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#connection_string CdmBootstrapCcesAzure#connection_string}
   */
-  readonly connectionString: string;
+  readonly connectionString?: string;
   /**
   * The name of the container in the Azure storage account where CCES will store its data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#container_name CdmBootstrapCcesAzure#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#container_name CdmBootstrapCcesAzure#container_name}
   */
   readonly containerName: string;
   /**
   * IPv4 addresses of DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#dns_name_servers CdmBootstrapCcesAzure#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#dns_name_servers CdmBootstrapCcesAzure#dns_name_servers}
   */
   readonly dnsNameServers: string[];
   /**
   * The search domain that the DNS Service will use to resolve hostnames that are not fully qualified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#dns_search_domain CdmBootstrapCcesAzure#dns_search_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#dns_search_domain CdmBootstrapCcesAzure#dns_search_domain}
   */
   readonly dnsSearchDomain: string[];
   /**
   * When bootstrapping a Cloud Cluster this value must be `false`. **Deprecated:** not used. Only kept for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#enable_encryption CdmBootstrapCcesAzure#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#enable_encryption CdmBootstrapCcesAzure#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
   * Flag to determine if versioning will be used on the Azure Blob storage to enable immutability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#enable_immutability CdmBootstrapCcesAzure#enable_immutability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#enable_immutability CdmBootstrapCcesAzure#enable_immutability}
   */
   readonly enableImmutability?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#id CdmBootstrapCcesAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#id CdmBootstrapCcesAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,99 +83,117 @@ export interface CdmBootstrapCcesAzureConfig extends cdktf.TerraformMetaArgument
   /**
   * IP address assigned to the management network gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#management_gateway CdmBootstrapCcesAzure#management_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#management_gateway CdmBootstrapCcesAzure#management_gateway}
   */
   readonly managementGateway: string;
   /**
   * Subnet mask assigned to the management network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#management_subnet_mask CdmBootstrapCcesAzure#management_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#management_subnet_mask CdmBootstrapCcesAzure#management_subnet_mask}
   */
   readonly managementSubnetMask: string;
   /**
   * The node name and IP address formatted as a map. **Deprecated:** use `cluster_nodes` instead. Only kept for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#node_config CdmBootstrapCcesAzure#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#node_config CdmBootstrapCcesAzure#node_config}
   */
   readonly nodeConfig?: { [key: string]: string };
   /**
   * Symmetric key material for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_key CdmBootstrapCcesAzure#ntp_server1_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_key CdmBootstrapCcesAzure#ntp_server1_key}
   */
   readonly ntpServer1Key?: string;
   /**
   * Key id number for NTP server #1 (typically this is 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_key_id CdmBootstrapCcesAzure#ntp_server1_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_key_id CdmBootstrapCcesAzure#ntp_server1_key_id}
   */
   readonly ntpServer1KeyId?: number;
   /**
   * Symmetric key type for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_key_type CdmBootstrapCcesAzure#ntp_server1_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_key_type CdmBootstrapCcesAzure#ntp_server1_key_type}
   */
   readonly ntpServer1KeyType?: string;
   /**
   * Name or IP address for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_name CdmBootstrapCcesAzure#ntp_server1_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server1_name CdmBootstrapCcesAzure#ntp_server1_name}
   */
   readonly ntpServer1Name: string;
   /**
   * Symmetric key material for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_key CdmBootstrapCcesAzure#ntp_server2_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_key CdmBootstrapCcesAzure#ntp_server2_key}
   */
   readonly ntpServer2Key?: string;
   /**
   * Key id number for NTP server #2 (typically this is 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_key_id CdmBootstrapCcesAzure#ntp_server2_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_key_id CdmBootstrapCcesAzure#ntp_server2_key_id}
   */
   readonly ntpServer2KeyId?: number;
   /**
   * Symmetric key type for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_key_type CdmBootstrapCcesAzure#ntp_server2_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_key_type CdmBootstrapCcesAzure#ntp_server2_key_type}
   */
   readonly ntpServer2KeyType?: string;
   /**
   * Name or IP address for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_name CdmBootstrapCcesAzure#ntp_server2_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#ntp_server2_name CdmBootstrapCcesAzure#ntp_server2_name}
   */
   readonly ntpServer2Name: string;
   /**
+  * The endpoint suffix of the storage account when using user assigned managed identity, e.g. core.windows.net
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#storage_account_endpoint_suffix CdmBootstrapCcesAzure#storage_account_endpoint_suffix}
+  */
+  readonly storageAccountEndpointSuffix?: string;
+  /**
+  * The storage account name where CCES will store its data. Use instead of connection_string to connect with a user assigned managed identity.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#storage_account_name CdmBootstrapCcesAzure#storage_account_name}
+  */
+  readonly storageAccountName?: string;
+  /**
   * The time to wait to establish a connection the Rubrik cluster before returning an error (defaults to `4m`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#timeout CdmBootstrapCcesAzure#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#timeout CdmBootstrapCcesAzure#timeout}
   */
   readonly timeout?: string;
   /**
+  * The client ID of the user assigned managed identity to use to connect to the storage account for CCES.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#user_assigned_managed_identity_client_id CdmBootstrapCcesAzure#user_assigned_managed_identity_client_id}
+  */
+  readonly userAssignedManagedIdentityClientId?: string;
+  /**
   * Flag to determine if Terraform should wait for the bootstrap process to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#wait_for_completion CdmBootstrapCcesAzure#wait_for_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#wait_for_completion CdmBootstrapCcesAzure#wait_for_completion}
   */
   readonly waitForCompletion?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#timeouts CdmBootstrapCcesAzure#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#timeouts CdmBootstrapCcesAzure#timeouts}
   */
   readonly timeouts?: CdmBootstrapCcesAzureTimeouts;
 }
 export interface CdmBootstrapCcesAzureTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#create CdmBootstrapCcesAzure#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#create CdmBootstrapCcesAzure#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#default CdmBootstrapCcesAzure#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#default CdmBootstrapCcesAzure#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#read CdmBootstrapCcesAzure#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#read CdmBootstrapCcesAzure#read}
   */
   readonly read?: string;
 }
@@ -327,7 +345,7 @@ export class CdmBootstrapCcesAzureTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure polaris_cdm_bootstrap_cces_azure}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure polaris_cdm_bootstrap_cces_azure}
 */
 export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
 
@@ -343,7 +361,7 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdmBootstrapCcesAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdmBootstrapCcesAzure to import
-  * @param importFromId The id of the existing CdmBootstrapCcesAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdmBootstrapCcesAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdmBootstrapCcesAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +373,7 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap_cces_azure polaris_cdm_bootstrap_cces_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/cdm_bootstrap_cces_azure polaris_cdm_bootstrap_cces_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +384,8 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_cdm_bootstrap_cces_azure',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -400,7 +418,10 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
     this._ntpServer2KeyId = config.ntpServer2KeyId;
     this._ntpServer2KeyType = config.ntpServer2KeyType;
     this._ntpServer2Name = config.ntpServer2Name;
+    this._storageAccountEndpointSuffix = config.storageAccountEndpointSuffix;
+    this._storageAccountName = config.storageAccountName;
     this._timeout = config.timeout;
+    this._userAssignedManagedIdentityClientId = config.userAssignedManagedIdentityClientId;
     this._waitForCompletion = config.waitForCompletion;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -480,13 +501,16 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
     return this._clusterNodes;
   }
 
-  // connection_string - computed: false, optional: false, required: true
+  // connection_string - computed: false, optional: true, required: false
   private _connectionString?: string; 
   public get connectionString() {
     return this.getStringAttribute('connection_string');
   }
   public set connectionString(value: string) {
     this._connectionString = value;
+  }
+  public resetConnectionString() {
+    this._connectionString = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get connectionStringInput() {
@@ -744,6 +768,38 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
     return this._ntpServer2Name;
   }
 
+  // storage_account_endpoint_suffix - computed: false, optional: true, required: false
+  private _storageAccountEndpointSuffix?: string; 
+  public get storageAccountEndpointSuffix() {
+    return this.getStringAttribute('storage_account_endpoint_suffix');
+  }
+  public set storageAccountEndpointSuffix(value: string) {
+    this._storageAccountEndpointSuffix = value;
+  }
+  public resetStorageAccountEndpointSuffix() {
+    this._storageAccountEndpointSuffix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageAccountEndpointSuffixInput() {
+    return this._storageAccountEndpointSuffix;
+  }
+
+  // storage_account_name - computed: false, optional: true, required: false
+  private _storageAccountName?: string; 
+  public get storageAccountName() {
+    return this.getStringAttribute('storage_account_name');
+  }
+  public set storageAccountName(value: string) {
+    this._storageAccountName = value;
+  }
+  public resetStorageAccountName() {
+    this._storageAccountName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageAccountNameInput() {
+    return this._storageAccountName;
+  }
+
   // timeout - computed: false, optional: true, required: false
   private _timeout?: string; 
   public get timeout() {
@@ -758,6 +814,22 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get timeoutInput() {
     return this._timeout;
+  }
+
+  // user_assigned_managed_identity_client_id - computed: false, optional: true, required: false
+  private _userAssignedManagedIdentityClientId?: string; 
+  public get userAssignedManagedIdentityClientId() {
+    return this.getStringAttribute('user_assigned_managed_identity_client_id');
+  }
+  public set userAssignedManagedIdentityClientId(value: string) {
+    this._userAssignedManagedIdentityClientId = value;
+  }
+  public resetUserAssignedManagedIdentityClientId() {
+    this._userAssignedManagedIdentityClientId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userAssignedManagedIdentityClientIdInput() {
+    return this._userAssignedManagedIdentityClientId;
   }
 
   // wait_for_completion - computed: false, optional: true, required: false
@@ -821,7 +893,10 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
       ntp_server2_key_id: cdktf.numberToTerraform(this._ntpServer2KeyId),
       ntp_server2_key_type: cdktf.stringToTerraform(this._ntpServer2KeyType),
       ntp_server2_name: cdktf.stringToTerraform(this._ntpServer2Name),
+      storage_account_endpoint_suffix: cdktf.stringToTerraform(this._storageAccountEndpointSuffix),
+      storage_account_name: cdktf.stringToTerraform(this._storageAccountName),
       timeout: cdktf.stringToTerraform(this._timeout),
+      user_assigned_managed_identity_client_id: cdktf.stringToTerraform(this._userAssignedManagedIdentityClientId),
       wait_for_completion: cdktf.booleanToTerraform(this._waitForCompletion),
       timeouts: cdmBootstrapCcesAzureTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -967,8 +1042,26 @@ export class CdmBootstrapCcesAzure extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      storage_account_endpoint_suffix: {
+        value: cdktf.stringToHclTerraform(this._storageAccountEndpointSuffix),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      storage_account_name: {
+        value: cdktf.stringToHclTerraform(this._storageAccountName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       timeout: {
         value: cdktf.stringToHclTerraform(this._timeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_assigned_managed_identity_client_id: {
+        value: cdktf.stringToHclTerraform(this._userAssignedManagedIdentityClientId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

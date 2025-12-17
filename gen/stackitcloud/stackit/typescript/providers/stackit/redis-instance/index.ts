@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RedisInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#name RedisInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#name RedisInstance#name}
   */
   readonly name: string;
   /**
   * Configuration parameters. Please note that removing a previously configured field from your Terraform configuration won't replace its value in the API. To update a previously configured field, explicitly set a new value for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#parameters RedisInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#parameters RedisInstance#parameters}
   */
   readonly parameters?: RedisInstanceParameters;
   /**
   * The selected plan name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#plan_name RedisInstance#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#plan_name RedisInstance#plan_name}
   */
   readonly planName: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#project_id RedisInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#project_id RedisInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The service version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#version RedisInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#version RedisInstance#version}
   */
   readonly version: string;
 }
@@ -42,133 +42,133 @@ export interface RedisInstanceParameters {
   /**
   * The number of milliseconds after which the instance is considered down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#down_after_milliseconds RedisInstance#down_after_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#down_after_milliseconds RedisInstance#down_after_milliseconds}
   */
   readonly downAfterMilliseconds?: number;
   /**
   * Enable monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#enable_monitoring RedisInstance#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#enable_monitoring RedisInstance#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
   * The failover timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#failover_timeout RedisInstance#failover_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#failover_timeout RedisInstance#failover_timeout}
   */
   readonly failoverTimeout?: number;
   /**
   * Graphite server URL (host and port). If set, monitoring with Graphite will be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#graphite RedisInstance#graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#graphite RedisInstance#graphite}
   */
   readonly graphite?: string;
   /**
   * The lazy eviction enablement (yes or no).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#lazyfree_lazy_eviction RedisInstance#lazyfree_lazy_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#lazyfree_lazy_eviction RedisInstance#lazyfree_lazy_eviction}
   */
   readonly lazyfreeLazyEviction?: string;
   /**
   * The lazy expire enablement (yes or no).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#lazyfree_lazy_expire RedisInstance#lazyfree_lazy_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#lazyfree_lazy_expire RedisInstance#lazyfree_lazy_expire}
   */
   readonly lazyfreeLazyExpire?: string;
   /**
   * The Lua time limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#lua_time_limit RedisInstance#lua_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#lua_time_limit RedisInstance#lua_time_limit}
   */
   readonly luaTimeLimit?: number;
   /**
   * The maximum disk threshold in MB. If the disk usage exceeds this threshold, the instance will be stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#max_disk_threshold RedisInstance#max_disk_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#max_disk_threshold RedisInstance#max_disk_threshold}
   */
   readonly maxDiskThreshold?: number;
   /**
   * The maximum number of clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#maxclients RedisInstance#maxclients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#maxclients RedisInstance#maxclients}
   */
   readonly maxclients?: number;
   /**
   * The policy to handle the maximum memory (volatile-lru, noeviction, etc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#maxmemory_policy RedisInstance#maxmemory_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#maxmemory_policy RedisInstance#maxmemory_policy}
   */
   readonly maxmemoryPolicy?: string;
   /**
   * The maximum memory samples.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#maxmemory_samples RedisInstance#maxmemory_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#maxmemory_samples RedisInstance#maxmemory_samples}
   */
   readonly maxmemorySamples?: number;
   /**
   * The frequency in seconds at which metrics are emitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#metrics_frequency RedisInstance#metrics_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#metrics_frequency RedisInstance#metrics_frequency}
   */
   readonly metricsFrequency?: number;
   /**
   * The prefix for the metrics. Could be useful when using Graphite monitoring to prefix the metrics with a certain value, like an API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#metrics_prefix RedisInstance#metrics_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#metrics_prefix RedisInstance#metrics_prefix}
   */
   readonly metricsPrefix?: string;
   /**
   * The minimum replicas maximum lag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#min_replicas_max_lag RedisInstance#min_replicas_max_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#min_replicas_max_lag RedisInstance#min_replicas_max_lag}
   */
   readonly minReplicasMaxLag?: number;
   /**
   * The ID of the STACKIT monitoring instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#monitoring_instance_id RedisInstance#monitoring_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#monitoring_instance_id RedisInstance#monitoring_instance_id}
   */
   readonly monitoringInstanceId?: string;
   /**
   * The notify keyspace events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#notify_keyspace_events RedisInstance#notify_keyspace_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#notify_keyspace_events RedisInstance#notify_keyspace_events}
   */
   readonly notifyKeyspaceEvents?: string;
   /**
   * Comma separated list of IP networks in CIDR notation which are allowed to access this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#sgw_acl RedisInstance#sgw_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#sgw_acl RedisInstance#sgw_acl}
   */
   readonly sgwAcl?: string;
   /**
   * The snapshot configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#snapshot RedisInstance#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#snapshot RedisInstance#snapshot}
   */
   readonly snapshot?: string;
   /**
   * List of syslog servers to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#syslog RedisInstance#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#syslog RedisInstance#syslog}
   */
   readonly syslog?: string[];
   /**
   * List of TLS ciphers to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#tls_ciphers RedisInstance#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#tls_ciphers RedisInstance#tls_ciphers}
   */
   readonly tlsCiphers?: string[];
   /**
   * TLS cipher suites to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#tls_ciphersuites RedisInstance#tls_ciphersuites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#tls_ciphersuites RedisInstance#tls_ciphersuites}
   */
   readonly tlsCiphersuites?: string;
   /**
   * TLS protocol to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#tls_protocols RedisInstance#tls_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#tls_protocols RedisInstance#tls_protocols}
   */
   readonly tlsProtocols?: string;
 }
@@ -871,7 +871,7 @@ export class RedisInstanceParametersOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance stackit_redis_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance stackit_redis_instance}
 */
 export class RedisInstance extends cdktf.TerraformResource {
 
@@ -887,7 +887,7 @@ export class RedisInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisInstance to import
-  * @param importFromId The id of the existing RedisInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -899,7 +899,7 @@ export class RedisInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/redis_instance stackit_redis_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/redis_instance stackit_redis_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -910,8 +910,8 @@ export class RedisInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_redis_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

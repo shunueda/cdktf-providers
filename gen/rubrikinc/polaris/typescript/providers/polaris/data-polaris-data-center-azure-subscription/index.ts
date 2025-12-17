@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/data_center_azure_subscription
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/data_center_azure_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPolarisDataCenterAzureSubscriptionConfig extends cdktf.Terr
   /**
   * Data center subscription name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/data_center_azure_subscription#name DataPolarisDataCenterAzureSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/data_center_azure_subscription#name DataPolarisDataCenterAzureSubscription#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/data_center_azure_subscription polaris_data_center_azure_subscription}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/data_center_azure_subscription polaris_data_center_azure_subscription}
 */
 export class DataPolarisDataCenterAzureSubscription extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataPolarisDataCenterAzureSubscription extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataPolarisDataCenterAzureSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisDataCenterAzureSubscription to import
-  * @param importFromId The id of the existing DataPolarisDataCenterAzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/data_center_azure_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisDataCenterAzureSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/data_center_azure_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisDataCenterAzureSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataPolarisDataCenterAzureSubscription extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/data_center_azure_subscription polaris_data_center_azure_subscription} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/data_center_azure_subscription polaris_data_center_azure_subscription} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataPolarisDataCenterAzureSubscription extends cdktf.TerraformDataS
       terraformResourceType: 'polaris_data_center_azure_subscription',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

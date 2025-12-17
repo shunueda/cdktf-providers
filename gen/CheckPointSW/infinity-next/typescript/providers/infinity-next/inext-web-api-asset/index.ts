@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface InextWebApiAssetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Advanced Proxy Setting - Activate access log on gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#access_log InextWebApiAsset#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#access_log InextWebApiAsset#access_log}
   */
   readonly accessLog?: boolean | cdktf.IResolvable;
   /**
   * behaviors used by the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#behaviors InextWebApiAsset#behaviors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#behaviors InextWebApiAsset#behaviors}
   */
   readonly behaviors?: string[];
   /**
   * Indicates whether the asset shares its URLs with other assets. URL sharing is allowed only between assets linked to different profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#is_shares_urls InextWebApiAsset#is_shares_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#is_shares_urls InextWebApiAsset#is_shares_urls}
   */
   readonly isSharesUrls?: boolean | cdktf.IResolvable;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#name InextWebApiAsset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#name InextWebApiAsset#name}
   */
   readonly name: string;
   /**
   * Profiles linked to the asset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#profiles InextWebApiAsset#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#profiles InextWebApiAsset#profiles}
   */
   readonly profiles?: string[];
   /**
   * Advanced Proxy Setting - Redirect incoming HTTP requests to the same URL using HTTPS. (The configured application URLs for this asset must include both the HTTP and the HTTPS version of each URL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#redirect_to_https InextWebApiAsset#redirect_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#redirect_to_https InextWebApiAsset#redirect_to_https}
   */
   readonly redirectToHttps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#state InextWebApiAsset#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#state InextWebApiAsset#state}
   */
   readonly state?: string;
   /**
   * The URL of the application's backend server to which the reverse proxy redirects the relevant traffic sent to the exposed URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#upstream_url InextWebApiAsset#upstream_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#upstream_url InextWebApiAsset#upstream_url}
   */
   readonly upstreamUrl?: string;
   /**
   * The application URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#urls InextWebApiAsset#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#urls InextWebApiAsset#urls}
   */
   readonly urls: string[];
   /**
   * additional_instructions_blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#additional_instructions_blocks InextWebApiAsset#additional_instructions_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#additional_instructions_blocks InextWebApiAsset#additional_instructions_blocks}
   */
   readonly additionalInstructionsBlocks?: InextWebApiAssetAdditionalInstructionsBlocks[] | cdktf.IResolvable;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#custom_headers InextWebApiAsset#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#custom_headers InextWebApiAsset#custom_headers}
   */
   readonly customHeaders?: InextWebApiAssetCustomHeaders[] | cdktf.IResolvable;
   /**
   * mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#mtls InextWebApiAsset#mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#mtls InextWebApiAsset#mtls}
   */
   readonly mtls?: InextWebApiAssetMtls[] | cdktf.IResolvable;
   /**
   * practice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#practice InextWebApiAsset#practice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#practice InextWebApiAsset#practice}
   */
   readonly practice?: InextWebApiAssetPractice[] | cdktf.IResolvable;
   /**
   * proxy_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#proxy_setting InextWebApiAsset#proxy_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#proxy_setting InextWebApiAsset#proxy_setting}
   */
   readonly proxySetting?: InextWebApiAssetProxySetting[] | cdktf.IResolvable;
   /**
   * source_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#source_identifier InextWebApiAsset#source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#source_identifier InextWebApiAsset#source_identifier}
   */
   readonly sourceIdentifier?: InextWebApiAssetSourceIdentifier[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#tags InextWebApiAsset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#tags InextWebApiAsset#tags}
   */
   readonly tags?: InextWebApiAssetTags[] | cdktf.IResolvable;
 }
@@ -106,31 +106,31 @@ export interface InextWebApiAssetAdditionalInstructionsBlocks {
   /**
   * The instructions block data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#data InextWebApiAsset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#data InextWebApiAsset#data}
   */
   readonly data?: string;
   /**
   * Whether the instructions block is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#enable InextWebApiAsset#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#enable InextWebApiAsset#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * The name of the instructions block file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#filename InextWebApiAsset#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#filename InextWebApiAsset#filename}
   */
   readonly filename?: string;
   /**
   * The type of the instructions block file - .json, .yml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#filename_type InextWebApiAsset#filename_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#filename_type InextWebApiAsset#filename_type}
   */
   readonly filenameType?: string;
   /**
   * The type of the additional instructions block - location_instructions or server_instructions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#type InextWebApiAsset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#type InextWebApiAsset#type}
   */
   readonly type: string;
 }
@@ -374,11 +374,11 @@ export class InextWebApiAssetAdditionalInstructionsBlocksList extends cdktf.Comp
 }
 export interface InextWebApiAssetCustomHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#name InextWebApiAsset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#name InextWebApiAsset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#value InextWebApiAsset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#value InextWebApiAsset#value}
   */
   readonly value: string;
 }
@@ -524,31 +524,31 @@ export interface InextWebApiAssetMtls {
   /**
   * The type of the certificate file - .pem, .crt, .der, .p12, .pfx, .p7b, .p7c, .cer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#certificate_type InextWebApiAsset#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#certificate_type InextWebApiAsset#certificate_type}
   */
   readonly certificateType?: string;
   /**
   * The certificate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#data InextWebApiAsset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#data InextWebApiAsset#data}
   */
   readonly data?: string;
   /**
   * Whether the mTLS is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#enable InextWebApiAsset#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#enable InextWebApiAsset#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * The name of the certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#filename InextWebApiAsset#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#filename InextWebApiAsset#filename}
   */
   readonly filename?: string;
   /**
   * The type of the mTLS - server or client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#type InextWebApiAsset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#type InextWebApiAsset#type}
   */
   readonly type: string;
 }
@@ -792,7 +792,7 @@ export class InextWebApiAssetMtlsList extends cdktf.ComplexList {
 }
 export interface InextWebApiAssetPractice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#id InextWebApiAsset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#id InextWebApiAsset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -801,23 +801,23 @@ export interface InextWebApiAssetPractice {
   /**
   * The mode of the practice: Prevent, Inactive, Disabled or Learn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#main_mode InextWebApiAsset#main_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#main_mode InextWebApiAsset#main_mode}
   */
   readonly mainMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#practice_wrapper_id InextWebApiAsset#practice_wrapper_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#practice_wrapper_id InextWebApiAsset#practice_wrapper_id}
   */
   readonly practiceWrapperId?: string;
   /**
   * The name of the sub practice as the key and its mode as the value. Allowed modes: Detect, Prevent, Inactive, AccordingToPractice, Disabled, Learn or Active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#sub_practices_modes InextWebApiAsset#sub_practices_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#sub_practices_modes InextWebApiAsset#sub_practices_modes}
   */
   readonly subPracticesModes?: { [key: string]: string };
   /**
   * The triggers used with the practice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#triggers InextWebApiAsset#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#triggers InextWebApiAsset#triggers}
   */
   readonly triggers?: string[];
 }
@@ -1043,11 +1043,11 @@ export class InextWebApiAssetPracticeList extends cdktf.ComplexList {
 }
 export interface InextWebApiAssetProxySetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#key InextWebApiAsset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#key InextWebApiAsset#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#value InextWebApiAsset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#value InextWebApiAsset#value}
   */
   readonly value: string;
 }
@@ -1193,11 +1193,11 @@ export interface InextWebApiAssetSourceIdentifier {
   /**
   * The identifier of the source: SourceIP, XForwardedFor, HeaderKey, Cookie or JWTKey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#identifier InextWebApiAsset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#identifier InextWebApiAsset#identifier}
   */
   readonly identifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#values InextWebApiAsset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#values InextWebApiAsset#values}
   */
   readonly values?: string[];
 }
@@ -1352,11 +1352,11 @@ export class InextWebApiAssetSourceIdentifierList extends cdktf.ComplexList {
 }
 export interface InextWebApiAssetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#key InextWebApiAsset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#key InextWebApiAsset#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#value InextWebApiAsset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#value InextWebApiAsset#value}
   */
   readonly value: string;
 }
@@ -1500,7 +1500,7 @@ export class InextWebApiAssetTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset inext_web_api_asset}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset inext_web_api_asset}
 */
 export class InextWebApiAsset extends cdktf.TerraformResource {
 
@@ -1516,7 +1516,7 @@ export class InextWebApiAsset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextWebApiAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextWebApiAsset to import
-  * @param importFromId The id of the existing InextWebApiAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextWebApiAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextWebApiAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1528,7 +1528,7 @@ export class InextWebApiAsset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_web_api_asset inext_web_api_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_web_api_asset inext_web_api_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1539,8 +1539,8 @@ export class InextWebApiAsset extends cdktf.TerraformResource {
       terraformResourceType: 'inext_web_api_asset',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

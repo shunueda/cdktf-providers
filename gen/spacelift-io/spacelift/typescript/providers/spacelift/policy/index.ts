@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,54 +10,54 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Body of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#body Policy#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#body Policy#body}
   */
   readonly body: string;
   /**
   * Description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#description Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#description Policy#description}
   */
   readonly description?: string;
   /**
   * Type of engine used to evaluate the policy. Possible values are `REGO_V0` and `REGO_V1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#engine_type Policy#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#engine_type Policy#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#id Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#id Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#labels Policy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#labels Policy#labels}
   */
   readonly labels?: string[];
   /**
   * Name of the policy - should be unique in one account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * ID (slug) of the space the policy is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#space_id Policy#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#space_id Policy#space_id}
   */
   readonly spaceId?: string;
   /**
   * Type of the policy. Possible values are `ACCESS`, `APPROVAL`, `GIT_PUSH`, `INITIALIZATION`, `LOGIN`, `PLAN`, `TASK`, `TRIGGER` and `NOTIFICATION`. Deprecated values are `STACK_ACCESS` (use `ACCESS` instead), `TASK_RUN` (use `TASK` instead), and `TERRAFORM_PLAN` (use `PLAN` instead).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy spacelift_policy}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy spacelift_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/policy spacelift_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/policy spacelift_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_policy',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

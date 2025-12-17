@@ -1,3 +1,3 @@
 # `data_latitudesh_tag`
 
-Refer to the Terraform Registry for docs: [`data_latitudesh_tag`](https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/data-sources/tag).
+Refer to the Terraform Registry for docs: [`data_latitudesh_tag`](https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag).

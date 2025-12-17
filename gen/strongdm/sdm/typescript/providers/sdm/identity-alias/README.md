@@ -1,3 +1,3 @@
 # `sdm_identity_alias`
 
-Refer to the Terraform Registry for docs: [`sdm_identity_alias`](https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/identity_alias).
+Refer to the Terraform Registry for docs: [`sdm_identity_alias`](https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/identity_alias).

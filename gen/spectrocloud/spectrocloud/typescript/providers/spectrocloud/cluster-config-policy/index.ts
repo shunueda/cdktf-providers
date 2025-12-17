@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClusterConfigPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * The context of the cluster config policy. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#context ClusterConfigPolicy#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#context ClusterConfigPolicy#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#id ClusterConfigPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#id ClusterConfigPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ClusterConfigPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the cluster config policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#name ClusterConfigPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#name ClusterConfigPolicy#name}
   */
   readonly name: string;
   /**
   * Type of the policy. Allowed values are `maintenance` or `upgrade`(not supported yet). Default value is `maintenance`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#policy_type ClusterConfigPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#policy_type ClusterConfigPolicy#policy_type}
   */
   readonly policyType?: string;
   /**
   * Assign tags to the cluster config policy. Tags can be in the format `key:value` or just `key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#tags ClusterConfigPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#tags ClusterConfigPolicy#tags}
   */
   readonly tags?: string[];
   /**
   * schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#schedules ClusterConfigPolicy#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#schedules ClusterConfigPolicy#schedules}
   */
   readonly schedules?: ClusterConfigPolicySchedules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#timeouts ClusterConfigPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#timeouts ClusterConfigPolicy#timeouts}
   */
   readonly timeouts?: ClusterConfigPolicyTimeouts;
 }
@@ -55,19 +55,19 @@ export interface ClusterConfigPolicySchedules {
   /**
   * Specifies the time window in hours during which the system is allowed to start upgrades on eligible clusters. Valid range: 1-24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#duration_hrs ClusterConfigPolicy#duration_hrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#duration_hrs ClusterConfigPolicy#duration_hrs}
   */
   readonly durationHrs: number;
   /**
   * Name of the upgrade schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#name ClusterConfigPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#name ClusterConfigPolicy#name}
   */
   readonly name: string;
   /**
   * Cron expression for the start time of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#start_cron ClusterConfigPolicy#start_cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#start_cron ClusterConfigPolicy#start_cron}
   */
   readonly startCron: string;
 }
@@ -232,15 +232,15 @@ export class ClusterConfigPolicySchedulesList extends cdktf.ComplexList {
 }
 export interface ClusterConfigPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#create ClusterConfigPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#create ClusterConfigPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#delete ClusterConfigPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#delete ClusterConfigPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#update ClusterConfigPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#update ClusterConfigPolicy#update}
   */
   readonly update?: string;
 }
@@ -392,7 +392,7 @@ export class ClusterConfigPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy spectrocloud_cluster_config_policy}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy spectrocloud_cluster_config_policy}
 */
 export class ClusterConfigPolicy extends cdktf.TerraformResource {
 
@@ -408,7 +408,7 @@ export class ClusterConfigPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterConfigPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterConfigPolicy to import
-  * @param importFromId The id of the existing ClusterConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterConfigPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -420,7 +420,7 @@ export class ClusterConfigPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_config_policy spectrocloud_cluster_config_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_config_policy spectrocloud_cluster_config_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,8 +431,8 @@ export class ClusterConfigPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_config_policy',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

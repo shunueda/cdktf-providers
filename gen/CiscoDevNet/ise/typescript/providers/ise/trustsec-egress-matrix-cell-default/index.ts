@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,13 +11,13 @@ export interface TrustsecEgressMatrixCellDefaultConfig extends cdktf.TerraformMe
   * Can be used only if sgacls not specified. Final Catch All Rule
   *   - Choices: `NONE`, `DENY_IP`, `PERMIT_IP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default#default_rule TrustsecEgressMatrixCellDefault#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default#default_rule TrustsecEgressMatrixCellDefault#default_rule}
   */
   readonly defaultRule?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default#description TrustsecEgressMatrixCellDefault#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default#description TrustsecEgressMatrixCellDefault#description}
   */
   readonly description?: string;
   /**
@@ -25,19 +25,19 @@ export interface TrustsecEgressMatrixCellDefaultConfig extends cdktf.TerraformMe
   *   - Choices: `DISABLED`, `ENABLED`, `MONITOR`
   *   - Default value: `DISABLED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default#matrix_cell_status TrustsecEgressMatrixCellDefault#matrix_cell_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default#matrix_cell_status TrustsecEgressMatrixCellDefault#matrix_cell_status}
   */
   readonly matrixCellStatus?: string;
   /**
   * List of TrustSec Security Groups ACLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default#sgacls TrustsecEgressMatrixCellDefault#sgacls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default#sgacls TrustsecEgressMatrixCellDefault#sgacls}
   */
   readonly sgacls?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default ise_trustsec_egress_matrix_cell_default}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default ise_trustsec_egress_matrix_cell_default}
 */
 export class TrustsecEgressMatrixCellDefault extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class TrustsecEgressMatrixCellDefault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustsecEgressMatrixCellDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustsecEgressMatrixCellDefault to import
-  * @param importFromId The id of the existing TrustsecEgressMatrixCellDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustsecEgressMatrixCellDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustsecEgressMatrixCellDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class TrustsecEgressMatrixCellDefault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell_default ise_trustsec_egress_matrix_cell_default} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell_default ise_trustsec_egress_matrix_cell_default} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class TrustsecEgressMatrixCellDefault extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_egress_matrix_cell_default',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

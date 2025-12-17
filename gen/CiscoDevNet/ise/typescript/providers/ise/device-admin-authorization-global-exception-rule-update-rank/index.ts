@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_rank
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_authorization_global_exception_rule_update_rank
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DeviceAdminAuthorizationGlobalExceptionRuleUpdateRankConfig ext
   /**
   * The rank (priority) in relation to other rules. Lower rank is higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_rank#rank DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_authorization_global_exception_rule_update_rank#rank DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank#rank}
   */
   readonly rank: number;
   /**
   * Authorization global exception rule ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_rank#rule_id DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_authorization_global_exception_rule_update_rank#rule_id DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank#rule_id}
   */
   readonly ruleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_rank ise_device_admin_authorization_global_exception_rule_update_rank}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_authorization_global_exception_rule_update_rank ise_device_admin_authorization_global_exception_rule_update_rank}
 */
 export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank extends cdktf
   * Generates CDKTF code for importing a DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank to import
-  * @param importFromId The id of the existing DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_rank#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_authorization_global_exception_rule_update_rank#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_authorization_global_exception_rule_update_rank ise_device_admin_authorization_global_exception_rule_update_rank} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_authorization_global_exception_rule_update_rank ise_device_admin_authorization_global_exception_rule_update_rank} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DeviceAdminAuthorizationGlobalExceptionRuleUpdateRank extends cdktf
       terraformResourceType: 'ise_device_admin_authorization_global_exception_rule_update_rank',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

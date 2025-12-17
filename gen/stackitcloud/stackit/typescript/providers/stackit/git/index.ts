@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface GitConfig extends cdktf.TerraformMetaArguments {
   /**
   * Restricted ACL for instance access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git#acl Git#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git#acl Git#acl}
   */
   readonly acl?: string[];
   /**
   * Instance flavor. If not provided, defaults to git-100. For a list of available flavors, refer to our API documentation: `https://docs.api.stackit.cloud/documentation/git/version/v1beta`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git#flavor Git#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git#flavor Git#flavor}
   */
   readonly flavor?: string;
   /**
   * Unique name linked to the git instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git#name Git#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git#name Git#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the git instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git#project_id Git#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git#project_id Git#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git stackit_git}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git stackit_git}
 */
 export class Git extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Git extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Git resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Git to import
-  * @param importFromId The id of the existing Git that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Git that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Git to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Git extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/git stackit_git} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/git stackit_git} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Git extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_git',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

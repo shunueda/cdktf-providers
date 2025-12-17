@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface DataSpaceliftContextConfig extends cdktf.TerraformMetaArguments
   /**
   * List of after-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#after_apply DataSpaceliftContext#after_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#after_apply DataSpaceliftContext#after_apply}
   */
   readonly afterApply?: string[];
   /**
   * List of after-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#after_destroy DataSpaceliftContext#after_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#after_destroy DataSpaceliftContext#after_destroy}
   */
   readonly afterDestroy?: string[];
   /**
   * List of after-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#after_init DataSpaceliftContext#after_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#after_init DataSpaceliftContext#after_init}
   */
   readonly afterInit?: string[];
   /**
   * List of after-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#after_perform DataSpaceliftContext#after_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#after_perform DataSpaceliftContext#after_perform}
   */
   readonly afterPerform?: string[];
   /**
   * List of after-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#after_plan DataSpaceliftContext#after_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#after_plan DataSpaceliftContext#after_plan}
   */
   readonly afterPlan?: string[];
   /**
   * List of after-run scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#after_run DataSpaceliftContext#after_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#after_run DataSpaceliftContext#after_run}
   */
   readonly afterRun?: string[];
   /**
   * List of before-apply scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#before_apply DataSpaceliftContext#before_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#before_apply DataSpaceliftContext#before_apply}
   */
   readonly beforeApply?: string[];
   /**
   * List of before-destroy scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#before_destroy DataSpaceliftContext#before_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#before_destroy DataSpaceliftContext#before_destroy}
   */
   readonly beforeDestroy?: string[];
   /**
   * List of before-init scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#before_init DataSpaceliftContext#before_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#before_init DataSpaceliftContext#before_init}
   */
   readonly beforeInit?: string[];
   /**
   * List of before-perform scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#before_perform DataSpaceliftContext#before_perform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#before_perform DataSpaceliftContext#before_perform}
   */
   readonly beforePerform?: string[];
   /**
   * List of before-plan scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#before_plan DataSpaceliftContext#before_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#before_plan DataSpaceliftContext#before_plan}
   */
   readonly beforePlan?: string[];
   /**
   * immutable ID (slug) of the context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#context_id DataSpaceliftContext#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#context_id DataSpaceliftContext#context_id}
   */
   readonly contextId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#id DataSpaceliftContext#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#id DataSpaceliftContext#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,7 +89,7 @@ export interface DataSpaceliftContextConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context spacelift_context}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context spacelift_context}
 */
 export class DataSpaceliftContext extends cdktf.TerraformDataSource {
 
@@ -105,7 +105,7 @@ export class DataSpaceliftContext extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftContext resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftContext to import
-  * @param importFromId The id of the existing DataSpaceliftContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftContext to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class DataSpaceliftContext extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/context spacelift_context} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/context spacelift_context} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class DataSpaceliftContext extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_context',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

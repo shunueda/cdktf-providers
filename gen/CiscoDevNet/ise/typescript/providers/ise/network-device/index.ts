@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,300 +10,300 @@ export interface NetworkDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enforce use of DTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_dtls_required NetworkDevice#authentication_dtls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_dtls_required NetworkDevice#authentication_dtls_required}
   */
   readonly authenticationDtlsRequired?: boolean | cdktf.IResolvable;
   /**
   * Enable key wrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_enable_key_wrap NetworkDevice#authentication_enable_key_wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_enable_key_wrap NetworkDevice#authentication_enable_key_wrap}
   */
   readonly authenticationEnableKeyWrap?: boolean | cdktf.IResolvable;
   /**
   * Enable multiple RADIUS shared secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_enable_multi_secret NetworkDevice#authentication_enable_multi_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_enable_multi_secret NetworkDevice#authentication_enable_multi_secret}
   */
   readonly authenticationEnableMultiSecret?: boolean | cdktf.IResolvable;
   /**
   * Encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_encryption_key NetworkDevice#authentication_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_encryption_key NetworkDevice#authentication_encryption_key}
   */
   readonly authenticationEncryptionKey?: string;
   /**
   * Key input format
   *   - Choices: `ASCII`, `HEXADECIMAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_encryption_key_format NetworkDevice#authentication_encryption_key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_encryption_key_format NetworkDevice#authentication_encryption_key_format}
   */
   readonly authenticationEncryptionKeyFormat?: string;
   /**
   * Message authenticator code key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_message_authenticator_code_key NetworkDevice#authentication_message_authenticator_code_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_message_authenticator_code_key NetworkDevice#authentication_message_authenticator_code_key}
   */
   readonly authenticationMessageAuthenticatorCodeKey?: string;
   /**
   * Network protocol
   *   - Choices: `RADIUS`, `TACACS_PLUS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_network_protocol NetworkDevice#authentication_network_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_network_protocol NetworkDevice#authentication_network_protocol}
   */
   readonly authenticationNetworkProtocol?: string;
   /**
   * RADIUS shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_radius_shared_secret NetworkDevice#authentication_radius_shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_radius_shared_secret NetworkDevice#authentication_radius_shared_secret}
   */
   readonly authenticationRadiusSharedSecret?: string;
   /**
   * Second RADIUS shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#authentication_second_radius_shared_secret NetworkDevice#authentication_second_radius_shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#authentication_second_radius_shared_secret NetworkDevice#authentication_second_radius_shared_secret}
   */
   readonly authenticationSecondRadiusSharedSecret?: string;
   /**
   * CoA port
   *   - Default value: `1700`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#coa_port NetworkDevice#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#coa_port NetworkDevice#coa_port}
   */
   readonly coaPort?: number;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#description NetworkDevice#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#description NetworkDevice#description}
   */
   readonly description?: string;
   /**
   * This value is used to verify the client identity contained in the X.509 RADIUS/DTLS client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#dtls_dns_name NetworkDevice#dtls_dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#dtls_dns_name NetworkDevice#dtls_dns_name}
   */
   readonly dtlsDnsName?: string;
   /**
   * List of IP subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#ips NetworkDevice#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#ips NetworkDevice#ips}
   */
   readonly ips: NetworkDeviceIps[] | cdktf.IResolvable;
   /**
   * Model name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#model_name NetworkDevice#model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#model_name NetworkDevice#model_name}
   */
   readonly modelName?: string;
   /**
   * The name of the network device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#name NetworkDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#name NetworkDevice#name}
   */
   readonly name: string;
   /**
   * List of network device groups, e.g. `Device Type#All Device Types#ACCESS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#network_device_groups NetworkDevice#network_device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#network_device_groups NetworkDevice#network_device_groups}
   */
   readonly networkDeviceGroups?: string[];
   /**
   * Profile name
   *   - Default value: `Cisco`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#profile_name NetworkDevice#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#profile_name NetworkDevice#profile_name}
   */
   readonly profileName?: string;
   /**
   * SNMP authentication password. Required for snmp version 3 and securityLevel AUTH or PRIV.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_auth_password NetworkDevice#snmp_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_auth_password NetworkDevice#snmp_auth_password}
   */
   readonly snmpAuthPassword?: string;
   /**
   * SNMP authentication protocol. Required for snmp version 3 and securityLevel AUTH or PRIV.
   *   - Choices: `MD5`, `SHA`, `SHA2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_auth_protocol NetworkDevice#snmp_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_auth_protocol NetworkDevice#snmp_auth_protocol}
   */
   readonly snmpAuthProtocol?: string;
   /**
   * SNMP link Trap Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_link_trap_query NetworkDevice#snmp_link_trap_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_link_trap_query NetworkDevice#snmp_link_trap_query}
   */
   readonly snmpLinkTrapQuery?: boolean | cdktf.IResolvable;
   /**
   * SNMP MAC Trap Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_mac_trap_query NetworkDevice#snmp_mac_trap_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_mac_trap_query NetworkDevice#snmp_mac_trap_query}
   */
   readonly snmpMacTrapQuery?: boolean | cdktf.IResolvable;
   /**
   * Originating Policy Services Node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_originating_policy_service_node NetworkDevice#snmp_originating_policy_service_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_originating_policy_service_node NetworkDevice#snmp_originating_policy_service_node}
   */
   readonly snmpOriginatingPolicyServiceNode?: string;
   /**
   * SNMP Polling Interval in seconds
   *   - Range: `600`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_polling_interval NetworkDevice#snmp_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_polling_interval NetworkDevice#snmp_polling_interval}
   */
   readonly snmpPollingInterval?: number;
   /**
   * SNMP privacy password. Required for snmp version 3 and securityLevel PRIV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_privacy_password NetworkDevice#snmp_privacy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_privacy_password NetworkDevice#snmp_privacy_password}
   */
   readonly snmpPrivacyPassword?: string;
   /**
   * SNMP privacy protocol. Required for snmp version 3 and securityLevel PRIV.
   *   - Choices: `DES`, `AES128`, `AES192`, `AES256`, `3DES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_privacy_protocol NetworkDevice#snmp_privacy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_privacy_protocol NetworkDevice#snmp_privacy_protocol}
   */
   readonly snmpPrivacyProtocol?: string;
   /**
   * SNMP RO Community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_ro_community NetworkDevice#snmp_ro_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_ro_community NetworkDevice#snmp_ro_community}
   */
   readonly snmpRoCommunity?: string;
   /**
   * SNMP security level. Required for snmp version 3.
   *   - Choices: `NO_AUTH`, `AUTH`, `PRIV`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_security_level NetworkDevice#snmp_security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_security_level NetworkDevice#snmp_security_level}
   */
   readonly snmpSecurityLevel?: string;
   /**
   * SNMP username. Required for snmp version 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_username NetworkDevice#snmp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_username NetworkDevice#snmp_username}
   */
   readonly snmpUsername?: string;
   /**
   * SNMP version
   *   - Choices: `ONE`, `TWO_C`, `THREE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#snmp_version NetworkDevice#snmp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#snmp_version NetworkDevice#snmp_version}
   */
   readonly snmpVersion?: string;
   /**
   * Software version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#software_version NetworkDevice#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#software_version NetworkDevice#software_version}
   */
   readonly softwareVersion?: string;
   /**
   * Connect mode options
   *   - Choices: `OFF`, `ON_LEGACY`, `ON_DRAFT_COMPLIANT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#tacacs_connect_mode_options NetworkDevice#tacacs_connect_mode_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#tacacs_connect_mode_options NetworkDevice#tacacs_connect_mode_options}
   */
   readonly tacacsConnectModeOptions?: string;
   /**
   * Shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#tacacs_shared_secret NetworkDevice#tacacs_shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#tacacs_shared_secret NetworkDevice#tacacs_shared_secret}
   */
   readonly tacacsSharedSecret?: string;
   /**
   * CoA source host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_coa_source_host NetworkDevice#trustsec_coa_source_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_coa_source_host NetworkDevice#trustsec_coa_source_host}
   */
   readonly trustsecCoaSourceHost?: string;
   /**
   * TrustSec device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_device_id NetworkDevice#trustsec_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_device_id NetworkDevice#trustsec_device_id}
   */
   readonly trustsecDeviceId?: string;
   /**
   * TrustSec device password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_device_password NetworkDevice#trustsec_device_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_device_password NetworkDevice#trustsec_device_password}
   */
   readonly trustsecDevicePassword?: string;
   /**
   * Download environment data every X seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_download_environment_data_every_x_seconds NetworkDevice#trustsec_download_environment_data_every_x_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_download_environment_data_every_x_seconds NetworkDevice#trustsec_download_environment_data_every_x_seconds}
   */
   readonly trustsecDownloadEnvironmentDataEveryXSeconds?: number;
   /**
   * Download peer authorization policy every X seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_download_peer_authorization_policy_every_x_seconds NetworkDevice#trustsec_download_peer_authorization_policy_every_x_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_download_peer_authorization_policy_every_x_seconds NetworkDevice#trustsec_download_peer_authorization_policy_every_x_seconds}
   */
   readonly trustsecDownloadPeerAuthorizationPolicyEveryXSeconds?: number;
   /**
   * Download SGACL lists every X seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_download_sgacl_lists_every_x_seconds NetworkDevice#trustsec_download_sgacl_lists_every_x_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_download_sgacl_lists_every_x_seconds NetworkDevice#trustsec_download_sgacl_lists_every_x_seconds}
   */
   readonly trustsecDownloadSgaclListsEveryXSeconds?: number;
   /**
   * Enable mode password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_enable_mode_password NetworkDevice#trustsec_enable_mode_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_enable_mode_password NetworkDevice#trustsec_enable_mode_password}
   */
   readonly trustsecEnableModePassword?: string;
   /**
   * EXEC mode password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_exec_mode_password NetworkDevice#trustsec_exec_mode_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_exec_mode_password NetworkDevice#trustsec_exec_mode_password}
   */
   readonly trustsecExecModePassword?: string;
   /**
   * EXEC mode username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_exec_mode_username NetworkDevice#trustsec_exec_mode_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_exec_mode_username NetworkDevice#trustsec_exec_mode_username}
   */
   readonly trustsecExecModeUsername?: string;
   /**
   * Include this device when deploying Security Group Tag Mapping Updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_include_when_deploying_sgt_updates NetworkDevice#trustsec_include_when_deploying_sgt_updates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_include_when_deploying_sgt_updates NetworkDevice#trustsec_include_when_deploying_sgt_updates}
   */
   readonly trustsecIncludeWhenDeployingSgtUpdates?: boolean | cdktf.IResolvable;
   /**
   * Other TrustSec devices to trust this device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_other_sga_devices_to_trust_this_device NetworkDevice#trustsec_other_sga_devices_to_trust_this_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_other_sga_devices_to_trust_this_device NetworkDevice#trustsec_other_sga_devices_to_trust_this_device}
   */
   readonly trustsecOtherSgaDevicesToTrustThisDevice?: boolean | cdktf.IResolvable;
   /**
   * Re-authenticate every X seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_re_authentication_every_x_seconds NetworkDevice#trustsec_re_authentication_every_x_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_re_authentication_every_x_seconds NetworkDevice#trustsec_re_authentication_every_x_seconds}
   */
   readonly trustsecReAuthenticationEveryXSeconds?: number;
   /**
   * REST API password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_rest_api_password NetworkDevice#trustsec_rest_api_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_rest_api_password NetworkDevice#trustsec_rest_api_password}
   */
   readonly trustsecRestApiPassword?: string;
   /**
   * REST API username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_rest_api_username NetworkDevice#trustsec_rest_api_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_rest_api_username NetworkDevice#trustsec_rest_api_username}
   */
   readonly trustsecRestApiUsername?: string;
   /**
   * Send configuration to device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_send_configuration_to_device NetworkDevice#trustsec_send_configuration_to_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_send_configuration_to_device NetworkDevice#trustsec_send_configuration_to_device}
   */
   readonly trustsecSendConfigurationToDevice?: boolean | cdktf.IResolvable;
   /**
   * Send configuration to device using
   *   - Choices: `DISABLE_ALL`, `ENABLE_USING_CLI`, `ENABLE_USING_COA`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#trustsec_send_configuration_to_device_using NetworkDevice#trustsec_send_configuration_to_device_using}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#trustsec_send_configuration_to_device_using NetworkDevice#trustsec_send_configuration_to_device_using}
   */
   readonly trustsecSendConfigurationToDeviceUsing?: string;
 }
@@ -311,19 +311,19 @@ export interface NetworkDeviceIps {
   /**
   * It can be either single ip address or ip range address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#ipaddress NetworkDevice#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#ipaddress NetworkDevice#ipaddress}
   */
   readonly ipaddress: string;
   /**
   * It can be either single ip address or ip range address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#ipaddress_exclude NetworkDevice#ipaddress_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#ipaddress_exclude NetworkDevice#ipaddress_exclude}
   */
   readonly ipaddressExclude?: string;
   /**
   * Subnet mask length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#mask NetworkDevice#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#mask NetworkDevice#mask}
   */
   readonly mask?: string;
 }
@@ -494,7 +494,7 @@ export class NetworkDeviceIpsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device ise_network_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device ise_network_device}
 */
 export class NetworkDevice extends cdktf.TerraformResource {
 
@@ -510,7 +510,7 @@ export class NetworkDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkDevice to import
-  * @param importFromId The id of the existing NetworkDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -522,7 +522,7 @@ export class NetworkDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/network_device ise_network_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/network_device ise_network_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,8 +533,8 @@ export class NetworkDevice extends cdktf.TerraformResource {
       terraformResourceType: 'ise_network_device',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

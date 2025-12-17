@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "spacelift": "1.40.0"
+    "spacelift": "1.41.0"
   }
 }

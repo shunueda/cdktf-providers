@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataInstaclustrRedisClusterV2InstanceConfig extends cdktf.Terra
   /**
   * Enables Client ⇄ Node Encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#client_to_node_encryption DataInstaclustrRedisClusterV2Instance#client_to_node_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#client_to_node_encryption DataInstaclustrRedisClusterV2Instance#client_to_node_encryption}
   */
   readonly clientToNodeEncryption?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#current_cluster_operation_status DataInstaclustrRedisClusterV2Instance#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#current_cluster_operation_status DataInstaclustrRedisClusterV2Instance#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#description DataInstaclustrRedisClusterV2Instance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#description DataInstaclustrRedisClusterV2Instance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface DataInstaclustrRedisClusterV2InstanceConfig extends cdktf.Terra
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#name DataInstaclustrRedisClusterV2Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#name DataInstaclustrRedisClusterV2Instance#name}
   */
   readonly name?: string;
   /**
   * Enables Password Authentication and User Authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#password_and_user_auth DataInstaclustrRedisClusterV2Instance#password_and_user_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#password_and_user_auth DataInstaclustrRedisClusterV2Instance#password_and_user_auth}
   */
   readonly passwordAndUserAuth?: boolean | cdktf.IResolvable;
   /**
   * Creates a PCI compliant cluster, see [PCI Compliance](https://www.instaclustr.com/support/documentation/useful-information/pci-compliance/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#pci_compliance_mode DataInstaclustrRedisClusterV2Instance#pci_compliance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#pci_compliance_mode DataInstaclustrRedisClusterV2Instance#pci_compliance_mode}
   */
   readonly pciComplianceMode?: boolean | cdktf.IResolvable;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#private_network_cluster DataInstaclustrRedisClusterV2Instance#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#private_network_cluster DataInstaclustrRedisClusterV2Instance#private_network_cluster}
   */
   readonly privateNetworkCluster?: boolean | cdktf.IResolvable;
   /**
   * Version of Redis to run on the cluster. Available versions: <ul> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#redis_version DataInstaclustrRedisClusterV2Instance#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#redis_version DataInstaclustrRedisClusterV2Instance#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#sla_tier DataInstaclustrRedisClusterV2Instance#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#sla_tier DataInstaclustrRedisClusterV2Instance#sla_tier}
   */
   readonly slaTier?: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
   */
   readonly status?: string;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#data_centre DataInstaclustrRedisClusterV2Instance#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#data_centre DataInstaclustrRedisClusterV2Instance#data_centre}
   */
   readonly dataCentre?: DataInstaclustrRedisClusterV2InstanceDataCentre[] | cdktf.IResolvable;
   /**
   * resize_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#resize_settings DataInstaclustrRedisClusterV2Instance#resize_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#resize_settings DataInstaclustrRedisClusterV2Instance#resize_settings}
   */
   readonly resizeSettings?: DataInstaclustrRedisClusterV2InstanceResizeSettings[] | cdktf.IResolvable;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#two_factor_delete DataInstaclustrRedisClusterV2Instance#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#two_factor_delete DataInstaclustrRedisClusterV2Instance#two_factor_delete}
   */
   readonly twoFactorDelete?: DataInstaclustrRedisClusterV2InstanceTwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -97,13 +97,13 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreAwsSettings {
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#custom_virtual_network_id DataInstaclustrRedisClusterV2Instance#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#custom_virtual_network_id DataInstaclustrRedisClusterV2Instance#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#ebs_encryption_key DataInstaclustrRedisClusterV2Instance#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#ebs_encryption_key DataInstaclustrRedisClusterV2Instance#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -250,19 +250,19 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreAzureSettings {
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#custom_virtual_network_id DataInstaclustrRedisClusterV2Instance#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#custom_virtual_network_id DataInstaclustrRedisClusterV2Instance#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#resource_group DataInstaclustrRedisClusterV2Instance#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#resource_group DataInstaclustrRedisClusterV2Instance#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#storage_network DataInstaclustrRedisClusterV2Instance#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#storage_network DataInstaclustrRedisClusterV2Instance#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -438,13 +438,13 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreDeletedNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#deletion_time DataInstaclustrRedisClusterV2Instance#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#deletion_time DataInstaclustrRedisClusterV2Instance#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -453,43 +453,43 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreDeletedNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#node_roles DataInstaclustrRedisClusterV2Instance#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#node_roles DataInstaclustrRedisClusterV2Instance#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#node_size DataInstaclustrRedisClusterV2Instance#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#node_size DataInstaclustrRedisClusterV2Instance#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#private_address DataInstaclustrRedisClusterV2Instance#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#private_address DataInstaclustrRedisClusterV2Instance#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#public_address DataInstaclustrRedisClusterV2Instance#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#public_address DataInstaclustrRedisClusterV2Instance#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#rack DataInstaclustrRedisClusterV2Instance#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#rack DataInstaclustrRedisClusterV2Instance#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#start_time DataInstaclustrRedisClusterV2Instance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#start_time DataInstaclustrRedisClusterV2Instance#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
   */
   readonly status?: string;
 }
@@ -848,7 +848,7 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreGcpSettings {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#custom_virtual_network_id DataInstaclustrRedisClusterV2Instance#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#custom_virtual_network_id DataInstaclustrRedisClusterV2Instance#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -966,13 +966,13 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#deletion_time DataInstaclustrRedisClusterV2Instance#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#deletion_time DataInstaclustrRedisClusterV2Instance#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -981,43 +981,43 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#node_roles DataInstaclustrRedisClusterV2Instance#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#node_roles DataInstaclustrRedisClusterV2Instance#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#node_size DataInstaclustrRedisClusterV2Instance#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#node_size DataInstaclustrRedisClusterV2Instance#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#private_address DataInstaclustrRedisClusterV2Instance#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#private_address DataInstaclustrRedisClusterV2Instance#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#public_address DataInstaclustrRedisClusterV2Instance#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#public_address DataInstaclustrRedisClusterV2Instance#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#rack DataInstaclustrRedisClusterV2Instance#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#rack DataInstaclustrRedisClusterV2Instance#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#start_time DataInstaclustrRedisClusterV2Instance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#start_time DataInstaclustrRedisClusterV2Instance#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
   */
   readonly status?: string;
 }
@@ -1367,19 +1367,19 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentrePrivateLink {
   /**
   * The hostname to be used to connect to the PrivateLink cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#advertised_hostname DataInstaclustrRedisClusterV2Instance#advertised_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#advertised_hostname DataInstaclustrRedisClusterV2Instance#advertised_hostname}
   */
   readonly advertisedHostname?: string;
   /**
   * The Instaclustr ID of the AWS endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#end_point_service_id DataInstaclustrRedisClusterV2Instance#end_point_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#end_point_service_id DataInstaclustrRedisClusterV2Instance#end_point_service_id}
   */
   readonly endPointServiceId?: string;
   /**
   * Name of the created endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#end_point_service_name DataInstaclustrRedisClusterV2Instance#end_point_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#end_point_service_name DataInstaclustrRedisClusterV2Instance#end_point_service_name}
   */
   readonly endPointServiceName?: string;
 }
@@ -1555,13 +1555,13 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentreTag {
   /**
   * Key of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#key DataInstaclustrRedisClusterV2Instance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#key DataInstaclustrRedisClusterV2Instance#key}
   */
   readonly key?: string;
   /**
   * Value of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#value DataInstaclustrRedisClusterV2Instance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#value DataInstaclustrRedisClusterV2Instance#value}
   */
   readonly value?: string;
 }
@@ -1708,13 +1708,13 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentre {
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#cloud_provider DataInstaclustrRedisClusterV2Instance#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#cloud_provider DataInstaclustrRedisClusterV2Instance#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#id DataInstaclustrRedisClusterV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1723,109 +1723,109 @@ export interface DataInstaclustrRedisClusterV2InstanceDataCentre {
   /**
   * Total number of master nodes in the Data Centre. In order to maintain quorum on the cluster, you must specify an odd number of master nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#master_nodes DataInstaclustrRedisClusterV2Instance#master_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#master_nodes DataInstaclustrRedisClusterV2Instance#master_nodes}
   */
   readonly masterNodes?: number;
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#name DataInstaclustrRedisClusterV2Instance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#name DataInstaclustrRedisClusterV2Instance#name}
   */
   readonly name?: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#network DataInstaclustrRedisClusterV2Instance#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#network DataInstaclustrRedisClusterV2Instance#network}
   */
   readonly network?: string;
   /**
   * Size of the nodes provisioned in the Data Centre. Available node sizes: <details> <summary>*Amazon Web Services* [__AWS_VPC__]</summary> <br> <details> <summary>*Africa (Cape Town)* [__AF_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hong Kong)* [__AP_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Jakarta)* [__AP_SOUTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Malaysia)* [__AP_SOUTHEAST_5__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Melbourne)* [__AP_SOUTHEAST_4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Mumbai)* [__AP_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Osaka)* [__AP_NORTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Seoul)* [__AP_NORTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Singapore)* [__AP_SOUTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Sydney)* [__AP_SOUTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Thailand)* [__AP_SOUTHEAST_7__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Tokyo)* [__AP_NORTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Canada (Central)* [__CA_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Canada West (Calgary)* [__CA_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Frankfurt)* [__EU_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Zurich)* [__EU_CENTRAL_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU North (Stockholm)* [__EU_NORTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU South (Milan)* [__EU_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU South (Spain)* [__EU_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU West (Ireland)* [__EU_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU West (London)* [__EU_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*EU West (Paris)* [__EU_WEST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Israel (Tel Aviv)* [__IL_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Middle East (Bahrain)* [__ME_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*Middle East (UAE)* [__ME_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*South America (São Paulo)* [__SA_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US East (Northern Virginia)* [__US_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US East (Ohio)* [__US_EAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US West (Northern California)* [__US_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <details> <summary>*US West (Oregon)* [__US_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>r6g.2xlarge-400-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.4xlarge-600-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.large-100-r </td> <td>General Availability</td> </tr> <tr> <td>r6g.xlarge-200-r </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>RDS-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>r5.2xlarge-400-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.4xlarge-600-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.8xlarge-1000-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.large-100-r </td> <td>Deprecated</td> </tr> <tr> <td>r5.xlarge-200-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.medium-80-r </td> <td>Deprecated</td> </tr> <tr> <td>t3.small-20-r </td> <td>Deprecated</td> </tr> </table> <br> </details> <br> </details> <details> <summary>*Microsoft Azure* [__AZURE_AZ__]</summary> <br> <details> <summary>*Australia East (NSW)* [__AUSTRALIA_EAST__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada Central (Toronto)* [__CANADA_CENTRAL__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Central US (Iowa)* [__CENTRAL_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*East US (Virginia)* [__EAST_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*East US 2 (Virginia)* [__EAST_US_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*North Europe (Ireland)* [__NORTH_EUROPE__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*South Central US (Texas)* [__SOUTH_CENTRAL_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeast Asia (Singapore)* [__SOUTHEAST_ASIA__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Switzerland North (Zurich)* [__SWITZERLAND_NORTH__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*UK South (London)* [__UK_SOUTH__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*West Europe (Netherlands)* [__WEST_EUROPE__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*West US 2 (Washington)* [__WEST_US_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>Standard_DS2_v2-64-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E16s_v3-800-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E2s_v3-100-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E4s_v3-200-r </td> <td>General Availability</td> </tr> <tr> <td>Standard_E8s_v3-400-r </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details> <details> <summary>*Google Cloud Platform* [__GCP__]</summary> <br> <details> <summary>*Central Europe (Warsaw)* [__europe-central2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Central US (Iowa)* [__us-central1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern Asia-Pacific (Taiwan)* [__asia-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern South America (Brazil)* [__southamerica-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern US (North Virginia)* [__us-east4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern US (South Carolina)* [__us-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northeastern Asia-pacific (Japan)* [__asia-northeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northeastern North America (Canada)* [__northamerica-northeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northern Europe (Finland)* [__europe-north1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Asia (Jakarta)* [__asia-southeast2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Asia (Singapore)* [__asia-southeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Australia (Sydney)* [__australia-southeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southern Asia (India)* [__asia-south1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Belgium)* [__europe-west1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (England)* [__europe-west2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Germany)* [__europe-west3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Netherlands)* [__europe-west4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Zurich)* [__europe-west6__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western US (California)* [__us-west2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western US (Oregon)* [__us-west1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>n1-highmem-16-600-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-2-100-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-4-200-r </td> <td>General Availability</td> </tr> <tr> <td>n1-highmem-8-400-r </td> <td>General Availability</td> </tr> <tr> <td>n1-standard-1-30-r </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#node_size DataInstaclustrRedisClusterV2Instance#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#node_size DataInstaclustrRedisClusterV2Instance#node_size}
   */
   readonly nodeSize?: string;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#provider_account_name DataInstaclustrRedisClusterV2Instance#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#provider_account_name DataInstaclustrRedisClusterV2Instance#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#region DataInstaclustrRedisClusterV2Instance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#region DataInstaclustrRedisClusterV2Instance#region}
   */
   readonly region?: string;
   /**
   * Total number of replica nodes in the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#replica_nodes DataInstaclustrRedisClusterV2Instance#replica_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#replica_nodes DataInstaclustrRedisClusterV2Instance#replica_nodes}
   */
   readonly replicaNodes?: number;
   /**
   * The number of replica nodes that should be assigned for each master node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#replication_factor DataInstaclustrRedisClusterV2Instance#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#replication_factor DataInstaclustrRedisClusterV2Instance#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#status DataInstaclustrRedisClusterV2Instance#status}
   */
   readonly status?: string;
   /**
   * (Optional) Enable tag management for the data centre, allowing you to create, update and delete custom tags on the data centre via Instaclustr Terraform Provider v2, Cluster Management API or Management Console. Tag management is only available for RIYOA clusters and cannot be disabled once enabled. If not specified, the current value will remain unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#tag_management_enabled DataInstaclustrRedisClusterV2Instance#tag_management_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#tag_management_enabled DataInstaclustrRedisClusterV2Instance#tag_management_enabled}
   */
   readonly tagManagementEnabled?: boolean | cdktf.IResolvable;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#zero_inbound_access DataInstaclustrRedisClusterV2Instance#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#zero_inbound_access DataInstaclustrRedisClusterV2Instance#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#aws_settings DataInstaclustrRedisClusterV2Instance#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#aws_settings DataInstaclustrRedisClusterV2Instance#aws_settings}
   */
   readonly awsSettings?: DataInstaclustrRedisClusterV2InstanceDataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#azure_settings DataInstaclustrRedisClusterV2Instance#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#azure_settings DataInstaclustrRedisClusterV2Instance#azure_settings}
   */
   readonly azureSettings?: DataInstaclustrRedisClusterV2InstanceDataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#deleted_nodes DataInstaclustrRedisClusterV2Instance#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#deleted_nodes DataInstaclustrRedisClusterV2Instance#deleted_nodes}
   */
   readonly deletedNodes?: DataInstaclustrRedisClusterV2InstanceDataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#gcp_settings DataInstaclustrRedisClusterV2Instance#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#gcp_settings DataInstaclustrRedisClusterV2Instance#gcp_settings}
   */
   readonly gcpSettings?: DataInstaclustrRedisClusterV2InstanceDataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#nodes DataInstaclustrRedisClusterV2Instance#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#nodes DataInstaclustrRedisClusterV2Instance#nodes}
   */
   readonly nodes?: DataInstaclustrRedisClusterV2InstanceDataCentreNodes[] | cdktf.IResolvable;
   /**
   * private_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#private_link DataInstaclustrRedisClusterV2Instance#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#private_link DataInstaclustrRedisClusterV2Instance#private_link}
   */
   readonly privateLink?: DataInstaclustrRedisClusterV2InstanceDataCentrePrivateLink[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#tag DataInstaclustrRedisClusterV2Instance#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#tag DataInstaclustrRedisClusterV2Instance#tag}
   */
   readonly tag?: DataInstaclustrRedisClusterV2InstanceDataCentreTag[] | cdktf.IResolvable;
 }
@@ -2494,13 +2494,13 @@ export interface DataInstaclustrRedisClusterV2InstanceResizeSettings {
   /**
   * Number of concurrent nodes to resize during a resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#concurrency DataInstaclustrRedisClusterV2Instance#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#concurrency DataInstaclustrRedisClusterV2Instance#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Setting this property to `true` will notify the Instaclustr Account's designated support contacts on resize completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#notify_support_contacts DataInstaclustrRedisClusterV2Instance#notify_support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#notify_support_contacts DataInstaclustrRedisClusterV2Instance#notify_support_contacts}
   */
   readonly notifySupportContacts?: boolean | cdktf.IResolvable;
 }
@@ -2647,13 +2647,13 @@ export interface DataInstaclustrRedisClusterV2InstanceTwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#confirmation_email DataInstaclustrRedisClusterV2Instance#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#confirmation_email DataInstaclustrRedisClusterV2Instance#confirmation_email}
   */
   readonly confirmationEmail?: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#confirmation_phone_number DataInstaclustrRedisClusterV2Instance#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#confirmation_phone_number DataInstaclustrRedisClusterV2Instance#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -2798,7 +2798,7 @@ export class DataInstaclustrRedisClusterV2InstanceTwoFactorDeleteList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance instaclustr_redis_cluster_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance instaclustr_redis_cluster_v2_instance}
 */
 export class DataInstaclustrRedisClusterV2Instance extends cdktf.TerraformDataSource {
 
@@ -2814,7 +2814,7 @@ export class DataInstaclustrRedisClusterV2Instance extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataInstaclustrRedisClusterV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrRedisClusterV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrRedisClusterV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrRedisClusterV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrRedisClusterV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2826,7 +2826,7 @@ export class DataInstaclustrRedisClusterV2Instance extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/data-sources/redis_cluster_v2_instance instaclustr_redis_cluster_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/data-sources/redis_cluster_v2_instance instaclustr_redis_cluster_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2837,8 +2837,8 @@ export class DataInstaclustrRedisClusterV2Instance extends cdktf.TerraformDataSo
       terraformResourceType: 'instaclustr_redis_cluster_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.37',
-        providerVersionConstraint: '2.1.37'
+        providerVersion: '2.1.38',
+        providerVersionConstraint: '2.1.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

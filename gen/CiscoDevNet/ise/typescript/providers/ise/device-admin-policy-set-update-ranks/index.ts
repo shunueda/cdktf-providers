@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DeviceAdminPolicySetUpdateRanksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks#policies DeviceAdminPolicySetUpdateRanks#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks#policies DeviceAdminPolicySetUpdateRanks#policies}
   */
   readonly policies?: DeviceAdminPolicySetUpdateRanksPolicies[] | cdktf.IResolvable;
 }
@@ -16,7 +16,7 @@ export interface DeviceAdminPolicySetUpdateRanksPolicies {
   /**
   * Policy set ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks#id DeviceAdminPolicySetUpdateRanks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks#id DeviceAdminPolicySetUpdateRanks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DeviceAdminPolicySetUpdateRanksPolicies {
   /**
   * The rank (priority) in relation to other rules. Lower rank is higher priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks#rank DeviceAdminPolicySetUpdateRanks#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks#rank DeviceAdminPolicySetUpdateRanks#rank}
   */
   readonly rank: number;
 }
@@ -167,7 +167,7 @@ export class DeviceAdminPolicySetUpdateRanksPoliciesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks ise_device_admin_policy_set_update_ranks}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks ise_device_admin_policy_set_update_ranks}
 */
 export class DeviceAdminPolicySetUpdateRanks extends cdktf.TerraformResource {
 
@@ -183,7 +183,7 @@ export class DeviceAdminPolicySetUpdateRanks extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceAdminPolicySetUpdateRanks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceAdminPolicySetUpdateRanks to import
-  * @param importFromId The id of the existing DeviceAdminPolicySetUpdateRanks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceAdminPolicySetUpdateRanks that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceAdminPolicySetUpdateRanks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class DeviceAdminPolicySetUpdateRanks extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/device_admin_policy_set_update_ranks ise_device_admin_policy_set_update_ranks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/device_admin_policy_set_update_ranks ise_device_admin_policy_set_update_ranks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class DeviceAdminPolicySetUpdateRanks extends cdktf.TerraformResource {
       terraformResourceType: 'ise_device_admin_policy_set_update_ranks',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of actions (permissions) associated with the role. For example: `SPACE_READ`, `SPACE_WRITE`, `SPACE_ADMIN`, `RUN_TRIGGER`. All possible actions can be listed using the `spacelift_role_actions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role#actions Role#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role#actions Role#actions}
   */
   readonly actions: string[];
   /**
   * Human-readable, free-form description of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role#description Role#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role#description Role#description}
   */
   readonly description?: string;
   /**
   * Human-readable, free-form name of the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role#name Role#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role#name Role#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role spacelift_role}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role spacelift_role}
 */
 export class Role extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Role extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Role resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Role to import
-  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Role that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Role to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Role extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/role spacelift_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/role spacelift_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Role extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_role',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

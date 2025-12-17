@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpectrocloudPrivatecloudgatewayDnsMapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map#id DataSpectrocloudPrivatecloudgatewayDnsMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map#id DataSpectrocloudPrivatecloudgatewayDnsMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataSpectrocloudPrivatecloudgatewayDnsMapConfig extends cdktf.T
   /**
   * The network to which the private cloud gateway is mapped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map#network DataSpectrocloudPrivatecloudgatewayDnsMap#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map#network DataSpectrocloudPrivatecloudgatewayDnsMap#network}
   */
   readonly network?: string;
   /**
   * The ID of the private cloud gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map#private_cloud_gateway_id DataSpectrocloudPrivatecloudgatewayDnsMap#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map#private_cloud_gateway_id DataSpectrocloudPrivatecloudgatewayDnsMap#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId: string;
   /**
   * The domain name used for DNS search queries within the private cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map#search_domain_name DataSpectrocloudPrivatecloudgatewayDnsMap#search_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map#search_domain_name DataSpectrocloudPrivatecloudgatewayDnsMap#search_domain_name}
   */
   readonly searchDomainName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map}
 */
 export class DataSpectrocloudPrivatecloudgatewayDnsMap extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataSpectrocloudPrivatecloudgatewayDnsMap extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataSpectrocloudPrivatecloudgatewayDnsMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudPrivatecloudgatewayDnsMap to import
-  * @param importFromId The id of the existing DataSpectrocloudPrivatecloudgatewayDnsMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudPrivatecloudgatewayDnsMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudPrivatecloudgatewayDnsMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataSpectrocloudPrivatecloudgatewayDnsMap extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/privatecloudgateway_dns_map spectrocloud_privatecloudgateway_dns_map} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataSpectrocloudPrivatecloudgatewayDnsMap extends cdktf.TerraformDa
       terraformResourceType: 'spectrocloud_privatecloudgateway_dns_map',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

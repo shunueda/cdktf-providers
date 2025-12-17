@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface TrustsecIpToSgtMappingConfig extends cdktf.TerraformMetaArgumen
   /**
   * Mandatory unless `mapping_group` is set or unless `deploy_type` is `ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#deploy_to TrustsecIpToSgtMapping#deploy_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#deploy_to TrustsecIpToSgtMapping#deploy_to}
   */
   readonly deployTo?: string;
   /**
   * Deploy Type
   *   - Choices: `ALL`, `ND`, `NDG`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#deploy_type TrustsecIpToSgtMapping#deploy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#deploy_type TrustsecIpToSgtMapping#deploy_type}
   */
   readonly deployType?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#description TrustsecIpToSgtMapping#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#description TrustsecIpToSgtMapping#description}
   */
   readonly description?: string;
   /**
   * Mandatory if `host_name` is empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#host_ip TrustsecIpToSgtMapping#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#host_ip TrustsecIpToSgtMapping#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Mandatory if `host_ip` is empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#host_name TrustsecIpToSgtMapping#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#host_name TrustsecIpToSgtMapping#host_name}
   */
   readonly hostName?: string;
   /**
   * IP to SGT Mapping Group ID. Mandatory unless `sgt` and `deploy_to` and `deploy_type` are set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#mapping_group TrustsecIpToSgtMapping#mapping_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#mapping_group TrustsecIpToSgtMapping#mapping_group}
   */
   readonly mappingGroup?: string;
   /**
   * The name of the IP to SGT mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#name TrustsecIpToSgtMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#name TrustsecIpToSgtMapping#name}
   */
   readonly name: string;
   /**
   * Trustsec Security Group ID. Mandatory unless `mapping_group` is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#sgt TrustsecIpToSgtMapping#sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#sgt TrustsecIpToSgtMapping#sgt}
   */
   readonly sgt?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping ise_trustsec_ip_to_sgt_mapping}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping ise_trustsec_ip_to_sgt_mapping}
 */
 export class TrustsecIpToSgtMapping extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TrustsecIpToSgtMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustsecIpToSgtMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustsecIpToSgtMapping to import
-  * @param importFromId The id of the existing TrustsecIpToSgtMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustsecIpToSgtMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustsecIpToSgtMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TrustsecIpToSgtMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_ip_to_sgt_mapping ise_trustsec_ip_to_sgt_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_ip_to_sgt_mapping ise_trustsec_ip_to_sgt_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TrustsecIpToSgtMapping extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_ip_to_sgt_mapping',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

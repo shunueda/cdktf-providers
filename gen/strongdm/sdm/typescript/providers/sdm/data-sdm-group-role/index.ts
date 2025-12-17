@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role
+// https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSdmGroupRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The assigned Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role#group_id DataSdmGroupRole#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role#group_id DataSdmGroupRole#group_id}
   */
   readonly groupId?: string;
   /**
   * Unique identifier of the GroupRole.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role#id DataSdmGroupRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role#id DataSdmGroupRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataSdmGroupRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The assigned Role ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role#role_id DataSdmGroupRole#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role#role_id DataSdmGroupRole#role_id}
   */
   readonly roleId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role#timeouts DataSdmGroupRole#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role#timeouts DataSdmGroupRole#timeouts}
   */
   readonly timeouts?: DataSdmGroupRoleTimeouts;
 }
@@ -122,7 +122,7 @@ export class DataSdmGroupRoleGroupsRolesList extends cdktf.ComplexList {
 }
 export interface DataSdmGroupRoleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role#default DataSdmGroupRole#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role#default DataSdmGroupRole#default}
   */
   readonly default?: string;
 }
@@ -216,7 +216,7 @@ export class DataSdmGroupRoleTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role sdm_group_role}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role sdm_group_role}
 */
 export class DataSdmGroupRole extends cdktf.TerraformDataSource {
 
@@ -232,7 +232,7 @@ export class DataSdmGroupRole extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmGroupRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmGroupRole to import
-  * @param importFromId The id of the existing DataSdmGroupRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmGroupRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmGroupRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class DataSdmGroupRole extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/group_role sdm_group_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/group_role sdm_group_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class DataSdmGroupRole extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_group_role',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.40.0',
-        providerVersionConstraint: '15.40.0'
+        providerVersion: '15.41.0',
+        providerVersionConstraint: '15.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

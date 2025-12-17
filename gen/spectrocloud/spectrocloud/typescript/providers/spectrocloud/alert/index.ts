@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to `true`, the alert will be sent to all users. If `false`, it will target specific users or identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#alert_all_users Alert#alert_all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#alert_all_users Alert#alert_all_users}
   */
   readonly alertAllUsers?: boolean | cdktf.IResolvable;
   /**
   * The component of the system that the alert is associated with. Currently, `ClusterHealth` is the only supported value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#component Alert#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#component Alert#component}
   */
   readonly component: string;
   /**
   * The user who created the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#created_by Alert#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#created_by Alert#created_by}
   */
   readonly createdBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#id Alert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#id Alert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface AlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of unique identifiers to which the alert will be sent. This is used to target specific users or groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#identifiers Alert#identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#identifiers Alert#identifiers}
   */
   readonly identifiers?: string[];
   /**
   * Indicates whether the alert is active. Set to `true` to activate the alert, or `false` to deactivate it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#is_active Alert#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#is_active Alert#is_active}
   */
   readonly isActive: boolean | cdktf.IResolvable;
   /**
   * The project to which the alert belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#project Alert#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#project Alert#project}
   */
   readonly project: string;
   /**
   * The type of alert mechanism to use. Can be either `email` for email alerts or `http` for sending HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#type Alert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#type Alert#type}
   */
   readonly type: string;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#http Alert#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#http Alert#http}
   */
   readonly http?: AlertHttp[] | cdktf.IResolvable;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#status Alert#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#status Alert#status}
   */
   readonly status?: AlertStatus[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#timeouts Alert#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#timeouts Alert#timeouts}
   */
   readonly timeouts?: AlertTimeouts;
 }
@@ -79,25 +79,25 @@ export interface AlertHttp {
   /**
   * The payload to include in the HTTP request body when the alert is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#body Alert#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#body Alert#body}
   */
   readonly body: string;
   /**
   * Optional HTTP headers to include in the request. Each header should be specified as a key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#headers Alert#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#headers Alert#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * The HTTP method to use for the alert. Supported values are `POST`, `GET`, and `PUT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#method Alert#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#method Alert#method}
   */
   readonly method: string;
   /**
   * The target URL to send the HTTP request to when the alert is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#url Alert#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#url Alert#url}
   */
   readonly url: string;
 }
@@ -291,15 +291,15 @@ export class AlertHttpList extends cdktf.ComplexList {
 }
 export interface AlertStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#is_succeeded Alert#is_succeeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#is_succeeded Alert#is_succeeded}
   */
   readonly isSucceeded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#message Alert#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#message Alert#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#time Alert#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#time Alert#time}
   */
   readonly time?: string;
 }
@@ -473,15 +473,15 @@ export class AlertStatusList extends cdktf.ComplexList {
 }
 export interface AlertTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#create Alert#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#create Alert#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#delete Alert#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#delete Alert#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#update Alert#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#update Alert#update}
   */
   readonly update?: string;
 }
@@ -633,7 +633,7 @@ export class AlertTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert spectrocloud_alert}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert spectrocloud_alert}
 */
 export class Alert extends cdktf.TerraformResource {
 
@@ -649,7 +649,7 @@ export class Alert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alert to import
-  * @param importFromId The id of the existing Alert that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alert that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -661,7 +661,7 @@ export class Alert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/alert spectrocloud_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/alert spectrocloud_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -672,8 +672,8 @@ export class Alert extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_alert',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

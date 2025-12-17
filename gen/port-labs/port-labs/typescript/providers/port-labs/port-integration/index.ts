@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PortIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Integration Config Raw JSON string (use `jsonencode`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#config PortIntegration#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#config PortIntegration#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#installation_app_type PortIntegration#installation_app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#installation_app_type PortIntegration#installation_app_type}
   */
   readonly installationAppType?: string;
   /**
   * The installation ID of the integration. Must contain only lowercase letters, numbers, and dashes (pattern: `^[a-z0-9-]+$`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#installation_id PortIntegration#installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#installation_id PortIntegration#installation_id}
   */
   readonly installationId: string;
   /**
   * The changelog destination of the blueprint (just an empty `{}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#kafka_changelog_destination PortIntegration#kafka_changelog_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#kafka_changelog_destination PortIntegration#kafka_changelog_destination}
   */
   readonly kafkaChangelogDestination?: PortIntegrationKafkaChangelogDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#title PortIntegration#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#title PortIntegration#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#version PortIntegration#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#version PortIntegration#version}
   */
   readonly version?: string;
   /**
   * The webhook changelog destination of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#webhook_changelog_destination PortIntegration#webhook_changelog_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#webhook_changelog_destination PortIntegration#webhook_changelog_destination}
   */
   readonly webhookChangelogDestination?: PortIntegrationWebhookChangelogDestination;
 }
@@ -107,13 +107,13 @@ export interface PortIntegrationWebhookChangelogDestination {
   /**
   * The agent of the webhook changelog destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#agent PortIntegration#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#agent PortIntegration#agent}
   */
   readonly agent?: boolean | cdktf.IResolvable;
   /**
   * The url of the webhook changelog destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#url PortIntegration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#url PortIntegration#url}
   */
   readonly url: string;
 }
@@ -233,7 +233,7 @@ export class PortIntegrationWebhookChangelogDestinationOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration port_integration}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration port_integration}
 */
 export class PortIntegration extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class PortIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortIntegration to import
-  * @param importFromId The id of the existing PortIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class PortIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_integration port_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_integration port_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class PortIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'port_integration',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.3',
-        providerVersionConstraint: '2.17.3'
+        providerVersion: '2.17.4',
+        providerVersionConstraint: '2.17.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

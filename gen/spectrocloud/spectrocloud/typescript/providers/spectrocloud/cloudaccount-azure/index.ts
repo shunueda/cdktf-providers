@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudaccountAzureConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique client Id from Azure console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#azure_client_id CloudaccountAzure#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#azure_client_id CloudaccountAzure#azure_client_id}
   */
   readonly azureClientId: string;
   /**
   * Azure secret for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#azure_client_secret CloudaccountAzure#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#azure_client_secret CloudaccountAzure#azure_client_secret}
   */
   readonly azureClientSecret: string;
   /**
   * Unique tenant Id from Azure console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#azure_tenant_id CloudaccountAzure#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#azure_tenant_id CloudaccountAzure#azure_tenant_id}
   */
   readonly azureTenantId: string;
   /**
@@ -30,23 +30,23 @@ export interface CloudaccountAzureConfig extends cdktf.TerraformMetaArguments {
   * Can be 'AzurePublicCloud' for standard Azure regions or 'AzureUSGovernmentCloud' for Azure GovCloud (US) regions or 'AzureUSSecretCloud' for Azure Secret Cloud regions.
   * Default is 'AzurePublicCloud'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#cloud CloudaccountAzure#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#cloud CloudaccountAzure#cloud}
   */
   readonly cloud?: string;
   /**
   * The context of the Azure configuration. Defaults to `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#context CloudaccountAzure#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#context CloudaccountAzure#context}
   */
   readonly context?: string;
   /**
   * Disable properties request. This is a boolean value that indicates whether to disable properties request or not. If not specified, the default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#disable_properties_request CloudaccountAzure#disable_properties_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#disable_properties_request CloudaccountAzure#disable_properties_request}
   */
   readonly disablePropertiesRequest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#id CloudaccountAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#id CloudaccountAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,31 +55,31 @@ export interface CloudaccountAzureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Azure cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#name CloudaccountAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#name CloudaccountAzure#name}
   */
   readonly name: string;
   /**
   * ID of the private cloud gateway. This is the ID of the private cloud gateway that is used to connect to the private cluster endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#private_cloud_gateway_id CloudaccountAzure#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#private_cloud_gateway_id CloudaccountAzure#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId?: string;
   /**
   * The name of the tenant. This is the name of the tenant that is used to connect to the Azure cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#tenant_name CloudaccountAzure#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#tenant_name CloudaccountAzure#tenant_name}
   */
   readonly tenantName?: string;
   /**
   * TLS certificate for authentication. This field is only allowed when cloud is set to 'AzureUSSecretCloud'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#tls_cert CloudaccountAzure#tls_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#tls_cert CloudaccountAzure#tls_cert}
   */
   readonly tlsCert?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure spectrocloud_cloudaccount_azure}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure spectrocloud_cloudaccount_azure}
 */
 export class CloudaccountAzure extends cdktf.TerraformResource {
 
@@ -95,7 +95,7 @@ export class CloudaccountAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountAzure to import
-  * @param importFromId The id of the existing CloudaccountAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -107,7 +107,7 @@ export class CloudaccountAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_azure spectrocloud_cloudaccount_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_azure spectrocloud_cloudaccount_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -118,8 +118,8 @@ export class CloudaccountAzure extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_azure',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

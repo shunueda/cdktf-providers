@@ -668,6 +668,11 @@ export class DataSdmResourceResourcesSshOutputReference extends cdktf.ComplexObj
     return this.getStringAttribute('key_type');
   }
 
+  // lock_required - computed: true, optional: false, required: false
+  public get lockRequired() {
+    return this.getBooleanAttribute('lock_required');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -829,6 +834,11 @@ export class DataSdmResourceResourcesSshCertOutputReference extends cdktf.Comple
     return this.getStringAttribute('key_type');
   }
 
+  // lock_required - computed: true, optional: false, required: false
+  public get lockRequired() {
+    return this.getBooleanAttribute('lock_required');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -980,6 +990,11 @@ export class DataSdmResourceResourcesSshCustomerKeyOutputReference extends cdktf
     return this.getStringAttribute('identity_set_id');
   }
 
+  // lock_required - computed: true, optional: false, required: false
+  public get lockRequired() {
+    return this.getBooleanAttribute('lock_required');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -1124,6 +1139,11 @@ export class DataSdmResourceResourcesSshPasswordOutputReference extends cdktf.Co
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // lock_required - computed: true, optional: false, required: false
+  public get lockRequired() {
+    return this.getBooleanAttribute('lock_required');
   }
 
   // name - computed: true, optional: false, required: false
@@ -2630,7 +2650,7 @@ export class DataSdmResourceResourcesList extends cdktf.ComplexList {
 }
 export interface DataSdmResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/resource#default DataSdmResource#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/resource#default DataSdmResource#default}
   */
   readonly default?: string;
 }

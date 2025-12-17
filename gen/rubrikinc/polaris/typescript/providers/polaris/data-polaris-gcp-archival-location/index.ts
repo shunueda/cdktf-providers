@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/gcp_archival_location
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/gcp_archival_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataPolarisGcpArchivalLocationConfig extends cdktf.TerraformMet
   /**
   * Cloud native archival location ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/gcp_archival_location#id DataPolarisGcpArchivalLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/gcp_archival_location#id DataPolarisGcpArchivalLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataPolarisGcpArchivalLocationConfig extends cdktf.TerraformMet
   /**
   * Name of the cloud native archival location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/gcp_archival_location#name DataPolarisGcpArchivalLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/gcp_archival_location#name DataPolarisGcpArchivalLocation#name}
   */
   readonly name?: string;
 }
@@ -110,7 +110,7 @@ export class DataPolarisGcpArchivalLocationCustomerManagedKeyList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/gcp_archival_location polaris_gcp_archival_location}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/gcp_archival_location polaris_gcp_archival_location}
 */
 export class DataPolarisGcpArchivalLocation extends cdktf.TerraformDataSource {
 
@@ -126,7 +126,7 @@ export class DataPolarisGcpArchivalLocation extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisGcpArchivalLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisGcpArchivalLocation to import
-  * @param importFromId The id of the existing DataPolarisGcpArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/gcp_archival_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisGcpArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/gcp_archival_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisGcpArchivalLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class DataPolarisGcpArchivalLocation extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/gcp_archival_location polaris_gcp_archival_location} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/data-sources/gcp_archival_location polaris_gcp_archival_location} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class DataPolarisGcpArchivalLocation extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_gcp_archival_location',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

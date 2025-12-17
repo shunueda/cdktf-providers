@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ClusterCustomCloudConfig extends cdktf.TerraformMetaArguments {
   /**
   * The setting to apply the cluster profile. `DownloadAndInstall` will download and install packs in one action. `DownloadAndInstallLater` will only download artifact and postpone install for later. Default value is `DownloadAndInstall`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#apply_setting ClusterCustomCloud#apply_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#apply_setting ClusterCustomCloud#apply_setting}
   */
   readonly applySetting?: string;
   /**
   * The cloud provider name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cloud ClusterCustomCloud#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cloud ClusterCustomCloud#cloud}
   */
   readonly cloud: string;
   /**
   * The cloud account id to use for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cloud_account_id ClusterCustomCloud#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cloud_account_id ClusterCustomCloud#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * The context of the EKS cluster. Allowed values are `project` or `tenant`. Default is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#context ClusterCustomCloud#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#context ClusterCustomCloud#context}
   */
   readonly context?: string;
   /**
   * The description of the cluster. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#description ClusterCustomCloud#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#description ClusterCustomCloud#description}
   */
   readonly description?: string;
   /**
   * If set to `true`, the cluster will be force deleted and user has to manually clean up the provisioned cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#force_delete ClusterCustomCloud#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#force_delete ClusterCustomCloud#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Delay duration in minutes to before invoking cluster force delete. Default and minimum is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#force_delete_delay ClusterCustomCloud#force_delete_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#force_delete_delay ClusterCustomCloud#force_delete_delay}
   */
   readonly forceDeleteDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface ClusterCustomCloudConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
   */
   readonly name: string;
   /**
   * Date and time after which to patch cluster `RFC3339: 2006-01-02T15:04:05Z07:00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#os_patch_after ClusterCustomCloud#os_patch_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#os_patch_after ClusterCustomCloud#os_patch_after}
   */
   readonly osPatchAfter?: string;
   /**
   * Whether to apply OS patch on boot. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#os_patch_on_boot ClusterCustomCloud#os_patch_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#os_patch_on_boot ClusterCustomCloud#os_patch_on_boot}
   */
   readonly osPatchOnBoot?: boolean | cdktf.IResolvable;
   /**
   * The cron schedule for OS patching. This must be in the form of cron syntax. Ex: `0 0 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#os_patch_schedule ClusterCustomCloud#os_patch_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#os_patch_schedule ClusterCustomCloud#os_patch_schedule}
   */
   readonly osPatchSchedule?: string;
   /**
   * The pause agent upgrades setting allows to control the automatic upgrade of the Palette component and agent for an individual cluster. The default value is `unlock`, meaning upgrades occur automatically. Setting it to `lock` pauses automatic agent upgrades for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#pause_agent_upgrades ClusterCustomCloud#pause_agent_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#pause_agent_upgrades ClusterCustomCloud#pause_agent_upgrades}
   */
   readonly pauseAgentUpgrades?: string;
   /**
   * If `true`, the cluster will be created asynchronously. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#skip_completion ClusterCustomCloud#skip_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#skip_completion ClusterCustomCloud#skip_completion}
   */
   readonly skipCompletion?: boolean | cdktf.IResolvable;
   /**
   * A list of tags to be applied to the cluster. Tags must be in the form of `key:value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#tags ClusterCustomCloud#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#tags ClusterCustomCloud#tags}
   */
   readonly tags?: string[];
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#backup_policy ClusterCustomCloud#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#backup_policy ClusterCustomCloud#backup_policy}
   */
   readonly backupPolicy?: ClusterCustomCloudBackupPolicy;
   /**
   * cloud_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cloud_config ClusterCustomCloud#cloud_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cloud_config ClusterCustomCloud#cloud_config}
   */
   readonly cloudConfig: ClusterCustomCloudCloudConfig;
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cluster_profile ClusterCustomCloud#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cluster_profile ClusterCustomCloud#cluster_profile}
   */
   readonly clusterProfile?: ClusterCustomCloudClusterProfile[] | cdktf.IResolvable;
   /**
   * cluster_rbac_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cluster_rbac_binding ClusterCustomCloud#cluster_rbac_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cluster_rbac_binding ClusterCustomCloud#cluster_rbac_binding}
   */
   readonly clusterRbacBinding?: ClusterCustomCloudClusterRbacBinding[] | cdktf.IResolvable;
   /**
   * cluster_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cluster_template ClusterCustomCloud#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cluster_template ClusterCustomCloud#cluster_template}
   */
   readonly clusterTemplate?: ClusterCustomCloudClusterTemplate;
   /**
   * location_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#location_config ClusterCustomCloud#location_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#location_config ClusterCustomCloud#location_config}
   */
   readonly locationConfig?: ClusterCustomCloudLocationConfig[] | cdktf.IResolvable;
   /**
   * machine_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#machine_pool ClusterCustomCloud#machine_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#machine_pool ClusterCustomCloud#machine_pool}
   */
   readonly machinePool: ClusterCustomCloudMachinePool[] | cdktf.IResolvable;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#namespaces ClusterCustomCloud#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#namespaces ClusterCustomCloud#namespaces}
   */
   readonly namespaces?: ClusterCustomCloudNamespaces[] | cdktf.IResolvable;
   /**
   * scan_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#scan_policy ClusterCustomCloud#scan_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#scan_policy ClusterCustomCloud#scan_policy}
   */
   readonly scanPolicy?: ClusterCustomCloudScanPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#timeouts ClusterCustomCloud#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#timeouts ClusterCustomCloud#timeouts}
   */
   readonly timeouts?: ClusterCustomCloudTimeouts;
 }
@@ -163,61 +163,61 @@ export interface ClusterCustomCloudBackupPolicy {
   /**
   * The ID of the backup location to use for the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#backup_location_id ClusterCustomCloud#backup_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#backup_location_id ClusterCustomCloud#backup_location_id}
   */
   readonly backupLocationId: string;
   /**
   * The list of cluster UIDs to include in the backup. If `include_all_clusters` is set to `true`, then all clusters will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cluster_uids ClusterCustomCloud#cluster_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cluster_uids ClusterCustomCloud#cluster_uids}
   */
   readonly clusterUids?: string[];
   /**
   * The number of hours after which the backup will be deleted. For example, if the expiry is set to 24, the backup will be deleted after 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#expiry_in_hour ClusterCustomCloud#expiry_in_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#expiry_in_hour ClusterCustomCloud#expiry_in_hour}
   */
   readonly expiryInHour: number;
   /**
   * Whether to include all clusters in the backup. If set to false, only the clusters specified in `cluster_uids` will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#include_all_clusters ClusterCustomCloud#include_all_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#include_all_clusters ClusterCustomCloud#include_all_clusters}
   */
   readonly includeAllClusters?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to include cluster resources in the backup. If set to false, only the cluster configuration and disks will be backed up. (Note: Starting with Palette version 4.6, the include_cluster_resources attribute will be deprecated, and a new attribute, include_cluster_resources_mode, will be introduced.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#include_cluster_resources ClusterCustomCloud#include_cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#include_cluster_resources ClusterCustomCloud#include_cluster_resources}
   */
   readonly includeClusterResources?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to include the cluster resources in the backup. Supported values are `always`, `never`, and `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#include_cluster_resources_mode ClusterCustomCloud#include_cluster_resources_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#include_cluster_resources_mode ClusterCustomCloud#include_cluster_resources_mode}
   */
   readonly includeClusterResourcesMode?: string;
   /**
   * Whether to include the disks in the backup. If set to false, only the cluster configuration will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#include_disks ClusterCustomCloud#include_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#include_disks ClusterCustomCloud#include_disks}
   */
   readonly includeDisks?: boolean | cdktf.IResolvable;
   /**
   * The list of Kubernetes namespaces to include in the backup. If not specified, all namespaces will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#namespaces ClusterCustomCloud#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#namespaces ClusterCustomCloud#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Prefix for the backup name. The backup name will be of the format <prefix>-<cluster-name>-<timestamp>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#prefix ClusterCustomCloud#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#prefix ClusterCustomCloud#prefix}
   */
   readonly prefix: string;
   /**
   * The schedule for the backup. The schedule is specified in cron format. For example, to run the backup every day at 1:00 AM, the schedule should be set to `0 1 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#schedule ClusterCustomCloud#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#schedule ClusterCustomCloud#schedule}
   */
   readonly schedule: string;
 }
@@ -560,13 +560,13 @@ export interface ClusterCustomCloudCloudConfig {
   * 
   * Processing order: 1) Template substitution, 2) Wildcard patterns, 3) Field pattern search, 4) Path-based overrides. Supports dot notation for nested paths and array indexing with [index]. Values are strings but support JSON syntax for arrays/objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#overrides ClusterCustomCloud#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#overrides ClusterCustomCloud#overrides}
   */
   readonly overrides?: { [key: string]: string };
   /**
   * The values of the cloud config. The values are specified in YAML format. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#values ClusterCustomCloud#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#values ClusterCustomCloud#values}
   */
   readonly values: string;
 }
@@ -678,13 +678,13 @@ export interface ClusterCustomCloudClusterProfilePackManifest {
   /**
   * The content of the manifest. The content is the YAML content of the manifest. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#content ClusterCustomCloud#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#content ClusterCustomCloud#content}
   */
   readonly content: string;
   /**
   * The name of the manifest. The name must be unique within the pack. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
   */
   readonly name: string;
 }
@@ -830,49 +830,49 @@ export interface ClusterCustomCloudClusterProfilePack {
   /**
   * The name of the pack. The name must be unique within the cluster profile. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
   */
   readonly name: string;
   /**
   * The registry name of the pack. The registry name is the human-readable name of the registry. This attribute can be used instead of `registry_uid` for better readability. If `uid` is not provided, this field can be used along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#registry_name ClusterCustomCloud#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#registry_name ClusterCustomCloud#registry_name}
   */
   readonly registryName?: string;
   /**
   * The registry UID of the pack. The registry UID is the unique identifier of the registry. This attribute is required if there is more than one registry that contains a pack with the same name. If `uid` is not provided, this field is required along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#registry_uid ClusterCustomCloud#registry_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#registry_uid ClusterCustomCloud#registry_uid}
   */
   readonly registryUid?: string;
   /**
   * The tag of the pack. The tag is the version of the pack. This attribute is required if the pack type is `spectro` or `helm`. If `uid` is not provided, this field is required along with `name` and `registry_uid` (or `registry_name`) to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#tag ClusterCustomCloud#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#tag ClusterCustomCloud#tag}
   */
   readonly tag?: string;
   /**
   * The type of the pack. Allowed values are `spectro`, `manifest`, `helm`, or `oci`. The default value is spectro. If using an OCI registry for pack, set the type to `oci`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#type ClusterCustomCloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#type ClusterCustomCloud#type}
   */
   readonly type?: string;
   /**
   * The unique identifier of the pack. The value can be looked up using the [`spectrocloud_pack`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs/data-sources/pack) data source. This value is required if the pack type is `spectro` and for `helm` if the chart is from a public helm registry. If not provided, all of `name`, `tag`, and `registry_uid` must be specified to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#uid ClusterCustomCloud#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#uid ClusterCustomCloud#uid}
   */
   readonly uid?: string;
   /**
   * The values of the pack. The values are the configuration values of the pack. The values are specified in YAML format. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#values ClusterCustomCloud#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#values ClusterCustomCloud#values}
   */
   readonly values?: string;
   /**
   * manifest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#manifest ClusterCustomCloud#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#manifest ClusterCustomCloud#manifest}
   */
   readonly manifest?: ClusterCustomCloudClusterProfilePackManifest[] | cdktf.IResolvable;
 }
@@ -1190,7 +1190,7 @@ export interface ClusterCustomCloudClusterProfile {
   /**
   * The ID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1199,13 +1199,13 @@ export interface ClusterCustomCloudClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#variables ClusterCustomCloud#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#variables ClusterCustomCloud#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * pack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#pack ClusterCustomCloud#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#pack ClusterCustomCloud#pack}
   */
   readonly pack?: ClusterCustomCloudClusterProfilePack[] | cdktf.IResolvable;
 }
@@ -1378,19 +1378,19 @@ export interface ClusterCustomCloudClusterRbacBindingSubjects {
   /**
   * The name of the subject. Required if 'type' is set to 'User' or 'Group'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
   */
   readonly name: string;
   /**
   * The Kubernetes namespace of the subject. Required if 'type' is set to 'ServiceAccount'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#namespace ClusterCustomCloud#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#namespace ClusterCustomCloud#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of the subject. Can be one of the following values: `User`, `Group`, or `ServiceAccount`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#type ClusterCustomCloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#type ClusterCustomCloud#type}
   */
   readonly type: string;
 }
@@ -1560,25 +1560,25 @@ export interface ClusterCustomCloudClusterRbacBinding {
   /**
   * The Kubernetes namespace of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#namespace ClusterCustomCloud#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#namespace ClusterCustomCloud#namespace}
   */
   readonly namespace?: string;
   /**
-  * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
+  * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'. Must include 'name' and 'kind' fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#role ClusterCustomCloud#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#role ClusterCustomCloud#role}
   */
   readonly role?: { [key: string]: string };
   /**
   * The type of the RBAC binding. Can be one of the following values: `RoleBinding`, or `ClusterRoleBinding`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#type ClusterCustomCloud#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#type ClusterCustomCloud#type}
   */
   readonly type: string;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#subjects ClusterCustomCloud#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#subjects ClusterCustomCloud#subjects}
   */
   readonly subjects?: ClusterCustomCloudClusterRbacBindingSubjects[] | cdktf.IResolvable;
 }
@@ -1780,7 +1780,7 @@ export interface ClusterCustomCloudClusterTemplateClusterProfile {
   /**
   * The UID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1789,7 +1789,7 @@ export interface ClusterCustomCloudClusterTemplateClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#variables ClusterCustomCloud#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#variables ClusterCustomCloud#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -1933,7 +1933,7 @@ export interface ClusterCustomCloudClusterTemplate {
   /**
   * The ID of the cluster template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#id ClusterCustomCloud#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1942,7 +1942,7 @@ export interface ClusterCustomCloudClusterTemplate {
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#cluster_profile ClusterCustomCloud#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#cluster_profile ClusterCustomCloud#cluster_profile}
   */
   readonly clusterProfile?: ClusterCustomCloudClusterTemplateClusterProfile[] | cdktf.IResolvable;
 }
@@ -2059,37 +2059,37 @@ export interface ClusterCustomCloudLocationConfig {
   /**
   * The country code of the country the cluster is located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#country_code ClusterCustomCloud#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#country_code ClusterCustomCloud#country_code}
   */
   readonly countryCode?: string;
   /**
   * The name of the country.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#country_name ClusterCustomCloud#country_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#country_name ClusterCustomCloud#country_name}
   */
   readonly countryName?: string;
   /**
   * The latitude coordinates value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#latitude ClusterCustomCloud#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#latitude ClusterCustomCloud#latitude}
   */
   readonly latitude: number;
   /**
   * The longitude coordinates value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#longitude ClusterCustomCloud#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#longitude ClusterCustomCloud#longitude}
   */
   readonly longitude: number;
   /**
   * The region code of where the cluster is located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#region_code ClusterCustomCloud#region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#region_code ClusterCustomCloud#region_code}
   */
   readonly regionCode?: string;
   /**
   * The name of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#region_name ClusterCustomCloud#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#region_name ClusterCustomCloud#region_name}
   */
   readonly regionName?: string;
 }
@@ -2346,19 +2346,19 @@ export interface ClusterCustomCloudMachinePoolTaints {
   /**
   * The effect of the taint. Allowed values are: `NoSchedule`, `PreferNoSchedule` or `NoExecute`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#effect ClusterCustomCloud#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#effect ClusterCustomCloud#effect}
   */
   readonly effect: string;
   /**
   * The key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#key ClusterCustomCloud#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#key ClusterCustomCloud#key}
   */
   readonly key: string;
   /**
   * The value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#value ClusterCustomCloud#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#value ClusterCustomCloud#value}
   */
   readonly value: string;
 }
@@ -2525,19 +2525,19 @@ export interface ClusterCustomCloudMachinePool {
   /**
   * Whether this machine pool is a control plane. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#control_plane ClusterCustomCloud#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#control_plane ClusterCustomCloud#control_plane}
   */
   readonly controlPlane?: boolean | cdktf.IResolvable;
   /**
   * Whether this machine pool is a control plane and a worker. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#control_plane_as_worker ClusterCustomCloud#control_plane_as_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#control_plane_as_worker ClusterCustomCloud#control_plane_as_worker}
   */
   readonly controlPlaneAsWorker?: boolean | cdktf.IResolvable;
   /**
   * The values of the node pool config. The values are specified in YAML format. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#node_pool_config ClusterCustomCloud#node_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#node_pool_config ClusterCustomCloud#node_pool_config}
   */
   readonly nodePoolConfig: string;
   /**
@@ -2551,13 +2551,13 @@ export interface ClusterCustomCloudMachinePool {
   * 
   * Processing order: 1) Template substitution, 2) Wildcard patterns, 3) Field pattern search, 4) Path-based overrides. Supports dot notation for nested paths and array indexing with [index]. Values are strings but support JSON syntax for arrays/objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#overrides ClusterCustomCloud#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#overrides ClusterCustomCloud#overrides}
   */
   readonly overrides?: { [key: string]: string };
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#taints ClusterCustomCloud#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#taints ClusterCustomCloud#taints}
   */
   readonly taints?: ClusterCustomCloudMachinePoolTaints[] | cdktf.IResolvable;
 }
@@ -2798,13 +2798,13 @@ export interface ClusterCustomCloudNamespaces {
   /**
   * Name of the namespace. This is the name of the Kubernetes namespace in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#name ClusterCustomCloud#name}
   */
   readonly name: string;
   /**
   * Resource allocation for the namespace. This is a map containing the resource type and the resource value. For example, `{cpu_cores: '2', memory_MiB: '2048', gpu_limit: '1', gpu_provider: 'nvidia'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#resource_allocation ClusterCustomCloud#resource_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#resource_allocation ClusterCustomCloud#resource_allocation}
   */
   readonly resourceAllocation: { [key: string]: string };
 }
@@ -2945,19 +2945,19 @@ export interface ClusterCustomCloudScanPolicy {
   /**
   * The schedule for configuration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#configuration_scan_schedule ClusterCustomCloud#configuration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#configuration_scan_schedule ClusterCustomCloud#configuration_scan_schedule}
   */
   readonly configurationScanSchedule: string;
   /**
   * The schedule for conformance scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#conformance_scan_schedule ClusterCustomCloud#conformance_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#conformance_scan_schedule ClusterCustomCloud#conformance_scan_schedule}
   */
   readonly conformanceScanSchedule: string;
   /**
   * The schedule for penetration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#penetration_scan_schedule ClusterCustomCloud#penetration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#penetration_scan_schedule ClusterCustomCloud#penetration_scan_schedule}
   */
   readonly penetrationScanSchedule: string;
 }
@@ -3090,15 +3090,15 @@ export class ClusterCustomCloudScanPolicyOutputReference extends cdktf.ComplexOb
 }
 export interface ClusterCustomCloudTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#create ClusterCustomCloud#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#create ClusterCustomCloud#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#delete ClusterCustomCloud#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#delete ClusterCustomCloud#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#update ClusterCustomCloud#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#update ClusterCustomCloud#update}
   */
   readonly update?: string;
 }
@@ -3250,7 +3250,7 @@ export class ClusterCustomCloudTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud spectrocloud_cluster_custom_cloud}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud spectrocloud_cluster_custom_cloud}
 */
 export class ClusterCustomCloud extends cdktf.TerraformResource {
 
@@ -3266,7 +3266,7 @@ export class ClusterCustomCloud extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterCustomCloud resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterCustomCloud to import
-  * @param importFromId The id of the existing ClusterCustomCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterCustomCloud that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterCustomCloud to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3278,7 +3278,7 @@ export class ClusterCustomCloud extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_custom_cloud spectrocloud_cluster_custom_cloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_custom_cloud spectrocloud_cluster_custom_cloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3289,8 +3289,8 @@ export class ClusterCustomCloud extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_custom_cloud',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

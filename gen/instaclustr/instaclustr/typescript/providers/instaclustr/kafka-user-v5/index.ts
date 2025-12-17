@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KafkaUserV5Config extends cdktf.TerraformMetaArguments {
   /**
   * Authentication mechanisms supported for KafkaClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#auth_mechanism KafkaUserV5#auth_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#auth_mechanism KafkaUserV5#auth_mechanism}
   */
   readonly authMechanism: string;
   /**
   * ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#cluster_id KafkaUserV5#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#cluster_id KafkaUserV5#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Indicates if the cluster is currently performing any operation such as being created, updated, or deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#current_operation_status KafkaUserV5#current_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#current_operation_status KafkaUserV5#current_operation_status}
   */
   readonly currentOperationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#id KafkaUserV5#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#id KafkaUserV5#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface KafkaUserV5Config extends cdktf.TerraformMetaArguments {
   /**
   * Password for the Kafka user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#password KafkaUserV5#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#password KafkaUserV5#password}
   */
   readonly password?: string;
   /**
   * Scram Mechanism for SASL authentication. Valid values: SCRAM-SHA-256, SCRAM-SHA-512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#sasl_scram_mechanism KafkaUserV5#sasl_scram_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#sasl_scram_mechanism KafkaUserV5#sasl_scram_mechanism}
   */
   readonly saslScramMechanism?: string;
   /**
   * Username of the Kafka user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#username KafkaUserV5#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#username KafkaUserV5#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#timeouts KafkaUserV5#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#timeouts KafkaUserV5#timeouts}
   */
   readonly timeouts?: KafkaUserV5Timeouts;
 }
 export interface KafkaUserV5Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#default KafkaUserV5#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#default KafkaUserV5#default}
   */
   readonly default?: string;
 }
@@ -153,7 +153,7 @@ export class KafkaUserV5TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5 instaclustr_kafka_user_v5}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5 instaclustr_kafka_user_v5}
 */
 export class KafkaUserV5 extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class KafkaUserV5 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaUserV5 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaUserV5 to import
-  * @param importFromId The id of the existing KafkaUserV5 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaUserV5 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaUserV5 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class KafkaUserV5 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/kafka_user_v5 instaclustr_kafka_user_v5} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/kafka_user_v5 instaclustr_kafka_user_v5} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class KafkaUserV5 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_kafka_user_v5',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.37',
-        providerVersionConstraint: '2.1.37'
+        providerVersion: '2.1.38',
+        providerVersionConstraint: '2.1.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

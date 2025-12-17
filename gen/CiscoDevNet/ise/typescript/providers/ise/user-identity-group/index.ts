@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface UserIdentityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group#description UserIdentityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group#description UserIdentityGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the user identity group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group#name UserIdentityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group#name UserIdentityGroup#name}
   */
   readonly name: string;
   /**
   * Parent user identity group, e.g. `NAC Group:NAC:IdentityGroups:User Identity Groups`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group#parent UserIdentityGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group#parent UserIdentityGroup#parent}
   */
   readonly parent?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group ise_user_identity_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group ise_user_identity_group}
 */
 export class UserIdentityGroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class UserIdentityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserIdentityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserIdentityGroup to import
-  * @param importFromId The id of the existing UserIdentityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserIdentityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserIdentityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class UserIdentityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/user_identity_group ise_user_identity_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/user_identity_group ise_user_identity_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class UserIdentityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ise_user_identity_group',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

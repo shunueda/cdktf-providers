@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_custom_labels
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_custom_labels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GcpCustomLabelsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom labels to add to cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_custom_labels#custom_labels GcpCustomLabels#custom_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_custom_labels#custom_labels GcpCustomLabels#custom_labels}
   */
   readonly customLabels: { [key: string]: string };
   /**
   * Should custom labels overwrite existing labels with the same keys. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_custom_labels#override_resource_labels GcpCustomLabels#override_resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_custom_labels#override_resource_labels GcpCustomLabels#override_resource_labels}
   */
   readonly overrideResourceLabels?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_custom_labels polaris_gcp_custom_labels}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_custom_labels polaris_gcp_custom_labels}
 */
 export class GcpCustomLabels extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class GcpCustomLabels extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpCustomLabels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpCustomLabels to import
-  * @param importFromId The id of the existing GcpCustomLabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_custom_labels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpCustomLabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_custom_labels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpCustomLabels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class GcpCustomLabels extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_custom_labels polaris_gcp_custom_labels} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_custom_labels polaris_gcp_custom_labels} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class GcpCustomLabels extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_gcp_custom_labels',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

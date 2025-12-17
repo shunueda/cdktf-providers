@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface KmsKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access scope of the key. Default is `PUBLIC`. Possible values are: `PUBLIC`, `SNA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#access_scope KmsKey#access_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#access_scope KmsKey#access_scope}
   */
   readonly accessScope?: string;
   /**
   * The encryption algorithm that the key will use to encrypt data. Possible values are: `aes_256_gcm`, `rsa_2048_oaep_sha256`, `rsa_3072_oaep_sha256`, `rsa_4096_oaep_sha256`, `rsa_4096_oaep_sha512`, `hmac_sha256`, `hmac_sha384`, `hmac_sha512`, `ecdsa_p256_sha256`, `ecdsa_p384_sha384`, `ecdsa_p521_sha512`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#algorithm KmsKey#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#algorithm KmsKey#algorithm}
   */
   readonly algorithm: string;
   /**
   * A user chosen description to distinguish multiple keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#description KmsKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#description KmsKey#description}
   */
   readonly description?: string;
   /**
   * The display name to distinguish multiple keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#display_name KmsKey#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#display_name KmsKey#display_name}
   */
   readonly displayName: string;
   /**
   * States whether versions can be created or only imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#import_only KmsKey#import_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#import_only KmsKey#import_only}
   */
   readonly importOnly?: boolean | cdktf.IResolvable;
   /**
   * The ID of the associated keyring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#keyring_id KmsKey#keyring_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#keyring_id KmsKey#keyring_id}
   */
   readonly keyringId: string;
   /**
   * STACKIT project ID to which the key is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#project_id KmsKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#project_id KmsKey#project_id}
   */
   readonly projectId: string;
   /**
   * The underlying system that is responsible for protecting the key material. Possible values are: `software`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#protection KmsKey#protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#protection KmsKey#protection}
   */
   readonly protection: string;
   /**
   * The purpose for which the key will be used. Possible values are: `symmetric_encrypt_decrypt`, `asymmetric_encrypt_decrypt`, `message_authentication_code`, `asymmetric_sign_verify`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#purpose KmsKey#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#purpose KmsKey#purpose}
   */
   readonly purpose: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#region KmsKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#region KmsKey#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key stackit_kms_key}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key stackit_kms_key}
 */
 export class KmsKey extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class KmsKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsKey to import
-  * @param importFromId The id of the existing KmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class KmsKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/kms_key stackit_kms_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/kms_key stackit_kms_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class KmsKey extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_kms_key',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

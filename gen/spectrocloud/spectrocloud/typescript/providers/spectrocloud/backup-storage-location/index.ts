@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface BackupStorageLocationConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the storage bucket where backups are stored. This is relevant for S3 or S3-compatible(minio) or gcp storage services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#bucket_name BackupStorageLocation#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#bucket_name BackupStorageLocation#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * An optional CA certificate used for SSL connections to ensure secure communication with the storage provider. This is relevant for S3 or S3-compatible(minio) storage services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#ca_cert BackupStorageLocation#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#ca_cert BackupStorageLocation#ca_cert}
   */
   readonly caCert?: string;
   /**
   * The context of the backup storage location. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#context BackupStorageLocation#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#context BackupStorageLocation#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#id BackupStorageLocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#id BackupStorageLocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface BackupStorageLocationConfig extends cdktf.TerraformMetaArgument
   /**
   * Specifies if this backup storage location should be used as the default location for storing backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#is_default BackupStorageLocation#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#is_default BackupStorageLocation#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * The name of the backup storage location. This is a unique identifier for the backup location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#name BackupStorageLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#name BackupStorageLocation#name}
   */
   readonly name: string;
   /**
   * The region where the backup storage is located, typically corresponding to the region of the cloud provider. This is relevant for S3 or S3-compatible(minio) storage services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#region BackupStorageLocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#region BackupStorageLocation#region}
   */
   readonly region?: string;
   /**
   * The storage location provider for backup storage. Allowed values are `aws` or `minio` or `gcp` or `azure`. Default value is `aws`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#storage_provider BackupStorageLocation#storage_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#storage_provider BackupStorageLocation#storage_provider}
   */
   readonly storageProvider?: string;
   /**
   * azure_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#azure_storage_config BackupStorageLocation#azure_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#azure_storage_config BackupStorageLocation#azure_storage_config}
   */
   readonly azureStorageConfig?: BackupStorageLocationAzureStorageConfig;
   /**
   * gcp_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#gcp_storage_config BackupStorageLocation#gcp_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#gcp_storage_config BackupStorageLocation#gcp_storage_config}
   */
   readonly gcpStorageConfig?: BackupStorageLocationGcpStorageConfig;
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#s3 BackupStorageLocation#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#s3 BackupStorageLocation#s3}
   */
   readonly s3?: BackupStorageLocationS3;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#timeouts BackupStorageLocation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#timeouts BackupStorageLocation#timeouts}
   */
   readonly timeouts?: BackupStorageLocationTimeouts;
 }
@@ -85,49 +85,49 @@ export interface BackupStorageLocationAzureStorageConfig {
   /**
   * Unique client Id from Azure console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#azure_client_id BackupStorageLocation#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#azure_client_id BackupStorageLocation#azure_client_id}
   */
   readonly azureClientId: string;
   /**
   * Azure secret for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#azure_client_secret BackupStorageLocation#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#azure_client_secret BackupStorageLocation#azure_client_secret}
   */
   readonly azureClientSecret: string;
   /**
   * Unique tenant Id from Azure console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#azure_tenant_id BackupStorageLocation#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#azure_tenant_id BackupStorageLocation#azure_tenant_id}
   */
   readonly azureTenantId: string;
   /**
   * The container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#container_name BackupStorageLocation#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#container_name BackupStorageLocation#container_name}
   */
   readonly containerName: string;
   /**
   * The resource group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#resource_group BackupStorageLocation#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#resource_group BackupStorageLocation#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * The stop-keeping unit. eg: `Standard_LRS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#stock_keeping_unit BackupStorageLocation#stock_keeping_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#stock_keeping_unit BackupStorageLocation#stock_keeping_unit}
   */
   readonly stockKeepingUnit: string;
   /**
   * The storage name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#storage_name BackupStorageLocation#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#storage_name BackupStorageLocation#storage_name}
   */
   readonly storageName: string;
   /**
   * Unique subscription Id from Azure console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#subscription_id BackupStorageLocation#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#subscription_id BackupStorageLocation#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -392,13 +392,13 @@ export interface BackupStorageLocationGcpStorageConfig {
   /**
   * The GCP credentials in JSON format. These credentials are required to authenticate and manage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#gcp_json_credentials BackupStorageLocation#gcp_json_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#gcp_json_credentials BackupStorageLocation#gcp_json_credentials}
   */
   readonly gcpJsonCredentials: string;
   /**
   * The GCP project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#project_id BackupStorageLocation#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#project_id BackupStorageLocation#project_id}
   */
   readonly projectId: string;
 }
@@ -507,43 +507,43 @@ export interface BackupStorageLocationS3 {
   /**
   * The access key for S3 authentication, required if 'credential_type' is set to 'secret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#access_key BackupStorageLocation#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#access_key BackupStorageLocation#access_key}
   */
   readonly accessKey?: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role to assume for accessing S3 when using 'sts' credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#arn BackupStorageLocation#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#arn BackupStorageLocation#arn}
   */
   readonly arn?: string;
   /**
   * The type of credentials used to access the S3 storage. Supported values are 'secret' for static credentials and 'sts' for temporary, token-based credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#credential_type BackupStorageLocation#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#credential_type BackupStorageLocation#credential_type}
   */
   readonly credentialType: string;
   /**
   * An external ID used for cross-account access to the S3 storage when using 'sts' credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#external_id BackupStorageLocation#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#external_id BackupStorageLocation#external_id}
   */
   readonly externalId?: string;
   /**
   * A boolean flag indicating whether to enforce the path-style URL for accessing S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#s3_force_path_style BackupStorageLocation#s3_force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#s3_force_path_style BackupStorageLocation#s3_force_path_style}
   */
   readonly s3ForcePathStyle?: boolean | cdktf.IResolvable;
   /**
   * The S3 URL endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#s3_url BackupStorageLocation#s3_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#s3_url BackupStorageLocation#s3_url}
   */
   readonly s3Url?: string;
   /**
   * The secret key for S3 authentication, required if 'credential_type' is set to 'secret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#secret_key BackupStorageLocation#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#secret_key BackupStorageLocation#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -798,15 +798,15 @@ export class BackupStorageLocationS3OutputReference extends cdktf.ComplexObject 
 }
 export interface BackupStorageLocationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#create BackupStorageLocation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#create BackupStorageLocation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#delete BackupStorageLocation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#delete BackupStorageLocation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#update BackupStorageLocation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#update BackupStorageLocation#update}
   */
   readonly update?: string;
 }
@@ -958,7 +958,7 @@ export class BackupStorageLocationTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location spectrocloud_backup_storage_location}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location spectrocloud_backup_storage_location}
 */
 export class BackupStorageLocation extends cdktf.TerraformResource {
 
@@ -974,7 +974,7 @@ export class BackupStorageLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BackupStorageLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupStorageLocation to import
-  * @param importFromId The id of the existing BackupStorageLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupStorageLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupStorageLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -986,7 +986,7 @@ export class BackupStorageLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/backup_storage_location spectrocloud_backup_storage_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/backup_storage_location spectrocloud_backup_storage_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -997,8 +997,8 @@ export class BackupStorageLocation extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_backup_storage_location',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

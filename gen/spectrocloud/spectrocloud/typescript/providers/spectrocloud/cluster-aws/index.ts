@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,160 +10,160 @@ export interface ClusterAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The setting to apply the cluster profile. `DownloadAndInstall` will download and install packs in one action. `DownloadAndInstallLater` will only download artifact and postpone install for later. Default value is `DownloadAndInstall`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#apply_setting ClusterAws#apply_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#apply_setting ClusterAws#apply_setting}
   */
   readonly applySetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cloud_account_id ClusterAws#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cloud_account_id ClusterAws#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * `cluster_meta_attribute` can be used to set additional cluster metadata information, eg `{'nic_name': 'test', 'env': 'stage'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cluster_meta_attribute ClusterAws#cluster_meta_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cluster_meta_attribute ClusterAws#cluster_meta_attribute}
   */
   readonly clusterMetaAttribute?: string;
   /**
   * The context of the AWS cluster. Allowed values are `project` or `tenant`. Default is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#context ClusterAws#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#context ClusterAws#context}
   */
   readonly context?: string;
   /**
   * The description of the cluster. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#description ClusterAws#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#description ClusterAws#description}
   */
   readonly description?: string;
   /**
   * If set to `true`, the cluster will be force deleted and user has to manually clean up the provisioned cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#force_delete ClusterAws#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#force_delete ClusterAws#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Delay duration in minutes to before invoking cluster force delete. Default and minimum is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#force_delete_delay ClusterAws#force_delete_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#force_delete_delay ClusterAws#force_delete_delay}
   */
   readonly forceDeleteDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#id ClusterAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#id ClusterAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#name ClusterAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#name ClusterAws#name}
   */
   readonly name: string;
   /**
   * Date and time after which to patch cluster `RFC3339: 2006-01-02T15:04:05Z07:00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#os_patch_after ClusterAws#os_patch_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#os_patch_after ClusterAws#os_patch_after}
   */
   readonly osPatchAfter?: string;
   /**
   * Whether to apply OS patch on boot. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#os_patch_on_boot ClusterAws#os_patch_on_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#os_patch_on_boot ClusterAws#os_patch_on_boot}
   */
   readonly osPatchOnBoot?: boolean | cdktf.IResolvable;
   /**
   * The cron schedule for OS patching. This must be in the form of cron syntax. Ex: `0 0 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#os_patch_schedule ClusterAws#os_patch_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#os_patch_schedule ClusterAws#os_patch_schedule}
   */
   readonly osPatchSchedule?: string;
   /**
   * The pause agent upgrades setting allows to control the automatic upgrade of the Palette component and agent for an individual cluster. The default value is `unlock`, meaning upgrades occur automatically. Setting it to `lock` pauses automatic agent upgrades for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#pause_agent_upgrades ClusterAws#pause_agent_upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#pause_agent_upgrades ClusterAws#pause_agent_upgrades}
   */
   readonly pauseAgentUpgrades?: string;
   /**
   * To authorize the cluster repave, set the value to `Approved` for approval and `""` to decline. Default value is `""`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#review_repave_state ClusterAws#review_repave_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#review_repave_state ClusterAws#review_repave_state}
   */
   readonly reviewRepaveState?: string;
   /**
   * If `true`, the cluster will be created asynchronously. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#skip_completion ClusterAws#skip_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#skip_completion ClusterAws#skip_completion}
   */
   readonly skipCompletion?: boolean | cdktf.IResolvable;
   /**
   * A list of tags to be applied to the cluster. Tags must be in the form of `key:value`. The `tags` attribute will soon be deprecated. It is recommended to use `tags_map` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#tags ClusterAws#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#tags ClusterAws#tags}
   */
   readonly tags?: string[];
   /**
   * A map of tags to be applied to the cluster. tags and tags_map are mutually exclusive — only one should be used at a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#tags_map ClusterAws#tags_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#tags_map ClusterAws#tags_map}
   */
   readonly tagsMap?: { [key: string]: string };
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#backup_policy ClusterAws#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#backup_policy ClusterAws#backup_policy}
   */
   readonly backupPolicy?: ClusterAwsBackupPolicy;
   /**
   * cloud_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cloud_config ClusterAws#cloud_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cloud_config ClusterAws#cloud_config}
   */
   readonly cloudConfig: ClusterAwsCloudConfig;
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cluster_profile ClusterAws#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cluster_profile ClusterAws#cluster_profile}
   */
   readonly clusterProfile?: ClusterAwsClusterProfile[] | cdktf.IResolvable;
   /**
   * cluster_rbac_binding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cluster_rbac_binding ClusterAws#cluster_rbac_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cluster_rbac_binding ClusterAws#cluster_rbac_binding}
   */
   readonly clusterRbacBinding?: ClusterAwsClusterRbacBinding[] | cdktf.IResolvable;
   /**
   * cluster_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cluster_template ClusterAws#cluster_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cluster_template ClusterAws#cluster_template}
   */
   readonly clusterTemplate?: ClusterAwsClusterTemplate;
   /**
   * host_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#host_config ClusterAws#host_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#host_config ClusterAws#host_config}
   */
   readonly hostConfig?: ClusterAwsHostConfig[] | cdktf.IResolvable;
   /**
   * machine_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#machine_pool ClusterAws#machine_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#machine_pool ClusterAws#machine_pool}
   */
   readonly machinePool: ClusterAwsMachinePool[] | cdktf.IResolvable;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#namespaces ClusterAws#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#namespaces ClusterAws#namespaces}
   */
   readonly namespaces?: ClusterAwsNamespaces[] | cdktf.IResolvable;
   /**
   * scan_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#scan_policy ClusterAws#scan_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#scan_policy ClusterAws#scan_policy}
   */
   readonly scanPolicy?: ClusterAwsScanPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#timeouts ClusterAws#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#timeouts ClusterAws#timeouts}
   */
   readonly timeouts?: ClusterAwsTimeouts;
 }
@@ -271,61 +271,61 @@ export interface ClusterAwsBackupPolicy {
   /**
   * The ID of the backup location to use for the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#backup_location_id ClusterAws#backup_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#backup_location_id ClusterAws#backup_location_id}
   */
   readonly backupLocationId: string;
   /**
   * The list of cluster UIDs to include in the backup. If `include_all_clusters` is set to `true`, then all clusters will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cluster_uids ClusterAws#cluster_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cluster_uids ClusterAws#cluster_uids}
   */
   readonly clusterUids?: string[];
   /**
   * The number of hours after which the backup will be deleted. For example, if the expiry is set to 24, the backup will be deleted after 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#expiry_in_hour ClusterAws#expiry_in_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#expiry_in_hour ClusterAws#expiry_in_hour}
   */
   readonly expiryInHour: number;
   /**
   * Whether to include all clusters in the backup. If set to false, only the clusters specified in `cluster_uids` will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#include_all_clusters ClusterAws#include_all_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#include_all_clusters ClusterAws#include_all_clusters}
   */
   readonly includeAllClusters?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to include cluster resources in the backup. If set to false, only the cluster configuration and disks will be backed up. (Note: Starting with Palette version 4.6, the include_cluster_resources attribute will be deprecated, and a new attribute, include_cluster_resources_mode, will be introduced.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#include_cluster_resources ClusterAws#include_cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#include_cluster_resources ClusterAws#include_cluster_resources}
   */
   readonly includeClusterResources?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to include the cluster resources in the backup. Supported values are `always`, `never`, and `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#include_cluster_resources_mode ClusterAws#include_cluster_resources_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#include_cluster_resources_mode ClusterAws#include_cluster_resources_mode}
   */
   readonly includeClusterResourcesMode?: string;
   /**
   * Whether to include the disks in the backup. If set to false, only the cluster configuration will be backed up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#include_disks ClusterAws#include_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#include_disks ClusterAws#include_disks}
   */
   readonly includeDisks?: boolean | cdktf.IResolvable;
   /**
   * The list of Kubernetes namespaces to include in the backup. If not specified, all namespaces will be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#namespaces ClusterAws#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#namespaces ClusterAws#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Prefix for the backup name. The backup name will be of the format <prefix>-<cluster-name>-<timestamp>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#prefix ClusterAws#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#prefix ClusterAws#prefix}
   */
   readonly prefix: string;
   /**
   * The schedule for the backup. The schedule is specified in cron format. For example, to run the backup every day at 1:00 AM, the schedule should be set to `0 1 * * *`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#schedule ClusterAws#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#schedule ClusterAws#schedule}
   */
   readonly schedule: string;
 }
@@ -660,25 +660,25 @@ export interface ClusterAwsCloudConfig {
   /**
   * Control plane load balancer type. Valid values are `Internet-facing` and `internal`. Defaults to `` (empty string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#control_plane_lb ClusterAws#control_plane_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#control_plane_lb ClusterAws#control_plane_lb}
   */
   readonly controlPlaneLb?: string;
   /**
   * The AWS region to deploy the cluster in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#region ClusterAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#region ClusterAws#region}
   */
   readonly region: string;
   /**
   * Public SSH key to be used for the cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#ssh_key_name ClusterAws#ssh_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#ssh_key_name ClusterAws#ssh_key_name}
   */
   readonly sshKeyName: string;
   /**
   * The VPC ID to deploy the cluster in. If not provided, VPC will be provisioned dynamically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#vpc_id ClusterAws#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#vpc_id ClusterAws#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -845,13 +845,13 @@ export interface ClusterAwsClusterProfilePackManifest {
   /**
   * The content of the manifest. The content is the YAML content of the manifest. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#content ClusterAws#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#content ClusterAws#content}
   */
   readonly content: string;
   /**
   * The name of the manifest. The name must be unique within the pack. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#name ClusterAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#name ClusterAws#name}
   */
   readonly name: string;
 }
@@ -997,49 +997,49 @@ export interface ClusterAwsClusterProfilePack {
   /**
   * The name of the pack. The name must be unique within the cluster profile. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#name ClusterAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#name ClusterAws#name}
   */
   readonly name: string;
   /**
   * The registry name of the pack. The registry name is the human-readable name of the registry. This attribute can be used instead of `registry_uid` for better readability. If `uid` is not provided, this field can be used along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#registry_name ClusterAws#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#registry_name ClusterAws#registry_name}
   */
   readonly registryName?: string;
   /**
   * The registry UID of the pack. The registry UID is the unique identifier of the registry. This attribute is required if there is more than one registry that contains a pack with the same name. If `uid` is not provided, this field is required along with `name` and `tag` to resolve the pack UID internally. Either `registry_uid` or `registry_name` can be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#registry_uid ClusterAws#registry_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#registry_uid ClusterAws#registry_uid}
   */
   readonly registryUid?: string;
   /**
   * The tag of the pack. The tag is the version of the pack. This attribute is required if the pack type is `spectro` or `helm`. If `uid` is not provided, this field is required along with `name` and `registry_uid` (or `registry_name`) to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#tag ClusterAws#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#tag ClusterAws#tag}
   */
   readonly tag?: string;
   /**
   * The type of the pack. Allowed values are `spectro`, `manifest`, `helm`, or `oci`. The default value is spectro. If using an OCI registry for pack, set the type to `oci`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#type ClusterAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#type ClusterAws#type}
   */
   readonly type?: string;
   /**
   * The unique identifier of the pack. The value can be looked up using the [`spectrocloud_pack`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs/data-sources/pack) data source. This value is required if the pack type is `spectro` and for `helm` if the chart is from a public helm registry. If not provided, all of `name`, `tag`, and `registry_uid` must be specified to resolve the pack UID internally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#uid ClusterAws#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#uid ClusterAws#uid}
   */
   readonly uid?: string;
   /**
   * The values of the pack. The values are the configuration values of the pack. The values are specified in YAML format. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#values ClusterAws#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#values ClusterAws#values}
   */
   readonly values?: string;
   /**
   * manifest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#manifest ClusterAws#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#manifest ClusterAws#manifest}
   */
   readonly manifest?: ClusterAwsClusterProfilePackManifest[] | cdktf.IResolvable;
 }
@@ -1357,7 +1357,7 @@ export interface ClusterAwsClusterProfile {
   /**
   * The ID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#id ClusterAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#id ClusterAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1366,13 +1366,13 @@ export interface ClusterAwsClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#variables ClusterAws#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#variables ClusterAws#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * pack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#pack ClusterAws#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#pack ClusterAws#pack}
   */
   readonly pack?: ClusterAwsClusterProfilePack[] | cdktf.IResolvable;
 }
@@ -1545,19 +1545,19 @@ export interface ClusterAwsClusterRbacBindingSubjects {
   /**
   * The name of the subject. Required if 'type' is set to 'User' or 'Group'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#name ClusterAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#name ClusterAws#name}
   */
   readonly name: string;
   /**
   * The Kubernetes namespace of the subject. Required if 'type' is set to 'ServiceAccount'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#namespace ClusterAws#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#namespace ClusterAws#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of the subject. Can be one of the following values: `User`, `Group`, or `ServiceAccount`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#type ClusterAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#type ClusterAws#type}
   */
   readonly type: string;
 }
@@ -1727,25 +1727,25 @@ export interface ClusterAwsClusterRbacBinding {
   /**
   * The Kubernetes namespace of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#namespace ClusterAws#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#namespace ClusterAws#namespace}
   */
   readonly namespace?: string;
   /**
-  * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'.
+  * The role of the RBAC binding. Required if 'type' is set to 'RoleBinding'. Must include 'name' and 'kind' fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#role ClusterAws#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#role ClusterAws#role}
   */
   readonly role?: { [key: string]: string };
   /**
   * The type of the RBAC binding. Can be one of the following values: `RoleBinding`, or `ClusterRoleBinding`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#type ClusterAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#type ClusterAws#type}
   */
   readonly type: string;
   /**
   * subjects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#subjects ClusterAws#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#subjects ClusterAws#subjects}
   */
   readonly subjects?: ClusterAwsClusterRbacBindingSubjects[] | cdktf.IResolvable;
 }
@@ -1947,7 +1947,7 @@ export interface ClusterAwsClusterTemplateClusterProfile {
   /**
   * The UID of the cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#id ClusterAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#id ClusterAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1956,7 +1956,7 @@ export interface ClusterAwsClusterTemplateClusterProfile {
   /**
   * A map of cluster profile variables, specified as key-value pairs. For example: `priority = "5"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#variables ClusterAws#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#variables ClusterAws#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -2100,7 +2100,7 @@ export interface ClusterAwsClusterTemplate {
   /**
   * The ID of the cluster template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#id ClusterAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#id ClusterAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2109,7 +2109,7 @@ export interface ClusterAwsClusterTemplate {
   /**
   * cluster_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#cluster_profile ClusterAws#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#cluster_profile ClusterAws#cluster_profile}
   */
   readonly clusterProfile?: ClusterAwsClusterTemplateClusterProfile[] | cdktf.IResolvable;
 }
@@ -2226,25 +2226,25 @@ export interface ClusterAwsHostConfig {
   /**
   * The external traffic policy for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#external_traffic_policy ClusterAws#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#external_traffic_policy ClusterAws#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * The type of endpoint for the cluster. Can be either 'Ingress' or 'LoadBalancer'. The default is 'Ingress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#host_endpoint_type ClusterAws#host_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#host_endpoint_type ClusterAws#host_endpoint_type}
   */
   readonly hostEndpointType?: string;
   /**
   * The host for the Ingress endpoint. Required if 'host_endpoint_type' is set to 'Ingress'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#ingress_host ClusterAws#ingress_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#ingress_host ClusterAws#ingress_host}
   */
   readonly ingressHost?: string;
   /**
   * The source ranges for the load balancer. Required if 'host_endpoint_type' is set to 'LoadBalancer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#load_balancer_source_ranges ClusterAws#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#load_balancer_source_ranges ClusterAws#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string;
 }
@@ -2449,13 +2449,13 @@ export interface ClusterAwsMachinePoolNode {
   /**
   * The action to perform on the node. Valid values are: `cordon`, `uncordon`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#action ClusterAws#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#action ClusterAws#action}
   */
   readonly action: string;
   /**
   * The node_id of the node, For example `i-07f899a33dee624f7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#node_id ClusterAws#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#node_id ClusterAws#node_id}
   */
   readonly nodeId: string;
 }
@@ -2596,19 +2596,19 @@ export interface ClusterAwsMachinePoolTaints {
   /**
   * The effect of the taint. Allowed values are: `NoSchedule`, `PreferNoSchedule` or `NoExecute`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#effect ClusterAws#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#effect ClusterAws#effect}
   */
   readonly effect: string;
   /**
   * The key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#key ClusterAws#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#key ClusterAws#key}
   */
   readonly key: string;
   /**
   * The value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#value ClusterAws#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#value ClusterAws#value}
   */
   readonly value: string;
 }
@@ -2773,109 +2773,109 @@ export class ClusterAwsMachinePoolTaintsList extends cdktf.ComplexList {
 }
 export interface ClusterAwsMachinePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#additional_labels ClusterAws#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#additional_labels ClusterAws#additional_labels}
   */
   readonly additionalLabels?: { [key: string]: string };
   /**
   * Additional security groups to attach to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#additional_security_groups ClusterAws#additional_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#additional_security_groups ClusterAws#additional_security_groups}
   */
   readonly additionalSecurityGroups?: string[];
   /**
   * Mutually exclusive with `azs`. Use `az_subnets` for Static provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#az_subnets ClusterAws#az_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#az_subnets ClusterAws#az_subnets}
   */
   readonly azSubnets?: { [key: string]: string };
   /**
   * Mutually exclusive with `az_subnets`. Use `azs` for Dynamic provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#azs ClusterAws#azs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#azs ClusterAws#azs}
   */
   readonly azs?: string[];
   /**
   * Capacity type is an instance type,  can be 'on-demand' or 'spot'. Defaults to 'on-demand'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#capacity_type ClusterAws#capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#capacity_type ClusterAws#capacity_type}
   */
   readonly capacityType?: string;
   /**
   * Whether this machine pool is a control plane. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#control_plane ClusterAws#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#control_plane ClusterAws#control_plane}
   */
   readonly controlPlane?: boolean | cdktf.IResolvable;
   /**
   * Whether this machine pool is a control plane and a worker. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#control_plane_as_worker ClusterAws#control_plane_as_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#control_plane_as_worker ClusterAws#control_plane_as_worker}
   */
   readonly controlPlaneAsWorker?: boolean | cdktf.IResolvable;
   /**
   * Number of nodes in the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#count ClusterAws#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#count ClusterAws#count}
   */
   readonly count: number;
   /**
   * The disk size in GB for the machine pool nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#disk_size_gb ClusterAws#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#disk_size_gb ClusterAws#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * The instance type to use for the machine pool nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#instance_type ClusterAws#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#instance_type ClusterAws#instance_type}
   */
   readonly instanceType: string;
   /**
   * Maximum number of nodes in the machine pool. This is used for autoscaling the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#max ClusterAws#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#max ClusterAws#max}
   */
   readonly max?: number;
   /**
   * Maximum price to bid for spot instances. Only applied when instance type is 'spot'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#max_price ClusterAws#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#max_price ClusterAws#max_price}
   */
   readonly maxPrice?: string;
   /**
   * Minimum number of nodes in the machine pool. This is used for autoscaling the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#min ClusterAws#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#min ClusterAws#min}
   */
   readonly min?: number;
   /**
   * The name of the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#name ClusterAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#name ClusterAws#name}
   */
   readonly name: string;
   /**
   * Minimum number of seconds node should be Ready, before the next node is selected for repave. Default value is `0`, Applicable only for worker pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#node_repave_interval ClusterAws#node_repave_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#node_repave_interval ClusterAws#node_repave_interval}
   */
   readonly nodeRepaveInterval?: number;
   /**
   * Update strategy for the machine pool. Valid values are `RollingUpdateScaleOut` and `RollingUpdateScaleIn`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#update_strategy ClusterAws#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#update_strategy ClusterAws#update_strategy}
   */
   readonly updateStrategy?: string;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#node ClusterAws#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#node ClusterAws#node}
   */
   readonly nodeAttribute?: ClusterAwsMachinePoolNode[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#taints ClusterAws#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#taints ClusterAws#taints}
   */
   readonly taints?: ClusterAwsMachinePoolTaints[] | cdktf.IResolvable;
 }
@@ -3477,13 +3477,13 @@ export interface ClusterAwsNamespaces {
   /**
   * Name of the namespace. This is the name of the Kubernetes namespace in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#name ClusterAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#name ClusterAws#name}
   */
   readonly name: string;
   /**
   * Resource allocation for the namespace. This is a map containing the resource type and the resource value. For example, `{cpu_cores: '2', memory_MiB: '2048', gpu_limit: '1', gpu_provider: 'nvidia'}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#resource_allocation ClusterAws#resource_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#resource_allocation ClusterAws#resource_allocation}
   */
   readonly resourceAllocation: { [key: string]: string };
 }
@@ -3624,19 +3624,19 @@ export interface ClusterAwsScanPolicy {
   /**
   * The schedule for configuration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#configuration_scan_schedule ClusterAws#configuration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#configuration_scan_schedule ClusterAws#configuration_scan_schedule}
   */
   readonly configurationScanSchedule: string;
   /**
   * The schedule for conformance scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#conformance_scan_schedule ClusterAws#conformance_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#conformance_scan_schedule ClusterAws#conformance_scan_schedule}
   */
   readonly conformanceScanSchedule: string;
   /**
   * The schedule for penetration scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#penetration_scan_schedule ClusterAws#penetration_scan_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#penetration_scan_schedule ClusterAws#penetration_scan_schedule}
   */
   readonly penetrationScanSchedule: string;
 }
@@ -3769,15 +3769,15 @@ export class ClusterAwsScanPolicyOutputReference extends cdktf.ComplexObject {
 }
 export interface ClusterAwsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#create ClusterAws#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#create ClusterAws#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#delete ClusterAws#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#delete ClusterAws#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#update ClusterAws#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#update ClusterAws#update}
   */
   readonly update?: string;
 }
@@ -3929,7 +3929,7 @@ export class ClusterAwsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws spectrocloud_cluster_aws}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws spectrocloud_cluster_aws}
 */
 export class ClusterAws extends cdktf.TerraformResource {
 
@@ -3945,7 +3945,7 @@ export class ClusterAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterAws to import
-  * @param importFromId The id of the existing ClusterAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3957,7 +3957,7 @@ export class ClusterAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cluster_aws spectrocloud_cluster_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cluster_aws spectrocloud_cluster_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3968,8 +3968,8 @@ export class ClusterAws extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cluster_aws',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

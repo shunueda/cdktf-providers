@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface InextKubernetesProfileConfig extends cdktf.TerraformMetaArgumen
   /**
   * Controls the settings of the connected agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile#additional_settings InextKubernetesProfile#additional_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile#additional_settings InextKubernetesProfile#additional_settings}
   */
   readonly additionalSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile#defined_applications_only InextKubernetesProfile#defined_applications_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile#defined_applications_only InextKubernetesProfile#defined_applications_only}
   */
   readonly definedApplicationsOnly?: boolean | cdktf.IResolvable;
   /**
   * Sets the maximum number of agents that can be connected to this profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile#max_number_of_agents InextKubernetesProfile#max_number_of_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile#max_number_of_agents InextKubernetesProfile#max_number_of_agents}
   */
   readonly maxNumberOfAgents?: number;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile#name InextKubernetesProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile#name InextKubernetesProfile#name}
   */
   readonly name: string;
   /**
   * The sub type of the profile (AppSec, AccessControl, Kong, Istio)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile#profile_sub_type InextKubernetesProfile#profile_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile#profile_sub_type InextKubernetesProfile#profile_sub_type}
   */
   readonly profileSubType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile inext_kubernetes_profile}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile inext_kubernetes_profile}
 */
 export class InextKubernetesProfile extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class InextKubernetesProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextKubernetesProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextKubernetesProfile to import
-  * @param importFromId The id of the existing InextKubernetesProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextKubernetesProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextKubernetesProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class InextKubernetesProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_kubernetes_profile inext_kubernetes_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_kubernetes_profile inext_kubernetes_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class InextKubernetesProfile extends cdktf.TerraformResource {
       terraformResourceType: 'inext_kubernetes_profile',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/account
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/account#id DataSpaceliftAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/account#id DataSpaceliftAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataSpaceliftAccountConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/account spacelift_account}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/account spacelift_account}
 */
 export class DataSpaceliftAccount extends cdktf.TerraformDataSource {
 
@@ -33,7 +33,7 @@ export class DataSpaceliftAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSpaceliftAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftAccount to import
-  * @param importFromId The id of the existing DataSpaceliftAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class DataSpaceliftAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/account spacelift_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/account spacelift_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class DataSpaceliftAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'spacelift_account',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

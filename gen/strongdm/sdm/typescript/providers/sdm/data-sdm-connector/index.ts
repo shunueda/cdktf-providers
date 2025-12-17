@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector
+// https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface DataSdmConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#account_ids DataSdmConnector#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#account_ids DataSdmConnector#account_ids}
   */
   readonly accountIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#client_id DataSdmConnector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#client_id DataSdmConnector#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#cloud DataSdmConnector#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#cloud DataSdmConnector#cloud}
   */
   readonly cloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#description DataSdmConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#description DataSdmConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#id DataSdmConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#id DataSdmConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#name DataSdmConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#name DataSdmConnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#pool_id DataSdmConnector#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#pool_id DataSdmConnector#pool_id}
   */
   readonly poolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#project_ids DataSdmConnector#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#project_ids DataSdmConnector#project_ids}
   */
   readonly projectIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#project_number DataSdmConnector#project_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#project_number DataSdmConnector#project_number}
   */
   readonly projectNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#provider_id DataSdmConnector#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#provider_id DataSdmConnector#provider_id}
   */
   readonly providerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#role_name DataSdmConnector#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#role_name DataSdmConnector#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#scan_period DataSdmConnector#scan_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#scan_period DataSdmConnector#scan_period}
   */
   readonly scanPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#services DataSdmConnector#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#services DataSdmConnector#services}
   */
   readonly services?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#subscription_ids DataSdmConnector#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#subscription_ids DataSdmConnector#subscription_ids}
   */
   readonly subscriptionIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#tenant_id DataSdmConnector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#tenant_id DataSdmConnector#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#timeouts DataSdmConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#timeouts DataSdmConnector#timeouts}
   */
   readonly timeouts?: DataSdmConnectorTimeouts;
 }
@@ -497,7 +497,7 @@ export class DataSdmConnectorDiscoveryConnectorsList extends cdktf.ComplexList {
 }
 export interface DataSdmConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#default DataSdmConnector#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#default DataSdmConnector#default}
   */
   readonly default?: string;
 }
@@ -591,7 +591,7 @@ export class DataSdmConnectorTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector sdm_connector}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector sdm_connector}
 */
 export class DataSdmConnector extends cdktf.TerraformDataSource {
 
@@ -607,7 +607,7 @@ export class DataSdmConnector extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmConnector to import
-  * @param importFromId The id of the existing DataSdmConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class DataSdmConnector extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/connector sdm_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/connector sdm_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class DataSdmConnector extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_connector',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.40.0',
-        providerVersionConstraint: '15.40.0'
+        providerVersion: '15.41.0',
+        providerVersionConstraint: '15.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

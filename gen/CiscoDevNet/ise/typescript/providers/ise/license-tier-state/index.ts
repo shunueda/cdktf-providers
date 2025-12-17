@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface LicenseTierStateConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of licenses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state#licenses LicenseTierState#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state#licenses LicenseTierState#licenses}
   */
   readonly licenses: LicenseTierStateLicenses[] | cdktf.IResolvable;
 }
@@ -19,14 +19,14 @@ export interface LicenseTierStateLicenses {
   * License name
   *   - Choices: `ESSENTIAL`, `ADVANTAGE`, `PREMIER`, `DEVICEADMIN`, `VM`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state#name LicenseTierState#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state#name LicenseTierState#name}
   */
   readonly name: string;
   /**
   * License status
   *   - Choices: `ENABLED`, `DISABLED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state#status LicenseTierState#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state#status LicenseTierState#status}
   */
   readonly status: string;
 }
@@ -165,7 +165,7 @@ export class LicenseTierStateLicensesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state ise_license_tier_state}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state ise_license_tier_state}
 */
 export class LicenseTierState extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class LicenseTierState extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseTierState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseTierState to import
-  * @param importFromId The id of the existing LicenseTierState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseTierState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseTierState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class LicenseTierState extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/license_tier_state ise_license_tier_state} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/license_tier_state ise_license_tier_state} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class LicenseTierState extends cdktf.TerraformResource {
       terraformResourceType: 'ise_license_tier_state',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

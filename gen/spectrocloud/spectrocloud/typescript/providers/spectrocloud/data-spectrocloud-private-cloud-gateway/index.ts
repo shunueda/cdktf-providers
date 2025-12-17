@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/private_cloud_gateway
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/private_cloud_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSpectrocloudPrivateCloudGatewayConfig extends cdktf.Terrafo
   /**
   * The ID of Private Cloud Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/private_cloud_gateway#id DataSpectrocloudPrivateCloudGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/private_cloud_gateway#id DataSpectrocloudPrivateCloudGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataSpectrocloudPrivateCloudGatewayConfig extends cdktf.Terrafo
   /**
   * The name of Private Cloud Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/private_cloud_gateway#name DataSpectrocloudPrivateCloudGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/private_cloud_gateway#name DataSpectrocloudPrivateCloudGateway#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/private_cloud_gateway spectrocloud_private_cloud_gateway}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/private_cloud_gateway spectrocloud_private_cloud_gateway}
 */
 export class DataSpectrocloudPrivateCloudGateway extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataSpectrocloudPrivateCloudGateway extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataSpectrocloudPrivateCloudGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudPrivateCloudGateway to import
-  * @param importFromId The id of the existing DataSpectrocloudPrivateCloudGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/private_cloud_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudPrivateCloudGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/private_cloud_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudPrivateCloudGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataSpectrocloudPrivateCloudGateway extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/private_cloud_gateway spectrocloud_private_cloud_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/private_cloud_gateway spectrocloud_private_cloud_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataSpectrocloudPrivateCloudGateway extends cdktf.TerraformDataSour
       terraformResourceType: 'spectrocloud_private_cloud_gateway',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

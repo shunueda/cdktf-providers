@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret
+// https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSdmManagedSecretConfig extends cdktf.TerraformMetaArguments
   /**
   * Unique identifier of the Managed Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#id DataSdmManagedSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#id DataSdmManagedSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,31 +19,31 @@ export interface DataSdmManagedSecretConfig extends cdktf.TerraformMetaArguments
   /**
   * Unique human-readable name of the Managed Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#name DataSdmManagedSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#name DataSdmManagedSecret#name}
   */
   readonly name?: string;
   /**
   * An ID of a Secret Engine linked with the Managed Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#secret_engine_id DataSdmManagedSecret#secret_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#secret_engine_id DataSdmManagedSecret#secret_engine_id}
   */
   readonly secretEngineId?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#tags DataSdmManagedSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#tags DataSdmManagedSecret#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Sensitive value of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#value DataSdmManagedSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#value DataSdmManagedSecret#value}
   */
   readonly value?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#timeouts DataSdmManagedSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#timeouts DataSdmManagedSecret#timeouts}
   */
   readonly timeouts?: DataSdmManagedSecretTimeouts;
 }
@@ -165,7 +165,7 @@ export class DataSdmManagedSecretManagedSecretsList extends cdktf.ComplexList {
 }
 export interface DataSdmManagedSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#default DataSdmManagedSecret#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#default DataSdmManagedSecret#default}
   */
   readonly default?: string;
 }
@@ -259,7 +259,7 @@ export class DataSdmManagedSecretTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret sdm_managed_secret}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret sdm_managed_secret}
 */
 export class DataSdmManagedSecret extends cdktf.TerraformDataSource {
 
@@ -275,7 +275,7 @@ export class DataSdmManagedSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmManagedSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmManagedSecret to import
-  * @param importFromId The id of the existing DataSdmManagedSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmManagedSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmManagedSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class DataSdmManagedSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/data-sources/managed_secret sdm_managed_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/data-sources/managed_secret sdm_managed_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class DataSdmManagedSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_managed_secret',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.40.0',
-        providerVersionConstraint: '15.40.0'
+        providerVersion: '15.41.0',
+        providerVersionConstraint: '15.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

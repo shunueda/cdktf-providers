@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSpaceliftAwsIntegrationAttachmentExternalIdConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#id DataSpaceliftAwsIntegrationAttachmentExternalId#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#id DataSpaceliftAwsIntegrationAttachmentExternalId#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataSpaceliftAwsIntegrationAttachmentExternalIdConfig extends c
   /**
   * immutable ID (slug) of the AWS integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#integration_id DataSpaceliftAwsIntegrationAttachmentExternalId#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#integration_id DataSpaceliftAwsIntegrationAttachmentExternalId#integration_id}
   */
   readonly integrationId: string;
   /**
   * immutable ID (slug) of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#module_id DataSpaceliftAwsIntegrationAttachmentExternalId#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#module_id DataSpaceliftAwsIntegrationAttachmentExternalId#module_id}
   */
   readonly moduleId?: string;
   /**
   * whether the integration will be used for read operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#read DataSpaceliftAwsIntegrationAttachmentExternalId#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#read DataSpaceliftAwsIntegrationAttachmentExternalId#read}
   */
   readonly read?: boolean | cdktf.IResolvable;
   /**
   * immutable ID (slug) of the stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#stack_id DataSpaceliftAwsIntegrationAttachmentExternalId#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#stack_id DataSpaceliftAwsIntegrationAttachmentExternalId#stack_id}
   */
   readonly stackId?: string;
   /**
   * whether the integration will be used for write operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#write DataSpaceliftAwsIntegrationAttachmentExternalId#write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#write DataSpaceliftAwsIntegrationAttachmentExternalId#write}
   */
   readonly write?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id spacelift_aws_integration_attachment_external_id}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id spacelift_aws_integration_attachment_external_id}
 */
 export class DataSpaceliftAwsIntegrationAttachmentExternalId extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataSpaceliftAwsIntegrationAttachmentExternalId extends cdktf.Terra
   * Generates CDKTF code for importing a DataSpaceliftAwsIntegrationAttachmentExternalId resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpaceliftAwsIntegrationAttachmentExternalId to import
-  * @param importFromId The id of the existing DataSpaceliftAwsIntegrationAttachmentExternalId that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpaceliftAwsIntegrationAttachmentExternalId that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpaceliftAwsIntegrationAttachmentExternalId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataSpaceliftAwsIntegrationAttachmentExternalId extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/data-sources/aws_integration_attachment_external_id spacelift_aws_integration_attachment_external_id} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/data-sources/aws_integration_attachment_external_id spacelift_aws_integration_attachment_external_id} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataSpaceliftAwsIntegrationAttachmentExternalId extends cdktf.Terra
       terraformResourceType: 'spacelift_aws_integration_attachment_external_id',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

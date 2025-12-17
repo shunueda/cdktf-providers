@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface PortBlueprintPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#blueprint_identifier PortBlueprintPermissions#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#blueprint_identifier PortBlueprintPermissions#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
   /**
   * Entities permissions to read the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#entities PortBlueprintPermissions#entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#entities PortBlueprintPermissions#entities}
   */
   readonly entities: PortBlueprintPermissionsEntities;
 }
@@ -22,25 +22,25 @@ export interface PortBlueprintPermissionsEntitiesRegister {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with register permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with register permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with register permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -223,25 +223,25 @@ export interface PortBlueprintPermissionsEntitiesUnregister {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with unregister permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with unregister permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with unregister permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -424,25 +424,25 @@ export interface PortBlueprintPermissionsEntitiesUpdate {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -625,25 +625,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesIcon {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update `$icon` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update `$icon` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update `$icon` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -826,25 +826,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesIdentif
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update `$identifier` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update `$identifier` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update `$identifier` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -1027,25 +1027,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesTeam {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update `$team` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update `$team` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update `$team` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -1228,25 +1228,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesTitle {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update `$title` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update `$title` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update `$title` metadata permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -1429,25 +1429,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateMetadataProperties {
   /**
   * The entity's icon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#icon PortBlueprintPermissions#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#icon PortBlueprintPermissions#icon}
   */
   readonly icon: PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesIcon;
   /**
   * Unique Entity identifier, used for API calls, programmatic access and distinguishing between different entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#identifier PortBlueprintPermissions#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#identifier PortBlueprintPermissions#identifier}
   */
   readonly identifier: PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesIdentifier;
   /**
   * The team this entity belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#team PortBlueprintPermissions#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#team PortBlueprintPermissions#team}
   */
   readonly team: PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesTeam;
   /**
   * A human-readable name for the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#title PortBlueprintPermissions#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#title PortBlueprintPermissions#title}
   */
   readonly title: PortBlueprintPermissionsEntitiesUpdateMetadataPropertiesTitle;
 }
@@ -1618,25 +1618,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateProperties {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update specific property permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update specific property permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update specific property permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -1839,25 +1839,25 @@ export interface PortBlueprintPermissionsEntitiesUpdateRelations {
   /**
   * Owned by team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#owned_by_team PortBlueprintPermissions#owned_by_team}
   */
   readonly ownedByTeam?: boolean | cdktf.IResolvable;
   /**
   * Roles with update specific relation permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#roles PortBlueprintPermissions#roles}
   */
   readonly roles?: string[];
   /**
   * Teams with update specific relation permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#teams PortBlueprintPermissions#teams}
   */
   readonly teams?: string[];
   /**
   * Users with update specific relation permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#users PortBlueprintPermissions#users}
   */
   readonly users?: string[];
 }
@@ -2060,19 +2060,19 @@ export interface PortBlueprintPermissionsEntities {
   /**
   * Manage permissions to register entities of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#register PortBlueprintPermissions#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#register PortBlueprintPermissions#register}
   */
   readonly register: PortBlueprintPermissionsEntitiesRegister;
   /**
   * Manage permissions to unregister entities of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#unregister PortBlueprintPermissions#unregister}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#unregister PortBlueprintPermissions#unregister}
   */
   readonly unregister: PortBlueprintPermissionsEntitiesUnregister;
   /**
   * Manage permissions to update entities of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#update PortBlueprintPermissions#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#update PortBlueprintPermissions#update}
   */
   readonly update: PortBlueprintPermissionsEntitiesUpdate;
   /**
@@ -2080,19 +2080,19 @@ export interface PortBlueprintPermissionsEntities {
   * These are translated to the updateProperties in the Port Api, proxied since we can't have Terraform properties starting with `$`signs.
   * See [here](https://docs.getport.io/build-your-software-catalog/customize-integrations/configure-data-model/setup-blueprint/properties/meta-properties/) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#update_metadata_properties PortBlueprintPermissions#update_metadata_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#update_metadata_properties PortBlueprintPermissions#update_metadata_properties}
   */
   readonly updateMetadataProperties: PortBlueprintPermissionsEntitiesUpdateMetadataProperties;
   /**
   * Manage permissions to update the entity properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#update_properties PortBlueprintPermissions#update_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#update_properties PortBlueprintPermissions#update_properties}
   */
   readonly updateProperties?: { [key: string]: PortBlueprintPermissionsEntitiesUpdateProperties } | cdktf.IResolvable;
   /**
   * Manage permissions to update the entity relations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#update_relations PortBlueprintPermissions#update_relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#update_relations PortBlueprintPermissions#update_relations}
   */
   readonly updateRelations?: { [key: string]: PortBlueprintPermissionsEntitiesUpdateRelations } | cdktf.IResolvable;
 }
@@ -2319,7 +2319,7 @@ export class PortBlueprintPermissionsEntitiesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions port_blueprint_permissions}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions port_blueprint_permissions}
 */
 export class PortBlueprintPermissions extends cdktf.TerraformResource {
 
@@ -2335,7 +2335,7 @@ export class PortBlueprintPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortBlueprintPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortBlueprintPermissions to import
-  * @param importFromId The id of the existing PortBlueprintPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortBlueprintPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortBlueprintPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2347,7 +2347,7 @@ export class PortBlueprintPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.3/docs/resources/port_blueprint_permissions port_blueprint_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.4/docs/resources/port_blueprint_permissions port_blueprint_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2358,8 +2358,8 @@ export class PortBlueprintPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'port_blueprint_permissions',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.3',
-        providerVersionConstraint: '2.17.3'
+        providerVersion: '2.17.4',
+        providerVersionConstraint: '2.17.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

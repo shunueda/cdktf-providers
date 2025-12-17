@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface AzureIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Enables `autoattach:` labels functionality for this integration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#autoattach_enabled AzureIntegration#autoattach_enabled}
+  */
+  readonly autoattachEnabled?: boolean | cdktf.IResolvable;
+  /**
   * The default subscription ID to use, if one isn't specified at the stack/module level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#default_subscription_id AzureIntegration#default_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#default_subscription_id AzureIntegration#default_subscription_id}
   */
   readonly defaultSubscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#id AzureIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#id AzureIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +29,31 @@ export interface AzureIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels to set on the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#labels AzureIntegration#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#labels AzureIntegration#labels}
   */
   readonly labels?: string[];
   /**
   * The friendly name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#name AzureIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#name AzureIntegration#name}
   */
   readonly name: string;
   /**
   * ID (slug) of the space the integration is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#space_id AzureIntegration#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#space_id AzureIntegration#space_id}
   */
   readonly spaceId?: string;
   /**
   * The Azure AD tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#tenant_id AzureIntegration#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#tenant_id AzureIntegration#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration spacelift_azure_integration}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration spacelift_azure_integration}
 */
 export class AzureIntegration extends cdktf.TerraformResource {
 
@@ -63,7 +69,7 @@ export class AzureIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureIntegration to import
-  * @param importFromId The id of the existing AzureIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +81,7 @@ export class AzureIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/azure_integration spacelift_azure_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/azure_integration spacelift_azure_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +92,8 @@ export class AzureIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_azure_integration',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,6 +103,7 @@ export class AzureIntegration extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._autoattachEnabled = config.autoattachEnabled;
     this._defaultSubscriptionId = config.defaultSubscriptionId;
     this._id = config.id;
     this._labels = config.labels;
@@ -122,6 +129,22 @@ export class AzureIntegration extends cdktf.TerraformResource {
   // application_id - computed: true, optional: false, required: false
   public get applicationId() {
     return this.getStringAttribute('application_id');
+  }
+
+  // autoattach_enabled - computed: false, optional: true, required: false
+  private _autoattachEnabled?: boolean | cdktf.IResolvable; 
+  public get autoattachEnabled() {
+    return this.getBooleanAttribute('autoattach_enabled');
+  }
+  public set autoattachEnabled(value: boolean | cdktf.IResolvable) {
+    this._autoattachEnabled = value;
+  }
+  public resetAutoattachEnabled() {
+    this._autoattachEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoattachEnabledInput() {
+    return this._autoattachEnabled;
   }
 
   // default_subscription_id - computed: false, optional: true, required: false
@@ -235,6 +258,7 @@ export class AzureIntegration extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      autoattach_enabled: cdktf.booleanToTerraform(this._autoattachEnabled),
       default_subscription_id: cdktf.stringToTerraform(this._defaultSubscriptionId),
       id: cdktf.stringToTerraform(this._id),
       labels: cdktf.listMapper(cdktf.stringToTerraform, false)(this._labels),
@@ -246,6 +270,12 @@ export class AzureIntegration extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      autoattach_enabled: {
+        value: cdktf.booleanToHclTerraform(this._autoattachEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
       default_subscription_id: {
         value: cdktf.stringToHclTerraform(this._defaultSubscriptionId),
         isBlock: false,

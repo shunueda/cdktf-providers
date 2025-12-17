@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PublicIpAssociateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the network interface (or virtual IP) to which the public IP should be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate#network_interface_id PublicIpAssociate#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate#network_interface_id PublicIpAssociate#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
   * STACKIT project ID to which the public IP is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate#project_id PublicIpAssociate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate#project_id PublicIpAssociate#project_id}
   */
   readonly projectId: string;
   /**
   * The public IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate#public_ip_id PublicIpAssociate#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate#public_ip_id PublicIpAssociate#public_ip_id}
   */
   readonly publicIpId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate stackit_public_ip_associate}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate stackit_public_ip_associate}
 */
 export class PublicIpAssociate extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PublicIpAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PublicIpAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PublicIpAssociate to import
-  * @param importFromId The id of the existing PublicIpAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PublicIpAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PublicIpAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PublicIpAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/public_ip_associate stackit_public_ip_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/public_ip_associate stackit_public_ip_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PublicIpAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_public_ip_associate',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

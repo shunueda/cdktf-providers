@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface StackDependencyReferenceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference#id StackDependencyReference#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference#id StackDependencyReference#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface StackDependencyReferenceConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the input of the stack dependency reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference#input_name StackDependencyReference#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference#input_name StackDependencyReference#input_name}
   */
   readonly inputName: string;
   /**
   * Name of the output of stack to depend on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference#output_name StackDependencyReference#output_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference#output_name StackDependencyReference#output_name}
   */
   readonly outputName: string;
   /**
   * Immutable ID of stack dependency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference#stack_dependency_id StackDependencyReference#stack_dependency_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference#stack_dependency_id StackDependencyReference#stack_dependency_id}
   */
   readonly stackDependencyId: string;
   /**
   * Whether the dependents should be triggered even if the value of the reference did not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference#trigger_always StackDependencyReference#trigger_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference#trigger_always StackDependencyReference#trigger_always}
   */
   readonly triggerAlways?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference spacelift_stack_dependency_reference}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference spacelift_stack_dependency_reference}
 */
 export class StackDependencyReference extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class StackDependencyReference extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StackDependencyReference resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StackDependencyReference to import
-  * @param importFromId The id of the existing StackDependencyReference that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StackDependencyReference that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StackDependencyReference to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class StackDependencyReference extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/stack_dependency_reference spacelift_stack_dependency_reference} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/stack_dependency_reference spacelift_stack_dependency_reference} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class StackDependencyReference extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_stack_dependency_reference',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

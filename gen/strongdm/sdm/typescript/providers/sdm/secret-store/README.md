@@ -1,3 +1,3 @@
 # `sdm_secret_store`
 
-Refer to the Terraform Registry for docs: [`sdm_secret_store`](https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs/resources/secret_store).
+Refer to the Terraform Registry for docs: [`sdm_secret_store`](https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs/resources/secret_store).

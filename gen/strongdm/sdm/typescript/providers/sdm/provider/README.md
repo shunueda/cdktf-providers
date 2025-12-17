@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`sdm`](https://registry.terraform.io/providers/strongdm/sdm/15.40.0/docs).
+Refer to the Terraform Registry for docs: [`sdm`](https://registry.terraform.io/providers/strongdm/sdm/15.41.0/docs).

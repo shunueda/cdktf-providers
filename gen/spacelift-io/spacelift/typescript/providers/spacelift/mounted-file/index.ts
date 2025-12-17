@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MountedFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Content of the mounted file encoded using Base-64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#content MountedFile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#content MountedFile#content}
   */
   readonly content: string;
   /**
   * ID of the context on which the mounted file is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#context_id MountedFile#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#context_id MountedFile#context_id}
   */
   readonly contextId?: string;
   /**
   * Free-form description of the mounted file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#description MountedFile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#description MountedFile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#id MountedFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#id MountedFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface MountedFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the module on which the mounted file is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#module_id MountedFile#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#module_id MountedFile#module_id}
   */
   readonly moduleId?: string;
   /**
   * Relative path to the mounted file, without the /mnt/workspace/ prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#relative_path MountedFile#relative_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#relative_path MountedFile#relative_path}
   */
   readonly relativePath: string;
   /**
   * ID of the stack on which the mounted file is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#stack_id MountedFile#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#stack_id MountedFile#stack_id}
   */
   readonly stackId?: string;
   /**
   * Indicates whether the content can be read back outside a Run. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#write_only MountedFile#write_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#write_only MountedFile#write_only}
   */
   readonly writeOnly?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file spacelift_mounted_file}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file spacelift_mounted_file}
 */
 export class MountedFile extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class MountedFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MountedFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MountedFile to import
-  * @param importFromId The id of the existing MountedFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MountedFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MountedFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class MountedFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.40.0/docs/resources/mounted_file spacelift_mounted_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/mounted_file spacelift_mounted_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class MountedFile extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_mounted_file',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.40.0',
-        providerVersionConstraint: '1.40.0'
+        providerVersion: '1.41.0',
+        providerVersionConstraint: '1.41.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

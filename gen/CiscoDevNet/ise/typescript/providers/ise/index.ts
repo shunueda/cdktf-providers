@@ -56,6 +56,7 @@ export * as tacacsCommandSet from './tacacs-command-set';
 export * as tacacsProfile from './tacacs-profile';
 export * as trustsecEgressMatrixCell from './trustsec-egress-matrix-cell';
 export * as trustsecEgressMatrixCellDefault from './trustsec-egress-matrix-cell-default';
+export * as trustsecEgressPushMatrix from './trustsec-egress-push-matrix';
 export * as trustsecIpToSgtMapping from './trustsec-ip-to-sgt-mapping';
 export * as trustsecIpToSgtMappingGroup from './trustsec-ip-to-sgt-mapping-group';
 export * as trustsecSecurityGroup from './trustsec-security-group';

@@ -56,6 +56,7 @@ Object.defineProperty(exports, 'tacacsCommandSet', { get: function () { return r
 Object.defineProperty(exports, 'tacacsProfile', { get: function () { return require('./tacacs-profile'); } });
 Object.defineProperty(exports, 'trustsecEgressMatrixCell', { get: function () { return require('./trustsec-egress-matrix-cell'); } });
 Object.defineProperty(exports, 'trustsecEgressMatrixCellDefault', { get: function () { return require('./trustsec-egress-matrix-cell-default'); } });
+Object.defineProperty(exports, 'trustsecEgressPushMatrix', { get: function () { return require('./trustsec-egress-push-matrix'); } });
 Object.defineProperty(exports, 'trustsecIpToSgtMapping', { get: function () { return require('./trustsec-ip-to-sgt-mapping'); } });
 Object.defineProperty(exports, 'trustsecIpToSgtMappingGroup', { get: function () { return require('./trustsec-ip-to-sgt-mapping-group'); } });
 Object.defineProperty(exports, 'trustsecSecurityGroup', { get: function () { return require('./trustsec-security-group'); } });

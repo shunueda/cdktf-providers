@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell
+// https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,19 +12,19 @@ export interface TrustsecEgressMatrixCellConfig extends cdktf.TerraformMetaArgum
   *   - Choices: `NONE`, `DENY_IP`, `PERMIT_IP`
   *   - Default value: `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#default_rule TrustsecEgressMatrixCell#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#default_rule TrustsecEgressMatrixCell#default_rule}
   */
   readonly defaultRule?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#description TrustsecEgressMatrixCell#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#description TrustsecEgressMatrixCell#description}
   */
   readonly description?: string;
   /**
   * Destination Trustsec Security Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#destination_sgt_id TrustsecEgressMatrixCell#destination_sgt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#destination_sgt_id TrustsecEgressMatrixCell#destination_sgt_id}
   */
   readonly destinationSgtId: string;
   /**
@@ -32,25 +32,25 @@ export interface TrustsecEgressMatrixCellConfig extends cdktf.TerraformMetaArgum
   *   - Choices: `DISABLED`, `ENABLED`, `MONITOR`
   *   - Default value: `DISABLED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#matrix_cell_status TrustsecEgressMatrixCell#matrix_cell_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#matrix_cell_status TrustsecEgressMatrixCell#matrix_cell_status}
   */
   readonly matrixCellStatus?: string;
   /**
   * List of TrustSec Security Groups ACLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#sgacls TrustsecEgressMatrixCell#sgacls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#sgacls TrustsecEgressMatrixCell#sgacls}
   */
   readonly sgacls?: string[];
   /**
   * Source Trustsec Security Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#source_sgt_id TrustsecEgressMatrixCell#source_sgt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#source_sgt_id TrustsecEgressMatrixCell#source_sgt_id}
   */
   readonly sourceSgtId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell ise_trustsec_egress_matrix_cell}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell ise_trustsec_egress_matrix_cell}
 */
 export class TrustsecEgressMatrixCell extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class TrustsecEgressMatrixCell extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustsecEgressMatrixCell resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustsecEgressMatrixCell to import
-  * @param importFromId The id of the existing TrustsecEgressMatrixCell that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustsecEgressMatrixCell that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustsecEgressMatrixCell to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class TrustsecEgressMatrixCell extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.13/docs/resources/trustsec_egress_matrix_cell ise_trustsec_egress_matrix_cell} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/ise/0.2.14/docs/resources/trustsec_egress_matrix_cell ise_trustsec_egress_matrix_cell} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class TrustsecEgressMatrixCell extends cdktf.TerraformResource {
       terraformResourceType: 'ise_trustsec_egress_matrix_cell',
       terraformGeneratorMetadata: {
         providerName: 'ise',
-        providerVersion: '0.2.13',
-        providerVersionConstraint: '0.2.13'
+        providerVersion: '0.2.14',
+        providerVersionConstraint: '0.2.14'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

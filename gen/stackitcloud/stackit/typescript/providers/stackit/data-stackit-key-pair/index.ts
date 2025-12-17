@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/key_pair
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitKeyPairConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the SSH key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/key_pair#name DataStackitKeyPair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/key_pair#name DataStackitKeyPair#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/key_pair stackit_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/key_pair stackit_key_pair}
 */
 export class DataStackitKeyPair extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataStackitKeyPair extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitKeyPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitKeyPair to import
-  * @param importFromId The id of the existing DataStackitKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitKeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataStackitKeyPair extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/key_pair stackit_key_pair} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/key_pair stackit_key_pair} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataStackitKeyPair extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

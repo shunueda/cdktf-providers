@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,48 +10,48 @@ export interface CloudaccountAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) associated with the AWS resource. This is used for identifying resources in AWS. Used for STS credential type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#arn CloudaccountAws#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#arn CloudaccountAws#arn}
   */
   readonly arn?: string;
   /**
   * The AWS access key used to authenticate. **Deprecated:** Use `aws_secured_access_key` instead for enhanced security. **Note:** This field is mutually exclusive with `aws_secured_access_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#aws_access_key CloudaccountAws#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#aws_access_key CloudaccountAws#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
   * The AWS secret key used in conjunction with the access key for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#aws_secret_key CloudaccountAws#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#aws_secret_key CloudaccountAws#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * The AWS access key used to authenticate. This is a secure alternative to `aws_access_key` with sensitive attribute enabled. **Note:** This field is mutually exclusive with `aws_access_key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#aws_secured_access_key CloudaccountAws#aws_secured_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#aws_secured_access_key CloudaccountAws#aws_secured_access_key}
   */
   readonly awsSecuredAccessKey?: string;
   /**
   * The context of the AWS configuration. Allowed values are `project` or `tenant`. Default value is `project`. If  the `project` context is specified, the project name will sourced from the provider configuration parameter [`project_name`](https://registry.terraform.io/providers/spectrocloud/spectrocloud/latest/docs#schema).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#context CloudaccountAws#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#context CloudaccountAws#context}
   */
   readonly context?: string;
   /**
   * An optional external ID that can be used for cross-account access in AWS. Used for STS credential type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#external_id CloudaccountAws#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#external_id CloudaccountAws#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#id CloudaccountAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#id CloudaccountAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#name CloudaccountAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#name CloudaccountAws#name}
   */
   readonly name: string;
   /**
@@ -59,43 +59,43 @@ export interface CloudaccountAwsConfig extends cdktf.TerraformMetaArguments {
   * Can be 'aws' for standard AWS regions or 'aws-us-gov' for AWS GovCloud (US) regions.
   * Default is 'aws'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#partition CloudaccountAws#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#partition CloudaccountAws#partition}
   */
   readonly partition?: string;
   /**
   * Optional Permission Boundary ARN to limit the maximum permissions for roles created by Hubble. Used with `pod-identity` credential type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#permission_boundary_arn CloudaccountAws#permission_boundary_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#permission_boundary_arn CloudaccountAws#permission_boundary_arn}
   */
   readonly permissionBoundaryArn?: string;
   /**
   * A set of ARNs for the IAM policies that should be associated with the cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#policy_arns CloudaccountAws#policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#policy_arns CloudaccountAws#policy_arns}
   */
   readonly policyArns?: string[];
   /**
   * ID of the private cloud gateway. This is the ID of the private cloud gateway that is used to connect to the private cluster endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#private_cloud_gateway_id CloudaccountAws#private_cloud_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#private_cloud_gateway_id CloudaccountAws#private_cloud_gateway_id}
   */
   readonly privateCloudGatewayId?: string;
   /**
   * The IAM Role ARN for AWS EKS Pod Identity authentication. Required when type is `pod-identity`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#role_arn CloudaccountAws#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#role_arn CloudaccountAws#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The type of AWS credentials to use. Can be `secret`, `sts`, or `pod-identity`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#type CloudaccountAws#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#type CloudaccountAws#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws spectrocloud_cloudaccount_aws}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws spectrocloud_cloudaccount_aws}
 */
 export class CloudaccountAws extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class CloudaccountAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudaccountAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudaccountAws to import
-  * @param importFromId The id of the existing CloudaccountAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudaccountAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudaccountAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class CloudaccountAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/resources/cloudaccount_aws spectrocloud_cloudaccount_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/resources/cloudaccount_aws spectrocloud_cloudaccount_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class CloudaccountAws extends cdktf.TerraformResource {
       terraformResourceType: 'spectrocloud_cloudaccount_aws',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

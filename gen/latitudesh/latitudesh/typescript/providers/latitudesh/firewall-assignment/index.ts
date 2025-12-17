@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall_assignment
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/resources/firewall_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FirewallAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the firewall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall_assignment#firewall_id FirewallAssignment#firewall_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/resources/firewall_assignment#firewall_id FirewallAssignment#firewall_id}
   */
   readonly firewallId?: string;
   /**
   * The ID of the server to assign the firewall to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall_assignment#server_id FirewallAssignment#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/resources/firewall_assignment#server_id FirewallAssignment#server_id}
   */
   readonly serverId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall_assignment latitudesh_firewall_assignment}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/resources/firewall_assignment latitudesh_firewall_assignment}
 */
 export class FirewallAssignment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class FirewallAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallAssignment to import
-  * @param importFromId The id of the existing FirewallAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/resources/firewall_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class FirewallAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.6/docs/resources/firewall_assignment latitudesh_firewall_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/resources/firewall_assignment latitudesh_firewall_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class FirewallAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_firewall_assignment',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.6',
-        providerVersionConstraint: '2.8.6'
+        providerVersion: '2.8.7',
+        providerVersionConstraint: '2.8.7'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

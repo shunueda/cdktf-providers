@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface GcpArchivalLocationConfig extends cdktf.TerraformMetaArguments 
   /**
   * GCP bucket labels. Each label will be added to the GCP bucket created by RSC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#bucket_labels GcpArchivalLocation#bucket_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#bucket_labels GcpArchivalLocation#bucket_labels}
   */
   readonly bucketLabels?: { [key: string]: string };
   /**
   * GCP bucket prefix. The prefix cannot be longer than 19 characters. Note that `rubrik-` will always be prepended to the prefix. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#bucket_prefix GcpArchivalLocation#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#bucket_prefix GcpArchivalLocation#bucket_prefix}
   */
   readonly bucketPrefix: string;
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#cloud_account_id GcpArchivalLocation#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#cloud_account_id GcpArchivalLocation#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * Name of the cloud native archival location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#name GcpArchivalLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#name GcpArchivalLocation#name}
   */
   readonly name: string;
   /**
   * GCP region to store the snapshots in (`SPECIFIC_REGION`). If not specified, the snapshots will be stored in the same region as the workload (`SOURCE_REGION`). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#region GcpArchivalLocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#region GcpArchivalLocation#region}
   */
   readonly region?: string;
   /**
   * AWS bucket storage class. Possible values are `ARCHIVE`, `COLDLINE`, `NEARLINE`, `STANDARD` and `DURABLE_REDUCED_AVAILABILITY`. Default value is `STANDARD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#storage_class GcpArchivalLocation#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#storage_class GcpArchivalLocation#storage_class}
   */
   readonly storageClass?: string;
   /**
   * customer_managed_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#customer_managed_key GcpArchivalLocation#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#customer_managed_key GcpArchivalLocation#customer_managed_key}
   */
   readonly customerManagedKey?: GcpArchivalLocationCustomerManagedKey[] | cdktf.IResolvable;
 }
@@ -54,19 +54,19 @@ export interface GcpArchivalLocationCustomerManagedKey {
   /**
   * Key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#name GcpArchivalLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#name GcpArchivalLocation#name}
   */
   readonly name: string;
   /**
   * The region in which the key will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#region GcpArchivalLocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#region GcpArchivalLocation#region}
   */
   readonly region: string;
   /**
   * Key ring name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#ring_name GcpArchivalLocation#ring_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#ring_name GcpArchivalLocation#ring_name}
   */
   readonly ringName: string;
 }
@@ -231,7 +231,7 @@ export class GcpArchivalLocationCustomerManagedKeyList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location polaris_gcp_archival_location}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location polaris_gcp_archival_location}
 */
 export class GcpArchivalLocation extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class GcpArchivalLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpArchivalLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpArchivalLocation to import
-  * @param importFromId The id of the existing GcpArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpArchivalLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class GcpArchivalLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_archival_location polaris_gcp_archival_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/gcp_archival_location polaris_gcp_archival_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class GcpArchivalLocation extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_gcp_archival_location',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataStackitLoadbalancerConfig extends cdktf.TerraformMetaArgume
   /**
   * Load balancer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#name DataStackitLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#name DataStackitLoadbalancer#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the Load Balancer is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#project_id DataStackitLoadbalancer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#project_id DataStackitLoadbalancer#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#region DataStackitLoadbalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#region DataStackitLoadbalancer#region}
   */
   readonly region?: string;
 }
@@ -30,7 +30,7 @@ export interface DataStackitLoadbalancerListenersServerNameIndicators {
   /**
   * A domain name to match in order to pass TLS traffic to the target pool in the current listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#name DataStackitLoadbalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#name DataStackitLoadbalancer#name}
   */
   readonly name?: string;
 }
@@ -256,7 +256,7 @@ export interface DataStackitLoadbalancerListeners {
   /**
   * A list of domain names to match in order to pass TLS traffic to the target pool in the current listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#server_name_indicators DataStackitLoadbalancer#server_name_indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#server_name_indicators DataStackitLoadbalancer#server_name_indicators}
   */
   readonly serverNameIndicators?: DataStackitLoadbalancerListenersServerNameIndicators[] | cdktf.IResolvable;
 }
@@ -794,7 +794,7 @@ export interface DataStackitLoadbalancerTargetPoolsSessionPersistence {
   /**
   * If true then all connections from one source IP address are redirected to the same target. This setting changes the load balancing algorithm to Maglev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#use_source_ip_address DataStackitLoadbalancer#use_source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#use_source_ip_address DataStackitLoadbalancer#use_source_ip_address}
   */
   readonly useSourceIpAddress?: boolean | cdktf.IResolvable;
 }
@@ -970,7 +970,7 @@ export interface DataStackitLoadbalancerTargetPools {
   /**
   * Here you can setup various session persistence options, so far only "`use_source_ip_address`" is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#session_persistence DataStackitLoadbalancer#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#session_persistence DataStackitLoadbalancer#session_persistence}
   */
   readonly sessionPersistence?: DataStackitLoadbalancerTargetPoolsSessionPersistence;
 }
@@ -1098,7 +1098,7 @@ export class DataStackitLoadbalancerTargetPoolsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer stackit_loadbalancer}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer stackit_loadbalancer}
 */
 export class DataStackitLoadbalancer extends cdktf.TerraformDataSource {
 
@@ -1114,7 +1114,7 @@ export class DataStackitLoadbalancer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitLoadbalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitLoadbalancer to import
-  * @param importFromId The id of the existing DataStackitLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitLoadbalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitLoadbalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1126,7 +1126,7 @@ export class DataStackitLoadbalancer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/loadbalancer stackit_loadbalancer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/loadbalancer stackit_loadbalancer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1137,8 +1137,8 @@ export class DataStackitLoadbalancer extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_loadbalancer',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

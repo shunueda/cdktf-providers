@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MariadbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#name MariadbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#name MariadbInstance#name}
   */
   readonly name: string;
   /**
   * Configuration parameters. Please note that removing a previously configured field from your Terraform configuration won't replace its value in the API. To update a previously configured field, explicitly set a new value for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#parameters MariadbInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#parameters MariadbInstance#parameters}
   */
   readonly parameters?: MariadbInstanceParameters;
   /**
   * The selected plan name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#plan_name MariadbInstance#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#plan_name MariadbInstance#plan_name}
   */
   readonly planName: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#project_id MariadbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#project_id MariadbInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The service version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#version MariadbInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#version MariadbInstance#version}
   */
   readonly version: string;
 }
@@ -42,49 +42,49 @@ export interface MariadbInstanceParameters {
   /**
   * Enable monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#enable_monitoring MariadbInstance#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#enable_monitoring MariadbInstance#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
   * Graphite server URL (host and port). If set, monitoring with Graphite will be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#graphite MariadbInstance#graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#graphite MariadbInstance#graphite}
   */
   readonly graphite?: string;
   /**
   * The maximum disk threshold in MB. If the disk usage exceeds this threshold, the instance will be stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#max_disk_threshold MariadbInstance#max_disk_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#max_disk_threshold MariadbInstance#max_disk_threshold}
   */
   readonly maxDiskThreshold?: number;
   /**
   * The frequency in seconds at which metrics are emitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#metrics_frequency MariadbInstance#metrics_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#metrics_frequency MariadbInstance#metrics_frequency}
   */
   readonly metricsFrequency?: number;
   /**
   * The prefix for the metrics. Could be useful when using Graphite monitoring to prefix the metrics with a certain value, like an API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#metrics_prefix MariadbInstance#metrics_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#metrics_prefix MariadbInstance#metrics_prefix}
   */
   readonly metricsPrefix?: string;
   /**
   * The ID of the STACKIT monitoring instance. Monitoring instances with the plan "Observability-Monitoring-Starter" are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#monitoring_instance_id MariadbInstance#monitoring_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#monitoring_instance_id MariadbInstance#monitoring_instance_id}
   */
   readonly monitoringInstanceId?: string;
   /**
   * Comma separated list of IP networks in CIDR notation which are allowed to access this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#sgw_acl MariadbInstance#sgw_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#sgw_acl MariadbInstance#sgw_acl}
   */
   readonly sgwAcl?: string;
   /**
   * List of syslog servers to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#syslog MariadbInstance#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#syslog MariadbInstance#syslog}
   */
   readonly syslog?: string[];
 }
@@ -381,7 +381,7 @@ export class MariadbInstanceParametersOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance stackit_mariadb_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance stackit_mariadb_instance}
 */
 export class MariadbInstance extends cdktf.TerraformResource {
 
@@ -397,7 +397,7 @@ export class MariadbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbInstance to import
-  * @param importFromId The id of the existing MariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class MariadbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/resources/mariadb_instance stackit_mariadb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/mariadb_instance stackit_mariadb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class MariadbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_mariadb_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

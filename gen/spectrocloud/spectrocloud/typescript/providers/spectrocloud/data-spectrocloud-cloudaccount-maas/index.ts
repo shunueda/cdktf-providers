@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSpectrocloudCloudaccountMaasConfig extends cdktf.TerraformM
   /**
   * The context of the cluster. Allowed values are `project` or `tenant` or ``. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas#context DataSpectrocloudCloudaccountMaas#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas#context DataSpectrocloudCloudaccountMaas#context}
   */
   readonly context?: string;
   /**
   * The unique ID of the cloud account. Either `id` or `name` must be provided, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas#id DataSpectrocloudCloudaccountMaas#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas#id DataSpectrocloudCloudaccountMaas#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataSpectrocloudCloudaccountMaasConfig extends cdktf.TerraformM
   /**
   * The name of the cloud account. This can be used instead of `id` to retrieve the account details. Only one of `id` or `name` can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas#name DataSpectrocloudCloudaccountMaas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas#name DataSpectrocloudCloudaccountMaas#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas spectrocloud_cloudaccount_maas}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas spectrocloud_cloudaccount_maas}
 */
 export class DataSpectrocloudCloudaccountMaas extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataSpectrocloudCloudaccountMaas extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataSpectrocloudCloudaccountMaas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSpectrocloudCloudaccountMaas to import
-  * @param importFromId The id of the existing DataSpectrocloudCloudaccountMaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSpectrocloudCloudaccountMaas that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSpectrocloudCloudaccountMaas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataSpectrocloudCloudaccountMaas extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs/data-sources/cloudaccount_maas spectrocloud_cloudaccount_maas} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs/data-sources/cloudaccount_maas spectrocloud_cloudaccount_maas} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataSpectrocloudCloudaccountMaas extends cdktf.TerraformDataSource 
       terraformResourceType: 'spectrocloud_cloudaccount_maas',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

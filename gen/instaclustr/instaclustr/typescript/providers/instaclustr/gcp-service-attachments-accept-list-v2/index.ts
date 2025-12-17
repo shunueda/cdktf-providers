@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GcpServiceAttachmentsAcceptListV2Config extends cdktf.Terraform
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#cdc_id GcpServiceAttachmentsAcceptListV2#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#cdc_id GcpServiceAttachmentsAcceptListV2#cdc_id}
   */
   readonly cdcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#id GcpServiceAttachmentsAcceptListV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#id GcpServiceAttachmentsAcceptListV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface GcpServiceAttachmentsAcceptListV2Config extends cdktf.Terraform
   /**
   * Indicates if the cluster is currently performing any operation such as being created, updated, or deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#operation_status GcpServiceAttachmentsAcceptListV2#operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#operation_status GcpServiceAttachmentsAcceptListV2#operation_status}
   */
   readonly operationStatus?: string;
   /**
   * consumer_accept_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#consumer_accept_list GcpServiceAttachmentsAcceptListV2#consumer_accept_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#consumer_accept_list GcpServiceAttachmentsAcceptListV2#consumer_accept_list}
   */
   readonly consumerAcceptList: GcpServiceAttachmentsAcceptListV2ConsumerAcceptListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#timeouts GcpServiceAttachmentsAcceptListV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#timeouts GcpServiceAttachmentsAcceptListV2#timeouts}
   */
   readonly timeouts?: GcpServiceAttachmentsAcceptListV2Timeouts;
 }
@@ -43,19 +43,19 @@ export interface GcpServiceAttachmentsAcceptListV2ConsumerAcceptListStruct {
   /**
   * The accepted network name of the parent project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#accept_network_name GcpServiceAttachmentsAcceptListV2#accept_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#accept_network_name GcpServiceAttachmentsAcceptListV2#accept_network_name}
   */
   readonly acceptNetworkName?: string;
   /**
   * The accepted project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#accept_project_id GcpServiceAttachmentsAcceptListV2#accept_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#accept_project_id GcpServiceAttachmentsAcceptListV2#accept_project_id}
   */
   readonly acceptProjectId: string;
   /**
   * The connection limit for the project or network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#connection_limit GcpServiceAttachmentsAcceptListV2#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#connection_limit GcpServiceAttachmentsAcceptListV2#connection_limit}
   */
   readonly connectionLimit: number;
 }
@@ -223,7 +223,7 @@ export class GcpServiceAttachmentsAcceptListV2ConsumerAcceptListStructList exten
 }
 export interface GcpServiceAttachmentsAcceptListV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#default GcpServiceAttachmentsAcceptListV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#default GcpServiceAttachmentsAcceptListV2#default}
   */
   readonly default?: string;
 }
@@ -317,7 +317,7 @@ export class GcpServiceAttachmentsAcceptListV2TimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2 instaclustr_gcp_service_attachments_accept_list_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2 instaclustr_gcp_service_attachments_accept_list_v2}
 */
 export class GcpServiceAttachmentsAcceptListV2 extends cdktf.TerraformResource {
 
@@ -333,7 +333,7 @@ export class GcpServiceAttachmentsAcceptListV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpServiceAttachmentsAcceptListV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpServiceAttachmentsAcceptListV2 to import
-  * @param importFromId The id of the existing GcpServiceAttachmentsAcceptListV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpServiceAttachmentsAcceptListV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpServiceAttachmentsAcceptListV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class GcpServiceAttachmentsAcceptListV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.37/docs/resources/gcp_service_attachments_accept_list_v2 instaclustr_gcp_service_attachments_accept_list_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.38/docs/resources/gcp_service_attachments_accept_list_v2 instaclustr_gcp_service_attachments_accept_list_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class GcpServiceAttachmentsAcceptListV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_gcp_service_attachments_accept_list_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.37',
-        providerVersionConstraint: '2.1.37'
+        providerVersion: '2.1.38',
+        providerVersionConstraint: '2.1.38'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/volume
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataStackitVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * STACKIT project ID to which the volume is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/volume#project_id DataStackitVolume#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/volume#project_id DataStackitVolume#project_id}
   */
   readonly projectId: string;
   /**
   * The volume ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/volume#volume_id DataStackitVolume#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/volume#volume_id DataStackitVolume#volume_id}
   */
   readonly volumeId: string;
 }
@@ -81,7 +81,7 @@ export class DataStackitVolumeSourceOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/volume stackit_volume}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/volume stackit_volume}
 */
 export class DataStackitVolume extends cdktf.TerraformDataSource {
 
@@ -97,7 +97,7 @@ export class DataStackitVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitVolume to import
-  * @param importFromId The id of the existing DataStackitVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DataStackitVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.73.0/docs/data-sources/volume stackit_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/volume stackit_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class DataStackitVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_volume',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.73.0',
-        providerVersionConstraint: '0.73.0'
+        providerVersion: '0.74.0',
+        providerVersionConstraint: '0.74.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

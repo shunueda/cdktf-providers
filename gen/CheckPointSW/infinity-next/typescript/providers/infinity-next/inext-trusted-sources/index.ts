@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources
+// https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface InextTrustedSourcesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Minimum number of users or addresses that must exhibit similar activity for the behavior to be considered benign
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources#min_num_of_sources InextTrustedSources#min_num_of_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources#min_num_of_sources InextTrustedSources#min_num_of_sources}
   */
   readonly minNumOfSources: number;
   /**
   * The name of the resource, also acts as its unique ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources#name InextTrustedSources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources#name InextTrustedSources#name}
   */
   readonly name: string;
   /**
   * The trusted sources identifier values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources#sources_identifiers InextTrustedSources#sources_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources#sources_identifiers InextTrustedSources#sources_identifiers}
   */
   readonly sourcesIdentifiers?: string[];
   /**
   * The visibility of the resource - Shared or Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources#visibility InextTrustedSources#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources#visibility InextTrustedSources#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources inext_trusted_sources}
+* Represents a {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources inext_trusted_sources}
 */
 export class InextTrustedSources extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class InextTrustedSources extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InextTrustedSources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InextTrustedSources to import
-  * @param importFromId The id of the existing InextTrustedSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InextTrustedSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InextTrustedSources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class InextTrustedSources extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.1/docs/resources/inext_trusted_sources inext_trusted_sources} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkpointsw/infinity-next/1.3.2/docs/resources/inext_trusted_sources inext_trusted_sources} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class InextTrustedSources extends cdktf.TerraformResource {
       terraformResourceType: 'inext_trusted_sources',
       terraformGeneratorMetadata: {
         providerName: 'infinity-next',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

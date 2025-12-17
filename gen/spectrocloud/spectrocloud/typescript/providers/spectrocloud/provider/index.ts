@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs
+// https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface SpectrocloudProviderConfig {
   /**
   * The Spectro Cloud API key. Can also be set with the `SPECTROCLOUD_APIKEY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#api_key SpectrocloudProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#api_key SpectrocloudProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The Spectro Cloud API host url. Can also be set with the `SPECTROCLOUD_HOST` environment variable. Defaults to https://api.spectrocloud.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#host SpectrocloudProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#host SpectrocloudProvider#host}
   */
   readonly host?: string;
   /**
   * Ignore insecure TLS errors for Spectro Cloud API endpoints. ⚠️ WARNING: Setting this to true disables SSL certificate verification and makes connections vulnerable to man-in-the-middle attacks. Only use this in development/testing environments or when connecting to self-signed certificates in trusted networks. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#ignore_insecure_tls_error SpectrocloudProvider#ignore_insecure_tls_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#ignore_insecure_tls_error SpectrocloudProvider#ignore_insecure_tls_error}
   */
   readonly ignoreInsecureTlsError?: boolean | cdktf.IResolvable;
   /**
   * The Palette project the provider will target. If no value is provided, the `Default` Palette project is used. The default value is `Default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#project_name SpectrocloudProvider#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#project_name SpectrocloudProvider#project_name}
   */
   readonly projectName?: string;
   /**
   * Number of retry attempts. Can also be set with the `SPECTROCLOUD_RETRY_ATTEMPTS` environment variable. Defaults to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#retry_attempts SpectrocloudProvider#retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#retry_attempts SpectrocloudProvider#retry_attempts}
   */
   readonly retryAttempts?: number;
   /**
   * Enable HTTP request tracing. Can also be set with the `SPECTROCLOUD_TRACE` environment variable. To enable Terraform debug logging, set `TF_LOG=DEBUG`. Visit the Terraform documentation to learn more about Terraform [debugging](https://developer.hashicorp.com/terraform/plugin/log/managing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#trace SpectrocloudProvider#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#trace SpectrocloudProvider#trace}
   */
   readonly trace?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#alias SpectrocloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#alias SpectrocloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs spectrocloud}
+* Represents a {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs spectrocloud}
 */
 export class SpectrocloudProvider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class SpectrocloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SpectrocloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpectrocloudProvider to import
-  * @param importFromId The id of the existing SpectrocloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpectrocloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpectrocloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class SpectrocloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.0/docs spectrocloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spectrocloud/spectrocloud/0.26.1/docs spectrocloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class SpectrocloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'spectrocloud',
       terraformGeneratorMetadata: {
         providerName: 'spectrocloud',
-        providerVersion: '0.26.0',
-        providerVersionConstraint: '0.26.0'
+        providerVersion: '0.26.1',
+        providerVersionConstraint: '0.26.1'
       },
       terraformProviderSource: 'spectrocloud/spectrocloud'
     });

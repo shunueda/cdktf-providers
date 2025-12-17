@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AzureExocomputeConfig extends cdktf.TerraformMetaArguments {
   /**
   * RSC cloud account ID. This is the ID of the `polaris_azure_subscription` resource for which the Exocompute service runs. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#cloud_account_id AzureExocompute#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#cloud_account_id AzureExocompute#cloud_account_id}
   */
   readonly cloudAccountId?: string;
   /**
   * RSC cloud account ID of the shared exocompute host account. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#host_cloud_account_id AzureExocompute#host_cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#host_cloud_account_id AzureExocompute#host_cloud_account_id}
   */
   readonly hostCloudAccountId?: string;
   /**
   * The CIDR range assigned to pods when launching Exocompute with the CNI overlay network plugin mode. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#pod_overlay_network_cidr AzureExocompute#pod_overlay_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#pod_overlay_network_cidr AzureExocompute#pod_overlay_network_cidr}
   */
   readonly podOverlayNetworkCidr?: string;
   /**
   * Azure region to run the exocompute service in. Should be specified in the standard Azure style, e.g. `eastus`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#region AzureExocompute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#region AzureExocompute#region}
   */
   readonly region?: string;
   /**
   * Azure subnet ID of the cluster subnet corresponding to the Exocompute configuration. This subnet will be used to allocate IP addresses to the nodes of the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#subnet AzureExocompute#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#subnet AzureExocompute#subnet}
   */
   readonly subnet?: string;
   /**
   * RSC cloud account ID. This is the ID of the `polaris_azure_subscription` resource for which the Exocompute service runs. Changing this forces a new resource to be created. **Deprecated:** use `cloud_account_id` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#subscription_id AzureExocompute#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#subscription_id AzureExocompute#subscription_id}
   */
   readonly subscriptionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute polaris_azure_exocompute}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute polaris_azure_exocompute}
 */
 export class AzureExocompute extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class AzureExocompute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureExocompute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureExocompute to import
-  * @param importFromId The id of the existing AzureExocompute that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureExocompute that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureExocompute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class AzureExocompute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_exocompute polaris_azure_exocompute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.2/docs/resources/azure_exocompute polaris_azure_exocompute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class AzureExocompute extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_exocompute',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.1',
-        providerVersionConstraint: '1.3.1'
+        providerVersion: '1.3.2',
+        providerVersionConstraint: '1.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

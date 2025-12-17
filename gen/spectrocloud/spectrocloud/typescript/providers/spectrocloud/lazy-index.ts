@@ -5,6 +5,7 @@ Object.defineProperty(exports, 'appliance', { get: function () { return require(
 Object.defineProperty(exports, 'application', { get: function () { return require('./application'); } });
 Object.defineProperty(exports, 'applicationProfile', { get: function () { return require('./application-profile'); } });
 Object.defineProperty(exports, 'backupStorageLocation', { get: function () { return require('./backup-storage-location'); } });
+Object.defineProperty(exports, 'cloudaccountApacheCloudstack', { get: function () { return require('./cloudaccount-apache-cloudstack'); } });
 Object.defineProperty(exports, 'cloudaccountAws', { get: function () { return require('./cloudaccount-aws'); } });
 Object.defineProperty(exports, 'cloudaccountAzure', { get: function () { return require('./cloudaccount-azure'); } });
 Object.defineProperty(exports, 'cloudaccountCustom', { get: function () { return require('./cloudaccount-custom'); } });
@@ -13,6 +14,7 @@ Object.defineProperty(exports, 'cloudaccountMaas', { get: function () { return r
 Object.defineProperty(exports, 'cloudaccountOpenstack', { get: function () { return require('./cloudaccount-openstack'); } });
 Object.defineProperty(exports, 'cloudaccountVsphere', { get: function () { return require('./cloudaccount-vsphere'); } });
 Object.defineProperty(exports, 'clusterAks', { get: function () { return require('./cluster-aks'); } });
+Object.defineProperty(exports, 'clusterApacheCloudstack', { get: function () { return require('./cluster-apache-cloudstack'); } });
 Object.defineProperty(exports, 'clusterAws', { get: function () { return require('./cluster-aws'); } });
 Object.defineProperty(exports, 'clusterAzure', { get: function () { return require('./cluster-azure'); } });
 Object.defineProperty(exports, 'clusterConfigPolicy', { get: function () { return require('./cluster-config-policy'); } });
@@ -54,6 +56,7 @@ Object.defineProperty(exports, 'dataSpectrocloudAppliance', { get: function () {
 Object.defineProperty(exports, 'dataSpectrocloudAppliances', { get: function () { return require('./data-spectrocloud-appliances'); } });
 Object.defineProperty(exports, 'dataSpectrocloudApplicationProfile', { get: function () { return require('./data-spectrocloud-application-profile'); } });
 Object.defineProperty(exports, 'dataSpectrocloudBackupStorageLocation', { get: function () { return require('./data-spectrocloud-backup-storage-location'); } });
+Object.defineProperty(exports, 'dataSpectrocloudCloudaccountApacheCloudstack', { get: function () { return require('./data-spectrocloud-cloudaccount-apache-cloudstack'); } });
 Object.defineProperty(exports, 'dataSpectrocloudCloudaccountAws', { get: function () { return require('./data-spectrocloud-cloudaccount-aws'); } });
 Object.defineProperty(exports, 'dataSpectrocloudCloudaccountAzure', { get: function () { return require('./data-spectrocloud-cloudaccount-azure'); } });
 Object.defineProperty(exports, 'dataSpectrocloudCloudaccountCustom', { get: function () { return require('./data-spectrocloud-cloudaccount-custom'); } });
