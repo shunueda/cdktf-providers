@@ -23,6 +23,7 @@ Object.defineProperty(exports, 'mongodbflexInstance', { get: function () { retur
 Object.defineProperty(exports, 'mongodbflexUser', { get: function () { return require('./mongodbflex-user'); } });
 Object.defineProperty(exports, 'network', { get: function () { return require('./network'); } });
 Object.defineProperty(exports, 'networkArea', { get: function () { return require('./network-area'); } });
+Object.defineProperty(exports, 'networkAreaRegion', { get: function () { return require('./network-area-region'); } });
 Object.defineProperty(exports, 'networkAreaRoute', { get: function () { return require('./network-area-route'); } });
 Object.defineProperty(exports, 'networkInterface', { get: function () { return require('./network-interface'); } });
 Object.defineProperty(exports, 'objectstorageBucket', { get: function () { return require('./objectstorage-bucket'); } });
@@ -91,6 +92,7 @@ Object.defineProperty(exports, 'dataStackitMongodbflexInstance', { get: function
 Object.defineProperty(exports, 'dataStackitMongodbflexUser', { get: function () { return require('./data-stackit-mongodbflex-user'); } });
 Object.defineProperty(exports, 'dataStackitNetwork', { get: function () { return require('./data-stackit-network'); } });
 Object.defineProperty(exports, 'dataStackitNetworkArea', { get: function () { return require('./data-stackit-network-area'); } });
+Object.defineProperty(exports, 'dataStackitNetworkAreaRegion', { get: function () { return require('./data-stackit-network-area-region'); } });
 Object.defineProperty(exports, 'dataStackitNetworkAreaRoute', { get: function () { return require('./data-stackit-network-area-route'); } });
 Object.defineProperty(exports, 'dataStackitNetworkInterface', { get: function () { return require('./data-stackit-network-interface'); } });
 Object.defineProperty(exports, 'dataStackitObjectstorageBucket', { get: function () { return require('./data-stackit-objectstorage-bucket'); } });

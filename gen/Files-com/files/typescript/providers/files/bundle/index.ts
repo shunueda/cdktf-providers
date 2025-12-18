@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle
+// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,157 +10,157 @@ export interface BundleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the clickwrap to use with this bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#clickwrap_id Bundle#clickwrap_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#clickwrap_id Bundle#clickwrap_id}
   */
   readonly clickwrapId?: number;
   /**
   * Bundle code.  This code forms the end part of the Public URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#code Bundle#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#code Bundle#code}
   */
   readonly code?: string;
   /**
   * If true, create a snapshot of this bundle's contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#create_snapshot Bundle#create_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#create_snapshot Bundle#create_snapshot}
   */
   readonly createSnapshot?: boolean | cdktf.IResolvable;
   /**
   * Public description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#description Bundle#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#description Bundle#description}
   */
   readonly description?: string;
   /**
   * Do not create subfolders for files uploaded to this share. Note: there are subtle security pitfalls with allowing anonymous uploads from multiple users to live in the same folder. We strongly discourage use of this option unless absolutely required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#dont_separate_submissions_by_folder Bundle#dont_separate_submissions_by_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#dont_separate_submissions_by_folder Bundle#dont_separate_submissions_by_folder}
   */
   readonly dontSeparateSubmissionsByFolder?: boolean | cdktf.IResolvable;
   /**
   * Bundle expiration date/time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#expires_at Bundle#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#expires_at Bundle#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * If true, finalize the snapshot of this bundle's contents. Note that `create_snapshot` must also be true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#finalize_snapshot Bundle#finalize_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#finalize_snapshot Bundle#finalize_snapshot}
   */
   readonly finalizeSnapshot?: boolean | cdktf.IResolvable;
   /**
   * Id of Form Field Set to use with this bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#form_field_set_id Bundle#form_field_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#form_field_set_id Bundle#form_field_set_id}
   */
   readonly formFieldSetId?: number;
   /**
   * ID of the associated inbox, if available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#inbox_id Bundle#inbox_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#inbox_id Bundle#inbox_id}
   */
   readonly inboxId?: number;
   /**
   * Maximum number of times bundle can be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#max_uses Bundle#max_uses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#max_uses Bundle#max_uses}
   */
   readonly maxUses?: number;
   /**
   * Bundle internal note
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#note Bundle#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#note Bundle#note}
   */
   readonly note?: string;
   /**
   * Password for this bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#password Bundle#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#password Bundle#password}
   */
   readonly password?: string;
   /**
   * Template for creating submission subfolders. Can use the uploader's name, email address, ip, company, `strftime` directives, and any custom form data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#path_template Bundle#path_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#path_template Bundle#path_template}
   */
   readonly pathTemplate?: string;
   /**
   * Timezone to use when rendering timestamps in path templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#path_template_time_zone Bundle#path_template_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#path_template_time_zone Bundle#path_template_time_zone}
   */
   readonly pathTemplateTimeZone?: string;
   /**
   * A list of paths in this bundle.  For performance reasons, this is not provided when listing bundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#paths Bundle#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#paths Bundle#paths}
   */
   readonly paths: string[];
   /**
   * Permissions that apply to Folders in this Share Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#permissions Bundle#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#permissions Bundle#permissions}
   */
   readonly permissions?: string;
   /**
   * Show a registration page that captures the downloader's name and email address?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#require_registration Bundle#require_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#require_registration Bundle#require_registration}
   */
   readonly requireRegistration?: boolean | cdktf.IResolvable;
   /**
   * Only allow access to recipients who have explicitly received the share via an email sent through the Files.com UI?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#require_share_recipient Bundle#require_share_recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#require_share_recipient Bundle#require_share_recipient}
   */
   readonly requireShareRecipient?: boolean | cdktf.IResolvable;
   /**
   * Send delivery receipt to the uploader. Note: For writable share only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#send_email_receipt_to_uploader Bundle#send_email_receipt_to_uploader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#send_email_receipt_to_uploader Bundle#send_email_receipt_to_uploader}
   */
   readonly sendEmailReceiptToUploader?: boolean | cdktf.IResolvable;
   /**
   * BundleRegistrations can be saved without providing company?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#skip_company Bundle#skip_company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#skip_company Bundle#skip_company}
   */
   readonly skipCompany?: boolean | cdktf.IResolvable;
   /**
   * BundleRegistrations can be saved without providing email?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#skip_email Bundle#skip_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#skip_email Bundle#skip_email}
   */
   readonly skipEmail?: boolean | cdktf.IResolvable;
   /**
   * BundleRegistrations can be saved without providing name?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#skip_name Bundle#skip_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#skip_name Bundle#skip_name}
   */
   readonly skipName?: boolean | cdktf.IResolvable;
   /**
   * ID of the snapshot containing this bundle's contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#snapshot_id Bundle#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#snapshot_id Bundle#snapshot_id}
   */
   readonly snapshotId?: number;
   /**
   * Date when share will start to be accessible. If `nil` access granted right after create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#start_access_on_date Bundle#start_access_on_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#start_access_on_date Bundle#start_access_on_date}
   */
   readonly startAccessOnDate?: string;
   /**
   * Bundle creator user ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#user_id Bundle#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#user_id Bundle#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle files_bundle}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle files_bundle}
 */
 export class Bundle extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class Bundle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bundle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bundle to import
-  * @param importFromId The id of the existing Bundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bundle that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bundle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class Bundle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/bundle files_bundle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/bundle files_bundle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class Bundle extends cdktf.TerraformResource {
       terraformResourceType: 'files_bundle',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.412',
-        providerVersionConstraint: '0.1.412'
+        providerVersion: '0.1.415',
+        providerVersionConstraint: '0.1.415'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

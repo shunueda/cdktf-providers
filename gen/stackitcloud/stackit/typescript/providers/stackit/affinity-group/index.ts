@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,31 @@ export interface AffinityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the affinity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group#name AffinityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group#name AffinityGroup#name}
   */
   readonly name: string;
   /**
   * The policy of the affinity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group#policy AffinityGroup#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group#policy AffinityGroup#policy}
   */
   readonly policy: string;
   /**
   * STACKIT Project ID to which the affinity group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group#project_id AffinityGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group#project_id AffinityGroup#project_id}
   */
   readonly projectId: string;
+  /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group#region AffinityGroup#region}
+  */
+  readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group stackit_affinity_group}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group stackit_affinity_group}
 */
 export class AffinityGroup extends cdktf.TerraformResource {
 
@@ -44,7 +50,7 @@ export class AffinityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AffinityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AffinityGroup to import
-  * @param importFromId The id of the existing AffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AffinityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +62,7 @@ export class AffinityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/affinity_group stackit_affinity_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/affinity_group stackit_affinity_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +73,8 @@ export class AffinityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_affinity_group',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -81,6 +87,7 @@ export class AffinityGroup extends cdktf.TerraformResource {
     this._name = config.name;
     this._policy = config.policy;
     this._projectId = config.projectId;
+    this._region = config.region;
   }
 
   // ==========
@@ -141,6 +148,22 @@ export class AffinityGroup extends cdktf.TerraformResource {
     return this._projectId;
   }
 
+  // region - computed: true, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -150,6 +173,7 @@ export class AffinityGroup extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       policy: cdktf.stringToTerraform(this._policy),
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
     };
   }
 
@@ -169,6 +193,12 @@ export class AffinityGroup extends cdktf.TerraformResource {
       },
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

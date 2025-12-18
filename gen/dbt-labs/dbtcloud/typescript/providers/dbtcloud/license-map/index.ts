@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/license_map
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/license_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LicenseMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * License type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/license_map#license_type LicenseMap#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/license_map#license_type LicenseMap#license_type}
   */
   readonly licenseType: string;
   /**
   * SSO license mapping group names for this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/license_map#sso_license_mapping_groups LicenseMap#sso_license_mapping_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/license_map#sso_license_mapping_groups LicenseMap#sso_license_mapping_groups}
   */
   readonly ssoLicenseMappingGroups?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/license_map dbtcloud_license_map}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/license_map dbtcloud_license_map}
 */
 export class LicenseMap extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class LicenseMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseMap to import
-  * @param importFromId The id of the existing LicenseMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/license_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/license_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class LicenseMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/license_map dbtcloud_license_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/license_map dbtcloud_license_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class LicenseMap extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_license_map',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

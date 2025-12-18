@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ComponentTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique alias of the component type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#alias ComponentType#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#alias ComponentType#alias}
   */
   readonly alias: string;
   /**
   * The description of the component type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#description ComponentType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#description ComponentType#description}
   */
   readonly description?: string;
   /**
   * The icon associated with the component type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#icon ComponentType#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#icon ComponentType#icon}
   */
   readonly icon?: ComponentTypeIcon;
   /**
   * The unique name of the component type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#name ComponentType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#name ComponentType#name}
   */
   readonly name: string;
   /**
   * The owner relationship configuration for this component type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#owner_relationship ComponentType#owner_relationship}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#owner_relationship ComponentType#owner_relationship}
   */
   readonly ownerRelationship?: ComponentTypeOwnerRelationship;
   /**
   * The properties of this component type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#properties ComponentType#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#properties ComponentType#properties}
   */
   readonly properties: { [key: string]: ComponentTypeProperties } | cdktf.IResolvable;
   /**
   * The relationships that can be defined for this component type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#relationships ComponentType#relationships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#relationships ComponentType#relationships}
   */
   readonly relationships?: { [key: string]: ComponentTypeRelationships } | cdktf.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface ComponentTypeIcon {
   /**
   * The color, represented as a hexcode, for the icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#color ComponentType#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#color ComponentType#color}
   */
   readonly color: string;
   /**
   * The name of the icon in Phosphor icons for Vue, e.g. `PhBird`. See https://phosphoricons.com/ for a full list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#name ComponentType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#name ComponentType#name}
   */
   readonly name: string;
 }
@@ -179,55 +179,55 @@ export interface ComponentTypeOwnerRelationshipManagementRules {
   /**
   * The condition operator for this rule. Either EQUALS or ARRAY_CONTAINS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#operator ComponentType#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#operator ComponentType#operator}
   */
   readonly operator: string;
   /**
   * The property on the source component to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#source_property ComponentType#source_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#source_property ComponentType#source_property}
   */
   readonly sourceProperty: string;
   /**
   * When source_property is 'tag', this specifies the tag key to match. Required if source_property is 'tag', must not be set otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#source_tag_key ComponentType#source_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#source_tag_key ComponentType#source_tag_key}
   */
   readonly sourceTagKey?: string;
   /**
   * When source_property is 'tag', this specifies the matching operation. Either 'equals' or 'starts_with'. Defaults to 'equals'. Required if source_property is 'tag', must not be set otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#source_tag_operation ComponentType#source_tag_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#source_tag_operation ComponentType#source_tag_operation}
   */
   readonly sourceTagOperation?: string;
   /**
   * The category of the target resource. Either target_category or target_type must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#target_category ComponentType#target_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#target_category ComponentType#target_category}
   */
   readonly targetCategory?: string;
   /**
   * The property on the target resource to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#target_property ComponentType#target_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#target_property ComponentType#target_property}
   */
   readonly targetProperty: string;
   /**
   * When target_property is 'tag', this specifies the tag key to match. Required if target_property is 'tag', must not be set otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#target_tag_key ComponentType#target_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#target_tag_key ComponentType#target_tag_key}
   */
   readonly targetTagKey?: string;
   /**
   * When target_property is 'tag', this specifies the matching operation. Either 'equals' or 'starts_with'. Defaults to 'equals'. Required if target_property is 'tag', must not be set otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#target_tag_operation ComponentType#target_tag_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#target_tag_operation ComponentType#target_tag_operation}
   */
   readonly targetTagOperation?: string;
   /**
   * The type of the target resource. Either target_category or target_type must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#target_type ComponentType#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#target_type ComponentType#target_type}
   */
   readonly targetType?: string;
 }
@@ -568,7 +568,7 @@ export interface ComponentTypeOwnerRelationship {
   /**
   * Rules that automatically manage relationships based on property matching conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#management_rules ComponentType#management_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#management_rules ComponentType#management_rules}
   */
   readonly managementRules?: ComponentTypeOwnerRelationshipManagementRules[] | cdktf.IResolvable;
 }
@@ -664,37 +664,37 @@ export interface ComponentTypeProperties {
   /**
   * Whether or not the property is allowed to be set in opslevel.yml config files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#allowed_in_config_files ComponentType#allowed_in_config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#allowed_in_config_files ComponentType#allowed_in_config_files}
   */
   readonly allowedInConfigFiles?: boolean | cdktf.IResolvable;
   /**
   * The description of the property definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#description ComponentType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#description ComponentType#description}
   */
   readonly description?: string;
   /**
   * The display status of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#display_status ComponentType#display_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#display_status ComponentType#display_status}
   */
   readonly displayStatus?: string;
   /**
   * Restricts what sources are able to assign values to this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#locked_status ComponentType#locked_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#locked_status ComponentType#locked_status}
   */
   readonly lockedStatus?: string;
   /**
   * The name of the property definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#name ComponentType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#name ComponentType#name}
   */
   readonly name: string;
   /**
   * The schema of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#schema ComponentType#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#schema ComponentType#schema}
   */
   readonly schema?: string;
 }
@@ -952,25 +952,25 @@ export interface ComponentTypeRelationships {
   /**
   * The categories of resources that can be selected for this relationship definition. Can include any component category alias on your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#allowed_categories ComponentType#allowed_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#allowed_categories ComponentType#allowed_categories}
   */
   readonly allowedCategories?: string[];
   /**
   * The types of resources that can be selected for this relationship definition. Can include any component type alias on your account or 'team'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#allowed_types ComponentType#allowed_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#allowed_types ComponentType#allowed_types}
   */
   readonly allowedTypes?: string[];
   /**
   * The description of the relationship definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#description ComponentType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#description ComponentType#description}
   */
   readonly description?: string;
   /**
   * The display name of the relationship definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#name ComponentType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#name ComponentType#name}
   */
   readonly name: string;
 }
@@ -1168,7 +1168,7 @@ export class ComponentTypeRelationshipsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type opslevel_component_type}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type opslevel_component_type}
 */
 export class ComponentType extends cdktf.TerraformResource {
 
@@ -1184,7 +1184,7 @@ export class ComponentType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComponentType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComponentType to import
-  * @param importFromId The id of the existing ComponentType that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComponentType that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComponentType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1196,7 +1196,7 @@ export class ComponentType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/component_type opslevel_component_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/component_type opslevel_component_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1207,8 +1207,8 @@ export class ComponentType extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_component_type',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

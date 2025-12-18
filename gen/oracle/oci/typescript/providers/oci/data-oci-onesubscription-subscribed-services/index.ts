@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOnesubscriptionSubscribedServicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#compartment_id DataOciOnesubscriptionSubscribedServices#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#compartment_id DataOciOnesubscriptionSubscribedServices#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#id DataOciOnesubscriptionSubscribedServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#id DataOciOnesubscriptionSubscribedServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#order_line_id DataOciOnesubscriptionSubscribedServices#order_line_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#order_line_id DataOciOnesubscriptionSubscribedServices#order_line_id}
   */
   readonly orderLineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#status DataOciOnesubscriptionSubscribedServices#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#status DataOciOnesubscriptionSubscribedServices#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#subscription_id DataOciOnesubscriptionSubscribedServices#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#subscription_id DataOciOnesubscriptionSubscribedServices#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#filter DataOciOnesubscriptionSubscribedServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#filter DataOciOnesubscriptionSubscribedServices#filter}
   */
   readonly filter?: DataOciOnesubscriptionSubscribedServicesFilter[] | cdktf.IResolvable;
 }
@@ -3394,15 +3394,15 @@ export class DataOciOnesubscriptionSubscribedServicesSubscribedServicesList exte
 }
 export interface DataOciOnesubscriptionSubscribedServicesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#name DataOciOnesubscriptionSubscribedServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#name DataOciOnesubscriptionSubscribedServices#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#regex DataOciOnesubscriptionSubscribedServices#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#regex DataOciOnesubscriptionSubscribedServices#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#values DataOciOnesubscriptionSubscribedServices#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#values DataOciOnesubscriptionSubscribedServices#values}
   */
   readonly values: string[];
 }
@@ -3570,7 +3570,7 @@ export class DataOciOnesubscriptionSubscribedServicesFilterList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services oci_onesubscription_subscribed_services}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services oci_onesubscription_subscribed_services}
 */
 export class DataOciOnesubscriptionSubscribedServices extends cdktf.TerraformDataSource {
 
@@ -3586,7 +3586,7 @@ export class DataOciOnesubscriptionSubscribedServices extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataOciOnesubscriptionSubscribedServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOnesubscriptionSubscribedServices to import
-  * @param importFromId The id of the existing DataOciOnesubscriptionSubscribedServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOnesubscriptionSubscribedServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOnesubscriptionSubscribedServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3598,7 +3598,7 @@ export class DataOciOnesubscriptionSubscribedServices extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_subscribed_services oci_onesubscription_subscribed_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_subscribed_services oci_onesubscription_subscribed_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3609,8 +3609,8 @@ export class DataOciOnesubscriptionSubscribedServices extends cdktf.TerraformDat
       terraformResourceType: 'oci_onesubscription_subscribed_services',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

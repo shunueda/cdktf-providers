@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member
+// https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterGroupMemberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member#cluster_group ClusterGroupMember#cluster_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member#cluster_group ClusterGroupMember#cluster_group}
   */
   readonly clusterGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member#member ClusterGroupMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member#member ClusterGroupMember#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member#remote ClusterGroupMember#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member#remote ClusterGroupMember#remote}
   */
   readonly remote?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member incus_cluster_group_member}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member incus_cluster_group_member}
 */
 export class ClusterGroupMember extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ClusterGroupMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterGroupMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterGroupMember to import
-  * @param importFromId The id of the existing ClusterGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterGroupMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterGroupMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ClusterGroupMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group_member incus_cluster_group_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group_member incus_cluster_group_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ClusterGroupMember extends cdktf.TerraformResource {
       terraformResourceType: 'incus_cluster_group_member',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface AuditsyslogpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#action Auditsyslogpolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#action Auditsyslogpolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#id Auditsyslogpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#id Auditsyslogpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#name Auditsyslogpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#name Auditsyslogpolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#rule Auditsyslogpolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#rule Auditsyslogpolicy#rule}
   */
   readonly rule?: string;
   /**
   * globalbinding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#globalbinding Auditsyslogpolicy#globalbinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#globalbinding Auditsyslogpolicy#globalbinding}
   */
   readonly globalbinding?: AuditsyslogpolicyGlobalbinding;
 }
 export interface AuditsyslogpolicyGlobalbinding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#feature Auditsyslogpolicy#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#feature Auditsyslogpolicy#feature}
   */
   readonly feature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#globalbindtype Auditsyslogpolicy#globalbindtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#globalbindtype Auditsyslogpolicy#globalbindtype}
   */
   readonly globalbindtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#gotopriorityexpression Auditsyslogpolicy#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#gotopriorityexpression Auditsyslogpolicy#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#nextfactor Auditsyslogpolicy#nextfactor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#nextfactor Auditsyslogpolicy#nextfactor}
   */
   readonly nextfactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#priority Auditsyslogpolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#priority Auditsyslogpolicy#priority}
   */
   readonly priority?: number;
 }
@@ -251,7 +251,7 @@ export class AuditsyslogpolicyGlobalbindingOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy citrixadc_auditsyslogpolicy}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy citrixadc_auditsyslogpolicy}
 */
 export class Auditsyslogpolicy extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class Auditsyslogpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Auditsyslogpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Auditsyslogpolicy to import
-  * @param importFromId The id of the existing Auditsyslogpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Auditsyslogpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Auditsyslogpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class Auditsyslogpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditsyslogpolicy citrixadc_auditsyslogpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditsyslogpolicy citrixadc_auditsyslogpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class Auditsyslogpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_auditsyslogpolicy',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

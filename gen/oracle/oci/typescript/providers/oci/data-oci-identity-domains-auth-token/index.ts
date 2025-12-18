@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsAuthTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#attribute_sets DataOciIdentityDomainsAuthToken#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#attribute_sets DataOciIdentityDomainsAuthToken#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#attributes DataOciIdentityDomainsAuthToken#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#attributes DataOciIdentityDomainsAuthToken#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#auth_token_id DataOciIdentityDomainsAuthToken#auth_token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#auth_token_id DataOciIdentityDomainsAuthToken#auth_token_id}
   */
   readonly authTokenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#authorization DataOciIdentityDomainsAuthToken#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#authorization DataOciIdentityDomainsAuthToken#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#idcs_endpoint DataOciIdentityDomainsAuthToken#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#idcs_endpoint DataOciIdentityDomainsAuthToken#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#resource_type_schema_version DataOciIdentityDomainsAuthToken#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#resource_type_schema_version DataOciIdentityDomainsAuthToken#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -569,7 +569,7 @@ export class DataOciIdentityDomainsAuthTokenUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token oci_identity_domains_auth_token}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token oci_identity_domains_auth_token}
 */
 export class DataOciIdentityDomainsAuthToken extends cdktf.TerraformDataSource {
 
@@ -585,7 +585,7 @@ export class DataOciIdentityDomainsAuthToken extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityDomainsAuthToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsAuthToken to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsAuthToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class DataOciIdentityDomainsAuthToken extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_auth_token oci_identity_domains_auth_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_auth_token oci_identity_domains_auth_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class DataOciIdentityDomainsAuthToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_domains_auth_token',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

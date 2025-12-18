@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface DbmulticloudOracleDbAzureConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#access_token DbmulticloudOracleDbAzureConnector#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#access_token DbmulticloudOracleDbAzureConnector#access_token}
   */
   readonly accessToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_identity_mechanism DbmulticloudOracleDbAzureConnector#azure_identity_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_identity_mechanism DbmulticloudOracleDbAzureConnector#azure_identity_mechanism}
   */
   readonly azureIdentityMechanism: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_resource_group DbmulticloudOracleDbAzureConnector#azure_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_resource_group DbmulticloudOracleDbAzureConnector#azure_resource_group}
   */
   readonly azureResourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_subscription_id DbmulticloudOracleDbAzureConnector#azure_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_subscription_id DbmulticloudOracleDbAzureConnector#azure_subscription_id}
   */
   readonly azureSubscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_tenant_id DbmulticloudOracleDbAzureConnector#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_tenant_id DbmulticloudOracleDbAzureConnector#azure_tenant_id}
   */
   readonly azureTenantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#compartment_id DbmulticloudOracleDbAzureConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#compartment_id DbmulticloudOracleDbAzureConnector#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#db_cluster_resource_id DbmulticloudOracleDbAzureConnector#db_cluster_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#db_cluster_resource_id DbmulticloudOracleDbAzureConnector#db_cluster_resource_id}
   */
   readonly dbClusterResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#display_name DbmulticloudOracleDbAzureConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#display_name DbmulticloudOracleDbAzureConnector#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#id DbmulticloudOracleDbAzureConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#id DbmulticloudOracleDbAzureConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#last_modification DbmulticloudOracleDbAzureConnector#last_modification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#last_modification DbmulticloudOracleDbAzureConnector#last_modification}
   */
   readonly lastModification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#lifecycle_state_details DbmulticloudOracleDbAzureConnector#lifecycle_state_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#lifecycle_state_details DbmulticloudOracleDbAzureConnector#lifecycle_state_details}
   */
   readonly lifecycleStateDetails?: string;
   /**
   * arc_agent_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#arc_agent_nodes DbmulticloudOracleDbAzureConnector#arc_agent_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#arc_agent_nodes DbmulticloudOracleDbAzureConnector#arc_agent_nodes}
   */
   readonly arcAgentNodes?: DbmulticloudOracleDbAzureConnectorArcAgentNodes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#timeouts DbmulticloudOracleDbAzureConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#timeouts DbmulticloudOracleDbAzureConnector#timeouts}
   */
   readonly timeouts?: DbmulticloudOracleDbAzureConnectorTimeouts;
 }
 export interface DbmulticloudOracleDbAzureConnectorArcAgentNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#current_arc_agent_version DbmulticloudOracleDbAzureConnector#current_arc_agent_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#current_arc_agent_version DbmulticloudOracleDbAzureConnector#current_arc_agent_version}
   */
   readonly currentArcAgentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#host_id DbmulticloudOracleDbAzureConnector#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#host_id DbmulticloudOracleDbAzureConnector#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#host_name DbmulticloudOracleDbAzureConnector#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#host_name DbmulticloudOracleDbAzureConnector#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#status DbmulticloudOracleDbAzureConnector#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#status DbmulticloudOracleDbAzureConnector#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#time_last_checked DbmulticloudOracleDbAzureConnector#time_last_checked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#time_last_checked DbmulticloudOracleDbAzureConnector#time_last_checked}
   */
   readonly timeLastChecked?: string;
 }
@@ -317,15 +317,15 @@ export class DbmulticloudOracleDbAzureConnectorArcAgentNodesList extends cdktf.C
 }
 export interface DbmulticloudOracleDbAzureConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#create DbmulticloudOracleDbAzureConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#create DbmulticloudOracleDbAzureConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#delete DbmulticloudOracleDbAzureConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#delete DbmulticloudOracleDbAzureConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#update DbmulticloudOracleDbAzureConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#update DbmulticloudOracleDbAzureConnector#update}
   */
   readonly update?: string;
 }
@@ -477,7 +477,7 @@ export class DbmulticloudOracleDbAzureConnectorTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector oci_dbmulticloud_oracle_db_azure_connector}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector oci_dbmulticloud_oracle_db_azure_connector}
 */
 export class DbmulticloudOracleDbAzureConnector extends cdktf.TerraformResource {
 
@@ -493,7 +493,7 @@ export class DbmulticloudOracleDbAzureConnector extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DbmulticloudOracleDbAzureConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbmulticloudOracleDbAzureConnector to import
-  * @param importFromId The id of the existing DbmulticloudOracleDbAzureConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbmulticloudOracleDbAzureConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbmulticloudOracleDbAzureConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -505,7 +505,7 @@ export class DbmulticloudOracleDbAzureConnector extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_connector oci_dbmulticloud_oracle_db_azure_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector oci_dbmulticloud_oracle_db_azure_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,8 +516,8 @@ export class DbmulticloudOracleDbAzureConnector extends cdktf.TerraformResource 
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_connector',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

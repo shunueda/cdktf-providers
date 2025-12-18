@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TagBindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#disable_wait_for_ready TagBinding#disable_wait_for_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#disable_wait_for_ready TagBinding#disable_wait_for_ready}
   */
   readonly disableWaitForReady?: boolean | cdktf.IResolvable;
   /**
   * The qualified name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#entity_name TagBinding#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#entity_name TagBinding#entity_name}
   */
   readonly entityName: string;
   /**
   * The entity type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#entity_type TagBinding#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#entity_type TagBinding#entity_type}
   */
   readonly entityType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#id TagBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#id TagBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface TagBindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The REST endpoint of the Schema Registry cluster, for example, `https://psrc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#rest_endpoint TagBinding#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#rest_endpoint TagBinding#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * The name of the tag to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#tag_name TagBinding#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#tag_name TagBinding#tag_name}
   */
   readonly tagName: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#credentials TagBinding#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#credentials TagBinding#credentials}
   */
   readonly credentials?: TagBindingCredentials;
   /**
   * schema_registry_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#schema_registry_cluster TagBinding#schema_registry_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#schema_registry_cluster TagBinding#schema_registry_cluster}
   */
   readonly schemaRegistryCluster?: TagBindingSchemaRegistryCluster;
 }
@@ -61,13 +61,13 @@ export interface TagBindingCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#key TagBinding#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#key TagBinding#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#secret TagBinding#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#secret TagBinding#secret}
   */
   readonly secret: string;
 }
@@ -176,7 +176,7 @@ export interface TagBindingSchemaRegistryCluster {
   /**
   * The Schema Registry cluster ID (e.g., `lsrc-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#id TagBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#id TagBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -260,7 +260,7 @@ export class TagBindingSchemaRegistryClusterOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding confluent_tag_binding}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding confluent_tag_binding}
 */
 export class TagBinding extends cdktf.TerraformResource {
 
@@ -276,7 +276,7 @@ export class TagBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TagBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TagBinding to import
-  * @param importFromId The id of the existing TagBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TagBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TagBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -288,7 +288,7 @@ export class TagBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tag_binding confluent_tag_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tag_binding confluent_tag_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,8 +299,8 @@ export class TagBinding extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_tag_binding',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

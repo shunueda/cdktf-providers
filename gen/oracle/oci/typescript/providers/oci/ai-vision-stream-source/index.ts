@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface AiVisionStreamSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#compartment_id AiVisionStreamSource#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#compartment_id AiVisionStreamSource#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#defined_tags AiVisionStreamSource#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#defined_tags AiVisionStreamSource#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#display_name AiVisionStreamSource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#display_name AiVisionStreamSource#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#freeform_tags AiVisionStreamSource#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#freeform_tags AiVisionStreamSource#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#id AiVisionStreamSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#id AiVisionStreamSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,23 +33,23 @@ export interface AiVisionStreamSourceConfig extends cdktf.TerraformMetaArguments
   /**
   * stream_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#stream_source_details AiVisionStreamSource#stream_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#stream_source_details AiVisionStreamSource#stream_source_details}
   */
   readonly streamSourceDetails: AiVisionStreamSourceStreamSourceDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#timeouts AiVisionStreamSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#timeouts AiVisionStreamSource#timeouts}
   */
   readonly timeouts?: AiVisionStreamSourceTimeouts;
 }
 export interface AiVisionStreamSourceStreamSourceDetailsStreamNetworkAccessDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#private_endpoint_id AiVisionStreamSource#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#private_endpoint_id AiVisionStreamSource#private_endpoint_id}
   */
   readonly privateEndpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#stream_access_type AiVisionStreamSource#stream_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#stream_access_type AiVisionStreamSource#stream_access_type}
   */
   readonly streamAccessType: string;
 }
@@ -156,21 +156,21 @@ export class AiVisionStreamSourceStreamSourceDetailsStreamNetworkAccessDetailsOu
 }
 export interface AiVisionStreamSourceStreamSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#camera_url AiVisionStreamSource#camera_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#camera_url AiVisionStreamSource#camera_url}
   */
   readonly cameraUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#secret_id AiVisionStreamSource#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#secret_id AiVisionStreamSource#secret_id}
   */
   readonly secretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#source_type AiVisionStreamSource#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#source_type AiVisionStreamSource#source_type}
   */
   readonly sourceType: string;
   /**
   * stream_network_access_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#stream_network_access_details AiVisionStreamSource#stream_network_access_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#stream_network_access_details AiVisionStreamSource#stream_network_access_details}
   */
   readonly streamNetworkAccessDetails: AiVisionStreamSourceStreamSourceDetailsStreamNetworkAccessDetails;
 }
@@ -332,15 +332,15 @@ export class AiVisionStreamSourceStreamSourceDetailsOutputReference extends cdkt
 }
 export interface AiVisionStreamSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#create AiVisionStreamSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#create AiVisionStreamSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#delete AiVisionStreamSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#delete AiVisionStreamSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#update AiVisionStreamSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#update AiVisionStreamSource#update}
   */
   readonly update?: string;
 }
@@ -492,7 +492,7 @@ export class AiVisionStreamSourceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source oci_ai_vision_stream_source}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source oci_ai_vision_stream_source}
 */
 export class AiVisionStreamSource extends cdktf.TerraformResource {
 
@@ -508,7 +508,7 @@ export class AiVisionStreamSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiVisionStreamSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiVisionStreamSource to import
-  * @param importFromId The id of the existing AiVisionStreamSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiVisionStreamSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiVisionStreamSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -520,7 +520,7 @@ export class AiVisionStreamSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_source oci_ai_vision_stream_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_vision_stream_source oci_ai_vision_stream_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -531,8 +531,8 @@ export class AiVisionStreamSource extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_vision_stream_source',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SslcacertgroupSslcertkeyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding#cacertgroupname SslcacertgroupSslcertkeyBinding#cacertgroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding#cacertgroupname SslcacertgroupSslcertkeyBinding#cacertgroupname}
   */
   readonly cacertgroupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding#certkeyname SslcacertgroupSslcertkeyBinding#certkeyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding#certkeyname SslcacertgroupSslcertkeyBinding#certkeyname}
   */
   readonly certkeyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding#crlcheck SslcacertgroupSslcertkeyBinding#crlcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding#crlcheck SslcacertgroupSslcertkeyBinding#crlcheck}
   */
   readonly crlcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding#id SslcacertgroupSslcertkeyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding#id SslcacertgroupSslcertkeyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding#ocspcheck SslcacertgroupSslcertkeyBinding#ocspcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding#ocspcheck SslcacertgroupSslcertkeyBinding#ocspcheck}
   */
   readonly ocspcheck?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding citrixadc_sslcacertgroup_sslcertkey_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding citrixadc_sslcacertgroup_sslcertkey_binding}
 */
 export class SslcacertgroupSslcertkeyBinding extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SslcacertgroupSslcertkeyBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslcacertgroupSslcertkeyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslcacertgroupSslcertkeyBinding to import
-  * @param importFromId The id of the existing SslcacertgroupSslcertkeyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslcacertgroupSslcertkeyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslcacertgroupSslcertkeyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SslcacertgroupSslcertkeyBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcacertgroup_sslcertkey_binding citrixadc_sslcacertgroup_sslcertkey_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcacertgroup_sslcertkey_binding citrixadc_sslcacertgroup_sslcertkey_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SslcacertgroupSslcertkeyBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcacertgroup_sslcertkey_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `oci_stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management`
 
-Refer to the Terraform Registry for docs: [`oci_stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management`](https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management).
+Refer to the Terraform Registry for docs: [`oci_stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management`](https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface WaasProtectionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#action WaasProtectionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#action WaasProtectionRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#id WaasProtectionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#id WaasProtectionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#key WaasProtectionRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#key WaasProtectionRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#waas_policy_id WaasProtectionRule#waas_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#waas_policy_id WaasProtectionRule#waas_policy_id}
   */
   readonly waasPolicyId: string;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}
   */
   readonly exclusions?: WaasProtectionRuleExclusions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#timeouts WaasProtectionRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#timeouts WaasProtectionRule#timeouts}
   */
   readonly timeouts?: WaasProtectionRuleTimeouts;
 }
 export interface WaasProtectionRuleExclusions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}
   */
   readonly exclusions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#target WaasProtectionRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#target WaasProtectionRule#target}
   */
   readonly target?: string;
 }
@@ -190,15 +190,15 @@ export class WaasProtectionRuleExclusionsList extends cdktf.ComplexList {
 }
 export interface WaasProtectionRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#create WaasProtectionRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#create WaasProtectionRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#delete WaasProtectionRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#delete WaasProtectionRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#update WaasProtectionRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#update WaasProtectionRule#update}
   */
   readonly update?: string;
 }
@@ -350,7 +350,7 @@ export class WaasProtectionRuleTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule oci_waas_protection_rule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule oci_waas_protection_rule}
 */
 export class WaasProtectionRule extends cdktf.TerraformResource {
 
@@ -366,7 +366,7 @@ export class WaasProtectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaasProtectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaasProtectionRule to import
-  * @param importFromId The id of the existing WaasProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaasProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaasProtectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -378,7 +378,7 @@ export class WaasProtectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waas_protection_rule oci_waas_protection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/waas_protection_rule oci_waas_protection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,8 +389,8 @@ export class WaasProtectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'oci_waas_protection_rule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

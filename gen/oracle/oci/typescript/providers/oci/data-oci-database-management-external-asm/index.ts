@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_external_asm
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_external_asm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementExternalAsmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_external_asm#external_asm_id DataOciDatabaseManagementExternalAsm#external_asm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_external_asm#external_asm_id DataOciDatabaseManagementExternalAsm#external_asm_id}
   */
   readonly externalAsmId: string;
 }
@@ -124,7 +124,7 @@ export class DataOciDatabaseManagementExternalAsmServicedDatabasesList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_external_asm oci_database_management_external_asm}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_external_asm oci_database_management_external_asm}
 */
 export class DataOciDatabaseManagementExternalAsm extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataOciDatabaseManagementExternalAsm extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciDatabaseManagementExternalAsm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementExternalAsm to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementExternalAsm that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_external_asm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementExternalAsm that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_external_asm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementExternalAsm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataOciDatabaseManagementExternalAsm extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_external_asm oci_database_management_external_asm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_external_asm oci_database_management_external_asm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataOciDatabaseManagementExternalAsm extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_database_management_external_asm',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

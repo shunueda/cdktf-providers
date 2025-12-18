@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOpsiOperationsInsightsWarehousesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#compartment_id DataOciOpsiOperationsInsightsWarehouses#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#compartment_id DataOciOpsiOperationsInsightsWarehouses#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#display_name DataOciOpsiOperationsInsightsWarehouses#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#display_name DataOciOpsiOperationsInsightsWarehouses#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#id DataOciOpsiOperationsInsightsWarehouses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#id DataOciOpsiOperationsInsightsWarehouses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#state DataOciOpsiOperationsInsightsWarehouses#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#state DataOciOpsiOperationsInsightsWarehouses#state}
   */
   readonly state?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#filter DataOciOpsiOperationsInsightsWarehouses#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#filter DataOciOpsiOperationsInsightsWarehouses#filter}
   */
   readonly filter?: DataOciOpsiOperationsInsightsWarehousesFilter[] | cdktf.IResolvable;
 }
@@ -274,15 +274,15 @@ export class DataOciOpsiOperationsInsightsWarehousesOperationsInsightsWarehouseS
 }
 export interface DataOciOpsiOperationsInsightsWarehousesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#name DataOciOpsiOperationsInsightsWarehouses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#name DataOciOpsiOperationsInsightsWarehouses#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#regex DataOciOpsiOperationsInsightsWarehouses#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#regex DataOciOpsiOperationsInsightsWarehouses#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#values DataOciOpsiOperationsInsightsWarehouses#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#values DataOciOpsiOperationsInsightsWarehouses#values}
   */
   readonly values: string[];
 }
@@ -450,7 +450,7 @@ export class DataOciOpsiOperationsInsightsWarehousesFilterList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses oci_opsi_operations_insights_warehouses}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses oci_opsi_operations_insights_warehouses}
 */
 export class DataOciOpsiOperationsInsightsWarehouses extends cdktf.TerraformDataSource {
 
@@ -466,7 +466,7 @@ export class DataOciOpsiOperationsInsightsWarehouses extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciOpsiOperationsInsightsWarehouses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOpsiOperationsInsightsWarehouses to import
-  * @param importFromId The id of the existing DataOciOpsiOperationsInsightsWarehouses that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOpsiOperationsInsightsWarehouses that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOpsiOperationsInsightsWarehouses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -478,7 +478,7 @@ export class DataOciOpsiOperationsInsightsWarehouses extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opsi_operations_insights_warehouses oci_opsi_operations_insights_warehouses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opsi_operations_insights_warehouses oci_opsi_operations_insights_warehouses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -489,8 +489,8 @@ export class DataOciOpsiOperationsInsightsWarehouses extends cdktf.TerraformData
       terraformResourceType: 'oci_opsi_operations_insights_warehouses',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

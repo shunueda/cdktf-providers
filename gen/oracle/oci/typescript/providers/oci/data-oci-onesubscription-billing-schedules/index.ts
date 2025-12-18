@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOnesubscriptionBillingSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#compartment_id DataOciOnesubscriptionBillingSchedules#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#compartment_id DataOciOnesubscriptionBillingSchedules#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#id DataOciOnesubscriptionBillingSchedules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#id DataOciOnesubscriptionBillingSchedules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#subscribed_service_id DataOciOnesubscriptionBillingSchedules#subscribed_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#subscribed_service_id DataOciOnesubscriptionBillingSchedules#subscribed_service_id}
   */
   readonly subscribedServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#subscription_id DataOciOnesubscriptionBillingSchedules#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#subscription_id DataOciOnesubscriptionBillingSchedules#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#filter DataOciOnesubscriptionBillingSchedules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#filter DataOciOnesubscriptionBillingSchedules#filter}
   */
   readonly filter?: DataOciOnesubscriptionBillingSchedulesFilter[] | cdktf.IResolvable;
 }
@@ -251,15 +251,15 @@ export class DataOciOnesubscriptionBillingSchedulesBillingSchedulesList extends 
 }
 export interface DataOciOnesubscriptionBillingSchedulesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#name DataOciOnesubscriptionBillingSchedules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#name DataOciOnesubscriptionBillingSchedules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#regex DataOciOnesubscriptionBillingSchedules#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#regex DataOciOnesubscriptionBillingSchedules#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#values DataOciOnesubscriptionBillingSchedules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#values DataOciOnesubscriptionBillingSchedules#values}
   */
   readonly values: string[];
 }
@@ -427,7 +427,7 @@ export class DataOciOnesubscriptionBillingSchedulesFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules oci_onesubscription_billing_schedules}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules oci_onesubscription_billing_schedules}
 */
 export class DataOciOnesubscriptionBillingSchedules extends cdktf.TerraformDataSource {
 
@@ -443,7 +443,7 @@ export class DataOciOnesubscriptionBillingSchedules extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciOnesubscriptionBillingSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOnesubscriptionBillingSchedules to import
-  * @param importFromId The id of the existing DataOciOnesubscriptionBillingSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOnesubscriptionBillingSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOnesubscriptionBillingSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -455,7 +455,7 @@ export class DataOciOnesubscriptionBillingSchedules extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_billing_schedules oci_onesubscription_billing_schedules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_billing_schedules oci_onesubscription_billing_schedules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -466,8 +466,8 @@ export class DataOciOnesubscriptionBillingSchedules extends cdktf.TerraformDataS
       terraformResourceType: 'oci_onesubscription_billing_schedules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

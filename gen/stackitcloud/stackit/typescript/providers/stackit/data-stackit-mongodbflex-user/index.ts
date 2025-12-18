@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataStackitMongodbflexUserConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the MongoDB Flex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user#instance_id DataStackitMongodbflexUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user#instance_id DataStackitMongodbflexUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user#project_id DataStackitMongodbflexUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user#project_id DataStackitMongodbflexUser#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user#region DataStackitMongodbflexUser#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user#region DataStackitMongodbflexUser#region}
   */
   readonly region?: string;
   /**
   * User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user#user_id DataStackitMongodbflexUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user#user_id DataStackitMongodbflexUser#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user stackit_mongodbflex_user}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user stackit_mongodbflex_user}
 */
 export class DataStackitMongodbflexUser extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataStackitMongodbflexUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitMongodbflexUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitMongodbflexUser to import
-  * @param importFromId The id of the existing DataStackitMongodbflexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitMongodbflexUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitMongodbflexUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataStackitMongodbflexUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/mongodbflex_user stackit_mongodbflex_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/mongodbflex_user stackit_mongodbflex_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataStackitMongodbflexUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_mongodbflex_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

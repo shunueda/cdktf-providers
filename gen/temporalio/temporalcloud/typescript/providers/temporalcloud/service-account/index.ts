@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * The role on the account. Must be one of admin, developer, or read (case-insensitive).
+  * The role on the account. Must be one of admin, developer, read, or metricsread (case-insensitive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#account_access ServiceAccount#account_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#account_access ServiceAccount#account_access}
   */
   readonly accountAccess: string;
   /**
   * The description for the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#description ServiceAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#description ServiceAccount#description}
   */
   readonly description?: string;
   /**
   * The name associated with the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#name ServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#name ServiceAccount#name}
   */
   readonly name: string;
   /**
   * The set of namespace accesses. Empty sets are not allowed, omit the attribute instead. Service Accounts with an account_access role of admin cannot be assigned explicit permissions to namespaces. Admins implicitly receive access to all Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#namespace_accesses ServiceAccount#namespace_accesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#namespace_accesses ServiceAccount#namespace_accesses}
   */
   readonly namespaceAccesses?: ServiceAccountNamespaceAccesses[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#timeouts ServiceAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#timeouts ServiceAccount#timeouts}
   */
   readonly timeouts?: ServiceAccountTimeouts;
 }
@@ -42,13 +42,13 @@ export interface ServiceAccountNamespaceAccesses {
   /**
   * The namespace to assign permissions to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#namespace_id ServiceAccount#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#namespace_id ServiceAccount#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * The permission to assign. Must be one of admin, write, or read (case-insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#permission ServiceAccount#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#permission ServiceAccount#permission}
   */
   readonly permission: string;
 }
@@ -189,13 +189,13 @@ export interface ServiceAccountTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#create ServiceAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#create ServiceAccount#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#delete ServiceAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#delete ServiceAccount#delete}
   */
   readonly delete?: string;
 }
@@ -318,7 +318,7 @@ export class ServiceAccountTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account temporalcloud_service_account}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account temporalcloud_service_account}
 */
 export class ServiceAccount extends cdktf.TerraformResource {
 
@@ -334,7 +334,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccount to import
-  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class ServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/service_account temporalcloud_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/service_account temporalcloud_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class ServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_service_account',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

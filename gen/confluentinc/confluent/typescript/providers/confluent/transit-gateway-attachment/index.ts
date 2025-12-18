@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TransitGatewayAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the Transit Gateway Attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#display_name TransitGatewayAttachment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#display_name TransitGatewayAttachment#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TransitGatewayAttachmentConfig extends cdktf.TerraformMetaArgum
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#aws TransitGatewayAttachment#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#aws TransitGatewayAttachment#aws}
   */
   readonly aws?: TransitGatewayAttachmentAws;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#environment TransitGatewayAttachment#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#environment TransitGatewayAttachment#environment}
   */
   readonly environment: TransitGatewayAttachmentEnvironment;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#network TransitGatewayAttachment#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#network TransitGatewayAttachment#network}
   */
   readonly network: TransitGatewayAttachmentNetwork;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#timeouts TransitGatewayAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#timeouts TransitGatewayAttachment#timeouts}
   */
   readonly timeouts?: TransitGatewayAttachmentTimeouts;
 }
@@ -49,19 +49,19 @@ export interface TransitGatewayAttachmentAws {
   /**
   * The Amazon Resource Name (ARN) of the Resource Access Manager (RAM) Resource Share of the transit gateway your Confluent Cloud network attaches to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#ram_resource_share_arn TransitGatewayAttachment#ram_resource_share_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#ram_resource_share_arn TransitGatewayAttachment#ram_resource_share_arn}
   */
   readonly ramResourceShareArn: string;
   /**
   * List of destination routes for traffic from Confluent VPC to customer VPC via Transit Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#routes TransitGatewayAttachment#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#routes TransitGatewayAttachment#routes}
   */
   readonly routes: string[];
   /**
   * The ID of the AWS Transit Gateway that your Confluent Cloud network attaches to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#transit_gateway_id TransitGatewayAttachment#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#transit_gateway_id TransitGatewayAttachment#transit_gateway_id}
   */
   readonly transitGatewayId: string;
 }
@@ -201,7 +201,7 @@ export interface TransitGatewayAttachmentEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -287,7 +287,7 @@ export interface TransitGatewayAttachmentNetwork {
   /**
   * The unique identifier for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#id TransitGatewayAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -371,11 +371,11 @@ export class TransitGatewayAttachmentNetworkOutputReference extends cdktf.Comple
 }
 export interface TransitGatewayAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#create TransitGatewayAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#create TransitGatewayAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#delete TransitGatewayAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#delete TransitGatewayAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -498,7 +498,7 @@ export class TransitGatewayAttachmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment confluent_transit_gateway_attachment}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment confluent_transit_gateway_attachment}
 */
 export class TransitGatewayAttachment extends cdktf.TerraformResource {
 
@@ -514,7 +514,7 @@ export class TransitGatewayAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGatewayAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGatewayAttachment to import
-  * @param importFromId The id of the existing TransitGatewayAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGatewayAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGatewayAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -526,7 +526,7 @@ export class TransitGatewayAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/transit_gateway_attachment confluent_transit_gateway_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/transit_gateway_attachment confluent_transit_gateway_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,8 +537,8 @@ export class TransitGatewayAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_transit_gateway_attachment',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

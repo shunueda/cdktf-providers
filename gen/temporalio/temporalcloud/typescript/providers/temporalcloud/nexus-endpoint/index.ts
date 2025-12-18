@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NexusEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * Namespace Id(s) that are allowed to call this Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#allowed_caller_namespaces NexusEndpoint#allowed_caller_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#allowed_caller_namespaces NexusEndpoint#allowed_caller_namespaces}
   */
   readonly allowedCallerNamespaces: string[];
   /**
   * The description for the Nexus endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#description NexusEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#description NexusEndpoint#description}
   */
   readonly description?: string;
   /**
   * The name of the endpoint. Must be unique within an account and match `^[a-zA-Z][a-zA-Z0-9\-]*[a-zA-Z0-9]$`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#name NexusEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#name NexusEndpoint#name}
   */
   readonly name: string;
   /**
   * A target spec for routing nexus requests to a specific cloud namespace worker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#worker_target NexusEndpoint#worker_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#worker_target NexusEndpoint#worker_target}
   */
   readonly workerTarget: NexusEndpointWorkerTarget;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#timeouts NexusEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#timeouts NexusEndpoint#timeouts}
   */
   readonly timeouts?: NexusEndpointTimeouts;
 }
@@ -42,13 +42,13 @@ export interface NexusEndpointWorkerTarget {
   /**
   * The target cloud namespace to route requests to. Namespace must be in same account as the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#namespace_id NexusEndpoint#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#namespace_id NexusEndpoint#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * The task queue on the cloud namespace to route requests to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#task_queue NexusEndpoint#task_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#task_queue NexusEndpoint#task_queue}
   */
   readonly taskQueue: string;
 }
@@ -167,13 +167,13 @@ export interface NexusEndpointTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#create NexusEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#create NexusEndpoint#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#delete NexusEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#delete NexusEndpoint#delete}
   */
   readonly delete?: string;
 }
@@ -296,7 +296,7 @@ export class NexusEndpointTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint temporalcloud_nexus_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint temporalcloud_nexus_endpoint}
 */
 export class NexusEndpoint extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class NexusEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NexusEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NexusEndpoint to import
-  * @param importFromId The id of the existing NexusEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NexusEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NexusEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class NexusEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/nexus_endpoint temporalcloud_nexus_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/nexus_endpoint temporalcloud_nexus_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class NexusEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_nexus_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

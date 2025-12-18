@@ -1,3 +1,3 @@
 # `citrixadc_nspartition_vlan_binding`
 
-Refer to the Terraform Registry for docs: [`citrixadc_nspartition_vlan_binding`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nspartition_vlan_binding).
+Refer to the Terraform Registry for docs: [`citrixadc_nspartition_vlan_binding`](https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nspartition_vlan_binding).

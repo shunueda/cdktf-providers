@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface OrgNacEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#labels OrgNacEndpoint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#labels OrgNacEndpoint#labels}
   */
   readonly labels?: string[];
   /**
   * Only non-local-admin MAC is accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#mac OrgNacEndpoint#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#mac OrgNacEndpoint#mac}
   */
   readonly mac: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#name OrgNacEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#name OrgNacEndpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#notes OrgNacEndpoint#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#notes OrgNacEndpoint#notes}
   */
   readonly notes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#org_id OrgNacEndpoint#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#org_id OrgNacEndpoint#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#radius_group OrgNacEndpoint#radius_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#radius_group OrgNacEndpoint#radius_group}
   */
   readonly radiusGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#vlan OrgNacEndpoint#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#vlan OrgNacEndpoint#vlan}
   */
   readonly vlan?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint mist_org_nac_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint mist_org_nac_endpoint}
 */
 export class OrgNacEndpoint extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class OrgNacEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgNacEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgNacEndpoint to import
-  * @param importFromId The id of the existing OrgNacEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgNacEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgNacEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class OrgNacEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nac_endpoint mist_org_nac_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nac_endpoint mist_org_nac_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class OrgNacEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_nac_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

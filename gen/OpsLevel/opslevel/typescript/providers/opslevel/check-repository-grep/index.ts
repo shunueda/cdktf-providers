@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CheckRepositoryGrepConfig extends cdktf.TerraformMetaArguments 
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#category CheckRepositoryGrep#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#category CheckRepositoryGrep#category}
   */
   readonly category: string;
   /**
   * Whether the check looks for the existence of a directory instead of a file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#directory_search CheckRepositoryGrep#directory_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#directory_search CheckRepositoryGrep#directory_search}
   */
   readonly directorySearch: boolean | cdktf.IResolvable;
   /**
@@ -25,55 +25,55 @@ export interface CheckRepositoryGrepConfig extends cdktf.TerraformMetaArguments 
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#enable_on CheckRepositoryGrep#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#enable_on CheckRepositoryGrep#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#enabled CheckRepositoryGrep#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#enabled CheckRepositoryGrep#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#file_contents_predicate CheckRepositoryGrep#file_contents_predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#file_contents_predicate CheckRepositoryGrep#file_contents_predicate}
   */
   readonly fileContentsPredicate: CheckRepositoryGrepFileContentsPredicate;
   /**
   * Restrict the search to certain file paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#filepaths CheckRepositoryGrep#filepaths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#filepaths CheckRepositoryGrep#filepaths}
   */
   readonly filepaths: string[];
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#filter CheckRepositoryGrep#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#filter CheckRepositoryGrep#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#level CheckRepositoryGrep#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#level CheckRepositoryGrep#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#name CheckRepositoryGrep#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#name CheckRepositoryGrep#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#notes CheckRepositoryGrep#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#notes CheckRepositoryGrep#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#owner CheckRepositoryGrep#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#owner CheckRepositoryGrep#owner}
   */
   readonly owner?: string;
 }
@@ -81,13 +81,13 @@ export interface CheckRepositoryGrepFileContentsPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#type CheckRepositoryGrep#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#type CheckRepositoryGrep#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#value CheckRepositoryGrep#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#value CheckRepositoryGrep#value}
   */
   readonly value?: string;
 }
@@ -207,7 +207,7 @@ export class CheckRepositoryGrepFileContentsPredicateOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep opslevel_check_repository_grep}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep opslevel_check_repository_grep}
 */
 export class CheckRepositoryGrep extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class CheckRepositoryGrep extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckRepositoryGrep resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckRepositoryGrep to import
-  * @param importFromId The id of the existing CheckRepositoryGrep that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckRepositoryGrep that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckRepositoryGrep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class CheckRepositoryGrep extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_repository_grep opslevel_check_repository_grep} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_repository_grep opslevel_check_repository_grep} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class CheckRepositoryGrep extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_repository_grep',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apigateway_api
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/apigateway_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApigatewayApiConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apigateway_api#api_id DataOciApigatewayApi#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/apigateway_api#api_id DataOciApigatewayApi#api_id}
   */
   readonly apiId: string;
 }
@@ -184,7 +184,7 @@ export class DataOciApigatewayApiValidationResultsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apigateway_api oci_apigateway_api}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/apigateway_api oci_apigateway_api}
 */
 export class DataOciApigatewayApi extends cdktf.TerraformDataSource {
 
@@ -200,7 +200,7 @@ export class DataOciApigatewayApi extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciApigatewayApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApigatewayApi to import
-  * @param importFromId The id of the existing DataOciApigatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apigateway_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApigatewayApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/apigateway_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApigatewayApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class DataOciApigatewayApi extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apigateway_api oci_apigateway_api} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/apigateway_api oci_apigateway_api} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class DataOciApigatewayApi extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_apigateway_api',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

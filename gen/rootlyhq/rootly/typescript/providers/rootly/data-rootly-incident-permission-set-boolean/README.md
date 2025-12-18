@@ -1,3 +1,3 @@
 # `data_rootly_incident_permission_set_boolean`
 
-Refer to the Terraform Registry for docs: [`data_rootly_incident_permission_set_boolean`](https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/incident_permission_set_boolean).
+Refer to the Terraform Registry for docs: [`data_rootly_incident_permission_set_boolean`](https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/incident_permission_set_boolean).

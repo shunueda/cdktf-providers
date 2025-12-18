@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsApprovalWorkflowStepConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#approval_workflow_step_id DataOciIdentityDomainsApprovalWorkflowStep#approval_workflow_step_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#approval_workflow_step_id DataOciIdentityDomainsApprovalWorkflowStep#approval_workflow_step_id}
   */
   readonly approvalWorkflowStepId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#attribute_sets DataOciIdentityDomainsApprovalWorkflowStep#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#attribute_sets DataOciIdentityDomainsApprovalWorkflowStep#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#attributes DataOciIdentityDomainsApprovalWorkflowStep#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#attributes DataOciIdentityDomainsApprovalWorkflowStep#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#authorization DataOciIdentityDomainsApprovalWorkflowStep#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#authorization DataOciIdentityDomainsApprovalWorkflowStep#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowStep#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowStep#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowStep#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowStep#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -494,7 +494,7 @@ export class DataOciIdentityDomainsApprovalWorkflowStepTagsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step oci_identity_domains_approval_workflow_step}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step oci_identity_domains_approval_workflow_step}
 */
 export class DataOciIdentityDomainsApprovalWorkflowStep extends cdktf.TerraformDataSource {
 
@@ -510,7 +510,7 @@ export class DataOciIdentityDomainsApprovalWorkflowStep extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciIdentityDomainsApprovalWorkflowStep resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsApprovalWorkflowStep to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsApprovalWorkflowStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsApprovalWorkflowStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsApprovalWorkflowStep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -522,7 +522,7 @@ export class DataOciIdentityDomainsApprovalWorkflowStep extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_approval_workflow_step oci_identity_domains_approval_workflow_step} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_approval_workflow_step oci_identity_domains_approval_workflow_step} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,8 +533,8 @@ export class DataOciIdentityDomainsApprovalWorkflowStep extends cdktf.TerraformD
       terraformResourceType: 'oci_identity_domains_approval_workflow_step',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

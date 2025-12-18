@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskPagePagerdutyOnCallRespondersConfig extends cdktf.T
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#enabled WorkflowTaskPagePagerdutyOnCallResponders#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#enabled WorkflowTaskPagePagerdutyOnCallResponders#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#id WorkflowTaskPagePagerdutyOnCallResponders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#id WorkflowTaskPagePagerdutyOnCallResponders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskPagePagerdutyOnCallRespondersConfig extends cdktf.T
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#name WorkflowTaskPagePagerdutyOnCallResponders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#name WorkflowTaskPagePagerdutyOnCallResponders#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#position WorkflowTaskPagePagerdutyOnCallResponders#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#position WorkflowTaskPagePagerdutyOnCallResponders#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#skip_on_failure WorkflowTaskPagePagerdutyOnCallResponders#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#skip_on_failure WorkflowTaskPagePagerdutyOnCallResponders#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#workflow_id WorkflowTaskPagePagerdutyOnCallResponders#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#workflow_id WorkflowTaskPagePagerdutyOnCallResponders#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#task_params WorkflowTaskPagePagerdutyOnCallResponders#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#task_params WorkflowTaskPagePagerdutyOnCallResponders#task_params}
   */
   readonly taskParams: WorkflowTaskPagePagerdutyOnCallRespondersTaskParams;
 }
 export interface WorkflowTaskPagePagerdutyOnCallRespondersTaskParamsEscalationPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#id WorkflowTaskPagePagerdutyOnCallResponders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#id WorkflowTaskPagePagerdutyOnCallResponders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#name WorkflowTaskPagePagerdutyOnCallResponders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#name WorkflowTaskPagePagerdutyOnCallResponders#name}
   */
   readonly name: string;
 }
@@ -199,14 +199,14 @@ export class WorkflowTaskPagePagerdutyOnCallRespondersTaskParamsEscalationPolici
 }
 export interface WorkflowTaskPagePagerdutyOnCallRespondersTaskParamsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#id WorkflowTaskPagePagerdutyOnCallResponders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#id WorkflowTaskPagePagerdutyOnCallResponders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#name WorkflowTaskPagePagerdutyOnCallResponders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#name WorkflowTaskPagePagerdutyOnCallResponders#name}
   */
   readonly name: string;
 }
@@ -347,51 +347,51 @@ export interface WorkflowTaskPagePagerdutyOnCallRespondersTaskParams {
   /**
   * Rootly only supports linking to a single PagerDuty incident. If this feature is disabled Rootly will add responders from any additional pages to the existing PagerDuty incident that is linked to the Rootly incident. If enabled, Rootly will create a new PagerDuty incident that is not linked to any Rootly incidents. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#create_new_incident_on_conflict WorkflowTaskPagePagerdutyOnCallResponders#create_new_incident_on_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#create_new_incident_on_conflict WorkflowTaskPagePagerdutyOnCallResponders#create_new_incident_on_conflict}
   */
   readonly createNewIncidentOnConflict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#message WorkflowTaskPagePagerdutyOnCallResponders#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#message WorkflowTaskPagePagerdutyOnCallResponders#message}
   */
   readonly message?: string;
   /**
   * PagerDuty incident priority, selecting auto will let Rootly auto map our incident severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#priority WorkflowTaskPagePagerdutyOnCallResponders#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#priority WorkflowTaskPagePagerdutyOnCallResponders#priority}
   */
   readonly priority?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#service WorkflowTaskPagePagerdutyOnCallResponders#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#service WorkflowTaskPagePagerdutyOnCallResponders#service}
   */
   readonly service: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#task_type WorkflowTaskPagePagerdutyOnCallResponders#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#task_type WorkflowTaskPagePagerdutyOnCallResponders#task_type}
   */
   readonly taskType?: string;
   /**
   * Incident title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#title WorkflowTaskPagePagerdutyOnCallResponders#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#title WorkflowTaskPagePagerdutyOnCallResponders#title}
   */
   readonly title?: string;
   /**
   * Value must be one of `high`, `low`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#urgency WorkflowTaskPagePagerdutyOnCallResponders#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#urgency WorkflowTaskPagePagerdutyOnCallResponders#urgency}
   */
   readonly urgency?: string;
   /**
   * escalation_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#escalation_policies WorkflowTaskPagePagerdutyOnCallResponders#escalation_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#escalation_policies WorkflowTaskPagePagerdutyOnCallResponders#escalation_policies}
   */
   readonly escalationPolicies?: WorkflowTaskPagePagerdutyOnCallRespondersTaskParamsEscalationPolicies[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#users WorkflowTaskPagePagerdutyOnCallResponders#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#users WorkflowTaskPagePagerdutyOnCallResponders#users}
   */
   readonly users?: WorkflowTaskPagePagerdutyOnCallRespondersTaskParamsUsers[] | cdktf.IResolvable;
 }
@@ -704,7 +704,7 @@ export class WorkflowTaskPagePagerdutyOnCallRespondersTaskParamsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders rootly_workflow_task_page_pagerduty_on_call_responders}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders rootly_workflow_task_page_pagerduty_on_call_responders}
 */
 export class WorkflowTaskPagePagerdutyOnCallResponders extends cdktf.TerraformResource {
 
@@ -720,7 +720,7 @@ export class WorkflowTaskPagePagerdutyOnCallResponders extends cdktf.TerraformRe
   * Generates CDKTF code for importing a WorkflowTaskPagePagerdutyOnCallResponders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskPagePagerdutyOnCallResponders to import
-  * @param importFromId The id of the existing WorkflowTaskPagePagerdutyOnCallResponders that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskPagePagerdutyOnCallResponders that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskPagePagerdutyOnCallResponders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class WorkflowTaskPagePagerdutyOnCallResponders extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_pagerduty_on_call_responders rootly_workflow_task_page_pagerduty_on_call_responders} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_pagerduty_on_call_responders rootly_workflow_task_page_pagerduty_on_call_responders} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,8 +743,8 @@ export class WorkflowTaskPagePagerdutyOnCallResponders extends cdktf.TerraformRe
       terraformResourceType: 'rootly_workflow_task_page_pagerduty_on_call_responders',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

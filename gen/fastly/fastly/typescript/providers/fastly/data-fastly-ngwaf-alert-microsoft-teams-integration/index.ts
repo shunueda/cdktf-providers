@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataFastlyNgwafAlertMicrosoftTeamsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration#id DataFastlyNgwafAlertMicrosoftTeamsIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration#id DataFastlyNgwafAlertMicrosoftTeamsIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataFastlyNgwafAlertMicrosoftTeamsIntegrationConfig extends cdk
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration#workspace_id DataFastlyNgwafAlertMicrosoftTeamsIntegration#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration#workspace_id DataFastlyNgwafAlertMicrosoftTeamsIntegration#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -98,7 +98,7 @@ export class DataFastlyNgwafAlertMicrosoftTeamsIntegrationMicrosoftTeamsAlertsLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration fastly_ngwaf_alert_microsoft_teams_integration}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration fastly_ngwaf_alert_microsoft_teams_integration}
 */
 export class DataFastlyNgwafAlertMicrosoftTeamsIntegration extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataFastlyNgwafAlertMicrosoftTeamsIntegration extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataFastlyNgwafAlertMicrosoftTeamsIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyNgwafAlertMicrosoftTeamsIntegration to import
-  * @param importFromId The id of the existing DataFastlyNgwafAlertMicrosoftTeamsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyNgwafAlertMicrosoftTeamsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyNgwafAlertMicrosoftTeamsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataFastlyNgwafAlertMicrosoftTeamsIntegration extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration fastly_ngwaf_alert_microsoft_teams_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_microsoft_teams_integration fastly_ngwaf_alert_microsoft_teams_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataFastlyNgwafAlertMicrosoftTeamsIntegration extends cdktf.Terrafo
       terraformResourceType: 'fastly_ngwaf_alert_microsoft_teams_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

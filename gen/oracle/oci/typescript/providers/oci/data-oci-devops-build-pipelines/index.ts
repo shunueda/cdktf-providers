@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDevopsBuildPipelinesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#compartment_id DataOciDevopsBuildPipelines#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#compartment_id DataOciDevopsBuildPipelines#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#display_name DataOciDevopsBuildPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#display_name DataOciDevopsBuildPipelines#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#id DataOciDevopsBuildPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#id DataOciDevopsBuildPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#project_id DataOciDevopsBuildPipelines#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#project_id DataOciDevopsBuildPipelines#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#state DataOciDevopsBuildPipelines#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#state DataOciDevopsBuildPipelines#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#filter DataOciDevopsBuildPipelines#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#filter DataOciDevopsBuildPipelines#filter}
   */
   readonly filter?: DataOciDevopsBuildPipelinesFilter[] | cdktf.IResolvable;
 }
@@ -415,15 +415,15 @@ export class DataOciDevopsBuildPipelinesBuildPipelineCollectionList extends cdkt
 }
 export interface DataOciDevopsBuildPipelinesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#name DataOciDevopsBuildPipelines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#name DataOciDevopsBuildPipelines#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#regex DataOciDevopsBuildPipelines#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#regex DataOciDevopsBuildPipelines#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#values DataOciDevopsBuildPipelines#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#values DataOciDevopsBuildPipelines#values}
   */
   readonly values: string[];
 }
@@ -591,7 +591,7 @@ export class DataOciDevopsBuildPipelinesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines oci_devops_build_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines oci_devops_build_pipelines}
 */
 export class DataOciDevopsBuildPipelines extends cdktf.TerraformDataSource {
 
@@ -607,7 +607,7 @@ export class DataOciDevopsBuildPipelines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDevopsBuildPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDevopsBuildPipelines to import
-  * @param importFromId The id of the existing DataOciDevopsBuildPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDevopsBuildPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDevopsBuildPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class DataOciDevopsBuildPipelines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_build_pipelines oci_devops_build_pipelines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_build_pipelines oci_devops_build_pipelines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class DataOciDevopsBuildPipelines extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_devops_build_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

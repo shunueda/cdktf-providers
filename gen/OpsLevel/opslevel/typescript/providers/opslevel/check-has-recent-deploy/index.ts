@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CheckHasRecentDeployConfig extends cdktf.TerraformMetaArguments
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#category CheckHasRecentDeploy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#category CheckHasRecentDeploy#category}
   */
   readonly category: string;
   /**
   * The number of days to check since the last deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#days CheckHasRecentDeploy#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#days CheckHasRecentDeploy#days}
   */
   readonly days: number;
   /**
@@ -25,49 +25,49 @@ export interface CheckHasRecentDeployConfig extends cdktf.TerraformMetaArguments
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#enable_on CheckHasRecentDeploy#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#enable_on CheckHasRecentDeploy#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#enabled CheckHasRecentDeploy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#enabled CheckHasRecentDeploy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#filter CheckHasRecentDeploy#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#filter CheckHasRecentDeploy#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#level CheckHasRecentDeploy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#level CheckHasRecentDeploy#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#name CheckHasRecentDeploy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#name CheckHasRecentDeploy#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#notes CheckHasRecentDeploy#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#notes CheckHasRecentDeploy#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#owner CheckHasRecentDeploy#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#owner CheckHasRecentDeploy#owner}
   */
   readonly owner?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy opslevel_check_has_recent_deploy}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy opslevel_check_has_recent_deploy}
 */
 export class CheckHasRecentDeploy extends cdktf.TerraformResource {
 
@@ -83,7 +83,7 @@ export class CheckHasRecentDeploy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckHasRecentDeploy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckHasRecentDeploy to import
-  * @param importFromId The id of the existing CheckHasRecentDeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckHasRecentDeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckHasRecentDeploy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +95,7 @@ export class CheckHasRecentDeploy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_has_recent_deploy opslevel_check_has_recent_deploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_has_recent_deploy opslevel_check_has_recent_deploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +106,8 @@ export class CheckHasRecentDeploy extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_has_recent_deploy',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

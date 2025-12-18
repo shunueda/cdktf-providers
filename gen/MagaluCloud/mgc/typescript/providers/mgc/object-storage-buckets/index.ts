@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ObjectStorageBucketsConfig extends cdktf.TerraformMetaArguments
   /**
   * Name of the bucket to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#bucket ObjectStorageBuckets#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#bucket ObjectStorageBuckets#bucket}
   */
   readonly bucket: string;
   /**
   * CORS configuration for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#cors ObjectStorageBuckets#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#cors ObjectStorageBuckets#cors}
   */
   readonly cors?: ObjectStorageBucketsCors;
   /**
   * Enable object lock for this bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#lock ObjectStorageBuckets#lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#lock ObjectStorageBuckets#lock}
   */
   readonly lock?: boolean | cdktf.IResolvable;
   /**
   * Bucket policy document as a JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#policy ObjectStorageBuckets#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#policy ObjectStorageBuckets#policy}
   */
   readonly policy?: string;
   /**
   * Enable versioning for this bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#versioning ObjectStorageBuckets#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#versioning ObjectStorageBuckets#versioning}
   */
   readonly versioning?: boolean | cdktf.IResolvable;
 }
@@ -42,31 +42,31 @@ export interface ObjectStorageBucketsCors {
   /**
   * Allowed headers for CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#allowed_headers ObjectStorageBuckets#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#allowed_headers ObjectStorageBuckets#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
   * Allowed HTTP methods for CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#allowed_methods ObjectStorageBuckets#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#allowed_methods ObjectStorageBuckets#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
   * Allowed origins for CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#allowed_origins ObjectStorageBuckets#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#allowed_origins ObjectStorageBuckets#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
   * Headers exposed to the browser for CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#expose_headers ObjectStorageBuckets#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#expose_headers ObjectStorageBuckets#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Maximum age in seconds for CORS preflight cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#max_age_seconds ObjectStorageBuckets#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#max_age_seconds ObjectStorageBuckets#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -270,7 +270,7 @@ export class ObjectStorageBucketsCorsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets mgc_object_storage_buckets}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets mgc_object_storage_buckets}
 */
 export class ObjectStorageBuckets extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class ObjectStorageBuckets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageBuckets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBuckets to import
-  * @param importFromId The id of the existing ObjectStorageBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBuckets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class ObjectStorageBuckets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/object_storage_buckets mgc_object_storage_buckets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/object_storage_buckets mgc_object_storage_buckets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class ObjectStorageBuckets extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_object_storage_buckets',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

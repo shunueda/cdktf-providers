@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface HealthChecksHttpProbeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#compartment_id HealthChecksHttpProbe#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#compartment_id HealthChecksHttpProbe#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#headers HealthChecksHttpProbe#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#headers HealthChecksHttpProbe#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#id HealthChecksHttpProbe#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#id HealthChecksHttpProbe#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#method HealthChecksHttpProbe#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#method HealthChecksHttpProbe#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#path HealthChecksHttpProbe#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#path HealthChecksHttpProbe#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#port HealthChecksHttpProbe#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#port HealthChecksHttpProbe#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#protocol HealthChecksHttpProbe#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#protocol HealthChecksHttpProbe#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#targets HealthChecksHttpProbe#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#targets HealthChecksHttpProbe#targets}
   */
   readonly targets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#timeout_in_seconds HealthChecksHttpProbe#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#timeout_in_seconds HealthChecksHttpProbe#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#vantage_point_names HealthChecksHttpProbe#vantage_point_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#vantage_point_names HealthChecksHttpProbe#vantage_point_names}
   */
   readonly vantagePointNames?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#timeouts HealthChecksHttpProbe#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#timeouts HealthChecksHttpProbe#timeouts}
   */
   readonly timeouts?: HealthChecksHttpProbeTimeouts;
 }
 export interface HealthChecksHttpProbeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#create HealthChecksHttpProbe#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#create HealthChecksHttpProbe#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#delete HealthChecksHttpProbe#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#delete HealthChecksHttpProbe#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#update HealthChecksHttpProbe#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#update HealthChecksHttpProbe#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class HealthChecksHttpProbeTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe oci_health_checks_http_probe}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe oci_health_checks_http_probe}
 */
 export class HealthChecksHttpProbe extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class HealthChecksHttpProbe extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthChecksHttpProbe resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthChecksHttpProbe to import
-  * @param importFromId The id of the existing HealthChecksHttpProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthChecksHttpProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthChecksHttpProbe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class HealthChecksHttpProbe extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/health_checks_http_probe oci_health_checks_http_probe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/health_checks_http_probe oci_health_checks_http_probe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class HealthChecksHttpProbe extends cdktf.TerraformResource {
       terraformResourceType: 'oci_health_checks_http_probe',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

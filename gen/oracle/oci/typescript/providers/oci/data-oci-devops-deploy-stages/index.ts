@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDevopsDeployStagesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#compartment_id DataOciDevopsDeployStages#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#compartment_id DataOciDevopsDeployStages#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#deploy_pipeline_id DataOciDevopsDeployStages#deploy_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#deploy_pipeline_id DataOciDevopsDeployStages#deploy_pipeline_id}
   */
   readonly deployPipelineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#display_name DataOciDevopsDeployStages#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#display_name DataOciDevopsDeployStages#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#id DataOciDevopsDeployStages#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#id DataOciDevopsDeployStages#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#state DataOciDevopsDeployStages#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#state DataOciDevopsDeployStages#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#filter DataOciDevopsDeployStages#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#filter DataOciDevopsDeployStages#filter}
   */
   readonly filter?: DataOciDevopsDeployStagesFilter[] | cdktf.IResolvable;
 }
@@ -2300,15 +2300,15 @@ export class DataOciDevopsDeployStagesDeployStageCollectionList extends cdktf.Co
 }
 export interface DataOciDevopsDeployStagesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#name DataOciDevopsDeployStages#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#name DataOciDevopsDeployStages#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#regex DataOciDevopsDeployStages#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#regex DataOciDevopsDeployStages#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#values DataOciDevopsDeployStages#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#values DataOciDevopsDeployStages#values}
   */
   readonly values: string[];
 }
@@ -2476,7 +2476,7 @@ export class DataOciDevopsDeployStagesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages oci_devops_deploy_stages}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages oci_devops_deploy_stages}
 */
 export class DataOciDevopsDeployStages extends cdktf.TerraformDataSource {
 
@@ -2492,7 +2492,7 @@ export class DataOciDevopsDeployStages extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDevopsDeployStages resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDevopsDeployStages to import
-  * @param importFromId The id of the existing DataOciDevopsDeployStages that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDevopsDeployStages that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDevopsDeployStages to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2504,7 +2504,7 @@ export class DataOciDevopsDeployStages extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/devops_deploy_stages oci_devops_deploy_stages} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/devops_deploy_stages oci_devops_deploy_stages} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2515,8 +2515,8 @@ export class DataOciDevopsDeployStages extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_devops_deploy_stages',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

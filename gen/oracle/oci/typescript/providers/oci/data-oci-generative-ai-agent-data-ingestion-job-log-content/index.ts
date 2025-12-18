@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGenerativeAiAgentDataIngestionJobLogContentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content#data_ingestion_job_id DataOciGenerativeAiAgentDataIngestionJobLogContent#data_ingestion_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content#data_ingestion_job_id DataOciGenerativeAiAgentDataIngestionJobLogContent#data_ingestion_job_id}
   */
   readonly dataIngestionJobId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content#id DataOciGenerativeAiAgentDataIngestionJobLogContent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content#id DataOciGenerativeAiAgentDataIngestionJobLogContent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciGenerativeAiAgentDataIngestionJobLogContentConfig extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content oci_generative_ai_agent_data_ingestion_job_log_content}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content oci_generative_ai_agent_data_ingestion_job_log_content}
 */
 export class DataOciGenerativeAiAgentDataIngestionJobLogContent extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataOciGenerativeAiAgentDataIngestionJobLogContent extends cdktf.Te
   * Generates CDKTF code for importing a DataOciGenerativeAiAgentDataIngestionJobLogContent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGenerativeAiAgentDataIngestionJobLogContent to import
-  * @param importFromId The id of the existing DataOciGenerativeAiAgentDataIngestionJobLogContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGenerativeAiAgentDataIngestionJobLogContent that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGenerativeAiAgentDataIngestionJobLogContent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataOciGenerativeAiAgentDataIngestionJobLogContent extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content oci_generative_ai_agent_data_ingestion_job_log_content} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job_log_content oci_generative_ai_agent_data_ingestion_job_log_content} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataOciGenerativeAiAgentDataIngestionJobLogContent extends cdktf.Te
       terraformResourceType: 'oci_generative_ai_agent_data_ingestion_job_log_content',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

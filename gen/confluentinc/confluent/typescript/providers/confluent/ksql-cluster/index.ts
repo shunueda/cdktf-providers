@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KsqlClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of Confluent Streaming Units (CSUs) for the ksqlDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#csu KsqlCluster#csu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#csu KsqlCluster#csu}
   */
   readonly csu: number;
   /**
   * The name of the ksqlDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#display_name KsqlCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#display_name KsqlCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#id KsqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#id KsqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface KsqlClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Controls whether the row data should be included in the processing log topic. Set it to `false` if you don't want to emit sensitive information to the processing log. Defaults to `true`. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#use_detailed_processing_log KsqlCluster#use_detailed_processing_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#use_detailed_processing_log KsqlCluster#use_detailed_processing_log}
   */
   readonly useDetailedProcessingLog?: boolean | cdktf.IResolvable;
   /**
   * credential_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#credential_identity KsqlCluster#credential_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#credential_identity KsqlCluster#credential_identity}
   */
   readonly credentialIdentity: KsqlClusterCredentialIdentity;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#environment KsqlCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#environment KsqlCluster#environment}
   */
   readonly environment: KsqlClusterEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#kafka_cluster KsqlCluster#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#kafka_cluster KsqlCluster#kafka_cluster}
   */
   readonly kafkaCluster: KsqlClusterKafkaCluster;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#timeouts KsqlCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#timeouts KsqlCluster#timeouts}
   */
   readonly timeouts?: KsqlClusterTimeouts;
 }
@@ -61,7 +61,7 @@ export interface KsqlClusterCredentialIdentity {
   /**
   * The credential_identity to which this belongs. The credential_identity can be one of iam.v2.User, iam.v2.ServiceAccount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#id KsqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#id KsqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -147,7 +147,7 @@ export interface KsqlClusterEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#id KsqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#id KsqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -233,7 +233,7 @@ export interface KsqlClusterKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#id KsqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#id KsqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -317,7 +317,7 @@ export class KsqlClusterKafkaClusterOutputReference extends cdktf.ComplexObject 
 }
 export interface KsqlClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#create KsqlCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#create KsqlCluster#create}
   */
   readonly create?: string;
 }
@@ -411,7 +411,7 @@ export class KsqlClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster confluent_ksql_cluster}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster confluent_ksql_cluster}
 */
 export class KsqlCluster extends cdktf.TerraformResource {
 
@@ -427,7 +427,7 @@ export class KsqlCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KsqlCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KsqlCluster to import
-  * @param importFromId The id of the existing KsqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KsqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KsqlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -439,7 +439,7 @@ export class KsqlCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/ksql_cluster confluent_ksql_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/ksql_cluster confluent_ksql_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -450,8 +450,8 @@ export class KsqlCluster extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_ksql_cluster',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

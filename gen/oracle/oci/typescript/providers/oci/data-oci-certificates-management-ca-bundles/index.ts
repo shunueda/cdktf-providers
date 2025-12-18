@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCertificatesManagementCaBundlesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#ca_bundle_id DataOciCertificatesManagementCaBundles#ca_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#ca_bundle_id DataOciCertificatesManagementCaBundles#ca_bundle_id}
   */
   readonly caBundleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#compartment_id DataOciCertificatesManagementCaBundles#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#compartment_id DataOciCertificatesManagementCaBundles#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#id DataOciCertificatesManagementCaBundles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#id DataOciCertificatesManagementCaBundles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#name DataOciCertificatesManagementCaBundles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#name DataOciCertificatesManagementCaBundles#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#state DataOciCertificatesManagementCaBundles#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#state DataOciCertificatesManagementCaBundles#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#filter DataOciCertificatesManagementCaBundles#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#filter DataOciCertificatesManagementCaBundles#filter}
   */
   readonly filter?: DataOciCertificatesManagementCaBundlesFilter[] | cdktf.IResolvable;
 }
@@ -237,15 +237,15 @@ export class DataOciCertificatesManagementCaBundlesCaBundleCollectionList extend
 }
 export interface DataOciCertificatesManagementCaBundlesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#name DataOciCertificatesManagementCaBundles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#name DataOciCertificatesManagementCaBundles#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#regex DataOciCertificatesManagementCaBundles#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#regex DataOciCertificatesManagementCaBundles#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#values DataOciCertificatesManagementCaBundles#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#values DataOciCertificatesManagementCaBundles#values}
   */
   readonly values: string[];
 }
@@ -413,7 +413,7 @@ export class DataOciCertificatesManagementCaBundlesFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles oci_certificates_management_ca_bundles}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles oci_certificates_management_ca_bundles}
 */
 export class DataOciCertificatesManagementCaBundles extends cdktf.TerraformDataSource {
 
@@ -429,7 +429,7 @@ export class DataOciCertificatesManagementCaBundles extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciCertificatesManagementCaBundles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCertificatesManagementCaBundles to import
-  * @param importFromId The id of the existing DataOciCertificatesManagementCaBundles that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCertificatesManagementCaBundles that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCertificatesManagementCaBundles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class DataOciCertificatesManagementCaBundles extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/certificates_management_ca_bundles oci_certificates_management_ca_bundles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/certificates_management_ca_bundles oci_certificates_management_ca_bundles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class DataOciCertificatesManagementCaBundles extends cdktf.TerraformDataS
       terraformResourceType: 'oci_certificates_management_ca_bundles',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

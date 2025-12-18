@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DnsResolverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#compartment_id DnsResolver#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#compartment_id DnsResolver#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#defined_tags DnsResolver#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#defined_tags DnsResolver#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#display_name DnsResolver#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#display_name DnsResolver#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#freeform_tags DnsResolver#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#freeform_tags DnsResolver#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#id DnsResolver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#id DnsResolver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#resolver_id DnsResolver#resolver_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#resolver_id DnsResolver#resolver_id}
   */
   readonly resolverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#scope DnsResolver#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#scope DnsResolver#scope}
   */
   readonly scope?: string;
   /**
   * attached_views block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#attached_views DnsResolver#attached_views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#attached_views DnsResolver#attached_views}
   */
   readonly attachedViews?: DnsResolverAttachedViews[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#rules DnsResolver#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#rules DnsResolver#rules}
   */
   readonly rules?: DnsResolverRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#timeouts DnsResolver#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#timeouts DnsResolver#timeouts}
   */
   readonly timeouts?: DnsResolverTimeouts;
 }
@@ -189,7 +189,7 @@ export class DnsResolverEndpointsList extends cdktf.ComplexList {
 }
 export interface DnsResolverAttachedViews {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}
   */
   readonly viewId: string;
 }
@@ -302,23 +302,23 @@ export class DnsResolverAttachedViewsList extends cdktf.ComplexList {
 }
 export interface DnsResolverRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#action DnsResolver#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#action DnsResolver#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#client_address_conditions DnsResolver#client_address_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#client_address_conditions DnsResolver#client_address_conditions}
   */
   readonly clientAddressConditions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#destination_addresses DnsResolver#destination_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#destination_addresses DnsResolver#destination_addresses}
   */
   readonly destinationAddresses: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#qname_cover_conditions DnsResolver#qname_cover_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#qname_cover_conditions DnsResolver#qname_cover_conditions}
   */
   readonly qnameCoverConditions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#source_endpoint_name DnsResolver#source_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#source_endpoint_name DnsResolver#source_endpoint_name}
   */
   readonly sourceEndpointName: string;
 }
@@ -541,15 +541,15 @@ export class DnsResolverRulesList extends cdktf.ComplexList {
 }
 export interface DnsResolverTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#create DnsResolver#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#create DnsResolver#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#delete DnsResolver#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#delete DnsResolver#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#update DnsResolver#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#update DnsResolver#update}
   */
   readonly update?: string;
 }
@@ -701,7 +701,7 @@ export class DnsResolverTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver oci_dns_resolver}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver oci_dns_resolver}
 */
 export class DnsResolver extends cdktf.TerraformResource {
 
@@ -717,7 +717,7 @@ export class DnsResolver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsResolver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsResolver to import
-  * @param importFromId The id of the existing DnsResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsResolver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -729,7 +729,7 @@ export class DnsResolver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dns_resolver oci_dns_resolver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dns_resolver oci_dns_resolver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -740,8 +740,8 @@ export class DnsResolver extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dns_resolver',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

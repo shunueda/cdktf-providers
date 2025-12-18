@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExadataIormConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#db_system_id DatabaseExadataIormConfig#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#db_system_id DatabaseExadataIormConfig#db_system_id}
   */
   readonly dbSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#id DatabaseExadataIormConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#id DatabaseExadataIormConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#objective DatabaseExadataIormConfig#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#objective DatabaseExadataIormConfig#objective}
   */
   readonly objective?: string;
   /**
   * db_plans block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#db_plans DatabaseExadataIormConfig#db_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#db_plans DatabaseExadataIormConfig#db_plans}
   */
   readonly dbPlans: DatabaseExadataIormConfigDbPlans[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#timeouts DatabaseExadataIormConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#timeouts DatabaseExadataIormConfig#timeouts}
   */
   readonly timeouts?: DatabaseExadataIormConfigTimeouts;
 }
 export interface DatabaseExadataIormConfigDbPlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#db_name DatabaseExadataIormConfig#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#db_name DatabaseExadataIormConfig#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#share DatabaseExadataIormConfig#share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#share DatabaseExadataIormConfig#share}
   */
   readonly share: number;
 }
@@ -185,15 +185,15 @@ export class DatabaseExadataIormConfigDbPlansList extends cdktf.ComplexList {
 }
 export interface DatabaseExadataIormConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#create DatabaseExadataIormConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#create DatabaseExadataIormConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#delete DatabaseExadataIormConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#delete DatabaseExadataIormConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#update DatabaseExadataIormConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#update DatabaseExadataIormConfig#update}
   */
   readonly update?: string;
 }
@@ -345,7 +345,7 @@ export class DatabaseExadataIormConfigTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config oci_database_exadata_iorm_config}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config oci_database_exadata_iorm_config}
 */
 export class DatabaseExadataIormConfig extends cdktf.TerraformResource {
 
@@ -361,7 +361,7 @@ export class DatabaseExadataIormConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseExadataIormConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExadataIormConfig to import
-  * @param importFromId The id of the existing DatabaseExadataIormConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExadataIormConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExadataIormConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class DatabaseExadataIormConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_iorm_config oci_database_exadata_iorm_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_iorm_config oci_database_exadata_iorm_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class DatabaseExadataIormConfig extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_exadata_iorm_config',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

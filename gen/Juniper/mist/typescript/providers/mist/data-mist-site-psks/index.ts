@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataMistSitePsksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks#name DataMistSitePsks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks#name DataMistSitePsks#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks#role DataMistSitePsks#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks#role DataMistSitePsks#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks#site_id DataMistSitePsks#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks#site_id DataMistSitePsks#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks#ssid DataMistSitePsks#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks#ssid DataMistSitePsks#ssid}
   */
   readonly ssid?: string;
 }
@@ -196,7 +196,7 @@ export class DataMistSitePsksSitePsksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks mist_site_psks}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks mist_site_psks}
 */
 export class DataMistSitePsks extends cdktf.TerraformDataSource {
 
@@ -212,7 +212,7 @@ export class DataMistSitePsks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistSitePsks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistSitePsks to import
-  * @param importFromId The id of the existing DataMistSitePsks that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistSitePsks that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistSitePsks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class DataMistSitePsks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/site_psks mist_site_psks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/site_psks mist_site_psks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class DataMistSitePsks extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_site_psks',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

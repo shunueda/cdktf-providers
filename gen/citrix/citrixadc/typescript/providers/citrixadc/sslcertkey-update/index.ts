@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SslcertkeyUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#cert SslcertkeyUpdate#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#cert SslcertkeyUpdate#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#certkey SslcertkeyUpdate#certkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#certkey SslcertkeyUpdate#certkey}
   */
   readonly certkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#fipskey SslcertkeyUpdate#fipskey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#fipskey SslcertkeyUpdate#fipskey}
   */
   readonly fipskey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#id SslcertkeyUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#id SslcertkeyUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#inform SslcertkeyUpdate#inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#inform SslcertkeyUpdate#inform}
   */
   readonly inform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#key SslcertkeyUpdate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#key SslcertkeyUpdate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#linkcertkeyname SslcertkeyUpdate#linkcertkeyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#linkcertkeyname SslcertkeyUpdate#linkcertkeyname}
   */
   readonly linkcertkeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#nodomaincheck SslcertkeyUpdate#nodomaincheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#nodomaincheck SslcertkeyUpdate#nodomaincheck}
   */
   readonly nodomaincheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#passplain SslcertkeyUpdate#passplain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#passplain SslcertkeyUpdate#passplain}
   */
   readonly passplain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#password SslcertkeyUpdate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#password SslcertkeyUpdate#password}
   */
   readonly password?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update citrixadc_sslcertkey_update}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update citrixadc_sslcertkey_update}
 */
 export class SslcertkeyUpdate extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SslcertkeyUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslcertkeyUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslcertkeyUpdate to import
-  * @param importFromId The id of the existing SslcertkeyUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslcertkeyUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslcertkeyUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SslcertkeyUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey_update citrixadc_sslcertkey_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey_update citrixadc_sslcertkey_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SslcertkeyUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcertkey_update',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

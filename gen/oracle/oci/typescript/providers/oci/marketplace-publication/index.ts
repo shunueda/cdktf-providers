@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface MarketplacePublicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#compartment_id MarketplacePublication#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#compartment_id MarketplacePublication#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#defined_tags MarketplacePublication#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#defined_tags MarketplacePublication#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#freeform_tags MarketplacePublication#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#freeform_tags MarketplacePublication#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#id MarketplacePublication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#id MarketplacePublication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#is_agreement_acknowledged MarketplacePublication#is_agreement_acknowledged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#is_agreement_acknowledged MarketplacePublication#is_agreement_acknowledged}
   */
   readonly isAgreementAcknowledged: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#listing_type MarketplacePublication#listing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#listing_type MarketplacePublication#listing_type}
   */
   readonly listingType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#long_description MarketplacePublication#long_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#long_description MarketplacePublication#long_description}
   */
   readonly longDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#name MarketplacePublication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#name MarketplacePublication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#short_description MarketplacePublication#short_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#short_description MarketplacePublication#short_description}
   */
   readonly shortDescription: string;
   /**
   * package_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#package_details MarketplacePublication#package_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#package_details MarketplacePublication#package_details}
   */
   readonly packageDetails: MarketplacePublicationPackageDetails;
   /**
   * support_contacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#support_contacts MarketplacePublication#support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#support_contacts MarketplacePublication#support_contacts}
   */
   readonly supportContacts: MarketplacePublicationSupportContacts[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#timeouts MarketplacePublication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#timeouts MarketplacePublication#timeouts}
   */
   readonly timeouts?: MarketplacePublicationTimeouts;
 }
@@ -232,11 +232,11 @@ export class MarketplacePublicationSupportedOperatingSystemsList extends cdktf.C
 }
 export interface MarketplacePublicationPackageDetailsEula {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#eula_type MarketplacePublication#eula_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#eula_type MarketplacePublication#eula_type}
   */
   readonly eulaType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#license_text MarketplacePublication#license_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#license_text MarketplacePublication#license_text}
   */
   readonly licenseText?: string;
 }
@@ -378,7 +378,7 @@ export class MarketplacePublicationPackageDetailsEulaList extends cdktf.ComplexL
 }
 export interface MarketplacePublicationPackageDetailsOperatingSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#name MarketplacePublication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#name MarketplacePublication#name}
   */
   readonly name?: string;
 }
@@ -462,27 +462,27 @@ export class MarketplacePublicationPackageDetailsOperatingSystemOutputReference 
 }
 export interface MarketplacePublicationPackageDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#image_id MarketplacePublication#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#image_id MarketplacePublication#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#package_type MarketplacePublication#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#package_type MarketplacePublication#package_type}
   */
   readonly packageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#package_version MarketplacePublication#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#package_version MarketplacePublication#package_version}
   */
   readonly packageVersion: string;
   /**
   * eula block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#eula MarketplacePublication#eula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#eula MarketplacePublication#eula}
   */
   readonly eula: MarketplacePublicationPackageDetailsEula[] | cdktf.IResolvable;
   /**
   * operating_system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#operating_system MarketplacePublication#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#operating_system MarketplacePublication#operating_system}
   */
   readonly operatingSystem: MarketplacePublicationPackageDetailsOperatingSystem;
 }
@@ -670,19 +670,19 @@ export class MarketplacePublicationPackageDetailsOutputReference extends cdktf.C
 }
 export interface MarketplacePublicationSupportContacts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#email MarketplacePublication#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#email MarketplacePublication#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#name MarketplacePublication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#name MarketplacePublication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#phone MarketplacePublication#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#phone MarketplacePublication#phone}
   */
   readonly phone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#subject MarketplacePublication#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#subject MarketplacePublication#subject}
   */
   readonly subject?: string;
 }
@@ -885,15 +885,15 @@ export class MarketplacePublicationSupportContactsList extends cdktf.ComplexList
 }
 export interface MarketplacePublicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#create MarketplacePublication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#create MarketplacePublication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#delete MarketplacePublication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#delete MarketplacePublication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#update MarketplacePublication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#update MarketplacePublication#update}
   */
   readonly update?: string;
 }
@@ -1045,7 +1045,7 @@ export class MarketplacePublicationTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication oci_marketplace_publication}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication oci_marketplace_publication}
 */
 export class MarketplacePublication extends cdktf.TerraformResource {
 
@@ -1061,7 +1061,7 @@ export class MarketplacePublication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MarketplacePublication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MarketplacePublication to import
-  * @param importFromId The id of the existing MarketplacePublication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MarketplacePublication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MarketplacePublication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1073,7 +1073,7 @@ export class MarketplacePublication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/marketplace_publication oci_marketplace_publication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/marketplace_publication oci_marketplace_publication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1084,8 +1084,8 @@ export class MarketplacePublication extends cdktf.TerraformResource {
       terraformResourceType: 'oci_marketplace_publication',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

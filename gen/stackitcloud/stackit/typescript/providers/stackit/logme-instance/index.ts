@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LogmeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#name LogmeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#name LogmeInstance#name}
   */
   readonly name: string;
   /**
   * Configuration parameters. Please note that removing a previously configured field from your Terraform configuration won't replace its value in the API. To update a previously configured field, explicitly set a new value for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#parameters LogmeInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#parameters LogmeInstance#parameters}
   */
   readonly parameters?: LogmeInstanceParameters;
   /**
   * The selected plan name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#plan_name LogmeInstance#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#plan_name LogmeInstance#plan_name}
   */
   readonly planName: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#project_id LogmeInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#project_id LogmeInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The service version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#version LogmeInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#version LogmeInstance#version}
   */
   readonly version: string;
 }
@@ -42,113 +42,113 @@ export interface LogmeInstanceParameters {
   /**
   * Enable monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#enable_monitoring LogmeInstance#enable_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#enable_monitoring LogmeInstance#enable_monitoring}
   */
   readonly enableMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_tcp LogmeInstance#fluentd_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_tcp LogmeInstance#fluentd_tcp}
   */
   readonly fluentdTcp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_tls LogmeInstance#fluentd_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_tls LogmeInstance#fluentd_tls}
   */
   readonly fluentdTls?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_tls_ciphers LogmeInstance#fluentd_tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_tls_ciphers LogmeInstance#fluentd_tls_ciphers}
   */
   readonly fluentdTlsCiphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_tls_max_version LogmeInstance#fluentd_tls_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_tls_max_version LogmeInstance#fluentd_tls_max_version}
   */
   readonly fluentdTlsMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_tls_min_version LogmeInstance#fluentd_tls_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_tls_min_version LogmeInstance#fluentd_tls_min_version}
   */
   readonly fluentdTlsMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_tls_version LogmeInstance#fluentd_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_tls_version LogmeInstance#fluentd_tls_version}
   */
   readonly fluentdTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#fluentd_udp LogmeInstance#fluentd_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#fluentd_udp LogmeInstance#fluentd_udp}
   */
   readonly fluentdUdp?: number;
   /**
   * If set, monitoring with Graphite will be enabled. Expects the host and port where the Graphite metrics should be sent to (host:port).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#graphite LogmeInstance#graphite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#graphite LogmeInstance#graphite}
   */
   readonly graphite?: string;
   /**
   * Combination of an integer and a timerange when an index will be considered "old" and can be deleted. Possible values for the timerange are `s`, `m`, `h` and `d`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#ism_deletion_after LogmeInstance#ism_deletion_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#ism_deletion_after LogmeInstance#ism_deletion_after}
   */
   readonly ismDeletionAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#ism_jitter LogmeInstance#ism_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#ism_jitter LogmeInstance#ism_jitter}
   */
   readonly ismJitter?: number;
   /**
   * Jitter of the execution time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#ism_job_interval LogmeInstance#ism_job_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#ism_job_interval LogmeInstance#ism_job_interval}
   */
   readonly ismJobInterval?: number;
   /**
   * The amount of memory (in MB) allocated as heap by the JVM for OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#java_heapspace LogmeInstance#java_heapspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#java_heapspace LogmeInstance#java_heapspace}
   */
   readonly javaHeapspace?: number;
   /**
   * The amount of memory (in MB) used by the JVM to store metadata for OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#java_maxmetaspace LogmeInstance#java_maxmetaspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#java_maxmetaspace LogmeInstance#java_maxmetaspace}
   */
   readonly javaMaxmetaspace?: number;
   /**
   * The maximum disk threshold in MB. If the disk usage exceeds this threshold, the instance will be stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#max_disk_threshold LogmeInstance#max_disk_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#max_disk_threshold LogmeInstance#max_disk_threshold}
   */
   readonly maxDiskThreshold?: number;
   /**
   * The frequency in seconds at which metrics are emitted (in seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#metrics_frequency LogmeInstance#metrics_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#metrics_frequency LogmeInstance#metrics_frequency}
   */
   readonly metricsFrequency?: number;
   /**
   * The prefix for the metrics. Could be useful when using Graphite monitoring to prefix the metrics with a certain value, like an API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#metrics_prefix LogmeInstance#metrics_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#metrics_prefix LogmeInstance#metrics_prefix}
   */
   readonly metricsPrefix?: string;
   /**
   * The ID of the STACKIT monitoring instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#monitoring_instance_id LogmeInstance#monitoring_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#monitoring_instance_id LogmeInstance#monitoring_instance_id}
   */
   readonly monitoringInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#opensearch_tls_ciphers LogmeInstance#opensearch_tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#opensearch_tls_ciphers LogmeInstance#opensearch_tls_ciphers}
   */
   readonly opensearchTlsCiphers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#opensearch_tls_protocols LogmeInstance#opensearch_tls_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#opensearch_tls_protocols LogmeInstance#opensearch_tls_protocols}
   */
   readonly opensearchTlsProtocols?: string[];
   /**
   * Comma separated list of IP networks in CIDR notation which are allowed to access this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#sgw_acl LogmeInstance#sgw_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#sgw_acl LogmeInstance#sgw_acl}
   */
   readonly sgwAcl?: string;
   /**
   * List of syslog servers to send logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#syslog LogmeInstance#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#syslog LogmeInstance#syslog}
   */
   readonly syslog?: string[];
 }
@@ -851,7 +851,7 @@ export class LogmeInstanceParametersOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance stackit_logme_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance stackit_logme_instance}
 */
 export class LogmeInstance extends cdktf.TerraformResource {
 
@@ -867,7 +867,7 @@ export class LogmeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogmeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogmeInstance to import
-  * @param importFromId The id of the existing LogmeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogmeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogmeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -879,7 +879,7 @@ export class LogmeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/logme_instance stackit_logme_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/logme_instance stackit_logme_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -890,8 +890,8 @@ export class LogmeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_logme_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

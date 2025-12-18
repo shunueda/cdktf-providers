@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ScimGroupPermissionsConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the existing group to manage permissions for. This group must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#group_id ScimGroupPermissions#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#group_id ScimGroupPermissions#group_id}
   */
   readonly groupId: number;
   /**
   * Set of permissions to apply to the group. This will replace all existing permissions for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#permissions ScimGroupPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#permissions ScimGroupPermissions#permissions}
   */
   readonly permissions?: ScimGroupPermissionsPermissions[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface ScimGroupPermissionsPermissions {
   /**
   * Whether access should be provided for all projects or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#all_projects ScimGroupPermissions#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#all_projects ScimGroupPermissions#all_projects}
   */
   readonly allProjects: boolean | cdktf.IResolvable;
   /**
   * Set of permissions to apply. The permissions allowed are the same as the ones for the `dbtcloud_group` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#permission_set ScimGroupPermissions#permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#permission_set ScimGroupPermissions#permission_set}
   */
   readonly permissionSet: string;
   /**
   * Project ID to apply this permission to for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#project_id ScimGroupPermissions#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#project_id ScimGroupPermissions#project_id}
   */
   readonly projectId?: number;
   /**
@@ -46,7 +46,7 @@ export interface ScimGroupPermissionsPermissions {
   * Not setting a value is the same as selecting `all`. 
   * Not all permission sets support environment level write settings, only `analyst`, `database_admin`, `developer`, `git_admin` and `team_admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#writable_environment_categories ScimGroupPermissions#writable_environment_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#writable_environment_categories ScimGroupPermissions#writable_environment_categories}
   */
   readonly writableEnvironmentCategories?: string[];
 }
@@ -243,7 +243,7 @@ export class ScimGroupPermissionsPermissionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions dbtcloud_scim_group_permissions}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions dbtcloud_scim_group_permissions}
 */
 export class ScimGroupPermissions extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class ScimGroupPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScimGroupPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScimGroupPermissions to import
-  * @param importFromId The id of the existing ScimGroupPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScimGroupPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScimGroupPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class ScimGroupPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_permissions dbtcloud_scim_group_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_permissions dbtcloud_scim_group_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class ScimGroupPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_scim_group_permissions',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,459 +8,459 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsAppConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}
   */
   readonly accessTokenExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#active IdentityDomainsApp#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#active IdentityDomainsApp#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#all_url_schemes_allowed IdentityDomainsApp#all_url_schemes_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#all_url_schemes_allowed IdentityDomainsApp#all_url_schemes_allowed}
   */
   readonly allUrlSchemesAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allow_access_control IdentityDomainsApp#allow_access_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allow_access_control IdentityDomainsApp#allow_access_control}
   */
   readonly allowAccessControl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allow_offline IdentityDomainsApp#allow_offline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allow_offline IdentityDomainsApp#allow_offline}
   */
   readonly allowOffline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allowed_grants IdentityDomainsApp#allowed_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allowed_grants IdentityDomainsApp#allowed_grants}
   */
   readonly allowedGrants?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allowed_operations IdentityDomainsApp#allowed_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allowed_operations IdentityDomainsApp#allowed_operations}
   */
   readonly allowedOperations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#app_icon IdentityDomainsApp#app_icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#app_icon IdentityDomainsApp#app_icon}
   */
   readonly appIcon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#app_thumbnail IdentityDomainsApp#app_thumbnail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#app_thumbnail IdentityDomainsApp#app_thumbnail}
   */
   readonly appThumbnail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#attribute_sets IdentityDomainsApp#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#attribute_sets IdentityDomainsApp#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#attributes IdentityDomainsApp#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#attributes IdentityDomainsApp#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#audience IdentityDomainsApp#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#audience IdentityDomainsApp#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#authorization IdentityDomainsApp#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#authorization IdentityDomainsApp#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#bypass_consent IdentityDomainsApp#bypass_consent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#bypass_consent IdentityDomainsApp#bypass_consent}
   */
   readonly bypassConsent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#client_ip_checking IdentityDomainsApp#client_ip_checking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#client_ip_checking IdentityDomainsApp#client_ip_checking}
   */
   readonly clientIpChecking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#client_type IdentityDomainsApp#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#client_type IdentityDomainsApp#client_type}
   */
   readonly clientType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#contact_email_address IdentityDomainsApp#contact_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#contact_email_address IdentityDomainsApp#contact_email_address}
   */
   readonly contactEmailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#delegated_service_names IdentityDomainsApp#delegated_service_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#delegated_service_names IdentityDomainsApp#delegated_service_names}
   */
   readonly delegatedServiceNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#description IdentityDomainsApp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#description IdentityDomainsApp#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#disable_kmsi_token_authentication IdentityDomainsApp#disable_kmsi_token_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#disable_kmsi_token_authentication IdentityDomainsApp#disable_kmsi_token_authentication}
   */
   readonly disableKmsiTokenAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#error_page_url IdentityDomainsApp#error_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#error_page_url IdentityDomainsApp#error_page_url}
   */
   readonly errorPageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#force_delete IdentityDomainsApp#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#force_delete IdentityDomainsApp#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#home_page_url IdentityDomainsApp#home_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#home_page_url IdentityDomainsApp#home_page_url}
   */
   readonly homePageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#icon IdentityDomainsApp#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#icon IdentityDomainsApp#icon}
   */
   readonly icon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#id_token_enc_algo IdentityDomainsApp#id_token_enc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#id_token_enc_algo IdentityDomainsApp#id_token_enc_algo}
   */
   readonly idTokenEncAlgo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#idcs_endpoint IdentityDomainsApp#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#idcs_endpoint IdentityDomainsApp#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_alias_app IdentityDomainsApp#is_alias_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_alias_app IdentityDomainsApp#is_alias_app}
   */
   readonly isAliasApp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_enterprise_app IdentityDomainsApp#is_enterprise_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_enterprise_app IdentityDomainsApp#is_enterprise_app}
   */
   readonly isEnterpriseApp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_form_fill IdentityDomainsApp#is_form_fill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_form_fill IdentityDomainsApp#is_form_fill}
   */
   readonly isFormFill?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_kerberos_realm IdentityDomainsApp#is_kerberos_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_kerberos_realm IdentityDomainsApp#is_kerberos_realm}
   */
   readonly isKerberosRealm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_login_target IdentityDomainsApp#is_login_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_login_target IdentityDomainsApp#is_login_target}
   */
   readonly isLoginTarget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_mobile_target IdentityDomainsApp#is_mobile_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_mobile_target IdentityDomainsApp#is_mobile_target}
   */
   readonly isMobileTarget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_multicloud_service_app IdentityDomainsApp#is_multicloud_service_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_multicloud_service_app IdentityDomainsApp#is_multicloud_service_app}
   */
   readonly isMulticloudServiceApp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_oauth_client IdentityDomainsApp#is_oauth_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_oauth_client IdentityDomainsApp#is_oauth_client}
   */
   readonly isOauthClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_oauth_resource IdentityDomainsApp#is_oauth_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_oauth_resource IdentityDomainsApp#is_oauth_resource}
   */
   readonly isOauthResource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_obligation_capable IdentityDomainsApp#is_obligation_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_obligation_capable IdentityDomainsApp#is_obligation_capable}
   */
   readonly isObligationCapable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_radius_app IdentityDomainsApp#is_radius_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_radius_app IdentityDomainsApp#is_radius_app}
   */
   readonly isRadiusApp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_saml_service_provider IdentityDomainsApp#is_saml_service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_saml_service_provider IdentityDomainsApp#is_saml_service_provider}
   */
   readonly isSamlServiceProvider?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_unmanaged_app IdentityDomainsApp#is_unmanaged_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_unmanaged_app IdentityDomainsApp#is_unmanaged_app}
   */
   readonly isUnmanagedApp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_web_tier_policy IdentityDomainsApp#is_web_tier_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_web_tier_policy IdentityDomainsApp#is_web_tier_policy}
   */
   readonly isWebTierPolicy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#landing_page_url IdentityDomainsApp#landing_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#landing_page_url IdentityDomainsApp#landing_page_url}
   */
   readonly landingPageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#linking_callback_url IdentityDomainsApp#linking_callback_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#linking_callback_url IdentityDomainsApp#linking_callback_url}
   */
   readonly linkingCallbackUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#login_mechanism IdentityDomainsApp#login_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#login_mechanism IdentityDomainsApp#login_mechanism}
   */
   readonly loginMechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#login_page_url IdentityDomainsApp#login_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#login_page_url IdentityDomainsApp#login_page_url}
   */
   readonly loginPageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#logout_page_url IdentityDomainsApp#logout_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#logout_page_url IdentityDomainsApp#logout_page_url}
   */
   readonly logoutPageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#logout_uri IdentityDomainsApp#logout_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#logout_uri IdentityDomainsApp#logout_uri}
   */
   readonly logoutUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#ocid IdentityDomainsApp#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#ocid IdentityDomainsApp#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#post_logout_redirect_uris IdentityDomainsApp#post_logout_redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#post_logout_redirect_uris IdentityDomainsApp#post_logout_redirect_uris}
   */
   readonly postLogoutRedirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#privacy_policy_url IdentityDomainsApp#privacy_policy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#privacy_policy_url IdentityDomainsApp#privacy_policy_url}
   */
   readonly privacyPolicyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#product_logo_url IdentityDomainsApp#product_logo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#product_logo_url IdentityDomainsApp#product_logo_url}
   */
   readonly productLogoUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#product_name IdentityDomainsApp#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#product_name IdentityDomainsApp#product_name}
   */
   readonly productName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#redirect_uris IdentityDomainsApp#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#redirect_uris IdentityDomainsApp#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#refresh_token_expiry IdentityDomainsApp#refresh_token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#refresh_token_expiry IdentityDomainsApp#refresh_token_expiry}
   */
   readonly refreshTokenExpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#resource_type_schema_version IdentityDomainsApp#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#resource_type_schema_version IdentityDomainsApp#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#schemas IdentityDomainsApp#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#schemas IdentityDomainsApp#schemas}
   */
   readonly schemas: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#secondary_audiences IdentityDomainsApp#secondary_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#secondary_audiences IdentityDomainsApp#secondary_audiences}
   */
   readonly secondaryAudiences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#service_type_urn IdentityDomainsApp#service_type_urn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#service_type_urn IdentityDomainsApp#service_type_urn}
   */
   readonly serviceTypeUrn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#service_type_version IdentityDomainsApp#service_type_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#service_type_version IdentityDomainsApp#service_type_version}
   */
   readonly serviceTypeVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#show_in_my_apps IdentityDomainsApp#show_in_my_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#show_in_my_apps IdentityDomainsApp#show_in_my_apps}
   */
   readonly showInMyApps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#terms_of_service_url IdentityDomainsApp#terms_of_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#terms_of_service_url IdentityDomainsApp#terms_of_service_url}
   */
   readonly termsOfServiceUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#trust_scope IdentityDomainsApp#trust_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#trust_scope IdentityDomainsApp#trust_scope}
   */
   readonly trustScope?: string;
   /**
   * alias_apps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#alias_apps IdentityDomainsApp#alias_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#alias_apps IdentityDomainsApp#alias_apps}
   */
   readonly aliasApps?: IdentityDomainsAppAliasApps[] | cdktf.IResolvable;
   /**
   * allowed_scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allowed_scopes IdentityDomainsApp#allowed_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allowed_scopes IdentityDomainsApp#allowed_scopes}
   */
   readonly allowedScopes?: IdentityDomainsAppAllowedScopes[] | cdktf.IResolvable;
   /**
   * allowed_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allowed_tags IdentityDomainsApp#allowed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allowed_tags IdentityDomainsApp#allowed_tags}
   */
   readonly allowedTags?: IdentityDomainsAppAllowedTags[] | cdktf.IResolvable;
   /**
   * app_signon_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#app_signon_policy IdentityDomainsApp#app_signon_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#app_signon_policy IdentityDomainsApp#app_signon_policy}
   */
   readonly appSignonPolicy?: IdentityDomainsAppAppSignonPolicy;
   /**
   * apps_network_perimeters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#apps_network_perimeters IdentityDomainsApp#apps_network_perimeters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#apps_network_perimeters IdentityDomainsApp#apps_network_perimeters}
   */
   readonly appsNetworkPerimeters?: IdentityDomainsAppAppsNetworkPerimeters[] | cdktf.IResolvable;
   /**
   * as_opc_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#as_opc_service IdentityDomainsApp#as_opc_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#as_opc_service IdentityDomainsApp#as_opc_service}
   */
   readonly asOpcService?: IdentityDomainsAppAsOpcService;
   /**
   * attr_rendering_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#attr_rendering_metadata IdentityDomainsApp#attr_rendering_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#attr_rendering_metadata IdentityDomainsApp#attr_rendering_metadata}
   */
   readonly attrRenderingMetadata?: IdentityDomainsAppAttrRenderingMetadata[] | cdktf.IResolvable;
   /**
   * based_on_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#based_on_template IdentityDomainsApp#based_on_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#based_on_template IdentityDomainsApp#based_on_template}
   */
   readonly basedOnTemplate: IdentityDomainsAppBasedOnTemplate;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#certificates IdentityDomainsApp#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#certificates IdentityDomainsApp#certificates}
   */
   readonly certificates?: IdentityDomainsAppCertificates[] | cdktf.IResolvable;
   /**
   * identity_providers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#identity_providers IdentityDomainsApp#identity_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#identity_providers IdentityDomainsApp#identity_providers}
   */
   readonly identityProviders?: IdentityDomainsAppIdentityProviders[] | cdktf.IResolvable;
   /**
   * idp_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#idp_policy IdentityDomainsApp#idp_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#idp_policy IdentityDomainsApp#idp_policy}
   */
   readonly idpPolicy?: IdentityDomainsAppIdpPolicy;
   /**
   * protectable_secondary_audiences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#protectable_secondary_audiences IdentityDomainsApp#protectable_secondary_audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#protectable_secondary_audiences IdentityDomainsApp#protectable_secondary_audiences}
   */
   readonly protectableSecondaryAudiences?: IdentityDomainsAppProtectableSecondaryAudiences[] | cdktf.IResolvable;
   /**
   * radius_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#radius_policy IdentityDomainsApp#radius_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#radius_policy IdentityDomainsApp#radius_policy}
   */
   readonly radiusPolicy?: IdentityDomainsAppRadiusPolicy;
   /**
   * saml_service_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#saml_service_provider IdentityDomainsApp#saml_service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#saml_service_provider IdentityDomainsApp#saml_service_provider}
   */
   readonly samlServiceProvider?: IdentityDomainsAppSamlServiceProvider;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#scopes IdentityDomainsApp#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#scopes IdentityDomainsApp#scopes}
   */
   readonly scopes?: IdentityDomainsAppScopes[] | cdktf.IResolvable;
   /**
   * service_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#service_params IdentityDomainsApp#service_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#service_params IdentityDomainsApp#service_params}
   */
   readonly serviceParams?: IdentityDomainsAppServiceParams[] | cdktf.IResolvable;
   /**
   * signon_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#signon_policy IdentityDomainsApp#signon_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#signon_policy IdentityDomainsApp#signon_policy}
   */
   readonly signonPolicy?: IdentityDomainsAppSignonPolicy;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#tags IdentityDomainsApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#tags IdentityDomainsApp#tags}
   */
   readonly tags?: IdentityDomainsAppTags[] | cdktf.IResolvable;
   /**
   * terms_of_use block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#terms_of_use IdentityDomainsApp#terms_of_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#terms_of_use IdentityDomainsApp#terms_of_use}
   */
   readonly termsOfUse?: IdentityDomainsAppTermsOfUse;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#timeouts IdentityDomainsApp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#timeouts IdentityDomainsApp#timeouts}
   */
   readonly timeouts?: IdentityDomainsAppTimeouts;
   /**
   * trust_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#trust_policies IdentityDomainsApp#trust_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#trust_policies IdentityDomainsApp#trust_policies}
   */
   readonly trustPolicies?: IdentityDomainsAppTrustPolicies[] | cdktf.IResolvable;
   /**
   * urnietfparamsscimschemasoracleidcsextension_oci_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextension_oci_tags IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextension_oci_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextension_oci_tags IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextension_oci_tags}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionOciTags?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTags;
   /**
   * urnietfparamsscimschemasoracleidcsextensiondbcs_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensiondbcs_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensiondbcs_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensiondbcs_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensiondbcs_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensiondbcsApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensiondbcsApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionenterprise_app_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionenterprise_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionenterprise_app_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionenterprise_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionenterprise_app_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionenterpriseAppApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionform_fill_app_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionform_fill_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionform_fill_app_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionform_fill_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionform_fill_app_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionformFillAppApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionform_fill_app_template_app_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionform_fill_app_template_app_template IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionform_fill_app_template_app_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionform_fill_app_template_app_template IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionform_fill_app_template_app_template}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplate?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplate;
   /**
   * urnietfparamsscimschemasoracleidcsextensionkerberos_realm_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionkerberos_realm_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionkerberos_realm_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionkerberos_realm_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionkerberos_realm_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionkerberosRealmApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionkerberosRealmApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionmanagedapp_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionmanagedapp_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionmanagedapp_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionmanagedapp_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionmanagedapp_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionmanagedappApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionmulticloud_service_app_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionmulticloud_service_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionmulticloud_service_app_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionmulticloud_service_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionmulticloud_service_app_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionmulticloudServiceAppApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmulticloudServiceAppApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionopc_service_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionopc_service_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionopc_service_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionopc_service_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionopc_service_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionopcServiceApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionopcServiceApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionradius_app_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionradius_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionradius_app_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionradius_app_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionradius_app_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionradiusAppApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionrequestable_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionrequestable_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionrequestable_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionrequestable_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionrequestable_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionrequestableApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionrequestableApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionsaml_service_provider_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionsaml_service_provider_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionsaml_service_provider_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionsaml_service_provider_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionsaml_service_provider_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionsamlServiceProviderApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderApp;
   /**
   * urnietfparamsscimschemasoracleidcsextensionweb_tier_policy_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionweb_tier_policy_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionweb_tier_policy_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#urnietfparamsscimschemasoracleidcsextensionweb_tier_policy_app IdentityDomainsApp#urnietfparamsscimschemasoracleidcsextensionweb_tier_policy_app}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionwebTierPolicyApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionwebTierPolicyApp;
 }
@@ -1391,7 +1391,7 @@ export class IdentityDomainsAppUserRolesList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppAliasApps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -1519,7 +1519,7 @@ export class IdentityDomainsAppAliasAppsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppAllowedScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}
   */
   readonly fqs: string;
 }
@@ -1642,11 +1642,11 @@ export class IdentityDomainsAppAllowedScopesList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppAllowedTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -1790,7 +1790,7 @@ export class IdentityDomainsAppAllowedTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppAppSignonPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -1876,7 +1876,7 @@ export class IdentityDomainsAppAppSignonPolicyOutputReference extends cdktf.Comp
 }
 export interface IdentityDomainsAppAppsNetworkPerimeters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -1994,7 +1994,7 @@ export class IdentityDomainsAppAppsNetworkPerimetersList extends cdktf.ComplexLi
 }
 export interface IdentityDomainsAppAsOpcService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -2080,63 +2080,63 @@ export class IdentityDomainsAppAsOpcServiceOutputReference extends cdktf.Complex
 }
 export interface IdentityDomainsAppAttrRenderingMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#datatype IdentityDomainsApp#datatype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#datatype IdentityDomainsApp#datatype}
   */
   readonly datatype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#helptext IdentityDomainsApp#helptext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#helptext IdentityDomainsApp#helptext}
   */
   readonly helptext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#label IdentityDomainsApp#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#label IdentityDomainsApp#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_length IdentityDomainsApp#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_length IdentityDomainsApp#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_size IdentityDomainsApp#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_size IdentityDomainsApp#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#min_length IdentityDomainsApp#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#min_length IdentityDomainsApp#min_length}
   */
   readonly minLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#min_size IdentityDomainsApp#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#min_size IdentityDomainsApp#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#order IdentityDomainsApp#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#order IdentityDomainsApp#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#read_only IdentityDomainsApp#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#read_only IdentityDomainsApp#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#regexp IdentityDomainsApp#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#regexp IdentityDomainsApp#regexp}
   */
   readonly regexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#required IdentityDomainsApp#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#required IdentityDomainsApp#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#section IdentityDomainsApp#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#section IdentityDomainsApp#section}
   */
   readonly section?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#visible IdentityDomainsApp#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#visible IdentityDomainsApp#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#widget IdentityDomainsApp#widget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#widget IdentityDomainsApp#widget}
   */
   readonly widget?: string;
 }
@@ -2655,11 +2655,11 @@ export class IdentityDomainsAppAttrRenderingMetadataList extends cdktf.ComplexLi
 }
 export interface IdentityDomainsAppBasedOnTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#well_known_id IdentityDomainsApp#well_known_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#well_known_id IdentityDomainsApp#well_known_id}
   */
   readonly wellKnownId?: string;
 }
@@ -2779,7 +2779,7 @@ export class IdentityDomainsAppBasedOnTemplateOutputReference extends cdktf.Comp
 }
 export interface IdentityDomainsAppCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}
   */
   readonly certAlias: string;
 }
@@ -2912,7 +2912,7 @@ export class IdentityDomainsAppCertificatesList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppIdentityProviders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3035,7 +3035,7 @@ export class IdentityDomainsAppIdentityProvidersList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppIdpPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3121,7 +3121,7 @@ export class IdentityDomainsAppIdpPolicyOutputReference extends cdktf.ComplexObj
 }
 export interface IdentityDomainsAppProtectableSecondaryAudiences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3239,7 +3239,7 @@ export class IdentityDomainsAppProtectableSecondaryAudiencesList extends cdktf.C
 }
 export interface IdentityDomainsAppRadiusPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3325,7 +3325,7 @@ export class IdentityDomainsAppRadiusPolicyOutputReference extends cdktf.Complex
 }
 export interface IdentityDomainsAppSamlServiceProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3411,19 +3411,19 @@ export class IdentityDomainsAppSamlServiceProviderOutputReference extends cdktf.
 }
 export interface IdentityDomainsAppScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#description IdentityDomainsApp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#description IdentityDomainsApp#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#requires_consent IdentityDomainsApp#requires_consent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#requires_consent IdentityDomainsApp#requires_consent}
   */
   readonly requiresConsent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3633,11 +3633,11 @@ export class IdentityDomainsAppScopesList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppServiceParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value?: string;
 }
@@ -3779,7 +3779,7 @@ export class IdentityDomainsAppServiceParamsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppSignonPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -3865,11 +3865,11 @@ export class IdentityDomainsAppSignonPolicyOutputReference extends cdktf.Complex
 }
 export interface IdentityDomainsAppTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -4008,7 +4008,7 @@ export class IdentityDomainsAppTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppTermsOfUse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -4099,15 +4099,15 @@ export class IdentityDomainsAppTermsOfUseOutputReference extends cdktf.ComplexOb
 }
 export interface IdentityDomainsAppTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#create IdentityDomainsApp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#create IdentityDomainsApp#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#delete IdentityDomainsApp#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#delete IdentityDomainsApp#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#update IdentityDomainsApp#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#update IdentityDomainsApp#update}
   */
   readonly update?: string;
 }
@@ -4259,7 +4259,7 @@ export class IdentityDomainsAppTimeoutsOutputReference extends cdktf.ComplexObje
 }
 export interface IdentityDomainsAppTrustPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -4377,15 +4377,15 @@ export class IdentityDomainsAppTrustPoliciesList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTagsDefinedTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#namespace IdentityDomainsApp#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#namespace IdentityDomainsApp#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -4550,11 +4550,11 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTag
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTagsFreeformTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#key IdentityDomainsApp#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -4695,13 +4695,13 @@ export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOc
   /**
   * defined_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#defined_tags IdentityDomainsApp#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#defined_tags IdentityDomainsApp#defined_tags}
   */
   readonly definedTags?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTagsDefinedTags[] | cdktf.IResolvable;
   /**
   * freeform_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#freeform_tags IdentityDomainsApp#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#freeform_tags IdentityDomainsApp#freeform_tags}
   */
   readonly freeformTags?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTagsFreeformTags[] | cdktf.IResolvable;
 }
@@ -4819,7 +4819,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionOciTag
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensiondbcsAppDomainApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -4910,13 +4910,13 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensiondbcsAp
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensiondbcsApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#domain_name IdentityDomainsApp#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#domain_name IdentityDomainsApp#domain_name}
   */
   readonly domainName?: string;
   /**
   * domain_app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#domain_app IdentityDomainsApp#domain_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#domain_app IdentityDomainsApp#domain_app}
   */
   readonly domainApp?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensiondbcsAppDomainApp;
 }
@@ -5029,7 +5029,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensiondbcsAp
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAllowAuthzPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -5115,7 +5115,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterp
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAppResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -5233,7 +5233,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterp
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppDenyAuthzPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -5319,29 +5319,29 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterp
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allow_authz_decision_ttl IdentityDomainsApp#allow_authz_decision_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allow_authz_decision_ttl IdentityDomainsApp#allow_authz_decision_ttl}
   */
   readonly allowAuthzDecisionTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#deny_authz_decision_ttl IdentityDomainsApp#deny_authz_decision_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#deny_authz_decision_ttl IdentityDomainsApp#deny_authz_decision_ttl}
   */
   readonly denyAuthzDecisionTtl?: number;
   /**
   * allow_authz_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#allow_authz_policy IdentityDomainsApp#allow_authz_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#allow_authz_policy IdentityDomainsApp#allow_authz_policy}
   */
   readonly allowAuthzPolicy?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAllowAuthzPolicy;
   /**
   * app_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#app_resources IdentityDomainsApp#app_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#app_resources IdentityDomainsApp#app_resources}
   */
   readonly appResources?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAppResources[] | cdktf.IResolvable;
   /**
   * deny_authz_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#deny_authz_policy IdentityDomainsApp#deny_authz_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#deny_authz_policy IdentityDomainsApp#deny_authz_policy}
   */
   readonly denyAuthzPolicy?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppDenyAuthzPolicy;
 }
@@ -5541,11 +5541,11 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterp
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppAppFormFillUrlMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}
   */
   readonly formUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}
   */
   readonly formUrlMatchType?: string;
 }
@@ -5687,37 +5687,37 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFi
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#configuration IdentityDomainsApp#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#configuration IdentityDomainsApp#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_cred_method IdentityDomainsApp#form_cred_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_cred_method IdentityDomainsApp#form_cred_method}
   */
   readonly formCredMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_credential_sharing_group_id IdentityDomainsApp#form_credential_sharing_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_credential_sharing_group_id IdentityDomainsApp#form_credential_sharing_group_id}
   */
   readonly formCredentialSharingGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_type IdentityDomainsApp#form_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_type IdentityDomainsApp#form_type}
   */
   readonly formType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#reveal_password_on_form IdentityDomainsApp#reveal_password_on_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#reveal_password_on_form IdentityDomainsApp#reveal_password_on_form}
   */
   readonly revealPasswordOnForm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#user_name_form_expression IdentityDomainsApp#user_name_form_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#user_name_form_expression IdentityDomainsApp#user_name_form_expression}
   */
   readonly userNameFormExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#user_name_form_template IdentityDomainsApp#user_name_form_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#user_name_form_template IdentityDomainsApp#user_name_form_template}
   */
   readonly userNameFormTemplate?: string;
   /**
   * form_fill_url_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_fill_url_match IdentityDomainsApp#form_fill_url_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_fill_url_match IdentityDomainsApp#form_fill_url_match}
   */
   readonly formFillUrlMatch?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppAppFormFillUrlMatch[] | cdktf.IResolvable;
 }
@@ -6009,11 +6009,11 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFi
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplateFormFillUrlMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}
   */
   readonly formUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}
   */
   readonly formUrlMatchType?: string;
 }
@@ -6155,41 +6155,41 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFi
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#configuration IdentityDomainsApp#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#configuration IdentityDomainsApp#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_cred_method IdentityDomainsApp#form_cred_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_cred_method IdentityDomainsApp#form_cred_method}
   */
   readonly formCredMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_credential_sharing_group_id IdentityDomainsApp#form_credential_sharing_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_credential_sharing_group_id IdentityDomainsApp#form_credential_sharing_group_id}
   */
   readonly formCredentialSharingGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_type IdentityDomainsApp#form_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_type IdentityDomainsApp#form_type}
   */
   readonly formType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#reveal_password_on_form IdentityDomainsApp#reveal_password_on_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#reveal_password_on_form IdentityDomainsApp#reveal_password_on_form}
   */
   readonly revealPasswordOnForm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#sync_from_template IdentityDomainsApp#sync_from_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#sync_from_template IdentityDomainsApp#sync_from_template}
   */
   readonly syncFromTemplate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#user_name_form_expression IdentityDomainsApp#user_name_form_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#user_name_form_expression IdentityDomainsApp#user_name_form_expression}
   */
   readonly userNameFormExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#user_name_form_template IdentityDomainsApp#user_name_form_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#user_name_form_template IdentityDomainsApp#user_name_form_template}
   */
   readonly userNameFormTemplate?: string;
   /**
   * form_fill_url_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#form_fill_url_match IdentityDomainsApp#form_fill_url_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#form_fill_url_match IdentityDomainsApp#form_fill_url_match}
   */
   readonly formFillUrlMatch?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplateFormFillUrlMatch[] | cdktf.IResolvable;
 }
@@ -6505,31 +6505,31 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFi
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionkerberosRealmApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#default_encryption_salt_type IdentityDomainsApp#default_encryption_salt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#default_encryption_salt_type IdentityDomainsApp#default_encryption_salt_type}
   */
   readonly defaultEncryptionSaltType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#master_key IdentityDomainsApp#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#master_key IdentityDomainsApp#master_key}
   */
   readonly masterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_renewable_age IdentityDomainsApp#max_renewable_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_renewable_age IdentityDomainsApp#max_renewable_age}
   */
   readonly maxRenewableAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_ticket_life IdentityDomainsApp#max_ticket_life}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_ticket_life IdentityDomainsApp#max_ticket_life}
   */
   readonly maxTicketLife?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#realm_name IdentityDomainsApp#realm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#realm_name IdentityDomainsApp#realm_name}
   */
   readonly realmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#supported_encryption_salt_types IdentityDomainsApp#supported_encryption_salt_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#supported_encryption_salt_types IdentityDomainsApp#supported_encryption_salt_types}
   */
   readonly supportedEncryptionSaltTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#ticket_flags IdentityDomainsApp#ticket_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#ticket_flags IdentityDomainsApp#ticket_flags}
   */
   readonly ticketFlags?: number;
 }
@@ -7067,35 +7067,35 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundleConfigurationProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#confidential IdentityDomainsApp#confidential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#confidential IdentityDomainsApp#confidential}
   */
   readonly confidential?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#help_message IdentityDomainsApp#help_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#help_message IdentityDomainsApp#help_message}
   */
   readonly helpMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#icf_type IdentityDomainsApp#icf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#icf_type IdentityDomainsApp#icf_type}
   */
   readonly icfType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#order IdentityDomainsApp#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#order IdentityDomainsApp#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#required IdentityDomainsApp#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#required IdentityDomainsApp#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value?: string[];
 }
@@ -7405,23 +7405,23 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundlePoolConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_idle IdentityDomainsApp#max_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_idle IdentityDomainsApp#max_idle}
   */
   readonly maxIdle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_objects IdentityDomainsApp#max_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_objects IdentityDomainsApp#max_objects}
   */
   readonly maxObjects?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#max_wait IdentityDomainsApp#max_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#max_wait IdentityDomainsApp#max_wait}
   */
   readonly maxWait?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#min_evictable_idle_time_millis IdentityDomainsApp#min_evictable_idle_time_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#min_evictable_idle_time_millis IdentityDomainsApp#min_evictable_idle_time_millis}
   */
   readonly minEvictableIdleTimeMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#min_idle IdentityDomainsApp#min_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#min_idle IdentityDomainsApp#min_idle}
   */
   readonly minIdle?: number;
 }
@@ -7621,35 +7621,35 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppFlatFileBundleConfigurationProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#confidential IdentityDomainsApp#confidential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#confidential IdentityDomainsApp#confidential}
   */
   readonly confidential?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#display_name IdentityDomainsApp#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#help_message IdentityDomainsApp#help_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#help_message IdentityDomainsApp#help_message}
   */
   readonly helpMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#icf_type IdentityDomainsApp#icf_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#icf_type IdentityDomainsApp#icf_type}
   */
   readonly icfType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#order IdentityDomainsApp#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#order IdentityDomainsApp#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#required IdentityDomainsApp#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#required IdentityDomainsApp#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value?: string[];
 }
@@ -7959,15 +7959,15 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppFlatFileConnectorBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#display IdentityDomainsApp#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#display IdentityDomainsApp#display}
   */
   readonly display?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#well_known_id IdentityDomainsApp#well_known_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#well_known_id IdentityDomainsApp#well_known_id}
   */
   readonly wellKnownId?: string;
 }
@@ -8111,15 +8111,15 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppThreeLeggedOauthCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#access_token IdentityDomainsApp#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#access_token IdentityDomainsApp#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}
   */
   readonly accessTokenExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#refresh_token IdentityDomainsApp#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#refresh_token IdentityDomainsApp#refresh_token}
   */
   readonly refreshToken?: string;
 }
@@ -8261,57 +8261,57 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#admin_consent_granted IdentityDomainsApp#admin_consent_granted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#admin_consent_granted IdentityDomainsApp#admin_consent_granted}
   */
   readonly adminConsentGranted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#connected IdentityDomainsApp#connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#connected IdentityDomainsApp#connected}
   */
   readonly connected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#enable_auth_sync_new_user_notification IdentityDomainsApp#enable_auth_sync_new_user_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#enable_auth_sync_new_user_notification IdentityDomainsApp#enable_auth_sync_new_user_notification}
   */
   readonly enableAuthSyncNewUserNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#enable_sync IdentityDomainsApp#enable_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#enable_sync IdentityDomainsApp#enable_sync}
   */
   readonly enableSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#enable_sync_summary_report_notification IdentityDomainsApp#enable_sync_summary_report_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#enable_sync_summary_report_notification IdentityDomainsApp#enable_sync_summary_report_notification}
   */
   readonly enableSyncSummaryReportNotification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#is_authoritative IdentityDomainsApp#is_authoritative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#is_authoritative IdentityDomainsApp#is_authoritative}
   */
   readonly isAuthoritative?: boolean | cdktf.IResolvable;
   /**
   * bundle_configuration_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#bundle_configuration_properties IdentityDomainsApp#bundle_configuration_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#bundle_configuration_properties IdentityDomainsApp#bundle_configuration_properties}
   */
   readonly bundleConfigurationProperties?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundleConfigurationProperties[] | cdktf.IResolvable;
   /**
   * bundle_pool_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#bundle_pool_configuration IdentityDomainsApp#bundle_pool_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#bundle_pool_configuration IdentityDomainsApp#bundle_pool_configuration}
   */
   readonly bundlePoolConfiguration?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundlePoolConfiguration;
   /**
   * flat_file_bundle_configuration_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#flat_file_bundle_configuration_properties IdentityDomainsApp#flat_file_bundle_configuration_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#flat_file_bundle_configuration_properties IdentityDomainsApp#flat_file_bundle_configuration_properties}
   */
   readonly flatFileBundleConfigurationProperties?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppFlatFileBundleConfigurationProperties[] | cdktf.IResolvable;
   /**
   * flat_file_connector_bundle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#flat_file_connector_bundle IdentityDomainsApp#flat_file_connector_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#flat_file_connector_bundle IdentityDomainsApp#flat_file_connector_bundle}
   */
   readonly flatFileConnectorBundle?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppFlatFileConnectorBundle;
   /**
   * three_legged_oauth_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#three_legged_oauth_credential IdentityDomainsApp#three_legged_oauth_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#three_legged_oauth_credential IdentityDomainsApp#three_legged_oauth_credential}
   */
   readonly threeLeggedOauthCredential?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppThreeLeggedOauthCredential;
 }
@@ -8753,11 +8753,11 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanage
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmulticloudServiceAppApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#multicloud_platform_url IdentityDomainsApp#multicloud_platform_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#multicloud_platform_url IdentityDomainsApp#multicloud_platform_url}
   */
   readonly multicloudPlatformUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#multicloud_service_type IdentityDomainsApp#multicloud_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#multicloud_service_type IdentityDomainsApp#multicloud_service_type}
   */
   readonly multicloudServiceType: string;
 }
@@ -8867,7 +8867,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmultic
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionopcServiceApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#service_instance_identifier IdentityDomainsApp#service_instance_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#service_instance_identifier IdentityDomainsApp#service_instance_identifier}
   */
   readonly serviceInstanceIdentifier?: string;
 }
@@ -8981,7 +8981,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionopcSer
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppAppGroupMembershipToReturn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}
   */
   readonly value: string;
 }
@@ -9104,65 +9104,65 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradius
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#capture_client_ip IdentityDomainsApp#capture_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#capture_client_ip IdentityDomainsApp#capture_client_ip}
   */
   readonly captureClientIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#client_ip IdentityDomainsApp#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#client_ip IdentityDomainsApp#client_ip}
   */
   readonly clientIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#country_code_response_attribute_id IdentityDomainsApp#country_code_response_attribute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#country_code_response_attribute_id IdentityDomainsApp#country_code_response_attribute_id}
   */
   readonly countryCodeResponseAttributeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#end_user_ip_attribute IdentityDomainsApp#end_user_ip_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#end_user_ip_attribute IdentityDomainsApp#end_user_ip_attribute}
   */
   readonly endUserIpAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#group_membership_radius_attribute IdentityDomainsApp#group_membership_radius_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#group_membership_radius_attribute IdentityDomainsApp#group_membership_radius_attribute}
   */
   readonly groupMembershipRadiusAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#group_name_format IdentityDomainsApp#group_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#group_name_format IdentityDomainsApp#group_name_format}
   */
   readonly groupNameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#include_group_in_response IdentityDomainsApp#include_group_in_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#include_group_in_response IdentityDomainsApp#include_group_in_response}
   */
   readonly includeGroupInResponse: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#password_and_otp_together IdentityDomainsApp#password_and_otp_together}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#password_and_otp_together IdentityDomainsApp#password_and_otp_together}
   */
   readonly passwordAndOtpTogether?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#port IdentityDomainsApp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#port IdentityDomainsApp#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#radius_vendor_specific_id IdentityDomainsApp#radius_vendor_specific_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#radius_vendor_specific_id IdentityDomainsApp#radius_vendor_specific_id}
   */
   readonly radiusVendorSpecificId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#response_format IdentityDomainsApp#response_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#response_format IdentityDomainsApp#response_format}
   */
   readonly responseFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#response_format_delimiter IdentityDomainsApp#response_format_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#response_format_delimiter IdentityDomainsApp#response_format_delimiter}
   */
   readonly responseFormatDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#secret_key IdentityDomainsApp#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#secret_key IdentityDomainsApp#secret_key}
   */
   readonly secretKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#type_of_radius_app IdentityDomainsApp#type_of_radius_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#type_of_radius_app IdentityDomainsApp#type_of_radius_app}
   */
   readonly typeOfRadiusApp?: string;
   /**
   * group_membership_to_return block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#group_membership_to_return IdentityDomainsApp#group_membership_to_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#group_membership_to_return IdentityDomainsApp#group_membership_to_return}
   */
   readonly groupMembershipToReturn?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppAppGroupMembershipToReturn[] | cdktf.IResolvable;
 }
@@ -9640,7 +9640,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradius
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionrequestableApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#requestable IdentityDomainsApp#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#requestable IdentityDomainsApp#requestable}
   */
   readonly requestable?: boolean | cdktf.IResolvable;
 }
@@ -9809,19 +9809,19 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlSe
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderAppGroupAssertionAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#condition IdentityDomainsApp#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#condition IdentityDomainsApp#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#format IdentityDomainsApp#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#format IdentityDomainsApp#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#group_name IdentityDomainsApp#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#group_name IdentityDomainsApp#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name: string;
 }
@@ -10021,15 +10021,15 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlSe
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderAppUserAssertionAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#format IdentityDomainsApp#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#format IdentityDomainsApp#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#user_store_attribute_name IdentityDomainsApp#user_store_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#user_store_attribute_name IdentityDomainsApp#user_store_attribute_name}
   */
   readonly userStoreAttributeName: string;
 }
@@ -10197,103 +10197,103 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlSe
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#assertion_consumer_url IdentityDomainsApp#assertion_consumer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#assertion_consumer_url IdentityDomainsApp#assertion_consumer_url}
   */
   readonly assertionConsumerUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#encrypt_assertion IdentityDomainsApp#encrypt_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#encrypt_assertion IdentityDomainsApp#encrypt_assertion}
   */
   readonly encryptAssertion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#encryption_algorithm IdentityDomainsApp#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#encryption_algorithm IdentityDomainsApp#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#encryption_certificate IdentityDomainsApp#encryption_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#encryption_certificate IdentityDomainsApp#encryption_certificate}
   */
   readonly encryptionCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#federation_protocol IdentityDomainsApp#federation_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#federation_protocol IdentityDomainsApp#federation_protocol}
   */
   readonly federationProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#hok_acs_url IdentityDomainsApp#hok_acs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#hok_acs_url IdentityDomainsApp#hok_acs_url}
   */
   readonly hokAcsUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#hok_required IdentityDomainsApp#hok_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#hok_required IdentityDomainsApp#hok_required}
   */
   readonly hokRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#include_signing_cert_in_signature IdentityDomainsApp#include_signing_cert_in_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#include_signing_cert_in_signature IdentityDomainsApp#include_signing_cert_in_signature}
   */
   readonly includeSigningCertInSignature?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#key_encryption_algorithm IdentityDomainsApp#key_encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#key_encryption_algorithm IdentityDomainsApp#key_encryption_algorithm}
   */
   readonly keyEncryptionAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#logout_binding IdentityDomainsApp#logout_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#logout_binding IdentityDomainsApp#logout_binding}
   */
   readonly logoutBinding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#logout_enabled IdentityDomainsApp#logout_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#logout_enabled IdentityDomainsApp#logout_enabled}
   */
   readonly logoutEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#logout_request_url IdentityDomainsApp#logout_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#logout_request_url IdentityDomainsApp#logout_request_url}
   */
   readonly logoutRequestUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#logout_response_url IdentityDomainsApp#logout_response_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#logout_response_url IdentityDomainsApp#logout_response_url}
   */
   readonly logoutResponseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#metadata IdentityDomainsApp#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#metadata IdentityDomainsApp#metadata}
   */
   readonly metadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name_id_format IdentityDomainsApp#name_id_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name_id_format IdentityDomainsApp#name_id_format}
   */
   readonly nameIdFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#name_id_userstore_attribute IdentityDomainsApp#name_id_userstore_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#name_id_userstore_attribute IdentityDomainsApp#name_id_userstore_attribute}
   */
   readonly nameIdUserstoreAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#partner_provider_id IdentityDomainsApp#partner_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#partner_provider_id IdentityDomainsApp#partner_provider_id}
   */
   readonly partnerProviderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#partner_provider_pattern IdentityDomainsApp#partner_provider_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#partner_provider_pattern IdentityDomainsApp#partner_provider_pattern}
   */
   readonly partnerProviderPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#sign_response_or_assertion IdentityDomainsApp#sign_response_or_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#sign_response_or_assertion IdentityDomainsApp#sign_response_or_assertion}
   */
   readonly signResponseOrAssertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#signature_hash_algorithm IdentityDomainsApp#signature_hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#signature_hash_algorithm IdentityDomainsApp#signature_hash_algorithm}
   */
   readonly signatureHashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#signing_certificate IdentityDomainsApp#signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#signing_certificate IdentityDomainsApp#signing_certificate}
   */
   readonly signingCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#succinct_id IdentityDomainsApp#succinct_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#succinct_id IdentityDomainsApp#succinct_id}
   */
   readonly succinctId?: string;
   /**
   * group_assertion_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#group_assertion_attributes IdentityDomainsApp#group_assertion_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#group_assertion_attributes IdentityDomainsApp#group_assertion_attributes}
   */
   readonly groupAssertionAttributes?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderAppGroupAssertionAttributes[] | cdktf.IResolvable;
   /**
   * user_assertion_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#user_assertion_attributes IdentityDomainsApp#user_assertion_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#user_assertion_attributes IdentityDomainsApp#user_assertion_attributes}
   */
   readonly userAssertionAttributes?: IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderAppUserAssertionAttributes[] | cdktf.IResolvable;
 }
@@ -11060,15 +11060,15 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlSe
 }
 export interface IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionwebTierPolicyApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#resource_ref IdentityDomainsApp#resource_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#resource_ref IdentityDomainsApp#resource_ref}
   */
   readonly resourceRef?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#web_tier_policy_az_control IdentityDomainsApp#web_tier_policy_az_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#web_tier_policy_az_control IdentityDomainsApp#web_tier_policy_az_control}
   */
   readonly webTierPolicyAzControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#web_tier_policy_json IdentityDomainsApp#web_tier_policy_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#web_tier_policy_json IdentityDomainsApp#web_tier_policy_json}
   */
   readonly webTierPolicyJson?: string;
 }
@@ -11210,7 +11210,7 @@ export class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionwebTie
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app oci_identity_domains_app}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app oci_identity_domains_app}
 */
 export class IdentityDomainsApp extends cdktf.TerraformResource {
 
@@ -11226,7 +11226,7 @@ export class IdentityDomainsApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsApp to import
-  * @param importFromId The id of the existing IdentityDomainsApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11238,7 +11238,7 @@ export class IdentityDomainsApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_app oci_identity_domains_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_app oci_identity_domains_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11249,8 +11249,8 @@ export class IdentityDomainsApp extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_app',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

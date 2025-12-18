@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/hybrid_cluster_workspace_authorization
+// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/hybrid_cluster_workspace_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface HybridClusterWorkspaceAuthorizationConfig extends cdktf.Terrafo
   /**
   * The ID of the hybrid cluster to set authorizations for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/hybrid_cluster_workspace_authorization#cluster_id HybridClusterWorkspaceAuthorization#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/hybrid_cluster_workspace_authorization#cluster_id HybridClusterWorkspaceAuthorization#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The IDs of the workspaces to authorize for the hybrid cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/hybrid_cluster_workspace_authorization#workspace_ids HybridClusterWorkspaceAuthorization#workspace_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/hybrid_cluster_workspace_authorization#workspace_ids HybridClusterWorkspaceAuthorization#workspace_ids}
   */
   readonly workspaceIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/hybrid_cluster_workspace_authorization astro_hybrid_cluster_workspace_authorization}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/hybrid_cluster_workspace_authorization astro_hybrid_cluster_workspace_authorization}
 */
 export class HybridClusterWorkspaceAuthorization extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class HybridClusterWorkspaceAuthorization extends cdktf.TerraformResource
   * Generates CDKTF code for importing a HybridClusterWorkspaceAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HybridClusterWorkspaceAuthorization to import
-  * @param importFromId The id of the existing HybridClusterWorkspaceAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/hybrid_cluster_workspace_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HybridClusterWorkspaceAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/hybrid_cluster_workspace_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HybridClusterWorkspaceAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class HybridClusterWorkspaceAuthorization extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/hybrid_cluster_workspace_authorization astro_hybrid_cluster_workspace_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/hybrid_cluster_workspace_authorization astro_hybrid_cluster_workspace_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class HybridClusterWorkspaceAuthorization extends cdktf.TerraformResource
       terraformResourceType: 'astro_hybrid_cluster_workspace_authorization',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.9',
-        providerVersionConstraint: '1.0.9'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

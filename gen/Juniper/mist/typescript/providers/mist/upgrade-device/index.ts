@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,67 +8,121 @@ import * as cdktf from 'cdktf';
 
 export interface UpgradeDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#device_id UpgradeDevice#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#device_id UpgradeDevice#device_id}
   */
   readonly deviceId: string;
   /**
   * For Switches and Gateways only (APs are automatically rebooted). Reboot device immediately after upgrade is completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#reboot UpgradeDevice#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#reboot UpgradeDevice#reboot}
   */
   readonly reboot?: boolean | cdktf.IResolvable;
   /**
   * For Switches and Gateways only and if `reboot`==`true`. Reboot start time in epoch seconds, default is `start_time`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#reboot_at UpgradeDevice#reboot_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#reboot_at UpgradeDevice#reboot_at}
   */
   readonly rebootAt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#site_id UpgradeDevice#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#site_id UpgradeDevice#site_id}
   */
   readonly siteId: string;
   /**
   * For Junos devices only. Perform recovery snapshot after device is rebooted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#snapshot UpgradeDevice#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#snapshot UpgradeDevice#snapshot}
   */
   readonly snapshot?: boolean | cdktf.IResolvable;
   /**
   * Firmware download start time in epoch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#start_time UpgradeDevice#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#start_time UpgradeDevice#start_time}
   */
   readonly startTime?: number;
   /**
   * if set to `false`, the provider will just trigger the upgrade and not wait for the end of the upgrade process. Default is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#sync_upgrade UpgradeDevice#sync_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#sync_upgrade UpgradeDevice#sync_upgrade}
   */
   readonly syncUpgrade?: boolean | cdktf.IResolvable;
   /**
   * if set to `sync_upgrade`==`true`, how long to wait between each refresh of the upgrade status, in seconds. Default is 30, minimum is 15
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#sync_upgrade_refresh_interval UpgradeDevice#sync_upgrade_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#sync_upgrade_refresh_interval UpgradeDevice#sync_upgrade_refresh_interval}
   */
   readonly syncUpgradeRefreshInterval?: number;
   /**
   * if set to `sync_upgrade`==`true`, how long to wait for the upgrade to start before raising an error, in seconds. Default is 60, minimum is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#sync_upgrade_start_timeout UpgradeDevice#sync_upgrade_start_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#sync_upgrade_start_timeout UpgradeDevice#sync_upgrade_start_timeout}
   */
   readonly syncUpgradeStartTimeout?: number;
   /**
   * if set to `sync_upgrade`==`true`, how long to wait for the upgrade to end before raising an error, in seconds. Default is 1800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#sync_upgrade_timeout UpgradeDevice#sync_upgrade_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#sync_upgrade_timeout UpgradeDevice#sync_upgrade_timeout}
   */
   readonly syncUpgradeTimeout?: number;
   /**
   * firmware version to deploy to the device. Use the `mist_device_versions` datasource to get the list of available firmware versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#target_version UpgradeDevice#target_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#target_version UpgradeDevice#target_version}
   */
   readonly targetVersion: string;
+}
+export interface UpgradeDeviceAutoUpgradeStat {
+}
+
+export function upgradeDeviceAutoUpgradeStatToTerraform(struct?: UpgradeDeviceAutoUpgradeStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function upgradeDeviceAutoUpgradeStatToHclTerraform(struct?: UpgradeDeviceAutoUpgradeStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class UpgradeDeviceAutoUpgradeStatOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): UpgradeDeviceAutoUpgradeStat | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: UpgradeDeviceAutoUpgradeStat | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // lastcheck - computed: true, optional: false, required: false
+  public get lastcheck() {
+    return this.getNumberAttribute('lastcheck');
+  }
 }
 export interface UpgradeDeviceFwupdate {
 }
@@ -146,7 +200,7 @@ export class UpgradeDeviceFwupdateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device mist_upgrade_device}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device mist_upgrade_device}
 */
 export class UpgradeDevice extends cdktf.TerraformResource {
 
@@ -162,7 +216,7 @@ export class UpgradeDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpgradeDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpgradeDevice to import
-  * @param importFromId The id of the existing UpgradeDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpgradeDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpgradeDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +228,7 @@ export class UpgradeDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/upgrade_device mist_upgrade_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/upgrade_device mist_upgrade_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +239,8 @@ export class UpgradeDevice extends cdktf.TerraformResource {
       terraformResourceType: 'mist_upgrade_device',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -213,6 +267,22 @@ export class UpgradeDevice extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
+  // auto_upgrade_stat - computed: true, optional: false, required: false
+  private _autoUpgradeStat = new UpgradeDeviceAutoUpgradeStatOutputReference(this, "auto_upgrade_stat");
+  public get autoUpgradeStat() {
+    return this._autoUpgradeStat;
+  }
+
+  // config_timestamp - computed: true, optional: false, required: false
+  public get configTimestamp() {
+    return this.getNumberAttribute('config_timestamp');
+  }
+
+  // config_version - computed: true, optional: false, required: false
+  public get configVersion() {
+    return this.getNumberAttribute('config_version');
+  }
+
   // device_id - computed: false, optional: false, required: true
   private _deviceId?: string; 
   public get deviceId() {
@@ -229,6 +299,11 @@ export class UpgradeDevice extends cdktf.TerraformResource {
   // device_version - computed: true, optional: false, required: false
   public get deviceVersion() {
     return this.getStringAttribute('device_version');
+  }
+
+  // ext_ip - computed: true, optional: false, required: false
+  public get extIp() {
+    return this.getStringAttribute('ext_ip');
   }
 
   // fwupdate - computed: true, optional: false, required: false
@@ -381,6 +456,16 @@ export class UpgradeDevice extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get syncUpgradeTimeoutInput() {
     return this._syncUpgradeTimeout;
+  }
+
+  // tag_id - computed: true, optional: false, required: false
+  public get tagId() {
+    return this.getNumberAttribute('tag_id');
+  }
+
+  // tag_uuid - computed: true, optional: false, required: false
+  public get tagUuid() {
+    return this.getStringAttribute('tag_uuid');
   }
 
   // target_version - computed: false, optional: false, required: true

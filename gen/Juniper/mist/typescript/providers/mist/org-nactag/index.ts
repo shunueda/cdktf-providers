@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OrgNactagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Can be set to true to allow the override by usermac result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#allow_usermac_override OrgNactag#allow_usermac_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#allow_usermac_override OrgNactag#allow_usermac_override}
   */
   readonly allowUsermacOverride?: boolean | cdktf.IResolvable;
   /**
   * If `type`==`egress_vlan_names`, list of egress vlans to return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#egress_vlan_names OrgNactag#egress_vlan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#egress_vlan_names OrgNactag#egress_vlan_names}
   */
   readonly egressVlanNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#gbp_tag OrgNactag#gbp_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#gbp_tag OrgNactag#gbp_tag}
   */
   readonly gbpTag?: string;
   /**
-  * if `type`==`match`. enum: `cert_cn`, `cert_eku`, `cert_issuer`, `cert_san`, `cert_serial`, `cert_sub`, `cert_template`, `client_mac`, `edr_health`, `hostname`, `idp_role`, `ingress_vlan`, `mdm_status`, `nas_ip`, `radius_group`, `realm`, `ssid`, `user_name`, `usermac_label`
+  * if `type`==`match`. enum: `cert_cn`, `cert_eku`, `cert_issuer`, `cert_san`, `cert_serial`, `cert_sub`, `cert_template`, `client_mac`, `edr_status`, `gbp_tag`, `hostname`, `idp_role`, `ingress_vlan`, `mdm_status`, `nas_ip`, `radius_group`, `realm`, `ssid`, `user_name`, `usermac_label`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#match OrgNactag#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#match OrgNactag#match}
   */
   readonly match?: string;
   /**
@@ -37,21 +37,21 @@ export interface OrgNactagConfig extends cdktf.TerraformMetaArguments {
   * 
   * Currently it makes sense to set this field to `true` only if the `match`==`idp_role`, `match`==`usermac_label` and `edr_status`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#match_all OrgNactag#match_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#match_all OrgNactag#match_all}
   */
   readonly matchAll?: boolean | cdktf.IResolvable;
   /**
   * If `type`==`redirect_nacportal_id`, the ID of the NAC portal to redirect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#nacportal_id OrgNactag#nacportal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#nacportal_id OrgNactag#nacportal_id}
   */
   readonly nacportalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#name OrgNactag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#name OrgNactag#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#org_id OrgNactag#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#org_id OrgNactag#org_id}
   */
   readonly orgId: string;
   /**
@@ -59,13 +59,13 @@ export interface OrgNactagConfig extends cdktf.TerraformMetaArguments {
   * It is the responsibility of the user to provide a syntactically correct string, otherwise it may not work as expected.
   * Note that it is allowed to have more than one radius_attrs in the result of a given rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#radius_attrs OrgNactag#radius_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#radius_attrs OrgNactag#radius_attrs}
   */
   readonly radiusAttrs?: string[];
   /**
   * If `type`==`radius_group`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#radius_group OrgNactag#radius_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#radius_group OrgNactag#radius_group}
   */
   readonly radiusGroup?: string;
   /**
@@ -73,43 +73,43 @@ export interface OrgNactagConfig extends cdktf.TerraformMetaArguments {
   * It is the responsibility of the user to provide a syntactically correct string, otherwise it may not work as expected.
   * Note that it is allowed to have more than one radius_vendor_attrs in the result of a given rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#radius_vendor_attrs OrgNactag#radius_vendor_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#radius_vendor_attrs OrgNactag#radius_vendor_attrs}
   */
   readonly radiusVendorAttrs?: string[];
   /**
   * If `type`==`session_timeout, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#session_timeout OrgNactag#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#session_timeout OrgNactag#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * enum: `egress_vlan_names`, `gbp_tag`, `match`, `radius_attrs`, `radius_group`, `radius_vendor_attrs`, `redirect_nacportal_id`, `session_timeout`, `username_attr`, `vlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#type OrgNactag#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#type OrgNactag#type}
   */
   readonly type: string;
   /**
   * enum: `automatic`, `cn`, `dns`, `email`, `upn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#username_attr OrgNactag#username_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#username_attr OrgNactag#username_attr}
   */
   readonly usernameAttr?: string;
   /**
   * If `type`==`match`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#values OrgNactag#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#values OrgNactag#values}
   */
   readonly values?: string[];
   /**
   * If `type`==`vlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#vlan OrgNactag#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#vlan OrgNactag#vlan}
   */
   readonly vlan?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag mist_org_nactag}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag mist_org_nactag}
 */
 export class OrgNactag extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class OrgNactag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgNactag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgNactag to import
-  * @param importFromId The id of the existing OrgNactag that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgNactag that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgNactag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class OrgNactag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nactag mist_org_nactag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nactag mist_org_nactag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class OrgNactag extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_nactag',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

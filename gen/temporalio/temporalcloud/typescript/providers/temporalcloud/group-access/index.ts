@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface GroupAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * The role on the account. Must be one of owner, admin, developer, none, or read (case-insensitive). owner is only valid for import and cannot be created, updated or deleted without Temporal support. none is only valid for users managed via SCIM that derive their roles from group memberships or for group access resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access#account_access GroupAccess#account_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access#account_access GroupAccess#account_access}
   */
   readonly accountAccess: string;
   /**
   * The unique identifier of the group access across all Temporal Cloud tenants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access#id GroupAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access#id GroupAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface GroupAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * The set of namespace accesses. Empty sets are not allowed, omit the attribute instead. Users with account_access roles of owner or admin cannot be assigned explicit permissions to namespaces. They implicitly receive access to all Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access#namespace_accesses GroupAccess#namespace_accesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access#namespace_accesses GroupAccess#namespace_accesses}
   */
   readonly namespaceAccesses?: GroupAccessNamespaceAccesses[] | cdktf.IResolvable;
 }
@@ -33,13 +33,13 @@ export interface GroupAccessNamespaceAccesses {
   /**
   * The namespace to assign permissions to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access#namespace_id GroupAccess#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access#namespace_id GroupAccess#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * The permission to assign. Must be one of admin, write, or read (case-insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access#permission GroupAccess#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access#permission GroupAccess#permission}
   */
   readonly permission: string;
 }
@@ -178,7 +178,7 @@ export class GroupAccessNamespaceAccessesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access temporalcloud_group_access}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access temporalcloud_group_access}
 */
 export class GroupAccess extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class GroupAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupAccess to import
-  * @param importFromId The id of the existing GroupAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class GroupAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/group_access temporalcloud_group_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/group_access temporalcloud_group_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class GroupAccess extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_group_access',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

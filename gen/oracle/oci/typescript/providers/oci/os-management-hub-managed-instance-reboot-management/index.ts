@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubManagedInstanceRebootManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#id OsManagementHubManagedInstanceRebootManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#id OsManagementHubManagedInstanceRebootManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#managed_instance_id OsManagementHubManagedInstanceRebootManagement#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#managed_instance_id OsManagementHubManagedInstanceRebootManagement#managed_instance_id}
   */
   readonly managedInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceRebootManagement#reboot_timeout_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceRebootManagement#reboot_timeout_in_mins}
   */
   readonly rebootTimeoutInMins?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#timeouts OsManagementHubManagedInstanceRebootManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#timeouts OsManagementHubManagedInstanceRebootManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubManagedInstanceRebootManagementTimeouts;
   /**
   * work_request_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#work_request_details OsManagementHubManagedInstanceRebootManagement#work_request_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#work_request_details OsManagementHubManagedInstanceRebootManagement#work_request_details}
   */
   readonly workRequestDetails?: OsManagementHubManagedInstanceRebootManagementWorkRequestDetails;
 }
 export interface OsManagementHubManagedInstanceRebootManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#create OsManagementHubManagedInstanceRebootManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#create OsManagementHubManagedInstanceRebootManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#delete OsManagementHubManagedInstanceRebootManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#delete OsManagementHubManagedInstanceRebootManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#update OsManagementHubManagedInstanceRebootManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#update OsManagementHubManagedInstanceRebootManagement#update}
   */
   readonly update?: string;
 }
@@ -197,11 +197,11 @@ export class OsManagementHubManagedInstanceRebootManagementTimeoutsOutputReferen
 }
 export interface OsManagementHubManagedInstanceRebootManagementWorkRequestDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#description OsManagementHubManagedInstanceRebootManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#description OsManagementHubManagedInstanceRebootManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#display_name OsManagementHubManagedInstanceRebootManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#display_name OsManagementHubManagedInstanceRebootManagement#display_name}
   */
   readonly displayName?: string;
 }
@@ -314,7 +314,7 @@ export class OsManagementHubManagedInstanceRebootManagementWorkRequestDetailsOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management oci_os_management_hub_managed_instance_reboot_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management oci_os_management_hub_managed_instance_reboot_management}
 */
 export class OsManagementHubManagedInstanceRebootManagement extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class OsManagementHubManagedInstanceRebootManagement extends cdktf.Terraf
   * Generates CDKTF code for importing a OsManagementHubManagedInstanceRebootManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubManagedInstanceRebootManagement to import
-  * @param importFromId The id of the existing OsManagementHubManagedInstanceRebootManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubManagedInstanceRebootManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubManagedInstanceRebootManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class OsManagementHubManagedInstanceRebootManagement extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_managed_instance_reboot_management oci_os_management_hub_managed_instance_reboot_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_managed_instance_reboot_management oci_os_management_hub_managed_instance_reboot_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class OsManagementHubManagedInstanceRebootManagement extends cdktf.Terraf
       terraformResourceType: 'oci_os_management_hub_managed_instance_reboot_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

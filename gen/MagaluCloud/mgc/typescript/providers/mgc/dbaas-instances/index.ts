@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DbaasInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Availability zone to use for the instance. Not used when restoring from a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#availability_zone DbaasInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#availability_zone DbaasInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Number of days to retain automated backups (1-35 days). Zero disables automated backups. Default is 7 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#backup_retention_days DbaasInstances#backup_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#backup_retention_days DbaasInstances#backup_retention_days}
   */
   readonly backupRetentionDays?: number;
   /**
   * Time to initiate the daily backup in UTC (format: 'HH:MM:SS'). Default is 04:00:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#backup_start_at DbaasInstances#backup_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#backup_start_at DbaasInstances#backup_start_at}
   */
   readonly backupStartAt?: string;
   /**
   * Type of database engine to use (e.g., 'mysql', 'postgresql'). Cannot be changed after creation. Required when creating a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#engine_name DbaasInstances#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#engine_name DbaasInstances#engine_name}
   */
   readonly engineName?: string;
   /**
   * Version of the database engine (e.g., '8.0', '13.3'). Must be compatible with the selected engine_name. Required when creating a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#engine_version DbaasInstances#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#engine_version DbaasInstances#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Compute and memory capacity of the instance determined by the instance-type field label (e.g., 'DP2-16-40'). Can be changed to scale the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#instance_type DbaasInstances#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#instance_type DbaasInstances#instance_type}
   */
   readonly instanceType: string;
   /**
   * Name of the DBaaS instance. Must be unique within your account. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#name DbaasInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#name DbaasInstances#name}
   */
   readonly name: string;
   /**
   * ID of the parameter group to use for the instance. Not used when restoring from a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#parameter_group DbaasInstances#parameter_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#parameter_group DbaasInstances#parameter_group}
   */
   readonly parameterGroup?: string;
   /**
   * Master password for the database. Must be at least 8 characters long and contain letters, numbers and special characters. Required when creating a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#password DbaasInstances#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#password DbaasInstances#password}
   */
   readonly password?: string;
   /**
   * ID of the snapshot to use for the instance. Not used when creating a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#snapshot_id DbaasInstances#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#snapshot_id DbaasInstances#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * ID of the instance to use for the snapshot. Not used when creating a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#snapshot_source_id DbaasInstances#snapshot_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#snapshot_source_id DbaasInstances#snapshot_source_id}
   */
   readonly snapshotSourceId?: string;
   /**
   * Master username for the database. Must start with a letter and contain only alphanumeric characters. Required when creating a new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#user DbaasInstances#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#user DbaasInstances#user}
   */
   readonly user?: string;
   /**
   * Size of the storage volume in GB. Can be increased but not decreased after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#volume_size DbaasInstances#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#volume_size DbaasInstances#volume_size}
   */
   readonly volumeSize: number;
   /**
   * Type of the storage volume (e.g., 'CLOUD_NVME15K' or 'CLOUD_NVME20K'). Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#volume_type DbaasInstances#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#volume_type DbaasInstances#volume_type}
   */
   readonly volumeType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances mgc_dbaas_instances}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances mgc_dbaas_instances}
 */
 export class DbaasInstances extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class DbaasInstances extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasInstances to import
-  * @param importFromId The id of the existing DbaasInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class DbaasInstances extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_instances mgc_dbaas_instances} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_instances mgc_dbaas_instances} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class DbaasInstances extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_dbaas_instances',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

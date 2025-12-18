@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/environment_variable
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataDbtcloudEnvironmentVariableConfig extends cdktf.TerraformMe
   /**
   * Name for the variable, must be unique within a project, must be prefixed with 'DBT_'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/environment_variable#name DataDbtcloudEnvironmentVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/environment_variable#name DataDbtcloudEnvironmentVariable#name}
   */
   readonly name: string;
   /**
   * Project ID to create the environment variable in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/environment_variable#project_id DataDbtcloudEnvironmentVariable#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/environment_variable#project_id DataDbtcloudEnvironmentVariable#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/environment_variable dbtcloud_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/environment_variable dbtcloud_environment_variable}
 */
 export class DataDbtcloudEnvironmentVariable extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataDbtcloudEnvironmentVariable extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudEnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudEnvironmentVariable to import
-  * @param importFromId The id of the existing DataDbtcloudEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudEnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataDbtcloudEnvironmentVariable extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/environment_variable dbtcloud_environment_variable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/environment_variable dbtcloud_environment_variable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataDbtcloudEnvironmentVariable extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

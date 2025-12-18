@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AuthorizationOrganizationRoleAssignmentConfig extends cdktf.Ter
   /**
   * organization Resource to assign the role to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment#resource_id AuthorizationOrganizationRoleAssignment#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment#resource_id AuthorizationOrganizationRoleAssignment#resource_id}
   */
   readonly resourceId: string;
   /**
   * Role to be assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment#role AuthorizationOrganizationRoleAssignment#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment#role AuthorizationOrganizationRoleAssignment#role}
   */
   readonly role: string;
   /**
   * Identifier of user, service account or client. Usually email address or name in case of clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment#subject AuthorizationOrganizationRoleAssignment#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment#subject AuthorizationOrganizationRoleAssignment#subject}
   */
   readonly subject: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment stackit_authorization_organization_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment stackit_authorization_organization_role_assignment}
 */
 export class AuthorizationOrganizationRoleAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AuthorizationOrganizationRoleAssignment extends cdktf.TerraformReso
   * Generates CDKTF code for importing a AuthorizationOrganizationRoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthorizationOrganizationRoleAssignment to import
-  * @param importFromId The id of the existing AuthorizationOrganizationRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthorizationOrganizationRoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthorizationOrganizationRoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AuthorizationOrganizationRoleAssignment extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/authorization_organization_role_assignment stackit_authorization_organization_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/authorization_organization_role_assignment stackit_authorization_organization_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AuthorizationOrganizationRoleAssignment extends cdktf.TerraformReso
       terraformResourceType: 'stackit_authorization_organization_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

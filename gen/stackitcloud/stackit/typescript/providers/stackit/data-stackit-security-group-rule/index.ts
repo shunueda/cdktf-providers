@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,25 @@ export interface DataStackitSecurityGroupRuleConfig extends cdktf.TerraformMetaA
   /**
   * STACKIT project ID to which the security group rule is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule#project_id DataStackitSecurityGroupRule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule#project_id DataStackitSecurityGroupRule#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule#region DataStackitSecurityGroupRule#region}
+  */
+  readonly region?: string;
+  /**
   * The security group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule#security_group_id DataStackitSecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule#security_group_id DataStackitSecurityGroupRule#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * The security group rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule#security_group_rule_id DataStackitSecurityGroupRule#security_group_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule#security_group_rule_id DataStackitSecurityGroupRule#security_group_rule_id}
   */
   readonly securityGroupRuleId: string;
 }
@@ -205,7 +211,7 @@ export class DataStackitSecurityGroupRuleProtocolOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule stackit_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule stackit_security_group_rule}
 */
 export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
 
@@ -221,7 +227,7 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitSecurityGroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitSecurityGroupRule to import
-  * @param importFromId The id of the existing DataStackitSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitSecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +239,7 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/security_group_rule stackit_security_group_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/security_group_rule stackit_security_group_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +250,8 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -256,6 +262,7 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._projectId = config.projectId;
+    this._region = config.region;
     this._securityGroupId = config.securityGroupId;
     this._securityGroupRuleId = config.securityGroupRuleId;
   }
@@ -320,6 +327,22 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
     return this._protocol;
   }
 
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // remote_security_group_id - computed: true, optional: false, required: false
   public get remoteSecurityGroupId() {
     return this.getStringAttribute('remote_security_group_id');
@@ -358,6 +381,7 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       security_group_id: cdktf.stringToTerraform(this._securityGroupId),
       security_group_rule_id: cdktf.stringToTerraform(this._securityGroupRuleId),
     };
@@ -367,6 +391,12 @@ export class DataStackitSecurityGroupRule extends cdktf.TerraformDataSource {
     const attrs = {
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

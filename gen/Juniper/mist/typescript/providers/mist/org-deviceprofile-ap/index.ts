@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,113 +10,113 @@ export interface OrgDeviceprofileApConfig extends cdktf.TerraformMetaArguments {
   /**
   * Aeroscout AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#aeroscout OrgDeviceprofileAp#aeroscout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#aeroscout OrgDeviceprofileAp#aeroscout}
   */
   readonly aeroscout?: OrgDeviceprofileApAeroscout;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#airista OrgDeviceprofileAp#airista}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#airista OrgDeviceprofileAp#airista}
   */
   readonly airista?: OrgDeviceprofileApAirista;
   /**
   * BLE AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ble_config OrgDeviceprofileAp#ble_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ble_config OrgDeviceprofileAp#ble_config}
   */
   readonly bleConfig?: OrgDeviceprofileApBleConfig;
   /**
   * Whether to disable eth1 port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disable_eth1 OrgDeviceprofileAp#disable_eth1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disable_eth1 OrgDeviceprofileAp#disable_eth1}
   */
   readonly disableEth1?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable eth2 port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disable_eth2 OrgDeviceprofileAp#disable_eth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disable_eth2 OrgDeviceprofileAp#disable_eth2}
   */
   readonly disableEth2?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable eth3 port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disable_eth3 OrgDeviceprofileAp#disable_eth3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disable_eth3 OrgDeviceprofileAp#disable_eth3}
   */
   readonly disableEth3?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable module port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disable_module OrgDeviceprofileAp#disable_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disable_module OrgDeviceprofileAp#disable_module}
   */
   readonly disableModule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#esl_config OrgDeviceprofileAp#esl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#esl_config OrgDeviceprofileAp#esl_config}
   */
   readonly eslConfig?: OrgDeviceprofileApEslConfig;
   /**
   * IP AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ip_config OrgDeviceprofileAp#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ip_config OrgDeviceprofileAp#ip_config}
   */
   readonly ipConfig?: OrgDeviceprofileApIpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#lacp_config OrgDeviceprofileAp#lacp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#lacp_config OrgDeviceprofileAp#lacp_config}
   */
   readonly lacpConfig?: OrgDeviceprofileApLacpConfig;
   /**
   * LED AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#led OrgDeviceprofileAp#led}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#led OrgDeviceprofileAp#led}
   */
   readonly led?: OrgDeviceprofileApLed;
   /**
   * Mesh AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mesh OrgDeviceprofileAp#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mesh OrgDeviceprofileAp#mesh}
   */
   readonly mesh?: OrgDeviceprofileApMesh;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#name OrgDeviceprofileAp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#name OrgDeviceprofileAp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ntp_servers OrgDeviceprofileAp#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ntp_servers OrgDeviceprofileAp#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#org_id OrgDeviceprofileAp#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#org_id OrgDeviceprofileAp#org_id}
   */
   readonly orgId: string;
   /**
   * Whether to enable power out through module port (for APH) or eth1 (for APL/BT11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#poe_passthrough OrgDeviceprofileAp#poe_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#poe_passthrough OrgDeviceprofileAp#poe_passthrough}
   */
   readonly poePassthrough?: boolean | cdktf.IResolvable;
   /**
   * eth0 is not allowed here. Property key is the interface(s) name (e.g. `eth1` or `eth1,eth2`). If specified, this takes precedence over switch_config (deprecated)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port_config OrgDeviceprofileAp#port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port_config OrgDeviceprofileAp#port_config}
   */
   readonly portConfig?: { [key: string]: OrgDeviceprofileApPortConfig } | cdktf.IResolvable;
   /**
   * Power related configs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#pwr_config OrgDeviceprofileAp#pwr_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#pwr_config OrgDeviceprofileAp#pwr_config}
   */
   readonly pwrConfig?: OrgDeviceprofileApPwrConfig;
   /**
   * Radio AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#radio_config OrgDeviceprofileAp#radio_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#radio_config OrgDeviceprofileAp#radio_config}
   */
   readonly radioConfig?: OrgDeviceprofileApRadioConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#site_id OrgDeviceprofileAp#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#site_id OrgDeviceprofileAp#site_id}
   */
   readonly siteId?: string;
   /**
   * AP Uplink port configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#uplink_port_config OrgDeviceprofileAp#uplink_port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#uplink_port_config OrgDeviceprofileAp#uplink_port_config}
   */
   readonly uplinkPortConfig?: OrgDeviceprofileApUplinkPortConfig;
   /**
@@ -124,13 +124,13 @@ export interface OrgDeviceprofileApConfig extends cdktf.TerraformMetaArguments {
   *   - Note: if native imagotag is enabled, BLE will be disabled automatically
   *   - Note: legacy, new config moved to ESL Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#usb_config OrgDeviceprofileAp#usb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#usb_config OrgDeviceprofileAp#usb_config}
   */
   readonly usbConfig?: OrgDeviceprofileApUsbConfig;
   /**
   * Dictionary of name->value, the vars can then be used in Wlans. This can overwrite those from Site Vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vars OrgDeviceprofileAp#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vars OrgDeviceprofileAp#vars}
   */
   readonly vars?: { [key: string]: string };
 }
@@ -138,23 +138,23 @@ export interface OrgDeviceprofileApAeroscout {
   /**
   * Whether to enable aeroscout config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Required if enabled, aeroscout server host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host?: string;
   /**
   * Whether to enable the feature to allow wireless clients data received and sent to AES server for location calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#locate_connected OrgDeviceprofileAp#locate_connected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#locate_connected OrgDeviceprofileAp#locate_connected}
   */
   readonly locateConnected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: number;
 }
@@ -337,17 +337,17 @@ export interface OrgDeviceprofileApAirista {
   /**
   * Whether to enable Airista config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Required if enabled, Airista server host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: number;
 }
@@ -501,157 +501,157 @@ export interface OrgDeviceprofileApBleConfig {
   /**
   * Whether Mist beacons is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#beacon_enabled OrgDeviceprofileAp#beacon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#beacon_enabled OrgDeviceprofileAp#beacon_enabled}
   */
   readonly beaconEnabled?: boolean | cdktf.IResolvable;
   /**
   * Required if `beacon_rate_mode`==`custom`, 1-10, in number-beacons-per-second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#beacon_rate OrgDeviceprofileAp#beacon_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#beacon_rate OrgDeviceprofileAp#beacon_rate}
   */
   readonly beaconRate?: number;
   /**
   * enum: `custom`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#beacon_rate_mode OrgDeviceprofileAp#beacon_rate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#beacon_rate_mode OrgDeviceprofileAp#beacon_rate_mode}
   */
   readonly beaconRateMode?: string;
   /**
   * List of AP BLE location beam numbers (1-8) which should be disabled at the AP and not transmit location information (where beam 1 is oriented at the top the AP, growing counter-clock-wise, with 9 being the omni BLE beam)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#beam_disabled OrgDeviceprofileAp#beam_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#beam_disabled OrgDeviceprofileAp#beam_disabled}
   */
   readonly beamDisabled?: number[];
   /**
   * Can be enabled if `beacon_enabled`==`true`, whether to send custom packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#custom_ble_packet_enabled OrgDeviceprofileAp#custom_ble_packet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#custom_ble_packet_enabled OrgDeviceprofileAp#custom_ble_packet_enabled}
   */
   readonly customBlePacketEnabled?: boolean | cdktf.IResolvable;
   /**
   * The custom frame to be sent out in this beacon. The frame must be a hexstring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#custom_ble_packet_frame OrgDeviceprofileAp#custom_ble_packet_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#custom_ble_packet_frame OrgDeviceprofileAp#custom_ble_packet_frame}
   */
   readonly customBlePacketFrame?: string;
   /**
   * Frequency (msec) of data emitted by custom ble beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#custom_ble_packet_freq_msec OrgDeviceprofileAp#custom_ble_packet_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#custom_ble_packet_freq_msec OrgDeviceprofileAp#custom_ble_packet_freq_msec}
   */
   readonly customBlePacketFreqMsec?: number;
   /**
   * Advertised TX Power, -100 to 20 (dBm), omit this attribute to use default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_uid_adv_power OrgDeviceprofileAp#eddystone_uid_adv_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_uid_adv_power OrgDeviceprofileAp#eddystone_uid_adv_power}
   */
   readonly eddystoneUidAdvPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_uid_beams OrgDeviceprofileAp#eddystone_uid_beams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_uid_beams OrgDeviceprofileAp#eddystone_uid_beams}
   */
   readonly eddystoneUidBeams?: string;
   /**
   * Only if `beacon_enabled`==`false`, Whether Eddystone-UID beacon is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_uid_enabled OrgDeviceprofileAp#eddystone_uid_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_uid_enabled OrgDeviceprofileAp#eddystone_uid_enabled}
   */
   readonly eddystoneUidEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency (msec) of data emit by Eddystone-UID beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_uid_freq_msec OrgDeviceprofileAp#eddystone_uid_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_uid_freq_msec OrgDeviceprofileAp#eddystone_uid_freq_msec}
   */
   readonly eddystoneUidFreqMsec?: number;
   /**
   * Eddystone-UID instance for the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_uid_instance OrgDeviceprofileAp#eddystone_uid_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_uid_instance OrgDeviceprofileAp#eddystone_uid_instance}
   */
   readonly eddystoneUidInstance?: string;
   /**
   * Eddystone-UID namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_uid_namespace OrgDeviceprofileAp#eddystone_uid_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_uid_namespace OrgDeviceprofileAp#eddystone_uid_namespace}
   */
   readonly eddystoneUidNamespace?: string;
   /**
   * Advertised TX Power, -100 to 20 (dBm), omit this attribute to use default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_url_adv_power OrgDeviceprofileAp#eddystone_url_adv_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_url_adv_power OrgDeviceprofileAp#eddystone_url_adv_power}
   */
   readonly eddystoneUrlAdvPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_url_beams OrgDeviceprofileAp#eddystone_url_beams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_url_beams OrgDeviceprofileAp#eddystone_url_beams}
   */
   readonly eddystoneUrlBeams?: string;
   /**
   * Only if `beacon_enabled`==`false`, Whether Eddystone-URL beacon is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_url_enabled OrgDeviceprofileAp#eddystone_url_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_url_enabled OrgDeviceprofileAp#eddystone_url_enabled}
   */
   readonly eddystoneUrlEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency (msec) of data emit by Eddystone-UID beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_url_freq_msec OrgDeviceprofileAp#eddystone_url_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_url_freq_msec OrgDeviceprofileAp#eddystone_url_freq_msec}
   */
   readonly eddystoneUrlFreqMsec?: number;
   /**
   * URL pointed by Eddystone-URL beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#eddystone_url_url OrgDeviceprofileAp#eddystone_url_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#eddystone_url_url OrgDeviceprofileAp#eddystone_url_url}
   */
   readonly eddystoneUrlUrl?: string;
   /**
   * Advertised TX Power, -100 to 20 (dBm), omit this attribute to use default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_adv_power OrgDeviceprofileAp#ibeacon_adv_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_adv_power OrgDeviceprofileAp#ibeacon_adv_power}
   */
   readonly ibeaconAdvPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_beams OrgDeviceprofileAp#ibeacon_beams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_beams OrgDeviceprofileAp#ibeacon_beams}
   */
   readonly ibeaconBeams?: string;
   /**
   * Can be enabled if `beacon_enabled`==`true`, whether to send iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_enabled OrgDeviceprofileAp#ibeacon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_enabled OrgDeviceprofileAp#ibeacon_enabled}
   */
   readonly ibeaconEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency (msec) of data emit for iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_freq_msec OrgDeviceprofileAp#ibeacon_freq_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_freq_msec OrgDeviceprofileAp#ibeacon_freq_msec}
   */
   readonly ibeaconFreqMsec?: number;
   /**
   * Major number for iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_major OrgDeviceprofileAp#ibeacon_major}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_major OrgDeviceprofileAp#ibeacon_major}
   */
   readonly ibeaconMajor?: number;
   /**
   * Minor number for iBeacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_minor OrgDeviceprofileAp#ibeacon_minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_minor OrgDeviceprofileAp#ibeacon_minor}
   */
   readonly ibeaconMinor?: number;
   /**
   * Optional, if not specified, the same UUID as the beacon will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ibeacon_uuid OrgDeviceprofileAp#ibeacon_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ibeacon_uuid OrgDeviceprofileAp#ibeacon_uuid}
   */
   readonly ibeaconUuid?: string;
   /**
   * Required if `power_mode`==`custom`; else use `power_mode` as default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
   */
   readonly power?: number;
   /**
   * enum: `custom`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_mode OrgDeviceprofileAp#power_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_mode OrgDeviceprofileAp#power_mode}
   */
   readonly powerMode?: string;
 }
@@ -1501,49 +1501,49 @@ export interface OrgDeviceprofileApEslConfig {
   /**
   * Only if `type`==`imagotag` or `type`==`native`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#cacert OrgDeviceprofileAp#cacert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#cacert OrgDeviceprofileAp#cacert}
   */
   readonly cacert?: string;
   /**
   * Only if `type`==`imagotag` or `type`==`native`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
   */
   readonly channel?: number;
   /**
   * usb_config is ignored if esl_config enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Only if `type`==`imagotag` or `type`==`native`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host?: string;
   /**
   * Only if `type`==`imagotag` or `type`==`native`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: number;
   /**
   * note: ble_config will be ignored if esl_config is enabled and with native mode. enum: `hanshow`, `imagotag`, `native`, `solum`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
   */
   readonly type?: string;
   /**
   * Only if `type`==`imagotag` or `type`==`native`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#verify_cert OrgDeviceprofileAp#verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#verify_cert OrgDeviceprofileAp#verify_cert}
   */
   readonly verifyCert?: boolean | cdktf.IResolvable;
   /**
   * Only if `type`==`solum` or `type`==`hanshow`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -1842,65 +1842,65 @@ export interface OrgDeviceprofileApIpConfig {
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#dns OrgDeviceprofileAp#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#dns OrgDeviceprofileAp#dns}
   */
   readonly dns?: string[];
   /**
   * Required if `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#dns_suffix OrgDeviceprofileAp#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#dns_suffix OrgDeviceprofileAp#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Required if `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#gateway OrgDeviceprofileAp#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#gateway OrgDeviceprofileAp#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#gateway6 OrgDeviceprofileAp#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#gateway6 OrgDeviceprofileAp#gateway6}
   */
   readonly gateway6?: string;
   /**
   * Required if `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ip OrgDeviceprofileAp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ip OrgDeviceprofileAp#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ip6 OrgDeviceprofileAp#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ip6 OrgDeviceprofileAp#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mtu OrgDeviceprofileAp#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mtu OrgDeviceprofileAp#mtu}
   */
   readonly mtu?: number;
   /**
   * Required if `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#netmask OrgDeviceprofileAp#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#netmask OrgDeviceprofileAp#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#netmask6 OrgDeviceprofileAp#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#netmask6 OrgDeviceprofileAp#netmask6}
   */
   readonly netmask6?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
   */
   readonly type?: string;
   /**
   * enum: `autoconf`, `dhcp`, `disabled`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#type6 OrgDeviceprofileAp#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#type6 OrgDeviceprofileAp#type6}
   */
   readonly type6?: string;
   /**
   * Management VLAN id, default is 1 (untagged)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -2313,7 +2313,7 @@ export class OrgDeviceprofileApIpConfigOutputReference extends cdktf.ComplexObje
 }
 export interface OrgDeviceprofileApLacpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2407,11 +2407,11 @@ export class OrgDeviceprofileApLacpConfigOutputReference extends cdktf.ComplexOb
 }
 export interface OrgDeviceprofileApLed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#brightness OrgDeviceprofileAp#brightness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#brightness OrgDeviceprofileAp#brightness}
   */
   readonly brightness?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2536,25 +2536,25 @@ export interface OrgDeviceprofileApMesh {
   /**
   * List of bands that the mesh should apply to. For relay, the first viable one will be picked. For relay, the first viable one will be picked. enum: `24`, `5`, `6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#bands OrgDeviceprofileAp#bands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#bands OrgDeviceprofileAp#bands}
   */
   readonly bands?: string[];
   /**
   * Whether mesh is enabled on this AP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Mesh group, base AP(s) will only allow remote AP(s) in the same mesh group to join, 1-9, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#group OrgDeviceprofileAp#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#group OrgDeviceprofileAp#group}
   */
   readonly group?: number;
   /**
   * enum: `base`, `remote`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#role OrgDeviceprofileAp#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#role OrgDeviceprofileAp#role}
   */
   readonly role?: string;
 }
@@ -2735,19 +2735,19 @@ export class OrgDeviceprofileApMeshOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgDeviceprofileApPortConfigDynamicVlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#default_vlan_id OrgDeviceprofileAp#default_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#default_vlan_id OrgDeviceprofileAp#default_vlan_id}
   */
   readonly defaultVlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vlans OrgDeviceprofileAp#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vlans OrgDeviceprofileAp#vlans}
   */
   readonly vlans?: { [key: string]: string };
 }
@@ -2930,31 +2930,31 @@ export interface OrgDeviceprofileApPortConfigMistNac {
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#acct_interim_interval OrgDeviceprofileAp#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#acct_interim_interval OrgDeviceprofileAp#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
   * Radius auth session retries. Following fast timers are set if `fast_dot1x_timers` knob is enabled. "retries" are set to value of `auth_servers_timeout`. "max-requests" is also set when setting `auth_servers_retries` is set to default value to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#auth_servers_retries OrgDeviceprofileAp#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#auth_servers_retries OrgDeviceprofileAp#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout. Following fast timers are set if `fast_dot1x_timers` knob is enabled. "quite-period" and "transmit-period" are set to half the value of `auth_servers_timeout`. "supplicant-timeout" is also set when setting `auth_servers_timeout` is set to default value of 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#auth_servers_timeout OrgDeviceprofileAp#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#auth_servers_timeout OrgDeviceprofileAp#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
   * Allows a RADIUS server to dynamically modify the authorization status of a user session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#coa_enabled OrgDeviceprofileAp#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#coa_enabled OrgDeviceprofileAp#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
   * the communication port used for “Change of Authorization” (CoA) messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#coa_port OrgDeviceprofileAp#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#coa_port OrgDeviceprofileAp#coa_port}
   */
   readonly coaPort?: number;
   /**
@@ -2966,25 +2966,25 @@ export interface OrgDeviceprofileApPortConfigMistNac {
   *   * `radsec` is ignored
   *   * `coa_enabled` is assumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set to true, sets default fast-timers with values calculated from `auth_servers_timeout` and `auth_server_retries`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#fast_dot1x_timers OrgDeviceprofileAp#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#fast_dot1x_timers OrgDeviceprofileAp#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Which network the mist nac server resides in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#network OrgDeviceprofileAp#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#network OrgDeviceprofileAp#network}
   */
   readonly network?: string;
   /**
   * In case there is a static IP for this network, we can specify it using source ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#source_ip OrgDeviceprofileAp#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#source_ip OrgDeviceprofileAp#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -3312,35 +3312,35 @@ export interface OrgDeviceprofileApPortConfigRadiusConfigAcctServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_enabled OrgDeviceprofileAp#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_enabled OrgDeviceprofileAp#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_format OrgDeviceprofileAp#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_format OrgDeviceprofileAp#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_kek OrgDeviceprofileAp#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_kek OrgDeviceprofileAp#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_mack OrgDeviceprofileAp#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_mack OrgDeviceprofileAp#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: string;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#secret OrgDeviceprofileAp#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#secret OrgDeviceprofileAp#secret}
   */
   readonly secret: string;
 }
@@ -3626,41 +3626,41 @@ export interface OrgDeviceprofileApPortConfigRadiusConfigAuthServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_enabled OrgDeviceprofileAp#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_enabled OrgDeviceprofileAp#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_format OrgDeviceprofileAp#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_format OrgDeviceprofileAp#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_kek OrgDeviceprofileAp#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_kek OrgDeviceprofileAp#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keywrap_mack OrgDeviceprofileAp#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keywrap_mack OrgDeviceprofileAp#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: string;
   /**
   * Whether to require Message-Authenticator in requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#require_message_authenticator OrgDeviceprofileAp#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#require_message_authenticator OrgDeviceprofileAp#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: boolean | cdktf.IResolvable;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#secret OrgDeviceprofileAp#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#secret OrgDeviceprofileAp#secret}
   */
   readonly secret: string;
 }
@@ -3975,47 +3975,47 @@ export interface OrgDeviceprofileApPortConfigRadiusConfig {
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from RADIUS Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#acct_interim_interval OrgDeviceprofileAp#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#acct_interim_interval OrgDeviceprofileAp#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#acct_servers OrgDeviceprofileAp#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#acct_servers OrgDeviceprofileAp#acct_servers}
   */
   readonly acctServers?: OrgDeviceprofileApPortConfigRadiusConfigAcctServers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#auth_servers OrgDeviceprofileAp#auth_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#auth_servers OrgDeviceprofileAp#auth_servers}
   */
   readonly authServers?: OrgDeviceprofileApPortConfigRadiusConfigAuthServers[] | cdktf.IResolvable;
   /**
   * radius auth session retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#auth_servers_retries OrgDeviceprofileAp#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#auth_servers_retries OrgDeviceprofileAp#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * radius auth session timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#auth_servers_timeout OrgDeviceprofileAp#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#auth_servers_timeout OrgDeviceprofileAp#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#coa_enabled OrgDeviceprofileAp#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#coa_enabled OrgDeviceprofileAp#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#coa_port OrgDeviceprofileAp#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#coa_port OrgDeviceprofileAp#coa_port}
   */
   readonly coaPort?: number;
   /**
   * use `network`or `source_ip`, which network the RADIUS server resides, if there's static IP for this network, we'd use it as source-ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#network OrgDeviceprofileAp#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#network OrgDeviceprofileAp#network}
   */
   readonly network?: string;
   /**
   * use `network`or `source_ip`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#source_ip OrgDeviceprofileAp#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#source_ip OrgDeviceprofileAp#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -4341,11 +4341,11 @@ export class OrgDeviceprofileApPortConfigRadiusConfigOutputReference extends cdk
 }
 export interface OrgDeviceprofileApPortConfigRadsecServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: number;
 }
@@ -4490,51 +4490,51 @@ export class OrgDeviceprofileApPortConfigRadsecServersList extends cdktf.Complex
 }
 export interface OrgDeviceprofileApPortConfigRadsec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#coa_enabled OrgDeviceprofileAp#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#coa_enabled OrgDeviceprofileAp#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#idle_timeout OrgDeviceprofileAp#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#idle_timeout OrgDeviceprofileAp#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * To use Org mxedges when this WLAN does not use mxtunnel, specify their mxcluster_ids. Org mxedge(s) identified by mxcluster_ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mxcluster_ids OrgDeviceprofileAp#mxcluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mxcluster_ids OrgDeviceprofileAp#mxcluster_ids}
   */
   readonly mxclusterIds?: string[];
   /**
   * Default is site.mxedge.radsec.proxy_hosts which must be a superset of all `wlans[*].radsec.proxy_hosts`. When `radsec.proxy_hosts` are not used, tunnel peers (org or site mxedges) are used irrespective of `use_site_mxedge`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#proxy_hosts OrgDeviceprofileAp#proxy_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#proxy_hosts OrgDeviceprofileAp#proxy_hosts}
   */
   readonly proxyHosts?: string[];
   /**
   * Name of the server to verify (against the cacerts in Org Setting). Only if not Mist Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#server_name OrgDeviceprofileAp#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#server_name OrgDeviceprofileAp#server_name}
   */
   readonly serverName?: string;
   /**
   * List of RadSec Servers. Only if not Mist Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#servers OrgDeviceprofileAp#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#servers OrgDeviceprofileAp#servers}
   */
   readonly servers?: OrgDeviceprofileApPortConfigRadsecServers[] | cdktf.IResolvable;
   /**
   * use mxedge(s) as RadSec Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#use_mxedge OrgDeviceprofileAp#use_mxedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#use_mxedge OrgDeviceprofileAp#use_mxedge}
   */
   readonly useMxedge?: boolean | cdktf.IResolvable;
   /**
   * To use Site mxedges when this WLAN does not use mxtunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#use_site_mxedge OrgDeviceprofileAp#use_site_mxedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#use_site_mxedge OrgDeviceprofileAp#use_site_mxedge}
   */
   readonly useSiteMxedge?: boolean | cdktf.IResolvable;
 }
@@ -4860,17 +4860,17 @@ export class OrgDeviceprofileApPortConfigRadsecOutputReference extends cdktf.Com
 }
 export interface OrgDeviceprofileApPortConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Optional dynamic vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#dynamic_vlan OrgDeviceprofileAp#dynamic_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#dynamic_vlan OrgDeviceprofileAp#dynamic_vlan}
   */
   readonly dynamicVlan?: OrgDeviceprofileApPortConfigDynamicVlan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enable_mac_auth OrgDeviceprofileAp#enable_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enable_mac_auth OrgDeviceprofileAp#enable_mac_auth}
   */
   readonly enableMacAuth?: boolean | cdktf.IResolvable;
   /**
@@ -4881,59 +4881,59 @@ export interface OrgDeviceprofileApPortConfig {
   *   * `site_mxedge`: central breakout to a Site Mist Edge (requires `mxtunnel_name`)
   *   * `wxtunnel`': central breakout to an Org WxTunnel (requires `wxtunnel_id`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#forwarding OrgDeviceprofileAp#forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#forwarding OrgDeviceprofileAp#forwarding}
   */
   readonly forwarding?: string;
   /**
   * When `true`, we'll do dot1x then mac_auth. enable this to prefer mac_auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mac_auth_preferred OrgDeviceprofileAp#mac_auth_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mac_auth_preferred OrgDeviceprofileAp#mac_auth_preferred}
   */
   readonly macAuthPreferred?: boolean | cdktf.IResolvable;
   /**
   * if `enable_mac_auth`==`true`, allows user to select an authentication protocol. enum: `eap-md5`, `eap-peap`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mac_auth_protocol OrgDeviceprofileAp#mac_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mac_auth_protocol OrgDeviceprofileAp#mac_auth_protocol}
   */
   readonly macAuthProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mist_nac OrgDeviceprofileAp#mist_nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mist_nac OrgDeviceprofileAp#mist_nac}
   */
   readonly mistNac?: OrgDeviceprofileApPortConfigMistNac;
   /**
   * If `forwarding`==`mxtunnel`, vlan_ids comes from mxtunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mx_tunnel_id OrgDeviceprofileAp#mx_tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mx_tunnel_id OrgDeviceprofileAp#mx_tunnel_id}
   */
   readonly mxTunnelId?: string;
   /**
   * If `forwarding`==`site_mxedge`, vlan_ids comes from site_mxedge (`mxtunnels` under site setting)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#mxtunnel_name OrgDeviceprofileAp#mxtunnel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#mxtunnel_name OrgDeviceprofileAp#mxtunnel_name}
   */
   readonly mxtunnelName?: string;
   /**
   * When doing port auth. enum: `dot1x`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port_auth OrgDeviceprofileAp#port_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port_auth OrgDeviceprofileAp#port_auth}
   */
   readonly portAuth?: string;
   /**
   * If `forwarding`==`limited`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port_vlan_id OrgDeviceprofileAp#port_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port_vlan_id OrgDeviceprofileAp#port_vlan_id}
   */
   readonly portVlanId?: number;
   /**
   * Junos Radius config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#radius_config OrgDeviceprofileAp#radius_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#radius_config OrgDeviceprofileAp#radius_config}
   */
   readonly radiusConfig?: OrgDeviceprofileApPortConfigRadiusConfig;
   /**
   * RadSec settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#radsec OrgDeviceprofileAp#radsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#radsec OrgDeviceprofileAp#radsec}
   */
   readonly radsec?: OrgDeviceprofileApPortConfigRadsec;
   /**
@@ -4941,25 +4941,25 @@ export interface OrgDeviceprofileApPortConfig {
   *   * if vlan_id is not specified then it will use first one in vlan_ids[] of the mxtunnel.
   *   * if forwarding == site_mxedge, vlan_ids comes from site_mxedge (`mxtunnels` under site setting)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
   */
   readonly vlanId?: number;
   /**
-  * If `forwarding`==`limited`
+  * If `forwarding`==`limited`, comma separated list of additional vlan ids allowed on this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vlan_ids OrgDeviceprofileAp#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vlan_ids OrgDeviceprofileAp#vlan_ids}
   */
-  readonly vlanIds?: number[];
+  readonly vlanIds?: string;
   /**
   * If `forwarding`==`wxtunnel`, the port is bridged to the vlan of the session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#wxtunnel_id OrgDeviceprofileAp#wxtunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#wxtunnel_id OrgDeviceprofileAp#wxtunnel_id}
   */
   readonly wxtunnelId?: string;
   /**
   * If `forwarding`==`wxtunnel`, the port is bridged to the vlan of the session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#wxtunnel_remote_id OrgDeviceprofileAp#wxtunnel_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#wxtunnel_remote_id OrgDeviceprofileAp#wxtunnel_remote_id}
   */
   readonly wxtunnelRemoteId?: string;
 }
@@ -4984,7 +4984,7 @@ export function orgDeviceprofileApPortConfigToTerraform(struct?: OrgDeviceprofil
     radius_config: orgDeviceprofileApPortConfigRadiusConfigToTerraform(struct!.radiusConfig),
     radsec: orgDeviceprofileApPortConfigRadsecToTerraform(struct!.radsec),
     vlan_id: cdktf.numberToTerraform(struct!.vlanId),
-    vlan_ids: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.vlanIds),
+    vlan_ids: cdktf.stringToTerraform(struct!.vlanIds),
     wxtunnel_id: cdktf.stringToTerraform(struct!.wxtunnelId),
     wxtunnel_remote_id: cdktf.stringToTerraform(struct!.wxtunnelRemoteId),
   }
@@ -5082,10 +5082,10 @@ export function orgDeviceprofileApPortConfigToHclTerraform(struct?: OrgDevicepro
       storageClassType: "number",
     },
     vlan_ids: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.vlanIds),
+      value: cdktf.stringToHclTerraform(struct!.vlanIds),
       isBlock: false,
-      type: "list",
-      storageClassType: "numberList",
+      type: "simple",
+      storageClassType: "string",
     },
     wxtunnel_id: {
       value: cdktf.stringToHclTerraform(struct!.wxtunnelId),
@@ -5469,11 +5469,11 @@ export class OrgDeviceprofileApPortConfigOutputReference extends cdktf.ComplexOb
   }
 
   // vlan_ids - computed: false, optional: true, required: false
-  private _vlanIds?: number[]; 
+  private _vlanIds?: string; 
   public get vlanIds() {
-    return this.getNumberListAttribute('vlan_ids');
+    return this.getStringAttribute('vlan_ids');
   }
-  public set vlanIds(value: number[]) {
+  public set vlanIds(value: string) {
     this._vlanIds = value;
   }
   public resetVlanIds() {
@@ -5539,13 +5539,13 @@ export interface OrgDeviceprofileApPwrConfig {
   /**
   * Additional power to request during negotiating with PSE over PoE, in mW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#base OrgDeviceprofileAp#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#base OrgDeviceprofileAp#base}
   */
   readonly base?: number;
   /**
   * Whether to enable power out to peripheral, meanwhile will reduce power to Wi-Fi (only for AP45 at power mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#prefer_usb_over_wifi OrgDeviceprofileAp#prefer_usb_over_wifi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#prefer_usb_over_wifi OrgDeviceprofileAp#prefer_usb_over_wifi}
   */
   readonly preferUsbOverWifi?: boolean | cdktf.IResolvable;
 }
@@ -5668,65 +5668,65 @@ export class OrgDeviceprofileApPwrConfigOutputReference extends cdktf.ComplexObj
 }
 export interface OrgDeviceprofileApRadioConfigBand24 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 2.4GHz band. enum: `0`(disabled, response only), `20`, `40`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For Device. (primary) channel for the band, 0 means using the Site Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
   */
   readonly channel?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * TX power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
   */
   readonly preamble?: string;
 }
@@ -6110,71 +6110,71 @@ export class OrgDeviceprofileApRadioConfigBand24OutputReference extends cdktf.Co
 }
 export interface OrgDeviceprofileApRadioConfigBand5 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `narrow`, `medium`, `wide`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_beam_pattern OrgDeviceprofileAp#antenna_beam_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_beam_pattern OrgDeviceprofileAp#antenna_beam_pattern}
   */
   readonly antennaBeamPattern?: string;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 5GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For Device. (primary) channel for the band, 0 means using the Site Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
   */
   readonly channel?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * TX power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
   */
   readonly preamble?: string;
 }
@@ -6587,71 +6587,71 @@ export class OrgDeviceprofileApRadioConfigBand5OutputReference extends cdktf.Com
 }
 export interface OrgDeviceprofileApRadioConfigBand5On24Radio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `narrow`, `medium`, `wide`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_beam_pattern OrgDeviceprofileAp#antenna_beam_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_beam_pattern OrgDeviceprofileAp#antenna_beam_pattern}
   */
   readonly antennaBeamPattern?: string;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 5GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For Device. (primary) channel for the band, 0 means using the Site Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
   */
   readonly channel?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * TX power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
   */
   readonly preamble?: string;
 }
@@ -7064,77 +7064,77 @@ export class OrgDeviceprofileApRadioConfigBand5On24RadioOutputReference extends 
 }
 export interface OrgDeviceprofileApRadioConfigBand6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain OrgDeviceprofileAp#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `narrow`, `medium`, `wide`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_beam_pattern OrgDeviceprofileAp#antenna_beam_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_beam_pattern OrgDeviceprofileAp#antenna_beam_pattern}
   */
   readonly antennaBeamPattern?: string;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 6GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`, `160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#bandwidth OrgDeviceprofileAp#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For Device. (primary) channel for the band, 0 means using the Site Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
   */
   readonly channel?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channels OrgDeviceprofileAp#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#disabled OrgDeviceprofileAp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * TX power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power OrgDeviceprofileAp#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_max OrgDeviceprofileAp#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#power_min OrgDeviceprofileAp#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#preamble OrgDeviceprofileAp#preamble}
   */
   readonly preamble?: string;
   /**
   * For 6GHz Only, standard-power operation, AFC (Automatic Frequency Coordination) will be performed, and we'll fall back to Low Power Indoor if AFC failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#standard_power OrgDeviceprofileAp#standard_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#standard_power OrgDeviceprofileAp#standard_power}
   */
   readonly standardPower?: boolean | cdktf.IResolvable;
 }
@@ -7576,91 +7576,91 @@ export class OrgDeviceprofileApRadioConfigBand6OutputReference extends cdktf.Com
 }
 export interface OrgDeviceprofileApRadioConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#allow_rrm_disable OrgDeviceprofileAp#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
   * Antenna gain for 2.4G - for models with external antenna only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain_24 OrgDeviceprofileAp#ant_gain_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain_24 OrgDeviceprofileAp#ant_gain_24}
   */
   readonly antGain24?: number;
   /**
   * Antenna gain for 5G - for models with external antenna only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain_5 OrgDeviceprofileAp#ant_gain_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain_5 OrgDeviceprofileAp#ant_gain_5}
   */
   readonly antGain5?: number;
   /**
   * Antenna gain for 6G - for models with external antenna only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#ant_gain_6 OrgDeviceprofileAp#ant_gain_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#ant_gain_6 OrgDeviceprofileAp#ant_gain_6}
   */
   readonly antGain6?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_mode OrgDeviceprofileAp#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
-  * Antenna Mode for AP which supports selectable antennas. enum: `external`, `internal`
+  * Antenna Mode for AP which supports selectable antennas. enum: `""` (default), `external`, `internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#antenna_select OrgDeviceprofileAp#antenna_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#antenna_select OrgDeviceprofileAp#antenna_select}
   */
   readonly antennaSelect?: string;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#band_24 OrgDeviceprofileAp#band_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#band_24 OrgDeviceprofileAp#band_24}
   */
   readonly band24?: OrgDeviceprofileApRadioConfigBand24;
   /**
   * enum: `24`, `5`, `6`, `auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#band_24_usage OrgDeviceprofileAp#band_24_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#band_24_usage OrgDeviceprofileAp#band_24_usage}
   */
   readonly band24Usage?: string;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#band_5 OrgDeviceprofileAp#band_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#band_5 OrgDeviceprofileAp#band_5}
   */
   readonly band5?: OrgDeviceprofileApRadioConfigBand5;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#band_5_on_24_radio OrgDeviceprofileAp#band_5_on_24_radio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#band_5_on_24_radio OrgDeviceprofileAp#band_5_on_24_radio}
   */
   readonly band5On24Radio?: OrgDeviceprofileApRadioConfigBand5On24Radio;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#band_6 OrgDeviceprofileAp#band_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#band_6 OrgDeviceprofileAp#band_6}
   */
   readonly band6?: OrgDeviceprofileApRadioConfigBand6;
   /**
   * Let RRM control everything, only the `channels` and `ant_gain` will be honored (i.e. disabled/bandwidth/power/band_24_usage are all controlled by RRM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#full_automatic_rrm OrgDeviceprofileAp#full_automatic_rrm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#full_automatic_rrm OrgDeviceprofileAp#full_automatic_rrm}
   */
   readonly fullAutomaticRrm?: boolean | cdktf.IResolvable;
   /**
   * To make an outdoor operate indoor. For an outdoor-ap, some channels are disallowed by default, this allows the user to use it as an indoor-ap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#indoor_use OrgDeviceprofileAp#indoor_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#indoor_use OrgDeviceprofileAp#indoor_use}
   */
   readonly indoorUse?: boolean | cdktf.IResolvable;
   /**
   * Enable RRM to manage all radio settings (ignores all band_xxx configs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#rrm_managed OrgDeviceprofileAp#rrm_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#rrm_managed OrgDeviceprofileAp#rrm_managed}
   */
   readonly rrmManaged?: boolean | cdktf.IResolvable;
   /**
   * Whether scanning radio is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#scanning_enabled OrgDeviceprofileAp#scanning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#scanning_enabled OrgDeviceprofileAp#scanning_enabled}
   */
   readonly scanningEnabled?: boolean | cdktf.IResolvable;
 }
@@ -8162,13 +8162,13 @@ export interface OrgDeviceprofileApUplinkPortConfig {
   /**
   * Whether to do 802.1x against uplink switch. When enabled, AP cert will be used to do EAP-TLS and the Org's CA Cert has to be provisioned at the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#dot1x OrgDeviceprofileAp#dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#dot1x OrgDeviceprofileAp#dot1x}
   */
   readonly dot1X?: boolean | cdktf.IResolvable;
   /**
   * By default, WLANs are disabled when uplink is down. In some scenario, like SiteSurvey, one would want the AP to keep sending beacons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#keep_wlans_up_if_down OrgDeviceprofileAp#keep_wlans_up_if_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#keep_wlans_up_if_down OrgDeviceprofileAp#keep_wlans_up_if_down}
   */
   readonly keepWlansUpIfDown?: boolean | cdktf.IResolvable;
 }
@@ -8293,49 +8293,49 @@ export interface OrgDeviceprofileApUsbConfig {
   /**
   * Only if `type`==`imagotag`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#cacert OrgDeviceprofileAp#cacert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#cacert OrgDeviceprofileAp#cacert}
   */
   readonly cacert?: string;
   /**
   * Only if `type`==`imagotag`, channel selection, not needed by default, required for manual channel override only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#channel OrgDeviceprofileAp#channel}
   */
   readonly channel?: number;
   /**
   * Whether to enable any usb config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#enabled OrgDeviceprofileAp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Only if `type`==`imagotag`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#host OrgDeviceprofileAp#host}
   */
   readonly host?: string;
   /**
   * Only if `type`==`imagotag`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#port OrgDeviceprofileAp#port}
   */
   readonly port?: number;
   /**
   * usb config type. enum: `hanshow`, `imagotag`, `solum`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#type OrgDeviceprofileAp#type}
   */
   readonly type?: string;
   /**
   * Only if `type`==`imagotag`, whether to turn on SSL verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#verify_cert OrgDeviceprofileAp#verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#verify_cert OrgDeviceprofileAp#verify_cert}
   */
   readonly verifyCert?: boolean | cdktf.IResolvable;
   /**
   * Only if `type`==`solum` or `type`==`hanshow`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#vlan_id OrgDeviceprofileAp#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -8632,7 +8632,7 @@ export class OrgDeviceprofileApUsbConfigOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap mist_org_deviceprofile_ap}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap mist_org_deviceprofile_ap}
 */
 export class OrgDeviceprofileAp extends cdktf.TerraformResource {
 
@@ -8648,7 +8648,7 @@ export class OrgDeviceprofileAp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgDeviceprofileAp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgDeviceprofileAp to import
-  * @param importFromId The id of the existing OrgDeviceprofileAp that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgDeviceprofileAp that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgDeviceprofileAp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8660,7 +8660,7 @@ export class OrgDeviceprofileAp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_ap mist_org_deviceprofile_ap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_ap mist_org_deviceprofile_ap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8671,8 +8671,8 @@ export class OrgDeviceprofileAp extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_deviceprofile_ap',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

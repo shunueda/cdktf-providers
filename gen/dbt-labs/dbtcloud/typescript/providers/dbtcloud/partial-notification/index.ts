@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface PartialNotificationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The external email to receive the notification [global, used as identifier]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#external_email PartialNotification#external_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#external_email PartialNotification#external_email}
   */
   readonly externalEmail?: string;
   /**
   * Type of notification (1 = dbt Cloud user email (default): does not require an external_email ; 2 = Slack channel: requires `slack_channel_id` and `slack_channel_name` ; 4 = external email: requires setting an `external_email`) [global, used as identifier]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#notification_type PartialNotification#notification_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#notification_type PartialNotification#notification_type}
   */
   readonly notificationType?: number;
   /**
   * List of job IDs to trigger the webhook on cancel. Those will be added/removed when config is added/removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#on_cancel PartialNotification#on_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#on_cancel PartialNotification#on_cancel}
   */
   readonly onCancel?: number[];
   /**
   * List of job IDs to trigger the webhook on failure Those will be added/removed when config is added/removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#on_failure PartialNotification#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#on_failure PartialNotification#on_failure}
   */
   readonly onFailure?: number[];
   /**
   * List of job IDs to trigger the webhook on success Those will be added/removed when config is added/removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#on_success PartialNotification#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#on_success PartialNotification#on_success}
   */
   readonly onSuccess?: number[];
   /**
   * List of job IDs to trigger the webhook on warning Those will be added/removed when config is added/removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#on_warning PartialNotification#on_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#on_warning PartialNotification#on_warning}
   */
   readonly onWarning?: number[];
   /**
   * The ID of the Slack channel to receive the notification. It can be found at the bottom of the Slack channel settings [global, used as identifier]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#slack_channel_id PartialNotification#slack_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#slack_channel_id PartialNotification#slack_channel_id}
   */
   readonly slackChannelId?: string;
   /**
   * The name of the slack channel [global, used as identifier]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#slack_channel_name PartialNotification#slack_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#slack_channel_name PartialNotification#slack_channel_name}
   */
   readonly slackChannelName?: string;
   /**
   * State of the notification (1 = active (default), 2 = inactive) [global]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#state PartialNotification#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#state PartialNotification#state}
   */
   readonly state?: number;
   /**
   * Internal dbt Cloud User ID. Must be the user_id for an existing user even if the notification is an external one [global]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#user_id PartialNotification#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#user_id PartialNotification#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification dbtcloud_partial_notification}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification dbtcloud_partial_notification}
 */
 export class PartialNotification extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class PartialNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PartialNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PartialNotification to import
-  * @param importFromId The id of the existing PartialNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PartialNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PartialNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class PartialNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/partial_notification dbtcloud_partial_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/partial_notification dbtcloud_partial_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class PartialNotification extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_partial_notification',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

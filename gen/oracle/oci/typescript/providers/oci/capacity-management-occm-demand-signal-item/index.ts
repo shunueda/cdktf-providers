@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface CapacityManagementOccmDemandSignalItemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#availability_domain CapacityManagementOccmDemandSignalItem#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#availability_domain CapacityManagementOccmDemandSignalItem#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#compartment_id CapacityManagementOccmDemandSignalItem#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#compartment_id CapacityManagementOccmDemandSignalItem#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#defined_tags CapacityManagementOccmDemandSignalItem#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#defined_tags CapacityManagementOccmDemandSignalItem#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#demand_quantity CapacityManagementOccmDemandSignalItem#demand_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#demand_quantity CapacityManagementOccmDemandSignalItem#demand_quantity}
   */
   readonly demandQuantity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_catalog_resource_id CapacityManagementOccmDemandSignalItem#demand_signal_catalog_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_catalog_resource_id CapacityManagementOccmDemandSignalItem#demand_signal_catalog_resource_id}
   */
   readonly demandSignalCatalogResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_id CapacityManagementOccmDemandSignalItem#demand_signal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_id CapacityManagementOccmDemandSignalItem#demand_signal_id}
   */
   readonly demandSignalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#freeform_tags CapacityManagementOccmDemandSignalItem#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#freeform_tags CapacityManagementOccmDemandSignalItem#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#id CapacityManagementOccmDemandSignalItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#id CapacityManagementOccmDemandSignalItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#notes CapacityManagementOccmDemandSignalItem#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#notes CapacityManagementOccmDemandSignalItem#notes}
   */
   readonly notes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#region CapacityManagementOccmDemandSignalItem#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#region CapacityManagementOccmDemandSignalItem#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#request_type CapacityManagementOccmDemandSignalItem#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#request_type CapacityManagementOccmDemandSignalItem#request_type}
   */
   readonly requestType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#resource_properties CapacityManagementOccmDemandSignalItem#resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#resource_properties CapacityManagementOccmDemandSignalItem#resource_properties}
   */
   readonly resourceProperties: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#target_compartment_id CapacityManagementOccmDemandSignalItem#target_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#target_compartment_id CapacityManagementOccmDemandSignalItem#target_compartment_id}
   */
   readonly targetCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#time_needed_before CapacityManagementOccmDemandSignalItem#time_needed_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#time_needed_before CapacityManagementOccmDemandSignalItem#time_needed_before}
   */
   readonly timeNeededBefore: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#timeouts CapacityManagementOccmDemandSignalItem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#timeouts CapacityManagementOccmDemandSignalItem#timeouts}
   */
   readonly timeouts?: CapacityManagementOccmDemandSignalItemTimeouts;
 }
 export interface CapacityManagementOccmDemandSignalItemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#create CapacityManagementOccmDemandSignalItem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#create CapacityManagementOccmDemandSignalItem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#delete CapacityManagementOccmDemandSignalItem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#delete CapacityManagementOccmDemandSignalItem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#update CapacityManagementOccmDemandSignalItem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#update CapacityManagementOccmDemandSignalItem#update}
   */
   readonly update?: string;
 }
@@ -235,7 +235,7 @@ export class CapacityManagementOccmDemandSignalItemTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item oci_capacity_management_occm_demand_signal_item}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item oci_capacity_management_occm_demand_signal_item}
 */
 export class CapacityManagementOccmDemandSignalItem extends cdktf.TerraformResource {
 
@@ -251,7 +251,7 @@ export class CapacityManagementOccmDemandSignalItem extends cdktf.TerraformResou
   * Generates CDKTF code for importing a CapacityManagementOccmDemandSignalItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapacityManagementOccmDemandSignalItem to import
-  * @param importFromId The id of the existing CapacityManagementOccmDemandSignalItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapacityManagementOccmDemandSignalItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapacityManagementOccmDemandSignalItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -263,7 +263,7 @@ export class CapacityManagementOccmDemandSignalItem extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/capacity_management_occm_demand_signal_item oci_capacity_management_occm_demand_signal_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/capacity_management_occm_demand_signal_item oci_capacity_management_occm_demand_signal_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,8 +274,8 @@ export class CapacityManagementOccmDemandSignalItem extends cdktf.TerraformResou
       terraformResourceType: 'oci_capacity_management_occm_demand_signal_item',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

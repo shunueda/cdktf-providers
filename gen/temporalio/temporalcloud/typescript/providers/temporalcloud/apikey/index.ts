@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ApikeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description for the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#description Apikey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#description Apikey#description}
   */
   readonly description?: string;
   /**
   * Whether the API key is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#disabled Apikey#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#disabled Apikey#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The display name for the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#display_name Apikey#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#display_name Apikey#display_name}
   */
   readonly displayName: string;
   /**
   * The expiry time for the API key in ISO 8601 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#expiry_time Apikey#expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#expiry_time Apikey#expiry_time}
   */
   readonly expiryTime: string;
   /**
   * The ID of the owner to create the API key for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#owner_id Apikey#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#owner_id Apikey#owner_id}
   */
   readonly ownerId: string;
   /**
   * The type of the owner to create the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#owner_type Apikey#owner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#owner_type Apikey#owner_type}
   */
   readonly ownerType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#timeouts Apikey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#timeouts Apikey#timeouts}
   */
   readonly timeouts?: ApikeyTimeouts;
 }
@@ -54,13 +54,13 @@ export interface ApikeyTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#create Apikey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#create Apikey#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#delete Apikey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#delete Apikey#delete}
   */
   readonly delete?: string;
 }
@@ -183,7 +183,7 @@ export class ApikeyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey temporalcloud_apikey}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey temporalcloud_apikey}
 */
 export class Apikey extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class Apikey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Apikey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apikey to import
-  * @param importFromId The id of the existing Apikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apikey that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apikey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class Apikey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/apikey temporalcloud_apikey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/apikey temporalcloud_apikey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class Apikey extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_apikey',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

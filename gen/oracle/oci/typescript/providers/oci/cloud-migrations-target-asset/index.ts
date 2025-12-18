@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface CloudMigrationsTargetAssetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#block_volumes_performance CloudMigrationsTargetAsset#block_volumes_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#block_volumes_performance CloudMigrationsTargetAsset#block_volumes_performance}
   */
   readonly blockVolumesPerformance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#id CloudMigrationsTargetAsset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#id CloudMigrationsTargetAsset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#is_excluded_from_execution CloudMigrationsTargetAsset#is_excluded_from_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#is_excluded_from_execution CloudMigrationsTargetAsset#is_excluded_from_execution}
   */
   readonly isExcludedFromExecution: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#migration_plan_id CloudMigrationsTargetAsset#migration_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#migration_plan_id CloudMigrationsTargetAsset#migration_plan_id}
   */
   readonly migrationPlanId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#ms_license CloudMigrationsTargetAsset#ms_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#ms_license CloudMigrationsTargetAsset#ms_license}
   */
   readonly msLicense?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#preferred_shape_type CloudMigrationsTargetAsset#preferred_shape_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#preferred_shape_type CloudMigrationsTargetAsset#preferred_shape_type}
   */
   readonly preferredShapeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#timeouts CloudMigrationsTargetAsset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#timeouts CloudMigrationsTargetAsset#timeouts}
   */
   readonly timeouts?: CloudMigrationsTargetAssetTimeouts;
   /**
   * user_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#user_spec CloudMigrationsTargetAsset#user_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#user_spec CloudMigrationsTargetAsset#user_spec}
   */
   readonly userSpec: CloudMigrationsTargetAssetUserSpec;
 }
@@ -2568,15 +2568,15 @@ export class CloudMigrationsTargetAssetTestSpecList extends cdktf.ComplexList {
 }
 export interface CloudMigrationsTargetAssetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#create CloudMigrationsTargetAsset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#create CloudMigrationsTargetAsset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#delete CloudMigrationsTargetAsset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#delete CloudMigrationsTargetAsset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#update CloudMigrationsTargetAsset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#update CloudMigrationsTargetAsset#update}
   */
   readonly update?: string;
 }
@@ -2728,11 +2728,11 @@ export class CloudMigrationsTargetAssetTimeoutsOutputReference extends cdktf.Com
 }
 export interface CloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#desired_state CloudMigrationsTargetAsset#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#desired_state CloudMigrationsTargetAsset#desired_state}
   */
   readonly desiredState: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#name CloudMigrationsTargetAsset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#name CloudMigrationsTargetAsset#name}
   */
   readonly name: string;
 }
@@ -2871,21 +2871,21 @@ export class CloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfigList exte
 }
 export interface CloudMigrationsTargetAssetUserSpecAgentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#are_all_plugins_disabled CloudMigrationsTargetAsset#are_all_plugins_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#are_all_plugins_disabled CloudMigrationsTargetAsset#are_all_plugins_disabled}
   */
   readonly areAllPluginsDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#is_management_disabled CloudMigrationsTargetAsset#is_management_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#is_management_disabled CloudMigrationsTargetAsset#is_management_disabled}
   */
   readonly isManagementDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#is_monitoring_disabled CloudMigrationsTargetAsset#is_monitoring_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#is_monitoring_disabled CloudMigrationsTargetAsset#is_monitoring_disabled}
   */
   readonly isMonitoringDisabled?: boolean | cdktf.IResolvable;
   /**
   * plugins_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#plugins_config CloudMigrationsTargetAsset#plugins_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#plugins_config CloudMigrationsTargetAsset#plugins_config}
   */
   readonly pluginsConfig?: CloudMigrationsTargetAssetUserSpecAgentConfigPluginsConfig[] | cdktf.IResolvable;
 }
@@ -3056,47 +3056,47 @@ export class CloudMigrationsTargetAssetUserSpecAgentConfigOutputReference extend
 }
 export interface CloudMigrationsTargetAssetUserSpecCreateVnicDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#assign_private_dns_record CloudMigrationsTargetAsset#assign_private_dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#assign_private_dns_record CloudMigrationsTargetAsset#assign_private_dns_record}
   */
   readonly assignPrivateDnsRecord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#assign_public_ip CloudMigrationsTargetAsset#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#assign_public_ip CloudMigrationsTargetAsset#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#defined_tags CloudMigrationsTargetAsset#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#defined_tags CloudMigrationsTargetAsset#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#display_name CloudMigrationsTargetAsset#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#display_name CloudMigrationsTargetAsset#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#freeform_tags CloudMigrationsTargetAsset#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#freeform_tags CloudMigrationsTargetAsset#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#hostname_label CloudMigrationsTargetAsset#hostname_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#hostname_label CloudMigrationsTargetAsset#hostname_label}
   */
   readonly hostnameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#nsg_ids CloudMigrationsTargetAsset#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#nsg_ids CloudMigrationsTargetAsset#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#private_ip CloudMigrationsTargetAsset#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#private_ip CloudMigrationsTargetAsset#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#skip_source_dest_check CloudMigrationsTargetAsset#skip_source_dest_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#skip_source_dest_check CloudMigrationsTargetAsset#skip_source_dest_check}
   */
   readonly skipSourceDestCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#subnet_id CloudMigrationsTargetAsset#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#subnet_id CloudMigrationsTargetAsset#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#vlan_id CloudMigrationsTargetAsset#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#vlan_id CloudMigrationsTargetAsset#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -3470,7 +3470,7 @@ export class CloudMigrationsTargetAssetUserSpecCreateVnicDetailsOutputReference 
 }
 export interface CloudMigrationsTargetAssetUserSpecInstanceOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#are_legacy_imds_endpoints_disabled CloudMigrationsTargetAsset#are_legacy_imds_endpoints_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#are_legacy_imds_endpoints_disabled CloudMigrationsTargetAsset#are_legacy_imds_endpoints_disabled}
   */
   readonly areLegacyImdsEndpointsDisabled?: boolean | cdktf.IResolvable;
 }
@@ -3554,11 +3554,11 @@ export class CloudMigrationsTargetAssetUserSpecInstanceOptionsOutputReference ex
 }
 export interface CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#preserve_boot_volume CloudMigrationsTargetAsset#preserve_boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#preserve_boot_volume CloudMigrationsTargetAsset#preserve_boot_volume}
   */
   readonly preserveBootVolume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}
   */
   readonly type: string;
 }
@@ -3670,7 +3670,7 @@ export interface CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfig {
   /**
   * preemption_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#preemption_action CloudMigrationsTargetAsset#preemption_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#preemption_action CloudMigrationsTargetAsset#preemption_action}
   */
   readonly preemptionAction: CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigPreemptionAction;
 }
@@ -3751,15 +3751,15 @@ export class CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfigOutputRe
 }
 export interface CloudMigrationsTargetAssetUserSpecShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#baseline_ocpu_utilization CloudMigrationsTargetAsset#baseline_ocpu_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#baseline_ocpu_utilization CloudMigrationsTargetAsset#baseline_ocpu_utilization}
   */
   readonly baselineOcpuUtilization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#memory_in_gbs CloudMigrationsTargetAsset#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#memory_in_gbs CloudMigrationsTargetAsset#memory_in_gbs}
   */
   readonly memoryInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#ocpus CloudMigrationsTargetAsset#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#ocpus CloudMigrationsTargetAsset#ocpus}
   */
   readonly ocpus?: number;
 }
@@ -3901,27 +3901,27 @@ export class CloudMigrationsTargetAssetUserSpecShapeConfigOutputReference extend
 }
 export interface CloudMigrationsTargetAssetUserSpecSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#boot_volume_id CloudMigrationsTargetAsset#boot_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#boot_volume_id CloudMigrationsTargetAsset#boot_volume_id}
   */
   readonly bootVolumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#boot_volume_size_in_gbs CloudMigrationsTargetAsset#boot_volume_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#boot_volume_size_in_gbs CloudMigrationsTargetAsset#boot_volume_size_in_gbs}
   */
   readonly bootVolumeSizeInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#boot_volume_vpus_per_gb CloudMigrationsTargetAsset#boot_volume_vpus_per_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#boot_volume_vpus_per_gb CloudMigrationsTargetAsset#boot_volume_vpus_per_gb}
   */
   readonly bootVolumeVpusPerGb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#image_id CloudMigrationsTargetAsset#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#image_id CloudMigrationsTargetAsset#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#kms_key_id CloudMigrationsTargetAsset#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#kms_key_id CloudMigrationsTargetAsset#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#source_type CloudMigrationsTargetAsset#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#source_type CloudMigrationsTargetAsset#source_type}
   */
   readonly sourceType: string;
 }
@@ -4147,87 +4147,87 @@ export class CloudMigrationsTargetAssetUserSpecSourceDetailsOutputReference exte
 }
 export interface CloudMigrationsTargetAssetUserSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#availability_domain CloudMigrationsTargetAsset#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#availability_domain CloudMigrationsTargetAsset#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#capacity_reservation_id CloudMigrationsTargetAsset#capacity_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#capacity_reservation_id CloudMigrationsTargetAsset#capacity_reservation_id}
   */
   readonly capacityReservationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#compartment_id CloudMigrationsTargetAsset#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#compartment_id CloudMigrationsTargetAsset#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#dedicated_vm_host_id CloudMigrationsTargetAsset#dedicated_vm_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#dedicated_vm_host_id CloudMigrationsTargetAsset#dedicated_vm_host_id}
   */
   readonly dedicatedVmHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#defined_tags CloudMigrationsTargetAsset#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#defined_tags CloudMigrationsTargetAsset#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#display_name CloudMigrationsTargetAsset#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#display_name CloudMigrationsTargetAsset#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#fault_domain CloudMigrationsTargetAsset#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#fault_domain CloudMigrationsTargetAsset#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#freeform_tags CloudMigrationsTargetAsset#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#freeform_tags CloudMigrationsTargetAsset#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#hostname_label CloudMigrationsTargetAsset#hostname_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#hostname_label CloudMigrationsTargetAsset#hostname_label}
   */
   readonly hostnameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#ipxe_script CloudMigrationsTargetAsset#ipxe_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#ipxe_script CloudMigrationsTargetAsset#ipxe_script}
   */
   readonly ipxeScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#is_pv_encryption_in_transit_enabled CloudMigrationsTargetAsset#is_pv_encryption_in_transit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#is_pv_encryption_in_transit_enabled CloudMigrationsTargetAsset#is_pv_encryption_in_transit_enabled}
   */
   readonly isPvEncryptionInTransitEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#shape CloudMigrationsTargetAsset#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#shape CloudMigrationsTargetAsset#shape}
   */
   readonly shape?: string;
   /**
   * agent_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#agent_config CloudMigrationsTargetAsset#agent_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#agent_config CloudMigrationsTargetAsset#agent_config}
   */
   readonly agentConfig?: CloudMigrationsTargetAssetUserSpecAgentConfig;
   /**
   * create_vnic_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#create_vnic_details CloudMigrationsTargetAsset#create_vnic_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#create_vnic_details CloudMigrationsTargetAsset#create_vnic_details}
   */
   readonly createVnicDetails?: CloudMigrationsTargetAssetUserSpecCreateVnicDetails;
   /**
   * instance_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#instance_options CloudMigrationsTargetAsset#instance_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#instance_options CloudMigrationsTargetAsset#instance_options}
   */
   readonly instanceOptions?: CloudMigrationsTargetAssetUserSpecInstanceOptions;
   /**
   * preemptible_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#preemptible_instance_config CloudMigrationsTargetAsset#preemptible_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#preemptible_instance_config CloudMigrationsTargetAsset#preemptible_instance_config}
   */
   readonly preemptibleInstanceConfig?: CloudMigrationsTargetAssetUserSpecPreemptibleInstanceConfig;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#shape_config CloudMigrationsTargetAsset#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#shape_config CloudMigrationsTargetAsset#shape_config}
   */
   readonly shapeConfig?: CloudMigrationsTargetAssetUserSpecShapeConfig;
   /**
   * source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#source_details CloudMigrationsTargetAsset#source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#source_details CloudMigrationsTargetAsset#source_details}
   */
   readonly sourceDetails?: CloudMigrationsTargetAssetUserSpecSourceDetails;
 }
@@ -4804,7 +4804,7 @@ export class CloudMigrationsTargetAssetUserSpecOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset oci_cloud_migrations_target_asset}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset oci_cloud_migrations_target_asset}
 */
 export class CloudMigrationsTargetAsset extends cdktf.TerraformResource {
 
@@ -4820,7 +4820,7 @@ export class CloudMigrationsTargetAsset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudMigrationsTargetAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudMigrationsTargetAsset to import
-  * @param importFromId The id of the existing CloudMigrationsTargetAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudMigrationsTargetAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudMigrationsTargetAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4832,7 +4832,7 @@ export class CloudMigrationsTargetAsset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/cloud_migrations_target_asset oci_cloud_migrations_target_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/cloud_migrations_target_asset oci_cloud_migrations_target_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4843,8 +4843,8 @@ export class CloudMigrationsTargetAsset extends cdktf.TerraformResource {
       terraformResourceType: 'oci_cloud_migrations_target_asset',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

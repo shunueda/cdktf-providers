@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataDbtcloudGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter groups by exact name match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups#name DataDbtcloudGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups#name DataDbtcloudGroups#name}
   */
   readonly name?: string;
   /**
   * Filter groups by partial name match (case insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups#name_contains DataDbtcloudGroups#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups#name_contains DataDbtcloudGroups#name_contains}
   */
   readonly nameContains?: string;
   /**
   * Filter groups by state. Accepts both string and integer formats: 'active'/'1' for active resources, 'deleted'/'2' for deleted resources, 'all' for all resources. Defaults to active groups only if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups#state DataDbtcloudGroups#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups#state DataDbtcloudGroups#state}
   */
   readonly state?: string;
 }
@@ -128,7 +128,7 @@ export class DataDbtcloudGroupsGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups dbtcloud_groups}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups dbtcloud_groups}
 */
 export class DataDbtcloudGroups extends cdktf.TerraformDataSource {
 
@@ -144,7 +144,7 @@ export class DataDbtcloudGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudGroups to import
-  * @param importFromId The id of the existing DataDbtcloudGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -156,7 +156,7 @@ export class DataDbtcloudGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/groups dbtcloud_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/groups dbtcloud_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,8 +167,8 @@ export class DataDbtcloudGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_groups',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

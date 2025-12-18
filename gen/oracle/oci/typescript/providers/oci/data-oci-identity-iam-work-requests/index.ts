@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityIamWorkRequestsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#compartment_id DataOciIdentityIamWorkRequests#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#compartment_id DataOciIdentityIamWorkRequests#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#id DataOciIdentityIamWorkRequests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#id DataOciIdentityIamWorkRequests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#resource_identifier DataOciIdentityIamWorkRequests#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#resource_identifier DataOciIdentityIamWorkRequests#resource_identifier}
   */
   readonly resourceIdentifier?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#filter DataOciIdentityIamWorkRequests#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#filter DataOciIdentityIamWorkRequests#filter}
   */
   readonly filter?: DataOciIdentityIamWorkRequestsFilter[] | cdktf.IResolvable;
 }
@@ -237,15 +237,15 @@ export class DataOciIdentityIamWorkRequestsIamWorkRequestsList extends cdktf.Com
 }
 export interface DataOciIdentityIamWorkRequestsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#name DataOciIdentityIamWorkRequests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#name DataOciIdentityIamWorkRequests#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#regex DataOciIdentityIamWorkRequests#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#regex DataOciIdentityIamWorkRequests#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#values DataOciIdentityIamWorkRequests#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#values DataOciIdentityIamWorkRequests#values}
   */
   readonly values: string[];
 }
@@ -413,7 +413,7 @@ export class DataOciIdentityIamWorkRequestsFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests oci_identity_iam_work_requests}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests oci_identity_iam_work_requests}
 */
 export class DataOciIdentityIamWorkRequests extends cdktf.TerraformDataSource {
 
@@ -429,7 +429,7 @@ export class DataOciIdentityIamWorkRequests extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityIamWorkRequests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityIamWorkRequests to import
-  * @param importFromId The id of the existing DataOciIdentityIamWorkRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityIamWorkRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityIamWorkRequests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -441,7 +441,7 @@ export class DataOciIdentityIamWorkRequests extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_iam_work_requests oci_identity_iam_work_requests} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_iam_work_requests oci_identity_iam_work_requests} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,8 +452,8 @@ export class DataOciIdentityIamWorkRequests extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_iam_work_requests',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

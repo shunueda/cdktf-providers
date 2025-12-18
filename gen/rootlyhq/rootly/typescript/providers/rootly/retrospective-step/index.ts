@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RetrospectiveStepConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#description RetrospectiveStep#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#description RetrospectiveStep#description}
   */
   readonly description?: string;
   /**
   * Due date in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#due_after_days RetrospectiveStep#due_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#due_after_days RetrospectiveStep#due_after_days}
   */
   readonly dueAfterDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#id RetrospectiveStep#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#id RetrospectiveStep#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface RetrospectiveStepConfig extends cdktf.TerraformMetaArguments {
   /**
   * Users assigned to the selected incident role will be the default owners for this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#incident_role_id RetrospectiveStep#incident_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#incident_role_id RetrospectiveStep#incident_role_id}
   */
   readonly incidentRoleId?: string;
   /**
   * Position of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#position RetrospectiveStep#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#position RetrospectiveStep#position}
   */
   readonly position?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#retrospective_process_id RetrospectiveStep#retrospective_process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#retrospective_process_id RetrospectiveStep#retrospective_process_id}
   */
   readonly retrospectiveProcessId?: string;
   /**
   * Is the step skippable?. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#skippable RetrospectiveStep#skippable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#skippable RetrospectiveStep#skippable}
   */
   readonly skippable?: boolean | cdktf.IResolvable;
   /**
   * The slug of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#slug RetrospectiveStep#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#slug RetrospectiveStep#slug}
   */
   readonly slug?: string;
   /**
   * The name of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#title RetrospectiveStep#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#title RetrospectiveStep#title}
   */
   readonly title: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step rootly_retrospective_step}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step rootly_retrospective_step}
 */
 export class RetrospectiveStep extends cdktf.TerraformResource {
 
@@ -79,7 +79,7 @@ export class RetrospectiveStep extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RetrospectiveStep resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RetrospectiveStep to import
-  * @param importFromId The id of the existing RetrospectiveStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RetrospectiveStep that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RetrospectiveStep to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -91,7 +91,7 @@ export class RetrospectiveStep extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_step rootly_retrospective_step} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_step rootly_retrospective_step} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -102,8 +102,8 @@ export class RetrospectiveStep extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_retrospective_step',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

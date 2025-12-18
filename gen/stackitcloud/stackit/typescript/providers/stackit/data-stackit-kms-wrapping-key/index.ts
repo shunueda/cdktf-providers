@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataStackitKmsWrappingKeyConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the associated keyring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key#keyring_id DataStackitKmsWrappingKey#keyring_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key#keyring_id DataStackitKmsWrappingKey#keyring_id}
   */
   readonly keyringId: string;
   /**
   * STACKIT project ID to which the keyring is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key#project_id DataStackitKmsWrappingKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key#project_id DataStackitKmsWrappingKey#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key#region DataStackitKmsWrappingKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key#region DataStackitKmsWrappingKey#region}
   */
   readonly region?: string;
   /**
   * The ID of the wrapping key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key#wrapping_key_id DataStackitKmsWrappingKey#wrapping_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key#wrapping_key_id DataStackitKmsWrappingKey#wrapping_key_id}
   */
   readonly wrappingKeyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key stackit_kms_wrapping_key}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key stackit_kms_wrapping_key}
 */
 export class DataStackitKmsWrappingKey extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataStackitKmsWrappingKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitKmsWrappingKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitKmsWrappingKey to import
-  * @param importFromId The id of the existing DataStackitKmsWrappingKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitKmsWrappingKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitKmsWrappingKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataStackitKmsWrappingKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/kms_wrapping_key stackit_kms_wrapping_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/kms_wrapping_key stackit_kms_wrapping_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataStackitKmsWrappingKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_kms_wrapping_key',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

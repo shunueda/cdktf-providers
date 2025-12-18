@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface SslcipherSslciphersuiteBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#ciphergroupname SslcipherSslciphersuiteBinding#ciphergroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#ciphergroupname SslcipherSslciphersuiteBinding#ciphergroupname}
   */
   readonly ciphergroupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#ciphername SslcipherSslciphersuiteBinding#ciphername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#ciphername SslcipherSslciphersuiteBinding#ciphername}
   */
   readonly ciphername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#cipheroperation SslcipherSslciphersuiteBinding#cipheroperation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#cipheroperation SslcipherSslciphersuiteBinding#cipheroperation}
   */
   readonly cipheroperation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#cipherpriority SslcipherSslciphersuiteBinding#cipherpriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#cipherpriority SslcipherSslciphersuiteBinding#cipherpriority}
   */
   readonly cipherpriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#ciphgrpals SslcipherSslciphersuiteBinding#ciphgrpals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#ciphgrpals SslcipherSslciphersuiteBinding#ciphgrpals}
   */
   readonly ciphgrpals?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#description SslcipherSslciphersuiteBinding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#description SslcipherSslciphersuiteBinding#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#id SslcipherSslciphersuiteBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#id SslcipherSslciphersuiteBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface SslcipherSslciphersuiteBindingConfig extends cdktf.TerraformMet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding citrixadc_sslcipher_sslciphersuite_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding citrixadc_sslcipher_sslciphersuite_binding}
 */
 export class SslcipherSslciphersuiteBinding extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SslcipherSslciphersuiteBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslcipherSslciphersuiteBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslcipherSslciphersuiteBinding to import
-  * @param importFromId The id of the existing SslcipherSslciphersuiteBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslcipherSslciphersuiteBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslcipherSslciphersuiteBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SslcipherSslciphersuiteBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcipher_sslciphersuite_binding citrixadc_sslcipher_sslciphersuite_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcipher_sslciphersuite_binding citrixadc_sslcipher_sslciphersuite_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SslcipherSslciphersuiteBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslcipher_sslciphersuite_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

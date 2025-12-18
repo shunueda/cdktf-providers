@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GroupPartialPermissionsConfig extends cdktf.TerraformMetaArgume
   /**
   * Whether the group will be assigned by default to users. The value needs to be the same for all partial permissions for the same group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#assign_by_default GroupPartialPermissions#assign_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#assign_by_default GroupPartialPermissions#assign_by_default}
   */
   readonly assignByDefault?: boolean | cdktf.IResolvable;
   /**
   * Partial permissions for the group. Those permissions will be added/removed when config is added/removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#group_permissions GroupPartialPermissions#group_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#group_permissions GroupPartialPermissions#group_permissions}
   */
   readonly groupPermissions?: GroupPartialPermissionsGroupPermissions[] | cdktf.IResolvable;
   /**
   * The name of the group. This is used to identify an existing group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#name GroupPartialPermissions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#name GroupPartialPermissions#name}
   */
   readonly name: string;
   /**
   * Mapping groups from the IdP. At the moment the complete list needs to be provided in each partial permission for the same group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#sso_mapping_groups GroupPartialPermissions#sso_mapping_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#sso_mapping_groups GroupPartialPermissions#sso_mapping_groups}
   */
   readonly ssoMappingGroups?: string[];
 }
@@ -36,19 +36,19 @@ export interface GroupPartialPermissionsGroupPermissions {
   /**
   * Whether access should be provided for all projects or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#all_projects GroupPartialPermissions#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#all_projects GroupPartialPermissions#all_projects}
   */
   readonly allProjects: boolean | cdktf.IResolvable;
   /**
   * Set of permissions to apply. The permissions allowed are the same as the ones for the `dbtcloud_group` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#permission_set GroupPartialPermissions#permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#permission_set GroupPartialPermissions#permission_set}
   */
   readonly permissionSet: string;
   /**
   * Project ID to apply this permission to for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#project_id GroupPartialPermissions#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#project_id GroupPartialPermissions#project_id}
   */
   readonly projectId?: number;
   /**
@@ -58,7 +58,7 @@ export interface GroupPartialPermissionsGroupPermissions {
   * Not setting a value is the same as selecting `all`. 
   * Not all permission sets support environment level write settings, only `analyst`, `database_admin`, `developer`, `git_admin` and `team_admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#writable_environment_categories GroupPartialPermissions#writable_environment_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#writable_environment_categories GroupPartialPermissions#writable_environment_categories}
   */
   readonly writableEnvironmentCategories?: string[];
 }
@@ -255,7 +255,7 @@ export class GroupPartialPermissionsGroupPermissionsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions dbtcloud_group_partial_permissions}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions dbtcloud_group_partial_permissions}
 */
 export class GroupPartialPermissions extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class GroupPartialPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupPartialPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupPartialPermissions to import
-  * @param importFromId The id of the existing GroupPartialPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupPartialPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupPartialPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class GroupPartialPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/group_partial_permissions dbtcloud_group_partial_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/group_partial_permissions dbtcloud_group_partial_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class GroupPartialPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_group_partial_permissions',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

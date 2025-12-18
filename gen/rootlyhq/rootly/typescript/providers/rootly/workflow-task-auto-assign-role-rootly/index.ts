@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskAutoAssignRoleRootlyConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#enabled WorkflowTaskAutoAssignRoleRootly#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#enabled WorkflowTaskAutoAssignRoleRootly#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#id WorkflowTaskAutoAssignRoleRootly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#id WorkflowTaskAutoAssignRoleRootly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskAutoAssignRoleRootlyConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#name WorkflowTaskAutoAssignRoleRootly#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#name WorkflowTaskAutoAssignRoleRootly#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#position WorkflowTaskAutoAssignRoleRootly#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#position WorkflowTaskAutoAssignRoleRootly#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#skip_on_failure WorkflowTaskAutoAssignRoleRootly#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#skip_on_failure WorkflowTaskAutoAssignRoleRootly#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#workflow_id WorkflowTaskAutoAssignRoleRootly#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#workflow_id WorkflowTaskAutoAssignRoleRootly#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#task_params WorkflowTaskAutoAssignRoleRootly#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#task_params WorkflowTaskAutoAssignRoleRootly#task_params}
   */
   readonly taskParams: WorkflowTaskAutoAssignRoleRootlyTaskParams;
 }
@@ -55,41 +55,41 @@ export interface WorkflowTaskAutoAssignRoleRootlyTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#escalation_policy_target WorkflowTaskAutoAssignRoleRootly#escalation_policy_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#escalation_policy_target WorkflowTaskAutoAssignRoleRootly#escalation_policy_target}
   */
   readonly escalationPolicyTarget?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#group_target WorkflowTaskAutoAssignRoleRootly#group_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#group_target WorkflowTaskAutoAssignRoleRootly#group_target}
   */
   readonly groupTarget?: { [key: string]: string };
   /**
   * The role id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#incident_role_id WorkflowTaskAutoAssignRoleRootly#incident_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#incident_role_id WorkflowTaskAutoAssignRoleRootly#incident_role_id}
   */
   readonly incidentRoleId: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#schedule_target WorkflowTaskAutoAssignRoleRootly#schedule_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#schedule_target WorkflowTaskAutoAssignRoleRootly#schedule_target}
   */
   readonly scheduleTarget?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#service_target WorkflowTaskAutoAssignRoleRootly#service_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#service_target WorkflowTaskAutoAssignRoleRootly#service_target}
   */
   readonly serviceTarget?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#task_type WorkflowTaskAutoAssignRoleRootly#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#task_type WorkflowTaskAutoAssignRoleRootly#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#user_target WorkflowTaskAutoAssignRoleRootly#user_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#user_target WorkflowTaskAutoAssignRoleRootly#user_target}
   */
   readonly userTarget?: { [key: string]: string };
 }
@@ -344,7 +344,7 @@ export class WorkflowTaskAutoAssignRoleRootlyTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly rootly_workflow_task_auto_assign_role_rootly}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly rootly_workflow_task_auto_assign_role_rootly}
 */
 export class WorkflowTaskAutoAssignRoleRootly extends cdktf.TerraformResource {
 
@@ -360,7 +360,7 @@ export class WorkflowTaskAutoAssignRoleRootly extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskAutoAssignRoleRootly resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskAutoAssignRoleRootly to import
-  * @param importFromId The id of the existing WorkflowTaskAutoAssignRoleRootly that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskAutoAssignRoleRootly that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskAutoAssignRoleRootly to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -372,7 +372,7 @@ export class WorkflowTaskAutoAssignRoleRootly extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_rootly rootly_workflow_task_auto_assign_role_rootly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_rootly rootly_workflow_task_auto_assign_role_rootly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,8 +383,8 @@ export class WorkflowTaskAutoAssignRoleRootly extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_auto_assign_role_rootly',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

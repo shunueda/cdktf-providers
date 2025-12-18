@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DnspolicylabelDnspolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#gotopriorityexpression DnspolicylabelDnspolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#gotopriorityexpression DnspolicylabelDnspolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#id DnspolicylabelDnspolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#id DnspolicylabelDnspolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#invoke DnspolicylabelDnspolicyBinding#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#invoke DnspolicylabelDnspolicyBinding#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#invokelabelname DnspolicylabelDnspolicyBinding#invokelabelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#invokelabelname DnspolicylabelDnspolicyBinding#invokelabelname}
   */
   readonly invokelabelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#labelname DnspolicylabelDnspolicyBinding#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#labelname DnspolicylabelDnspolicyBinding#labelname}
   */
   readonly labelname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#labeltype DnspolicylabelDnspolicyBinding#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#labeltype DnspolicylabelDnspolicyBinding#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#policyname DnspolicylabelDnspolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#policyname DnspolicylabelDnspolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#priority DnspolicylabelDnspolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#priority DnspolicylabelDnspolicyBinding#priority}
   */
   readonly priority: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding citrixadc_dnspolicylabel_dnspolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding citrixadc_dnspolicylabel_dnspolicy_binding}
 */
 export class DnspolicylabelDnspolicyBinding extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class DnspolicylabelDnspolicyBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnspolicylabelDnspolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnspolicylabelDnspolicyBinding to import
-  * @param importFromId The id of the existing DnspolicylabelDnspolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnspolicylabelDnspolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnspolicylabelDnspolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class DnspolicylabelDnspolicyBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnspolicylabel_dnspolicy_binding citrixadc_dnspolicylabel_dnspolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnspolicylabel_dnspolicy_binding citrixadc_dnspolicylabel_dnspolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class DnspolicylabelDnspolicyBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_dnspolicylabel_dnspolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

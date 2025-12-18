@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/extended_attributes
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/extended_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataDbtcloudExtendedAttributesConfig extends cdktf.TerraformMet
   /**
   * Extended attributes ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/extended_attributes#extended_attributes_id DataDbtcloudExtendedAttributes#extended_attributes_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/extended_attributes#extended_attributes_id DataDbtcloudExtendedAttributes#extended_attributes_id}
   */
   readonly extendedAttributesId: number;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/extended_attributes#project_id DataDbtcloudExtendedAttributes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/extended_attributes#project_id DataDbtcloudExtendedAttributes#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/extended_attributes dbtcloud_extended_attributes}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/extended_attributes dbtcloud_extended_attributes}
 */
 export class DataDbtcloudExtendedAttributes extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataDbtcloudExtendedAttributes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudExtendedAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudExtendedAttributes to import
-  * @param importFromId The id of the existing DataDbtcloudExtendedAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/extended_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudExtendedAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/extended_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudExtendedAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataDbtcloudExtendedAttributes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/extended_attributes dbtcloud_extended_attributes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/extended_attributes dbtcloud_extended_attributes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataDbtcloudExtendedAttributes extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_extended_attributes',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

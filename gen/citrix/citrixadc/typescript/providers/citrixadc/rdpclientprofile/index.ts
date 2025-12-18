@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface RdpclientprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#addusernameinrdpfile Rdpclientprofile#addusernameinrdpfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#addusernameinrdpfile Rdpclientprofile#addusernameinrdpfile}
   */
   readonly addusernameinrdpfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#audiocapturemode Rdpclientprofile#audiocapturemode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#audiocapturemode Rdpclientprofile#audiocapturemode}
   */
   readonly audiocapturemode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#id Rdpclientprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#id Rdpclientprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#keyboardhook Rdpclientprofile#keyboardhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#keyboardhook Rdpclientprofile#keyboardhook}
   */
   readonly keyboardhook?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#multimonitorsupport Rdpclientprofile#multimonitorsupport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#multimonitorsupport Rdpclientprofile#multimonitorsupport}
   */
   readonly multimonitorsupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#name Rdpclientprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#name Rdpclientprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#psk Rdpclientprofile#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#psk Rdpclientprofile#psk}
   */
   readonly psk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#randomizerdpfilename Rdpclientprofile#randomizerdpfilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#randomizerdpfilename Rdpclientprofile#randomizerdpfilename}
   */
   readonly randomizerdpfilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdpcookievalidity Rdpclientprofile#rdpcookievalidity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdpcookievalidity Rdpclientprofile#rdpcookievalidity}
   */
   readonly rdpcookievalidity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdpcustomparams Rdpclientprofile#rdpcustomparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdpcustomparams Rdpclientprofile#rdpcustomparams}
   */
   readonly rdpcustomparams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdpfilename Rdpclientprofile#rdpfilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdpfilename Rdpclientprofile#rdpfilename}
   */
   readonly rdpfilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdphost Rdpclientprofile#rdphost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdphost Rdpclientprofile#rdphost}
   */
   readonly rdphost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdplinkattribute Rdpclientprofile#rdplinkattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdplinkattribute Rdpclientprofile#rdplinkattribute}
   */
   readonly rdplinkattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdplistener Rdpclientprofile#rdplistener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdplistener Rdpclientprofile#rdplistener}
   */
   readonly rdplistener?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdpurloverride Rdpclientprofile#rdpurloverride}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdpurloverride Rdpclientprofile#rdpurloverride}
   */
   readonly rdpurloverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#rdpvalidateclientip Rdpclientprofile#rdpvalidateclientip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#rdpvalidateclientip Rdpclientprofile#rdpvalidateclientip}
   */
   readonly rdpvalidateclientip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#redirectclipboard Rdpclientprofile#redirectclipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#redirectclipboard Rdpclientprofile#redirectclipboard}
   */
   readonly redirectclipboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#redirectcomports Rdpclientprofile#redirectcomports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#redirectcomports Rdpclientprofile#redirectcomports}
   */
   readonly redirectcomports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#redirectdrives Rdpclientprofile#redirectdrives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#redirectdrives Rdpclientprofile#redirectdrives}
   */
   readonly redirectdrives?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#redirectpnpdevices Rdpclientprofile#redirectpnpdevices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#redirectpnpdevices Rdpclientprofile#redirectpnpdevices}
   */
   readonly redirectpnpdevices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#redirectprinters Rdpclientprofile#redirectprinters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#redirectprinters Rdpclientprofile#redirectprinters}
   */
   readonly redirectprinters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#videoplaybackmode Rdpclientprofile#videoplaybackmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#videoplaybackmode Rdpclientprofile#videoplaybackmode}
   */
   readonly videoplaybackmode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile citrixadc_rdpclientprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile citrixadc_rdpclientprofile}
 */
 export class Rdpclientprofile extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class Rdpclientprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rdpclientprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rdpclientprofile to import
-  * @param importFromId The id of the existing Rdpclientprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rdpclientprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rdpclientprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class Rdpclientprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/rdpclientprofile citrixadc_rdpclientprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/rdpclientprofile citrixadc_rdpclientprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class Rdpclientprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_rdpclientprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

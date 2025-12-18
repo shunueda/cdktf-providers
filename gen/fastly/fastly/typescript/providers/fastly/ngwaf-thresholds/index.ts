@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface NgwafThresholdsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action to take when threshold is exceeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#action NgwafThresholds#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#action NgwafThresholds#action}
   */
   readonly action: string;
   /**
   * Whether to silence notifications when action is taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#dont_notify NgwafThresholds#dont_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#dont_notify NgwafThresholds#dont_notify}
   */
   readonly dontNotify: boolean | cdktf.IResolvable;
   /**
   * Duration the action is in place, in seconds. Minimum 1 and maximum 31,556,900.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#duration NgwafThresholds#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#duration NgwafThresholds#duration}
   */
   readonly duration?: number;
   /**
   * Whether this threshold is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#enabled NgwafThresholds#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#enabled NgwafThresholds#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#id NgwafThresholds#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#id NgwafThresholds#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface NgwafThresholdsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Threshold interval in seconds. Accepted values are `60`, `600`, and `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#interval NgwafThresholds#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#interval NgwafThresholds#interval}
   */
   readonly interval: number;
   /**
   * Threshold limit. Minimum 1 and maximum 10,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#limit NgwafThresholds#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#limit NgwafThresholds#limit}
   */
   readonly limit: number;
   /**
   * The name of the threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#name NgwafThresholds#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#name NgwafThresholds#name}
   */
   readonly name: string;
   /**
   * The name of the signal this threshold is acting on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#signal NgwafThresholds#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#signal NgwafThresholds#signal}
   */
   readonly signal: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#workspace_id NgwafThresholds#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#workspace_id NgwafThresholds#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds fastly_ngwaf_thresholds}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds fastly_ngwaf_thresholds}
 */
 export class NgwafThresholds extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class NgwafThresholds extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafThresholds resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafThresholds to import
-  * @param importFromId The id of the existing NgwafThresholds that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafThresholds that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafThresholds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class NgwafThresholds extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_thresholds fastly_ngwaf_thresholds} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_thresholds fastly_ngwaf_thresholds} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class NgwafThresholds extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_thresholds',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

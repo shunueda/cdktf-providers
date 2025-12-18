@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreComputeHostGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#compartment_id DataOciCoreComputeHostGroups#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#compartment_id DataOciCoreComputeHostGroups#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#id DataOciCoreComputeHostGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#id DataOciCoreComputeHostGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciCoreComputeHostGroupsConfig extends cdktf.TerraformMetaA
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#filter DataOciCoreComputeHostGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#filter DataOciCoreComputeHostGroups#filter}
   */
   readonly filter?: DataOciCoreComputeHostGroupsFilter[] | cdktf.IResolvable;
 }
@@ -84,6 +84,11 @@ export class DataOciCoreComputeHostGroupsComputeHostGroupCollectionItemsConfigur
   // recycle_level - computed: true, optional: false, required: false
   public get recycleLevel() {
     return this.getStringAttribute('recycle_level');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
   }
 
   // target - computed: true, optional: false, required: false
@@ -322,15 +327,15 @@ export class DataOciCoreComputeHostGroupsComputeHostGroupCollectionList extends 
 }
 export interface DataOciCoreComputeHostGroupsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#name DataOciCoreComputeHostGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#name DataOciCoreComputeHostGroups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#regex DataOciCoreComputeHostGroups#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#regex DataOciCoreComputeHostGroups#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#values DataOciCoreComputeHostGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#values DataOciCoreComputeHostGroups#values}
   */
   readonly values: string[];
 }
@@ -498,7 +503,7 @@ export class DataOciCoreComputeHostGroupsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups oci_core_compute_host_groups}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups oci_core_compute_host_groups}
 */
 export class DataOciCoreComputeHostGroups extends cdktf.TerraformDataSource {
 
@@ -514,7 +519,7 @@ export class DataOciCoreComputeHostGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreComputeHostGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreComputeHostGroups to import
-  * @param importFromId The id of the existing DataOciCoreComputeHostGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreComputeHostGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreComputeHostGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -526,7 +531,7 @@ export class DataOciCoreComputeHostGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_host_groups oci_core_compute_host_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_host_groups oci_core_compute_host_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,8 +542,8 @@ export class DataOciCoreComputeHostGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_compute_host_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

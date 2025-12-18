@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreListingResourceVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#id DataOciCoreListingResourceVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#id DataOciCoreListingResourceVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#listing_id DataOciCoreListingResourceVersions#listing_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#listing_id DataOciCoreListingResourceVersions#listing_id}
   */
   readonly listingId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#filter DataOciCoreListingResourceVersions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#filter DataOciCoreListingResourceVersions#filter}
   */
   readonly filter?: DataOciCoreListingResourceVersionsFilter[] | cdktf.IResolvable;
 }
@@ -137,15 +137,15 @@ export class DataOciCoreListingResourceVersionsAppCatalogListingResourceVersions
 }
 export interface DataOciCoreListingResourceVersionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#name DataOciCoreListingResourceVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#name DataOciCoreListingResourceVersions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#regex DataOciCoreListingResourceVersions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#regex DataOciCoreListingResourceVersions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#values DataOciCoreListingResourceVersions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#values DataOciCoreListingResourceVersions#values}
   */
   readonly values: string[];
 }
@@ -313,7 +313,7 @@ export class DataOciCoreListingResourceVersionsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions oci_core_listing_resource_versions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions oci_core_listing_resource_versions}
 */
 export class DataOciCoreListingResourceVersions extends cdktf.TerraformDataSource {
 
@@ -329,7 +329,7 @@ export class DataOciCoreListingResourceVersions extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciCoreListingResourceVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreListingResourceVersions to import
-  * @param importFromId The id of the existing DataOciCoreListingResourceVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreListingResourceVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreListingResourceVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class DataOciCoreListingResourceVersions extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_listing_resource_versions oci_core_listing_resource_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_listing_resource_versions oci_core_listing_resource_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class DataOciCoreListingResourceVersions extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_core_listing_resource_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

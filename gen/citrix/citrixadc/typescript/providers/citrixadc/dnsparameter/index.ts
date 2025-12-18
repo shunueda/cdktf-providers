@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface DnsparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#autosavekeyops Dnsparameter#autosavekeyops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#autosavekeyops Dnsparameter#autosavekeyops}
   */
   readonly autosavekeyops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#cacheecszeroprefix Dnsparameter#cacheecszeroprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#cacheecszeroprefix Dnsparameter#cacheecszeroprefix}
   */
   readonly cacheecszeroprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#cachehitbypass Dnsparameter#cachehitbypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#cachehitbypass Dnsparameter#cachehitbypass}
   */
   readonly cachehitbypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#cachenoexpire Dnsparameter#cachenoexpire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#cachenoexpire Dnsparameter#cachenoexpire}
   */
   readonly cachenoexpire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#cacherecords Dnsparameter#cacherecords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#cacherecords Dnsparameter#cacherecords}
   */
   readonly cacherecords?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#dns64timeout Dnsparameter#dns64timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#dns64timeout Dnsparameter#dns64timeout}
   */
   readonly dns64Timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#dnsrootreferral Dnsparameter#dnsrootreferral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#dnsrootreferral Dnsparameter#dnsrootreferral}
   */
   readonly dnsrootreferral?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#dnssec Dnsparameter#dnssec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#dnssec Dnsparameter#dnssec}
   */
   readonly dnssec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#ecsmaxsubnets Dnsparameter#ecsmaxsubnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#ecsmaxsubnets Dnsparameter#ecsmaxsubnets}
   */
   readonly ecsmaxsubnets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#id Dnsparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#id Dnsparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#maxcachesize Dnsparameter#maxcachesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#maxcachesize Dnsparameter#maxcachesize}
   */
   readonly maxcachesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#maxnegativecachesize Dnsparameter#maxnegativecachesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#maxnegativecachesize Dnsparameter#maxnegativecachesize}
   */
   readonly maxnegativecachesize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#maxnegcachettl Dnsparameter#maxnegcachettl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#maxnegcachettl Dnsparameter#maxnegcachettl}
   */
   readonly maxnegcachettl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#maxpipeline Dnsparameter#maxpipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#maxpipeline Dnsparameter#maxpipeline}
   */
   readonly maxpipeline?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#maxttl Dnsparameter#maxttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#maxttl Dnsparameter#maxttl}
   */
   readonly maxttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#maxudppacketsize Dnsparameter#maxudppacketsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#maxudppacketsize Dnsparameter#maxudppacketsize}
   */
   readonly maxudppacketsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#minttl Dnsparameter#minttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#minttl Dnsparameter#minttl}
   */
   readonly minttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#namelookuppriority Dnsparameter#namelookuppriority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#namelookuppriority Dnsparameter#namelookuppriority}
   */
   readonly namelookuppriority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#nxdomainratelimitthreshold Dnsparameter#nxdomainratelimitthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#nxdomainratelimitthreshold Dnsparameter#nxdomainratelimitthreshold}
   */
   readonly nxdomainratelimitthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#recursion Dnsparameter#recursion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#recursion Dnsparameter#recursion}
   */
   readonly recursion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#resolutionorder Dnsparameter#resolutionorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#resolutionorder Dnsparameter#resolutionorder}
   */
   readonly resolutionorder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#resolvermaxactiveresolutions Dnsparameter#resolvermaxactiveresolutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#resolvermaxactiveresolutions Dnsparameter#resolvermaxactiveresolutions}
   */
   readonly resolvermaxactiveresolutions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#resolvermaxtcpconnections Dnsparameter#resolvermaxtcpconnections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#resolvermaxtcpconnections Dnsparameter#resolvermaxtcpconnections}
   */
   readonly resolvermaxtcpconnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#resolvermaxtcptimeout Dnsparameter#resolvermaxtcptimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#resolvermaxtcptimeout Dnsparameter#resolvermaxtcptimeout}
   */
   readonly resolvermaxtcptimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#retries Dnsparameter#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#retries Dnsparameter#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#splitpktqueryprocessing Dnsparameter#splitpktqueryprocessing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#splitpktqueryprocessing Dnsparameter#splitpktqueryprocessing}
   */
   readonly splitpktqueryprocessing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#zonetransfer Dnsparameter#zonetransfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#zonetransfer Dnsparameter#zonetransfer}
   */
   readonly zonetransfer?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter citrixadc_dnsparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter citrixadc_dnsparameter}
 */
 export class Dnsparameter extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class Dnsparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dnsparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dnsparameter to import
-  * @param importFromId The id of the existing Dnsparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dnsparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dnsparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class Dnsparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/dnsparameter citrixadc_dnsparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/dnsparameter citrixadc_dnsparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class Dnsparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_dnsparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

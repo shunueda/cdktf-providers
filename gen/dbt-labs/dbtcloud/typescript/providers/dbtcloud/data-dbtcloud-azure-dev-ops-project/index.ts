@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/azure_dev_ops_project
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/azure_dev_ops_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataDbtcloudAzureDevOpsProjectConfig extends cdktf.TerraformMet
   /**
   * The name of the ADO project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/azure_dev_ops_project#name DataDbtcloudAzureDevOpsProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/azure_dev_ops_project#name DataDbtcloudAzureDevOpsProject#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/azure_dev_ops_project dbtcloud_azure_dev_ops_project}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/azure_dev_ops_project dbtcloud_azure_dev_ops_project}
 */
 export class DataDbtcloudAzureDevOpsProject extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataDbtcloudAzureDevOpsProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudAzureDevOpsProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudAzureDevOpsProject to import
-  * @param importFromId The id of the existing DataDbtcloudAzureDevOpsProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/azure_dev_ops_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudAzureDevOpsProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/azure_dev_ops_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudAzureDevOpsProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataDbtcloudAzureDevOpsProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/azure_dev_ops_project dbtcloud_azure_dev_ops_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/azure_dev_ops_project dbtcloud_azure_dev_ops_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataDbtcloudAzureDevOpsProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_azure_dev_ops_project',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

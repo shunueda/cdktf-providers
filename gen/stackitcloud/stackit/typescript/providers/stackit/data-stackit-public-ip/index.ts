@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/public_ip
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,25 @@ export interface DataStackitPublicIpConfig extends cdktf.TerraformMetaArguments 
   /**
   * STACKIT project ID to which the public IP is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/public_ip#project_id DataStackitPublicIp#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip#project_id DataStackitPublicIp#project_id}
   */
   readonly projectId: string;
   /**
   * The public IP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/public_ip#public_ip_id DataStackitPublicIp#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip#public_ip_id DataStackitPublicIp#public_ip_id}
   */
   readonly publicIpId: string;
+  /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip#region DataStackitPublicIp#region}
+  */
+  readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/public_ip stackit_public_ip}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip stackit_public_ip}
 */
 export class DataStackitPublicIp extends cdktf.TerraformDataSource {
 
@@ -38,7 +44,7 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitPublicIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitPublicIp to import
-  * @param importFromId The id of the existing DataStackitPublicIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/public_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitPublicIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitPublicIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +56,7 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/public_ip stackit_public_ip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/public_ip stackit_public_ip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +67,8 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_public_ip',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -74,6 +80,7 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
     });
     this._projectId = config.projectId;
     this._publicIpId = config.publicIpId;
+    this._region = config.region;
   }
 
   // ==========
@@ -127,6 +134,22 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
     return this._publicIpId;
   }
 
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -135,6 +158,7 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
     return {
       project_id: cdktf.stringToTerraform(this._projectId),
       public_ip_id: cdktf.stringToTerraform(this._publicIpId),
+      region: cdktf.stringToTerraform(this._region),
     };
   }
 
@@ -148,6 +172,12 @@ export class DataStackitPublicIp extends cdktf.TerraformDataSource {
       },
       public_ip_id: {
         value: cdktf.stringToHclTerraform(this._publicIpId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExternalContainerDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#compartment_id DatabaseExternalContainerDatabase#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#compartment_id DatabaseExternalContainerDatabase#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#defined_tags DatabaseExternalContainerDatabase#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#defined_tags DatabaseExternalContainerDatabase#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#display_name DatabaseExternalContainerDatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#display_name DatabaseExternalContainerDatabase#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#freeform_tags DatabaseExternalContainerDatabase#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#freeform_tags DatabaseExternalContainerDatabase#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#id DatabaseExternalContainerDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#id DatabaseExternalContainerDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface DatabaseExternalContainerDatabaseConfig extends cdktf.Terraform
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#timeouts DatabaseExternalContainerDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#timeouts DatabaseExternalContainerDatabase#timeouts}
   */
   readonly timeouts?: DatabaseExternalContainerDatabaseTimeouts;
 }
@@ -204,15 +204,15 @@ export class DatabaseExternalContainerDatabaseStackMonitoringConfigList extends 
 }
 export interface DatabaseExternalContainerDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#create DatabaseExternalContainerDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#create DatabaseExternalContainerDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#delete DatabaseExternalContainerDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#delete DatabaseExternalContainerDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#update DatabaseExternalContainerDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#update DatabaseExternalContainerDatabase#update}
   */
   readonly update?: string;
 }
@@ -364,7 +364,7 @@ export class DatabaseExternalContainerDatabaseTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database oci_database_external_container_database}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database oci_database_external_container_database}
 */
 export class DatabaseExternalContainerDatabase extends cdktf.TerraformResource {
 
@@ -380,7 +380,7 @@ export class DatabaseExternalContainerDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseExternalContainerDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExternalContainerDatabase to import
-  * @param importFromId The id of the existing DatabaseExternalContainerDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExternalContainerDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExternalContainerDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -392,7 +392,7 @@ export class DatabaseExternalContainerDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database oci_database_external_container_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database oci_database_external_container_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -403,8 +403,8 @@ export class DatabaseExternalContainerDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_external_container_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

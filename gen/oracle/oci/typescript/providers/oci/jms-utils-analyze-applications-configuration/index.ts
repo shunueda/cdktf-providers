@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface JmsUtilsAnalyzeApplicationsConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#bucket JmsUtilsAnalyzeApplicationsConfiguration#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#bucket JmsUtilsAnalyzeApplicationsConfiguration#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#compartment_id JmsUtilsAnalyzeApplicationsConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#compartment_id JmsUtilsAnalyzeApplicationsConfiguration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#id JmsUtilsAnalyzeApplicationsConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#id JmsUtilsAnalyzeApplicationsConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#namespace JmsUtilsAnalyzeApplicationsConfiguration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#namespace JmsUtilsAnalyzeApplicationsConfiguration#namespace}
   */
   readonly namespace?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#timeouts JmsUtilsAnalyzeApplicationsConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#timeouts JmsUtilsAnalyzeApplicationsConfiguration#timeouts}
   */
   readonly timeouts?: JmsUtilsAnalyzeApplicationsConfigurationTimeouts;
 }
 export interface JmsUtilsAnalyzeApplicationsConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#create JmsUtilsAnalyzeApplicationsConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#create JmsUtilsAnalyzeApplicationsConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#delete JmsUtilsAnalyzeApplicationsConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#delete JmsUtilsAnalyzeApplicationsConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#update JmsUtilsAnalyzeApplicationsConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#update JmsUtilsAnalyzeApplicationsConfiguration#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class JmsUtilsAnalyzeApplicationsConfigurationTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration}
 */
 export class JmsUtilsAnalyzeApplicationsConfiguration extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class JmsUtilsAnalyzeApplicationsConfiguration extends cdktf.TerraformRes
   * Generates CDKTF code for importing a JmsUtilsAnalyzeApplicationsConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmsUtilsAnalyzeApplicationsConfiguration to import
-  * @param importFromId The id of the existing JmsUtilsAnalyzeApplicationsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmsUtilsAnalyzeApplicationsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmsUtilsAnalyzeApplicationsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class JmsUtilsAnalyzeApplicationsConfiguration extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class JmsUtilsAnalyzeApplicationsConfiguration extends cdktf.TerraformRes
       terraformResourceType: 'oci_jms_utils_analyze_applications_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

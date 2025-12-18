@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner
+// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface As2PartnerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional HTTP Headers for outgoing message sent to this partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#additional_http_headers As2Partner#additional_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#additional_http_headers As2Partner#additional_http_headers}
   */
   readonly additionalHttpHeaders?: { [key: string]: any };
   /**
   * ID of the AS2 Station associated with this partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#as2_station_id As2Partner#as2_station_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#as2_station_id As2Partner#as2_station_id}
   */
   readonly as2StationId: number;
   /**
   * Default mime type of the file attached to the encrypted message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#default_mime_type As2Partner#default_mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#default_mime_type As2Partner#default_mime_type}
   */
   readonly defaultMimeType?: string;
   /**
   * If `true`, we will use your site's dedicated IPs for all outbound connections to this AS2 Partner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#enable_dedicated_ips As2Partner#enable_dedicated_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#enable_dedicated_ips As2Partner#enable_dedicated_ips}
   */
   readonly enableDedicatedIps?: boolean | cdktf.IResolvable;
   /**
   * Password to send to server for HTTP Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#http_auth_password As2Partner#http_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#http_auth_password As2Partner#http_auth_password}
   */
   readonly httpAuthPassword?: string;
   /**
   * Username to send to server for HTTP Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#http_auth_username As2Partner#http_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#http_auth_username As2Partner#http_auth_username}
   */
   readonly httpAuthUsername?: string;
   /**
   * How should Files.com evaluate message transfer success based on a partner's MDN response?  This setting does not affect MDN storage; all MDNs received from a partner are always stored. `none`: MDN is stored for informational purposes only, a successful HTTPS transfer is a successful AS2 transfer. `weak`: Inspect the MDN for MIC and Disposition only. `normal`: `weak` plus validate MDN signature matches body, `strict`: `normal` but do not allow signatures from self-signed or incorrectly purposed certificates. `auto`: Automatically set the correct value for this setting based on next mdn received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#mdn_validation_level As2Partner#mdn_validation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#mdn_validation_level As2Partner#mdn_validation_level}
   */
   readonly mdnValidationLevel?: string;
   /**
   * The partner's formal AS2 name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#name As2Partner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#name As2Partner#name}
   */
   readonly name: string;
   /**
   * Public certificate used for message security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#public_certificate As2Partner#public_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#public_certificate As2Partner#public_certificate}
   */
   readonly publicCertificate: string;
   /**
   * Should we require that the remote HTTP server have a valid SSL Certificate for HTTPS? (This only applies to Outgoing AS2 message from Files.com to a Partner.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#server_certificate As2Partner#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#server_certificate As2Partner#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * Should Files.com require signatures on incoming AS2 messages?  `normal`: require that incoming messages are signed with a valid matching signature. `none`: Unsigned incoming messages are allowed. `auto`: Automatically set the correct value for this setting based on next message received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#signature_validation_level As2Partner#signature_validation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#signature_validation_level As2Partner#signature_validation_level}
   */
   readonly signatureValidationLevel?: string;
   /**
   * Public URI where we will send the AS2 messages (via HTTP/HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#uri As2Partner#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#uri As2Partner#uri}
   */
   readonly uri: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner files_as2_partner}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner files_as2_partner}
 */
 export class As2Partner extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class As2Partner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a As2Partner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the As2Partner to import
-  * @param importFromId The id of the existing As2Partner that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing As2Partner that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the As2Partner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class As2Partner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/as2_partner files_as2_partner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/as2_partner files_as2_partner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class As2Partner extends cdktf.TerraformResource {
       terraformResourceType: 'files_as2_partner',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.412',
-        providerVersionConstraint: '0.1.412'
+        providerVersion: '0.1.415',
+        providerVersionConstraint: '0.1.415'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

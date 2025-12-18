@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface WorkflowIncidentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#cause_ids WorkflowIncident#cause_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#cause_ids WorkflowIncident#cause_ids}
   */
   readonly causeIds?: string[];
   /**
   * Workflow command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#command WorkflowIncident#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#command WorkflowIncident#command}
   */
   readonly command?: string;
   /**
   * This will notify you back when the workflow is starting. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#command_feedback_enabled WorkflowIncident#command_feedback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#command_feedback_enabled WorkflowIncident#command_feedback_enabled}
   */
   readonly commandFeedbackEnabled?: boolean | cdktf.IResolvable;
   /**
   * When continuously repeat is true, repeat workflows aren't automatically stopped when conditions aren't met. This setting won't override your conditions set by repeat_condition_duration_since_first_run and repeat_condition_number_of_repeats parameters.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#continuously_repeat WorkflowIncident#continuously_repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#continuously_repeat WorkflowIncident#continuously_repeat}
   */
   readonly continuouslyRepeat?: boolean | cdktf.IResolvable;
   /**
   * The description of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#description WorkflowIncident#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#description WorkflowIncident#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#enabled WorkflowIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#enabled WorkflowIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#environment_ids WorkflowIncident#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#environment_ids WorkflowIncident#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#functionality_ids WorkflowIncident#functionality_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#functionality_ids WorkflowIncident#functionality_ids}
   */
   readonly functionalityIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#group_ids WorkflowIncident#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#group_ids WorkflowIncident#group_ids}
   */
   readonly groupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#id WorkflowIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#id WorkflowIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_role_ids WorkflowIncident#incident_role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_role_ids WorkflowIncident#incident_role_ids}
   */
   readonly incidentRoleIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_type_ids WorkflowIncident#incident_type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_type_ids WorkflowIncident#incident_type_ids}
   */
   readonly incidentTypeIds?: string[];
   /**
   * Restricts workflow edits to admins when turned on. Only admins can set this field.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#locked WorkflowIncident#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#locked WorkflowIncident#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The title of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#name WorkflowIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#name WorkflowIncident#name}
   */
   readonly name: string;
   /**
   * The order which the workflow should run with other workflows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#position WorkflowIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#position WorkflowIncident#position}
   */
   readonly position?: number;
   /**
   * The workflow will stop repeating if its runtime since it's first workflow run exceeds the duration set in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#repeat_condition_duration_since_first_run WorkflowIncident#repeat_condition_duration_since_first_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#repeat_condition_duration_since_first_run WorkflowIncident#repeat_condition_duration_since_first_run}
   */
   readonly repeatConditionDurationSinceFirstRun?: string;
   /**
   * The workflow will stop repeating if the number of repeats exceeds the value set in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#repeat_condition_number_of_repeats WorkflowIncident#repeat_condition_number_of_repeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#repeat_condition_number_of_repeats WorkflowIncident#repeat_condition_number_of_repeats}
   */
   readonly repeatConditionNumberOfRepeats?: number;
   /**
   * Repeat workflow every duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#repeat_every_duration WorkflowIncident#repeat_every_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#repeat_every_duration WorkflowIncident#repeat_every_duration}
   */
   readonly repeatEveryDuration?: string;
   /**
   * Repeat on weekdays. Value must be one of `S`, `M`, `T`, `W`, `R`, `F`, `U`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#repeat_on WorkflowIncident#repeat_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#repeat_on WorkflowIncident#repeat_on}
   */
   readonly repeatOn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#service_ids WorkflowIncident#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#service_ids WorkflowIncident#service_ids}
   */
   readonly serviceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#severity_ids WorkflowIncident#severity_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#severity_ids WorkflowIncident#severity_ids}
   */
   readonly severityIds?: string[];
   /**
   * The slug of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#slug WorkflowIncident#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#slug WorkflowIncident#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#sub_status_ids WorkflowIncident#sub_status_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#sub_status_ids WorkflowIncident#sub_status_ids}
   */
   readonly subStatusIds?: string[];
   /**
   * Wait this duration before executing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#wait WorkflowIncident#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#wait WorkflowIncident#wait}
   */
   readonly wait?: string;
   /**
   * The group this workflow belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#workflow_group_id WorkflowIncident#workflow_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#workflow_group_id WorkflowIncident#workflow_group_id}
   */
   readonly workflowGroupId?: string;
   /**
   * trigger_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#trigger_params WorkflowIncident#trigger_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#trigger_params WorkflowIncident#trigger_params}
   */
   readonly triggerParams?: WorkflowIncidentTriggerParams;
 }
@@ -149,147 +149,147 @@ export interface WorkflowIncidentTriggerParams {
   /**
   * Value must be one off `ALL`, `ANY`, `NONE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition WorkflowIncident#incident_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition WorkflowIncident#incident_condition}
   */
   readonly incidentCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_acknowledged_at WorkflowIncident#incident_condition_acknowledged_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_acknowledged_at WorkflowIncident#incident_condition_acknowledged_at}
   */
   readonly incidentConditionAcknowledgedAt?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_cause WorkflowIncident#incident_condition_cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_cause WorkflowIncident#incident_condition_cause}
   */
   readonly incidentConditionCause?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_detected_at WorkflowIncident#incident_condition_detected_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_detected_at WorkflowIncident#incident_condition_detected_at}
   */
   readonly incidentConditionDetectedAt?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_environment WorkflowIncident#incident_condition_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_environment WorkflowIncident#incident_condition_environment}
   */
   readonly incidentConditionEnvironment?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_functionality WorkflowIncident#incident_condition_functionality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_functionality WorkflowIncident#incident_condition_functionality}
   */
   readonly incidentConditionFunctionality?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_group WorkflowIncident#incident_condition_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_group WorkflowIncident#incident_condition_group}
   */
   readonly incidentConditionGroup?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_incident_roles WorkflowIncident#incident_condition_incident_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_incident_roles WorkflowIncident#incident_condition_incident_roles}
   */
   readonly incidentConditionIncidentRoles?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_incident_type WorkflowIncident#incident_condition_incident_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_incident_type WorkflowIncident#incident_condition_incident_type}
   */
   readonly incidentConditionIncidentType?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_kind WorkflowIncident#incident_condition_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_kind WorkflowIncident#incident_condition_kind}
   */
   readonly incidentConditionKind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_mitigated_at WorkflowIncident#incident_condition_mitigated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_mitigated_at WorkflowIncident#incident_condition_mitigated_at}
   */
   readonly incidentConditionMitigatedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_resolved_at WorkflowIncident#incident_condition_resolved_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_resolved_at WorkflowIncident#incident_condition_resolved_at}
   */
   readonly incidentConditionResolvedAt?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_service WorkflowIncident#incident_condition_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_service WorkflowIncident#incident_condition_service}
   */
   readonly incidentConditionService?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_severity WorkflowIncident#incident_condition_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_severity WorkflowIncident#incident_condition_severity}
   */
   readonly incidentConditionSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_started_at WorkflowIncident#incident_condition_started_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_started_at WorkflowIncident#incident_condition_started_at}
   */
   readonly incidentConditionStartedAt?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_status WorkflowIncident#incident_condition_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_status WorkflowIncident#incident_condition_status}
   */
   readonly incidentConditionStatus?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_sub_status WorkflowIncident#incident_condition_sub_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_sub_status WorkflowIncident#incident_condition_sub_status}
   */
   readonly incidentConditionSubStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_summary WorkflowIncident#incident_condition_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_summary WorkflowIncident#incident_condition_summary}
   */
   readonly incidentConditionSummary?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_condition_visibility WorkflowIncident#incident_condition_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_condition_visibility WorkflowIncident#incident_condition_visibility}
   */
   readonly incidentConditionVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_conditional_inactivity WorkflowIncident#incident_conditional_inactivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_conditional_inactivity WorkflowIncident#incident_conditional_inactivity}
   */
   readonly incidentConditionalInactivity?: string;
   /**
   * ex. 10 min, 1h, 3 days, 2 weeks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_inactivity_duration WorkflowIncident#incident_inactivity_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_inactivity_duration WorkflowIncident#incident_inactivity_duration}
   */
   readonly incidentInactivityDuration?: string;
   /**
   * Value must be one of `test`, `test_sub`, `example`, `example_sub`, `normal`, `normal_sub`, `backfilled`, `scheduled`, `scheduled_sub`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_kinds WorkflowIncident#incident_kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_kinds WorkflowIncident#incident_kinds}
   */
   readonly incidentKinds?: string[];
   /**
   * [DEPRECATED] Use incident_condition_cause instead. Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_post_mortem_condition_cause WorkflowIncident#incident_post_mortem_condition_cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_post_mortem_condition_cause WorkflowIncident#incident_post_mortem_condition_cause}
   */
   readonly incidentPostMortemConditionCause?: string;
   /**
   * Value must be one of `in_triage`, `started`, `detected`, `acknowledged`, `mitigated`, `resolved`, `closed`, `cancelled`, `scheduled`, `in_progress`, `completed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_statuses WorkflowIncident#incident_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_statuses WorkflowIncident#incident_statuses}
   */
   readonly incidentStatuses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#incident_visibilities WorkflowIncident#incident_visibilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#incident_visibilities WorkflowIncident#incident_visibilities}
   */
   readonly incidentVisibilities?: string[];
   /**
   * Value must be one off `incident`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#trigger_type WorkflowIncident#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#trigger_type WorkflowIncident#trigger_type}
   */
   readonly triggerType?: string;
   /**
   * Actions that trigger the workflow. One of custom_fields.<slug>.updated, incident_in_triage, incident_created, incident_started, incident_updated, title_updated, summary_updated, status_updated, severity_updated, environments_added, environments_removed, environments_updated, incident_types_added, incident_types_removed, incident_types_updated, services_added, services_removed, services_updated, visibility_updated, functionalities_added, functionalities_removed, functionalities_updated, teams_added, teams_removed, teams_updated, causes_added, causes_removed, causes_updated, timeline_updated, status_page_timeline_updated, role_assignments_updated, role_assignments_added, role_assignments_removed, slack_command, slack_channel_created, slack_channel_converted, microsoft_teams_channel_created, subscribers_updated, subscribers_added, subscribers_removed, user_joined_slack_channel, user_left_slack_channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#triggers WorkflowIncident#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#triggers WorkflowIncident#triggers}
   */
   readonly triggers?: string[];
 }
@@ -1127,7 +1127,7 @@ export class WorkflowIncidentTriggerParamsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident rootly_workflow_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident rootly_workflow_incident}
 */
 export class WorkflowIncident extends cdktf.TerraformResource {
 
@@ -1143,7 +1143,7 @@ export class WorkflowIncident extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowIncident to import
-  * @param importFromId The id of the existing WorkflowIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1155,7 +1155,7 @@ export class WorkflowIncident extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_incident rootly_workflow_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_incident rootly_workflow_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1166,8 +1166,8 @@ export class WorkflowIncident extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface PolicystringmapPatternBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding#comment PolicystringmapPatternBinding#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding#comment PolicystringmapPatternBinding#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding#id PolicystringmapPatternBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding#id PolicystringmapPatternBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding#key PolicystringmapPatternBinding#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding#key PolicystringmapPatternBinding#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding#name PolicystringmapPatternBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding#name PolicystringmapPatternBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding#value PolicystringmapPatternBinding#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding#value PolicystringmapPatternBinding#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding citrixadc_policystringmap_pattern_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding citrixadc_policystringmap_pattern_binding}
 */
 export class PolicystringmapPatternBinding extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class PolicystringmapPatternBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicystringmapPatternBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicystringmapPatternBinding to import
-  * @param importFromId The id of the existing PolicystringmapPatternBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicystringmapPatternBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicystringmapPatternBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class PolicystringmapPatternBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/policystringmap_pattern_binding citrixadc_policystringmap_pattern_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/policystringmap_pattern_binding citrixadc_policystringmap_pattern_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class PolicystringmapPatternBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_policystringmap_pattern_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

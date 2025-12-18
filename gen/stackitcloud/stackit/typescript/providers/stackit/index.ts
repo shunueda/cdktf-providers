@@ -23,6 +23,7 @@ export * as mongodbflexInstance from './mongodbflex-instance';
 export * as mongodbflexUser from './mongodbflex-user';
 export * as network from './network';
 export * as networkArea from './network-area';
+export * as networkAreaRegion from './network-area-region';
 export * as networkAreaRoute from './network-area-route';
 export * as networkInterface from './network-interface';
 export * as objectstorageBucket from './objectstorage-bucket';
@@ -91,6 +92,7 @@ export * as dataStackitMongodbflexInstance from './data-stackit-mongodbflex-inst
 export * as dataStackitMongodbflexUser from './data-stackit-mongodbflex-user';
 export * as dataStackitNetwork from './data-stackit-network';
 export * as dataStackitNetworkArea from './data-stackit-network-area';
+export * as dataStackitNetworkAreaRegion from './data-stackit-network-area-region';
 export * as dataStackitNetworkAreaRoute from './data-stackit-network-area-route';
 export * as dataStackitNetworkInterface from './data-stackit-network-interface';
 export * as dataStackitObjectstorageBucket from './data-stackit-objectstorage-bucket';

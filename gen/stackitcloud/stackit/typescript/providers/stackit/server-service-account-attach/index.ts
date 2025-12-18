@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,31 @@ export interface ServerServiceAccountAttachConfig extends cdktf.TerraformMetaArg
   /**
   * STACKIT project ID to which the service account attachment is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach#project_id ServerServiceAccountAttach#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach#project_id ServerServiceAccountAttach#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach#region ServerServiceAccountAttach#region}
+  */
+  readonly region?: string;
+  /**
   * The server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach#server_id ServerServiceAccountAttach#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach#server_id ServerServiceAccountAttach#server_id}
   */
   readonly serverId: string;
   /**
   * The service account email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach#service_account_email ServerServiceAccountAttach#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach#service_account_email ServerServiceAccountAttach#service_account_email}
   */
   readonly serviceAccountEmail: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach stackit_server_service_account_attach}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach stackit_server_service_account_attach}
 */
 export class ServerServiceAccountAttach extends cdktf.TerraformResource {
 
@@ -44,7 +50,7 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerServiceAccountAttach resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerServiceAccountAttach to import
-  * @param importFromId The id of the existing ServerServiceAccountAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerServiceAccountAttach that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerServiceAccountAttach to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +62,7 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/server_service_account_attach stackit_server_service_account_attach} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/server_service_account_attach stackit_server_service_account_attach} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +73,8 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_server_service_account_attach',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,6 +85,7 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._projectId = config.projectId;
+    this._region = config.region;
     this._serverId = config.serverId;
     this._serviceAccountEmail = config.serviceAccountEmail;
   }
@@ -103,6 +110,22 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get projectIdInput() {
     return this._projectId;
+  }
+
+  // region - computed: true, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
   }
 
   // server_id - computed: false, optional: false, required: true
@@ -138,6 +161,7 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       server_id: cdktf.stringToTerraform(this._serverId),
       service_account_email: cdktf.stringToTerraform(this._serviceAccountEmail),
     };
@@ -147,6 +171,12 @@ export class ServerServiceAccountAttach extends cdktf.TerraformResource {
     const attrs = {
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

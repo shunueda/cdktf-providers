@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFastlyTlsCertificateConfig extends cdktf.TerraformMetaArgum
   /**
   * Domains that are listed in any certificates' Subject Alternative Names (SAN) list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate#domains DataFastlyTlsCertificate#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate#domains DataFastlyTlsCertificate#domains}
   */
   readonly domains?: string[];
   /**
   * Unique ID assigned to certificate by Fastly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate#id DataFastlyTlsCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate#id DataFastlyTlsCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,25 +25,25 @@ export interface DataFastlyTlsCertificateConfig extends cdktf.TerraformMetaArgum
   /**
   * The hostname for which a certificate was issued.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate#issued_to DataFastlyTlsCertificate#issued_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate#issued_to DataFastlyTlsCertificate#issued_to}
   */
   readonly issuedTo?: string;
   /**
   * The certificate authority that issued the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate#issuer DataFastlyTlsCertificate#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate#issuer DataFastlyTlsCertificate#issuer}
   */
   readonly issuer?: string;
   /**
   * Human-readable name used to identify the certificate. Defaults to the certificate's Common Name or first Subject Alternative Name entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate#name DataFastlyTlsCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate#name DataFastlyTlsCertificate#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate fastly_tls_certificate}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate fastly_tls_certificate}
 */
 export class DataFastlyTlsCertificate extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataFastlyTlsCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFastlyTlsCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyTlsCertificate to import
-  * @param importFromId The id of the existing DataFastlyTlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyTlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyTlsCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataFastlyTlsCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_certificate fastly_tls_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_certificate fastly_tls_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataFastlyTlsCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_tls_certificate',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KvstoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow the KV Store to be deleted, even if it contains entries. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore#force_destroy Kvstore#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore#force_destroy Kvstore#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore#id Kvstore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore#id Kvstore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface KvstoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * The regional location of the KV Store. Valid values are `US`, `EU`, `ASIA`, and `AUS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore#location Kvstore#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore#location Kvstore#location}
   */
   readonly location?: string;
   /**
   * A unique name to identify the KV Store. It is important to note that changing this attribute will delete and recreate the KV Store, and discard the current entries. You MUST first delete the associated resource_link block from your service before modifying this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore#name Kvstore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore#name Kvstore#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore fastly_kvstore}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore fastly_kvstore}
 */
 export class Kvstore extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Kvstore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Kvstore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Kvstore to import
-  * @param importFromId The id of the existing Kvstore that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Kvstore that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Kvstore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Kvstore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/kvstore fastly_kvstore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/kvstore fastly_kvstore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Kvstore extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_kvstore',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

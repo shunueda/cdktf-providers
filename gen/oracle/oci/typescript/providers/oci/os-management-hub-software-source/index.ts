@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubSoftwareSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#advanced_repo_options OsManagementHubSoftwareSource#advanced_repo_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#advanced_repo_options OsManagementHubSoftwareSource#advanced_repo_options}
   */
   readonly advancedRepoOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#arch_type OsManagementHubSoftwareSource#arch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#arch_type OsManagementHubSoftwareSource#arch_type}
   */
   readonly archType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#compartment_id OsManagementHubSoftwareSource#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#compartment_id OsManagementHubSoftwareSource#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#defined_tags OsManagementHubSoftwareSource#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#defined_tags OsManagementHubSoftwareSource#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#description OsManagementHubSoftwareSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#description OsManagementHubSoftwareSource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#display_name OsManagementHubSoftwareSource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#display_name OsManagementHubSoftwareSource#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#freeform_tags OsManagementHubSoftwareSource#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#freeform_tags OsManagementHubSoftwareSource#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#gpg_key_url OsManagementHubSoftwareSource#gpg_key_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#gpg_key_url OsManagementHubSoftwareSource#gpg_key_url}
   */
   readonly gpgKeyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#id OsManagementHubSoftwareSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#id OsManagementHubSoftwareSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_auto_resolve_dependencies OsManagementHubSoftwareSource#is_auto_resolve_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_auto_resolve_dependencies OsManagementHubSoftwareSource#is_auto_resolve_dependencies}
   */
   readonly isAutoResolveDependencies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_automatically_updated OsManagementHubSoftwareSource#is_automatically_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_automatically_updated OsManagementHubSoftwareSource#is_automatically_updated}
   */
   readonly isAutomaticallyUpdated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_created_from_package_list OsManagementHubSoftwareSource#is_created_from_package_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_created_from_package_list OsManagementHubSoftwareSource#is_created_from_package_list}
   */
   readonly isCreatedFromPackageList?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_gpg_check_enabled OsManagementHubSoftwareSource#is_gpg_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_gpg_check_enabled OsManagementHubSoftwareSource#is_gpg_check_enabled}
   */
   readonly isGpgCheckEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_latest_content_only OsManagementHubSoftwareSource#is_latest_content_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_latest_content_only OsManagementHubSoftwareSource#is_latest_content_only}
   */
   readonly isLatestContentOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_mirror_sync_allowed OsManagementHubSoftwareSource#is_mirror_sync_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_mirror_sync_allowed OsManagementHubSoftwareSource#is_mirror_sync_allowed}
   */
   readonly isMirrorSyncAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#is_ssl_verify_enabled OsManagementHubSoftwareSource#is_ssl_verify_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#is_ssl_verify_enabled OsManagementHubSoftwareSource#is_ssl_verify_enabled}
   */
   readonly isSslVerifyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#origin_software_source_id OsManagementHubSoftwareSource#origin_software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#origin_software_source_id OsManagementHubSoftwareSource#origin_software_source_id}
   */
   readonly originSoftwareSourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#os_family OsManagementHubSoftwareSource#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#os_family OsManagementHubSoftwareSource#os_family}
   */
   readonly osFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#packages OsManagementHubSoftwareSource#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#packages OsManagementHubSoftwareSource#packages}
   */
   readonly packages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#software_source_sub_type OsManagementHubSoftwareSource#software_source_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#software_source_sub_type OsManagementHubSoftwareSource#software_source_sub_type}
   */
   readonly softwareSourceSubType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#software_source_type OsManagementHubSoftwareSource#software_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#software_source_type OsManagementHubSoftwareSource#software_source_type}
   */
   readonly softwareSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#software_source_version OsManagementHubSoftwareSource#software_source_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#software_source_version OsManagementHubSoftwareSource#software_source_version}
   */
   readonly softwareSourceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#url OsManagementHubSoftwareSource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#url OsManagementHubSoftwareSource#url}
   */
   readonly url?: string;
   /**
   * custom_software_source_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#custom_software_source_filter OsManagementHubSoftwareSource#custom_software_source_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#custom_software_source_filter OsManagementHubSoftwareSource#custom_software_source_filter}
   */
   readonly customSoftwareSourceFilter?: OsManagementHubSoftwareSourceCustomSoftwareSourceFilter;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#timeouts OsManagementHubSoftwareSource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#timeouts OsManagementHubSoftwareSource#timeouts}
   */
   readonly timeouts?: OsManagementHubSoftwareSourceTimeouts;
   /**
   * vendor_software_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#vendor_software_sources OsManagementHubSoftwareSource#vendor_software_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#vendor_software_sources OsManagementHubSoftwareSource#vendor_software_sources}
   */
   readonly vendorSoftwareSources?: OsManagementHubSoftwareSourceVendorSoftwareSources[] | cdktf.IResolvable;
 }
 export interface OsManagementHubSoftwareSourceCustomSoftwareSourceFilterModuleStreamProfileFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#module_name OsManagementHubSoftwareSource#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#module_name OsManagementHubSoftwareSource#module_name}
   */
   readonly moduleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#profile_name OsManagementHubSoftwareSource#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#profile_name OsManagementHubSoftwareSource#profile_name}
   */
   readonly profileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#stream_name OsManagementHubSoftwareSource#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#stream_name OsManagementHubSoftwareSource#stream_name}
   */
   readonly streamName?: string;
 }
@@ -338,19 +338,19 @@ export class OsManagementHubSoftwareSourceCustomSoftwareSourceFilterModuleStream
 }
 export interface OsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#package_name OsManagementHubSoftwareSource#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#package_name OsManagementHubSoftwareSource#package_name}
   */
   readonly packageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#package_name_pattern OsManagementHubSoftwareSource#package_name_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#package_name_pattern OsManagementHubSoftwareSource#package_name_pattern}
   */
   readonly packageNamePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#package_version OsManagementHubSoftwareSource#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#package_version OsManagementHubSoftwareSource#package_version}
   */
   readonly packageVersion?: string;
 }
@@ -553,11 +553,11 @@ export class OsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageFilte
 }
 export interface OsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageGroupFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#package_groups OsManagementHubSoftwareSource#package_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#package_groups OsManagementHubSoftwareSource#package_groups}
   */
   readonly packageGroups?: string[];
 }
@@ -704,19 +704,19 @@ export interface OsManagementHubSoftwareSourceCustomSoftwareSourceFilter {
   /**
   * module_stream_profile_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#module_stream_profile_filters OsManagementHubSoftwareSource#module_stream_profile_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#module_stream_profile_filters OsManagementHubSoftwareSource#module_stream_profile_filters}
   */
   readonly moduleStreamProfileFilters?: OsManagementHubSoftwareSourceCustomSoftwareSourceFilterModuleStreamProfileFilters[] | cdktf.IResolvable;
   /**
   * package_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#package_filters OsManagementHubSoftwareSource#package_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#package_filters OsManagementHubSoftwareSource#package_filters}
   */
   readonly packageFilters?: OsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageFilters[] | cdktf.IResolvable;
   /**
   * package_group_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#package_group_filters OsManagementHubSoftwareSource#package_group_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#package_group_filters OsManagementHubSoftwareSource#package_group_filters}
   */
   readonly packageGroupFilters?: OsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageGroupFilters[] | cdktf.IResolvable;
 }
@@ -858,15 +858,15 @@ export class OsManagementHubSoftwareSourceCustomSoftwareSourceFilterOutputRefere
 }
 export interface OsManagementHubSoftwareSourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#create OsManagementHubSoftwareSource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#create OsManagementHubSoftwareSource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#delete OsManagementHubSoftwareSource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#delete OsManagementHubSoftwareSource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#update OsManagementHubSoftwareSource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#update OsManagementHubSoftwareSource#update}
   */
   readonly update?: string;
 }
@@ -1018,11 +1018,11 @@ export class OsManagementHubSoftwareSourceTimeoutsOutputReference extends cdktf.
 }
 export interface OsManagementHubSoftwareSourceVendorSoftwareSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#display_name OsManagementHubSoftwareSource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#display_name OsManagementHubSoftwareSource#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#id OsManagementHubSoftwareSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#id OsManagementHubSoftwareSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1170,7 +1170,7 @@ export class OsManagementHubSoftwareSourceVendorSoftwareSourcesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source oci_os_management_hub_software_source}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source oci_os_management_hub_software_source}
 */
 export class OsManagementHubSoftwareSource extends cdktf.TerraformResource {
 
@@ -1186,7 +1186,7 @@ export class OsManagementHubSoftwareSource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsManagementHubSoftwareSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubSoftwareSource to import
-  * @param importFromId The id of the existing OsManagementHubSoftwareSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubSoftwareSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubSoftwareSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1198,7 +1198,7 @@ export class OsManagementHubSoftwareSource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_software_source oci_os_management_hub_software_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_software_source oci_os_management_hub_software_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1209,8 +1209,8 @@ export class OsManagementHubSoftwareSource extends cdktf.TerraformResource {
       terraformResourceType: 'oci_os_management_hub_software_source',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

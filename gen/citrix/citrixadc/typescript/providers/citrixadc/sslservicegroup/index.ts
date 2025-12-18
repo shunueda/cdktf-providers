@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface SslservicegroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#commonname Sslservicegroup#commonname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#commonname Sslservicegroup#commonname}
   */
   readonly commonname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#id Sslservicegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#id Sslservicegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#ocspstapling Sslservicegroup#ocspstapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#ocspstapling Sslservicegroup#ocspstapling}
   */
   readonly ocspstapling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#sendclosenotify Sslservicegroup#sendclosenotify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#sendclosenotify Sslservicegroup#sendclosenotify}
   */
   readonly sendclosenotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#serverauth Sslservicegroup#serverauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#serverauth Sslservicegroup#serverauth}
   */
   readonly serverauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#servicegroupname Sslservicegroup#servicegroupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#servicegroupname Sslservicegroup#servicegroupname}
   */
   readonly servicegroupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#sessreuse Sslservicegroup#sessreuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#sessreuse Sslservicegroup#sessreuse}
   */
   readonly sessreuse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#sesstimeout Sslservicegroup#sesstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#sesstimeout Sslservicegroup#sesstimeout}
   */
   readonly sesstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#snienable Sslservicegroup#snienable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#snienable Sslservicegroup#snienable}
   */
   readonly snienable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#ssl3 Sslservicegroup#ssl3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#ssl3 Sslservicegroup#ssl3}
   */
   readonly ssl3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#sslclientlogs Sslservicegroup#sslclientlogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#sslclientlogs Sslservicegroup#sslclientlogs}
   */
   readonly sslclientlogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#sslprofile Sslservicegroup#sslprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#sslprofile Sslservicegroup#sslprofile}
   */
   readonly sslprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#strictsigdigestcheck Sslservicegroup#strictsigdigestcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#strictsigdigestcheck Sslservicegroup#strictsigdigestcheck}
   */
   readonly strictsigdigestcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#tls1 Sslservicegroup#tls1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#tls1 Sslservicegroup#tls1}
   */
   readonly tls1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#tls11 Sslservicegroup#tls11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#tls11 Sslservicegroup#tls11}
   */
   readonly tls11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#tls12 Sslservicegroup#tls12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#tls12 Sslservicegroup#tls12}
   */
   readonly tls12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#tls13 Sslservicegroup#tls13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#tls13 Sslservicegroup#tls13}
   */
   readonly tls13?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup citrixadc_sslservicegroup}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup citrixadc_sslservicegroup}
 */
 export class Sslservicegroup extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class Sslservicegroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslservicegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslservicegroup to import
-  * @param importFromId The id of the existing Sslservicegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslservicegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslservicegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class Sslservicegroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslservicegroup citrixadc_sslservicegroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslservicegroup citrixadc_sslservicegroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class Sslservicegroup extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslservicegroup',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

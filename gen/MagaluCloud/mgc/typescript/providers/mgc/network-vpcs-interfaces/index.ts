@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface NetworkVpcsInterfacesConfig extends cdktf.TerraformMetaArgument
   /**
   * Activates (true) or deactivates (false) the IP Spoofing protection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces#anti_spoofing NetworkVpcsInterfaces#anti_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces#anti_spoofing NetworkVpcsInterfaces#anti_spoofing}
   */
   readonly antiSpoofing?: boolean | cdktf.IResolvable;
   /**
   * The availability zone of the VPC Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces#availability_zone NetworkVpcsInterfaces#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces#availability_zone NetworkVpcsInterfaces#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The name of the VPC Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces#name NetworkVpcsInterfaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces#name NetworkVpcsInterfaces#name}
   */
   readonly name: string;
   /**
   * The IDs of the subnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces#subnet_ids NetworkVpcsInterfaces#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces#subnet_ids NetworkVpcsInterfaces#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * The ID of the VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces#vpc_id NetworkVpcsInterfaces#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces#vpc_id NetworkVpcsInterfaces#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces mgc_network_vpcs_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces mgc_network_vpcs_interfaces}
 */
 export class NetworkVpcsInterfaces extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class NetworkVpcsInterfaces extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVpcsInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVpcsInterfaces to import
-  * @param importFromId The id of the existing NetworkVpcsInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVpcsInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVpcsInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class NetworkVpcsInterfaces extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/network_vpcs_interfaces mgc_network_vpcs_interfaces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/network_vpcs_interfaces mgc_network_vpcs_interfaces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class NetworkVpcsInterfaces extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_network_vpcs_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

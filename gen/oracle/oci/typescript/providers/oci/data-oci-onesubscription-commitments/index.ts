@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOnesubscriptionCommitmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#compartment_id DataOciOnesubscriptionCommitments#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#compartment_id DataOciOnesubscriptionCommitments#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#id DataOciOnesubscriptionCommitments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#id DataOciOnesubscriptionCommitments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#subscribed_service_id DataOciOnesubscriptionCommitments#subscribed_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#subscribed_service_id DataOciOnesubscriptionCommitments#subscribed_service_id}
   */
   readonly subscribedServiceId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#filter DataOciOnesubscriptionCommitments#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#filter DataOciOnesubscriptionCommitments#filter}
   */
   readonly filter?: DataOciOnesubscriptionCommitmentsFilter[] | cdktf.IResolvable;
 }
@@ -141,15 +141,15 @@ export class DataOciOnesubscriptionCommitmentsCommitmentsList extends cdktf.Comp
 }
 export interface DataOciOnesubscriptionCommitmentsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#name DataOciOnesubscriptionCommitments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#name DataOciOnesubscriptionCommitments#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#regex DataOciOnesubscriptionCommitments#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#regex DataOciOnesubscriptionCommitments#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#values DataOciOnesubscriptionCommitments#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#values DataOciOnesubscriptionCommitments#values}
   */
   readonly values: string[];
 }
@@ -317,7 +317,7 @@ export class DataOciOnesubscriptionCommitmentsFilterList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments oci_onesubscription_commitments}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments oci_onesubscription_commitments}
 */
 export class DataOciOnesubscriptionCommitments extends cdktf.TerraformDataSource {
 
@@ -333,7 +333,7 @@ export class DataOciOnesubscriptionCommitments extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataOciOnesubscriptionCommitments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOnesubscriptionCommitments to import
-  * @param importFromId The id of the existing DataOciOnesubscriptionCommitments that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOnesubscriptionCommitments that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOnesubscriptionCommitments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class DataOciOnesubscriptionCommitments extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/onesubscription_commitments oci_onesubscription_commitments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/onesubscription_commitments oci_onesubscription_commitments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class DataOciOnesubscriptionCommitments extends cdktf.TerraformDataSource
       terraformResourceType: 'oci_onesubscription_commitments',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

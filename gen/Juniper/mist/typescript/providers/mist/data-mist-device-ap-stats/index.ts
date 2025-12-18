@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataMistDeviceApStatsConfig extends cdktf.TerraformMetaArgument
   /**
   * Duration like 7d, 2w
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#duration DataMistDeviceApStats#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#duration DataMistDeviceApStats#duration}
   */
   readonly duration?: string;
   /**
-  * End datetime, can be epoch or relative time like -1d, -2h; now if not specified
+  * End time (epoch timestamp in seconds, or relative string like "-1d", "-2h", "now")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#end DataMistDeviceApStats#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#end DataMistDeviceApStats#end}
   */
-  readonly end?: number;
+  readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#mac DataMistDeviceApStats#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#mac DataMistDeviceApStats#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#org_id DataMistDeviceApStats#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#org_id DataMistDeviceApStats#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#site_id DataMistDeviceApStats#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#site_id DataMistDeviceApStats#site_id}
   */
   readonly siteId?: string;
   /**
-  * Start datetime, can be epoch or relative time like -1d, -1w; -1d if not specified
+  * Start time (epoch timestamp in seconds, or relative string like "-1d", "-1w")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#start DataMistDeviceApStats#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#start DataMistDeviceApStats#start}
   */
-  readonly start?: number;
+  readonly start?: string;
   /**
   * enum: `all`, `connected`, `disconnected`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#status DataMistDeviceApStats#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#status DataMistDeviceApStats#status}
   */
   readonly status?: string;
 }
@@ -733,10 +733,10 @@ export class DataMistDeviceApStatsDeviceApStatsFwupdateOutputReference extends c
     return this.getBooleanAttribute('will_retry');
   }
 }
-export interface DataMistDeviceApStatsDeviceApStatsGps {
+export interface DataMistDeviceApStatsDeviceApStatsGpsStat {
 }
 
-export function dataMistDeviceApStatsDeviceApStatsGpsToTerraform(struct?: DataMistDeviceApStatsDeviceApStatsGps): any {
+export function dataMistDeviceApStatsDeviceApStatsGpsStatToTerraform(struct?: DataMistDeviceApStatsDeviceApStatsGpsStat): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -746,7 +746,7 @@ export function dataMistDeviceApStatsDeviceApStatsGpsToTerraform(struct?: DataMi
 }
 
 
-export function dataMistDeviceApStatsDeviceApStatsGpsToHclTerraform(struct?: DataMistDeviceApStatsDeviceApStatsGps): any {
+export function dataMistDeviceApStatsDeviceApStatsGpsStatToHclTerraform(struct?: DataMistDeviceApStatsDeviceApStatsGpsStat): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -756,7 +756,7 @@ export function dataMistDeviceApStatsDeviceApStatsGpsToHclTerraform(struct?: Dat
   return attrs;
 }
 
-export class DataMistDeviceApStatsDeviceApStatsGpsOutputReference extends cdktf.ComplexObject {
+export class DataMistDeviceApStatsDeviceApStatsGpsStatOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -767,13 +767,13 @@ export class DataMistDeviceApStatsDeviceApStatsGpsOutputReference extends cdktf.
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataMistDeviceApStatsDeviceApStatsGps | undefined {
+  public get internalValue(): DataMistDeviceApStatsDeviceApStatsGpsStat | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataMistDeviceApStatsDeviceApStatsGps | undefined) {
+  public set internalValue(value: DataMistDeviceApStatsDeviceApStatsGpsStat | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -1475,9 +1475,34 @@ export class DataMistDeviceApStatsDeviceApStatsLldpStatOutputReference extends c
     return this.getNumberAttribute('power_allocated');
   }
 
+  // power_avail - computed: true, optional: false, required: false
+  public get powerAvail() {
+    return this.getNumberAttribute('power_avail');
+  }
+
+  // power_budget - computed: true, optional: false, required: false
+  public get powerBudget() {
+    return this.getNumberAttribute('power_budget');
+  }
+
+  // power_constrained - computed: true, optional: false, required: false
+  public get powerConstrained() {
+    return this.getBooleanAttribute('power_constrained');
+  }
+
   // power_draw - computed: true, optional: false, required: false
   public get powerDraw() {
     return this.getNumberAttribute('power_draw');
+  }
+
+  // power_needed - computed: true, optional: false, required: false
+  public get powerNeeded() {
+    return this.getNumberAttribute('power_needed');
+  }
+
+  // power_opmode - computed: true, optional: false, required: false
+  public get powerOpmode() {
+    return this.getStringAttribute('power_opmode');
   }
 
   // power_request_count - computed: true, optional: false, required: false
@@ -1490,6 +1515,16 @@ export class DataMistDeviceApStatsDeviceApStatsLldpStatOutputReference extends c
     return this.getNumberAttribute('power_requested');
   }
 
+  // power_src - computed: true, optional: false, required: false
+  public get powerSrc() {
+    return this.getStringAttribute('power_src');
+  }
+
+  // power_srcs - computed: true, optional: false, required: false
+  public get powerSrcs() {
+    return this.getListAttribute('power_srcs');
+  }
+
   // system_desc - computed: true, optional: false, required: false
   public get systemDesc() {
     return this.getStringAttribute('system_desc');
@@ -1498,6 +1533,169 @@ export class DataMistDeviceApStatsDeviceApStatsLldpStatOutputReference extends c
   // system_name - computed: true, optional: false, required: false
   public get systemName() {
     return this.getStringAttribute('system_name');
+  }
+}
+export interface DataMistDeviceApStatsDeviceApStatsLldpStats {
+}
+
+export function dataMistDeviceApStatsDeviceApStatsLldpStatsToTerraform(struct?: DataMistDeviceApStatsDeviceApStatsLldpStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceApStatsDeviceApStatsLldpStatsToHclTerraform(struct?: DataMistDeviceApStatsDeviceApStatsLldpStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceApStatsDeviceApStatsLldpStatsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectKey the key of this item in the map
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectKey: string) {
+    super(terraformResource, terraformAttribute, false, complexObjectKey);
+  }
+
+  public get internalValue(): DataMistDeviceApStatsDeviceApStatsLldpStats | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceApStatsDeviceApStatsLldpStats | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // chassis_id - computed: true, optional: false, required: false
+  public get chassisId() {
+    return this.getStringAttribute('chassis_id');
+  }
+
+  // lldp_med_supported - computed: true, optional: false, required: false
+  public get lldpMedSupported() {
+    return this.getBooleanAttribute('lldp_med_supported');
+  }
+
+  // mgmt_addr - computed: true, optional: false, required: false
+  public get mgmtAddr() {
+    return this.getStringAttribute('mgmt_addr');
+  }
+
+  // mgmt_addrs - computed: true, optional: false, required: false
+  public get mgmtAddrs() {
+    return this.getListAttribute('mgmt_addrs');
+  }
+
+  // port_desc - computed: true, optional: false, required: false
+  public get portDesc() {
+    return this.getStringAttribute('port_desc');
+  }
+
+  // port_id - computed: true, optional: false, required: false
+  public get portId() {
+    return this.getStringAttribute('port_id');
+  }
+
+  // power_allocated - computed: true, optional: false, required: false
+  public get powerAllocated() {
+    return this.getNumberAttribute('power_allocated');
+  }
+
+  // power_avail - computed: true, optional: false, required: false
+  public get powerAvail() {
+    return this.getNumberAttribute('power_avail');
+  }
+
+  // power_budget - computed: true, optional: false, required: false
+  public get powerBudget() {
+    return this.getNumberAttribute('power_budget');
+  }
+
+  // power_constrained - computed: true, optional: false, required: false
+  public get powerConstrained() {
+    return this.getBooleanAttribute('power_constrained');
+  }
+
+  // power_draw - computed: true, optional: false, required: false
+  public get powerDraw() {
+    return this.getNumberAttribute('power_draw');
+  }
+
+  // power_needed - computed: true, optional: false, required: false
+  public get powerNeeded() {
+    return this.getNumberAttribute('power_needed');
+  }
+
+  // power_opmode - computed: true, optional: false, required: false
+  public get powerOpmode() {
+    return this.getStringAttribute('power_opmode');
+  }
+
+  // power_request_count - computed: true, optional: false, required: false
+  public get powerRequestCount() {
+    return this.getNumberAttribute('power_request_count');
+  }
+
+  // power_requested - computed: true, optional: false, required: false
+  public get powerRequested() {
+    return this.getNumberAttribute('power_requested');
+  }
+
+  // power_src - computed: true, optional: false, required: false
+  public get powerSrc() {
+    return this.getStringAttribute('power_src');
+  }
+
+  // power_srcs - computed: true, optional: false, required: false
+  public get powerSrcs() {
+    return this.getListAttribute('power_srcs');
+  }
+
+  // system_desc - computed: true, optional: false, required: false
+  public get systemDesc() {
+    return this.getStringAttribute('system_desc');
+  }
+
+  // system_name - computed: true, optional: false, required: false
+  public get systemName() {
+    return this.getStringAttribute('system_name');
+  }
+}
+
+export class DataMistDeviceApStatsDeviceApStatsLldpStatsMap extends cdktf.ComplexMap {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string) {
+    super(terraformResource, terraformAttribute)
+  }
+
+  /**
+  * @param key the key of the item to return
+  */
+  public get(key: string): DataMistDeviceApStatsDeviceApStatsLldpStatsOutputReference {
+    return new DataMistDeviceApStatsDeviceApStatsLldpStatsOutputReference(this.terraformResource, this.terraformAttribute, key);
   }
 }
 export interface DataMistDeviceApStatsDeviceApStatsMeshDownlinks {
@@ -2613,6 +2811,11 @@ export class DataMistDeviceApStatsDeviceApStatsOutputReference extends cdktf.Com
     }
   }
 
+  // antenna_select - computed: true, optional: false, required: false
+  public get antennaSelect() {
+    return this.getStringAttribute('antenna_select');
+  }
+
   // auto_placement - computed: true, optional: false, required: false
   private _autoPlacement = new DataMistDeviceApStatsDeviceApStatsAutoPlacementOutputReference(this, "auto_placement");
   public get autoPlacement() {
@@ -2646,6 +2849,11 @@ export class DataMistDeviceApStatsDeviceApStatsOutputReference extends cdktf.Com
     return this.getNumberAttribute('cpu_system');
   }
 
+  // cpu_user - computed: true, optional: false, required: false
+  public get cpuUser() {
+    return this.getNumberAttribute('cpu_user');
+  }
+
   // cpu_util - computed: true, optional: false, required: false
   public get cpuUtil() {
     return this.getNumberAttribute('cpu_util');
@@ -2673,6 +2881,12 @@ export class DataMistDeviceApStatsDeviceApStatsOutputReference extends cdktf.Com
     return this._eslStat;
   }
 
+  // expiring_certs - computed: true, optional: false, required: false
+  private _expiringCerts = new cdktf.NumberMap(this, "expiring_certs");
+  public get expiringCerts() {
+    return this._expiringCerts;
+  }
+
   // ext_ip - computed: true, optional: false, required: false
   public get extIp() {
     return this.getStringAttribute('ext_ip');
@@ -2684,10 +2898,10 @@ export class DataMistDeviceApStatsDeviceApStatsOutputReference extends cdktf.Com
     return this._fwupdate;
   }
 
-  // gps - computed: true, optional: false, required: false
-  private _gps = new DataMistDeviceApStatsDeviceApStatsGpsOutputReference(this, "gps");
-  public get gps() {
-    return this._gps;
+  // gps_stat - computed: true, optional: false, required: false
+  private _gpsStat = new DataMistDeviceApStatsDeviceApStatsGpsStatOutputReference(this, "gps_stat");
+  public get gpsStat() {
+    return this._gpsStat;
   }
 
   // hw_rev - computed: true, optional: false, required: false
@@ -2757,6 +2971,12 @@ export class DataMistDeviceApStatsDeviceApStatsOutputReference extends cdktf.Com
     return this._lldpStat;
   }
 
+  // lldp_stats - computed: true, optional: false, required: false
+  private _lldpStats = new DataMistDeviceApStatsDeviceApStatsLldpStatsMap(this, "lldp_stats");
+  public get lldpStats() {
+    return this._lldpStats;
+  }
+
   // locating - computed: true, optional: false, required: false
   public get locating() {
     return this.getBooleanAttribute('locating');
@@ -2775,6 +2995,11 @@ export class DataMistDeviceApStatsDeviceApStatsOutputReference extends cdktf.Com
   // map_id - computed: true, optional: false, required: false
   public get mapId() {
     return this.getStringAttribute('map_id');
+  }
+
+  // mem_total_kb - computed: true, optional: false, required: false
+  public get memTotalKb() {
+    return this.getNumberAttribute('mem_total_kb');
   }
 
   // mem_used_kb - computed: true, optional: false, required: false
@@ -2964,7 +3189,7 @@ export class DataMistDeviceApStatsDeviceApStatsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats mist_device_ap_stats}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats mist_device_ap_stats}
 */
 export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
 
@@ -2980,7 +3205,7 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistDeviceApStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistDeviceApStats to import
-  * @param importFromId The id of the existing DataMistDeviceApStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistDeviceApStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistDeviceApStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2992,7 +3217,7 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_ap_stats mist_device_ap_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_ap_stats mist_device_ap_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3003,8 +3228,8 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_device_ap_stats',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3050,11 +3275,11 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: number; 
+  private _end?: string; 
   public get end() {
-    return this.getNumberAttribute('end');
+    return this.getStringAttribute('end');
   }
-  public set end(value: number) {
+  public set end(value: string) {
     this._end = value;
   }
   public resetEnd() {
@@ -3111,11 +3336,11 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: number; 
+  private _start?: string; 
   public get start() {
-    return this.getNumberAttribute('start');
+    return this.getStringAttribute('start');
   }
-  public set start(value: number) {
+  public set start(value: string) {
     this._start = value;
   }
   public resetStart() {
@@ -3149,11 +3374,11 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       duration: cdktf.stringToTerraform(this._duration),
-      end: cdktf.numberToTerraform(this._end),
+      end: cdktf.stringToTerraform(this._end),
       mac: cdktf.stringToTerraform(this._mac),
       org_id: cdktf.stringToTerraform(this._orgId),
       site_id: cdktf.stringToTerraform(this._siteId),
-      start: cdktf.numberToTerraform(this._start),
+      start: cdktf.stringToTerraform(this._start),
       status: cdktf.stringToTerraform(this._status),
     };
   }
@@ -3167,10 +3392,10 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
         storageClassType: "string",
       },
       end: {
-        value: cdktf.numberToHclTerraform(this._end),
+        value: cdktf.stringToHclTerraform(this._end),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       mac: {
         value: cdktf.stringToHclTerraform(this._mac),
@@ -3191,10 +3416,10 @@ export class DataMistDeviceApStats extends cdktf.TerraformDataSource {
         storageClassType: "string",
       },
       start: {
-        value: cdktf.numberToHclTerraform(this._start),
+        value: cdktf.stringToHclTerraform(this._start),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       status: {
         value: cdktf.stringToHclTerraform(this._status),

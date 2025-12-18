@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/users
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -103,7 +103,7 @@ export interface DataTemporalcloudUsersUsers {
   /**
   * The set of namespace permissions for this user, including each namespace and its role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/users#namespace_accesses DataTemporalcloudUsers#namespace_accesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/users#namespace_accesses DataTemporalcloudUsers#namespace_accesses}
   */
   readonly namespaceAccesses?: DataTemporalcloudUsersUsersNamespaceAccesses[] | cdktf.IResolvable;
 }
@@ -239,7 +239,7 @@ export class DataTemporalcloudUsersUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/users temporalcloud_users}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/users temporalcloud_users}
 */
 export class DataTemporalcloudUsers extends cdktf.TerraformDataSource {
 
@@ -255,7 +255,7 @@ export class DataTemporalcloudUsers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTemporalcloudUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalcloudUsers to import
-  * @param importFromId The id of the existing DataTemporalcloudUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalcloudUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalcloudUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class DataTemporalcloudUsers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/users temporalcloud_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/users temporalcloud_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class DataTemporalcloudUsers extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporalcloud_users',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

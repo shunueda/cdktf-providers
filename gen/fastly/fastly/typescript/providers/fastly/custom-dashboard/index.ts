@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CustomDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * A short description of the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#description CustomDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#description CustomDashboard#description}
   */
   readonly description?: string;
   /**
   * A human-readable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#name CustomDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#name CustomDashboard#name}
   */
   readonly name: string;
   /**
   * dashboard_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#dashboard_item CustomDashboard#dashboard_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#dashboard_item CustomDashboard#dashboard_item}
   */
   readonly dashboardItem?: CustomDashboardDashboardItem[] | cdktf.IResolvable;
 }
@@ -30,7 +30,7 @@ export interface CustomDashboardDashboardItemDataSourceConfig {
   /**
   * The metrics to visualize. Valid options are defined by the selected data source: [stats.edge](https://www.fastly.com/documentation/reference/api/observability/custom-dashboards/metrics/edge/), [stats.domain](https://www.fastly.com/documentation/reference/api/observability/custom-dashboards/metrics/domain/), [stats.origin](https://www.fastly.com/documentation/reference/api/observability/custom-dashboards/metrics/origin/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#metrics CustomDashboard#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#metrics CustomDashboard#metrics}
   */
   readonly metrics: string[];
 }
@@ -113,13 +113,13 @@ export interface CustomDashboardDashboardItemDataSource {
   /**
   * The source of the data to display. One of: `stats.edge`, `stats.domain`, `stats.origin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#type CustomDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#type CustomDashboard#type}
   */
   readonly type: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#config CustomDashboard#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#config CustomDashboard#config}
   */
   readonly config: CustomDashboardDashboardItemDataSourceConfig;
 }
@@ -228,19 +228,19 @@ export interface CustomDashboardDashboardItemVisualizationConfig {
   /**
   * The aggregation function to apply to the dataset. One of: `avg`, `sum`, `min`, `max`, `latest`, `p95`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#calculation_method CustomDashboard#calculation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#calculation_method CustomDashboard#calculation_method}
   */
   readonly calculationMethod?: string;
   /**
   * The units to use to format the data. One of: `number`, `bytes`, `percent`, `requests`, `responses`, `seconds`, `milliseconds`, `ratio`, `bitrate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#format CustomDashboard#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#format CustomDashboard#format}
   */
   readonly format?: string;
   /**
   * The type of chart to display. One of: `line`, `bar`, `single-metric`, `donut`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#plot_type CustomDashboard#plot_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#plot_type CustomDashboard#plot_type}
   */
   readonly plotType: string;
 }
@@ -381,13 +381,13 @@ export interface CustomDashboardDashboardItemVisualization {
   /**
   * The type of visualization to display. One of: `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#type CustomDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#type CustomDashboard#type}
   */
   readonly type: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#config CustomDashboard#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#config CustomDashboard#config}
   */
   readonly config: CustomDashboardDashboardItemVisualizationConfig;
 }
@@ -496,7 +496,7 @@ export interface CustomDashboardDashboardItem {
   /**
   * Dashboard item identifier (alphanumeric). Must be unique, relative to other items in the same dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#id CustomDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#id CustomDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -505,31 +505,31 @@ export interface CustomDashboardDashboardItem {
   /**
   * The number of columns for the dashboard item to span. Dashboards are rendered on a 12-column grid on "desktop" screen sizes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#span CustomDashboard#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#span CustomDashboard#span}
   */
   readonly span?: number;
   /**
   * A human-readable subtitle for the dashboard item. Often a description of the visualization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#subtitle CustomDashboard#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#subtitle CustomDashboard#subtitle}
   */
   readonly subtitle: string;
   /**
   * A human-readable title for the dashboard item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#title CustomDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#title CustomDashboard#title}
   */
   readonly title: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#data_source CustomDashboard#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#data_source CustomDashboard#data_source}
   */
   readonly dataSource: CustomDashboardDashboardItemDataSource;
   /**
   * visualization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#visualization CustomDashboard#visualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#visualization CustomDashboard#visualization}
   */
   readonly visualization: CustomDashboardDashboardItemVisualization;
 }
@@ -775,7 +775,7 @@ export class CustomDashboardDashboardItemList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard fastly_custom_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard fastly_custom_dashboard}
 */
 export class CustomDashboard extends cdktf.TerraformResource {
 
@@ -791,7 +791,7 @@ export class CustomDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomDashboard to import
-  * @param importFromId The id of the existing CustomDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -803,7 +803,7 @@ export class CustomDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/custom_dashboard fastly_custom_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/custom_dashboard fastly_custom_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,8 +814,8 @@ export class CustomDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_custom_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

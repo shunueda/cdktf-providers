@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataStackitRoutingTableRouteConfig extends cdktf.TerraformMetaA
   /**
   * The network area ID to which the routing table is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route#network_area_id DataStackitRoutingTableRoute#network_area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route#network_area_id DataStackitRoutingTableRoute#network_area_id}
   */
   readonly networkAreaId: string;
   /**
   * STACKIT organization ID to which the routing table is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route#organization_id DataStackitRoutingTableRoute#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route#organization_id DataStackitRoutingTableRoute#organization_id}
   */
   readonly organizationId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route#region DataStackitRoutingTableRoute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route#region DataStackitRoutingTableRoute#region}
   */
   readonly region?: string;
   /**
   * Route ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route#route_id DataStackitRoutingTableRoute#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route#route_id DataStackitRoutingTableRoute#route_id}
   */
   readonly routeId: string;
   /**
   * The routing tables ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route#routing_table_id DataStackitRoutingTableRoute#routing_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route#routing_table_id DataStackitRoutingTableRoute#routing_table_id}
   */
   readonly routingTableId: string;
 }
@@ -158,7 +158,7 @@ export class DataStackitRoutingTableRouteNextHopOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route stackit_routing_table_route}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route stackit_routing_table_route}
 */
 export class DataStackitRoutingTableRoute extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataStackitRoutingTableRoute extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitRoutingTableRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitRoutingTableRoute to import
-  * @param importFromId The id of the existing DataStackitRoutingTableRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitRoutingTableRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitRoutingTableRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataStackitRoutingTableRoute extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/routing_table_route stackit_routing_table_route} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/routing_table_route stackit_routing_table_route} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataStackitRoutingTableRoute extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_routing_table_route',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

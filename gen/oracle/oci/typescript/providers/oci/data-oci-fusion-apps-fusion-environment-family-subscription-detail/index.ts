@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail#fusion_environment_family_id DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail#fusion_environment_family_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail#fusion_environment_family_id DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail#fusion_environment_family_id}
   */
   readonly fusionEnvironmentFamilyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail#id DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail#id DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -207,7 +207,7 @@ export class DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetailSubscript
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail oci_fusion_apps_fusion_environment_family_subscription_detail}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail oci_fusion_apps_fusion_environment_family_subscription_detail}
 */
 export class DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail extends cdktf.TerraformDataSource {
 
@@ -223,7 +223,7 @@ export class DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail extends 
   * Generates CDKTF code for importing a DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail to import
-  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail oci_fusion_apps_fusion_environment_family_subscription_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_family_subscription_detail oci_fusion_apps_fusion_environment_family_subscription_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class DataOciFusionAppsFusionEnvironmentFamilySubscriptionDetail extends 
       terraformResourceType: 'oci_fusion_apps_fusion_environment_family_subscription_detail',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

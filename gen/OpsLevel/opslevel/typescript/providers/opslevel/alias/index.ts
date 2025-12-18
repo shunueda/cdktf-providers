@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AliasConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique set of aliases to ensure exist on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias#aliases Alias#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias#aliases Alias#aliases}
   */
   readonly aliases: string[];
   /**
   * The id or human-friendly, unique identifier of the resource this alias belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias#resource_identifier Alias#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias#resource_identifier Alias#resource_identifier}
   */
   readonly resourceIdentifier: string;
   /**
   * The resource type that the alias applies to. One of `domain`, `group`, `infrastructure_resource`, `scorecard`, `service`, `system`, `team`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias#resource_type Alias#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias#resource_type Alias#resource_type}
   */
   readonly resourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias opslevel_alias}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias opslevel_alias}
 */
 export class Alias extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Alias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alias to import
-  * @param importFromId The id of the existing Alias that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alias that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Alias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/alias opslevel_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/alias opslevel_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Alias extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_alias',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

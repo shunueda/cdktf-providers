@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatasciencePipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_pipeline#pipeline_id DataOciDatasciencePipeline#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_pipeline#pipeline_id DataOciDatasciencePipeline#pipeline_id}
   */
   readonly pipelineId: string;
 }
@@ -1688,7 +1688,7 @@ export class DataOciDatasciencePipelineStorageMountConfigurationDetailsListStruc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_pipeline oci_datascience_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_pipeline oci_datascience_pipeline}
 */
 export class DataOciDatasciencePipeline extends cdktf.TerraformDataSource {
 
@@ -1704,7 +1704,7 @@ export class DataOciDatasciencePipeline extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatasciencePipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatasciencePipeline to import
-  * @param importFromId The id of the existing DataOciDatasciencePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatasciencePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatasciencePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1716,7 +1716,7 @@ export class DataOciDatasciencePipeline extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_pipeline oci_datascience_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_pipeline oci_datascience_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1727,8 +1727,8 @@ export class DataOciDatasciencePipeline extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_datascience_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

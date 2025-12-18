@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface GenerativeAiEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#compartment_id GenerativeAiEndpoint#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#compartment_id GenerativeAiEndpoint#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#dedicated_ai_cluster_id GenerativeAiEndpoint#dedicated_ai_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#dedicated_ai_cluster_id GenerativeAiEndpoint#dedicated_ai_cluster_id}
   */
   readonly dedicatedAiClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#defined_tags GenerativeAiEndpoint#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#defined_tags GenerativeAiEndpoint#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#description GenerativeAiEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#description GenerativeAiEndpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#display_name GenerativeAiEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#display_name GenerativeAiEndpoint#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#freeform_tags GenerativeAiEndpoint#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#freeform_tags GenerativeAiEndpoint#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#generative_ai_private_endpoint_id GenerativeAiEndpoint#generative_ai_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#generative_ai_private_endpoint_id GenerativeAiEndpoint#generative_ai_private_endpoint_id}
   */
   readonly generativeAiPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#id GenerativeAiEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#id GenerativeAiEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#model_id GenerativeAiEndpoint#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#model_id GenerativeAiEndpoint#model_id}
   */
   readonly modelId: string;
   /**
   * content_moderation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#content_moderation_config GenerativeAiEndpoint#content_moderation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#content_moderation_config GenerativeAiEndpoint#content_moderation_config}
   */
   readonly contentModerationConfig?: GenerativeAiEndpointContentModerationConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#timeouts GenerativeAiEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#timeouts GenerativeAiEndpoint#timeouts}
   */
   readonly timeouts?: GenerativeAiEndpointTimeouts;
 }
 export interface GenerativeAiEndpointContentModerationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#is_enabled GenerativeAiEndpoint#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#is_enabled GenerativeAiEndpoint#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#mode GenerativeAiEndpoint#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#mode GenerativeAiEndpoint#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#model_id GenerativeAiEndpoint#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#model_id GenerativeAiEndpoint#model_id}
   */
   readonly modelId?: string;
 }
@@ -208,15 +208,15 @@ export class GenerativeAiEndpointContentModerationConfigOutputReference extends 
 }
 export interface GenerativeAiEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#create GenerativeAiEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#create GenerativeAiEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#delete GenerativeAiEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#delete GenerativeAiEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#update GenerativeAiEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#update GenerativeAiEndpoint#update}
   */
   readonly update?: string;
 }
@@ -368,7 +368,7 @@ export class GenerativeAiEndpointTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint oci_generative_ai_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint oci_generative_ai_endpoint}
 */
 export class GenerativeAiEndpoint extends cdktf.TerraformResource {
 
@@ -384,7 +384,7 @@ export class GenerativeAiEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenerativeAiEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenerativeAiEndpoint to import
-  * @param importFromId The id of the existing GenerativeAiEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenerativeAiEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenerativeAiEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class GenerativeAiEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_endpoint oci_generative_ai_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_endpoint oci_generative_ai_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class GenerativeAiEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'oci_generative_ai_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

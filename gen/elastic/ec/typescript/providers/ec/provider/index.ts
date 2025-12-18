@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface EcProviderConfig {
   /**
   * API Key to use for API authentication. The only valid authentication mechanism for the Elasticsearch Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#apikey EcProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#apikey EcProvider#apikey}
   */
   readonly apikey?: string;
   /**
   * Endpoint where the terraform provider will point to. Defaults to "https://api.elastic-cloud.com".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#endpoint EcProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#endpoint EcProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Allow the provider to skip TLS validation on its outgoing HTTP calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#insecure EcProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#insecure EcProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Password to use for API authentication. Available only when targeting ECE Installations or Elasticsearch Service Private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#password EcProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#password EcProvider#password}
   */
   readonly password?: string;
   /**
   * Timeout used for individual HTTP calls. Defaults to "1m".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#timeout EcProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#timeout EcProvider#timeout}
   */
   readonly timeout?: string;
   /**
   * Username to use for API authentication. Available only when targeting ECE Installations or Elasticsearch Service Private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#username EcProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#username EcProvider#username}
   */
   readonly username?: string;
   /**
   * When set, a "request.log" file will be written with all outgoing HTTP requests. Defaults to "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#verbose EcProvider#verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#verbose EcProvider#verbose}
   */
   readonly verbose?: boolean | cdktf.IResolvable;
   /**
   * When set with verbose, the contents of the Authorization header will not be redacted. Defaults to "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#verbose_credentials EcProvider#verbose_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#verbose_credentials EcProvider#verbose_credentials}
   */
   readonly verboseCredentials?: boolean | cdktf.IResolvable;
   /**
   * Timeout used for individual HTTP calls. Defaults to "1m".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#verbose_file EcProvider#verbose_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#verbose_file EcProvider#verbose_file}
   */
   readonly verboseFile?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#alias EcProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#alias EcProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs ec}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs ec}
 */
 export class EcProvider extends cdktf.TerraformProvider {
 
@@ -86,7 +86,7 @@ export class EcProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a EcProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcProvider to import
-  * @param importFromId The id of the existing EcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class EcProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs ec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs ec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class EcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ec',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       terraformProviderSource: 'elastic/ec'
     });

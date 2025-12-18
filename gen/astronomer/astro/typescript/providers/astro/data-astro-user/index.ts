@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/user
+// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAstroUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * User identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/user#id DataAstroUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/user#id DataAstroUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -179,7 +179,7 @@ export class DataAstroUserWorkspaceRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/user astro_user}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/user astro_user}
 */
 export class DataAstroUser extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataAstroUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAstroUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAstroUser to import
-  * @param importFromId The id of the existing DataAstroUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAstroUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAstroUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataAstroUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/data-sources/user astro_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/data-sources/user astro_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataAstroUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'astro_user',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.9',
-        providerVersionConstraint: '1.0.9'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

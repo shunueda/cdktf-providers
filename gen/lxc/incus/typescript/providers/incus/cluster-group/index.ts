@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group
+// https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group#config ClusterGroup#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group#config ClusterGroup#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group#description ClusterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group#description ClusterGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group#name ClusterGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group#name ClusterGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group#remote ClusterGroup#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group#remote ClusterGroup#remote}
   */
   readonly remote?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group incus_cluster_group}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group incus_cluster_group}
 */
 export class ClusterGroup extends cdktf.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ClusterGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterGroup to import
-  * @param importFromId The id of the existing ClusterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ClusterGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/cluster_group incus_cluster_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/cluster_group incus_cluster_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,8 +65,8 @@ export class ClusterGroup extends cdktf.TerraformResource {
       terraformResourceType: 'incus_cluster_group',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

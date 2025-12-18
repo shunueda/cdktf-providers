@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,95 +8,95 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#attribute_sets IdentityDomainsGroup#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#attribute_sets IdentityDomainsGroup#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#attributes IdentityDomainsGroup#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#attributes IdentityDomainsGroup#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#authorization IdentityDomainsGroup#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#authorization IdentityDomainsGroup#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#display_name IdentityDomainsGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#display_name IdentityDomainsGroup#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#external_id IdentityDomainsGroup#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#external_id IdentityDomainsGroup#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#force_delete IdentityDomainsGroup#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#force_delete IdentityDomainsGroup#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#idcs_endpoint IdentityDomainsGroup#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#idcs_endpoint IdentityDomainsGroup#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#non_unique_display_name IdentityDomainsGroup#non_unique_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#non_unique_display_name IdentityDomainsGroup#non_unique_display_name}
   */
   readonly nonUniqueDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#ocid IdentityDomainsGroup#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#ocid IdentityDomainsGroup#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#resource_type_schema_version IdentityDomainsGroup#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#resource_type_schema_version IdentityDomainsGroup#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#schemas IdentityDomainsGroup#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#schemas IdentityDomainsGroup#schemas}
   */
   readonly schemas: string[];
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#members IdentityDomainsGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#members IdentityDomainsGroup#members}
   */
   readonly members?: IdentityDomainsGroupMembers[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#tags IdentityDomainsGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#tags IdentityDomainsGroup#tags}
   */
   readonly tags?: IdentityDomainsGroupTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#timeouts IdentityDomainsGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#timeouts IdentityDomainsGroup#timeouts}
   */
   readonly timeouts?: IdentityDomainsGroupTimeouts;
   /**
   * urnietfparamsscimschemasoracleidcsextension_oci_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextension_oci_tags IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextension_oci_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextension_oci_tags IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextension_oci_tags}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionOciTags?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciTags;
   /**
   * urnietfparamsscimschemasoracleidcsextensiondynamic_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensiondynamic_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensiondynamic_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensiondynamic_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensiondynamic_group}
   */
   readonly urnietfparamsscimschemasoracleidcsextensiondynamicGroup?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiondynamicGroup;
   /**
   * urnietfparamsscimschemasoracleidcsextensiongroup_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensiongroup_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensiongroup_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensiongroup_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensiongroup_group}
   */
   readonly urnietfparamsscimschemasoracleidcsextensiongroupGroup?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroup;
   /**
   * urnietfparamsscimschemasoracleidcsextensionposix_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensionposix_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensionposix_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensionposix_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensionposix_group}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionposixGroup?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionposixGroup;
   /**
   * urnietfparamsscimschemasoracleidcsextensionrequestable_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensionrequestable_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensionrequestable_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#urnietfparamsscimschemasoracleidcsextensionrequestable_group IdentityDomainsGroup#urnietfparamsscimschemasoracleidcsextensionrequestable_group}
   */
   readonly urnietfparamsscimschemasoracleidcsextensionrequestableGroup?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionrequestableGroup;
 }
@@ -639,15 +639,15 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiondbcs
 }
 export interface IdentityDomainsGroupMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#ocid IdentityDomainsGroup#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#ocid IdentityDomainsGroup#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#type IdentityDomainsGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#type IdentityDomainsGroup#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
   */
   readonly value: string;
 }
@@ -840,11 +840,11 @@ export class IdentityDomainsGroupMembersList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#key IdentityDomainsGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#key IdentityDomainsGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
   */
   readonly value: string;
 }
@@ -983,15 +983,15 @@ export class IdentityDomainsGroupTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#create IdentityDomainsGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#create IdentityDomainsGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#delete IdentityDomainsGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#delete IdentityDomainsGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#update IdentityDomainsGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#update IdentityDomainsGroup#update}
   */
   readonly update?: string;
 }
@@ -1143,15 +1143,15 @@ export class IdentityDomainsGroupTimeoutsOutputReference extends cdktf.ComplexOb
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciTagsDefinedTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#key IdentityDomainsGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#key IdentityDomainsGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#namespace IdentityDomainsGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#namespace IdentityDomainsGroup#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
   */
   readonly value: string;
 }
@@ -1316,11 +1316,11 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciT
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciTagsFreeformTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#key IdentityDomainsGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#key IdentityDomainsGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
   */
   readonly value: string;
 }
@@ -1461,13 +1461,13 @@ export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextension
   /**
   * defined_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#defined_tags IdentityDomainsGroup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#defined_tags IdentityDomainsGroup#defined_tags}
   */
   readonly definedTags?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciTagsDefinedTags[] | cdktf.IResolvable;
   /**
   * freeform_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#freeform_tags IdentityDomainsGroup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#freeform_tags IdentityDomainsGroup#freeform_tags}
   */
   readonly freeformTags?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciTagsFreeformTags[] | cdktf.IResolvable;
 }
@@ -1585,11 +1585,11 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionOciT
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiondynamicGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#membership_rule IdentityDomainsGroup#membership_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#membership_rule IdentityDomainsGroup#membership_rule}
   */
   readonly membershipRule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#membership_type IdentityDomainsGroup#membership_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#membership_type IdentityDomainsGroup#membership_type}
   */
   readonly membershipType?: string;
 }
@@ -2082,11 +2082,11 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongrou
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroupOwners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#type IdentityDomainsGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#type IdentityDomainsGroup#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#value IdentityDomainsGroup#value}
   */
   readonly value: string;
 }
@@ -2235,17 +2235,17 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongrou
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#creation_mechanism IdentityDomainsGroup#creation_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#creation_mechanism IdentityDomainsGroup#creation_mechanism}
   */
   readonly creationMechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#description IdentityDomainsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#description IdentityDomainsGroup#description}
   */
   readonly description?: string;
   /**
   * owners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#owners IdentityDomainsGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#owners IdentityDomainsGroup#owners}
   */
   readonly owners?: IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongroupGroupOwners[] | cdktf.IResolvable;
 }
@@ -2411,7 +2411,7 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiongrou
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionposixGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#gid_number IdentityDomainsGroup#gid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#gid_number IdentityDomainsGroup#gid_number}
   */
   readonly gidNumber?: number;
 }
@@ -2495,7 +2495,7 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionposi
 }
 export interface IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionrequestableGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#requestable IdentityDomainsGroup#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#requestable IdentityDomainsGroup#requestable}
   */
   readonly requestable?: boolean | cdktf.IResolvable;
 }
@@ -2579,7 +2579,7 @@ export class IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionrequ
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group oci_identity_domains_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group oci_identity_domains_group}
 */
 export class IdentityDomainsGroup extends cdktf.TerraformResource {
 
@@ -2595,7 +2595,7 @@ export class IdentityDomainsGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsGroup to import
-  * @param importFromId The id of the existing IdentityDomainsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2607,7 +2607,7 @@ export class IdentityDomainsGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_group oci_identity_domains_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_group oci_identity_domains_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2618,8 +2618,8 @@ export class IdentityDomainsGroup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

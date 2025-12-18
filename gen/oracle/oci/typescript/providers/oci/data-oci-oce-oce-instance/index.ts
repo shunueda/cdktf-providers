@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/oce_oce_instance
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/oce_oce_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOceOceInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/oce_oce_instance#oce_instance_id DataOciOceOceInstance#oce_instance_id}
   */
   readonly oceInstanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/oce_oce_instance oci_oce_oce_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/oce_oce_instance oci_oce_oce_instance}
 */
 export class DataOciOceOceInstance extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciOceOceInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciOceOceInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOceOceInstance to import
-  * @param importFromId The id of the existing DataOciOceOceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/oce_oce_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOceOceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/oce_oce_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOceOceInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciOceOceInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/oce_oce_instance oci_oce_oce_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/oce_oce_instance oci_oce_oce_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciOceOceInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_oce_oce_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

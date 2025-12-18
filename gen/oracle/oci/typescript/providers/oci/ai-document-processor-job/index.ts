@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface AiDocumentProcessorJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#compartment_id AiDocumentProcessorJob#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#compartment_id AiDocumentProcessorJob#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#display_name AiDocumentProcessorJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#display_name AiDocumentProcessorJob#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#id AiDocumentProcessorJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#id AiDocumentProcessorJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,43 +25,43 @@ export interface AiDocumentProcessorJobConfig extends cdktf.TerraformMetaArgumen
   /**
   * input_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#input_location AiDocumentProcessorJob#input_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#input_location AiDocumentProcessorJob#input_location}
   */
   readonly inputLocation: AiDocumentProcessorJobInputLocation;
   /**
   * output_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#output_location AiDocumentProcessorJob#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#output_location AiDocumentProcessorJob#output_location}
   */
   readonly outputLocation: AiDocumentProcessorJobOutputLocation;
   /**
   * processor_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#processor_config AiDocumentProcessorJob#processor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#processor_config AiDocumentProcessorJob#processor_config}
   */
   readonly processorConfig: AiDocumentProcessorJobProcessorConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#timeouts AiDocumentProcessorJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#timeouts AiDocumentProcessorJob#timeouts}
   */
   readonly timeouts?: AiDocumentProcessorJobTimeouts;
 }
 export interface AiDocumentProcessorJobInputLocationObjectLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#object AiDocumentProcessorJob#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#object AiDocumentProcessorJob#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}
   */
   readonly pageRange?: string[];
 }
@@ -264,21 +264,21 @@ export class AiDocumentProcessorJobInputLocationObjectLocationsList extends cdkt
 }
 export interface AiDocumentProcessorJobInputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#data AiDocumentProcessorJob#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#data AiDocumentProcessorJob#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}
   */
   readonly pageRange?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#source_type AiDocumentProcessorJob#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#source_type AiDocumentProcessorJob#source_type}
   */
   readonly sourceType: string;
   /**
   * object_locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#object_locations AiDocumentProcessorJob#object_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#object_locations AiDocumentProcessorJob#object_locations}
   */
   readonly objectLocations?: AiDocumentProcessorJobInputLocationObjectLocations[] | cdktf.IResolvable;
 }
@@ -446,15 +446,15 @@ export class AiDocumentProcessorJobInputLocationOutputReference extends cdktf.Co
 }
 export interface AiDocumentProcessorJobOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#prefix AiDocumentProcessorJob#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#prefix AiDocumentProcessorJob#prefix}
   */
   readonly prefix: string;
 }
@@ -587,27 +587,27 @@ export class AiDocumentProcessorJobOutputLocationOutputReference extends cdktf.C
 }
 export interface AiDocumentProcessorJobProcessorConfigFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#feature_type AiDocumentProcessorJob#feature_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#feature_type AiDocumentProcessorJob#feature_type}
   */
   readonly featureType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#generate_searchable_pdf AiDocumentProcessorJob#generate_searchable_pdf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#generate_searchable_pdf AiDocumentProcessorJob#generate_searchable_pdf}
   */
   readonly generateSearchablePdf?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#max_results AiDocumentProcessorJob#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#max_results AiDocumentProcessorJob#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#model_id AiDocumentProcessorJob#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#model_id AiDocumentProcessorJob#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#selection_mark_detection AiDocumentProcessorJob#selection_mark_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#selection_mark_detection AiDocumentProcessorJob#selection_mark_detection}
   */
   readonly selectionMarkDetection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#tenancy_id AiDocumentProcessorJob#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#tenancy_id AiDocumentProcessorJob#tenancy_id}
   */
   readonly tenancyId?: string;
 }
@@ -865,7 +865,7 @@ export class AiDocumentProcessorJobProcessorConfigFeaturesList extends cdktf.Com
 }
 export interface AiDocumentProcessorJobProcessorConfigNormalizationFieldsMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#normalization_type AiDocumentProcessorJob#normalization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#normalization_type AiDocumentProcessorJob#normalization_type}
   */
   readonly normalizationType?: string;
 }
@@ -983,7 +983,7 @@ export interface AiDocumentProcessorJobProcessorConfigNormalizationFields {
   /**
   * map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#map AiDocumentProcessorJob#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#map AiDocumentProcessorJob#map}
   */
   readonly map?: AiDocumentProcessorJobProcessorConfigNormalizationFieldsMap[] | cdktf.IResolvable;
 }
@@ -1099,35 +1099,35 @@ export class AiDocumentProcessorJobProcessorConfigNormalizationFieldsList extend
 }
 export interface AiDocumentProcessorJobProcessorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#document_type AiDocumentProcessorJob#document_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#document_type AiDocumentProcessorJob#document_type}
   */
   readonly documentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#is_zip_output_enabled AiDocumentProcessorJob#is_zip_output_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#is_zip_output_enabled AiDocumentProcessorJob#is_zip_output_enabled}
   */
   readonly isZipOutputEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#language AiDocumentProcessorJob#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#language AiDocumentProcessorJob#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#model_id AiDocumentProcessorJob#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#model_id AiDocumentProcessorJob#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#processor_type AiDocumentProcessorJob#processor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#processor_type AiDocumentProcessorJob#processor_type}
   */
   readonly processorType: string;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#features AiDocumentProcessorJob#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#features AiDocumentProcessorJob#features}
   */
   readonly features: AiDocumentProcessorJobProcessorConfigFeatures[] | cdktf.IResolvable;
   /**
   * normalization_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#normalization_fields AiDocumentProcessorJob#normalization_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#normalization_fields AiDocumentProcessorJob#normalization_fields}
   */
   readonly normalizationFields?: AiDocumentProcessorJobProcessorConfigNormalizationFields[] | cdktf.IResolvable;
 }
@@ -1379,15 +1379,15 @@ export class AiDocumentProcessorJobProcessorConfigOutputReference extends cdktf.
 }
 export interface AiDocumentProcessorJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#create AiDocumentProcessorJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#create AiDocumentProcessorJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#delete AiDocumentProcessorJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#delete AiDocumentProcessorJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#update AiDocumentProcessorJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#update AiDocumentProcessorJob#update}
   */
   readonly update?: string;
 }
@@ -1539,7 +1539,7 @@ export class AiDocumentProcessorJobTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job oci_ai_document_processor_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job oci_ai_document_processor_job}
 */
 export class AiDocumentProcessorJob extends cdktf.TerraformResource {
 
@@ -1555,7 +1555,7 @@ export class AiDocumentProcessorJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiDocumentProcessorJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiDocumentProcessorJob to import
-  * @param importFromId The id of the existing AiDocumentProcessorJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiDocumentProcessorJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiDocumentProcessorJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1567,7 +1567,7 @@ export class AiDocumentProcessorJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_processor_job oci_ai_document_processor_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_processor_job oci_ai_document_processor_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1578,8 +1578,8 @@ export class AiDocumentProcessorJob extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_document_processor_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

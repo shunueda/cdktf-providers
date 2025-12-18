@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface GslbparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#automaticconfigsync Gslbparameter#automaticconfigsync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#automaticconfigsync Gslbparameter#automaticconfigsync}
   */
   readonly automaticconfigsync?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#dropldnsreq Gslbparameter#dropldnsreq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#dropldnsreq Gslbparameter#dropldnsreq}
   */
   readonly dropldnsreq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#gslbconfigsyncmonitor Gslbparameter#gslbconfigsyncmonitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#gslbconfigsyncmonitor Gslbparameter#gslbconfigsyncmonitor}
   */
   readonly gslbconfigsyncmonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#gslbsvcstatedelaytime Gslbparameter#gslbsvcstatedelaytime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#gslbsvcstatedelaytime Gslbparameter#gslbsvcstatedelaytime}
   */
   readonly gslbsvcstatedelaytime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#gslbsyncinterval Gslbparameter#gslbsyncinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#gslbsyncinterval Gslbparameter#gslbsyncinterval}
   */
   readonly gslbsyncinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#gslbsynclocfiles Gslbparameter#gslbsynclocfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#gslbsynclocfiles Gslbparameter#gslbsynclocfiles}
   */
   readonly gslbsynclocfiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#gslbsyncmode Gslbparameter#gslbsyncmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#gslbsyncmode Gslbparameter#gslbsyncmode}
   */
   readonly gslbsyncmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#gslbsyncsaveconfigcommand Gslbparameter#gslbsyncsaveconfigcommand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#gslbsyncsaveconfigcommand Gslbparameter#gslbsyncsaveconfigcommand}
   */
   readonly gslbsyncsaveconfigcommand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#id Gslbparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#id Gslbparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#ldnsentrytimeout Gslbparameter#ldnsentrytimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#ldnsentrytimeout Gslbparameter#ldnsentrytimeout}
   */
   readonly ldnsentrytimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#ldnsmask Gslbparameter#ldnsmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#ldnsmask Gslbparameter#ldnsmask}
   */
   readonly ldnsmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#ldnsprobeorder Gslbparameter#ldnsprobeorder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#ldnsprobeorder Gslbparameter#ldnsprobeorder}
   */
   readonly ldnsprobeorder?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#mepkeepalivetimeout Gslbparameter#mepkeepalivetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#mepkeepalivetimeout Gslbparameter#mepkeepalivetimeout}
   */
   readonly mepkeepalivetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#rtttolerance Gslbparameter#rtttolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#rtttolerance Gslbparameter#rtttolerance}
   */
   readonly rtttolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#svcstatelearningtime Gslbparameter#svcstatelearningtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#svcstatelearningtime Gslbparameter#svcstatelearningtime}
   */
   readonly svcstatelearningtime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#undefaction Gslbparameter#undefaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#undefaction Gslbparameter#undefaction}
   */
   readonly undefaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#v6ldnsmasklen Gslbparameter#v6ldnsmasklen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#v6ldnsmasklen Gslbparameter#v6ldnsmasklen}
   */
   readonly v6Ldnsmasklen?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter citrixadc_gslbparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter citrixadc_gslbparameter}
 */
 export class Gslbparameter extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class Gslbparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Gslbparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Gslbparameter to import
-  * @param importFromId The id of the existing Gslbparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Gslbparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Gslbparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class Gslbparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/gslbparameter citrixadc_gslbparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/gslbparameter citrixadc_gslbparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class Gslbparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_gslbparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

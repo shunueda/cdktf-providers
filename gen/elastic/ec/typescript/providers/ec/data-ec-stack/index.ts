@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataEcStackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lock the `latest` `version_regex` obtained, so that the new stack release doesn't cascade the changes down to the deployments. It can be changed at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack#lock DataEcStack#lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack#lock DataEcStack#lock}
   */
   readonly lock?: boolean | cdktf.IResolvable;
   /**
   * Region where the stack pack is. For Elastic Cloud Enterprise (ECE) installations, use `ece-region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack#region DataEcStack#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack#region DataEcStack#region}
   */
   readonly region: string;
   /**
   * Regex to filter the available stacks. Can be any valid regex expression, when multiple stacks are matched through a regex, the latest version is returned. `latest` is also accepted to obtain the latest available stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack#version_regex DataEcStack#version_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack#version_regex DataEcStack#version_regex}
   */
   readonly versionRegex: string;
 }
@@ -418,7 +418,7 @@ export class DataEcStackKibanaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack ec_stack}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack ec_stack}
 */
 export class DataEcStack extends cdktf.TerraformDataSource {
 
@@ -434,7 +434,7 @@ export class DataEcStack extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEcStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEcStack to import
-  * @param importFromId The id of the existing DataEcStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEcStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEcStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class DataEcStack extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/data-sources/stack ec_stack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/stack ec_stack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class DataEcStack extends cdktf.TerraformDataSource {
       terraformResourceType: 'ec_stack',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

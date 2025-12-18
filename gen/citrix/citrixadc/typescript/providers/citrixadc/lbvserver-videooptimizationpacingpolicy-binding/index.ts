@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface LbvserverVideooptimizationpacingpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#bindpoint LbvserverVideooptimizationpacingpolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#bindpoint LbvserverVideooptimizationpacingpolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#gotopriorityexpression LbvserverVideooptimizationpacingpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#gotopriorityexpression LbvserverVideooptimizationpacingpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#id LbvserverVideooptimizationpacingpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#id LbvserverVideooptimizationpacingpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#invoke LbvserverVideooptimizationpacingpolicyBinding#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#invoke LbvserverVideooptimizationpacingpolicyBinding#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#labelname LbvserverVideooptimizationpacingpolicyBinding#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#labelname LbvserverVideooptimizationpacingpolicyBinding#labelname}
   */
   readonly labelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#labeltype LbvserverVideooptimizationpacingpolicyBinding#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#labeltype LbvserverVideooptimizationpacingpolicyBinding#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#name LbvserverVideooptimizationpacingpolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#name LbvserverVideooptimizationpacingpolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#policyname LbvserverVideooptimizationpacingpolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#policyname LbvserverVideooptimizationpacingpolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#priority LbvserverVideooptimizationpacingpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#priority LbvserverVideooptimizationpacingpolicyBinding#priority}
   */
   readonly priority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding citrixadc_lbvserver_videooptimizationpacingpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding citrixadc_lbvserver_videooptimizationpacingpolicy_binding}
 */
 export class LbvserverVideooptimizationpacingpolicyBinding extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class LbvserverVideooptimizationpacingpolicyBinding extends cdktf.Terrafo
   * Generates CDKTF code for importing a LbvserverVideooptimizationpacingpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbvserverVideooptimizationpacingpolicyBinding to import
-  * @param importFromId The id of the existing LbvserverVideooptimizationpacingpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbvserverVideooptimizationpacingpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbvserverVideooptimizationpacingpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class LbvserverVideooptimizationpacingpolicyBinding extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding citrixadc_lbvserver_videooptimizationpacingpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationpacingpolicy_binding citrixadc_lbvserver_videooptimizationpacingpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class LbvserverVideooptimizationpacingpolicyBinding extends cdktf.Terrafo
       terraformResourceType: 'citrixadc_lbvserver_videooptimizationpacingpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DeploymentTrafficFilterConfig extends cdktf.TerraformMetaArgume
   /**
   * Ruleset description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#description DeploymentTrafficFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#description DeploymentTrafficFilter#description}
   */
   readonly description?: string;
   /**
   * Indicates that the ruleset should be automatically included in new deployments (Defaults to false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#include_by_default DeploymentTrafficFilter#include_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#include_by_default DeploymentTrafficFilter#include_by_default}
   */
   readonly includeByDefault?: boolean | cdktf.IResolvable;
   /**
   * Name of the ruleset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#name DeploymentTrafficFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#name DeploymentTrafficFilter#name}
   */
   readonly name: string;
   /**
   * Filter region, the ruleset can only be attached to deployments in the specific region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#region DeploymentTrafficFilter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#region DeploymentTrafficFilter#region}
   */
   readonly region: string;
   /**
   * Type of the ruleset. It can be `ip`, `vpce`, `azure_private_endpoint`, or `gcp_private_service_connect_endpoint`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#type DeploymentTrafficFilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#type DeploymentTrafficFilter#type}
   */
   readonly type: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#rule DeploymentTrafficFilter#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#rule DeploymentTrafficFilter#rule}
   */
   readonly rule?: DeploymentTrafficFilterRule[] | cdktf.IResolvable;
 }
@@ -48,25 +48,25 @@ export interface DeploymentTrafficFilterRule {
   /**
   * Azure endpoint GUID. Only applicable when the ruleset type is set to `azure_private_endpoint`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#azure_endpoint_guid DeploymentTrafficFilter#azure_endpoint_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#azure_endpoint_guid DeploymentTrafficFilter#azure_endpoint_guid}
   */
   readonly azureEndpointGuid?: string;
   /**
   * Azure endpoint name. Only applicable when the ruleset type is set to `azure_private_endpoint`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#azure_endpoint_name DeploymentTrafficFilter#azure_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#azure_endpoint_name DeploymentTrafficFilter#azure_endpoint_name}
   */
   readonly azureEndpointName?: string;
   /**
   * Description of this individual rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#description DeploymentTrafficFilter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#description DeploymentTrafficFilter#description}
   */
   readonly description?: string;
   /**
   * Traffic filter source: IP address, CIDR mask, or VPC endpoint ID, **only required** when the type is not `azure_private_endpoint`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#source DeploymentTrafficFilter#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#source DeploymentTrafficFilter#source}
   */
   readonly source?: string;
 }
@@ -274,7 +274,7 @@ export class DeploymentTrafficFilterRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter ec_deployment_traffic_filter}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter ec_deployment_traffic_filter}
 */
 export class DeploymentTrafficFilter extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class DeploymentTrafficFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentTrafficFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentTrafficFilter to import
-  * @param importFromId The id of the existing DeploymentTrafficFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentTrafficFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentTrafficFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class DeploymentTrafficFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_traffic_filter ec_deployment_traffic_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter ec_deployment_traffic_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class DeploymentTrafficFilter extends cdktf.TerraformResource {
       terraformResourceType: 'ec_deployment_traffic_filter',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

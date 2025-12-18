@@ -764,8 +764,10 @@ export * as vxlanSrcipBinding from './vxlan-srcip-binding';
 export * as vxlanvlanmap from './vxlanvlanmap';
 export * as vxlanvlanmapVxlanBinding from './vxlanvlanmap-vxlan-binding';
 export * as dataCitrixadcHanode from './data-citrixadc-hanode';
+export * as dataCitrixadcLbparameter from './data-citrixadc-lbparameter';
 export * as dataCitrixadcNitroInfo from './data-citrixadc-nitro-info';
 export * as dataCitrixadcNsversion from './data-citrixadc-nsversion';
+export * as dataCitrixadcSslcertkey from './data-citrixadc-sslcertkey';
 export * as dataCitrixadcSslcipherSslvserverBindings from './data-citrixadc-sslcipher-sslvserver-bindings';
 export * as provider from './provider';
 

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TeamContactConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name shown in the UI for the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact#name TeamContact#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact#name TeamContact#name}
   */
   readonly name: string;
   /**
   * The id or alias of the team the contact belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact#team TeamContact#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact#team TeamContact#team}
   */
   readonly team: string;
   /**
   * The method of contact. One of `email`, `github`, `microsoft_teams`, `slack`, `slack_handle`, `web`, `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact#type TeamContact#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact#type TeamContact#type}
   */
   readonly type: string;
   /**
   * The contact value. Examples: support@company.com for type email, https://opslevel.com for type web, #devs for type slack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact#value TeamContact#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact#value TeamContact#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact opslevel_team_contact}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact opslevel_team_contact}
 */
 export class TeamContact extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TeamContact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamContact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamContact to import
-  * @param importFromId The id of the existing TeamContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TeamContact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/team_contact opslevel_team_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/team_contact opslevel_team_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TeamContact extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_team_contact',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

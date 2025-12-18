@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface BdsBdsInstanceSoftwareUpdateActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#bds_instance_id BdsBdsInstanceSoftwareUpdateAction#bds_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#bds_instance_id BdsBdsInstanceSoftwareUpdateAction#bds_instance_id}
   */
   readonly bdsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#id BdsBdsInstanceSoftwareUpdateAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#id BdsBdsInstanceSoftwareUpdateAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#software_update_keys BdsBdsInstanceSoftwareUpdateAction#software_update_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#software_update_keys BdsBdsInstanceSoftwareUpdateAction#software_update_keys}
   */
   readonly softwareUpdateKeys: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#timeouts BdsBdsInstanceSoftwareUpdateAction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#timeouts BdsBdsInstanceSoftwareUpdateAction#timeouts}
   */
   readonly timeouts?: BdsBdsInstanceSoftwareUpdateActionTimeouts;
 }
 export interface BdsBdsInstanceSoftwareUpdateActionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#create BdsBdsInstanceSoftwareUpdateAction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#create BdsBdsInstanceSoftwareUpdateAction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#delete BdsBdsInstanceSoftwareUpdateAction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#delete BdsBdsInstanceSoftwareUpdateAction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#update BdsBdsInstanceSoftwareUpdateAction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#update BdsBdsInstanceSoftwareUpdateAction#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class BdsBdsInstanceSoftwareUpdateActionTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action oci_bds_bds_instance_software_update_action}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action oci_bds_bds_instance_software_update_action}
 */
 export class BdsBdsInstanceSoftwareUpdateAction extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class BdsBdsInstanceSoftwareUpdateAction extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a BdsBdsInstanceSoftwareUpdateAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BdsBdsInstanceSoftwareUpdateAction to import
-  * @param importFromId The id of the existing BdsBdsInstanceSoftwareUpdateAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BdsBdsInstanceSoftwareUpdateAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BdsBdsInstanceSoftwareUpdateAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class BdsBdsInstanceSoftwareUpdateAction extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_software_update_action oci_bds_bds_instance_software_update_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_software_update_action oci_bds_bds_instance_software_update_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class BdsBdsInstanceSoftwareUpdateAction extends cdktf.TerraformResource 
       terraformResourceType: 'oci_bds_bds_instance_software_update_action',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

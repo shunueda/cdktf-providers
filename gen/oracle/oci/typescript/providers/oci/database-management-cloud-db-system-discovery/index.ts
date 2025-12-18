@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseManagementCloudDbSystemDiscoveryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#agent_id DatabaseManagementCloudDbSystemDiscovery#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#agent_id DatabaseManagementCloudDbSystemDiscovery#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#dbaas_parent_infrastructure_id DatabaseManagementCloudDbSystemDiscovery#dbaas_parent_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#dbaas_parent_infrastructure_id DatabaseManagementCloudDbSystemDiscovery#dbaas_parent_infrastructure_id}
   */
   readonly dbaasParentInfrastructureId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#defined_tags DatabaseManagementCloudDbSystemDiscovery#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#defined_tags DatabaseManagementCloudDbSystemDiscovery#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#deployment_type DatabaseManagementCloudDbSystemDiscovery#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#deployment_type DatabaseManagementCloudDbSystemDiscovery#deployment_type}
   */
   readonly deploymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#freeform_tags DatabaseManagementCloudDbSystemDiscovery#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#freeform_tags DatabaseManagementCloudDbSystemDiscovery#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#id DatabaseManagementCloudDbSystemDiscovery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#id DatabaseManagementCloudDbSystemDiscovery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,13 +45,13 @@ export interface DatabaseManagementCloudDbSystemDiscoveryConfig extends cdktf.Te
   /**
   * patch_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#patch_operations DatabaseManagementCloudDbSystemDiscovery#patch_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#patch_operations DatabaseManagementCloudDbSystemDiscovery#patch_operations}
   */
   readonly patchOperations?: DatabaseManagementCloudDbSystemDiscoveryPatchOperations[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#timeouts DatabaseManagementCloudDbSystemDiscovery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#timeouts DatabaseManagementCloudDbSystemDiscovery#timeouts}
   */
   readonly timeouts?: DatabaseManagementCloudDbSystemDiscoveryTimeouts;
 }
@@ -2388,27 +2388,27 @@ export class DatabaseManagementCloudDbSystemDiscoveryDiscoveredComponentsList ex
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#credential_name DatabaseManagementCloudDbSystemDiscovery#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#credential_name DatabaseManagementCloudDbSystemDiscovery#credential_name}
   */
   readonly credentialName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#credential_type DatabaseManagementCloudDbSystemDiscovery#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#credential_type DatabaseManagementCloudDbSystemDiscovery#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#password_secret_id DatabaseManagementCloudDbSystemDiscovery#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#password_secret_id DatabaseManagementCloudDbSystemDiscovery#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#role DatabaseManagementCloudDbSystemDiscovery#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#role DatabaseManagementCloudDbSystemDiscovery#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#ssl_secret_id DatabaseManagementCloudDbSystemDiscovery#ssl_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#ssl_secret_id DatabaseManagementCloudDbSystemDiscovery#ssl_secret_id}
   */
   readonly sslSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#user_name DatabaseManagementCloudDbSystemDiscovery#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#user_name DatabaseManagementCloudDbSystemDiscovery#user_name}
   */
   readonly userName?: string;
 }
@@ -2634,23 +2634,23 @@ export class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnect
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#host_name DatabaseManagementCloudDbSystemDiscovery#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#host_name DatabaseManagementCloudDbSystemDiscovery#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#hosts DatabaseManagementCloudDbSystemDiscovery#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#hosts DatabaseManagementCloudDbSystemDiscovery#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#port DatabaseManagementCloudDbSystemDiscovery#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#port DatabaseManagementCloudDbSystemDiscovery#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#protocol DatabaseManagementCloudDbSystemDiscovery#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#protocol DatabaseManagementCloudDbSystemDiscovery#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#service DatabaseManagementCloudDbSystemDiscovery#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#service DatabaseManagementCloudDbSystemDiscovery#service}
   */
   readonly service?: string;
 }
@@ -2850,19 +2850,19 @@ export class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnect
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#component_type DatabaseManagementCloudDbSystemDiscovery#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#component_type DatabaseManagementCloudDbSystemDiscovery#component_type}
   */
   readonly componentType: string;
   /**
   * connection_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#connection_credentials DatabaseManagementCloudDbSystemDiscovery#connection_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#connection_credentials DatabaseManagementCloudDbSystemDiscovery#connection_credentials}
   */
   readonly connectionCredentials?: DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials;
   /**
   * connection_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#connection_string DatabaseManagementCloudDbSystemDiscovery#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#connection_string DatabaseManagementCloudDbSystemDiscovery#connection_string}
   */
   readonly connectionString?: DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString;
 }
@@ -3001,21 +3001,21 @@ export class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnect
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#agent_id DatabaseManagementCloudDbSystemDiscovery#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#agent_id DatabaseManagementCloudDbSystemDiscovery#agent_id}
   */
   readonly agentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#connector_type DatabaseManagementCloudDbSystemDiscovery#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#connector_type DatabaseManagementCloudDbSystemDiscovery#connector_type}
   */
   readonly connectorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}
   */
   readonly displayName: string;
   /**
   * connection_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#connection_info DatabaseManagementCloudDbSystemDiscovery#connection_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#connection_info DatabaseManagementCloudDbSystemDiscovery#connection_info}
   */
   readonly connectionInfo?: DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo;
 }
@@ -3180,21 +3180,21 @@ export class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnect
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#is_selected_for_monitoring DatabaseManagementCloudDbSystemDiscovery#is_selected_for_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#is_selected_for_monitoring DatabaseManagementCloudDbSystemDiscovery#is_selected_for_monitoring}
   */
   readonly isSelectedForMonitoring?: boolean | cdktf.IResolvable;
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#connector DatabaseManagementCloudDbSystemDiscovery#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#connector DatabaseManagementCloudDbSystemDiscovery#connector}
   */
   readonly connector?: DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnector;
 }
@@ -3365,17 +3365,17 @@ export class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueOutputR
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryPatchOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#operation DatabaseManagementCloudDbSystemDiscovery#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#operation DatabaseManagementCloudDbSystemDiscovery#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#selection DatabaseManagementCloudDbSystemDiscovery#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#selection DatabaseManagementCloudDbSystemDiscovery#selection}
   */
   readonly selection: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#value DatabaseManagementCloudDbSystemDiscovery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#value DatabaseManagementCloudDbSystemDiscovery#value}
   */
   readonly value?: DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValue;
 }
@@ -3543,15 +3543,15 @@ export class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsList extends
 }
 export interface DatabaseManagementCloudDbSystemDiscoveryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#create DatabaseManagementCloudDbSystemDiscovery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#create DatabaseManagementCloudDbSystemDiscovery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#delete DatabaseManagementCloudDbSystemDiscovery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#delete DatabaseManagementCloudDbSystemDiscovery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#update DatabaseManagementCloudDbSystemDiscovery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#update DatabaseManagementCloudDbSystemDiscovery#update}
   */
   readonly update?: string;
 }
@@ -3703,7 +3703,7 @@ export class DatabaseManagementCloudDbSystemDiscoveryTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery oci_database_management_cloud_db_system_discovery}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery oci_database_management_cloud_db_system_discovery}
 */
 export class DatabaseManagementCloudDbSystemDiscovery extends cdktf.TerraformResource {
 
@@ -3719,7 +3719,7 @@ export class DatabaseManagementCloudDbSystemDiscovery extends cdktf.TerraformRes
   * Generates CDKTF code for importing a DatabaseManagementCloudDbSystemDiscovery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseManagementCloudDbSystemDiscovery to import
-  * @param importFromId The id of the existing DatabaseManagementCloudDbSystemDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseManagementCloudDbSystemDiscovery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseManagementCloudDbSystemDiscovery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3731,7 +3731,7 @@ export class DatabaseManagementCloudDbSystemDiscovery extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_management_cloud_db_system_discovery oci_database_management_cloud_db_system_discovery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_management_cloud_db_system_discovery oci_database_management_cloud_db_system_discovery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3742,8 +3742,8 @@ export class DatabaseManagementCloudDbSystemDiscovery extends cdktf.TerraformRes
       terraformResourceType: 'oci_database_management_cloud_db_system_discovery',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

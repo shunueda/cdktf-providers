@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface StreamingStreamPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#compartment_id StreamingStreamPool#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#compartment_id StreamingStreamPool#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#defined_tags StreamingStreamPool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#defined_tags StreamingStreamPool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#freeform_tags StreamingStreamPool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#freeform_tags StreamingStreamPool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#id StreamingStreamPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#id StreamingStreamPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#name StreamingStreamPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#name StreamingStreamPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#security_attributes StreamingStreamPool#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#security_attributes StreamingStreamPool#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
   * custom_encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#custom_encryption_key StreamingStreamPool#custom_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#custom_encryption_key StreamingStreamPool#custom_encryption_key}
   */
   readonly customEncryptionKey?: StreamingStreamPoolCustomEncryptionKey;
   /**
   * kafka_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#kafka_settings StreamingStreamPool#kafka_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#kafka_settings StreamingStreamPool#kafka_settings}
   */
   readonly kafkaSettings?: StreamingStreamPoolKafkaSettings;
   /**
   * private_endpoint_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#private_endpoint_settings StreamingStreamPool#private_endpoint_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#private_endpoint_settings StreamingStreamPool#private_endpoint_settings}
   */
   readonly privateEndpointSettings?: StreamingStreamPoolPrivateEndpointSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#timeouts StreamingStreamPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#timeouts StreamingStreamPool#timeouts}
   */
   readonly timeouts?: StreamingStreamPoolTimeouts;
 }
 export interface StreamingStreamPoolCustomEncryptionKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#kms_key_id StreamingStreamPool#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#kms_key_id StreamingStreamPool#kms_key_id}
   */
   readonly kmsKeyId: string;
 }
@@ -147,15 +147,15 @@ export class StreamingStreamPoolCustomEncryptionKeyOutputReference extends cdktf
 }
 export interface StreamingStreamPoolKafkaSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#auto_create_topics_enable StreamingStreamPool#auto_create_topics_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#auto_create_topics_enable StreamingStreamPool#auto_create_topics_enable}
   */
   readonly autoCreateTopicsEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#log_retention_hours StreamingStreamPool#log_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#log_retention_hours StreamingStreamPool#log_retention_hours}
   */
   readonly logRetentionHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#num_partitions StreamingStreamPool#num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#num_partitions StreamingStreamPool#num_partitions}
   */
   readonly numPartitions?: number;
 }
@@ -302,15 +302,15 @@ export class StreamingStreamPoolKafkaSettingsOutputReference extends cdktf.Compl
 }
 export interface StreamingStreamPoolPrivateEndpointSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#nsg_ids StreamingStreamPool#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#nsg_ids StreamingStreamPool#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#private_endpoint_ip StreamingStreamPool#private_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#private_endpoint_ip StreamingStreamPool#private_endpoint_ip}
   */
   readonly privateEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#subnet_id StreamingStreamPool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#subnet_id StreamingStreamPool#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -452,15 +452,15 @@ export class StreamingStreamPoolPrivateEndpointSettingsOutputReference extends c
 }
 export interface StreamingStreamPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#create StreamingStreamPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#create StreamingStreamPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#delete StreamingStreamPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#delete StreamingStreamPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#update StreamingStreamPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#update StreamingStreamPool#update}
   */
   readonly update?: string;
 }
@@ -612,7 +612,7 @@ export class StreamingStreamPoolTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool oci_streaming_stream_pool}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool oci_streaming_stream_pool}
 */
 export class StreamingStreamPool extends cdktf.TerraformResource {
 
@@ -628,7 +628,7 @@ export class StreamingStreamPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamingStreamPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamingStreamPool to import
-  * @param importFromId The id of the existing StreamingStreamPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamingStreamPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamingStreamPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -640,7 +640,7 @@ export class StreamingStreamPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/streaming_stream_pool oci_streaming_stream_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/streaming_stream_pool oci_streaming_stream_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -651,8 +651,8 @@ export class StreamingStreamPool extends cdktf.TerraformResource {
       terraformResourceType: 'oci_streaming_stream_pool',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

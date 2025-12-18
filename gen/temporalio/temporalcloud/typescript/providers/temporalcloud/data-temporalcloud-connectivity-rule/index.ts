@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/connectivity_rule
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/connectivity_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataTemporalcloudConnectivityRuleConfig extends cdktf.Terraform
   /**
   * The unique identifier of the connectivity rule across all Temporal Cloud tenants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/connectivity_rule#id DataTemporalcloudConnectivityRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/connectivity_rule#id DataTemporalcloudConnectivityRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataTemporalcloudConnectivityRuleConfig extends cdktf.Terraform
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/connectivity_rule temporalcloud_connectivity_rule}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/connectivity_rule temporalcloud_connectivity_rule}
 */
 export class DataTemporalcloudConnectivityRule extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataTemporalcloudConnectivityRule extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTemporalcloudConnectivityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalcloudConnectivityRule to import
-  * @param importFromId The id of the existing DataTemporalcloudConnectivityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/connectivity_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalcloudConnectivityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/connectivity_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalcloudConnectivityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataTemporalcloudConnectivityRule extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/connectivity_rule temporalcloud_connectivity_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/connectivity_rule temporalcloud_connectivity_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataTemporalcloudConnectivityRule extends cdktf.TerraformDataSource
       terraformResourceType: 'temporalcloud_connectivity_rule',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

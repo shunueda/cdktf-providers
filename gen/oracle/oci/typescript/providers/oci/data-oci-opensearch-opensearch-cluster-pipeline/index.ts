@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opensearch_opensearch_cluster_pipeline
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opensearch_opensearch_cluster_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOpensearchOpensearchClusterPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opensearch_opensearch_cluster_pipeline#opensearch_cluster_pipeline_id DataOciOpensearchOpensearchClusterPipeline#opensearch_cluster_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opensearch_opensearch_cluster_pipeline#opensearch_cluster_pipeline_id DataOciOpensearchOpensearchClusterPipeline#opensearch_cluster_pipeline_id}
   */
   readonly opensearchClusterPipelineId: string;
 }
@@ -94,7 +94,7 @@ export class DataOciOpensearchOpensearchClusterPipelineReverseConnectionEndpoint
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline}
 */
 export class DataOciOpensearchOpensearchClusterPipeline extends cdktf.TerraformDataSource {
 
@@ -110,7 +110,7 @@ export class DataOciOpensearchOpensearchClusterPipeline extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciOpensearchOpensearchClusterPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOpensearchOpensearchClusterPipeline to import
-  * @param importFromId The id of the existing DataOciOpensearchOpensearchClusterPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opensearch_opensearch_cluster_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOpensearchOpensearchClusterPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opensearch_opensearch_cluster_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOpensearchOpensearchClusterPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class DataOciOpensearchOpensearchClusterPipeline extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/opensearch_opensearch_cluster_pipeline oci_opensearch_opensearch_cluster_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class DataOciOpensearchOpensearchClusterPipeline extends cdktf.TerraformD
       terraformResourceType: 'oci_opensearch_opensearch_cluster_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

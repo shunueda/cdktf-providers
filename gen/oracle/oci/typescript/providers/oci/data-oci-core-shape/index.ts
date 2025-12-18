@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreShapeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#availability_domain DataOciCoreShape#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#availability_domain DataOciCoreShape#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#compartment_id DataOciCoreShape#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#compartment_id DataOciCoreShape#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#id DataOciCoreShape#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#id DataOciCoreShape#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#image_id DataOciCoreShape#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#image_id DataOciCoreShape#image_id}
   */
   readonly imageId?: string;
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#shape DataOciCoreShape#shape}
+  */
+  readonly shape?: string;
+  /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#filter DataOciCoreShape#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#filter DataOciCoreShape#filter}
   */
   readonly filter?: DataOciCoreShapeFilter[] | cdktf.IResolvable;
 }
@@ -1582,6 +1586,11 @@ export class DataOciCoreShapeShapesOutputReference extends cdktf.ComplexObject {
     return this._platformConfigOptions;
   }
 
+  // platform_names - computed: true, optional: false, required: false
+  public get platformNames() {
+    return this.getListAttribute('platform_names');
+  }
+
   // processor_description - computed: true, optional: false, required: false
   public get processorDescription() {
     return this.getStringAttribute('processor_description');
@@ -1634,15 +1643,15 @@ export class DataOciCoreShapeShapesList extends cdktf.ComplexList {
 }
 export interface DataOciCoreShapeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#name DataOciCoreShape#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#name DataOciCoreShape#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#regex DataOciCoreShape#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#regex DataOciCoreShape#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#values DataOciCoreShape#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#values DataOciCoreShape#values}
   */
   readonly values: string[];
 }
@@ -1810,7 +1819,7 @@ export class DataOciCoreShapeFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape oci_core_shape}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape oci_core_shape}
 */
 export class DataOciCoreShape extends cdktf.TerraformDataSource {
 
@@ -1826,7 +1835,7 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreShape resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreShape to import
-  * @param importFromId The id of the existing DataOciCoreShape that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreShape that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreShape to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1838,7 +1847,7 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_shape oci_core_shape} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_shape oci_core_shape} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1849,8 +1858,8 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_shape',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1864,6 +1873,7 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
     this._compartmentId = config.compartmentId;
     this._id = config.id;
     this._imageId = config.imageId;
+    this._shape = config.shape;
     this._filter.internalValue = config.filter;
   }
 
@@ -1932,6 +1942,22 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
     return this._imageId;
   }
 
+  // shape - computed: false, optional: true, required: false
+  private _shape?: string; 
+  public get shape() {
+    return this.getStringAttribute('shape');
+  }
+  public set shape(value: string) {
+    this._shape = value;
+  }
+  public resetShape() {
+    this._shape = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shapeInput() {
+    return this._shape;
+  }
+
   // shapes - computed: true, optional: false, required: false
   private _shapes = new DataOciCoreShapeShapesList(this, "shapes", false);
   public get shapes() {
@@ -1964,6 +1990,7 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
       compartment_id: cdktf.stringToTerraform(this._compartmentId),
       id: cdktf.stringToTerraform(this._id),
       image_id: cdktf.stringToTerraform(this._imageId),
+      shape: cdktf.stringToTerraform(this._shape),
       filter: cdktf.listMapper(dataOciCoreShapeFilterToTerraform, true)(this._filter.internalValue),
     };
   }
@@ -1990,6 +2017,12 @@ export class DataOciCoreShape extends cdktf.TerraformDataSource {
       },
       image_id: {
         value: cdktf.stringToHclTerraform(this._imageId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      shape: {
+        value: cdktf.stringToHclTerraform(this._shape),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

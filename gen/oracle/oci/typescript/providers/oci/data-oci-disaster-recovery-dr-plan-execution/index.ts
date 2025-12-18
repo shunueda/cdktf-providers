@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_plan_execution
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_plan_execution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDisasterRecoveryDrPlanExecutionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_plan_execution#dr_plan_execution_id DataOciDisasterRecoveryDrPlanExecution#dr_plan_execution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_plan_execution#dr_plan_execution_id DataOciDisasterRecoveryDrPlanExecution#dr_plan_execution_id}
   */
   readonly drPlanExecutionId: string;
 }
@@ -589,9 +589,544 @@ export class DataOciDisasterRecoveryDrPlanExecutionLogLocationList extends cdktf
     return new DataOciDisasterRecoveryDrPlanExecutionLogLocationOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedSteps {
+}
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsToTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsToHclTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedSteps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedSteps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // failed - computed: true, optional: false, required: false
+  public get failed() {
+    return this.getNumberAttribute('failed');
+  }
+
+  // timed_out - computed: true, optional: false, required: false
+  public get timedOut() {
+    return this.getNumberAttribute('timed_out');
+  }
+
+  // total_failed - computed: true, optional: false, required: false
+  public get totalFailed() {
+    return this.getNumberAttribute('total_failed');
+  }
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsOutputReference {
+    return new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingSteps {
+}
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsToTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsToHclTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingSteps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingSteps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // in_progress - computed: true, optional: false, required: false
+  public get inProgress() {
+    return this.getNumberAttribute('in_progress');
+  }
+
+  // paused - computed: true, optional: false, required: false
+  public get paused() {
+    return this.getNumberAttribute('paused');
+  }
+
+  // queued - computed: true, optional: false, required: false
+  public get queued() {
+    return this.getNumberAttribute('queued');
+  }
+
+  // total_remaining - computed: true, optional: false, required: false
+  public get totalRemaining() {
+    return this.getNumberAttribute('total_remaining');
+  }
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsOutputReference {
+    return new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedSteps {
+}
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsToTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsToHclTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedSteps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedSteps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // canceled - computed: true, optional: false, required: false
+  public get canceled() {
+    return this.getNumberAttribute('canceled');
+  }
+
+  // disabled - computed: true, optional: false, required: false
+  public get disabled() {
+    return this.getNumberAttribute('disabled');
+  }
+
+  // failed_ignored - computed: true, optional: false, required: false
+  public get failedIgnored() {
+    return this.getNumberAttribute('failed_ignored');
+  }
+
+  // timed_out_ignored - computed: true, optional: false, required: false
+  public get timedOutIgnored() {
+    return this.getNumberAttribute('timed_out_ignored');
+  }
+
+  // total_skipped - computed: true, optional: false, required: false
+  public get totalSkipped() {
+    return this.getNumberAttribute('total_skipped');
+  }
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsOutputReference {
+    return new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulSteps {
+}
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsToTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsToHclTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulSteps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulSteps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // succeeded - computed: true, optional: false, required: false
+  public get succeeded() {
+    return this.getNumberAttribute('succeeded');
+  }
+
+  // total_successful - computed: true, optional: false, required: false
+  public get totalSuccessful() {
+    return this.getNumberAttribute('total_successful');
+  }
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsOutputReference {
+    return new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningSteps {
+}
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsToTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsToHclTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningSteps): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningSteps | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningSteps | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // total_warnings - computed: true, optional: false, required: false
+  public get totalWarnings() {
+    return this.getNumberAttribute('total_warnings');
+  }
+
+  // warnings_ignored - computed: true, optional: false, required: false
+  public get warningsIgnored() {
+    return this.getNumberAttribute('warnings_ignored');
+  }
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsOutputReference {
+    return new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciDisasterRecoveryDrPlanExecutionStepStatusCounts {
+}
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsToTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCounts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrPlanExecutionStepStatusCountsToHclTerraform(struct?: DataOciDisasterRecoveryDrPlanExecutionStepStatusCounts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrPlanExecutionStepStatusCounts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrPlanExecutionStepStatusCounts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // failed_steps - computed: true, optional: false, required: false
+  private _failedSteps = new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsFailedStepsList(this, "failed_steps", false);
+  public get failedSteps() {
+    return this._failedSteps;
+  }
+
+  // remaining_steps - computed: true, optional: false, required: false
+  private _remainingSteps = new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsRemainingStepsList(this, "remaining_steps", false);
+  public get remainingSteps() {
+    return this._remainingSteps;
+  }
+
+  // skipped_steps - computed: true, optional: false, required: false
+  private _skippedSteps = new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSkippedStepsList(this, "skipped_steps", false);
+  public get skippedSteps() {
+    return this._skippedSteps;
+  }
+
+  // successful_steps - computed: true, optional: false, required: false
+  private _successfulSteps = new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsSuccessfulStepsList(this, "successful_steps", false);
+  public get successfulSteps() {
+    return this._successfulSteps;
+  }
+
+  // total_steps - computed: true, optional: false, required: false
+  public get totalSteps() {
+    return this.getNumberAttribute('total_steps');
+  }
+
+  // warning_steps - computed: true, optional: false, required: false
+  private _warningSteps = new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsWarningStepsList(this, "warning_steps", false);
+  public get warningSteps() {
+    return this._warningSteps;
+  }
+}
+
+export class DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsOutputReference {
+    return new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_plan_execution oci_disaster_recovery_dr_plan_execution}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_plan_execution oci_disaster_recovery_dr_plan_execution}
 */
 export class DataOciDisasterRecoveryDrPlanExecution extends cdktf.TerraformDataSource {
 
@@ -607,7 +1142,7 @@ export class DataOciDisasterRecoveryDrPlanExecution extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciDisasterRecoveryDrPlanExecution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDisasterRecoveryDrPlanExecution to import
-  * @param importFromId The id of the existing DataOciDisasterRecoveryDrPlanExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_plan_execution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDisasterRecoveryDrPlanExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_plan_execution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDisasterRecoveryDrPlanExecution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +1154,7 @@ export class DataOciDisasterRecoveryDrPlanExecution extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_plan_execution oci_disaster_recovery_dr_plan_execution} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_plan_execution oci_disaster_recovery_dr_plan_execution} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +1165,8 @@ export class DataOciDisasterRecoveryDrPlanExecution extends cdktf.TerraformDataS
       terraformResourceType: 'oci_disaster_recovery_dr_plan_execution',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -755,6 +1290,12 @@ export class DataOciDisasterRecoveryDrPlanExecution extends cdktf.TerraformDataS
   // state - computed: true, optional: false, required: false
   public get state() {
     return this.getStringAttribute('state');
+  }
+
+  // step_status_counts - computed: true, optional: false, required: false
+  private _stepStatusCounts = new DataOciDisasterRecoveryDrPlanExecutionStepStatusCountsList(this, "step_status_counts", false);
+  public get stepStatusCounts() {
+    return this._stepStatusCounts;
   }
 
   // system_tags - computed: true, optional: false, required: false

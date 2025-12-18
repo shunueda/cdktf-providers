@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_avprofiles
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_avprofiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataMistOrgAvprofilesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_avprofiles#org_id DataMistOrgAvprofiles#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_avprofiles#org_id DataMistOrgAvprofiles#org_id}
   */
   readonly orgId: string;
 }
@@ -134,7 +134,7 @@ export class DataMistOrgAvprofilesOrgAvprofilesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_avprofiles mist_org_avprofiles}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_avprofiles mist_org_avprofiles}
 */
 export class DataMistOrgAvprofiles extends cdktf.TerraformDataSource {
 
@@ -150,7 +150,7 @@ export class DataMistOrgAvprofiles extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistOrgAvprofiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistOrgAvprofiles to import
-  * @param importFromId The id of the existing DataMistOrgAvprofiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_avprofiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistOrgAvprofiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_avprofiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistOrgAvprofiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -162,7 +162,7 @@ export class DataMistOrgAvprofiles extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_avprofiles mist_org_avprofiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_avprofiles mist_org_avprofiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -173,8 +173,8 @@ export class DataMistOrgAvprofiles extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_org_avprofiles',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

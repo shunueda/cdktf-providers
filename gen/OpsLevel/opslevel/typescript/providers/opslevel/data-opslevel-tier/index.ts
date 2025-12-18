@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelTierConfig extends cdktf.TerraformMetaArguments {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier#filter DataOpslevelTier#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier#filter DataOpslevelTier#filter}
   */
   readonly filter: DataOpslevelTierFilter;
 }
@@ -18,13 +18,13 @@ export interface DataOpslevelTierFilter {
   /**
   * The field of the target resource to filter upon. One of `alias`, `id`, `index`, `name`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier#field DataOpslevelTier#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier#field DataOpslevelTier#field}
   */
   readonly field: string;
   /**
   * The field value of the target resource to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier#value DataOpslevelTier#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier#value DataOpslevelTier#value}
   */
   readonly value: string;
 }
@@ -141,7 +141,7 @@ export class DataOpslevelTierFilterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier opslevel_tier}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier opslevel_tier}
 */
 export class DataOpslevelTier extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataOpslevelTier extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelTier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelTier to import
-  * @param importFromId The id of the existing DataOpslevelTier that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelTier that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelTier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataOpslevelTier extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/tier opslevel_tier} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/tier opslevel_tier} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataOpslevelTier extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_tier',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

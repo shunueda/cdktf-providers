@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreClusterNetworkInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#cluster_network_id DataOciCoreClusterNetworkInstances#cluster_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#cluster_network_id DataOciCoreClusterNetworkInstances#cluster_network_id}
   */
   readonly clusterNetworkId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#compartment_id DataOciCoreClusterNetworkInstances#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#compartment_id DataOciCoreClusterNetworkInstances#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#display_name DataOciCoreClusterNetworkInstances#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#display_name DataOciCoreClusterNetworkInstances#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#id DataOciCoreClusterNetworkInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#id DataOciCoreClusterNetworkInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataOciCoreClusterNetworkInstancesConfig extends cdktf.Terrafor
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#filter DataOciCoreClusterNetworkInstances#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#filter DataOciCoreClusterNetworkInstances#filter}
   */
   readonly filter?: DataOciCoreClusterNetworkInstancesFilter[] | cdktf.IResolvable;
 }
@@ -256,15 +256,15 @@ export class DataOciCoreClusterNetworkInstancesInstancesList extends cdktf.Compl
 }
 export interface DataOciCoreClusterNetworkInstancesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#name DataOciCoreClusterNetworkInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#name DataOciCoreClusterNetworkInstances#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#regex DataOciCoreClusterNetworkInstances#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#regex DataOciCoreClusterNetworkInstances#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#values DataOciCoreClusterNetworkInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#values DataOciCoreClusterNetworkInstances#values}
   */
   readonly values: string[];
 }
@@ -432,7 +432,7 @@ export class DataOciCoreClusterNetworkInstancesFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances oci_core_cluster_network_instances}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances oci_core_cluster_network_instances}
 */
 export class DataOciCoreClusterNetworkInstances extends cdktf.TerraformDataSource {
 
@@ -448,7 +448,7 @@ export class DataOciCoreClusterNetworkInstances extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciCoreClusterNetworkInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreClusterNetworkInstances to import
-  * @param importFromId The id of the existing DataOciCoreClusterNetworkInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreClusterNetworkInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreClusterNetworkInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +460,7 @@ export class DataOciCoreClusterNetworkInstances extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_cluster_network_instances oci_core_cluster_network_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_cluster_network_instances oci_core_cluster_network_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +471,8 @@ export class DataOciCoreClusterNetworkInstances extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_core_cluster_network_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

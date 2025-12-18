@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface NsweblogparamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam#buffersizemb Nsweblogparam#buffersizemb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam#buffersizemb Nsweblogparam#buffersizemb}
   */
   readonly buffersizemb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam#customreqhdrs Nsweblogparam#customreqhdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam#customreqhdrs Nsweblogparam#customreqhdrs}
   */
   readonly customreqhdrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam#customrsphdrs Nsweblogparam#customrsphdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam#customrsphdrs Nsweblogparam#customrsphdrs}
   */
   readonly customrsphdrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam#id Nsweblogparam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam#id Nsweblogparam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface NsweblogparamConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam citrixadc_nsweblogparam}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam citrixadc_nsweblogparam}
 */
 export class Nsweblogparam extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class Nsweblogparam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nsweblogparam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nsweblogparam to import
-  * @param importFromId The id of the existing Nsweblogparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nsweblogparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nsweblogparam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class Nsweblogparam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nsweblogparam citrixadc_nsweblogparam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nsweblogparam citrixadc_nsweblogparam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class Nsweblogparam extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nsweblogparam',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

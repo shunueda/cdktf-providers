@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KafkaClientQuotaConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of the Kafka Client Quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#description KafkaClientQuota#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#description KafkaClientQuota#description}
   */
   readonly description?: string;
   /**
   * The name of the Kafka Client Quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#display_name KafkaClientQuota#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#display_name KafkaClientQuota#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#id KafkaClientQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#id KafkaClientQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface KafkaClientQuotaConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of service accounts and identity pools. Special name "default" can be used to represent the default quota for all users and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#principals KafkaClientQuota#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#principals KafkaClientQuota#principals}
   */
   readonly principals: string[];
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#environment KafkaClientQuota#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#environment KafkaClientQuota#environment}
   */
   readonly environment: KafkaClientQuotaEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#kafka_cluster KafkaClientQuota#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#kafka_cluster KafkaClientQuota#kafka_cluster}
   */
   readonly kafkaCluster: KafkaClientQuotaKafkaCluster;
   /**
   * throughput block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#throughput KafkaClientQuota#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#throughput KafkaClientQuota#throughput}
   */
   readonly throughput: KafkaClientQuotaThroughput;
 }
@@ -55,7 +55,7 @@ export interface KafkaClientQuotaEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#id KafkaClientQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#id KafkaClientQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -141,7 +141,7 @@ export interface KafkaClientQuotaKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#id KafkaClientQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#id KafkaClientQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -227,13 +227,13 @@ export interface KafkaClientQuotaThroughput {
   /**
   * The egress throughput limit in bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#egress_byte_rate KafkaClientQuota#egress_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#egress_byte_rate KafkaClientQuota#egress_byte_rate}
   */
   readonly egressByteRate: string;
   /**
   * The ingress throughput limit in bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#ingress_byte_rate KafkaClientQuota#ingress_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#ingress_byte_rate KafkaClientQuota#ingress_byte_rate}
   */
   readonly ingressByteRate: string;
 }
@@ -340,7 +340,7 @@ export class KafkaClientQuotaThroughputOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota confluent_kafka_client_quota}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota confluent_kafka_client_quota}
 */
 export class KafkaClientQuota extends cdktf.TerraformResource {
 
@@ -356,7 +356,7 @@ export class KafkaClientQuota extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaClientQuota resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaClientQuota to import
-  * @param importFromId The id of the existing KafkaClientQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaClientQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaClientQuota to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class KafkaClientQuota extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_client_quota confluent_kafka_client_quota} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_client_quota confluent_kafka_client_quota} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class KafkaClientQuota extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_kafka_client_quota',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

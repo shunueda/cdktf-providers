@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ElasticsearchProjectConfig extends cdktf.TerraformMetaArguments
   /**
   * A custom domain label compatible with RFC-1035 standards. Derived from the project name by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#alias ElasticsearchProject#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#alias ElasticsearchProject#alias}
   */
   readonly alias?: string;
   /**
   * Descriptive name for a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#name ElasticsearchProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#name ElasticsearchProject#name}
   */
   readonly name: string;
   /**
   * The purpose for which the hardware of this elasticsearch project is optimized for. Also known as the Elasticsearch project subtype.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#optimized_for ElasticsearchProject#optimized_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#optimized_for ElasticsearchProject#optimized_for}
   */
   readonly optimizedFor?: string;
   /**
   * Unique human-readable identifier for a region in Elastic Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#region_id ElasticsearchProject#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#region_id ElasticsearchProject#region_id}
   */
   readonly regionId: string;
   /**
   * Configuration for entire set of capabilities that make the data searchable in Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#search_lake ElasticsearchProject#search_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#search_lake ElasticsearchProject#search_lake}
   */
   readonly searchLake?: ElasticsearchProjectSearchLake;
 }
@@ -234,13 +234,13 @@ export interface ElasticsearchProjectSearchLake {
   /**
   * Determines how much data can benefit from faster search. When ingested, a certain amount of data is loaded into a cache that makes it super fast to query. The system dynamically adjusts the cache allocated to your project based on how much data you ingest during the period defined by your Search Boost Window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#boost_window ElasticsearchProject#boost_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#boost_window ElasticsearchProject#boost_window}
   */
   readonly boostWindow?: number;
   /**
   * Controls how fast searches are against your project data. When ingested, a certain amount of data is loaded into a cache that makes it super fast to query. You can either increase the performance of searches on cached data by adding replicas, or reduce the quantity of cached data by a static factor to save on costs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#search_power ElasticsearchProject#search_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#search_power ElasticsearchProject#search_power}
   */
   readonly searchPower?: number;
 }
@@ -363,7 +363,7 @@ export class ElasticsearchProjectSearchLakeOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project ec_elasticsearch_project}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project ec_elasticsearch_project}
 */
 export class ElasticsearchProject extends cdktf.TerraformResource {
 
@@ -379,7 +379,7 @@ export class ElasticsearchProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchProject to import
-  * @param importFromId The id of the existing ElasticsearchProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class ElasticsearchProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/elasticsearch_project ec_elasticsearch_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/elasticsearch_project ec_elasticsearch_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class ElasticsearchProject extends cdktf.TerraformResource {
       terraformResourceType: 'ec_elasticsearch_project',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_utils_analyze_applications_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_utils_analyze_applications_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsUtilsAnalyzeApplicationsConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}
   */
   readonly compartmentId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration}
 */
 export class DataOciJmsUtilsAnalyzeApplicationsConfiguration extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciJmsUtilsAnalyzeApplicationsConfiguration extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciJmsUtilsAnalyzeApplicationsConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsUtilsAnalyzeApplicationsConfiguration to import
-  * @param importFromId The id of the existing DataOciJmsUtilsAnalyzeApplicationsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_utils_analyze_applications_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsUtilsAnalyzeApplicationsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_utils_analyze_applications_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsUtilsAnalyzeApplicationsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciJmsUtilsAnalyzeApplicationsConfiguration extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_utils_analyze_applications_configuration oci_jms_utils_analyze_applications_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciJmsUtilsAnalyzeApplicationsConfiguration extends cdktf.Terra
       terraformResourceType: 'oci_jms_utils_analyze_applications_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

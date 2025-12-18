@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConnectivityRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The connection ID of the private connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#connection_id ConnectivityRule#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#connection_id ConnectivityRule#connection_id}
   */
   readonly connectionId?: string;
   /**
   * The type of connectivity. Must be one of 'public' or 'private'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#connectivity_type ConnectivityRule#connectivity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#connectivity_type ConnectivityRule#connectivity_type}
   */
   readonly connectivityType: string;
   /**
   * The GCP project ID. Required when cloud_provider is 'gcp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#gcp_project_id ConnectivityRule#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#gcp_project_id ConnectivityRule#gcp_project_id}
   */
   readonly gcpProjectId?: string;
   /**
   * The region of the connection. Example: 'aws-us-west-2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#region ConnectivityRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#region ConnectivityRule#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#timeouts ConnectivityRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#timeouts ConnectivityRule#timeouts}
   */
   readonly timeouts?: ConnectivityRuleTimeouts;
 }
@@ -42,13 +42,13 @@ export interface ConnectivityRuleTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#create ConnectivityRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#create ConnectivityRule#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#delete ConnectivityRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#delete ConnectivityRule#delete}
   */
   readonly delete?: string;
 }
@@ -171,7 +171,7 @@ export class ConnectivityRuleTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule temporalcloud_connectivity_rule}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule temporalcloud_connectivity_rule}
 */
 export class ConnectivityRule extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class ConnectivityRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectivityRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectivityRule to import
-  * @param importFromId The id of the existing ConnectivityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectivityRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectivityRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class ConnectivityRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/connectivity_rule temporalcloud_connectivity_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/connectivity_rule temporalcloud_connectivity_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class ConnectivityRule extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_connectivity_rule',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

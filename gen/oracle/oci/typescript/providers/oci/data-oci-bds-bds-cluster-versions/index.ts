@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciBdsBdsClusterVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions#id DataOciBdsBdsClusterVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions#id DataOciBdsBdsClusterVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataOciBdsBdsClusterVersionsConfig extends cdktf.TerraformMetaA
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions#filter DataOciBdsBdsClusterVersions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions#filter DataOciBdsBdsClusterVersions#filter}
   */
   readonly filter?: DataOciBdsBdsClusterVersionsFilter[] | cdktf.IResolvable;
 }
@@ -103,15 +103,15 @@ export class DataOciBdsBdsClusterVersionsBdsClusterVersionsList extends cdktf.Co
 }
 export interface DataOciBdsBdsClusterVersionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions#name DataOciBdsBdsClusterVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions#name DataOciBdsBdsClusterVersions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions#regex DataOciBdsBdsClusterVersions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions#regex DataOciBdsBdsClusterVersions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions#values DataOciBdsBdsClusterVersions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions#values DataOciBdsBdsClusterVersions#values}
   */
   readonly values: string[];
 }
@@ -279,7 +279,7 @@ export class DataOciBdsBdsClusterVersionsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions oci_bds_bds_cluster_versions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions oci_bds_bds_cluster_versions}
 */
 export class DataOciBdsBdsClusterVersions extends cdktf.TerraformDataSource {
 
@@ -295,7 +295,7 @@ export class DataOciBdsBdsClusterVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciBdsBdsClusterVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciBdsBdsClusterVersions to import
-  * @param importFromId The id of the existing DataOciBdsBdsClusterVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciBdsBdsClusterVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciBdsBdsClusterVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class DataOciBdsBdsClusterVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bds_bds_cluster_versions oci_bds_bds_cluster_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/bds_bds_cluster_versions oci_bds_bds_cluster_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class DataOciBdsBdsClusterVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_bds_bds_cluster_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

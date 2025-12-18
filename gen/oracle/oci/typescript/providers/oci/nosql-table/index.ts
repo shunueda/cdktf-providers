@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface NosqlTableConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#compartment_id NosqlTable#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#compartment_id NosqlTable#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#ddl_statement NosqlTable#ddl_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#ddl_statement NosqlTable#ddl_statement}
   */
   readonly ddlStatement: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#defined_tags NosqlTable#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#defined_tags NosqlTable#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#freeform_tags NosqlTable#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#freeform_tags NosqlTable#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#id NosqlTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#id NosqlTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#is_auto_reclaimable NosqlTable#is_auto_reclaimable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#is_auto_reclaimable NosqlTable#is_auto_reclaimable}
   */
   readonly isAutoReclaimable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#name NosqlTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#name NosqlTable#name}
   */
   readonly name: string;
   /**
   * table_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#table_limits NosqlTable#table_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#table_limits NosqlTable#table_limits}
   */
   readonly tableLimits?: NosqlTableTableLimits;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#timeouts NosqlTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#timeouts NosqlTable#timeouts}
   */
   readonly timeouts?: NosqlTableTimeouts;
 }
@@ -435,19 +435,19 @@ export class NosqlTableSchemaList extends cdktf.ComplexList {
 }
 export interface NosqlTableTableLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#capacity_mode NosqlTable#capacity_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#capacity_mode NosqlTable#capacity_mode}
   */
   readonly capacityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#max_read_units NosqlTable#max_read_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#max_read_units NosqlTable#max_read_units}
   */
   readonly maxReadUnits: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#max_storage_in_gbs NosqlTable#max_storage_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#max_storage_in_gbs NosqlTable#max_storage_in_gbs}
   */
   readonly maxStorageInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#max_write_units NosqlTable#max_write_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#max_write_units NosqlTable#max_write_units}
   */
   readonly maxWriteUnits: number;
 }
@@ -609,15 +609,15 @@ export class NosqlTableTableLimitsOutputReference extends cdktf.ComplexObject {
 }
 export interface NosqlTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#create NosqlTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#create NosqlTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#delete NosqlTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#delete NosqlTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#update NosqlTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#update NosqlTable#update}
   */
   readonly update?: string;
 }
@@ -769,7 +769,7 @@ export class NosqlTableTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table oci_nosql_table}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table oci_nosql_table}
 */
 export class NosqlTable extends cdktf.TerraformResource {
 
@@ -785,7 +785,7 @@ export class NosqlTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NosqlTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NosqlTable to import
-  * @param importFromId The id of the existing NosqlTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NosqlTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NosqlTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -797,7 +797,7 @@ export class NosqlTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_table oci_nosql_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_table oci_nosql_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -808,8 +808,8 @@ export class NosqlTable extends cdktf.TerraformResource {
       terraformResourceType: 'oci_nosql_table',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

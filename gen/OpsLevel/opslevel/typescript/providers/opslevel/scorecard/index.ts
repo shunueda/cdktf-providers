@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ScorecardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether the checks on this scorecard affect services' overall maturity level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard#affects_overall_service_levels Scorecard#affects_overall_service_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard#affects_overall_service_levels Scorecard#affects_overall_service_levels}
   */
   readonly affectsOverallServiceLevels: boolean | cdktf.IResolvable;
   /**
   * The scorecard's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard#description Scorecard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard#description Scorecard#description}
   */
   readonly description?: string;
   /**
   * The scorecard's filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard#filter_id Scorecard#filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard#filter_id Scorecard#filter_id}
   */
   readonly filterId?: string;
   /**
   * The scorecard's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard#name Scorecard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard#name Scorecard#name}
   */
   readonly name: string;
   /**
   * The scorecard's owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard#owner_id Scorecard#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard#owner_id Scorecard#owner_id}
   */
   readonly ownerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard opslevel_scorecard}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard opslevel_scorecard}
 */
 export class Scorecard extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Scorecard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Scorecard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Scorecard to import
-  * @param importFromId The id of the existing Scorecard that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Scorecard that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Scorecard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Scorecard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/scorecard opslevel_scorecard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/scorecard opslevel_scorecard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Scorecard extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_scorecard',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

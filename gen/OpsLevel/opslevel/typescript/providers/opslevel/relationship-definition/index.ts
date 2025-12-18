@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface RelationshipDefinitionConfig extends cdktf.TerraformMetaArgumen
   /**
   * The unique identifier of the relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#alias RelationshipDefinition#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#alias RelationshipDefinition#alias}
   */
   readonly alias: string;
   /**
   * The categories of resources that can be selected for this relationship definition. Can include any component category alias on your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#allowed_categories RelationshipDefinition#allowed_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#allowed_categories RelationshipDefinition#allowed_categories}
   */
   readonly allowedCategories?: string[];
   /**
   * The types of resources that can be selected for this relationship definition. Can include any component type alias on your account or 'team' or 'user'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#allowed_types RelationshipDefinition#allowed_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#allowed_types RelationshipDefinition#allowed_types}
   */
   readonly allowedTypes?: string[];
   /**
   * The component type that the relationship belongs to. Must be a valid component type alias from your OpsLevel account or 'team'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#component_type RelationshipDefinition#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#component_type RelationshipDefinition#component_type}
   */
   readonly componentType: string;
   /**
   * The description of the relationship definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#description RelationshipDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#description RelationshipDefinition#description}
   */
   readonly description?: string;
   /**
   * Rules that automatically manage relationships based on property matching conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#management_rules RelationshipDefinition#management_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#management_rules RelationshipDefinition#management_rules}
   */
   readonly managementRules?: RelationshipDefinitionManagementRules[] | cdktf.IResolvable;
   /**
   * The display name of the relationship definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#name RelationshipDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#name RelationshipDefinition#name}
   */
   readonly name: string;
 }
@@ -54,55 +54,55 @@ export interface RelationshipDefinitionManagementRules {
   /**
   * The condition operator for this rule. Either EQUALS or ARRAY_CONTAINS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#operator RelationshipDefinition#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#operator RelationshipDefinition#operator}
   */
   readonly operator: string;
   /**
   * The property on the source component to evaluate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#source_property RelationshipDefinition#source_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#source_property RelationshipDefinition#source_property}
   */
   readonly sourceProperty: string;
   /**
   * When source_property is 'tag', this specifies the tag key to match. Required if source_property is 'tag', must not be set otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#source_tag_key RelationshipDefinition#source_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#source_tag_key RelationshipDefinition#source_tag_key}
   */
   readonly sourceTagKey?: string;
   /**
   * When source_property is 'tag', this specifies the matching operation. Either 'equals' or 'starts_with'. Defaults to 'equals'. Required if source_property is 'tag', must not be set otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#source_tag_operation RelationshipDefinition#source_tag_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#source_tag_operation RelationshipDefinition#source_tag_operation}
   */
   readonly sourceTagOperation?: string;
   /**
   * The category of the target resource. Either target_category or target_type must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#target_category RelationshipDefinition#target_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#target_category RelationshipDefinition#target_category}
   */
   readonly targetCategory?: string;
   /**
   * The property on the target resource to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#target_property RelationshipDefinition#target_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#target_property RelationshipDefinition#target_property}
   */
   readonly targetProperty: string;
   /**
   * When target_property is 'tag', this specifies the tag key to match. Required if target_property is 'tag', must not be set otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#target_tag_key RelationshipDefinition#target_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#target_tag_key RelationshipDefinition#target_tag_key}
   */
   readonly targetTagKey?: string;
   /**
   * When target_property is 'tag', this specifies the matching operation. Either 'equals' or 'starts_with'. Defaults to 'equals'. Required if target_property is 'tag', must not be set otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#target_tag_operation RelationshipDefinition#target_tag_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#target_tag_operation RelationshipDefinition#target_tag_operation}
   */
   readonly targetTagOperation?: string;
   /**
   * The type of the target resource. Either target_category or target_type must be specified, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#target_type RelationshipDefinition#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#target_type RelationshipDefinition#target_type}
   */
   readonly targetType?: string;
 }
@@ -441,7 +441,7 @@ export class RelationshipDefinitionManagementRulesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition opslevel_relationship_definition}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition opslevel_relationship_definition}
 */
 export class RelationshipDefinition extends cdktf.TerraformResource {
 
@@ -457,7 +457,7 @@ export class RelationshipDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RelationshipDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RelationshipDefinition to import
-  * @param importFromId The id of the existing RelationshipDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RelationshipDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RelationshipDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class RelationshipDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/relationship_definition opslevel_relationship_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/relationship_definition opslevel_relationship_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class RelationshipDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_relationship_definition',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

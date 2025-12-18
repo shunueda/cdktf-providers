@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciAnnouncementsServiceServicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#comms_manager_name DataOciAnnouncementsServiceServices#comms_manager_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#comms_manager_name DataOciAnnouncementsServiceServices#comms_manager_name}
   */
   readonly commsManagerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#compartment_id DataOciAnnouncementsServiceServices#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#compartment_id DataOciAnnouncementsServiceServices#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#id DataOciAnnouncementsServiceServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#id DataOciAnnouncementsServiceServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#platform_type DataOciAnnouncementsServiceServices#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#platform_type DataOciAnnouncementsServiceServices#platform_type}
   */
   readonly platformType?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#filter DataOciAnnouncementsServiceServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#filter DataOciAnnouncementsServiceServices#filter}
   */
   readonly filter?: DataOciAnnouncementsServiceServicesFilter[] | cdktf.IResolvable;
 }
@@ -241,15 +241,15 @@ export class DataOciAnnouncementsServiceServicesServicesCollectionList extends c
 }
 export interface DataOciAnnouncementsServiceServicesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#name DataOciAnnouncementsServiceServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#name DataOciAnnouncementsServiceServices#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#regex DataOciAnnouncementsServiceServices#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#regex DataOciAnnouncementsServiceServices#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#values DataOciAnnouncementsServiceServices#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#values DataOciAnnouncementsServiceServices#values}
   */
   readonly values: string[];
 }
@@ -417,7 +417,7 @@ export class DataOciAnnouncementsServiceServicesFilterList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services oci_announcements_service_services}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services oci_announcements_service_services}
 */
 export class DataOciAnnouncementsServiceServices extends cdktf.TerraformDataSource {
 
@@ -433,7 +433,7 @@ export class DataOciAnnouncementsServiceServices extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciAnnouncementsServiceServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciAnnouncementsServiceServices to import
-  * @param importFromId The id of the existing DataOciAnnouncementsServiceServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciAnnouncementsServiceServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciAnnouncementsServiceServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -445,7 +445,7 @@ export class DataOciAnnouncementsServiceServices extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/announcements_service_services oci_announcements_service_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/announcements_service_services oci_announcements_service_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -456,8 +456,8 @@ export class DataOciAnnouncementsServiceServices extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_announcements_service_services',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

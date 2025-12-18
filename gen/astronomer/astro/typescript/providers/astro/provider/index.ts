@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs
+// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AstroProviderConfig {
   /**
   * API host to use for the provider. Default is `https://api.astronomer.io`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs#host AstroProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs#host AstroProvider#host}
   */
   readonly host?: string;
   /**
   * Organization ID this provider will operate on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs#organization_id AstroProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs#organization_id AstroProvider#organization_id}
   */
   readonly organizationId: string;
   /**
   * Astro API Token. Can be set with an `ASTRO_API_TOKEN` env var.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs#token AstroProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs#token AstroProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs#alias AstroProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs#alias AstroProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs astro}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs astro}
 */
 export class AstroProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class AstroProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AstroProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AstroProvider to import
-  * @param importFromId The id of the existing AstroProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AstroProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AstroProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AstroProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs astro} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs astro} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AstroProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'astro',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.9',
-        providerVersionConstraint: '1.0.9'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       terraformProviderSource: 'astronomer/astro'
     });

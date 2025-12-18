@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface LbvserverVideooptimizationdetectionpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#bindpoint LbvserverVideooptimizationdetectionpolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#bindpoint LbvserverVideooptimizationdetectionpolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#gotopriorityexpression LbvserverVideooptimizationdetectionpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#gotopriorityexpression LbvserverVideooptimizationdetectionpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#id LbvserverVideooptimizationdetectionpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#id LbvserverVideooptimizationdetectionpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#invoke LbvserverVideooptimizationdetectionpolicyBinding#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#invoke LbvserverVideooptimizationdetectionpolicyBinding#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#labelname LbvserverVideooptimizationdetectionpolicyBinding#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#labelname LbvserverVideooptimizationdetectionpolicyBinding#labelname}
   */
   readonly labelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#labeltype LbvserverVideooptimizationdetectionpolicyBinding#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#labeltype LbvserverVideooptimizationdetectionpolicyBinding#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#name LbvserverVideooptimizationdetectionpolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#name LbvserverVideooptimizationdetectionpolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#policyname LbvserverVideooptimizationdetectionpolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#policyname LbvserverVideooptimizationdetectionpolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#priority LbvserverVideooptimizationdetectionpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#priority LbvserverVideooptimizationdetectionpolicyBinding#priority}
   */
   readonly priority?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding citrixadc_lbvserver_videooptimizationdetectionpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding citrixadc_lbvserver_videooptimizationdetectionpolicy_binding}
 */
 export class LbvserverVideooptimizationdetectionpolicyBinding extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class LbvserverVideooptimizationdetectionpolicyBinding extends cdktf.Terr
   * Generates CDKTF code for importing a LbvserverVideooptimizationdetectionpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbvserverVideooptimizationdetectionpolicyBinding to import
-  * @param importFromId The id of the existing LbvserverVideooptimizationdetectionpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbvserverVideooptimizationdetectionpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbvserverVideooptimizationdetectionpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class LbvserverVideooptimizationdetectionpolicyBinding extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding citrixadc_lbvserver_videooptimizationdetectionpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/lbvserver_videooptimizationdetectionpolicy_binding citrixadc_lbvserver_videooptimizationdetectionpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class LbvserverVideooptimizationdetectionpolicyBinding extends cdktf.Terr
       terraformResourceType: 'citrixadc_lbvserver_videooptimizationdetectionpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

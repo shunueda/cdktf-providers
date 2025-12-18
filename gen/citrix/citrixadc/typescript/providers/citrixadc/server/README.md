@@ -1,3 +1,3 @@
 # `citrixadc_server`
 
-Refer to the Terraform Registry for docs: [`citrixadc_server`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/server).
+Refer to the Terraform Registry for docs: [`citrixadc_server`](https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/server).

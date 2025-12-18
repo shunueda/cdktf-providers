@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,184 +8,184 @@ import * as cdktf from 'cdktf';
 
 export interface SslvserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#cipherredirect Sslvserver#cipherredirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#cipherredirect Sslvserver#cipherredirect}
   */
   readonly cipherredirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#cipherurl Sslvserver#cipherurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#cipherurl Sslvserver#cipherurl}
   */
   readonly cipherurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#cleartextport Sslvserver#cleartextport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#cleartextport Sslvserver#cleartextport}
   */
   readonly cleartextport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#clientauth Sslvserver#clientauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#clientauth Sslvserver#clientauth}
   */
   readonly clientauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#clientcert Sslvserver#clientcert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#clientcert Sslvserver#clientcert}
   */
   readonly clientcert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#defaultsni Sslvserver#defaultsni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#defaultsni Sslvserver#defaultsni}
   */
   readonly defaultsni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dh Sslvserver#dh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dh Sslvserver#dh}
   */
   readonly dh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dhcount Sslvserver#dhcount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dhcount Sslvserver#dhcount}
   */
   readonly dhcount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dhekeyexchangewithpsk Sslvserver#dhekeyexchangewithpsk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dhekeyexchangewithpsk Sslvserver#dhekeyexchangewithpsk}
   */
   readonly dhekeyexchangewithpsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dhfile Sslvserver#dhfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dhfile Sslvserver#dhfile}
   */
   readonly dhfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dhkeyexpsizelimit Sslvserver#dhkeyexpsizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dhkeyexpsizelimit Sslvserver#dhkeyexpsizelimit}
   */
   readonly dhkeyexpsizelimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dtls1 Sslvserver#dtls1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dtls1 Sslvserver#dtls1}
   */
   readonly dtls1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dtls12 Sslvserver#dtls12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dtls12 Sslvserver#dtls12}
   */
   readonly dtls12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#dtlsprofilename Sslvserver#dtlsprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#dtlsprofilename Sslvserver#dtlsprofilename}
   */
   readonly dtlsprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#ersa Sslvserver#ersa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#ersa Sslvserver#ersa}
   */
   readonly ersa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#ersacount Sslvserver#ersacount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#ersacount Sslvserver#ersacount}
   */
   readonly ersacount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#hsts Sslvserver#hsts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#hsts Sslvserver#hsts}
   */
   readonly hsts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#id Sslvserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#id Sslvserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#includesubdomains Sslvserver#includesubdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#includesubdomains Sslvserver#includesubdomains}
   */
   readonly includesubdomains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#maxage Sslvserver#maxage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#maxage Sslvserver#maxage}
   */
   readonly maxage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#ocspstapling Sslvserver#ocspstapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#ocspstapling Sslvserver#ocspstapling}
   */
   readonly ocspstapling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#preload Sslvserver#preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#preload Sslvserver#preload}
   */
   readonly preload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#pushenctrigger Sslvserver#pushenctrigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#pushenctrigger Sslvserver#pushenctrigger}
   */
   readonly pushenctrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#redirectportrewrite Sslvserver#redirectportrewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#redirectportrewrite Sslvserver#redirectportrewrite}
   */
   readonly redirectportrewrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sendclosenotify Sslvserver#sendclosenotify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sendclosenotify Sslvserver#sendclosenotify}
   */
   readonly sendclosenotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sessreuse Sslvserver#sessreuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sessreuse Sslvserver#sessreuse}
   */
   readonly sessreuse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sesstimeout Sslvserver#sesstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sesstimeout Sslvserver#sesstimeout}
   */
   readonly sesstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#snienable Sslvserver#snienable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#snienable Sslvserver#snienable}
   */
   readonly snienable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#ssl2 Sslvserver#ssl2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#ssl2 Sslvserver#ssl2}
   */
   readonly ssl2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#ssl3 Sslvserver#ssl3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#ssl3 Sslvserver#ssl3}
   */
   readonly ssl3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sslclientlogs Sslvserver#sslclientlogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sslclientlogs Sslvserver#sslclientlogs}
   */
   readonly sslclientlogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sslprofile Sslvserver#sslprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sslprofile Sslvserver#sslprofile}
   */
   readonly sslprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sslredirect Sslvserver#sslredirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sslredirect Sslvserver#sslredirect}
   */
   readonly sslredirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sslv2redirect Sslvserver#sslv2redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sslv2redirect Sslvserver#sslv2redirect}
   */
   readonly sslv2Redirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#sslv2url Sslvserver#sslv2url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#sslv2url Sslvserver#sslv2url}
   */
   readonly sslv2Url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#strictsigdigestcheck Sslvserver#strictsigdigestcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#strictsigdigestcheck Sslvserver#strictsigdigestcheck}
   */
   readonly strictsigdigestcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#tls1 Sslvserver#tls1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#tls1 Sslvserver#tls1}
   */
   readonly tls1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#tls11 Sslvserver#tls11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#tls11 Sslvserver#tls11}
   */
   readonly tls11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#tls12 Sslvserver#tls12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#tls12 Sslvserver#tls12}
   */
   readonly tls12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#tls13 Sslvserver#tls13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#tls13 Sslvserver#tls13}
   */
   readonly tls13?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#tls13sessionticketsperauthcontext Sslvserver#tls13sessionticketsperauthcontext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#tls13sessionticketsperauthcontext Sslvserver#tls13sessionticketsperauthcontext}
   */
   readonly tls13Sessionticketsperauthcontext?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#vservername Sslvserver#vservername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#vservername Sslvserver#vservername}
   */
   readonly vservername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#zerorttearlydata Sslvserver#zerorttearlydata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#zerorttearlydata Sslvserver#zerorttearlydata}
   */
   readonly zerorttearlydata?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver citrixadc_sslvserver}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver citrixadc_sslvserver}
 */
 export class Sslvserver extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class Sslvserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslvserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslvserver to import
-  * @param importFromId The id of the existing Sslvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslvserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslvserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class Sslvserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslvserver citrixadc_sslvserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslvserver citrixadc_sslvserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class Sslvserver extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_sslvserver',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface PsqlDbSystemConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#apply_config PsqlDbSystem#apply_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#apply_config PsqlDbSystem#apply_config}
   */
   readonly applyConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#config_id PsqlDbSystem#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#config_id PsqlDbSystem#config_id}
   */
   readonly configId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#db_version PsqlDbSystem#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#db_version PsqlDbSystem#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#defined_tags PsqlDbSystem#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#defined_tags PsqlDbSystem#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#description PsqlDbSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#description PsqlDbSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#freeform_tags PsqlDbSystem#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#freeform_tags PsqlDbSystem#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#id PsqlDbSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#id PsqlDbSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#instance_count PsqlDbSystem#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#instance_count PsqlDbSystem#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#instance_memory_size_in_gbs PsqlDbSystem#instance_memory_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#instance_memory_size_in_gbs PsqlDbSystem#instance_memory_size_in_gbs}
   */
   readonly instanceMemorySizeInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#instance_ocpu_count PsqlDbSystem#instance_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#instance_ocpu_count PsqlDbSystem#instance_ocpu_count}
   */
   readonly instanceOcpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#shape PsqlDbSystem#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#shape PsqlDbSystem#shape}
   */
   readonly shape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}
   */
   readonly systemType?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
   */
   readonly credentials?: PsqlDbSystemCredentials;
   /**
   * instances_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#instances_details PsqlDbSystem#instances_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#instances_details PsqlDbSystem#instances_details}
   */
   readonly instancesDetails?: PsqlDbSystemInstancesDetails[] | cdktf.IResolvable;
   /**
   * management_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#management_policy PsqlDbSystem#management_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#management_policy PsqlDbSystem#management_policy}
   */
   readonly managementPolicy?: PsqlDbSystemManagementPolicy;
   /**
   * network_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#network_details PsqlDbSystem#network_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#network_details PsqlDbSystem#network_details}
   */
   readonly networkDetails: PsqlDbSystemNetworkDetails;
   /**
   * patch_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#patch_operations PsqlDbSystem#patch_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#patch_operations PsqlDbSystem#patch_operations}
   */
   readonly patchOperations?: PsqlDbSystemPatchOperations[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#source PsqlDbSystem#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#source PsqlDbSystem#source}
   */
   readonly source?: PsqlDbSystemSource;
   /**
   * storage_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#storage_details PsqlDbSystem#storage_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#storage_details PsqlDbSystem#storage_details}
   */
   readonly storageDetails: PsqlDbSystemStorageDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#timeouts PsqlDbSystem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#timeouts PsqlDbSystem#timeouts}
   */
   readonly timeouts?: PsqlDbSystemTimeouts;
 }
@@ -227,19 +227,19 @@ export class PsqlDbSystemInstancesList extends cdktf.ComplexList {
 }
 export interface PsqlDbSystemCredentialsPasswordDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#password PsqlDbSystem#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#password PsqlDbSystem#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#password_type PsqlDbSystem#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#password_type PsqlDbSystem#password_type}
   */
   readonly passwordType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#secret_id PsqlDbSystem#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#secret_id PsqlDbSystem#secret_id}
   */
   readonly secretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#secret_version PsqlDbSystem#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#secret_version PsqlDbSystem#secret_version}
   */
   readonly secretVersion?: string;
 }
@@ -407,13 +407,13 @@ export class PsqlDbSystemCredentialsPasswordDetailsOutputReference extends cdktf
 }
 export interface PsqlDbSystemCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#username PsqlDbSystem#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#username PsqlDbSystem#username}
   */
   readonly username: string;
   /**
   * password_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#password_details PsqlDbSystem#password_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#password_details PsqlDbSystem#password_details}
   */
   readonly passwordDetails: PsqlDbSystemCredentialsPasswordDetails;
 }
@@ -520,15 +520,15 @@ export class PsqlDbSystemCredentialsOutputReference extends cdktf.ComplexObject 
 }
 export interface PsqlDbSystemInstancesDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#description PsqlDbSystem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#description PsqlDbSystem#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#private_ip PsqlDbSystem#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#private_ip PsqlDbSystem#private_ip}
   */
   readonly privateIp?: string;
 }
@@ -702,15 +702,15 @@ export class PsqlDbSystemInstancesDetailsList extends cdktf.ComplexList {
 }
 export interface PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}
   */
   readonly regions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}
   */
   readonly retentionPeriod?: number;
 }
@@ -846,29 +846,29 @@ export class PsqlDbSystemManagementPolicyBackupPolicyCopyPolicyOutputReference e
 }
 export interface PsqlDbSystemManagementPolicyBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#backup_start PsqlDbSystem#backup_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#backup_start PsqlDbSystem#backup_start}
   */
   readonly backupStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#days_of_the_month PsqlDbSystem#days_of_the_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#days_of_the_month PsqlDbSystem#days_of_the_month}
   */
   readonly daysOfTheMonth?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#days_of_the_week PsqlDbSystem#days_of_the_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#days_of_the_week PsqlDbSystem#days_of_the_week}
   */
   readonly daysOfTheWeek?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#retention_days PsqlDbSystem#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#retention_days PsqlDbSystem#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * copy_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#copy_policy PsqlDbSystem#copy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#copy_policy PsqlDbSystem#copy_policy}
   */
   readonly copyPolicy?: PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy;
 }
@@ -1097,13 +1097,13 @@ export class PsqlDbSystemManagementPolicyBackupPolicyOutputReference extends cdk
 }
 export interface PsqlDbSystemManagementPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}
   */
   readonly maintenanceWindowStart?: string;
   /**
   * backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
   */
   readonly backupPolicy?: PsqlDbSystemManagementPolicyBackupPolicy;
 }
@@ -1216,19 +1216,19 @@ export class PsqlDbSystemManagementPolicyOutputReference extends cdktf.ComplexOb
 }
 export interface PsqlDbSystemNetworkDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#is_reader_endpoint_enabled PsqlDbSystem#is_reader_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#is_reader_endpoint_enabled PsqlDbSystem#is_reader_endpoint_enabled}
   */
   readonly isReaderEndpointEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#nsg_ids PsqlDbSystem#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#nsg_ids PsqlDbSystem#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#primary_db_endpoint_private_ip PsqlDbSystem#primary_db_endpoint_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#primary_db_endpoint_private_ip PsqlDbSystem#primary_db_endpoint_private_ip}
   */
   readonly primaryDbEndpointPrivateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#subnet_id PsqlDbSystem#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#subnet_id PsqlDbSystem#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -1396,27 +1396,27 @@ export class PsqlDbSystemNetworkDetailsOutputReference extends cdktf.ComplexObje
 }
 export interface PsqlDbSystemPatchOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#from PsqlDbSystem#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#from PsqlDbSystem#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#operation PsqlDbSystem#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#operation PsqlDbSystem#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#position PsqlDbSystem#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#position PsqlDbSystem#position}
   */
   readonly position?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#selected_item PsqlDbSystem#selected_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#selected_item PsqlDbSystem#selected_item}
   */
   readonly selectedItem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#selection PsqlDbSystem#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#selection PsqlDbSystem#selection}
   */
   readonly selection: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#value PsqlDbSystem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#value PsqlDbSystem#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -1671,15 +1671,15 @@ export class PsqlDbSystemPatchOperationsList extends cdktf.ComplexList {
 }
 export interface PsqlDbSystemSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#backup_id PsqlDbSystem#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#backup_id PsqlDbSystem#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#is_having_restore_config_overrides PsqlDbSystem#is_having_restore_config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#is_having_restore_config_overrides PsqlDbSystem#is_having_restore_config_overrides}
   */
   readonly isHavingRestoreConfigOverrides?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#source_type PsqlDbSystem#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#source_type PsqlDbSystem#source_type}
   */
   readonly sourceType: string;
 }
@@ -1818,19 +1818,19 @@ export class PsqlDbSystemSourceOutputReference extends cdktf.ComplexObject {
 }
 export interface PsqlDbSystemStorageDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#availability_domain PsqlDbSystem#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#availability_domain PsqlDbSystem#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#iops PsqlDbSystem#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#iops PsqlDbSystem#iops}
   */
   readonly iops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#is_regionally_durable PsqlDbSystem#is_regionally_durable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#is_regionally_durable PsqlDbSystem#is_regionally_durable}
   */
   readonly isRegionallyDurable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}
   */
   readonly systemType: string;
 }
@@ -1995,15 +1995,15 @@ export class PsqlDbSystemStorageDetailsOutputReference extends cdktf.ComplexObje
 }
 export interface PsqlDbSystemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#create PsqlDbSystem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#create PsqlDbSystem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#delete PsqlDbSystem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#delete PsqlDbSystem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#update PsqlDbSystem#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#update PsqlDbSystem#update}
   */
   readonly update?: string;
 }
@@ -2155,7 +2155,7 @@ export class PsqlDbSystemTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system oci_psql_db_system}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system oci_psql_db_system}
 */
 export class PsqlDbSystem extends cdktf.TerraformResource {
 
@@ -2171,7 +2171,7 @@ export class PsqlDbSystem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PsqlDbSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PsqlDbSystem to import
-  * @param importFromId The id of the existing PsqlDbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PsqlDbSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PsqlDbSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2183,7 +2183,7 @@ export class PsqlDbSystem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psql_db_system oci_psql_db_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psql_db_system oci_psql_db_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2194,8 +2194,8 @@ export class PsqlDbSystem extends cdktf.TerraformResource {
       terraformResourceType: 'oci_psql_db_system',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

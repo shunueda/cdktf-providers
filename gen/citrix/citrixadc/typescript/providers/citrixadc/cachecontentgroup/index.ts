@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,188 +8,188 @@ import * as cdktf from 'cdktf';
 
 export interface CachecontentgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#absexpiry Cachecontentgroup#absexpiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#absexpiry Cachecontentgroup#absexpiry}
   */
   readonly absexpiry?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#absexpirygmt Cachecontentgroup#absexpirygmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#absexpirygmt Cachecontentgroup#absexpirygmt}
   */
   readonly absexpirygmt?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#alwaysevalpolicies Cachecontentgroup#alwaysevalpolicies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#alwaysevalpolicies Cachecontentgroup#alwaysevalpolicies}
   */
   readonly alwaysevalpolicies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#cachecontrol Cachecontentgroup#cachecontrol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#cachecontrol Cachecontentgroup#cachecontrol}
   */
   readonly cachecontrol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#expireatlastbyte Cachecontentgroup#expireatlastbyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#expireatlastbyte Cachecontentgroup#expireatlastbyte}
   */
   readonly expireatlastbyte?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#flashcache Cachecontentgroup#flashcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#flashcache Cachecontentgroup#flashcache}
   */
   readonly flashcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#heurexpiryparam Cachecontentgroup#heurexpiryparam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#heurexpiryparam Cachecontentgroup#heurexpiryparam}
   */
   readonly heurexpiryparam?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#hitparams Cachecontentgroup#hitparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#hitparams Cachecontentgroup#hitparams}
   */
   readonly hitparams?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#hitselector Cachecontentgroup#hitselector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#hitselector Cachecontentgroup#hitselector}
   */
   readonly hitselector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#host Cachecontentgroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#host Cachecontentgroup#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#id Cachecontentgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#id Cachecontentgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#ignoreparamvaluecase Cachecontentgroup#ignoreparamvaluecase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#ignoreparamvaluecase Cachecontentgroup#ignoreparamvaluecase}
   */
   readonly ignoreparamvaluecase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#ignorereloadreq Cachecontentgroup#ignorereloadreq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#ignorereloadreq Cachecontentgroup#ignorereloadreq}
   */
   readonly ignorereloadreq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#ignorereqcachinghdrs Cachecontentgroup#ignorereqcachinghdrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#ignorereqcachinghdrs Cachecontentgroup#ignorereqcachinghdrs}
   */
   readonly ignorereqcachinghdrs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#insertage Cachecontentgroup#insertage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#insertage Cachecontentgroup#insertage}
   */
   readonly insertage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#insertetag Cachecontentgroup#insertetag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#insertetag Cachecontentgroup#insertetag}
   */
   readonly insertetag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#insertvia Cachecontentgroup#insertvia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#insertvia Cachecontentgroup#insertvia}
   */
   readonly insertvia?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#invalparams Cachecontentgroup#invalparams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#invalparams Cachecontentgroup#invalparams}
   */
   readonly invalparams?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#invalrestrictedtohost Cachecontentgroup#invalrestrictedtohost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#invalrestrictedtohost Cachecontentgroup#invalrestrictedtohost}
   */
   readonly invalrestrictedtohost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#invalselector Cachecontentgroup#invalselector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#invalselector Cachecontentgroup#invalselector}
   */
   readonly invalselector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#lazydnsresolve Cachecontentgroup#lazydnsresolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#lazydnsresolve Cachecontentgroup#lazydnsresolve}
   */
   readonly lazydnsresolve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#matchcookies Cachecontentgroup#matchcookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#matchcookies Cachecontentgroup#matchcookies}
   */
   readonly matchcookies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#maxressize Cachecontentgroup#maxressize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#maxressize Cachecontentgroup#maxressize}
   */
   readonly maxressize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#memlimit Cachecontentgroup#memlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#memlimit Cachecontentgroup#memlimit}
   */
   readonly memlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#minhits Cachecontentgroup#minhits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#minhits Cachecontentgroup#minhits}
   */
   readonly minhits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#minressize Cachecontentgroup#minressize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#minressize Cachecontentgroup#minressize}
   */
   readonly minressize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#name Cachecontentgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#name Cachecontentgroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#persistha Cachecontentgroup#persistha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#persistha Cachecontentgroup#persistha}
   */
   readonly persistha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#pinned Cachecontentgroup#pinned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#pinned Cachecontentgroup#pinned}
   */
   readonly pinned?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#polleverytime Cachecontentgroup#polleverytime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#polleverytime Cachecontentgroup#polleverytime}
   */
   readonly polleverytime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#prefetch Cachecontentgroup#prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#prefetch Cachecontentgroup#prefetch}
   */
   readonly prefetch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#prefetchmaxpending Cachecontentgroup#prefetchmaxpending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#prefetchmaxpending Cachecontentgroup#prefetchmaxpending}
   */
   readonly prefetchmaxpending?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#prefetchperiod Cachecontentgroup#prefetchperiod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#prefetchperiod Cachecontentgroup#prefetchperiod}
   */
   readonly prefetchperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#prefetchperiodmillisec Cachecontentgroup#prefetchperiodmillisec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#prefetchperiodmillisec Cachecontentgroup#prefetchperiodmillisec}
   */
   readonly prefetchperiodmillisec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#query Cachecontentgroup#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#query Cachecontentgroup#query}
   */
   readonly query?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#quickabortsize Cachecontentgroup#quickabortsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#quickabortsize Cachecontentgroup#quickabortsize}
   */
   readonly quickabortsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#relexpiry Cachecontentgroup#relexpiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#relexpiry Cachecontentgroup#relexpiry}
   */
   readonly relexpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#relexpirymillisec Cachecontentgroup#relexpirymillisec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#relexpirymillisec Cachecontentgroup#relexpirymillisec}
   */
   readonly relexpirymillisec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#removecookies Cachecontentgroup#removecookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#removecookies Cachecontentgroup#removecookies}
   */
   readonly removecookies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#selectorvalue Cachecontentgroup#selectorvalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#selectorvalue Cachecontentgroup#selectorvalue}
   */
   readonly selectorvalue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#tosecondary Cachecontentgroup#tosecondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#tosecondary Cachecontentgroup#tosecondary}
   */
   readonly tosecondary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#type Cachecontentgroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#type Cachecontentgroup#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#weaknegrelexpiry Cachecontentgroup#weaknegrelexpiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#weaknegrelexpiry Cachecontentgroup#weaknegrelexpiry}
   */
   readonly weaknegrelexpiry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#weakposrelexpiry Cachecontentgroup#weakposrelexpiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#weakposrelexpiry Cachecontentgroup#weakposrelexpiry}
   */
   readonly weakposrelexpiry?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup citrixadc_cachecontentgroup}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup citrixadc_cachecontentgroup}
 */
 export class Cachecontentgroup extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class Cachecontentgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cachecontentgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cachecontentgroup to import
-  * @param importFromId The id of the existing Cachecontentgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cachecontentgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cachecontentgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class Cachecontentgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cachecontentgroup citrixadc_cachecontentgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cachecontentgroup citrixadc_cachecontentgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class Cachecontentgroup extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_cachecontentgroup',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface IotIotDomainConfigureDataAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#db_allow_listed_identity_group_names IotIotDomainConfigureDataAccess#db_allow_listed_identity_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#db_allow_listed_identity_group_names IotIotDomainConfigureDataAccess#db_allow_listed_identity_group_names}
   */
   readonly dbAllowListedIdentityGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#db_allowed_identity_domain_host IotIotDomainConfigureDataAccess#db_allowed_identity_domain_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#db_allowed_identity_domain_host IotIotDomainConfigureDataAccess#db_allowed_identity_domain_host}
   */
   readonly dbAllowedIdentityDomainHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#db_workspace_admin_initial_password IotIotDomainConfigureDataAccess#db_workspace_admin_initial_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#db_workspace_admin_initial_password IotIotDomainConfigureDataAccess#db_workspace_admin_initial_password}
   */
   readonly dbWorkspaceAdminInitialPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#id IotIotDomainConfigureDataAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#id IotIotDomainConfigureDataAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#iot_domain_id IotIotDomainConfigureDataAccess#iot_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#iot_domain_id IotIotDomainConfigureDataAccess#iot_domain_id}
   */
   readonly iotDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#type IotIotDomainConfigureDataAccess#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#type IotIotDomainConfigureDataAccess#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#timeouts IotIotDomainConfigureDataAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#timeouts IotIotDomainConfigureDataAccess#timeouts}
   */
   readonly timeouts?: IotIotDomainConfigureDataAccessTimeouts;
 }
 export interface IotIotDomainConfigureDataAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#create IotIotDomainConfigureDataAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#create IotIotDomainConfigureDataAccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#delete IotIotDomainConfigureDataAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#delete IotIotDomainConfigureDataAccess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#update IotIotDomainConfigureDataAccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#update IotIotDomainConfigureDataAccess#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class IotIotDomainConfigureDataAccessTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access oci_iot_iot_domain_configure_data_access}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access oci_iot_iot_domain_configure_data_access}
 */
 export class IotIotDomainConfigureDataAccess extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class IotIotDomainConfigureDataAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IotIotDomainConfigureDataAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotIotDomainConfigureDataAccess to import
-  * @param importFromId The id of the existing IotIotDomainConfigureDataAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotIotDomainConfigureDataAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotIotDomainConfigureDataAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class IotIotDomainConfigureDataAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_configure_data_access oci_iot_iot_domain_configure_data_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_configure_data_access oci_iot_iot_domain_configure_data_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class IotIotDomainConfigureDataAccess extends cdktf.TerraformResource {
       terraformResourceType: 'oci_iot_iot_domain_configure_data_access',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

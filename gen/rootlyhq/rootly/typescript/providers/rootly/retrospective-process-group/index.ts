@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface RetrospectiveProcessGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group#id RetrospectiveProcessGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group#id RetrospectiveProcessGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group#position RetrospectiveProcessGroup#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group#position RetrospectiveProcessGroup#position}
   */
   readonly position?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group#retrospective_process_id RetrospectiveProcessGroup#retrospective_process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group#retrospective_process_id RetrospectiveProcessGroup#retrospective_process_id}
   */
   readonly retrospectiveProcessId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group#sub_status_id RetrospectiveProcessGroup#sub_status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group#sub_status_id RetrospectiveProcessGroup#sub_status_id}
   */
   readonly subStatusId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group rootly_retrospective_process_group}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group rootly_retrospective_process_group}
 */
 export class RetrospectiveProcessGroup extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class RetrospectiveProcessGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RetrospectiveProcessGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RetrospectiveProcessGroup to import
-  * @param importFromId The id of the existing RetrospectiveProcessGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RetrospectiveProcessGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RetrospectiveProcessGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class RetrospectiveProcessGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/retrospective_process_group rootly_retrospective_process_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/retrospective_process_group rootly_retrospective_process_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class RetrospectiveProcessGroup extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_retrospective_process_group',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

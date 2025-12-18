@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_webhook_integration
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_webhook_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataFastlyNgwafAlertWebhookIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_webhook_integration#id DataFastlyNgwafAlertWebhookIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_webhook_integration#id DataFastlyNgwafAlertWebhookIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataFastlyNgwafAlertWebhookIntegrationConfig extends cdktf.Terr
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_webhook_integration#workspace_id DataFastlyNgwafAlertWebhookIntegration#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_webhook_integration#workspace_id DataFastlyNgwafAlertWebhookIntegration#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -98,7 +98,7 @@ export class DataFastlyNgwafAlertWebhookIntegrationWebhookAlertsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration}
 */
 export class DataFastlyNgwafAlertWebhookIntegration extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataFastlyNgwafAlertWebhookIntegration extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataFastlyNgwafAlertWebhookIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyNgwafAlertWebhookIntegration to import
-  * @param importFromId The id of the existing DataFastlyNgwafAlertWebhookIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_webhook_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyNgwafAlertWebhookIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_webhook_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyNgwafAlertWebhookIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataFastlyNgwafAlertWebhookIntegration extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/ngwaf_alert_webhook_integration fastly_ngwaf_alert_webhook_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataFastlyNgwafAlertWebhookIntegration extends cdktf.TerraformDataS
       terraformResourceType: 'fastly_ngwaf_alert_webhook_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

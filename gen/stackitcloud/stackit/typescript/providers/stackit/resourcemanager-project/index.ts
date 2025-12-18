@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,31 +11,31 @@ export interface ResourcemanagerProjectConfig extends cdktf.TerraformMetaArgumen
   * Labels are key-value string pairs which can be attached to a resource container. A label key must match the regex [A-ZÄÜÖa-zäüöß0-9_-]{1,64}. A label value must match the regex ^$|[A-ZÄÜÖa-zäüöß0-9_-]{1,64}.  
   * To create a project within a STACKIT Network Area, setting the label `networkArea=<networkAreaID>` is required. This can not be changed after project creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project#labels ResourcemanagerProject#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project#labels ResourcemanagerProject#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project#name ResourcemanagerProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project#name ResourcemanagerProject#name}
   */
   readonly name: string;
   /**
   * Email address of the owner of the project. This value is only considered during creation. Changing it afterwards will have no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project#owner_email ResourcemanagerProject#owner_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project#owner_email ResourcemanagerProject#owner_email}
   */
   readonly ownerEmail: string;
   /**
   * Parent resource identifier. Both container ID (user-friendly) and UUID are supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project#parent_container_id ResourcemanagerProject#parent_container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project#parent_container_id ResourcemanagerProject#parent_container_id}
   */
   readonly parentContainerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project stackit_resourcemanager_project}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project stackit_resourcemanager_project}
 */
 export class ResourcemanagerProject extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ResourcemanagerProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourcemanagerProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcemanagerProject to import
-  * @param importFromId The id of the existing ResourcemanagerProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcemanagerProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcemanagerProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ResourcemanagerProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/resourcemanager_project stackit_resourcemanager_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/resourcemanager_project stackit_resourcemanager_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ResourcemanagerProject extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_resourcemanager_project',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,131 +8,131 @@ import * as cdktf from 'cdktf';
 
 export interface OrgRftemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain_24 OrgRftemplate#ant_gain_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain_24 OrgRftemplate#ant_gain_24}
   */
   readonly antGain24?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain_5 OrgRftemplate#ant_gain_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain_5 OrgRftemplate#ant_gain_5}
   */
   readonly antGain5?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain_6 OrgRftemplate#ant_gain_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain_6 OrgRftemplate#ant_gain_6}
   */
   readonly antGain6?: number;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_24 OrgRftemplate#band_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_24 OrgRftemplate#band_24}
   */
   readonly band24?: OrgRftemplateBand24;
   /**
   * enum: `24`, `5`, `6`, `auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_24_usage OrgRftemplate#band_24_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_24_usage OrgRftemplate#band_24_usage}
   */
   readonly band24Usage?: string;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_5 OrgRftemplate#band_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_5 OrgRftemplate#band_5}
   */
   readonly band5?: OrgRftemplateBand5;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_5_on_24_radio OrgRftemplate#band_5_on_24_radio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_5_on_24_radio OrgRftemplate#band_5_on_24_radio}
   */
   readonly band5On24Radio?: OrgRftemplateBand5On24Radio;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_6 OrgRftemplate#band_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_6 OrgRftemplate#band_6}
   */
   readonly band6?: OrgRftemplateBand6;
   /**
   * Optional, country code to use. If specified, this gets applied to all sites using the RF Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#country_code OrgRftemplate#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#country_code OrgRftemplate#country_code}
   */
   readonly countryCode?: string;
   /**
   * overwrites for a specific model. If a band is specified, it will shadow the default. Property key is the model name (e.g. "AP63")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#model_specific OrgRftemplate#model_specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#model_specific OrgRftemplate#model_specific}
   */
   readonly modelSpecific?: { [key: string]: OrgRftemplateModelSpecific } | cdktf.IResolvable;
   /**
   * The name of the RF template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#name OrgRftemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#name OrgRftemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#org_id OrgRftemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#org_id OrgRftemplate#org_id}
   */
   readonly orgId: string;
   /**
   * Whether scanning radio is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#scanning_enabled OrgRftemplate#scanning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#scanning_enabled OrgRftemplate#scanning_enabled}
   */
   readonly scanningEnabled?: boolean | cdktf.IResolvable;
 }
 export interface OrgRftemplateBand24 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 2.4GHz band. enum: `0`(disabled, response only), `20`, `40`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * tx power of the radio, null or 0 means auto, when power_min=power_max=power=0 to indicate power=0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
 }
@@ -487,59 +487,59 @@ export class OrgRftemplateBand24OutputReference extends cdktf.ComplexObject {
 }
 export interface OrgRftemplateBand5 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 5GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Tx power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
 }
@@ -894,59 +894,59 @@ export class OrgRftemplateBand5OutputReference extends cdktf.ComplexObject {
 }
 export interface OrgRftemplateBand5On24Radio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 5GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Tx power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
 }
@@ -1301,65 +1301,65 @@ export class OrgRftemplateBand5On24RadioOutputReference extends cdktf.ComplexObj
 }
 export interface OrgRftemplateBand6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 6GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`, `160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Tx power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
   /**
   * For 6GHz Only, standard-power operation, AFC (Automatic Frequency Coordination) will be performed, and we'll fall back to Low Power Indoor if AFC failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#standard_power OrgRftemplate#standard_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#standard_power OrgRftemplate#standard_power}
   */
   readonly standardPower?: boolean | cdktf.IResolvable;
 }
@@ -1743,59 +1743,59 @@ export class OrgRftemplateBand6OutputReference extends cdktf.ComplexObject {
 }
 export interface OrgRftemplateModelSpecificBand24 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 2.4GHz band. enum: `0`(disabled, response only), `20`, `40`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * tx power of the radio, null or 0 means auto, when power_min=power_max=power=0 to indicate power=0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
 }
@@ -2150,59 +2150,59 @@ export class OrgRftemplateModelSpecificBand24OutputReference extends cdktf.Compl
 }
 export interface OrgRftemplateModelSpecificBand5 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 5GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Tx power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
 }
@@ -2557,59 +2557,59 @@ export class OrgRftemplateModelSpecificBand5OutputReference extends cdktf.Comple
 }
 export interface OrgRftemplateModelSpecificBand5On24Radio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 5GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Tx power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
 }
@@ -2964,65 +2964,65 @@ export class OrgRftemplateModelSpecificBand5On24RadioOutputReference extends cdk
 }
 export interface OrgRftemplateModelSpecificBand6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#allow_rrm_disable OrgRftemplate#allow_rrm_disable}
   */
   readonly allowRrmDisable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain OrgRftemplate#ant_gain}
   */
   readonly antGain?: number;
   /**
   * enum: `1x1`, `2x2`, `3x3`, `4x4`, `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#antenna_mode OrgRftemplate#antenna_mode}
   */
   readonly antennaMode?: string;
   /**
   * channel width for the 6GHz band. enum: `0`(disabled, response only), `20`, `40`, `80`, `160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#bandwidth OrgRftemplate#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * For RFTemplates. List of channels, null or empty array means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#channels OrgRftemplate#channels}
   */
   readonly channels?: number[];
   /**
   * Whether to disable the radio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#disabled OrgRftemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Tx power of the radio. For Devices, 0 means auto. -1 / -2 / -3 / …: treated as 0 / -1 / -2 / …
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power OrgRftemplate#power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power OrgRftemplate#power}
   */
   readonly power?: number;
   /**
   * When power=0, max tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_max OrgRftemplate#power_max}
   */
   readonly powerMax?: number;
   /**
   * When power=0, min tx power to use, HW-specific values will be used if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#power_min OrgRftemplate#power_min}
   */
   readonly powerMin?: number;
   /**
   * enum: `auto`, `long`, `short`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#preamble OrgRftemplate#preamble}
   */
   readonly preamble?: string;
   /**
   * For 6GHz Only, standard-power operation, AFC (Automatic Frequency Coordination) will be performed, and we'll fall back to Low Power Indoor if AFC failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#standard_power OrgRftemplate#standard_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#standard_power OrgRftemplate#standard_power}
   */
   readonly standardPower?: boolean | cdktf.IResolvable;
 }
@@ -3406,45 +3406,45 @@ export class OrgRftemplateModelSpecificBand6OutputReference extends cdktf.Comple
 }
 export interface OrgRftemplateModelSpecific {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain_24 OrgRftemplate#ant_gain_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain_24 OrgRftemplate#ant_gain_24}
   */
   readonly antGain24?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain_5 OrgRftemplate#ant_gain_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain_5 OrgRftemplate#ant_gain_5}
   */
   readonly antGain5?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#ant_gain_6 OrgRftemplate#ant_gain_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#ant_gain_6 OrgRftemplate#ant_gain_6}
   */
   readonly antGain6?: number;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_24 OrgRftemplate#band_24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_24 OrgRftemplate#band_24}
   */
   readonly band24?: OrgRftemplateModelSpecificBand24;
   /**
   * enum: `24`, `5`, `6`, `auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_24_usage OrgRftemplate#band_24_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_24_usage OrgRftemplate#band_24_usage}
   */
   readonly band24Usage?: string;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_5 OrgRftemplate#band_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_5 OrgRftemplate#band_5}
   */
   readonly band5?: OrgRftemplateModelSpecificBand5;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_5_on_24_radio OrgRftemplate#band_5_on_24_radio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_5_on_24_radio OrgRftemplate#band_5_on_24_radio}
   */
   readonly band5On24Radio?: OrgRftemplateModelSpecificBand5On24Radio;
   /**
   * Radio Band AP settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#band_6 OrgRftemplate#band_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#band_6 OrgRftemplate#band_6}
   */
   readonly band6?: OrgRftemplateModelSpecificBand6;
 }
@@ -3761,7 +3761,7 @@ export class OrgRftemplateModelSpecificMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate mist_org_rftemplate}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate mist_org_rftemplate}
 */
 export class OrgRftemplate extends cdktf.TerraformResource {
 
@@ -3777,7 +3777,7 @@ export class OrgRftemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgRftemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgRftemplate to import
-  * @param importFromId The id of the existing OrgRftemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgRftemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgRftemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3789,7 +3789,7 @@ export class OrgRftemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_rftemplate mist_org_rftemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_rftemplate mist_org_rftemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3800,8 +3800,8 @@ export class OrgRftemplate extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_rftemplate',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

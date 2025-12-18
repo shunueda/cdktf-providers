@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#display_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#display_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#tunnel_inspection_rule_priority_order DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#tunnel_inspection_rule_priority_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#tunnel_inspection_rule_priority_order DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#tunnel_inspection_rule_priority_order}
   */
   readonly tunnelInspectionRulePriorityOrder?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#filter DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#filter DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#filter}
   */
   readonly filter?: DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFilter[] | cdktf.IResolvable;
 }
@@ -464,15 +464,15 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesTun
 }
 export interface DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#regex DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#regex DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#values DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#values DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#values}
   */
   readonly values: string[];
 }
@@ -640,7 +640,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFil
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules oci_network_firewall_network_firewall_policy_tunnel_inspection_rules}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules oci_network_firewall_network_firewall_policy_tunnel_inspection_rules}
 */
 export class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules extends cdktf.TerraformDataSource {
 
@@ -656,7 +656,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules ex
   * Generates CDKTF code for importing a DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules to import
-  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -668,7 +668,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules oci_network_firewall_network_firewall_policy_tunnel_inspection_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules oci_network_firewall_network_firewall_policy_tunnel_inspection_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,8 +679,8 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules ex
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_tunnel_inspection_rules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

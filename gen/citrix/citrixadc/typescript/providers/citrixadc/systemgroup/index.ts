@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface SystemgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#allowedmanagementinterface Systemgroup#allowedmanagementinterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#allowedmanagementinterface Systemgroup#allowedmanagementinterface}
   */
   readonly allowedmanagementinterface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#daystoexpire Systemgroup#daystoexpire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#daystoexpire Systemgroup#daystoexpire}
   */
   readonly daystoexpire?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#groupname Systemgroup#groupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#groupname Systemgroup#groupname}
   */
   readonly groupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#id Systemgroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#id Systemgroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#promptstring Systemgroup#promptstring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#promptstring Systemgroup#promptstring}
   */
   readonly promptstring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#systemusers Systemgroup#systemusers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#systemusers Systemgroup#systemusers}
   */
   readonly systemusers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#timeout Systemgroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#timeout Systemgroup#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#warnpriorndays Systemgroup#warnpriorndays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#warnpriorndays Systemgroup#warnpriorndays}
   */
   readonly warnpriorndays?: number;
   /**
   * cmdpolicybinding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#cmdpolicybinding Systemgroup#cmdpolicybinding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#cmdpolicybinding Systemgroup#cmdpolicybinding}
   */
   readonly cmdpolicybinding?: SystemgroupCmdpolicybinding[] | cdktf.IResolvable;
 }
 export interface SystemgroupCmdpolicybinding {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#policyname Systemgroup#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#policyname Systemgroup#policyname}
   */
   readonly policyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#priority Systemgroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#priority Systemgroup#priority}
   */
   readonly priority?: number;
 }
@@ -200,7 +200,7 @@ export class SystemgroupCmdpolicybindingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup citrixadc_systemgroup}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup citrixadc_systemgroup}
 */
 export class Systemgroup extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class Systemgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemgroup to import
-  * @param importFromId The id of the existing Systemgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class Systemgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup citrixadc_systemgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup citrixadc_systemgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class Systemgroup extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_systemgroup',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

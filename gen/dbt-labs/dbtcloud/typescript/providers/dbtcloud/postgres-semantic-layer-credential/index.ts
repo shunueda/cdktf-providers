@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface PostgresSemanticLayerCredentialConfig extends cdktf.TerraformMe
   /**
   * Semantic Layer credential configuration details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#configuration PostgresSemanticLayerCredential#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#configuration PostgresSemanticLayerCredential#configuration}
   */
   readonly configuration: PostgresSemanticLayerCredentialConfiguration;
   /**
   * Postgres credential details, but used in the context of the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#credential PostgresSemanticLayerCredential#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#credential PostgresSemanticLayerCredential#credential}
   */
   readonly credential: PostgresSemanticLayerCredentialCredential;
 }
@@ -24,19 +24,19 @@ export interface PostgresSemanticLayerCredentialConfiguration {
   /**
   * The adapter version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#adapter_version PostgresSemanticLayerCredential#adapter_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#adapter_version PostgresSemanticLayerCredential#adapter_version}
   */
   readonly adapterVersion: string;
   /**
   * The name of the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#name PostgresSemanticLayerCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#name PostgresSemanticLayerCredential#name}
   */
   readonly name: string;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#project_id PostgresSemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#project_id PostgresSemanticLayerCredential#project_id}
   */
   readonly projectId: number;
 }
@@ -181,55 +181,55 @@ export interface PostgresSemanticLayerCredentialCredential {
   /**
   * Default schema name. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#default_schema PostgresSemanticLayerCredential#default_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#default_schema PostgresSemanticLayerCredential#default_schema}
   */
   readonly defaultSchema?: string;
   /**
   * Whether the Postgres/Redshift/AlloyDB credential is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#is_active PostgresSemanticLayerCredential#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#is_active PostgresSemanticLayerCredential#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Number of threads to use (required for Redshift)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#num_threads PostgresSemanticLayerCredential#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#num_threads PostgresSemanticLayerCredential#num_threads}
   */
   readonly numThreads?: number;
   /**
   * Password for Postgres/Redshift/AlloyDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#password PostgresSemanticLayerCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#password PostgresSemanticLayerCredential#password}
   */
   readonly password?: string;
   /**
   * Project ID to create the Postgres/Redshift/AlloyDB credential in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#project_id PostgresSemanticLayerCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#project_id PostgresSemanticLayerCredential#project_id}
   */
   readonly projectId: number;
   /**
   * This field indicates that the credential is used as part of the Semantic Layer configuration. It is used to create a Postgres credential for the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#semantic_layer_credential PostgresSemanticLayerCredential#semantic_layer_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#semantic_layer_credential PostgresSemanticLayerCredential#semantic_layer_credential}
   */
   readonly semanticLayerCredential?: boolean | cdktf.IResolvable;
   /**
   * Default schema name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#target_name PostgresSemanticLayerCredential#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#target_name PostgresSemanticLayerCredential#target_name}
   */
   readonly targetName?: string;
   /**
   * Type of connection. One of (postgres/redshift). Use postgres for alloydb connections. Optional only when semantic_layer_credential is set to true; otherwise, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#type PostgresSemanticLayerCredential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#type PostgresSemanticLayerCredential#type}
   */
   readonly type?: string;
   /**
   * Username for Postgres/Redshift/AlloyDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#username PostgresSemanticLayerCredential#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#username PostgresSemanticLayerCredential#username}
   */
   readonly username: string;
 }
@@ -559,7 +559,7 @@ export class PostgresSemanticLayerCredentialCredentialOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential dbtcloud_postgres_semantic_layer_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential dbtcloud_postgres_semantic_layer_credential}
 */
 export class PostgresSemanticLayerCredential extends cdktf.TerraformResource {
 
@@ -575,7 +575,7 @@ export class PostgresSemanticLayerCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresSemanticLayerCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresSemanticLayerCredential to import
-  * @param importFromId The id of the existing PostgresSemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresSemanticLayerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresSemanticLayerCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class PostgresSemanticLayerCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/postgres_semantic_layer_credential dbtcloud_postgres_semantic_layer_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/postgres_semantic_layer_credential dbtcloud_postgres_semantic_layer_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class PostgresSemanticLayerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_postgres_semantic_layer_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

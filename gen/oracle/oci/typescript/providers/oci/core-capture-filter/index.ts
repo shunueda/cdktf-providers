@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface CoreCaptureFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#compartment_id CoreCaptureFilter#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#compartment_id CoreCaptureFilter#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#defined_tags CoreCaptureFilter#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#defined_tags CoreCaptureFilter#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#display_name CoreCaptureFilter#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#display_name CoreCaptureFilter#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#filter_type CoreCaptureFilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#filter_type CoreCaptureFilter#filter_type}
   */
   readonly filterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#freeform_tags CoreCaptureFilter#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#freeform_tags CoreCaptureFilter#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#id CoreCaptureFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#id CoreCaptureFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,29 +37,29 @@ export interface CoreCaptureFilterConfig extends cdktf.TerraformMetaArguments {
   /**
   * flow_log_capture_filter_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#flow_log_capture_filter_rules CoreCaptureFilter#flow_log_capture_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#flow_log_capture_filter_rules CoreCaptureFilter#flow_log_capture_filter_rules}
   */
   readonly flowLogCaptureFilterRules?: CoreCaptureFilterFlowLogCaptureFilterRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#timeouts CoreCaptureFilter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#timeouts CoreCaptureFilter#timeouts}
   */
   readonly timeouts?: CoreCaptureFilterTimeouts;
   /**
   * vtap_capture_filter_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#vtap_capture_filter_rules CoreCaptureFilter#vtap_capture_filter_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#vtap_capture_filter_rules CoreCaptureFilter#vtap_capture_filter_rules}
   */
   readonly vtapCaptureFilterRules?: CoreCaptureFilterVtapCaptureFilterRules[] | cdktf.IResolvable;
 }
 export interface CoreCaptureFilterFlowLogCaptureFilterRulesIcmpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}
   */
   readonly type: number;
 }
@@ -169,11 +169,11 @@ export class CoreCaptureFilterFlowLogCaptureFilterRulesIcmpOptionsOutputReferenc
 }
 export interface CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptionsDestinationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -280,11 +280,11 @@ export class CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptionsDestinationPort
 }
 export interface CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -393,13 +393,13 @@ export interface CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptions {
   /**
   * destination_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
   */
   readonly destinationPortRange?: CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptionsDestinationPortRange;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
   */
   readonly sourcePortRange?: CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptionsSourcePortRange;
 }
@@ -512,11 +512,11 @@ export class CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptionsOutputReference
 }
 export interface CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsDestinationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -623,11 +623,11 @@ export class CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsDestinationPort
 }
 export interface CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -736,13 +736,13 @@ export interface CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptions {
   /**
   * destination_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
   */
   readonly destinationPortRange?: CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsDestinationPortRange;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
   */
   readonly sourcePortRange?: CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsSourcePortRange;
 }
@@ -855,53 +855,53 @@ export class CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptionsOutputReference
 }
 export interface CoreCaptureFilterFlowLogCaptureFilterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#destination_cidr CoreCaptureFilter#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#destination_cidr CoreCaptureFilter#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#flow_log_type CoreCaptureFilter#flow_log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#flow_log_type CoreCaptureFilter#flow_log_type}
   */
   readonly flowLogType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#is_enabled CoreCaptureFilter#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#is_enabled CoreCaptureFilter#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#priority CoreCaptureFilter#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#priority CoreCaptureFilter#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#protocol CoreCaptureFilter#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#protocol CoreCaptureFilter#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#rule_action CoreCaptureFilter#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#rule_action CoreCaptureFilter#rule_action}
   */
   readonly ruleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#sampling_rate CoreCaptureFilter#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#sampling_rate CoreCaptureFilter#sampling_rate}
   */
   readonly samplingRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#source_cidr CoreCaptureFilter#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#source_cidr CoreCaptureFilter#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
   * icmp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#icmp_options CoreCaptureFilter#icmp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#icmp_options CoreCaptureFilter#icmp_options}
   */
   readonly icmpOptions?: CoreCaptureFilterFlowLogCaptureFilterRulesIcmpOptions;
   /**
   * tcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#tcp_options CoreCaptureFilter#tcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#tcp_options CoreCaptureFilter#tcp_options}
   */
   readonly tcpOptions?: CoreCaptureFilterFlowLogCaptureFilterRulesTcpOptions;
   /**
   * udp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#udp_options CoreCaptureFilter#udp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#udp_options CoreCaptureFilter#udp_options}
   */
   readonly udpOptions?: CoreCaptureFilterFlowLogCaptureFilterRulesUdpOptions;
 }
@@ -1307,15 +1307,15 @@ export class CoreCaptureFilterFlowLogCaptureFilterRulesList extends cdktf.Comple
 }
 export interface CoreCaptureFilterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#create CoreCaptureFilter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#create CoreCaptureFilter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#delete CoreCaptureFilter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#delete CoreCaptureFilter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#update CoreCaptureFilter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#update CoreCaptureFilter#update}
   */
   readonly update?: string;
 }
@@ -1467,11 +1467,11 @@ export class CoreCaptureFilterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 export interface CoreCaptureFilterVtapCaptureFilterRulesIcmpOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}
   */
   readonly type: number;
 }
@@ -1581,11 +1581,11 @@ export class CoreCaptureFilterVtapCaptureFilterRulesIcmpOptionsOutputReference e
 }
 export interface CoreCaptureFilterVtapCaptureFilterRulesTcpOptionsDestinationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -1692,11 +1692,11 @@ export class CoreCaptureFilterVtapCaptureFilterRulesTcpOptionsDestinationPortRan
 }
 export interface CoreCaptureFilterVtapCaptureFilterRulesTcpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -1805,13 +1805,13 @@ export interface CoreCaptureFilterVtapCaptureFilterRulesTcpOptions {
   /**
   * destination_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
   */
   readonly destinationPortRange?: CoreCaptureFilterVtapCaptureFilterRulesTcpOptionsDestinationPortRange;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
   */
   readonly sourcePortRange?: CoreCaptureFilterVtapCaptureFilterRulesTcpOptionsSourcePortRange;
 }
@@ -1924,11 +1924,11 @@ export class CoreCaptureFilterVtapCaptureFilterRulesTcpOptionsOutputReference ex
 }
 export interface CoreCaptureFilterVtapCaptureFilterRulesUdpOptionsDestinationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -2035,11 +2035,11 @@ export class CoreCaptureFilterVtapCaptureFilterRulesUdpOptionsDestinationPortRan
 }
 export interface CoreCaptureFilterVtapCaptureFilterRulesUdpOptionsSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#max CoreCaptureFilter#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#min CoreCaptureFilter#min}
   */
   readonly min: number;
 }
@@ -2148,13 +2148,13 @@ export interface CoreCaptureFilterVtapCaptureFilterRulesUdpOptions {
   /**
   * destination_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#destination_port_range CoreCaptureFilter#destination_port_range}
   */
   readonly destinationPortRange?: CoreCaptureFilterVtapCaptureFilterRulesUdpOptionsDestinationPortRange;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#source_port_range CoreCaptureFilter#source_port_range}
   */
   readonly sourcePortRange?: CoreCaptureFilterVtapCaptureFilterRulesUdpOptionsSourcePortRange;
 }
@@ -2267,41 +2267,41 @@ export class CoreCaptureFilterVtapCaptureFilterRulesUdpOptionsOutputReference ex
 }
 export interface CoreCaptureFilterVtapCaptureFilterRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#destination_cidr CoreCaptureFilter#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#destination_cidr CoreCaptureFilter#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#protocol CoreCaptureFilter#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#protocol CoreCaptureFilter#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#rule_action CoreCaptureFilter#rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#rule_action CoreCaptureFilter#rule_action}
   */
   readonly ruleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#source_cidr CoreCaptureFilter#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#source_cidr CoreCaptureFilter#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#traffic_direction CoreCaptureFilter#traffic_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#traffic_direction CoreCaptureFilter#traffic_direction}
   */
   readonly trafficDirection: string;
   /**
   * icmp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#icmp_options CoreCaptureFilter#icmp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#icmp_options CoreCaptureFilter#icmp_options}
   */
   readonly icmpOptions?: CoreCaptureFilterVtapCaptureFilterRulesIcmpOptions;
   /**
   * tcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#tcp_options CoreCaptureFilter#tcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#tcp_options CoreCaptureFilter#tcp_options}
   */
   readonly tcpOptions?: CoreCaptureFilterVtapCaptureFilterRulesTcpOptions;
   /**
   * udp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#udp_options CoreCaptureFilter#udp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#udp_options CoreCaptureFilter#udp_options}
   */
   readonly udpOptions?: CoreCaptureFilterVtapCaptureFilterRulesUdpOptions;
 }
@@ -2617,7 +2617,7 @@ export class CoreCaptureFilterVtapCaptureFilterRulesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter oci_core_capture_filter}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter oci_core_capture_filter}
 */
 export class CoreCaptureFilter extends cdktf.TerraformResource {
 
@@ -2633,7 +2633,7 @@ export class CoreCaptureFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreCaptureFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreCaptureFilter to import
-  * @param importFromId The id of the existing CoreCaptureFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreCaptureFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreCaptureFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2645,7 +2645,7 @@ export class CoreCaptureFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_capture_filter oci_core_capture_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_capture_filter oci_core_capture_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2656,8 +2656,8 @@ export class CoreCaptureFilter extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_capture_filter',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

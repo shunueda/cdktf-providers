@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceDependencyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID or alias of the service that is depended upon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency#depends_upon ServiceDependency#depends_upon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency#depends_upon ServiceDependency#depends_upon}
   */
   readonly dependsUpon: string;
   /**
   * Notes for service dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency#note ServiceDependency#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency#note ServiceDependency#note}
   */
   readonly note?: string;
   /**
   * The ID or alias of the service with the dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency#service ServiceDependency#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency#service ServiceDependency#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency opslevel_service_dependency}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency opslevel_service_dependency}
 */
 export class ServiceDependency extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServiceDependency extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceDependency resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceDependency to import
-  * @param importFromId The id of the existing ServiceDependency that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceDependency that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceDependency to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServiceDependency extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/service_dependency opslevel_service_dependency} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/service_dependency opslevel_service_dependency} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ServiceDependency extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_service_dependency',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

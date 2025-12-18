@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface IotIotDomainChangeDataRetentionPeriodConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#data_retention_period_in_days IotIotDomainChangeDataRetentionPeriod#data_retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#data_retention_period_in_days IotIotDomainChangeDataRetentionPeriod#data_retention_period_in_days}
   */
   readonly dataRetentionPeriodInDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#id IotIotDomainChangeDataRetentionPeriod#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#id IotIotDomainChangeDataRetentionPeriod#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#iot_domain_id IotIotDomainChangeDataRetentionPeriod#iot_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#iot_domain_id IotIotDomainChangeDataRetentionPeriod#iot_domain_id}
   */
   readonly iotDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#type IotIotDomainChangeDataRetentionPeriod#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#type IotIotDomainChangeDataRetentionPeriod#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#timeouts IotIotDomainChangeDataRetentionPeriod#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#timeouts IotIotDomainChangeDataRetentionPeriod#timeouts}
   */
   readonly timeouts?: IotIotDomainChangeDataRetentionPeriodTimeouts;
 }
 export interface IotIotDomainChangeDataRetentionPeriodTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#create IotIotDomainChangeDataRetentionPeriod#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#create IotIotDomainChangeDataRetentionPeriod#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#delete IotIotDomainChangeDataRetentionPeriod#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#delete IotIotDomainChangeDataRetentionPeriod#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#update IotIotDomainChangeDataRetentionPeriod#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#update IotIotDomainChangeDataRetentionPeriod#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class IotIotDomainChangeDataRetentionPeriodTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period oci_iot_iot_domain_change_data_retention_period}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period oci_iot_iot_domain_change_data_retention_period}
 */
 export class IotIotDomainChangeDataRetentionPeriod extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class IotIotDomainChangeDataRetentionPeriod extends cdktf.TerraformResour
   * Generates CDKTF code for importing a IotIotDomainChangeDataRetentionPeriod resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotIotDomainChangeDataRetentionPeriod to import
-  * @param importFromId The id of the existing IotIotDomainChangeDataRetentionPeriod that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotIotDomainChangeDataRetentionPeriod that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotIotDomainChangeDataRetentionPeriod to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class IotIotDomainChangeDataRetentionPeriod extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_iot_domain_change_data_retention_period oci_iot_iot_domain_change_data_retention_period} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/iot_iot_domain_change_data_retention_period oci_iot_iot_domain_change_data_retention_period} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class IotIotDomainChangeDataRetentionPeriod extends cdktf.TerraformResour
       terraformResourceType: 'oci_iot_iot_domain_change_data_retention_period',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

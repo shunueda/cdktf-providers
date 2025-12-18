@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,167 +10,167 @@ export interface OrgNacidpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Required if `ldap_type`==`custom`, LDAP filter that will identify the type of group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#group_filter OrgNacidp#group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#group_filter OrgNacidp#group_filter}
   */
   readonly groupFilter?: string;
   /**
   * enum: `ldap`, `mxedge_proxy`, `oauth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#idp_type OrgNacidp#idp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#idp_type OrgNacidp#idp_type}
   */
   readonly idpType: string;
   /**
   * Required if `idp_type`==`ldap`, whole domain or a specific organization unit (container) in Search base to specify where users and groups are found in the LDAP tree
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_base_dn OrgNacidp#ldap_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_base_dn OrgNacidp#ldap_base_dn}
   */
   readonly ldapBaseDn?: string;
   /**
   * Required if `idp_type`==`ldap`, the account used to authenticate against the LDAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_bind_dn OrgNacidp#ldap_bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_bind_dn OrgNacidp#ldap_bind_dn}
   */
   readonly ldapBindDn?: string;
   /**
   * Required if `idp_type`==`ldap`, the password used to authenticate against the LDAP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_bind_password OrgNacidp#ldap_bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_bind_password OrgNacidp#ldap_bind_password}
   */
   readonly ldapBindPassword?: string;
   /**
   * Required if `idp_type`==`ldap`, list of CA certificates to validate the LDAP certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_cacerts OrgNacidp#ldap_cacerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_cacerts OrgNacidp#ldap_cacerts}
   */
   readonly ldapCacerts?: string[];
   /**
   * If `idp_type`==`ldap`, LDAPS Client certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_client_cert OrgNacidp#ldap_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_client_cert OrgNacidp#ldap_client_cert}
   */
   readonly ldapClientCert?: string;
   /**
   * If `idp_type`==`ldap`, Key for the `ldap_client_cert`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_client_key OrgNacidp#ldap_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_client_key OrgNacidp#ldap_client_key}
   */
   readonly ldapClientKey?: string;
   /**
   * If `ldap_type`==`custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_group_attr OrgNacidp#ldap_group_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_group_attr OrgNacidp#ldap_group_attr}
   */
   readonly ldapGroupAttr?: string;
   /**
   * If `ldap_type`==`custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_group_dn OrgNacidp#ldap_group_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_group_dn OrgNacidp#ldap_group_dn}
   */
   readonly ldapGroupDn?: string;
   /**
   * If `idp_type`==`ldap`, whether to recursively resolve LDAP groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_resolve_groups OrgNacidp#ldap_resolve_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_resolve_groups OrgNacidp#ldap_resolve_groups}
   */
   readonly ldapResolveGroups?: boolean | cdktf.IResolvable;
   /**
   * If `idp_type`==`ldap`, list of LDAP/LDAPS server IP Addresses or Hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_server_hosts OrgNacidp#ldap_server_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_server_hosts OrgNacidp#ldap_server_hosts}
   */
   readonly ldapServerHosts?: string[];
   /**
   * if `idp_type`==`ldap`. enum: `azure`, `custom`, `google`, `okta`, `ping_identity`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_type OrgNacidp#ldap_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_type OrgNacidp#ldap_type}
   */
   readonly ldapType?: string;
   /**
   * Required if `ldap_type`==`custom`, LDAP filter that will identify the type of user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#ldap_user_filter OrgNacidp#ldap_user_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#ldap_user_filter OrgNacidp#ldap_user_filter}
   */
   readonly ldapUserFilter?: string;
   /**
   * Required if `ldap_type`==`custom`,LDAP filter that will identify the type of member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#member_filter OrgNacidp#member_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#member_filter OrgNacidp#member_filter}
   */
   readonly memberFilter?: string;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#name OrgNacidp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#name OrgNacidp#name}
   */
   readonly name: string;
   /**
   * Required if `idp_type`==`oauth`, Client Credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_cc_client_id OrgNacidp#oauth_cc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_cc_client_id OrgNacidp#oauth_cc_client_id}
   */
   readonly oauthCcClientId?: string;
   /**
   * Required if `idp_type`==`oauth`, oauth_cc_client_secret is RSA private key, of the form "-----BEGIN RSA PRIVATE KEY--...."
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_cc_client_secret OrgNacidp#oauth_cc_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_cc_client_secret OrgNacidp#oauth_cc_client_secret}
   */
   readonly oauthCcClientSecret?: string;
   /**
   * If `idp_type`==`oauth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_discovery_url OrgNacidp#oauth_discovery_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_discovery_url OrgNacidp#oauth_discovery_url}
   */
   readonly oauthDiscoveryUrl?: string;
   /**
   * enum: `us` (United States, default), `ca` (Canada), `eu` (Europe), `asia` (Asia), `au` (Australia)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_ping_identity_region OrgNacidp#oauth_ping_identity_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_ping_identity_region OrgNacidp#oauth_ping_identity_region}
   */
   readonly oauthPingIdentityRegion?: string;
   /**
   * If `idp_type`==`oauth`, ropc = Resource Owner Password Credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_ropc_client_id OrgNacidp#oauth_ropc_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_ropc_client_id OrgNacidp#oauth_ropc_client_id}
   */
   readonly oauthRopcClientId?: string;
   /**
   * If `oauth_type`==`azure` or `oauth_type`==`azure-gov`. oauth_ropc_client_secret can be empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_ropc_client_secret OrgNacidp#oauth_ropc_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_ropc_client_secret OrgNacidp#oauth_ropc_client_secret}
   */
   readonly oauthRopcClientSecret?: string;
   /**
   * Required if `idp_type`==`oauth`, oauth_tenant_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_tenant_id OrgNacidp#oauth_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_tenant_id OrgNacidp#oauth_tenant_id}
   */
   readonly oauthTenantId?: string;
   /**
   * if `idp_type`==`oauth`. enum: `azure`, `azure-gov`, `okta`, `ping_identity`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#oauth_type OrgNacidp#oauth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#oauth_type OrgNacidp#oauth_type}
   */
   readonly oauthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#org_id OrgNacidp#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#org_id OrgNacidp#org_id}
   */
   readonly orgId: string;
   /**
   * If `idp_type`==`oauth`, indicates if SCIM provisioning is enabled for the OAuth IDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#scim_enabled OrgNacidp#scim_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#scim_enabled OrgNacidp#scim_enabled}
   */
   readonly scimEnabled?: boolean | cdktf.IResolvable;
   /**
   * If `idp_type`==`oauth`, scim_secret_token (auto-generated when not provided by caller and `scim_enabled`==`true`, empty string when `scim_enabled`==`false`) is used as the Bearer token in the Authorization header of SCIM provisioning requests by the IDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#scim_secret_token OrgNacidp#scim_secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#scim_secret_token OrgNacidp#scim_secret_token}
   */
   readonly scimSecretToken?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp mist_org_nacidp}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp mist_org_nacidp}
 */
 export class OrgNacidp extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class OrgNacidp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgNacidp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgNacidp to import
-  * @param importFromId The id of the existing OrgNacidp that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgNacidp that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgNacidp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class OrgNacidp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_nacidp mist_org_nacidp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_nacidp mist_org_nacidp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class OrgNacidp extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_nacidp',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateJiraSubtaskConfig extends cdktf.TerraformMeta
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#enabled WorkflowTaskCreateJiraSubtask#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#enabled WorkflowTaskCreateJiraSubtask#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#id WorkflowTaskCreateJiraSubtask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#id WorkflowTaskCreateJiraSubtask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateJiraSubtaskConfig extends cdktf.TerraformMeta
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#name WorkflowTaskCreateJiraSubtask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#name WorkflowTaskCreateJiraSubtask#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#position WorkflowTaskCreateJiraSubtask#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#position WorkflowTaskCreateJiraSubtask#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#skip_on_failure WorkflowTaskCreateJiraSubtask#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#skip_on_failure WorkflowTaskCreateJiraSubtask#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#workflow_id WorkflowTaskCreateJiraSubtask#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#workflow_id WorkflowTaskCreateJiraSubtask#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#task_params WorkflowTaskCreateJiraSubtask#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#task_params WorkflowTaskCreateJiraSubtask#task_params}
   */
   readonly taskParams: WorkflowTaskCreateJiraSubtaskTaskParams;
 }
@@ -55,89 +55,89 @@ export interface WorkflowTaskCreateJiraSubtaskTaskParams {
   /**
   * The assigned user's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#assign_user_email WorkflowTaskCreateJiraSubtask#assign_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#assign_user_email WorkflowTaskCreateJiraSubtask#assign_user_email}
   */
   readonly assignUserEmail?: string;
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#custom_fields_mapping WorkflowTaskCreateJiraSubtask#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#custom_fields_mapping WorkflowTaskCreateJiraSubtask#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * The issue description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#description WorkflowTaskCreateJiraSubtask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#description WorkflowTaskCreateJiraSubtask#description}
   */
   readonly description?: string;
   /**
   * The due date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#due_date WorkflowTaskCreateJiraSubtask#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#due_date WorkflowTaskCreateJiraSubtask#due_date}
   */
   readonly dueDate?: string;
   /**
   * Map must contain two fields, `id` and `name`. Specify integration id if you have more than one Jira instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#integration WorkflowTaskCreateJiraSubtask#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#integration WorkflowTaskCreateJiraSubtask#integration}
   */
   readonly integration?: { [key: string]: string };
   /**
   * The issue labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#labels WorkflowTaskCreateJiraSubtask#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#labels WorkflowTaskCreateJiraSubtask#labels}
   */
   readonly labels?: string;
   /**
   * The parent issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#parent_issue_id WorkflowTaskCreateJiraSubtask#parent_issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#parent_issue_id WorkflowTaskCreateJiraSubtask#parent_issue_id}
   */
   readonly parentIssueId: string;
   /**
   * Map must contain two fields, `id` and `name`. The priority id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#priority WorkflowTaskCreateJiraSubtask#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#priority WorkflowTaskCreateJiraSubtask#priority}
   */
   readonly priority?: { [key: string]: string };
   /**
   * The project key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#project_key WorkflowTaskCreateJiraSubtask#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#project_key WorkflowTaskCreateJiraSubtask#project_key}
   */
   readonly projectKey: string;
   /**
   * The reporter user's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#reporter_user_email WorkflowTaskCreateJiraSubtask#reporter_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#reporter_user_email WorkflowTaskCreateJiraSubtask#reporter_user_email}
   */
   readonly reporterUserEmail?: string;
   /**
   * Map must contain two fields, `id` and `name`. The status id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#status WorkflowTaskCreateJiraSubtask#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#status WorkflowTaskCreateJiraSubtask#status}
   */
   readonly status?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. The issue type id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#subtask_issue_type WorkflowTaskCreateJiraSubtask#subtask_issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#subtask_issue_type WorkflowTaskCreateJiraSubtask#subtask_issue_type}
   */
   readonly subtaskIssueType: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#task_type WorkflowTaskCreateJiraSubtask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#task_type WorkflowTaskCreateJiraSubtask#task_type}
   */
   readonly taskType?: string;
   /**
   * The issue title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#title WorkflowTaskCreateJiraSubtask#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#title WorkflowTaskCreateJiraSubtask#title}
   */
   readonly title: string;
   /**
   * Update payload. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#update_payload WorkflowTaskCreateJiraSubtask#update_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#update_payload WorkflowTaskCreateJiraSubtask#update_payload}
   */
   readonly updatePayload?: string;
 }
@@ -615,7 +615,7 @@ export class WorkflowTaskCreateJiraSubtaskTaskParamsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask rootly_workflow_task_create_jira_subtask}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask rootly_workflow_task_create_jira_subtask}
 */
 export class WorkflowTaskCreateJiraSubtask extends cdktf.TerraformResource {
 
@@ -631,7 +631,7 @@ export class WorkflowTaskCreateJiraSubtask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateJiraSubtask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateJiraSubtask to import
-  * @param importFromId The id of the existing WorkflowTaskCreateJiraSubtask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateJiraSubtask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateJiraSubtask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -643,7 +643,7 @@ export class WorkflowTaskCreateJiraSubtask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_jira_subtask rootly_workflow_task_create_jira_subtask} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_jira_subtask rootly_workflow_task_create_jira_subtask} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -654,8 +654,8 @@ export class WorkflowTaskCreateJiraSubtask extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_jira_subtask',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateCodaPageConfig extends cdktf.TerraformMetaArg
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#enabled WorkflowTaskCreateCodaPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#enabled WorkflowTaskCreateCodaPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#id WorkflowTaskCreateCodaPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#id WorkflowTaskCreateCodaPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateCodaPageConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#name WorkflowTaskCreateCodaPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#name WorkflowTaskCreateCodaPage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#position WorkflowTaskCreateCodaPage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#position WorkflowTaskCreateCodaPage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#skip_on_failure WorkflowTaskCreateCodaPage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#skip_on_failure WorkflowTaskCreateCodaPage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#workflow_id WorkflowTaskCreateCodaPage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#workflow_id WorkflowTaskCreateCodaPage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#task_params WorkflowTaskCreateCodaPage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#task_params WorkflowTaskCreateCodaPage#task_params}
   */
   readonly taskParams: WorkflowTaskCreateCodaPageTaskParams;
 }
@@ -55,53 +55,53 @@ export interface WorkflowTaskCreateCodaPageTaskParams {
   /**
   * The Coda page content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#content WorkflowTaskCreateCodaPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#content WorkflowTaskCreateCodaPage#content}
   */
   readonly content?: string;
   /**
   * Map must contain two fields, `id` and `name`. The Coda doc object with id and name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#doc WorkflowTaskCreateCodaPage#doc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#doc WorkflowTaskCreateCodaPage#doc}
   */
   readonly doc?: { [key: string]: string };
   /**
   * The Coda folder id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#folder_id WorkflowTaskCreateCodaPage#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#folder_id WorkflowTaskCreateCodaPage#folder_id}
   */
   readonly folderId?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#mark_post_mortem_as_published WorkflowTaskCreateCodaPage#mark_post_mortem_as_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#mark_post_mortem_as_published WorkflowTaskCreateCodaPage#mark_post_mortem_as_published}
   */
   readonly markPostMortemAsPublished?: boolean | cdktf.IResolvable;
   /**
   * Retrospective template to use when creating page, if desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#post_mortem_template_id WorkflowTaskCreateCodaPage#post_mortem_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#post_mortem_template_id WorkflowTaskCreateCodaPage#post_mortem_template_id}
   */
   readonly postMortemTemplateId?: string;
   /**
   * The Coda page subtitle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#subtitle WorkflowTaskCreateCodaPage#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#subtitle WorkflowTaskCreateCodaPage#subtitle}
   */
   readonly subtitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#task_type WorkflowTaskCreateCodaPage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#task_type WorkflowTaskCreateCodaPage#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#template WorkflowTaskCreateCodaPage#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#template WorkflowTaskCreateCodaPage#template}
   */
   readonly template?: { [key: string]: string };
   /**
   * The Coda page title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#title WorkflowTaskCreateCodaPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#title WorkflowTaskCreateCodaPage#title}
   */
   readonly title: string;
 }
@@ -414,7 +414,7 @@ export class WorkflowTaskCreateCodaPageTaskParamsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page rootly_workflow_task_create_coda_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page rootly_workflow_task_create_coda_page}
 */
 export class WorkflowTaskCreateCodaPage extends cdktf.TerraformResource {
 
@@ -430,7 +430,7 @@ export class WorkflowTaskCreateCodaPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateCodaPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateCodaPage to import
-  * @param importFromId The id of the existing WorkflowTaskCreateCodaPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateCodaPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateCodaPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +442,7 @@ export class WorkflowTaskCreateCodaPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_coda_page rootly_workflow_task_create_coda_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_coda_page rootly_workflow_task_create_coda_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,8 +453,8 @@ export class WorkflowTaskCreateCodaPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_coda_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

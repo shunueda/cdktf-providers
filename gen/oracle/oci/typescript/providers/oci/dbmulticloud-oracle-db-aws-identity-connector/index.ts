@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DbmulticloudOracleDbAwsIdentityConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_account_id DbmulticloudOracleDbAwsIdentityConnector#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_account_id DbmulticloudOracleDbAwsIdentityConnector#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_location DbmulticloudOracleDbAwsIdentityConnector#aws_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_location DbmulticloudOracleDbAwsIdentityConnector#aws_location}
   */
   readonly awsLocation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_sts_private_endpoint DbmulticloudOracleDbAwsIdentityConnector#aws_sts_private_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_sts_private_endpoint DbmulticloudOracleDbAwsIdentityConnector#aws_sts_private_endpoint}
   */
   readonly awsStsPrivateEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#compartment_id DbmulticloudOracleDbAwsIdentityConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#compartment_id DbmulticloudOracleDbAwsIdentityConnector#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#defined_tags DbmulticloudOracleDbAwsIdentityConnector#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#defined_tags DbmulticloudOracleDbAwsIdentityConnector#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#display_name DbmulticloudOracleDbAwsIdentityConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#display_name DbmulticloudOracleDbAwsIdentityConnector#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#freeform_tags DbmulticloudOracleDbAwsIdentityConnector#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#freeform_tags DbmulticloudOracleDbAwsIdentityConnector#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#id DbmulticloudOracleDbAwsIdentityConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#id DbmulticloudOracleDbAwsIdentityConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#issuer_url DbmulticloudOracleDbAwsIdentityConnector#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#issuer_url DbmulticloudOracleDbAwsIdentityConnector#issuer_url}
   */
   readonly issuerUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#oidc_scope DbmulticloudOracleDbAwsIdentityConnector#oidc_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#oidc_scope DbmulticloudOracleDbAwsIdentityConnector#oidc_scope}
   */
   readonly oidcScope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#resource_id DbmulticloudOracleDbAwsIdentityConnector#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#resource_id DbmulticloudOracleDbAwsIdentityConnector#resource_id}
   */
   readonly resourceId: string;
   /**
   * service_role_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_role_details DbmulticloudOracleDbAwsIdentityConnector#service_role_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_role_details DbmulticloudOracleDbAwsIdentityConnector#service_role_details}
   */
   readonly serviceRoleDetails: DbmulticloudOracleDbAwsIdentityConnectorServiceRoleDetails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#timeouts DbmulticloudOracleDbAwsIdentityConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#timeouts DbmulticloudOracleDbAwsIdentityConnector#timeouts}
   */
   readonly timeouts?: DbmulticloudOracleDbAwsIdentityConnectorTimeouts;
 }
@@ -159,15 +159,15 @@ export class DbmulticloudOracleDbAwsIdentityConnectorServiceRoleDetailsAwsNodesL
 }
 export interface DbmulticloudOracleDbAwsIdentityConnectorServiceRoleDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#role_arn DbmulticloudOracleDbAwsIdentityConnector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#role_arn DbmulticloudOracleDbAwsIdentityConnector#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_private_endpoint DbmulticloudOracleDbAwsIdentityConnector#service_private_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_private_endpoint DbmulticloudOracleDbAwsIdentityConnector#service_private_endpoint}
   */
   readonly servicePrivateEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_type DbmulticloudOracleDbAwsIdentityConnector#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_type DbmulticloudOracleDbAwsIdentityConnector#service_type}
   */
   readonly serviceType: string;
 }
@@ -343,15 +343,15 @@ export class DbmulticloudOracleDbAwsIdentityConnectorServiceRoleDetailsList exte
 }
 export interface DbmulticloudOracleDbAwsIdentityConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#create DbmulticloudOracleDbAwsIdentityConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#create DbmulticloudOracleDbAwsIdentityConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#delete DbmulticloudOracleDbAwsIdentityConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#delete DbmulticloudOracleDbAwsIdentityConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#update DbmulticloudOracleDbAwsIdentityConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#update DbmulticloudOracleDbAwsIdentityConnector#update}
   */
   readonly update?: string;
 }
@@ -503,7 +503,7 @@ export class DbmulticloudOracleDbAwsIdentityConnectorTimeoutsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector oci_dbmulticloud_oracle_db_aws_identity_connector}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector oci_dbmulticloud_oracle_db_aws_identity_connector}
 */
 export class DbmulticloudOracleDbAwsIdentityConnector extends cdktf.TerraformResource {
 
@@ -519,7 +519,7 @@ export class DbmulticloudOracleDbAwsIdentityConnector extends cdktf.TerraformRes
   * Generates CDKTF code for importing a DbmulticloudOracleDbAwsIdentityConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbmulticloudOracleDbAwsIdentityConnector to import
-  * @param importFromId The id of the existing DbmulticloudOracleDbAwsIdentityConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbmulticloudOracleDbAwsIdentityConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbmulticloudOracleDbAwsIdentityConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -531,7 +531,7 @@ export class DbmulticloudOracleDbAwsIdentityConnector extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector oci_dbmulticloud_oracle_db_aws_identity_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector oci_dbmulticloud_oracle_db_aws_identity_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -542,8 +542,8 @@ export class DbmulticloudOracleDbAwsIdentityConnector extends cdktf.TerraformRes
       terraformResourceType: 'oci_dbmulticloud_oracle_db_aws_identity_connector',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface SsllogprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#id Ssllogprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#id Ssllogprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#name Ssllogprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#name Ssllogprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#ssllogclauth Ssllogprofile#ssllogclauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#ssllogclauth Ssllogprofile#ssllogclauth}
   */
   readonly ssllogclauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#ssllogclauthfailures Ssllogprofile#ssllogclauthfailures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#ssllogclauthfailures Ssllogprofile#ssllogclauthfailures}
   */
   readonly ssllogclauthfailures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#sslloghs Ssllogprofile#sslloghs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#sslloghs Ssllogprofile#sslloghs}
   */
   readonly sslloghs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#sslloghsfailures Ssllogprofile#sslloghsfailures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#sslloghsfailures Ssllogprofile#sslloghsfailures}
   */
   readonly sslloghsfailures?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile citrixadc_ssllogprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile citrixadc_ssllogprofile}
 */
 export class Ssllogprofile extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class Ssllogprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ssllogprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ssllogprofile to import
-  * @param importFromId The id of the existing Ssllogprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ssllogprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ssllogprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class Ssllogprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/ssllogprofile citrixadc_ssllogprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/ssllogprofile citrixadc_ssllogprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class Ssllogprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_ssllogprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

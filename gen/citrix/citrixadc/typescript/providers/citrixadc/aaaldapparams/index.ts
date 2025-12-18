@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface AaaldapparamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#authtimeout Aaaldapparams#authtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#authtimeout Aaaldapparams#authtimeout}
   */
   readonly authtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#defaultauthenticationgroup Aaaldapparams#defaultauthenticationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#defaultauthenticationgroup Aaaldapparams#defaultauthenticationgroup}
   */
   readonly defaultauthenticationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#groupattrname Aaaldapparams#groupattrname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#groupattrname Aaaldapparams#groupattrname}
   */
   readonly groupattrname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#groupnameidentifier Aaaldapparams#groupnameidentifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#groupnameidentifier Aaaldapparams#groupnameidentifier}
   */
   readonly groupnameidentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#groupsearchattribute Aaaldapparams#groupsearchattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#groupsearchattribute Aaaldapparams#groupsearchattribute}
   */
   readonly groupsearchattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#groupsearchfilter Aaaldapparams#groupsearchfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#groupsearchfilter Aaaldapparams#groupsearchfilter}
   */
   readonly groupsearchfilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#groupsearchsubattribute Aaaldapparams#groupsearchsubattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#groupsearchsubattribute Aaaldapparams#groupsearchsubattribute}
   */
   readonly groupsearchsubattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#id Aaaldapparams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#id Aaaldapparams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#ldapbase Aaaldapparams#ldapbase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#ldapbase Aaaldapparams#ldapbase}
   */
   readonly ldapbase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#ldapbinddn Aaaldapparams#ldapbinddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#ldapbinddn Aaaldapparams#ldapbinddn}
   */
   readonly ldapbinddn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#ldapbinddnpassword Aaaldapparams#ldapbinddnpassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#ldapbinddnpassword Aaaldapparams#ldapbinddnpassword}
   */
   readonly ldapbinddnpassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#ldaploginname Aaaldapparams#ldaploginname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#ldaploginname Aaaldapparams#ldaploginname}
   */
   readonly ldaploginname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#maxnestinglevel Aaaldapparams#maxnestinglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#maxnestinglevel Aaaldapparams#maxnestinglevel}
   */
   readonly maxnestinglevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#nestedgroupextraction Aaaldapparams#nestedgroupextraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#nestedgroupextraction Aaaldapparams#nestedgroupextraction}
   */
   readonly nestedgroupextraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#passwdchange Aaaldapparams#passwdchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#passwdchange Aaaldapparams#passwdchange}
   */
   readonly passwdchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#searchfilter Aaaldapparams#searchfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#searchfilter Aaaldapparams#searchfilter}
   */
   readonly searchfilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#sectype Aaaldapparams#sectype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#sectype Aaaldapparams#sectype}
   */
   readonly sectype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#serverip Aaaldapparams#serverip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#serverip Aaaldapparams#serverip}
   */
   readonly serverip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#serverport Aaaldapparams#serverport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#serverport Aaaldapparams#serverport}
   */
   readonly serverport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#ssonameattribute Aaaldapparams#ssonameattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#ssonameattribute Aaaldapparams#ssonameattribute}
   */
   readonly ssonameattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#subattributename Aaaldapparams#subattributename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#subattributename Aaaldapparams#subattributename}
   */
   readonly subattributename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#svrtype Aaaldapparams#svrtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#svrtype Aaaldapparams#svrtype}
   */
   readonly svrtype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams citrixadc_aaaldapparams}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams citrixadc_aaaldapparams}
 */
 export class Aaaldapparams extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class Aaaldapparams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Aaaldapparams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Aaaldapparams to import
-  * @param importFromId The id of the existing Aaaldapparams that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Aaaldapparams that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Aaaldapparams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class Aaaldapparams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaldapparams citrixadc_aaaldapparams} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaldapparams citrixadc_aaaldapparams} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class Aaaldapparams extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_aaaldapparams',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

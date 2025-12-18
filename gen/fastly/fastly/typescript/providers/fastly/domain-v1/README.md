@@ -1,3 +1,3 @@
 # `fastly_domain_v1`
 
-Refer to the Terraform Registry for docs: [`fastly_domain_v1`](https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/domain_v1).
+Refer to the Terraform Registry for docs: [`fastly_domain_v1`](https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/domain_v1).

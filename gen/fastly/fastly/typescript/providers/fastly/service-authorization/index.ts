@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceAuthorizationConfig extends cdktf.TerraformMetaArguments
   /**
   * The permissions to grant the user. Can be `full`, `read_only`, `purge_select` or `purge_all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization#permission ServiceAuthorization#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization#permission ServiceAuthorization#permission}
   */
   readonly permission: string;
   /**
   * The ID of the service to grant permissions for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization#service_id ServiceAuthorization#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization#service_id ServiceAuthorization#service_id}
   */
   readonly serviceId: string;
   /**
   * The ID of the user which will receive the granted permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization#user_id ServiceAuthorization#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization#user_id ServiceAuthorization#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization fastly_service_authorization}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization fastly_service_authorization}
 */
 export class ServiceAuthorization extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ServiceAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAuthorization to import
-  * @param importFromId The id of the existing ServiceAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ServiceAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/service_authorization fastly_service_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/service_authorization fastly_service_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ServiceAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_service_authorization',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

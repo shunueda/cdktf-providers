@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface MgcProviderConfig {
   /**
   * The Magalu API Key for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#api_key MgcProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#api_key MgcProvider#api_key}
   */
   readonly apiKey: string;
   /**
   * The environment to use. Options: prod / pre-prod / dev-qa. Default is prod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#env MgcProvider#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#env MgcProvider#env}
   */
   readonly env?: string;
   /**
   * Key Pair ID for Object Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#key_pair_id MgcProvider#key_pair_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#key_pair_id MgcProvider#key_pair_id}
   */
   readonly keyPairId?: string;
   /**
   * Key Pair Secret for Object Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#key_pair_secret MgcProvider#key_pair_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#key_pair_secret MgcProvider#key_pair_secret}
   */
   readonly keyPairSecret?: string;
   /**
   * The region to use for resources. Options: br-ne1 / br-se1. Default is br-se1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#region MgcProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#region MgcProvider#region}
   */
   readonly region?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#alias MgcProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#alias MgcProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs mgc}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs mgc}
 */
 export class MgcProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class MgcProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MgcProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MgcProvider to import
-  * @param importFromId The id of the existing MgcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MgcProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MgcProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class MgcProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs mgc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs mgc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class MgcProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mgc',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       terraformProviderSource: 'MagaluCloud/mgc'
     });

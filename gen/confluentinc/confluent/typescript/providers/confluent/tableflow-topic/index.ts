@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TableflowTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Kafka topic for which Tableflow is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#display_name TableflowTopic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#display_name TableflowTopic#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#id TableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#id TableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,75 +23,75 @@ export interface TableflowTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The strategy to handle record failures in the Tableflow enabled topic during materialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#record_failure_strategy TableflowTopic#record_failure_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#record_failure_strategy TableflowTopic#record_failure_strategy}
   */
   readonly recordFailureStrategy?: string;
   /**
   * The max age of snapshots (Iceberg) or versions (Delta) (snapshot/version expiration) to keep on the table in milliseconds for the Tableflow enabled topic. Defaults to `604800000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#retention_ms TableflowTopic#retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#retention_ms TableflowTopic#retention_ms}
   */
   readonly retentionMs?: string;
   /**
   * The supported table formats for the Tableflow-enabled topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#table_formats TableflowTopic#table_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#table_formats TableflowTopic#table_formats}
   */
   readonly tableFormats?: string[];
   /**
   * azure_data_lake_storage_gen_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#azure_data_lake_storage_gen_2 TableflowTopic#azure_data_lake_storage_gen_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#azure_data_lake_storage_gen_2 TableflowTopic#azure_data_lake_storage_gen_2}
   */
   readonly azureDataLakeStorageGen2?: TableflowTopicAzureDataLakeStorageGen2;
   /**
   * byob_aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#byob_aws TableflowTopic#byob_aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#byob_aws TableflowTopic#byob_aws}
   */
   readonly byobAws?: TableflowTopicByobAws;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#credentials TableflowTopic#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#credentials TableflowTopic#credentials}
   */
   readonly credentials?: TableflowTopicCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#environment TableflowTopic#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#environment TableflowTopic#environment}
   */
   readonly environment: TableflowTopicEnvironment;
   /**
   * error_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#error_handling TableflowTopic#error_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#error_handling TableflowTopic#error_handling}
   */
   readonly errorHandling?: TableflowTopicErrorHandling;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#kafka_cluster TableflowTopic#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#kafka_cluster TableflowTopic#kafka_cluster}
   */
   readonly kafkaCluster: TableflowTopicKafkaCluster;
   /**
   * managed_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#managed_storage TableflowTopic#managed_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#managed_storage TableflowTopic#managed_storage}
   */
   readonly managedStorage?: TableflowTopicManagedStorage[] | cdktf.IResolvable;
 }
 export interface TableflowTopicAzureDataLakeStorageGen2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#container_name TableflowTopic#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#container_name TableflowTopic#container_name}
   */
   readonly containerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#provider_integration_id TableflowTopic#provider_integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#provider_integration_id TableflowTopic#provider_integration_id}
   */
   readonly providerIntegrationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#storage_account_name TableflowTopic#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#storage_account_name TableflowTopic#storage_account_name}
   */
   readonly storageAccountName: string;
 }
@@ -229,11 +229,11 @@ export class TableflowTopicAzureDataLakeStorageGen2OutputReference extends cdktf
 }
 export interface TableflowTopicByobAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#bucket_name TableflowTopic#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#bucket_name TableflowTopic#bucket_name}
   */
   readonly bucketName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#provider_integration_id TableflowTopic#provider_integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#provider_integration_id TableflowTopic#provider_integration_id}
   */
   readonly providerIntegrationId: string;
 }
@@ -347,13 +347,13 @@ export interface TableflowTopicCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#key TableflowTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#key TableflowTopic#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#secret TableflowTopic#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#secret TableflowTopic#secret}
   */
   readonly secret: string;
 }
@@ -462,7 +462,7 @@ export interface TableflowTopicEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#id TableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#id TableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -548,13 +548,13 @@ export interface TableflowTopicErrorHandling {
   /**
   * The topic to which the bad records will be logged. Creates the topic if it doesn't already exist. The default topic is "error_log".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#log_target TableflowTopic#log_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#log_target TableflowTopic#log_target}
   */
   readonly logTarget?: string;
   /**
   * The error handling mode where the bad records are logged to a dead-letter queue (DLQ) topic and the materialization continues with the next record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#mode TableflowTopic#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#mode TableflowTopic#mode}
   */
   readonly mode?: string;
 }
@@ -669,7 +669,7 @@ export interface TableflowTopicKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#id TableflowTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#id TableflowTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -834,7 +834,7 @@ export class TableflowTopicManagedStorageList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic confluent_tableflow_topic}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic confluent_tableflow_topic}
 */
 export class TableflowTopic extends cdktf.TerraformResource {
 
@@ -850,7 +850,7 @@ export class TableflowTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TableflowTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TableflowTopic to import
-  * @param importFromId The id of the existing TableflowTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TableflowTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TableflowTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -862,7 +862,7 @@ export class TableflowTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/tableflow_topic confluent_tableflow_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/tableflow_topic confluent_tableflow_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -873,8 +873,8 @@ export class TableflowTopic extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_tableflow_topic',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

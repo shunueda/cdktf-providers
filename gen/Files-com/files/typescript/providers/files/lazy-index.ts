@@ -27,6 +27,7 @@ Object.defineProperty(exports, 'project', { get: function () { return require('.
 Object.defineProperty(exports, 'publicKey', { get: function () { return require('./public-key'); } });
 Object.defineProperty(exports, 'remoteMountBackend', { get: function () { return require('./remote-mount-backend'); } });
 Object.defineProperty(exports, 'remoteServer', { get: function () { return require('./remote-server'); } });
+Object.defineProperty(exports, 'remoteServerCredential', { get: function () { return require('./remote-server-credential'); } });
 Object.defineProperty(exports, 'request', { get: function () { return require('./request'); } });
 Object.defineProperty(exports, 'sftpHostKey', { get: function () { return require('./sftp-host-key'); } });
 Object.defineProperty(exports, 'shareGroup', { get: function () { return require('./share-group'); } });
@@ -73,6 +74,7 @@ Object.defineProperty(exports, 'dataFilesProject', { get: function () { return r
 Object.defineProperty(exports, 'dataFilesPublicKey', { get: function () { return require('./data-files-public-key'); } });
 Object.defineProperty(exports, 'dataFilesRemoteMountBackend', { get: function () { return require('./data-files-remote-mount-backend'); } });
 Object.defineProperty(exports, 'dataFilesRemoteServer', { get: function () { return require('./data-files-remote-server'); } });
+Object.defineProperty(exports, 'dataFilesRemoteServerCredential', { get: function () { return require('./data-files-remote-server-credential'); } });
 Object.defineProperty(exports, 'dataFilesRequest', { get: function () { return require('./data-files-request'); } });
 Object.defineProperty(exports, 'dataFilesScimLog', { get: function () { return require('./data-files-scim-log'); } });
 Object.defineProperty(exports, 'dataFilesSftpHostKey', { get: function () { return require('./data-files-sftp-host-key'); } });

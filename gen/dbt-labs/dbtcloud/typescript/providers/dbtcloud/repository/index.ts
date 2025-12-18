@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface RepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Azure Dev Ops project ID. It can be retrieved via the Azure API or using the data source `dbtcloud_azure_dev_ops_project` and the project name - (required for ADO native integration only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#azure_active_directory_project_id Repository#azure_active_directory_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#azure_active_directory_project_id Repository#azure_active_directory_project_id}
   */
   readonly azureActiveDirectoryProjectId?: string;
   /**
   * The Azure Dev Ops repository ID. It can be retrieved via the Azure API or using the data source `dbtcloud_azure_dev_ops_repository` along with the ADO Project ID and the repository name - (required for ADO native integration only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#azure_active_directory_repository_id Repository#azure_active_directory_repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#azure_active_directory_repository_id Repository#azure_active_directory_repository_id}
   */
   readonly azureActiveDirectoryRepositoryId?: string;
   /**
   * If set to False (the default), the connection will fail if the service user doesn't have access to set webhooks (required for auto-triggering CI jobs). If set to True, the connection will be successful but no automated CI job will be triggered - (for ADO native integration only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#azure_bypass_webhook_registration_failure Repository#azure_bypass_webhook_registration_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#azure_bypass_webhook_registration_failure Repository#azure_bypass_webhook_registration_failure}
   */
   readonly azureBypassWebhookRegistrationFailure?: boolean | cdktf.IResolvable;
   /**
   * Whether we should return the public deploy key - (for the `deploy_key` strategy)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#fetch_deploy_key Repository#fetch_deploy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#fetch_deploy_key Repository#fetch_deploy_key}
   */
   readonly fetchDeployKey?: boolean | cdktf.IResolvable;
   /**
   * Git clone strategy for the repository. Can be `deploy_key` (default) for cloning via SSH Deploy Key, `github_app` for GitHub native integration, `deploy_token` for the GitLab native integration and `azure_active_directory_app` for ADO native integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#git_clone_strategy Repository#git_clone_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#git_clone_strategy Repository#git_clone_strategy}
   */
   readonly gitCloneStrategy?: string;
   /**
   * Identifier for the GitHub App - (for GitHub native integration only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#github_installation_id Repository#github_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#github_installation_id Repository#github_installation_id}
   */
   readonly githubInstallationId?: number;
   /**
   * Identifier for the Gitlab project -  (for GitLab native integration only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#gitlab_project_id Repository#gitlab_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#gitlab_project_id Repository#gitlab_project_id}
   */
   readonly gitlabProjectId?: number;
   /**
   * Whether the repository is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#is_active Repository#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#is_active Repository#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Identifier for the PrivateLink endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#private_link_endpoint_id Repository#private_link_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#private_link_endpoint_id Repository#private_link_endpoint_id}
   */
   readonly privateLinkEndpointId?: string;
   /**
   * Project ID to create the repository in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#project_id Repository#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#project_id Repository#project_id}
   */
   readonly projectId: number;
   /**
   * URL template for creating a pull request. If it is not set, the default template will create a PR from the current branch to the branch configured in the Development environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#pull_request_url_template Repository#pull_request_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#pull_request_url_template Repository#pull_request_url_template}
   */
   readonly pullRequestUrlTemplate?: string;
   /**
   * Git URL for the repository or \<Group>/\<Project> for Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#remote_url Repository#remote_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#remote_url Repository#remote_url}
   */
   readonly remoteUrl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository dbtcloud_repository}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository dbtcloud_repository}
 */
 export class Repository extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class Repository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Repository to import
-  * @param importFromId The id of the existing Repository that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Repository that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Repository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class Repository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/repository dbtcloud_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/repository dbtcloud_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class Repository extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_repository',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

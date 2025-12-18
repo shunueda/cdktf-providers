@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface FleetAppsManagementTaskRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#compartment_id FleetAppsManagementTaskRecord#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#compartment_id FleetAppsManagementTaskRecord#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#defined_tags FleetAppsManagementTaskRecord#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#defined_tags FleetAppsManagementTaskRecord#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#description FleetAppsManagementTaskRecord#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#description FleetAppsManagementTaskRecord#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#display_name FleetAppsManagementTaskRecord#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#display_name FleetAppsManagementTaskRecord#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#freeform_tags FleetAppsManagementTaskRecord#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#freeform_tags FleetAppsManagementTaskRecord#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#id FleetAppsManagementTaskRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#id FleetAppsManagementTaskRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,39 +37,39 @@ export interface FleetAppsManagementTaskRecordConfig extends cdktf.TerraformMeta
   /**
   * details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#details FleetAppsManagementTaskRecord#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#details FleetAppsManagementTaskRecord#details}
   */
   readonly details: FleetAppsManagementTaskRecordDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#timeouts FleetAppsManagementTaskRecord#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#timeouts FleetAppsManagementTaskRecord#timeouts}
   */
   readonly timeouts?: FleetAppsManagementTaskRecordTimeouts;
 }
 export interface FleetAppsManagementTaskRecordDetailsExecutionDetailsContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#bucket FleetAppsManagementTaskRecord#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#bucket FleetAppsManagementTaskRecord#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#checksum FleetAppsManagementTaskRecord#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#checksum FleetAppsManagementTaskRecord#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#namespace FleetAppsManagementTaskRecord#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#namespace FleetAppsManagementTaskRecord#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#object FleetAppsManagementTaskRecord#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#object FleetAppsManagementTaskRecord#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#source_type FleetAppsManagementTaskRecord#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#source_type FleetAppsManagementTaskRecord#source_type}
   */
   readonly sourceType: string;
 }
@@ -295,11 +295,11 @@ export class FleetAppsManagementTaskRecordDetailsExecutionDetailsContentOutputRe
 }
 export interface FleetAppsManagementTaskRecordDetailsExecutionDetailsCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#display_name FleetAppsManagementTaskRecord#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#display_name FleetAppsManagementTaskRecord#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#id FleetAppsManagementTaskRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#id FleetAppsManagementTaskRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -447,15 +447,15 @@ export class FleetAppsManagementTaskRecordDetailsExecutionDetailsCredentialsList
 }
 export interface FleetAppsManagementTaskRecordDetailsExecutionDetailsVariablesInputVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#description FleetAppsManagementTaskRecord#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#description FleetAppsManagementTaskRecord#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#name FleetAppsManagementTaskRecord#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#name FleetAppsManagementTaskRecord#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#type FleetAppsManagementTaskRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#type FleetAppsManagementTaskRecord#type}
   */
   readonly type?: string;
 }
@@ -629,13 +629,13 @@ export class FleetAppsManagementTaskRecordDetailsExecutionDetailsVariablesInputV
 }
 export interface FleetAppsManagementTaskRecordDetailsExecutionDetailsVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#output_variables FleetAppsManagementTaskRecord#output_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#output_variables FleetAppsManagementTaskRecord#output_variables}
   */
   readonly outputVariables?: string[];
   /**
   * input_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#input_variables FleetAppsManagementTaskRecord#input_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#input_variables FleetAppsManagementTaskRecord#input_variables}
   */
   readonly inputVariables?: FleetAppsManagementTaskRecordDetailsExecutionDetailsVariablesInputVariables[] | cdktf.IResolvable;
 }
@@ -748,61 +748,61 @@ export class FleetAppsManagementTaskRecordDetailsExecutionDetailsVariablesOutput
 }
 export interface FleetAppsManagementTaskRecordDetailsExecutionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#command FleetAppsManagementTaskRecord#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#command FleetAppsManagementTaskRecord#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#config_file FleetAppsManagementTaskRecord#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#config_file FleetAppsManagementTaskRecord#config_file}
   */
   readonly configFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#endpoint FleetAppsManagementTaskRecord#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#endpoint FleetAppsManagementTaskRecord#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#execution_type FleetAppsManagementTaskRecord#execution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#execution_type FleetAppsManagementTaskRecord#execution_type}
   */
   readonly executionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#is_executable_content FleetAppsManagementTaskRecord#is_executable_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#is_executable_content FleetAppsManagementTaskRecord#is_executable_content}
   */
   readonly isExecutableContent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#is_locked FleetAppsManagementTaskRecord#is_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#is_locked FleetAppsManagementTaskRecord#is_locked}
   */
   readonly isLocked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#is_read_output_variable_enabled FleetAppsManagementTaskRecord#is_read_output_variable_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#is_read_output_variable_enabled FleetAppsManagementTaskRecord#is_read_output_variable_enabled}
   */
   readonly isReadOutputVariableEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#system_variables FleetAppsManagementTaskRecord#system_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#system_variables FleetAppsManagementTaskRecord#system_variables}
   */
   readonly systemVariables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#target_compartment_id FleetAppsManagementTaskRecord#target_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#target_compartment_id FleetAppsManagementTaskRecord#target_compartment_id}
   */
   readonly targetCompartmentId?: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#content FleetAppsManagementTaskRecord#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#content FleetAppsManagementTaskRecord#content}
   */
   readonly content?: FleetAppsManagementTaskRecordDetailsExecutionDetailsContent;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#credentials FleetAppsManagementTaskRecord#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#credentials FleetAppsManagementTaskRecord#credentials}
   */
   readonly credentials?: FleetAppsManagementTaskRecordDetailsExecutionDetailsCredentials[] | cdktf.IResolvable;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#variables FleetAppsManagementTaskRecord#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#variables FleetAppsManagementTaskRecord#variables}
   */
   readonly variables?: FleetAppsManagementTaskRecordDetailsExecutionDetailsVariables;
 }
@@ -1231,11 +1231,11 @@ export class FleetAppsManagementTaskRecordDetailsExecutionDetailsOutputReference
 }
 export interface FleetAppsManagementTaskRecordDetailsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#num_retries FleetAppsManagementTaskRecord#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#num_retries FleetAppsManagementTaskRecord#num_retries}
   */
   readonly numRetries: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#timeout_in_seconds FleetAppsManagementTaskRecord#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#timeout_in_seconds FleetAppsManagementTaskRecord#timeout_in_seconds}
   */
   readonly timeoutInSeconds: number;
 }
@@ -1342,39 +1342,39 @@ export class FleetAppsManagementTaskRecordDetailsPropertiesOutputReference exten
 }
 export interface FleetAppsManagementTaskRecordDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#is_apply_subject_task FleetAppsManagementTaskRecord#is_apply_subject_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#is_apply_subject_task FleetAppsManagementTaskRecord#is_apply_subject_task}
   */
   readonly isApplySubjectTask?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#is_discovery_output_task FleetAppsManagementTaskRecord#is_discovery_output_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#is_discovery_output_task FleetAppsManagementTaskRecord#is_discovery_output_task}
   */
   readonly isDiscoveryOutputTask?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#operation FleetAppsManagementTaskRecord#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#operation FleetAppsManagementTaskRecord#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#os_type FleetAppsManagementTaskRecord#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#os_type FleetAppsManagementTaskRecord#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#platform FleetAppsManagementTaskRecord#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#platform FleetAppsManagementTaskRecord#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#scope FleetAppsManagementTaskRecord#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#scope FleetAppsManagementTaskRecord#scope}
   */
   readonly scope: string;
   /**
   * execution_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#execution_details FleetAppsManagementTaskRecord#execution_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#execution_details FleetAppsManagementTaskRecord#execution_details}
   */
   readonly executionDetails: FleetAppsManagementTaskRecordDetailsExecutionDetails;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#properties FleetAppsManagementTaskRecord#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#properties FleetAppsManagementTaskRecord#properties}
   */
   readonly properties?: FleetAppsManagementTaskRecordDetailsProperties;
 }
@@ -1655,15 +1655,15 @@ export class FleetAppsManagementTaskRecordDetailsOutputReference extends cdktf.C
 }
 export interface FleetAppsManagementTaskRecordTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#create FleetAppsManagementTaskRecord#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#create FleetAppsManagementTaskRecord#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#delete FleetAppsManagementTaskRecord#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#delete FleetAppsManagementTaskRecord#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#update FleetAppsManagementTaskRecord#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#update FleetAppsManagementTaskRecord#update}
   */
   readonly update?: string;
 }
@@ -1815,7 +1815,7 @@ export class FleetAppsManagementTaskRecordTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record oci_fleet_apps_management_task_record}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record oci_fleet_apps_management_task_record}
 */
 export class FleetAppsManagementTaskRecord extends cdktf.TerraformResource {
 
@@ -1831,7 +1831,7 @@ export class FleetAppsManagementTaskRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetAppsManagementTaskRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetAppsManagementTaskRecord to import
-  * @param importFromId The id of the existing FleetAppsManagementTaskRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetAppsManagementTaskRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetAppsManagementTaskRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1843,7 +1843,7 @@ export class FleetAppsManagementTaskRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/fleet_apps_management_task_record oci_fleet_apps_management_task_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/fleet_apps_management_task_record oci_fleet_apps_management_task_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1854,8 +1854,8 @@ export class FleetAppsManagementTaskRecord extends cdktf.TerraformResource {
       terraformResourceType: 'oci_fleet_apps_management_task_record',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

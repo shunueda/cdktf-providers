@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/globally_distributed_database_sharded_database
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/globally_distributed_database_sharded_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGloballyDistributedDatabaseShardedDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/globally_distributed_database_sharded_database#metadata DataOciGloballyDistributedDatabaseShardedDatabase#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/globally_distributed_database_sharded_database#metadata DataOciGloballyDistributedDatabaseShardedDatabase#metadata}
   */
   readonly metadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/globally_distributed_database_sharded_database#sharded_database_id DataOciGloballyDistributedDatabaseShardedDatabase#sharded_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/globally_distributed_database_sharded_database#sharded_database_id DataOciGloballyDistributedDatabaseShardedDatabase#sharded_database_id}
   */
   readonly shardedDatabaseId: string;
 }
@@ -784,7 +784,7 @@ export class DataOciGloballyDistributedDatabaseShardedDatabaseShardDetailsList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/globally_distributed_database_sharded_database oci_globally_distributed_database_sharded_database}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/globally_distributed_database_sharded_database oci_globally_distributed_database_sharded_database}
 */
 export class DataOciGloballyDistributedDatabaseShardedDatabase extends cdktf.TerraformDataSource {
 
@@ -800,7 +800,7 @@ export class DataOciGloballyDistributedDatabaseShardedDatabase extends cdktf.Ter
   * Generates CDKTF code for importing a DataOciGloballyDistributedDatabaseShardedDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGloballyDistributedDatabaseShardedDatabase to import
-  * @param importFromId The id of the existing DataOciGloballyDistributedDatabaseShardedDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/globally_distributed_database_sharded_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGloballyDistributedDatabaseShardedDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/globally_distributed_database_sharded_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGloballyDistributedDatabaseShardedDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -812,7 +812,7 @@ export class DataOciGloballyDistributedDatabaseShardedDatabase extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/globally_distributed_database_sharded_database oci_globally_distributed_database_sharded_database} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/globally_distributed_database_sharded_database oci_globally_distributed_database_sharded_database} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -823,8 +823,8 @@ export class DataOciGloballyDistributedDatabaseShardedDatabase extends cdktf.Ter
       terraformResourceType: 'oci_globally_distributed_database_sharded_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_tag
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityTagConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}
   */
   readonly tagName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}
   */
   readonly tagNamespaceId: string;
 }
@@ -98,7 +98,7 @@ export class DataOciIdentityTagValidatorList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_tag oci_identity_tag}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_tag oci_identity_tag}
 */
 export class DataOciIdentityTag extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataOciIdentityTag extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityTag to import
-  * @param importFromId The id of the existing DataOciIdentityTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataOciIdentityTag extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_tag oci_identity_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_tag oci_identity_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataOciIdentityTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_tag',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

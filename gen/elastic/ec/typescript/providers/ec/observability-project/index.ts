@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,25 @@ export interface ObservabilityProjectConfig extends cdktf.TerraformMetaArguments
   /**
   * A custom domain label compatible with RFC-1035 standards. Derived from the project name by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project#alias ObservabilityProject#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#alias ObservabilityProject#alias}
   */
   readonly alias?: string;
   /**
   * Descriptive name for a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project#name ObservabilityProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#name ObservabilityProject#name}
   */
   readonly name: string;
   /**
+  * the tier of the observability project
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#product_tier ObservabilityProject#product_tier}
+  */
+  readonly productTier?: string;
+  /**
   * Unique human-readable identifier for a region in Elastic Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project#region_id ObservabilityProject#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#region_id ObservabilityProject#region_id}
   */
   readonly regionId: string;
 }
@@ -144,6 +150,11 @@ export class ObservabilityProjectEndpointsOutputReference extends cdktf.ComplexO
     return this.getStringAttribute('elasticsearch');
   }
 
+  // ingest - computed: true, optional: false, required: false
+  public get ingest() {
+    return this.getStringAttribute('ingest');
+  }
+
   // kibana - computed: true, optional: false, required: false
   public get kibana() {
     return this.getStringAttribute('kibana');
@@ -225,7 +236,7 @@ export class ObservabilityProjectMetadataOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project ec_observability_project}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project ec_observability_project}
 */
 export class ObservabilityProject extends cdktf.TerraformResource {
 
@@ -241,7 +252,7 @@ export class ObservabilityProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityProject to import
-  * @param importFromId The id of the existing ObservabilityProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +264,7 @@ export class ObservabilityProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/observability_project ec_observability_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project ec_observability_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +275,8 @@ export class ObservabilityProject extends cdktf.TerraformResource {
       terraformResourceType: 'ec_observability_project',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -277,6 +288,7 @@ export class ObservabilityProject extends cdktf.TerraformResource {
     });
     this._alias = config.alias;
     this._name = config.name;
+    this._productTier = config.productTier;
     this._regionId = config.regionId;
   }
 
@@ -341,6 +353,22 @@ export class ObservabilityProject extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // product_tier - computed: true, optional: true, required: false
+  private _productTier?: string; 
+  public get productTier() {
+    return this.getStringAttribute('product_tier');
+  }
+  public set productTier(value: string) {
+    this._productTier = value;
+  }
+  public resetProductTier() {
+    this._productTier = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get productTierInput() {
+    return this._productTier;
+  }
+
   // region_id - computed: false, optional: false, required: true
   private _regionId?: string; 
   public get regionId() {
@@ -367,6 +395,7 @@ export class ObservabilityProject extends cdktf.TerraformResource {
     return {
       alias: cdktf.stringToTerraform(this._alias),
       name: cdktf.stringToTerraform(this._name),
+      product_tier: cdktf.stringToTerraform(this._productTier),
       region_id: cdktf.stringToTerraform(this._regionId),
     };
   }
@@ -381,6 +410,12 @@ export class ObservabilityProject extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      product_tier: {
+        value: cdktf.stringToHclTerraform(this._productTier),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

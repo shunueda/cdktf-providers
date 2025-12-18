@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,117 @@ import * as cdktf from 'cdktf';
 
 export interface SslcertkeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#bundle Sslcertkey#bundle}
+  * Parse the certificate chain as a single file after linking the server certificate to its issuer's certificate within the file. Possible values: YES, NO. The following fields cannot be changed after creation: certkey, bundle, hsmkey.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#bundle Sslcertkey#bundle}
   */
   readonly bundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#cert Sslcertkey#cert}
+  * Name of and, optionally, path to the X509 certificate file that is used to form the certificate-key pair. The certificate file should be present on the appliance's hard-disk drive or solid-state drive. Storing a certificate in any location other than the default might cause inconsistency in a high availability setup. /nsconfig/ssl/ is the default path.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#cert Sslcertkey#cert}
   */
-  readonly cert?: string;
+  readonly cert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#certkey Sslcertkey#certkey}
+  * Name for the certificate and private-key pair. Must begin with an ASCII alphanumeric or underscore (_) character, and must contain only ASCII alphanumeric, underscore, hash (#), period (.), space, colon (:), at (@), equals (=), and hyphen (-) characters. The following fields cannot be changed after creation: certkey, bundle, hsmkey.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#certkey Sslcertkey#certkey}
   */
-  readonly certkey?: string;
+  readonly certkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#deletecertkeyfilesonremoval Sslcertkey#deletecertkeyfilesonremoval}
+  * Delete certificate and key files when the certificate is removed. Possible values: YES, NO
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#deletecertkeyfilesonremoval Sslcertkey#deletecertkeyfilesonremoval}
   */
   readonly deletecertkeyfilesonremoval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#deletefromdevice Sslcertkey#deletefromdevice}
+  * Delete cert/key file from file system. Possible values: true, false
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#deletefromdevice Sslcertkey#deletefromdevice}
   */
   readonly deletefromdevice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#expirymonitor Sslcertkey#expirymonitor}
+  * Issue an alert when the certificate is about to expire. Possible values: ENABLED, DISABLED
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#expirymonitor Sslcertkey#expirymonitor}
   */
   readonly expirymonitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#fipskey Sslcertkey#fipskey}
+  * Name of the FIPS key that was created inside the Hardware Security Module (HSM) of a FIPS appliance, or a key that was imported into the HSM.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#fipskey Sslcertkey#fipskey}
   */
   readonly fipskey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#hsmkey Sslcertkey#hsmkey}
+  * Name of the HSM key that was created in the External Hardware Security Module (HSM) of a FIPS appliance. The following fields cannot be changed after creation: certkey, bundle, hsmkey.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#hsmkey Sslcertkey#hsmkey}
   */
   readonly hsmkey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#id Sslcertkey#id}
+  * Input format of the certificate and the private-key files. The three formats supported by the appliance are: PEM - Privacy Enhanced Mail, DER - Distinguished Encoding Rule, PFX - Personal Information Exchange. Default: PEM
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#inform Sslcertkey#inform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#inform Sslcertkey#inform}
   */
   readonly inform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#key Sslcertkey#key}
+  * Name of and, optionally, path to the private-key file that is used to form the certificate-key pair. The certificate file should be present on the appliance's hard-disk drive or solid-state drive. Storing a certificate in any location other than the default might cause inconsistency in a high availability setup. /nsconfig/ssl/ is the default path.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#key Sslcertkey#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#linkcertkeyname Sslcertkey#linkcertkeyname}
+  * Name of the Certificate Authority certificate-key pair to which to link a certificate-key pair.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#linkcertkeyname Sslcertkey#linkcertkeyname}
   */
   readonly linkcertkeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#nodomaincheck Sslcertkey#nodomaincheck}
+  * Override the check for matching domain names during a certificate update operation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#nodomaincheck Sslcertkey#nodomaincheck}
   */
   readonly nodomaincheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#notificationperiod Sslcertkey#notificationperiod}
+  * Time, in number of days, before certificate expiration, at which to generate an alert that the certificate is about to expire. Minimum value: 10, Maximum value: 100
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#notificationperiod Sslcertkey#notificationperiod}
   */
   readonly notificationperiod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#ocspstaplingcache Sslcertkey#ocspstaplingcache}
+  * Clear cached ocspStapling response in case of an update operation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#ocspstaplingcache Sslcertkey#ocspstaplingcache}
   */
   readonly ocspstaplingcache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#passplain Sslcertkey#passplain}
+  * Pass phrase used to encrypt the private-key. Required when adding an encrypted private-key in PEM format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#passplain Sslcertkey#passplain}
   */
   readonly passplain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#password Sslcertkey#password}
+  * Pass phrase used to encrypt the private-key. Required when adding an encrypted private-key in PEM format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#passplain_wo Sslcertkey#passplain_wo}
+  */
+  readonly passplainWo?: string;
+  /**
+  * Increment this version to signal a passplain_wo update.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#passplain_wo_version Sslcertkey#passplain_wo_version}
+  */
+  readonly passplainWoVersion?: number;
+  /**
+  * Passphrase that was used to encrypt the private-key. Use this option to load encrypted private-keys in PEM format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#password Sslcertkey#password}
   */
   readonly password?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey citrixadc_sslcertkey}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey citrixadc_sslcertkey}
 */
 export class Sslcertkey extends cdktf.TerraformResource {
 
@@ -97,7 +134,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sslcertkey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sslcertkey to import
-  * @param importFromId The id of the existing Sslcertkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sslcertkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sslcertkey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,19 +146,19 @@ export class Sslcertkey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/sslcertkey citrixadc_sslcertkey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/sslcertkey citrixadc_sslcertkey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options SslcertkeyConfig = {}
+  * @param options SslcertkeyConfig
   */
-  public constructor(scope: Construct, id: string, config: SslcertkeyConfig = {}) {
+  public constructor(scope: Construct, id: string, config: SslcertkeyConfig) {
     super(scope, id, {
       terraformResourceType: 'citrixadc_sslcertkey',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -139,7 +176,6 @@ export class Sslcertkey extends cdktf.TerraformResource {
     this._expirymonitor = config.expirymonitor;
     this._fipskey = config.fipskey;
     this._hsmkey = config.hsmkey;
-    this._id = config.id;
     this._inform = config.inform;
     this._key = config.key;
     this._linkcertkeyname = config.linkcertkeyname;
@@ -147,6 +183,8 @@ export class Sslcertkey extends cdktf.TerraformResource {
     this._notificationperiod = config.notificationperiod;
     this._ocspstaplingcache = config.ocspstaplingcache;
     this._passplain = config.passplain;
+    this._passplainWo = config.passplainWo;
+    this._passplainWoVersion = config.passplainWoVersion;
     this._password = config.password;
   }
 
@@ -154,7 +192,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // bundle - computed: true, optional: true, required: false
+  // bundle - computed: false, optional: true, required: false
   private _bundle?: string; 
   public get bundle() {
     return this.getStringAttribute('bundle');
@@ -170,7 +208,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._bundle;
   }
 
-  // cert - computed: true, optional: true, required: false
+  // cert - computed: false, optional: false, required: true
   private _cert?: string; 
   public get cert() {
     return this.getStringAttribute('cert');
@@ -178,24 +216,18 @@ export class Sslcertkey extends cdktf.TerraformResource {
   public set cert(value: string) {
     this._cert = value;
   }
-  public resetCert() {
-    this._cert = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get certInput() {
     return this._cert;
   }
 
-  // certkey - computed: true, optional: true, required: false
+  // certkey - computed: false, optional: false, required: true
   private _certkey?: string; 
   public get certkey() {
     return this.getStringAttribute('certkey');
   }
   public set certkey(value: string) {
     this._certkey = value;
-  }
-  public resetCertkey() {
-    this._certkey = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get certkeyInput() {
@@ -218,7 +250,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._deletecertkeyfilesonremoval;
   }
 
-  // deletefromdevice - computed: true, optional: true, required: false
+  // deletefromdevice - computed: false, optional: true, required: false
   private _deletefromdevice?: boolean | cdktf.IResolvable; 
   public get deletefromdevice() {
     return this.getBooleanAttribute('deletefromdevice');
@@ -250,7 +282,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._expirymonitor;
   }
 
-  // fipskey - computed: true, optional: true, required: false
+  // fipskey - computed: false, optional: true, required: false
   private _fipskey?: string; 
   public get fipskey() {
     return this.getStringAttribute('fipskey');
@@ -266,7 +298,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._fipskey;
   }
 
-  // hsmkey - computed: true, optional: true, required: false
+  // hsmkey - computed: false, optional: true, required: false
   private _hsmkey?: string; 
   public get hsmkey() {
     return this.getStringAttribute('hsmkey');
@@ -282,20 +314,9 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._hsmkey;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // inform - computed: true, optional: true, required: false
@@ -314,7 +335,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._inform;
   }
 
-  // key - computed: true, optional: true, required: false
+  // key - computed: false, optional: true, required: false
   private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
@@ -346,7 +367,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._linkcertkeyname;
   }
 
-  // nodomaincheck - computed: true, optional: true, required: false
+  // nodomaincheck - computed: false, optional: true, required: false
   private _nodomaincheck?: boolean | cdktf.IResolvable; 
   public get nodomaincheck() {
     return this.getBooleanAttribute('nodomaincheck');
@@ -378,7 +399,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._notificationperiod;
   }
 
-  // ocspstaplingcache - computed: true, optional: true, required: false
+  // ocspstaplingcache - computed: false, optional: true, required: false
   private _ocspstaplingcache?: boolean | cdktf.IResolvable; 
   public get ocspstaplingcache() {
     return this.getBooleanAttribute('ocspstaplingcache');
@@ -394,7 +415,7 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._ocspstaplingcache;
   }
 
-  // passplain - computed: true, optional: true, required: false
+  // passplain - computed: false, optional: true, required: false
   private _passplain?: string; 
   public get passplain() {
     return this.getStringAttribute('passplain');
@@ -410,7 +431,39 @@ export class Sslcertkey extends cdktf.TerraformResource {
     return this._passplain;
   }
 
-  // password - computed: true, optional: true, required: false
+  // passplain_wo - computed: false, optional: true, required: false
+  private _passplainWo?: string; 
+  public get passplainWo() {
+    return this.getStringAttribute('passplain_wo');
+  }
+  public set passplainWo(value: string) {
+    this._passplainWo = value;
+  }
+  public resetPassplainWo() {
+    this._passplainWo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passplainWoInput() {
+    return this._passplainWo;
+  }
+
+  // passplain_wo_version - computed: true, optional: true, required: false
+  private _passplainWoVersion?: number; 
+  public get passplainWoVersion() {
+    return this.getNumberAttribute('passplain_wo_version');
+  }
+  public set passplainWoVersion(value: number) {
+    this._passplainWoVersion = value;
+  }
+  public resetPassplainWoVersion() {
+    this._passplainWoVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passplainWoVersionInput() {
+    return this._passplainWoVersion;
+  }
+
+  // password - computed: false, optional: true, required: false
   private _password?: boolean | cdktf.IResolvable; 
   public get password() {
     return this.getBooleanAttribute('password');
@@ -440,7 +493,6 @@ export class Sslcertkey extends cdktf.TerraformResource {
       expirymonitor: cdktf.stringToTerraform(this._expirymonitor),
       fipskey: cdktf.stringToTerraform(this._fipskey),
       hsmkey: cdktf.stringToTerraform(this._hsmkey),
-      id: cdktf.stringToTerraform(this._id),
       inform: cdktf.stringToTerraform(this._inform),
       key: cdktf.stringToTerraform(this._key),
       linkcertkeyname: cdktf.stringToTerraform(this._linkcertkeyname),
@@ -448,6 +500,8 @@ export class Sslcertkey extends cdktf.TerraformResource {
       notificationperiod: cdktf.numberToTerraform(this._notificationperiod),
       ocspstaplingcache: cdktf.booleanToTerraform(this._ocspstaplingcache),
       passplain: cdktf.stringToTerraform(this._passplain),
+      passplain_wo: cdktf.stringToTerraform(this._passplainWo),
+      passplain_wo_version: cdktf.numberToTerraform(this._passplainWoVersion),
       password: cdktf.booleanToTerraform(this._password),
     };
   }
@@ -502,12 +556,6 @@ export class Sslcertkey extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       inform: {
         value: cdktf.stringToHclTerraform(this._inform),
         isBlock: false,
@@ -549,6 +597,18 @@ export class Sslcertkey extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      passplain_wo: {
+        value: cdktf.stringToHclTerraform(this._passplainWo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      passplain_wo_version: {
+        value: cdktf.numberToHclTerraform(this._passplainWoVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       password: {
         value: cdktf.booleanToHclTerraform(this._password),

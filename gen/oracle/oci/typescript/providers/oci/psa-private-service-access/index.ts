@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface PsaPrivateServiceAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#compartment_id PsaPrivateServiceAccess#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#compartment_id PsaPrivateServiceAccess#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#defined_tags PsaPrivateServiceAccess#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#defined_tags PsaPrivateServiceAccess#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#description PsaPrivateServiceAccess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#description PsaPrivateServiceAccess#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#display_name PsaPrivateServiceAccess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#display_name PsaPrivateServiceAccess#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#freeform_tags PsaPrivateServiceAccess#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#freeform_tags PsaPrivateServiceAccess#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#id PsaPrivateServiceAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#id PsaPrivateServiceAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#ipv4ip PsaPrivateServiceAccess#ipv4ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#ipv4ip PsaPrivateServiceAccess#ipv4ip}
   */
   readonly ipv4Ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#nsg_ids PsaPrivateServiceAccess#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#nsg_ids PsaPrivateServiceAccess#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#security_attributes PsaPrivateServiceAccess#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#security_attributes PsaPrivateServiceAccess#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#service_id PsaPrivateServiceAccess#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#service_id PsaPrivateServiceAccess#service_id}
   */
   readonly serviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#subnet_id PsaPrivateServiceAccess#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#subnet_id PsaPrivateServiceAccess#subnet_id}
   */
   readonly subnetId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#timeouts PsaPrivateServiceAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#timeouts PsaPrivateServiceAccess#timeouts}
   */
   readonly timeouts?: PsaPrivateServiceAccessTimeouts;
 }
 export interface PsaPrivateServiceAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#create PsaPrivateServiceAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#create PsaPrivateServiceAccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#delete PsaPrivateServiceAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#delete PsaPrivateServiceAccess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#update PsaPrivateServiceAccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#update PsaPrivateServiceAccess#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class PsaPrivateServiceAccessTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access oci_psa_private_service_access}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access oci_psa_private_service_access}
 */
 export class PsaPrivateServiceAccess extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class PsaPrivateServiceAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PsaPrivateServiceAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PsaPrivateServiceAccess to import
-  * @param importFromId The id of the existing PsaPrivateServiceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PsaPrivateServiceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PsaPrivateServiceAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class PsaPrivateServiceAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/psa_private_service_access oci_psa_private_service_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/psa_private_service_access oci_psa_private_service_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class PsaPrivateServiceAccess extends cdktf.TerraformResource {
       terraformResourceType: 'oci_psa_private_service_access',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

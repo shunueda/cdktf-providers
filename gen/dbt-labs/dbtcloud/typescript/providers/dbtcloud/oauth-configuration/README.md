@@ -1,3 +1,3 @@
 # `dbtcloud_oauth_configuration`
 
-Refer to the Terraform Registry for docs: [`dbtcloud_oauth_configuration`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/oauth_configuration).
+Refer to the Terraform Registry for docs: [`dbtcloud_oauth_configuration`](https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/oauth_configuration).

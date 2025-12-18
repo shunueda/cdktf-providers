@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SiteWxtagConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `type`==`client`, Client MAC Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#mac SiteWxtag#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#mac SiteWxtag#mac}
   */
   readonly mac?: string;
   /**
   * required if `type`==`match`. enum: `ap_id`, `app`, `asset_mac`, `client_mac`, `hostname`, `ip_range_subnet`, `port`, `psk_name`, `psk_role`, `radius_attr`, `radius_class`, `radius_group`, `radius_username`, `sdkclient_uuid`, `wlan_id`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#match SiteWxtag#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#match SiteWxtag#match}
   */
   readonly match?: string;
   /**
   * The name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#name SiteWxtag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#name SiteWxtag#name}
   */
   readonly name: string;
   /**
   * required if `type`==`match`, type of tag (inclusive/exclusive). enum: `in`, `not_in`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#op SiteWxtag#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#op SiteWxtag#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#site_id SiteWxtag#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#site_id SiteWxtag#site_id}
   */
   readonly siteId: string;
   /**
   * If `type`==`spec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#specs SiteWxtag#specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#specs SiteWxtag#specs}
   */
   readonly specs?: SiteWxtagSpecs[] | cdktf.IResolvable;
   /**
   * enum: `client`, `match`, `resource`, `spec`, `subnet`, `vlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#type SiteWxtag#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#type SiteWxtag#type}
   */
   readonly type: string;
   /**
@@ -68,11 +68,11 @@ export interface SiteWxtagConfig extends cdktf.TerraformMetaArguments {
   * **Notes**:
   * Variables are not allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#values SiteWxtag#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#values SiteWxtag#values}
   */
   readonly values?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#vlan_id SiteWxtag#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#vlan_id SiteWxtag#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -80,19 +80,19 @@ export interface SiteWxtagSpecs {
   /**
   * Matched destination port, "0" means any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#port_range SiteWxtag#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#port_range SiteWxtag#port_range}
   */
   readonly portRange?: string;
   /**
   * tcp / udp / icmp / gre / any / ":protocol_number", `protocol_number` is between 1-254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#protocol SiteWxtag#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#protocol SiteWxtag#protocol}
   */
   readonly protocol?: string;
   /**
   * Matched destination subnets and/or IP Addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#subnets SiteWxtag#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#subnets SiteWxtag#subnets}
   */
   readonly subnets?: string[];
 }
@@ -266,7 +266,7 @@ export class SiteWxtagSpecsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag mist_site_wxtag}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag mist_site_wxtag}
 */
 export class SiteWxtag extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class SiteWxtag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteWxtag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteWxtag to import
-  * @param importFromId The id of the existing SiteWxtag that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteWxtag that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteWxtag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class SiteWxtag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wxtag mist_site_wxtag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wxtag mist_site_wxtag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class SiteWxtag extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site_wxtag',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

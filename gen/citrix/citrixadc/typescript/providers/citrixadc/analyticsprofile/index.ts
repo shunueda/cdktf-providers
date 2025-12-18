@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,180 +8,180 @@ import * as cdktf from 'cdktf';
 
 export interface AnalyticsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#allhttpheaders Analyticsprofile#allhttpheaders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#allhttpheaders Analyticsprofile#allhttpheaders}
   */
   readonly allhttpheaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#analyticsauthtoken Analyticsprofile#analyticsauthtoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#analyticsauthtoken Analyticsprofile#analyticsauthtoken}
   */
   readonly analyticsauthtoken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#analyticsendpointcontenttype Analyticsprofile#analyticsendpointcontenttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#analyticsendpointcontenttype Analyticsprofile#analyticsendpointcontenttype}
   */
   readonly analyticsendpointcontenttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#analyticsendpointmetadata Analyticsprofile#analyticsendpointmetadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#analyticsendpointmetadata Analyticsprofile#analyticsendpointmetadata}
   */
   readonly analyticsendpointmetadata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#analyticsendpointurl Analyticsprofile#analyticsendpointurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#analyticsendpointurl Analyticsprofile#analyticsendpointurl}
   */
   readonly analyticsendpointurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#auditlogs Analyticsprofile#auditlogs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#auditlogs Analyticsprofile#auditlogs}
   */
   readonly auditlogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#collectors Analyticsprofile#collectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#collectors Analyticsprofile#collectors}
   */
   readonly collectors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#cqareporting Analyticsprofile#cqareporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#cqareporting Analyticsprofile#cqareporting}
   */
   readonly cqareporting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#dataformatfile Analyticsprofile#dataformatfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#dataformatfile Analyticsprofile#dataformatfile}
   */
   readonly dataformatfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#events Analyticsprofile#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#events Analyticsprofile#events}
   */
   readonly events?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#grpcstatus Analyticsprofile#grpcstatus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#grpcstatus Analyticsprofile#grpcstatus}
   */
   readonly grpcstatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpauthentication Analyticsprofile#httpauthentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpauthentication Analyticsprofile#httpauthentication}
   */
   readonly httpauthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpclientsidemeasurements Analyticsprofile#httpclientsidemeasurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpclientsidemeasurements Analyticsprofile#httpclientsidemeasurements}
   */
   readonly httpclientsidemeasurements?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpcontenttype Analyticsprofile#httpcontenttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpcontenttype Analyticsprofile#httpcontenttype}
   */
   readonly httpcontenttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpcookie Analyticsprofile#httpcookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpcookie Analyticsprofile#httpcookie}
   */
   readonly httpcookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpcustomheaders Analyticsprofile#httpcustomheaders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpcustomheaders Analyticsprofile#httpcustomheaders}
   */
   readonly httpcustomheaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpdomainname Analyticsprofile#httpdomainname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpdomainname Analyticsprofile#httpdomainname}
   */
   readonly httpdomainname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httphost Analyticsprofile#httphost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httphost Analyticsprofile#httphost}
   */
   readonly httphost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httplocation Analyticsprofile#httplocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httplocation Analyticsprofile#httplocation}
   */
   readonly httplocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpmethod Analyticsprofile#httpmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpmethod Analyticsprofile#httpmethod}
   */
   readonly httpmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httppagetracking Analyticsprofile#httppagetracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httppagetracking Analyticsprofile#httppagetracking}
   */
   readonly httppagetracking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpreferer Analyticsprofile#httpreferer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpreferer Analyticsprofile#httpreferer}
   */
   readonly httpreferer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpsetcookie Analyticsprofile#httpsetcookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpsetcookie Analyticsprofile#httpsetcookie}
   */
   readonly httpsetcookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpsetcookie2 Analyticsprofile#httpsetcookie2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpsetcookie2 Analyticsprofile#httpsetcookie2}
   */
   readonly httpsetcookie2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpurl Analyticsprofile#httpurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpurl Analyticsprofile#httpurl}
   */
   readonly httpurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpurlquery Analyticsprofile#httpurlquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpurlquery Analyticsprofile#httpurlquery}
   */
   readonly httpurlquery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpuseragent Analyticsprofile#httpuseragent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpuseragent Analyticsprofile#httpuseragent}
   */
   readonly httpuseragent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpvia Analyticsprofile#httpvia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpvia Analyticsprofile#httpvia}
   */
   readonly httpvia?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#httpxforwardedforheader Analyticsprofile#httpxforwardedforheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#httpxforwardedforheader Analyticsprofile#httpxforwardedforheader}
   */
   readonly httpxforwardedforheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#id Analyticsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#id Analyticsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#integratedcache Analyticsprofile#integratedcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#integratedcache Analyticsprofile#integratedcache}
   */
   readonly integratedcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#managementlog Analyticsprofile#managementlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#managementlog Analyticsprofile#managementlog}
   */
   readonly managementlog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#metrics Analyticsprofile#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#metrics Analyticsprofile#metrics}
   */
   readonly metrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#metricsexportfrequency Analyticsprofile#metricsexportfrequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#metricsexportfrequency Analyticsprofile#metricsexportfrequency}
   */
   readonly metricsexportfrequency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#name Analyticsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#name Analyticsprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#outputmode Analyticsprofile#outputmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#outputmode Analyticsprofile#outputmode}
   */
   readonly outputmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#schemafile Analyticsprofile#schemafile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#schemafile Analyticsprofile#schemafile}
   */
   readonly schemafile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#servemode Analyticsprofile#servemode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#servemode Analyticsprofile#servemode}
   */
   readonly servemode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#tcpburstreporting Analyticsprofile#tcpburstreporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#tcpburstreporting Analyticsprofile#tcpburstreporting}
   */
   readonly tcpburstreporting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#topn Analyticsprofile#topn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#topn Analyticsprofile#topn}
   */
   readonly topn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#type Analyticsprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#type Analyticsprofile#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#urlcategory Analyticsprofile#urlcategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#urlcategory Analyticsprofile#urlcategory}
   */
   readonly urlcategory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile citrixadc_analyticsprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile citrixadc_analyticsprofile}
 */
 export class Analyticsprofile extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class Analyticsprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Analyticsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Analyticsprofile to import
-  * @param importFromId The id of the existing Analyticsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Analyticsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Analyticsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class Analyticsprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/analyticsprofile citrixadc_analyticsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/analyticsprofile citrixadc_analyticsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class Analyticsprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_analyticsprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

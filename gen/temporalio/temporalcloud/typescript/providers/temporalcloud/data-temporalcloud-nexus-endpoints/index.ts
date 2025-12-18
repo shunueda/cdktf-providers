@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/nexus_endpoints
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/nexus_endpoints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -71,7 +71,7 @@ export interface DataTemporalcloudNexusEndpointsNexusEndpoints {
   /**
   * The description of the Nexus Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/nexus_endpoints#description DataTemporalcloudNexusEndpoints#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/nexus_endpoints#description DataTemporalcloudNexusEndpoints#description}
   */
   readonly description?: string;
 }
@@ -213,7 +213,7 @@ export class DataTemporalcloudNexusEndpointsNexusEndpointsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/nexus_endpoints temporalcloud_nexus_endpoints}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/nexus_endpoints temporalcloud_nexus_endpoints}
 */
 export class DataTemporalcloudNexusEndpoints extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataTemporalcloudNexusEndpoints extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTemporalcloudNexusEndpoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalcloudNexusEndpoints to import
-  * @param importFromId The id of the existing DataTemporalcloudNexusEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/nexus_endpoints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalcloudNexusEndpoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/nexus_endpoints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalcloudNexusEndpoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataTemporalcloudNexusEndpoints extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/nexus_endpoints temporalcloud_nexus_endpoints} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/nexus_endpoints temporalcloud_nexus_endpoints} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataTemporalcloudNexusEndpoints extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporalcloud_nexus_endpoints',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataDbtcloudGlobalConnectionConfig extends cdktf.TerraformMetaA
   /**
   * Connection Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection#id DataDbtcloudGlobalConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection#id DataDbtcloudGlobalConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -224,7 +224,7 @@ export interface DataDbtcloudGlobalConnectionBigquery {
   /**
   * The GCP project ID to use for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection#gcp_project_id DataDbtcloudGlobalConnection#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection#gcp_project_id DataDbtcloudGlobalConnection#gcp_project_id}
   */
   readonly gcpProjectId: string;
 }
@@ -793,7 +793,7 @@ export interface DataDbtcloudGlobalConnectionRedshift {
   /**
   * The hostname of the data warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection#hostname DataDbtcloudGlobalConnection#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection#hostname DataDbtcloudGlobalConnection#hostname}
   */
   readonly hostname: string;
 }
@@ -1196,7 +1196,7 @@ export class DataDbtcloudGlobalConnectionTeradataOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection dbtcloud_global_connection}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection dbtcloud_global_connection}
 */
 export class DataDbtcloudGlobalConnection extends cdktf.TerraformDataSource {
 
@@ -1212,7 +1212,7 @@ export class DataDbtcloudGlobalConnection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudGlobalConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudGlobalConnection to import
-  * @param importFromId The id of the existing DataDbtcloudGlobalConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudGlobalConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudGlobalConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1224,7 +1224,7 @@ export class DataDbtcloudGlobalConnection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/global_connection dbtcloud_global_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/global_connection dbtcloud_global_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1235,8 +1235,8 @@ export class DataDbtcloudGlobalConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_global_connection',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

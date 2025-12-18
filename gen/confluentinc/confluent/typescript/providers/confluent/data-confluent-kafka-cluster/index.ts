@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataConfluentKafkaClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#display_name DataConfluentKafkaCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#display_name DataConfluentKafkaCluster#display_name}
   */
   readonly displayName?: string;
   /**
   * The ID of the Kafka cluster, for example, `lkc-abc123`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#id DataConfluentKafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#id DataConfluentKafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataConfluentKafkaClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#basic DataConfluentKafkaCluster#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#basic DataConfluentKafkaCluster#basic}
   */
   readonly basic?: DataConfluentKafkaClusterBasic[] | cdktf.IResolvable;
   /**
   * dedicated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#dedicated DataConfluentKafkaCluster#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#dedicated DataConfluentKafkaCluster#dedicated}
   */
   readonly dedicated?: DataConfluentKafkaClusterDedicated;
   /**
   * enterprise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#enterprise DataConfluentKafkaCluster#enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#enterprise DataConfluentKafkaCluster#enterprise}
   */
   readonly enterprise?: DataConfluentKafkaClusterEnterprise[] | cdktf.IResolvable;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#environment DataConfluentKafkaCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#environment DataConfluentKafkaCluster#environment}
   */
   readonly environment: DataConfluentKafkaClusterEnvironment;
   /**
   * freight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#freight DataConfluentKafkaCluster#freight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#freight DataConfluentKafkaCluster#freight}
   */
   readonly freight?: DataConfluentKafkaClusterFreight[] | cdktf.IResolvable;
   /**
   * standard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#standard DataConfluentKafkaCluster#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#standard DataConfluentKafkaCluster#standard}
   */
   readonly standard?: DataConfluentKafkaClusterStandard[] | cdktf.IResolvable;
 }
@@ -298,6 +298,12 @@ export class DataConfluentKafkaClusterNetworkList extends cdktf.ComplexList {
   }
 }
 export interface DataConfluentKafkaClusterBasic {
+  /**
+  * The maximum number of Elastic Confluent Kafka Units (eCKUs) that Kafka clusters should auto-scale to. Kafka clusters with HIGH availability must have at least two eCKUs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#max_ecku DataConfluentKafkaCluster#max_ecku}
+  */
+  readonly maxEcku?: number;
 }
 
 export function dataConfluentKafkaClusterBasicToTerraform(struct?: DataConfluentKafkaClusterBasic | cdktf.IResolvable): any {
@@ -306,6 +312,7 @@ export function dataConfluentKafkaClusterBasicToTerraform(struct?: DataConfluent
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    max_ecku: cdktf.numberToTerraform(struct!.maxEcku),
   }
 }
 
@@ -316,8 +323,16 @@ export function dataConfluentKafkaClusterBasicToHclTerraform(struct?: DataConflu
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    max_ecku: {
+      value: cdktf.numberToHclTerraform(struct!.maxEcku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class DataConfluentKafkaClusterBasicOutputReference extends cdktf.ComplexObject {
@@ -340,6 +355,10 @@ export class DataConfluentKafkaClusterBasicOutputReference extends cdktf.Complex
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._maxEcku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxEcku = this._maxEcku;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -347,6 +366,7 @@ export class DataConfluentKafkaClusterBasicOutputReference extends cdktf.Complex
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._maxEcku = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -355,7 +375,24 @@ export class DataConfluentKafkaClusterBasicOutputReference extends cdktf.Complex
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._maxEcku = value.maxEcku;
     }
+  }
+
+  // max_ecku - computed: true, optional: true, required: false
+  private _maxEcku?: number; 
+  public get maxEcku() {
+    return this.getNumberAttribute('max_ecku');
+  }
+  public set maxEcku(value: number) {
+    this._maxEcku = value;
+  }
+  public resetMaxEcku() {
+    this._maxEcku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxEckuInput() {
+    return this._maxEcku;
   }
 }
 
@@ -443,6 +480,12 @@ export class DataConfluentKafkaClusterDedicatedOutputReference extends cdktf.Com
   }
 }
 export interface DataConfluentKafkaClusterEnterprise {
+  /**
+  * The maximum number of Elastic Confluent Kafka Units (eCKUs) that Kafka clusters should auto-scale to. Kafka clusters with HIGH availability must have at least two eCKUs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#max_ecku DataConfluentKafkaCluster#max_ecku}
+  */
+  readonly maxEcku?: number;
 }
 
 export function dataConfluentKafkaClusterEnterpriseToTerraform(struct?: DataConfluentKafkaClusterEnterprise | cdktf.IResolvable): any {
@@ -451,6 +494,7 @@ export function dataConfluentKafkaClusterEnterpriseToTerraform(struct?: DataConf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    max_ecku: cdktf.numberToTerraform(struct!.maxEcku),
   }
 }
 
@@ -461,8 +505,16 @@ export function dataConfluentKafkaClusterEnterpriseToHclTerraform(struct?: DataC
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    max_ecku: {
+      value: cdktf.numberToHclTerraform(struct!.maxEcku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class DataConfluentKafkaClusterEnterpriseOutputReference extends cdktf.ComplexObject {
@@ -485,6 +537,10 @@ export class DataConfluentKafkaClusterEnterpriseOutputReference extends cdktf.Co
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._maxEcku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxEcku = this._maxEcku;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -492,6 +548,7 @@ export class DataConfluentKafkaClusterEnterpriseOutputReference extends cdktf.Co
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._maxEcku = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -500,7 +557,24 @@ export class DataConfluentKafkaClusterEnterpriseOutputReference extends cdktf.Co
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._maxEcku = value.maxEcku;
     }
+  }
+
+  // max_ecku - computed: true, optional: true, required: false
+  private _maxEcku?: number; 
+  public get maxEcku() {
+    return this.getNumberAttribute('max_ecku');
+  }
+  public set maxEcku(value: number) {
+    this._maxEcku = value;
+  }
+  public resetMaxEcku() {
+    this._maxEcku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxEckuInput() {
+    return this._maxEcku;
   }
 }
 
@@ -525,7 +599,7 @@ export class DataConfluentKafkaClusterEnterpriseList extends cdktf.ComplexList {
 }
 export interface DataConfluentKafkaClusterEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#id DataConfluentKafkaCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#id DataConfluentKafkaCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -608,6 +682,12 @@ export class DataConfluentKafkaClusterEnvironmentOutputReference extends cdktf.C
   }
 }
 export interface DataConfluentKafkaClusterFreight {
+  /**
+  * The maximum number of Elastic Confluent Kafka Units (eCKUs) that Kafka clusters should auto-scale to. Kafka clusters with HIGH availability must have at least two eCKUs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#max_ecku DataConfluentKafkaCluster#max_ecku}
+  */
+  readonly maxEcku?: number;
 }
 
 export function dataConfluentKafkaClusterFreightToTerraform(struct?: DataConfluentKafkaClusterFreight | cdktf.IResolvable): any {
@@ -616,6 +696,7 @@ export function dataConfluentKafkaClusterFreightToTerraform(struct?: DataConflue
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    max_ecku: cdktf.numberToTerraform(struct!.maxEcku),
   }
 }
 
@@ -626,8 +707,16 @@ export function dataConfluentKafkaClusterFreightToHclTerraform(struct?: DataConf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    max_ecku: {
+      value: cdktf.numberToHclTerraform(struct!.maxEcku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class DataConfluentKafkaClusterFreightOutputReference extends cdktf.ComplexObject {
@@ -650,6 +739,10 @@ export class DataConfluentKafkaClusterFreightOutputReference extends cdktf.Compl
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._maxEcku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxEcku = this._maxEcku;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -657,6 +750,7 @@ export class DataConfluentKafkaClusterFreightOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._maxEcku = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -665,7 +759,24 @@ export class DataConfluentKafkaClusterFreightOutputReference extends cdktf.Compl
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._maxEcku = value.maxEcku;
     }
+  }
+
+  // max_ecku - computed: true, optional: true, required: false
+  private _maxEcku?: number; 
+  public get maxEcku() {
+    return this.getNumberAttribute('max_ecku');
+  }
+  public set maxEcku(value: number) {
+    this._maxEcku = value;
+  }
+  public resetMaxEcku() {
+    this._maxEcku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxEckuInput() {
+    return this._maxEcku;
   }
 
   // zones - computed: true, optional: false, required: false
@@ -694,6 +805,12 @@ export class DataConfluentKafkaClusterFreightList extends cdktf.ComplexList {
   }
 }
 export interface DataConfluentKafkaClusterStandard {
+  /**
+  * The maximum number of Elastic Confluent Kafka Units (eCKUs) that Kafka clusters should auto-scale to. Kafka clusters with HIGH availability must have at least two eCKUs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#max_ecku DataConfluentKafkaCluster#max_ecku}
+  */
+  readonly maxEcku?: number;
 }
 
 export function dataConfluentKafkaClusterStandardToTerraform(struct?: DataConfluentKafkaClusterStandard | cdktf.IResolvable): any {
@@ -702,6 +819,7 @@ export function dataConfluentKafkaClusterStandardToTerraform(struct?: DataConflu
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    max_ecku: cdktf.numberToTerraform(struct!.maxEcku),
   }
 }
 
@@ -712,8 +830,16 @@ export function dataConfluentKafkaClusterStandardToHclTerraform(struct?: DataCon
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    max_ecku: {
+      value: cdktf.numberToHclTerraform(struct!.maxEcku),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
-  return attrs;
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class DataConfluentKafkaClusterStandardOutputReference extends cdktf.ComplexObject {
@@ -736,6 +862,10 @@ export class DataConfluentKafkaClusterStandardOutputReference extends cdktf.Comp
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._maxEcku !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxEcku = this._maxEcku;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -743,6 +873,7 @@ export class DataConfluentKafkaClusterStandardOutputReference extends cdktf.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._maxEcku = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -751,7 +882,24 @@ export class DataConfluentKafkaClusterStandardOutputReference extends cdktf.Comp
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._maxEcku = value.maxEcku;
     }
+  }
+
+  // max_ecku - computed: true, optional: true, required: false
+  private _maxEcku?: number; 
+  public get maxEcku() {
+    return this.getNumberAttribute('max_ecku');
+  }
+  public set maxEcku(value: number) {
+    this._maxEcku = value;
+  }
+  public resetMaxEcku() {
+    this._maxEcku = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxEckuInput() {
+    return this._maxEcku;
   }
 }
 
@@ -776,7 +924,7 @@ export class DataConfluentKafkaClusterStandardList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster confluent_kafka_cluster}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster confluent_kafka_cluster}
 */
 export class DataConfluentKafkaCluster extends cdktf.TerraformDataSource {
 
@@ -792,7 +940,7 @@ export class DataConfluentKafkaCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataConfluentKafkaCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataConfluentKafkaCluster to import
-  * @param importFromId The id of the existing DataConfluentKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataConfluentKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataConfluentKafkaCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -804,7 +952,7 @@ export class DataConfluentKafkaCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/data-sources/kafka_cluster confluent_kafka_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/data-sources/kafka_cluster confluent_kafka_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -815,8 +963,8 @@ export class DataConfluentKafkaCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'confluent_kafka_cluster',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

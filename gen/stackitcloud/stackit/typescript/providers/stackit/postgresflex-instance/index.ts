@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PostgresflexInstanceConfig extends cdktf.TerraformMetaArguments
   /**
   * The Access Control List (ACL) for the PostgresFlex instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#acl PostgresflexInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#acl PostgresflexInstance#acl}
   */
   readonly acl: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#backup_schedule PostgresflexInstance#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#backup_schedule PostgresflexInstance#backup_schedule}
   */
   readonly backupSchedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#flavor PostgresflexInstance#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#flavor PostgresflexInstance#flavor}
   */
   readonly flavor: PostgresflexInstanceFlavor;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#name PostgresflexInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#name PostgresflexInstance#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#project_id PostgresflexInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#project_id PostgresflexInstance#project_id}
   */
   readonly projectId: string;
   /**
   * The resource region. If not defined, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#region PostgresflexInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#region PostgresflexInstance#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#replicas PostgresflexInstance#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#replicas PostgresflexInstance#replicas}
   */
   readonly replicas: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#storage PostgresflexInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#storage PostgresflexInstance#storage}
   */
   readonly storage: PostgresflexInstanceStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#version PostgresflexInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#version PostgresflexInstance#version}
   */
   readonly version: string;
 }
 export interface PostgresflexInstanceFlavor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#cpu PostgresflexInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#cpu PostgresflexInstance#cpu}
   */
   readonly cpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#ram PostgresflexInstance#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#ram PostgresflexInstance#ram}
   */
   readonly ram: number;
 }
@@ -185,11 +185,11 @@ export class PostgresflexInstanceFlavorOutputReference extends cdktf.ComplexObje
 }
 export interface PostgresflexInstanceStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#class PostgresflexInstance#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#class PostgresflexInstance#class}
   */
   readonly class: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#size PostgresflexInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#size PostgresflexInstance#size}
   */
   readonly size: number;
 }
@@ -306,7 +306,7 @@ export class PostgresflexInstanceStorageOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance stackit_postgresflex_instance}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance stackit_postgresflex_instance}
 */
 export class PostgresflexInstance extends cdktf.TerraformResource {
 
@@ -322,7 +322,7 @@ export class PostgresflexInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresflexInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresflexInstance to import
-  * @param importFromId The id of the existing PostgresflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresflexInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresflexInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -334,7 +334,7 @@ export class PostgresflexInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/postgresflex_instance stackit_postgresflex_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/postgresflex_instance stackit_postgresflex_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,8 +345,8 @@ export class PostgresflexInstance extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_postgresflex_instance',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

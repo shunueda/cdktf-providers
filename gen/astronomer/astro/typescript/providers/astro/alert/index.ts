@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert
+// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * The entity ID the alert is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#entity_id Alert#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#entity_id Alert#entity_id}
   */
   readonly entityId: string;
   /**
   * The ID of the Deployment to which the alert is scoped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#entity_type Alert#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#entity_type Alert#entity_type}
   */
   readonly entityType: string;
   /**
   * Alert name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#name Alert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#name Alert#name}
   */
   readonly name: string;
   /**
   * Set of notification channel identifiers to notify when the alert is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#notification_channel_ids Alert#notification_channel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#notification_channel_ids Alert#notification_channel_ids}
   */
   readonly notificationChannelIds: string[];
   /**
   * Alert rules defining the conditions for triggering the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#rules Alert#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#rules Alert#rules}
   */
   readonly rules: AlertRules;
   /**
   * The alert's severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#severity Alert#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#severity Alert#severity}
   */
   readonly severity: string;
   /**
   * The alert's type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#type Alert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#type Alert#type}
   */
   readonly type: string;
 }
@@ -212,43 +212,43 @@ export interface AlertNotificationChannelsDefinition {
   /**
   * The API key for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#api_key Alert#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#api_key Alert#api_key}
   */
   readonly apiKey?: string;
   /**
   * The DAG ID for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#dag_id Alert#dag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#dag_id Alert#dag_id}
   */
   readonly dagId?: string;
   /**
   * The deployment API token for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#deployment_api_token Alert#deployment_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#deployment_api_token Alert#deployment_api_token}
   */
   readonly deploymentApiToken?: string;
   /**
   * The deployment ID for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#deployment_id Alert#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#deployment_id Alert#deployment_id}
   */
   readonly deploymentId?: string;
   /**
   * The integration key for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#integration_key Alert#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#integration_key Alert#integration_key}
   */
   readonly integrationKey?: string;
   /**
   * The recipients for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#recipients Alert#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#recipients Alert#recipients}
   */
   readonly recipients?: string[];
   /**
   * The webhook URL for the notification channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#webhook_url Alert#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#webhook_url Alert#webhook_url}
   */
   readonly webhookUrl?: string;
 }
@@ -587,37 +587,37 @@ export interface AlertNotificationChannels {
   /**
   * The notification channel's definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#definition Alert#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#definition Alert#definition}
   */
   readonly definition: AlertNotificationChannelsDefinition;
   /**
   * The entity ID the notification channel is scoped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#entity_id Alert#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#entity_id Alert#entity_id}
   */
   readonly entityId: string;
   /**
   * The type of entity the notification channel is scoped to (e.g., 'DEPLOYMENT')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#entity_type Alert#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#entity_type Alert#entity_type}
   */
   readonly entityType: string;
   /**
   * When entity type is scoped to ORGANIZATION or WORKSPACE, this determines if child entities can access this notification channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#is_shared Alert#is_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#is_shared Alert#is_shared}
   */
   readonly isShared?: boolean | cdktf.IResolvable;
   /**
   * The notification channel's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#name Alert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#name Alert#name}
   */
   readonly name: string;
   /**
   * The notification channel's type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#type Alert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#type Alert#type}
   */
   readonly type: string;
 }
@@ -897,19 +897,19 @@ export interface AlertRulesPatternMatches {
   /**
   * The type of entity to match against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#entity_type Alert#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#entity_type Alert#entity_type}
   */
   readonly entityType: string;
   /**
   * The type of operator to use for the pattern match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#operator_type Alert#operator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#operator_type Alert#operator_type}
   */
   readonly operatorType: string;
   /**
   * The values to match against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#values Alert#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#values Alert#values}
   */
   readonly values: string[];
 }
@@ -1076,37 +1076,37 @@ export interface AlertRulesProperties {
   /**
   * The deadline for the DAG in HH:MM 24-hour UTC format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#dag_deadline Alert#dag_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#dag_deadline Alert#dag_deadline}
   */
   readonly dagDeadline?: string;
   /**
   * The duration of the DAG in seconds (minimum 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#dag_duration_seconds Alert#dag_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#dag_duration_seconds Alert#dag_duration_seconds}
   */
   readonly dagDurationSeconds?: number;
   /**
   * The days of the week for the timeliness rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#days_of_week Alert#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#days_of_week Alert#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * The ID of the deployment for the alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#deployment_id Alert#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#deployment_id Alert#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * The look-back period in seconds (minimum 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#look_back_period_seconds Alert#look_back_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#look_back_period_seconds Alert#look_back_period_seconds}
   */
   readonly lookBackPeriodSeconds?: number;
   /**
   * The duration of the Task in seconds (minimum 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#task_duration_seconds Alert#task_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#task_duration_seconds Alert#task_duration_seconds}
   */
   readonly taskDurationSeconds?: number;
 }
@@ -1344,13 +1344,13 @@ export interface AlertRules {
   /**
   * The alert's pattern matches to match against
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#pattern_matches Alert#pattern_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#pattern_matches Alert#pattern_matches}
   */
   readonly patternMatches: AlertRulesPatternMatches[] | cdktf.IResolvable;
   /**
   * The alert's properties used to define the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#properties Alert#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#properties Alert#properties}
   */
   readonly properties: AlertRulesProperties;
 }
@@ -1546,7 +1546,7 @@ export class AlertUpdatedByOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert astro_alert}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert astro_alert}
 */
 export class Alert extends cdktf.TerraformResource {
 
@@ -1562,7 +1562,7 @@ export class Alert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Alert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Alert to import
-  * @param importFromId The id of the existing Alert that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Alert that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Alert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1574,7 +1574,7 @@ export class Alert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/alert astro_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/alert astro_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1585,8 +1585,8 @@ export class Alert extends cdktf.TerraformResource {
       terraformResourceType: 'astro_alert',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.9',
-        providerVersionConstraint: '1.0.9'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

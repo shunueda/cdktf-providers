@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDbmulticloudOracleDbAzureKeysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#compartment_id DataOciDbmulticloudOracleDbAzureKeys#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#compartment_id DataOciDbmulticloudOracleDbAzureKeys#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#display_name DataOciDbmulticloudOracleDbAzureKeys#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#display_name DataOciDbmulticloudOracleDbAzureKeys#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#id DataOciDbmulticloudOracleDbAzureKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#id DataOciDbmulticloudOracleDbAzureKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_key_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_key_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_key_id}
   */
   readonly oracleDbAzureKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureKeys#oracle_db_azure_vault_id}
   */
   readonly oracleDbAzureVaultId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#state DataOciDbmulticloudOracleDbAzureKeys#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#state DataOciDbmulticloudOracleDbAzureKeys#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#filter DataOciDbmulticloudOracleDbAzureKeys#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#filter DataOciDbmulticloudOracleDbAzureKeys#filter}
   */
   readonly filter?: DataOciDbmulticloudOracleDbAzureKeysFilter[] | cdktf.IResolvable;
 }
@@ -268,15 +268,15 @@ export class DataOciDbmulticloudOracleDbAzureKeysOracleDbAzureKeySummaryCollecti
 }
 export interface DataOciDbmulticloudOracleDbAzureKeysFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#name DataOciDbmulticloudOracleDbAzureKeys#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#name DataOciDbmulticloudOracleDbAzureKeys#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#regex DataOciDbmulticloudOracleDbAzureKeys#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#regex DataOciDbmulticloudOracleDbAzureKeys#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#values DataOciDbmulticloudOracleDbAzureKeys#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#values DataOciDbmulticloudOracleDbAzureKeys#values}
   */
   readonly values: string[];
 }
@@ -444,7 +444,7 @@ export class DataOciDbmulticloudOracleDbAzureKeysFilterList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys oci_dbmulticloud_oracle_db_azure_keys}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys oci_dbmulticloud_oracle_db_azure_keys}
 */
 export class DataOciDbmulticloudOracleDbAzureKeys extends cdktf.TerraformDataSource {
 
@@ -460,7 +460,7 @@ export class DataOciDbmulticloudOracleDbAzureKeys extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciDbmulticloudOracleDbAzureKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDbmulticloudOracleDbAzureKeys to import
-  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbAzureKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbAzureKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDbmulticloudOracleDbAzureKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class DataOciDbmulticloudOracleDbAzureKeys extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys oci_dbmulticloud_oracle_db_azure_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys oci_dbmulticloud_oracle_db_azure_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class DataOciDbmulticloudOracleDbAzureKeys extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_keys',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

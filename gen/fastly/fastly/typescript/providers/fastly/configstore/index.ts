@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConfigstoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow the Config Store to be deleted, even if it contains entries. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore#force_destroy Configstore#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore#force_destroy Configstore#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore#id Configstore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore#id Configstore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ConfigstoreConfig extends cdktf.TerraformMetaArguments {
   /**
   * A unique name to identify the Config Store. It is important to note that changing this attribute will delete and recreate the Config Store, and discard the current entries. You MUST first delete the associated resource_link block from your service before modifying this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore#name Configstore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore#name Configstore#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore fastly_configstore}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore fastly_configstore}
 */
 export class Configstore extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class Configstore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Configstore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Configstore to import
-  * @param importFromId The id of the existing Configstore that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Configstore that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Configstore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class Configstore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore fastly_configstore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore fastly_configstore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class Configstore extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_configstore',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

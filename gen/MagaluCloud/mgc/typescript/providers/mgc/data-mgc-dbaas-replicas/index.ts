@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_replicas
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/dbaas_replicas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -241,7 +241,7 @@ export class DataMgcDbaasReplicasReplicasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_replicas mgc_dbaas_replicas}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/dbaas_replicas mgc_dbaas_replicas}
 */
 export class DataMgcDbaasReplicas extends cdktf.TerraformDataSource {
 
@@ -257,7 +257,7 @@ export class DataMgcDbaasReplicas extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcDbaasReplicas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcDbaasReplicas to import
-  * @param importFromId The id of the existing DataMgcDbaasReplicas that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_replicas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcDbaasReplicas that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/dbaas_replicas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcDbaasReplicas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class DataMgcDbaasReplicas extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/dbaas_replicas mgc_dbaas_replicas} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/dbaas_replicas mgc_dbaas_replicas} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class DataMgcDbaasReplicas extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_dbaas_replicas',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

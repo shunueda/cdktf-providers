@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface WorkflowAlertConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#cause_ids WorkflowAlert#cause_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#cause_ids WorkflowAlert#cause_ids}
   */
   readonly causeIds?: string[];
   /**
   * Workflow command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#command WorkflowAlert#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#command WorkflowAlert#command}
   */
   readonly command?: string;
   /**
   * This will notify you back when the workflow is starting. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#command_feedback_enabled WorkflowAlert#command_feedback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#command_feedback_enabled WorkflowAlert#command_feedback_enabled}
   */
   readonly commandFeedbackEnabled?: boolean | cdktf.IResolvable;
   /**
   * When continuously repeat is true, repeat workflows aren't automatically stopped when conditions aren't met. This setting won't override your conditions set by repeat_condition_duration_since_first_run and repeat_condition_number_of_repeats parameters.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#continuously_repeat WorkflowAlert#continuously_repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#continuously_repeat WorkflowAlert#continuously_repeat}
   */
   readonly continuouslyRepeat?: boolean | cdktf.IResolvable;
   /**
   * The description of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#description WorkflowAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#description WorkflowAlert#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#enabled WorkflowAlert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#enabled WorkflowAlert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#environment_ids WorkflowAlert#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#environment_ids WorkflowAlert#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#functionality_ids WorkflowAlert#functionality_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#functionality_ids WorkflowAlert#functionality_ids}
   */
   readonly functionalityIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#group_ids WorkflowAlert#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#group_ids WorkflowAlert#group_ids}
   */
   readonly groupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#id WorkflowAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#id WorkflowAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#incident_role_ids WorkflowAlert#incident_role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#incident_role_ids WorkflowAlert#incident_role_ids}
   */
   readonly incidentRoleIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#incident_type_ids WorkflowAlert#incident_type_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#incident_type_ids WorkflowAlert#incident_type_ids}
   */
   readonly incidentTypeIds?: string[];
   /**
   * Restricts workflow edits to admins when turned on. Only admins can set this field.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#locked WorkflowAlert#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#locked WorkflowAlert#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The title of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#name WorkflowAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#name WorkflowAlert#name}
   */
   readonly name: string;
   /**
   * The order which the workflow should run with other workflows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#position WorkflowAlert#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#position WorkflowAlert#position}
   */
   readonly position?: number;
   /**
   * The workflow will stop repeating if its runtime since it's first workflow run exceeds the duration set in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#repeat_condition_duration_since_first_run WorkflowAlert#repeat_condition_duration_since_first_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#repeat_condition_duration_since_first_run WorkflowAlert#repeat_condition_duration_since_first_run}
   */
   readonly repeatConditionDurationSinceFirstRun?: string;
   /**
   * The workflow will stop repeating if the number of repeats exceeds the value set in this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#repeat_condition_number_of_repeats WorkflowAlert#repeat_condition_number_of_repeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#repeat_condition_number_of_repeats WorkflowAlert#repeat_condition_number_of_repeats}
   */
   readonly repeatConditionNumberOfRepeats?: number;
   /**
   * Repeat workflow every duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#repeat_every_duration WorkflowAlert#repeat_every_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#repeat_every_duration WorkflowAlert#repeat_every_duration}
   */
   readonly repeatEveryDuration?: string;
   /**
   * Repeat on weekdays. Value must be one of `S`, `M`, `T`, `W`, `R`, `F`, `U`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#repeat_on WorkflowAlert#repeat_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#repeat_on WorkflowAlert#repeat_on}
   */
   readonly repeatOn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#service_ids WorkflowAlert#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#service_ids WorkflowAlert#service_ids}
   */
   readonly serviceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#severity_ids WorkflowAlert#severity_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#severity_ids WorkflowAlert#severity_ids}
   */
   readonly severityIds?: string[];
   /**
   * The slug of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#slug WorkflowAlert#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#slug WorkflowAlert#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#sub_status_ids WorkflowAlert#sub_status_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#sub_status_ids WorkflowAlert#sub_status_ids}
   */
   readonly subStatusIds?: string[];
   /**
   * Wait this duration before executing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#wait WorkflowAlert#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#wait WorkflowAlert#wait}
   */
   readonly wait?: string;
   /**
   * The group this workflow belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#workflow_group_id WorkflowAlert#workflow_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#workflow_group_id WorkflowAlert#workflow_group_id}
   */
   readonly workflowGroupId?: string;
   /**
   * trigger_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#trigger_params WorkflowAlert#trigger_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#trigger_params WorkflowAlert#trigger_params}
   */
   readonly triggerParams?: WorkflowAlertTriggerParams;
 }
@@ -149,89 +149,89 @@ export interface WorkflowAlertTriggerParams {
   /**
   * Value must be one off `ALL`, `ANY`, `NONE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition WorkflowAlert#alert_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition WorkflowAlert#alert_condition}
   */
   readonly alertCondition?: string;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_label WorkflowAlert#alert_condition_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_label WorkflowAlert#alert_condition_label}
   */
   readonly alertConditionLabel?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_label_use_regexp WorkflowAlert#alert_condition_label_use_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_label_use_regexp WorkflowAlert#alert_condition_label_use_regexp}
   */
   readonly alertConditionLabelUseRegexp?: boolean | cdktf.IResolvable;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_payload WorkflowAlert#alert_condition_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_payload WorkflowAlert#alert_condition_payload}
   */
   readonly alertConditionPayload?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_payload_use_regexp WorkflowAlert#alert_condition_payload_use_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_payload_use_regexp WorkflowAlert#alert_condition_payload_use_regexp}
   */
   readonly alertConditionPayloadUseRegexp?: boolean | cdktf.IResolvable;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_source WorkflowAlert#alert_condition_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_source WorkflowAlert#alert_condition_source}
   */
   readonly alertConditionSource?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_source_use_regexp WorkflowAlert#alert_condition_source_use_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_source_use_regexp WorkflowAlert#alert_condition_source_use_regexp}
   */
   readonly alertConditionSourceUseRegexp?: boolean | cdktf.IResolvable;
   /**
   * Value must be one off `IS`, `ANY`, `CONTAINS`, `CONTAINS_ALL`, `CONTAINS_NONE`, `NONE`, `SET`, `UNSET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_status WorkflowAlert#alert_condition_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_status WorkflowAlert#alert_condition_status}
   */
   readonly alertConditionStatus?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_condition_status_use_regexp WorkflowAlert#alert_condition_status_use_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_condition_status_use_regexp WorkflowAlert#alert_condition_status_use_regexp}
   */
   readonly alertConditionStatusUseRegexp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_labels WorkflowAlert#alert_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_labels WorkflowAlert#alert_labels}
   */
   readonly alertLabels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_payload WorkflowAlert#alert_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_payload WorkflowAlert#alert_payload}
   */
   readonly alertPayload?: string[];
   /**
   * You can use jsonpath syntax. eg: $.incident.teams[*]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_query_payload WorkflowAlert#alert_query_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_query_payload WorkflowAlert#alert_query_payload}
   */
   readonly alertQueryPayload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_sources WorkflowAlert#alert_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_sources WorkflowAlert#alert_sources}
   */
   readonly alertSources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#alert_statuses WorkflowAlert#alert_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#alert_statuses WorkflowAlert#alert_statuses}
   */
   readonly alertStatuses?: string[];
   /**
   * Value must be one off `alert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#trigger_type WorkflowAlert#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#trigger_type WorkflowAlert#trigger_type}
   */
   readonly triggerType?: string;
   /**
   * Actions that trigger the workflow. Value must be one of `alert_created`, `alert_status_updated`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#triggers WorkflowAlert#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#triggers WorkflowAlert#triggers}
   */
   readonly triggers?: string[];
 }
@@ -750,7 +750,7 @@ export class WorkflowAlertTriggerParamsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert rootly_workflow_alert}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert rootly_workflow_alert}
 */
 export class WorkflowAlert extends cdktf.TerraformResource {
 
@@ -766,7 +766,7 @@ export class WorkflowAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowAlert to import
-  * @param importFromId The id of the existing WorkflowAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -778,7 +778,7 @@ export class WorkflowAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_alert rootly_workflow_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_alert rootly_workflow_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -789,8 +789,8 @@ export class WorkflowAlert extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_alert',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

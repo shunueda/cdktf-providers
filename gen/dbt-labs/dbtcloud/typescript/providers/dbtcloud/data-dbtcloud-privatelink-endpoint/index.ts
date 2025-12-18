@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataDbtcloudPrivatelinkEndpointConfig extends cdktf.TerraformMe
   /**
   * Given descriptive name for the PrivateLink Endpoint (name and/or private_link_endpoint_url need to be provided to return data for the datasource)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint#name DataDbtcloudPrivatelinkEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint#name DataDbtcloudPrivatelinkEndpoint#name}
   */
   readonly name?: string;
   /**
   * URL of the PrivateLink Endpoint (name and/or private_link_endpoint_url need to be provided to return data for the datasource)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint#private_link_endpoint_url DataDbtcloudPrivatelinkEndpoint#private_link_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint#private_link_endpoint_url DataDbtcloudPrivatelinkEndpoint#private_link_endpoint_url}
   */
   readonly privateLinkEndpointUrl?: string;
   /**
   * Type of the PrivateLink Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint#type DataDbtcloudPrivatelinkEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint#type DataDbtcloudPrivatelinkEndpoint#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint dbtcloud_privatelink_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint dbtcloud_privatelink_endpoint}
 */
 export class DataDbtcloudPrivatelinkEndpoint extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataDbtcloudPrivatelinkEndpoint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudPrivatelinkEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudPrivatelinkEndpoint to import
-  * @param importFromId The id of the existing DataDbtcloudPrivatelinkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudPrivatelinkEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudPrivatelinkEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataDbtcloudPrivatelinkEndpoint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/privatelink_endpoint dbtcloud_privatelink_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/privatelink_endpoint dbtcloud_privatelink_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataDbtcloudPrivatelinkEndpoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_privatelink_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

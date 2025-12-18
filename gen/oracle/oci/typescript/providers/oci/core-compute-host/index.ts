@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface CoreComputeHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#compute_host_group_id CoreComputeHost#compute_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#compute_host_group_id CoreComputeHost#compute_host_group_id}
   */
   readonly computeHostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#compute_host_id CoreComputeHost#compute_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#compute_host_id CoreComputeHost#compute_host_id}
   */
   readonly computeHostId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#id CoreComputeHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#configuration_action_type CoreComputeHost#configuration_action_type}
+  */
+  readonly configurationActionType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#id CoreComputeHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +29,7 @@ export interface CoreComputeHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#timeouts CoreComputeHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#timeouts CoreComputeHost#timeouts}
   */
   readonly timeouts?: CoreComputeHostTimeouts;
 }
@@ -282,15 +286,15 @@ export class CoreComputeHostRecycleDetailsList extends cdktf.ComplexList {
 }
 export interface CoreComputeHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#create CoreComputeHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#create CoreComputeHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#delete CoreComputeHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#delete CoreComputeHost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#update CoreComputeHost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#update CoreComputeHost#update}
   */
   readonly update?: string;
 }
@@ -442,7 +446,7 @@ export class CoreComputeHostTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host oci_core_compute_host}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host oci_core_compute_host}
 */
 export class CoreComputeHost extends cdktf.TerraformResource {
 
@@ -458,7 +462,7 @@ export class CoreComputeHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreComputeHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreComputeHost to import
-  * @param importFromId The id of the existing CoreComputeHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreComputeHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreComputeHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +474,7 @@ export class CoreComputeHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_host oci_core_compute_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/core_compute_host oci_core_compute_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +485,8 @@ export class CoreComputeHost extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_compute_host',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -494,6 +498,7 @@ export class CoreComputeHost extends cdktf.TerraformResource {
     });
     this._computeHostGroupId = config.computeHostGroupId;
     this._computeHostId = config.computeHostId;
+    this._configurationActionType = config.configurationActionType;
     this._id = config.id;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -551,6 +556,22 @@ export class CoreComputeHost extends cdktf.TerraformResource {
     return this._computeHostId;
   }
 
+  // configuration_action_type - computed: false, optional: true, required: false
+  private _configurationActionType?: string; 
+  public get configurationActionType() {
+    return this.getStringAttribute('configuration_action_type');
+  }
+  public set configurationActionType(value: string) {
+    this._configurationActionType = value;
+  }
+  public resetConfigurationActionType() {
+    this._configurationActionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configurationActionTypeInput() {
+    return this._configurationActionType;
+  }
+
   // configuration_data - computed: true, optional: false, required: false
   private _configurationData = new CoreComputeHostConfigurationDataList(this, "configuration_data", false);
   public get configurationData() {
@@ -576,6 +597,11 @@ export class CoreComputeHost extends cdktf.TerraformResource {
   // fault_domain - computed: true, optional: false, required: false
   public get faultDomain() {
     return this.getStringAttribute('fault_domain');
+  }
+
+  // firmware_bundle_id - computed: true, optional: false, required: false
+  public get firmwareBundleId() {
+    return this.getStringAttribute('firmware_bundle_id');
   }
 
   // freeform_tags - computed: true, optional: false, required: false
@@ -641,6 +667,11 @@ export class CoreComputeHost extends cdktf.TerraformResource {
     return this.getStringAttribute('network_block_id');
   }
 
+  // platform - computed: true, optional: false, required: false
+  public get platform() {
+    return this.getStringAttribute('platform');
+  }
+
   // recycle_details - computed: true, optional: false, required: false
   private _recycleDetails = new CoreComputeHostRecycleDetailsList(this, "recycle_details", false);
   public get recycleDetails() {
@@ -696,6 +727,7 @@ export class CoreComputeHost extends cdktf.TerraformResource {
     return {
       compute_host_group_id: cdktf.stringToTerraform(this._computeHostGroupId),
       compute_host_id: cdktf.stringToTerraform(this._computeHostId),
+      configuration_action_type: cdktf.stringToTerraform(this._configurationActionType),
       id: cdktf.stringToTerraform(this._id),
       timeouts: coreComputeHostTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -711,6 +743,12 @@ export class CoreComputeHost extends cdktf.TerraformResource {
       },
       compute_host_id: {
         value: cdktf.stringToHclTerraform(this._computeHostId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      configuration_action_type: {
+        value: cdktf.stringToHclTerraform(this._configurationActionType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

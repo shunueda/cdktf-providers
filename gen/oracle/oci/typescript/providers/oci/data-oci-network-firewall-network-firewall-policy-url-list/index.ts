@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_url_list
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_url_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciNetworkFirewallNetworkFirewallPolicyUrlListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_url_list#name DataOciNetworkFirewallNetworkFirewallPolicyUrlList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_url_list#name DataOciNetworkFirewallNetworkFirewallPolicyUrlList#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_url_list#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyUrlList#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_url_list#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyUrlList#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
 }
@@ -98,7 +98,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyUrlListUrlsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_url_list oci_network_firewall_network_firewall_policy_url_list}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_url_list oci_network_firewall_network_firewall_policy_url_list}
 */
 export class DataOciNetworkFirewallNetworkFirewallPolicyUrlList extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyUrlList extends cdktf.Te
   * Generates CDKTF code for importing a DataOciNetworkFirewallNetworkFirewallPolicyUrlList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciNetworkFirewallNetworkFirewallPolicyUrlList to import
-  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyUrlList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_url_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyUrlList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_url_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciNetworkFirewallNetworkFirewallPolicyUrlList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyUrlList extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_url_list oci_network_firewall_network_firewall_policy_url_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewall_policy_url_list oci_network_firewall_network_firewall_policy_url_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyUrlList extends cdktf.Te
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_url_list',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

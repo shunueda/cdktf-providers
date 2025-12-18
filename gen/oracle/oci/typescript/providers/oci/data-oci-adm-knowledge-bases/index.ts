@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciAdmKnowledgeBasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#compartment_id DataOciAdmKnowledgeBases#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#compartment_id DataOciAdmKnowledgeBases#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#display_name DataOciAdmKnowledgeBases#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#display_name DataOciAdmKnowledgeBases#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#id DataOciAdmKnowledgeBases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#id DataOciAdmKnowledgeBases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#state DataOciAdmKnowledgeBases#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#state DataOciAdmKnowledgeBases#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#filter DataOciAdmKnowledgeBases#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#filter DataOciAdmKnowledgeBases#filter}
   */
   readonly filter?: DataOciAdmKnowledgeBasesFilter[] | cdktf.IResolvable;
 }
@@ -229,15 +229,15 @@ export class DataOciAdmKnowledgeBasesKnowledgeBaseCollectionList extends cdktf.C
 }
 export interface DataOciAdmKnowledgeBasesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#name DataOciAdmKnowledgeBases#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#name DataOciAdmKnowledgeBases#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#regex DataOciAdmKnowledgeBases#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#regex DataOciAdmKnowledgeBases#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#values DataOciAdmKnowledgeBases#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#values DataOciAdmKnowledgeBases#values}
   */
   readonly values: string[];
 }
@@ -405,7 +405,7 @@ export class DataOciAdmKnowledgeBasesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases oci_adm_knowledge_bases}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases oci_adm_knowledge_bases}
 */
 export class DataOciAdmKnowledgeBases extends cdktf.TerraformDataSource {
 
@@ -421,7 +421,7 @@ export class DataOciAdmKnowledgeBases extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciAdmKnowledgeBases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciAdmKnowledgeBases to import
-  * @param importFromId The id of the existing DataOciAdmKnowledgeBases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciAdmKnowledgeBases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciAdmKnowledgeBases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class DataOciAdmKnowledgeBases extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/adm_knowledge_bases oci_adm_knowledge_bases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/adm_knowledge_bases oci_adm_knowledge_bases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class DataOciAdmKnowledgeBases extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_adm_knowledge_bases',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

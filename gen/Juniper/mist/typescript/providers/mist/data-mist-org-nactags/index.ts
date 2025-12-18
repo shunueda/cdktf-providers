@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface DataMistOrgNactagsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * if `type`==`match`, Type of NAC Tag. enum: `cert_cn`, `cert_issuer`, `cert_san`, `cert_serial`, `cert_sub`, `cert_template`, `client_mac`, `idp_role`, `ingress_vlan`, `mdm_status`, `nas_ip`, `radius_group`, `realm`, `ssid`, `user_name`, `usermac_label`
+  * if `type`==`match`, Type of NAC Tag. enum: `cert_cn`, `cert_eku`, `cert_issuer`, `cert_san`, `cert_serial`, `cert_sub`, `cert_template`, `client_mac`, `edr_status`, `gbp_tag`, `hostname`, `idp_role`, `ingress_vlan`, `mdm_status`, `nas_ip`, `radius_group`, `realm`, `ssid`, `user_name`, `usermac_label`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags#match DataMistOrgNactags#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags#match DataMistOrgNactags#match}
   */
   readonly match?: string;
   /**
   * Name of NAC Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags#name DataMistOrgNactags#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags#name DataMistOrgNactags#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags#org_id DataMistOrgNactags#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags#org_id DataMistOrgNactags#org_id}
   */
   readonly orgId: string;
   /**
   * Type of NAC Tag. enum: `egress_vlan_names`, `gbp_tag`, `match`, `radius_attrs`, `radius_group`, `radius_vendor_attrs`, `session_timeout`, `username_attr`, `vlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags#type DataMistOrgNactags#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags#type DataMistOrgNactags#type}
   */
   readonly type?: string;
 }
@@ -121,6 +121,11 @@ export class DataMistOrgNactagsOrgNactagsOutputReference extends cdktf.ComplexOb
     return this.getNumberAttribute('modified_time');
   }
 
+  // nacportal_id - computed: true, optional: false, required: false
+  public get nacportalId() {
+    return this.getStringAttribute('nacportal_id');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -192,7 +197,7 @@ export class DataMistOrgNactagsOrgNactagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags mist_org_nactags}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags mist_org_nactags}
 */
 export class DataMistOrgNactags extends cdktf.TerraformDataSource {
 
@@ -208,7 +213,7 @@ export class DataMistOrgNactags extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistOrgNactags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistOrgNactags to import
-  * @param importFromId The id of the existing DataMistOrgNactags that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistOrgNactags that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistOrgNactags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +225,7 @@ export class DataMistOrgNactags extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_nactags mist_org_nactags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_nactags mist_org_nactags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +236,8 @@ export class DataMistOrgNactags extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_org_nactags',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

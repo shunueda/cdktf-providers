@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_protection_group
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_protection_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDisasterRecoveryDrProtectionGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_protection_group#dr_protection_group_id DataOciDisasterRecoveryDrProtectionGroup#dr_protection_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_protection_group#dr_protection_group_id DataOciDisasterRecoveryDrProtectionGroup#dr_protection_group_id}
   */
   readonly drProtectionGroupId: string;
 }
@@ -1818,6 +1818,86 @@ export class DataOciDisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerM
     return new DataOciDisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappings {
+}
+
+export function dataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsToTerraform(struct?: DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsToHclTerraform(struct?: DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // config_map - computed: true, optional: false, required: false
+  public get configMap() {
+    return this.getStringAttribute('config_map');
+  }
+
+  // namespace - computed: true, optional: false, required: false
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+}
+
+export class DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsOutputReference {
+    return new DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataOciDisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsDestinationEncryptionKey {
 }
 
@@ -2579,6 +2659,12 @@ export class DataOciDisasterRecoveryDrProtectionGroupMembersOutputReference exte
     return this.getStringAttribute('peer_db_system_id');
   }
 
+  // resource_modifier_mappings - computed: true, optional: false, required: false
+  private _resourceModifierMappings = new DataOciDisasterRecoveryDrProtectionGroupMembersResourceModifierMappingsList(this, "resource_modifier_mappings", false);
+  public get resourceModifierMappings() {
+    return this._resourceModifierMappings;
+  }
+
   // source_volume_to_destination_encryption_key_mappings - computed: true, optional: false, required: false
   private _sourceVolumeToDestinationEncryptionKeyMappings = new DataOciDisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsList(this, "source_volume_to_destination_encryption_key_mappings", false);
   public get sourceVolumeToDestinationEncryptionKeyMappings() {
@@ -2630,7 +2716,7 @@ export class DataOciDisasterRecoveryDrProtectionGroupMembersList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group}
 */
 export class DataOciDisasterRecoveryDrProtectionGroup extends cdktf.TerraformDataSource {
 
@@ -2646,7 +2732,7 @@ export class DataOciDisasterRecoveryDrProtectionGroup extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataOciDisasterRecoveryDrProtectionGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDisasterRecoveryDrProtectionGroup to import
-  * @param importFromId The id of the existing DataOciDisasterRecoveryDrProtectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_protection_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDisasterRecoveryDrProtectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_protection_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDisasterRecoveryDrProtectionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2658,7 +2744,7 @@ export class DataOciDisasterRecoveryDrProtectionGroup extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2669,8 +2755,8 @@ export class DataOciDisasterRecoveryDrProtectionGroup extends cdktf.TerraformDat
       terraformResourceType: 'oci_disaster_recovery_dr_protection_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

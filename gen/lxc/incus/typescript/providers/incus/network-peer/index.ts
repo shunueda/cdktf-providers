@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer
+// https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkPeerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#config NetworkPeer#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#config NetworkPeer#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#description NetworkPeer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#description NetworkPeer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#name NetworkPeer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#name NetworkPeer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#network NetworkPeer#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#network NetworkPeer#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#project NetworkPeer#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#project NetworkPeer#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#remote NetworkPeer#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#remote NetworkPeer#remote}
   */
   readonly remote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#target_integration NetworkPeer#target_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#target_integration NetworkPeer#target_integration}
   */
   readonly targetIntegration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#target_network NetworkPeer#target_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#target_network NetworkPeer#target_network}
   */
   readonly targetNetwork?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#target_project NetworkPeer#target_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#target_project NetworkPeer#target_project}
   */
   readonly targetProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#type NetworkPeer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#type NetworkPeer#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer incus_network_peer}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer incus_network_peer}
 */
 export class NetworkPeer extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class NetworkPeer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkPeer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkPeer to import
-  * @param importFromId The id of the existing NetworkPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class NetworkPeer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/resources/network_peer incus_network_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/resources/network_peer incus_network_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class NetworkPeer extends cdktf.TerraformResource {
       terraformResourceType: 'incus_network_peer',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

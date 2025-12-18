@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,48 +10,48 @@ export interface ConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The nonsensitive configuration settings to set (e.g., `"time.interval" = "DAILY"`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#config_nonsensitive Connector#config_nonsensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#config_nonsensitive Connector#config_nonsensitive}
   */
   readonly configNonsensitive: { [key: string]: string };
   /**
   * The sensitive configuration settings to set (e.g., `"gcs.credentials.config" = "**REDACTED***"`). Should not be set for an import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#config_sensitive Connector#config_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#config_sensitive Connector#config_sensitive}
   */
   readonly configSensitive?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#id Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#id Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#status Connector#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#status Connector#status}
   */
   readonly status?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#environment Connector#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#environment Connector#environment}
   */
   readonly environment: ConnectorEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#kafka_cluster Connector#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#kafka_cluster Connector#kafka_cluster}
   */
   readonly kafkaCluster: ConnectorKafkaCluster;
   /**
   * offsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#offsets Connector#offsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#offsets Connector#offsets}
   */
   readonly offsets?: ConnectorOffsets[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#timeouts Connector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#timeouts Connector#timeouts}
   */
   readonly timeouts?: ConnectorTimeouts;
 }
@@ -59,7 +59,7 @@ export interface ConnectorEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#id Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#id Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +145,7 @@ export interface ConnectorKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#id Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#id Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -231,13 +231,13 @@ export interface ConnectorOffsets {
   /**
   * Connector offsets information for the partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#offset Connector#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#offset Connector#offset}
   */
   readonly offset: { [key: string]: string };
   /**
   * Connector partitions information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#partition Connector#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#partition Connector#partition}
   */
   readonly partition: { [key: string]: string };
 }
@@ -376,7 +376,7 @@ export class ConnectorOffsetsList extends cdktf.ComplexList {
 }
 export interface ConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#create Connector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#create Connector#create}
   */
   readonly create?: string;
 }
@@ -470,7 +470,7 @@ export class ConnectorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector confluent_connector}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector confluent_connector}
 */
 export class Connector extends cdktf.TerraformResource {
 
@@ -486,7 +486,7 @@ export class Connector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connector to import
-  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -498,7 +498,7 @@ export class Connector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/connector confluent_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/connector confluent_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -509,8 +509,8 @@ export class Connector extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_connector',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

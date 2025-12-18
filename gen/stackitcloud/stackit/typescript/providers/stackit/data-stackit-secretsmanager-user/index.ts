@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataStackitSecretsmanagerUserConfig extends cdktf.TerraformMeta
   /**
   * ID of the Secrets Manager instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user#instance_id DataStackitSecretsmanagerUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user#instance_id DataStackitSecretsmanagerUser#instance_id}
   */
   readonly instanceId: string;
   /**
   * STACKIT Project ID to which the instance is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user#project_id DataStackitSecretsmanagerUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user#project_id DataStackitSecretsmanagerUser#project_id}
   */
   readonly projectId: string;
   /**
   * The user's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user#user_id DataStackitSecretsmanagerUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user#user_id DataStackitSecretsmanagerUser#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user stackit_secretsmanager_user}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user stackit_secretsmanager_user}
 */
 export class DataStackitSecretsmanagerUser extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataStackitSecretsmanagerUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitSecretsmanagerUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitSecretsmanagerUser to import
-  * @param importFromId The id of the existing DataStackitSecretsmanagerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitSecretsmanagerUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitSecretsmanagerUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataStackitSecretsmanagerUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/secretsmanager_user stackit_secretsmanager_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/secretsmanager_user stackit_secretsmanager_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataStackitSecretsmanagerUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_secretsmanager_user',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot
+// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * When the snapshot expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot#expires_at Snapshot#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot#expires_at Snapshot#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * A name for the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot#name Snapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot#name Snapshot#name}
   */
   readonly name?: string;
   /**
   * An array of paths to add to the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot#paths Snapshot#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot#paths Snapshot#paths}
   */
   readonly paths?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot files_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot files_snapshot}
 */
 export class Snapshot extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Snapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Snapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Snapshot to import
-  * @param importFromId The id of the existing Snapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Snapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Snapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Snapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/snapshot files_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/snapshot files_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Snapshot extends cdktf.TerraformResource {
       terraformResourceType: 'files_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.412',
-        providerVersionConstraint: '0.1.412'
+        providerVersion: '0.1.415',
+        providerVersionConstraint: '0.1.415'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

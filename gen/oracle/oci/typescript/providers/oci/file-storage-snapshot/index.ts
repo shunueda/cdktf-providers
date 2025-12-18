@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface FileStorageSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#defined_tags FileStorageSnapshot#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#defined_tags FileStorageSnapshot#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#expiration_time FileStorageSnapshot#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#expiration_time FileStorageSnapshot#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#file_system_id FileStorageSnapshot#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#file_system_id FileStorageSnapshot#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#freeform_tags FileStorageSnapshot#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#freeform_tags FileStorageSnapshot#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#id FileStorageSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#id FileStorageSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#is_lock_override FileStorageSnapshot#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#is_lock_override FileStorageSnapshot#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#name FileStorageSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#name FileStorageSnapshot#name}
   */
   readonly name: string;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#locks FileStorageSnapshot#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#locks FileStorageSnapshot#locks}
   */
   readonly locks?: FileStorageSnapshotLocks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#timeouts FileStorageSnapshot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#timeouts FileStorageSnapshot#timeouts}
   */
   readonly timeouts?: FileStorageSnapshotTimeouts;
 }
 export interface FileStorageSnapshotLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#message FileStorageSnapshot#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#message FileStorageSnapshot#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#related_resource_id FileStorageSnapshot#related_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#related_resource_id FileStorageSnapshot#related_resource_id}
   */
   readonly relatedResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#time_created FileStorageSnapshot#time_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#time_created FileStorageSnapshot#time_created}
   */
   readonly timeCreated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#type FileStorageSnapshot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#type FileStorageSnapshot#type}
   */
   readonly type: string;
 }
@@ -265,15 +265,15 @@ export class FileStorageSnapshotLocksList extends cdktf.ComplexList {
 }
 export interface FileStorageSnapshotTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#create FileStorageSnapshot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#create FileStorageSnapshot#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#delete FileStorageSnapshot#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#delete FileStorageSnapshot#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#update FileStorageSnapshot#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#update FileStorageSnapshot#update}
   */
   readonly update?: string;
 }
@@ -425,7 +425,7 @@ export class FileStorageSnapshotTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot oci_file_storage_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot oci_file_storage_snapshot}
 */
 export class FileStorageSnapshot extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class FileStorageSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileStorageSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileStorageSnapshot to import
-  * @param importFromId The id of the existing FileStorageSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileStorageSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileStorageSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class FileStorageSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/file_storage_snapshot oci_file_storage_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/file_storage_snapshot oci_file_storage_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class FileStorageSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'oci_file_storage_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

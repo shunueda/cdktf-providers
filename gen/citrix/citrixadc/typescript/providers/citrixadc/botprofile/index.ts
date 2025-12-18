@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,128 +8,128 @@ import * as cdktf from 'cdktf';
 
 export interface BotprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#addcookieflags Botprofile#addcookieflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#addcookieflags Botprofile#addcookieflags}
   */
   readonly addcookieflags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_black_list Botprofile#bot_enable_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#bot_enable_black_list Botprofile#bot_enable_black_list}
   */
   readonly botEnableBlackList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_ip_reputation Botprofile#bot_enable_ip_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#bot_enable_ip_reputation Botprofile#bot_enable_ip_reputation}
   */
   readonly botEnableIpReputation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_rate_limit Botprofile#bot_enable_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#bot_enable_rate_limit Botprofile#bot_enable_rate_limit}
   */
   readonly botEnableRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_tps Botprofile#bot_enable_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#bot_enable_tps Botprofile#bot_enable_tps}
   */
   readonly botEnableTps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#bot_enable_white_list Botprofile#bot_enable_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#bot_enable_white_list Botprofile#bot_enable_white_list}
   */
   readonly botEnableWhiteList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#clientipexpression Botprofile#clientipexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#clientipexpression Botprofile#clientipexpression}
   */
   readonly clientipexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#comment Botprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#comment Botprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#devicefingerprint Botprofile#devicefingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#devicefingerprint Botprofile#devicefingerprint}
   */
   readonly devicefingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#devicefingerprintaction Botprofile#devicefingerprintaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#devicefingerprintaction Botprofile#devicefingerprintaction}
   */
   readonly devicefingerprintaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#devicefingerprintmobile Botprofile#devicefingerprintmobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#devicefingerprintmobile Botprofile#devicefingerprintmobile}
   */
   readonly devicefingerprintmobile?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#dfprequestlimit Botprofile#dfprequestlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#dfprequestlimit Botprofile#dfprequestlimit}
   */
   readonly dfprequestlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#errorurl Botprofile#errorurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#errorurl Botprofile#errorurl}
   */
   readonly errorurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#headlessbrowserdetection Botprofile#headlessbrowserdetection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#headlessbrowserdetection Botprofile#headlessbrowserdetection}
   */
   readonly headlessbrowserdetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#id Botprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#id Botprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#kmdetection Botprofile#kmdetection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#kmdetection Botprofile#kmdetection}
   */
   readonly kmdetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#kmeventspostbodylimit Botprofile#kmeventspostbodylimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#kmeventspostbodylimit Botprofile#kmeventspostbodylimit}
   */
   readonly kmeventspostbodylimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#kmjavascriptname Botprofile#kmjavascriptname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#kmjavascriptname Botprofile#kmjavascriptname}
   */
   readonly kmjavascriptname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#name Botprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#name Botprofile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#sessioncookiename Botprofile#sessioncookiename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#sessioncookiename Botprofile#sessioncookiename}
   */
   readonly sessioncookiename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#sessiontimeout Botprofile#sessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#sessiontimeout Botprofile#sessiontimeout}
   */
   readonly sessiontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#signature Botprofile#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#signature Botprofile#signature}
   */
   readonly signature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#signaturemultipleuseragentheaderaction Botprofile#signaturemultipleuseragentheaderaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#signaturemultipleuseragentheaderaction Botprofile#signaturemultipleuseragentheaderaction}
   */
   readonly signaturemultipleuseragentheaderaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#signaturenouseragentheaderaction Botprofile#signaturenouseragentheaderaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#signaturenouseragentheaderaction Botprofile#signaturenouseragentheaderaction}
   */
   readonly signaturenouseragentheaderaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#spoofedreqaction Botprofile#spoofedreqaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#spoofedreqaction Botprofile#spoofedreqaction}
   */
   readonly spoofedreqaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#trap Botprofile#trap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#trap Botprofile#trap}
   */
   readonly trap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#trapaction Botprofile#trapaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#trapaction Botprofile#trapaction}
   */
   readonly trapaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#trapurl Botprofile#trapurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#trapurl Botprofile#trapurl}
   */
   readonly trapurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#verboseloglevel Botprofile#verboseloglevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#verboseloglevel Botprofile#verboseloglevel}
   */
   readonly verboseloglevel?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile citrixadc_botprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile citrixadc_botprofile}
 */
 export class Botprofile extends cdktf.TerraformResource {
 
@@ -145,7 +145,7 @@ export class Botprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Botprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Botprofile to import
-  * @param importFromId The id of the existing Botprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Botprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Botprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -157,7 +157,7 @@ export class Botprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile citrixadc_botprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile citrixadc_botprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -168,8 +168,8 @@ export class Botprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

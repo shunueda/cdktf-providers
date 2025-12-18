@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TlsCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * PEM-formatted certificate, optionally including any intermediary certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate#certificate_body TlsCertificate#certificate_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate#certificate_body TlsCertificate#certificate_body}
   */
   readonly certificateBody: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate#id TlsCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate#id TlsCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface TlsCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable name used to identify the certificate. Defaults to the certificate's Common Name or first Subject Alternative Name entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate#name TlsCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate#name TlsCertificate#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate fastly_tls_certificate}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate fastly_tls_certificate}
 */
 export class TlsCertificate extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class TlsCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsCertificate to import
-  * @param importFromId The id of the existing TlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class TlsCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_certificate fastly_tls_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_certificate fastly_tls_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class TlsCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_tls_certificate',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

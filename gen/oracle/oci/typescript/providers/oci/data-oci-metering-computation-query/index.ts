@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_query
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/metering_computation_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMeteringComputationQueryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_query#query_id DataOciMeteringComputationQuery#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/metering_computation_query#query_id DataOciMeteringComputationQuery#query_id}
   */
   readonly queryId: string;
 }
@@ -488,7 +488,7 @@ export class DataOciMeteringComputationQueryQueryDefinitionList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_query oci_metering_computation_query}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/metering_computation_query oci_metering_computation_query}
 */
 export class DataOciMeteringComputationQuery extends cdktf.TerraformDataSource {
 
@@ -504,7 +504,7 @@ export class DataOciMeteringComputationQuery extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMeteringComputationQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMeteringComputationQuery to import
-  * @param importFromId The id of the existing DataOciMeteringComputationQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMeteringComputationQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/metering_computation_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMeteringComputationQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -516,7 +516,7 @@ export class DataOciMeteringComputationQuery extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_query oci_metering_computation_query} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/metering_computation_query oci_metering_computation_query} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -527,8 +527,8 @@ export class DataOciMeteringComputationQuery extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_metering_computation_query',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ModelNotificationsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether model notifications are enabled for this environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#enabled ModelNotifications#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#enabled ModelNotifications#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the dbt Cloud environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#environment_id ModelNotifications#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#environment_id ModelNotifications#environment_id}
   */
   readonly environmentId: string;
   /**
   * Whether to send notifications for failed model runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#on_failure ModelNotifications#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#on_failure ModelNotifications#on_failure}
   */
   readonly onFailure?: boolean | cdktf.IResolvable;
   /**
   * Whether to send notifications for skipped model runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#on_skipped ModelNotifications#on_skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#on_skipped ModelNotifications#on_skipped}
   */
   readonly onSkipped?: boolean | cdktf.IResolvable;
   /**
   * Whether to send notifications for successful model runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#on_success ModelNotifications#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#on_success ModelNotifications#on_success}
   */
   readonly onSuccess?: boolean | cdktf.IResolvable;
   /**
   * Whether to send notifications for model runs with warnings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#on_warning ModelNotifications#on_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#on_warning ModelNotifications#on_warning}
   */
   readonly onWarning?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications dbtcloud_model_notifications}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications dbtcloud_model_notifications}
 */
 export class ModelNotifications extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ModelNotifications extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ModelNotifications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ModelNotifications to import
-  * @param importFromId The id of the existing ModelNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ModelNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ModelNotifications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ModelNotifications extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/model_notifications dbtcloud_model_notifications} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/model_notifications dbtcloud_model_notifications} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ModelNotifications extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_model_notifications',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataMistDeviceGatewayStatsConfig extends cdktf.TerraformMetaArg
   /**
   * Duration like 7d, 2w
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#duration DataMistDeviceGatewayStats#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#duration DataMistDeviceGatewayStats#duration}
   */
   readonly duration?: string;
   /**
-  * End datetime, can be epoch or relative time like -1d, -2h; now if not specified
+  * End time (epoch timestamp in seconds, or relative string like "-1d", "-2h", "now")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#end DataMistDeviceGatewayStats#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#end DataMistDeviceGatewayStats#end}
   */
-  readonly end?: number;
+  readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#mac DataMistDeviceGatewayStats#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#mac DataMistDeviceGatewayStats#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#org_id DataMistDeviceGatewayStats#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#org_id DataMistDeviceGatewayStats#org_id}
   */
   readonly orgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#site_id DataMistDeviceGatewayStats#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#site_id DataMistDeviceGatewayStats#site_id}
   */
   readonly siteId?: string;
   /**
-  * Start datetime, can be epoch or relative time like -1d, -1w; -1d if not specified
+  * Start time (epoch timestamp in seconds, or relative string like "-1d", "-1w")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#start DataMistDeviceGatewayStats#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#start DataMistDeviceGatewayStats#start}
   */
-  readonly start?: number;
+  readonly start?: string;
   /**
   * enum: `all`, `connected`, `disconnected`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#status DataMistDeviceGatewayStats#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#status DataMistDeviceGatewayStats#status}
   */
   readonly status?: string;
 }
@@ -244,6 +244,60 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsArpTableStatsOutputRefe
   // max_entries_supported - computed: true, optional: false, required: false
   public get maxEntriesSupported() {
     return this.getNumberAttribute('max_entries_supported');
+  }
+}
+export interface DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStat {
+}
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStatToTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStatToHclTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStatOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStat | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStat | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // lastcheck - computed: true, optional: false, required: false
+  public get lastcheck() {
+    return this.getNumberAttribute('lastcheck');
   }
 }
 export interface DataMistDeviceGatewayStatsDeviceGatewayStatsBgpPeers {
@@ -920,6 +974,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsCpu2StatOutputReference
     return this.getNumberAttribute('system');
   }
 
+  // usage - computed: true, optional: false, required: false
+  public get usage() {
+    return this.getNumberAttribute('usage');
+  }
+
   // user - computed: true, optional: false, required: false
   public get user() {
     return this.getNumberAttribute('user');
@@ -992,6 +1051,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsCpuStatOutputReference 
   // system - computed: true, optional: false, required: false
   public get systemAttribute() {
     return this.getNumberAttribute('system');
+  }
+
+  // usage - computed: true, optional: false, required: false
+  public get usage() {
+    return this.getNumberAttribute('usage');
   }
 
   // user - computed: true, optional: false, required: false
@@ -1895,6 +1959,65 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsIpStatOutputReference e
     return this.getStringAttribute('netmask6');
   }
 }
+export interface DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStats {
+}
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStatsToTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStatsToHclTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStats): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStatsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStats | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStats | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // mac_table_count - computed: true, optional: false, required: false
+  public get macTableCount() {
+    return this.getNumberAttribute('mac_table_count');
+  }
+
+  // max_mac_entries_supported - computed: true, optional: false, required: false
+  public get maxMacEntriesSupported() {
+    return this.getNumberAttribute('max_mac_entries_supported');
+  }
+}
 export interface DataMistDeviceGatewayStatsDeviceGatewayStatsMemory2Stat {
 }
 
@@ -2064,6 +2187,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatFansOutputRe
     return this.getStringAttribute('name');
   }
 
+  // rpm - computed: true, optional: false, required: false
+  public get rpm() {
+    return this.getNumberAttribute('rpm');
+  }
+
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
@@ -2086,6 +2214,145 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatFansList ext
   */
   public get(index: number): DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatFansOutputReference {
     return new DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatFansOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStat {
+}
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStatToTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStatToHclTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStatOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStat | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStat | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // usage - computed: true, optional: false, required: false
+  public get usage() {
+    return this.getNumberAttribute('usage');
+  }
+}
+export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResources {
+}
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesToTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResources): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesToHclTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResources): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResources | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResources | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // count - computed: true, optional: false, required: false
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+
+  // limit - computed: true, optional: false, required: false
+  public get limit() {
+    return this.getNumberAttribute('limit');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesOutputReference {
+    return new DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatPoe {
@@ -2145,6 +2412,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatPoeOutputRef
   // power_draw - computed: true, optional: false, required: false
   public get powerDraw() {
     return this.getNumberAttribute('power_draw');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
   }
 }
 export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatPsus {
@@ -2458,6 +2730,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatOutputRefere
     return this.getStringAttribute('bios_version');
   }
 
+  // boot_partition - computed: true, optional: false, required: false
+  public get bootPartition() {
+    return this.getStringAttribute('boot_partition');
+  }
+
   // cpld_version - computed: true, optional: false, required: false
   public get cpldVersion() {
     return this.getStringAttribute('cpld_version');
@@ -2489,9 +2766,21 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatOutputRefere
     return this.getStringAttribute('mac');
   }
 
+  // memory_stat - computed: true, optional: false, required: false
+  private _memoryStat = new DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatMemoryStatOutputReference(this, "memory_stat");
+  public get memoryStat() {
+    return this._memoryStat;
+  }
+
   // model - computed: true, optional: false, required: false
   public get model() {
     return this.getStringAttribute('model');
+  }
+
+  // network_resources - computed: true, optional: false, required: false
+  private _networkResources = new DataMistDeviceGatewayStatsDeviceGatewayStatsModule2StatNetworkResourcesList(this, "network_resources", false);
+  public get networkResources() {
+    return this._networkResources;
   }
 
   // optics_cpld_version - computed: true, optional: false, required: false
@@ -2673,6 +2962,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatFansOutputRef
     return this.getStringAttribute('name');
   }
 
+  // rpm - computed: true, optional: false, required: false
+  public get rpm() {
+    return this.getNumberAttribute('rpm');
+  }
+
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
@@ -2695,6 +2989,145 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatFansList exte
   */
   public get(index: number): DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatFansOutputReference {
     return new DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatFansOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStat {
+}
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStatToTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStatToHclTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStat): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStatOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStat | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStat | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // usage - computed: true, optional: false, required: false
+  public get usage() {
+    return this.getNumberAttribute('usage');
+  }
+}
+export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResources {
+}
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesToTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResources): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesToHclTerraform(struct?: DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResources): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResources | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResources | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // count - computed: true, optional: false, required: false
+  public get count() {
+    return this.getNumberAttribute('count');
+  }
+
+  // limit - computed: true, optional: false, required: false
+  public get limit() {
+    return this.getNumberAttribute('limit');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesOutputReference {
+    return new DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatPoe {
@@ -2754,6 +3187,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatPoeOutputRefe
   // power_draw - computed: true, optional: false, required: false
   public get powerDraw() {
     return this.getNumberAttribute('power_draw');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
   }
 }
 export interface DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatPsus {
@@ -3067,6 +3505,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatOutputReferen
     return this.getStringAttribute('bios_version');
   }
 
+  // boot_partition - computed: true, optional: false, required: false
+  public get bootPartition() {
+    return this.getStringAttribute('boot_partition');
+  }
+
   // cpld_version - computed: true, optional: false, required: false
   public get cpldVersion() {
     return this.getStringAttribute('cpld_version');
@@ -3098,9 +3541,21 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatOutputReferen
     return this.getStringAttribute('mac');
   }
 
+  // memory_stat - computed: true, optional: false, required: false
+  private _memoryStat = new DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatMemoryStatOutputReference(this, "memory_stat");
+  public get memoryStat() {
+    return this._memoryStat;
+  }
+
   // model - computed: true, optional: false, required: false
   public get model() {
     return this.getStringAttribute('model');
+  }
+
+  // network_resources - computed: true, optional: false, required: false
+  private _networkResources = new DataMistDeviceGatewayStatsDeviceGatewayStatsModuleStatNetworkResourcesList(this, "network_resources", false);
+  public get networkResources() {
+    return this._networkResources;
   }
 
   // optics_cpld_version - computed: true, optional: false, required: false
@@ -3971,6 +4426,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsSpu2StatOutputReference
     return this.getNumberAttribute('spu_pending_session');
   }
 
+  // spu_uptime - computed: true, optional: false, required: false
+  public get spuUptime() {
+    return this.getNumberAttribute('spu_uptime');
+  }
+
   // spu_valid_session - computed: true, optional: false, required: false
   public get spuValidSession() {
     return this.getNumberAttribute('spu_valid_session');
@@ -4069,6 +4529,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsSpuStatOutputReference 
   // spu_pending_session - computed: true, optional: false, required: false
   public get spuPendingSession() {
     return this.getNumberAttribute('spu_pending_session');
+  }
+
+  // spu_uptime - computed: true, optional: false, required: false
+  public get spuUptime() {
+    return this.getNumberAttribute('spu_uptime');
   }
 
   // spu_valid_session - computed: true, optional: false, required: false
@@ -4316,6 +4781,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsVpnPeersOutputReference
     return this.getBooleanAttribute('is_active');
   }
 
+  // jitter - computed: true, optional: false, required: false
+  public get jitter() {
+    return this.getNumberAttribute('jitter');
+  }
+
   // last_seen - computed: true, optional: false, required: false
   public get lastSeen() {
     return this.getNumberAttribute('last_seen');
@@ -4324,6 +4794,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsVpnPeersOutputReference
   // latency - computed: true, optional: false, required: false
   public get latency() {
     return this.getNumberAttribute('latency');
+  }
+
+  // loss - computed: true, optional: false, required: false
+  public get loss() {
+    return this.getNumberAttribute('loss');
   }
 
   // mos - computed: true, optional: false, required: false
@@ -4463,6 +4938,12 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsOutputReference extends
     return this._arpTableStats;
   }
 
+  // auto_upgrade_stat - computed: true, optional: false, required: false
+  private _autoUpgradeStat = new DataMistDeviceGatewayStatsDeviceGatewayStatsAutoUpgradeStatOutputReference(this, "auto_upgrade_stat");
+  public get autoUpgradeStat() {
+    return this._autoUpgradeStat;
+  }
+
   // bgp_peers - computed: true, optional: false, required: false
   private _bgpPeers = new DataMistDeviceGatewayStatsDeviceGatewayStatsBgpPeersList(this, "bgp_peers", false);
   public get bgpPeers() {
@@ -4496,6 +4977,16 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsOutputReference extends
     return this.getStringAttribute('config_status');
   }
 
+  // config_timestamp - computed: true, optional: false, required: false
+  public get configTimestamp() {
+    return this.getNumberAttribute('config_timestamp');
+  }
+
+  // config_version - computed: true, optional: false, required: false
+  public get configVersion() {
+    return this.getNumberAttribute('config_version');
+  }
+
   // cpu2_stat - computed: true, optional: false, required: false
   private _cpu2Stat = new DataMistDeviceGatewayStatsDeviceGatewayStatsCpu2StatOutputReference(this, "cpu2_stat");
   public get cpu2Stat() {
@@ -4516,6 +5007,11 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsOutputReference extends
   // deviceprofile_id - computed: true, optional: false, required: false
   public get deviceprofileId() {
     return this.getStringAttribute('deviceprofile_id');
+  }
+
+  // deviceprofile_name - computed: true, optional: false, required: false
+  public get deviceprofileName() {
+    return this.getStringAttribute('deviceprofile_name');
   }
 
   // dhcpd2_stat - computed: true, optional: false, required: false
@@ -4598,6 +5094,12 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsOutputReference extends
   // mac - computed: true, optional: false, required: false
   public get mac() {
     return this.getStringAttribute('mac');
+  }
+
+  // mac_table_stats - computed: true, optional: false, required: false
+  private _macTableStats = new DataMistDeviceGatewayStatsDeviceGatewayStatsMacTableStatsOutputReference(this, "mac_table_stats");
+  public get macTableStats() {
+    return this._macTableStats;
   }
 
   // map_id - computed: true, optional: false, required: false
@@ -4716,6 +5218,16 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsOutputReference extends
     return this.getStringAttribute('status');
   }
 
+  // tag_id - computed: true, optional: false, required: false
+  public get tagId() {
+    return this.getNumberAttribute('tag_id');
+  }
+
+  // tag_uuid - computed: true, optional: false, required: false
+  public get tagUuid() {
+    return this.getStringAttribute('tag_uuid');
+  }
+
   // tunnels - computed: true, optional: false, required: false
   private _tunnels = new DataMistDeviceGatewayStatsDeviceGatewayStatsTunnelsList(this, "tunnels", false);
   public get tunnels() {
@@ -4759,7 +5271,7 @@ export class DataMistDeviceGatewayStatsDeviceGatewayStatsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats mist_device_gateway_stats}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats mist_device_gateway_stats}
 */
 export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
 
@@ -4775,7 +5287,7 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistDeviceGatewayStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistDeviceGatewayStats to import
-  * @param importFromId The id of the existing DataMistDeviceGatewayStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistDeviceGatewayStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistDeviceGatewayStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4787,7 +5299,7 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/device_gateway_stats mist_device_gateway_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_gateway_stats mist_device_gateway_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4798,8 +5310,8 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_device_gateway_stats',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -4845,11 +5357,11 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: number; 
+  private _end?: string; 
   public get end() {
-    return this.getNumberAttribute('end');
+    return this.getStringAttribute('end');
   }
-  public set end(value: number) {
+  public set end(value: string) {
     this._end = value;
   }
   public resetEnd() {
@@ -4906,11 +5418,11 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: number; 
+  private _start?: string; 
   public get start() {
-    return this.getNumberAttribute('start');
+    return this.getStringAttribute('start');
   }
-  public set start(value: number) {
+  public set start(value: string) {
     this._start = value;
   }
   public resetStart() {
@@ -4944,11 +5456,11 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       duration: cdktf.stringToTerraform(this._duration),
-      end: cdktf.numberToTerraform(this._end),
+      end: cdktf.stringToTerraform(this._end),
       mac: cdktf.stringToTerraform(this._mac),
       org_id: cdktf.stringToTerraform(this._orgId),
       site_id: cdktf.stringToTerraform(this._siteId),
-      start: cdktf.numberToTerraform(this._start),
+      start: cdktf.stringToTerraform(this._start),
       status: cdktf.stringToTerraform(this._status),
     };
   }
@@ -4962,10 +5474,10 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
         storageClassType: "string",
       },
       end: {
-        value: cdktf.numberToHclTerraform(this._end),
+        value: cdktf.stringToHclTerraform(this._end),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       mac: {
         value: cdktf.stringToHclTerraform(this._mac),
@@ -4986,10 +5498,10 @@ export class DataMistDeviceGatewayStats extends cdktf.TerraformDataSource {
         storageClassType: "string",
       },
       start: {
-        value: cdktf.numberToHclTerraform(this._start),
+        value: cdktf.stringToHclTerraform(this._start),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       status: {
         value: cdktf.stringToHclTerraform(this._status),

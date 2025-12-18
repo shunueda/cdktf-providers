@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExternalContainerDatabaseManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#enable_management DatabaseExternalContainerDatabaseManagement#enable_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#enable_management DatabaseExternalContainerDatabaseManagement#enable_management}
   */
   readonly enableManagement: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#external_container_database_id DatabaseExternalContainerDatabaseManagement#external_container_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#external_container_database_id DatabaseExternalContainerDatabaseManagement#external_container_database_id}
   */
   readonly externalContainerDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#external_database_connector_id DatabaseExternalContainerDatabaseManagement#external_database_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#external_database_connector_id DatabaseExternalContainerDatabaseManagement#external_database_connector_id}
   */
   readonly externalDatabaseConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#id DatabaseExternalContainerDatabaseManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#id DatabaseExternalContainerDatabaseManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#license_model DatabaseExternalContainerDatabaseManagement#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#license_model DatabaseExternalContainerDatabaseManagement#license_model}
   */
   readonly licenseModel?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#timeouts DatabaseExternalContainerDatabaseManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#timeouts DatabaseExternalContainerDatabaseManagement#timeouts}
   */
   readonly timeouts?: DatabaseExternalContainerDatabaseManagementTimeouts;
 }
 export interface DatabaseExternalContainerDatabaseManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#create DatabaseExternalContainerDatabaseManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#create DatabaseExternalContainerDatabaseManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#delete DatabaseExternalContainerDatabaseManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#delete DatabaseExternalContainerDatabaseManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#update DatabaseExternalContainerDatabaseManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#update DatabaseExternalContainerDatabaseManagement#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DatabaseExternalContainerDatabaseManagementTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management oci_database_external_container_database_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management oci_database_external_container_database_management}
 */
 export class DatabaseExternalContainerDatabaseManagement extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DatabaseExternalContainerDatabaseManagement extends cdktf.Terraform
   * Generates CDKTF code for importing a DatabaseExternalContainerDatabaseManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExternalContainerDatabaseManagement to import
-  * @param importFromId The id of the existing DatabaseExternalContainerDatabaseManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExternalContainerDatabaseManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExternalContainerDatabaseManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DatabaseExternalContainerDatabaseManagement extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_container_database_management oci_database_external_container_database_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_external_container_database_management oci_database_external_container_database_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DatabaseExternalContainerDatabaseManagement extends cdktf.Terraform
       terraformResourceType: 'oci_database_external_container_database_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

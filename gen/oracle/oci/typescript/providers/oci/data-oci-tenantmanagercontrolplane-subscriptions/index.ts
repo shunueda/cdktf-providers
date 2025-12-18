@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciTenantmanagercontrolplaneSubscriptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#compartment_id DataOciTenantmanagercontrolplaneSubscriptions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#compartment_id DataOciTenantmanagercontrolplaneSubscriptions#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#entity_version DataOciTenantmanagercontrolplaneSubscriptions#entity_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#entity_version DataOciTenantmanagercontrolplaneSubscriptions#entity_version}
   */
   readonly entityVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#id DataOciTenantmanagercontrolplaneSubscriptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#id DataOciTenantmanagercontrolplaneSubscriptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#subscription_id DataOciTenantmanagercontrolplaneSubscriptions#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#subscription_id DataOciTenantmanagercontrolplaneSubscriptions#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#filter DataOciTenantmanagercontrolplaneSubscriptions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#filter DataOciTenantmanagercontrolplaneSubscriptions#filter}
   */
   readonly filter?: DataOciTenantmanagercontrolplaneSubscriptionsFilter[] | cdktf.IResolvable;
 }
@@ -545,15 +545,15 @@ export class DataOciTenantmanagercontrolplaneSubscriptionsSubscriptionCollection
 }
 export interface DataOciTenantmanagercontrolplaneSubscriptionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#name DataOciTenantmanagercontrolplaneSubscriptions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#name DataOciTenantmanagercontrolplaneSubscriptions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#regex DataOciTenantmanagercontrolplaneSubscriptions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#regex DataOciTenantmanagercontrolplaneSubscriptions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#values DataOciTenantmanagercontrolplaneSubscriptions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#values DataOciTenantmanagercontrolplaneSubscriptions#values}
   */
   readonly values: string[];
 }
@@ -721,7 +721,7 @@ export class DataOciTenantmanagercontrolplaneSubscriptionsFilterList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions oci_tenantmanagercontrolplane_subscriptions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions oci_tenantmanagercontrolplane_subscriptions}
 */
 export class DataOciTenantmanagercontrolplaneSubscriptions extends cdktf.TerraformDataSource {
 
@@ -737,7 +737,7 @@ export class DataOciTenantmanagercontrolplaneSubscriptions extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataOciTenantmanagercontrolplaneSubscriptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciTenantmanagercontrolplaneSubscriptions to import
-  * @param importFromId The id of the existing DataOciTenantmanagercontrolplaneSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciTenantmanagercontrolplaneSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciTenantmanagercontrolplaneSubscriptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -749,7 +749,7 @@ export class DataOciTenantmanagercontrolplaneSubscriptions extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscriptions oci_tenantmanagercontrolplane_subscriptions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/tenantmanagercontrolplane_subscriptions oci_tenantmanagercontrolplane_subscriptions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,8 +760,8 @@ export class DataOciTenantmanagercontrolplaneSubscriptions extends cdktf.Terrafo
       terraformResourceType: 'oci_tenantmanagercontrolplane_subscriptions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsSecurityQuestionSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#attribute_sets DataOciIdentityDomainsSecurityQuestionSetting#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#attribute_sets DataOciIdentityDomainsSecurityQuestionSetting#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#attributes DataOciIdentityDomainsSecurityQuestionSetting#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#attributes DataOciIdentityDomainsSecurityQuestionSetting#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#authorization DataOciIdentityDomainsSecurityQuestionSetting#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#authorization DataOciIdentityDomainsSecurityQuestionSetting#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#idcs_endpoint DataOciIdentityDomainsSecurityQuestionSetting#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#idcs_endpoint DataOciIdentityDomainsSecurityQuestionSetting#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#resource_type_schema_version DataOciIdentityDomainsSecurityQuestionSetting#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#resource_type_schema_version DataOciIdentityDomainsSecurityQuestionSetting#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#security_question_setting_id DataOciIdentityDomainsSecurityQuestionSetting#security_question_setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#security_question_setting_id DataOciIdentityDomainsSecurityQuestionSetting#security_question_setting_id}
   */
   readonly securityQuestionSettingId: string;
 }
@@ -399,7 +399,7 @@ export class DataOciIdentityDomainsSecurityQuestionSettingTagsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting oci_identity_domains_security_question_setting}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting oci_identity_domains_security_question_setting}
 */
 export class DataOciIdentityDomainsSecurityQuestionSetting extends cdktf.TerraformDataSource {
 
@@ -415,7 +415,7 @@ export class DataOciIdentityDomainsSecurityQuestionSetting extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataOciIdentityDomainsSecurityQuestionSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsSecurityQuestionSetting to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsSecurityQuestionSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsSecurityQuestionSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsSecurityQuestionSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -427,7 +427,7 @@ export class DataOciIdentityDomainsSecurityQuestionSetting extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_security_question_setting oci_identity_domains_security_question_setting} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_security_question_setting oci_identity_domains_security_question_setting} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -438,8 +438,8 @@ export class DataOciIdentityDomainsSecurityQuestionSetting extends cdktf.Terrafo
       terraformResourceType: 'oci_identity_domains_security_question_setting',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

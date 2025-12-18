@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProviderIntegrationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The display name of provider integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration#display_name ProviderIntegration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration#display_name ProviderIntegration#display_name}
   */
   readonly displayName: string;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration#aws ProviderIntegration#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration#aws ProviderIntegration#aws}
   */
   readonly aws?: ProviderIntegrationAws;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration#environment ProviderIntegration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration#environment ProviderIntegration#environment}
   */
   readonly environment: ProviderIntegrationEnvironment;
 }
@@ -30,7 +30,7 @@ export interface ProviderIntegrationAws {
   /**
   * The AWS customer's IAM role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration#customer_role_arn ProviderIntegration#customer_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration#customer_role_arn ProviderIntegration#customer_role_arn}
   */
   readonly customerRoleArn: string;
 }
@@ -123,7 +123,7 @@ export interface ProviderIntegrationEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration#id ProviderIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration#id ProviderIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -207,7 +207,7 @@ export class ProviderIntegrationEnvironmentOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration confluent_provider_integration}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration confluent_provider_integration}
 */
 export class ProviderIntegration extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ProviderIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderIntegration to import
-  * @param importFromId The id of the existing ProviderIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ProviderIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration confluent_provider_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration confluent_provider_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ProviderIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_provider_integration',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

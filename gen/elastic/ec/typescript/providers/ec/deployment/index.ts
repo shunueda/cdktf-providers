@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deployment alias, affects the format of the resource URLs. Set to an empty value ("") to disable the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#alias Deployment#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#alias Deployment#alias}
   */
   readonly alias?: string;
   /**
   * **DEPRECATED** APM cluster definition. This should only be used for deployments running a version lower than 8.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#apm Deployment#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#apm Deployment#apm}
   */
   readonly apm?: DeploymentApm;
   /**
   * Deployment template identifier to create the deployment from. See the [full list](https://www.elastic.co/guide/en/cloud/current/ec-regions-templates-instances.html) of regions and deployment templates available in ESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#deployment_template_id Deployment#deployment_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#deployment_template_id Deployment#deployment_template_id}
   */
   readonly deploymentTemplateId: string;
   /**
   * Elasticsearch cluster definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#elasticsearch Deployment#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#elasticsearch Deployment#elasticsearch}
   */
   readonly elasticsearch: DeploymentElasticsearch;
   /**
   * Enterprise Search cluster definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#enterprise_search Deployment#enterprise_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#enterprise_search Deployment#enterprise_search}
   */
   readonly enterpriseSearch?: DeploymentEnterpriseSearch;
   /**
   * Integrations Server cluster definition. Integrations Server replaces `apm` in Stack versions > 8.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#integrations_server Deployment#integrations_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#integrations_server Deployment#integrations_server}
   */
   readonly integrationsServer?: DeploymentIntegrationsServer;
   /**
@@ -48,7 +48,7 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   * 
   * -> **Note on disabling Kibana** While optional it is recommended deployments specify a Kibana block, since not doing so might cause issues when modifying or upgrading the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#kibana Deployment#kibana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#kibana Deployment#kibana}
   */
   readonly kibana?: DeploymentKibana;
   /**
@@ -57,49 +57,49 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   * ~> **Note** If the <code>instance_configuration_id</code> or <code>instance_configuration_version</code> fields are set for a specific topology element, that element will not be updated.
   * ~> **Note** Hardware migrations are not supported for deployments with node types. To use this field, the deployment needs to be migrated to node roles first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#migrate_to_latest_hardware Deployment#migrate_to_latest_hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#migrate_to_latest_hardware Deployment#migrate_to_latest_hardware}
   */
   readonly migrateToLatestHardware?: boolean | cdktf.IResolvable;
   /**
   * Name for the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#name Deployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#name Deployment#name}
   */
   readonly name?: string;
   /**
   * Observability settings that you can set to ship logs and metrics to a deployment. The target deployment can also be the current deployment itself by setting observability.deployment_id to `self`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#observability Deployment#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#observability Deployment#observability}
   */
   readonly observability?: DeploymentObservability;
   /**
   * Elasticsearch Service (ESS) region where the deployment should be hosted. For Elastic Cloud Enterprise (ECE) installations, set to `"ece-region".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#region Deployment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#region Deployment#region}
   */
   readonly region: string;
   /**
   * Request ID to set when you create the deployment. Use it only when previous attempts return an error and `request_id` is returned as part of the error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#request_id Deployment#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#request_id Deployment#request_id}
   */
   readonly requestId?: string;
   /**
   * Explicitly resets the elasticsearch_password when true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#reset_elasticsearch_password Deployment#reset_elasticsearch_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#reset_elasticsearch_password Deployment#reset_elasticsearch_password}
   */
   readonly resetElasticsearchPassword?: boolean | cdktf.IResolvable;
   /**
   * Optional map of deployment tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#tags Deployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#tags Deployment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * List of traffic filters rule identifiers that will be applied to the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#traffic_filter Deployment#traffic_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#traffic_filter Deployment#traffic_filter}
   */
   readonly trafficFilter?: string[];
   /**
@@ -107,7 +107,7 @@ export interface DeploymentConfig extends cdktf.TerraformMetaArguments {
   * 
   * -> Read the [ESS stack version policy](https://www.elastic.co/guide/en/cloud/current/ec-version-policy.html#ec-version-policy-available) to understand which versions are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#version Deployment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#version Deployment#version}
   */
   readonly version: string;
 }
@@ -115,37 +115,37 @@ export interface DeploymentApmConfig {
   /**
   * Optionally enable debug mode for APM servers - defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#debug_enabled Deployment#debug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#debug_enabled Deployment#debug_enabled}
   */
   readonly debugEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optionally override the docker image the APM nodes will use. This option will not work in ESS customers and should only be changed if you know what you're doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#docker_image Deployment#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#docker_image Deployment#docker_image}
   */
   readonly dockerImage?: string;
   /**
   * An arbitrary JSON object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_yaml' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (This field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
   */
   readonly userSettingsJson?: string;
   /**
   * An arbitrary JSON object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_yaml' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
   */
   readonly userSettingsOverrideJson?: string;
   /**
   * An arbitrary YAML object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_json' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
   */
   readonly userSettingsOverrideYaml?: string;
   /**
   * An arbitrary YAML object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_json' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (These field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
   */
   readonly userSettingsYaml?: string;
 }
@@ -386,37 +386,37 @@ export interface DeploymentApm {
   /**
   * Optionally define the Apm configuration options for the APM Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#config Deployment#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#config Deployment#config}
   */
   readonly config?: DeploymentApmConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
   */
   readonly elasticsearchClusterRefId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Optional size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -745,31 +745,31 @@ export interface DeploymentElasticsearchColdAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -986,61 +986,61 @@ export interface DeploymentElasticsearchCold {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchColdAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -1409,37 +1409,37 @@ export interface DeploymentElasticsearchConfig {
   /**
   * Overrides the docker image the Elasticsearch nodes will use. Note that this field will only work for internal users only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#docker_image Deployment#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#docker_image Deployment#docker_image}
   */
   readonly dockerImage?: string;
   /**
   * List of Elasticsearch supported plugins, which vary from version to version. Check the Stack Pack version to see which plugins are supported for each version. This is currently only available from the UI and [ecctl](https://www.elastic.co/guide/en/ecctl/master/ecctl_stack_list.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#plugins Deployment#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#plugins Deployment#plugins}
   */
   readonly plugins?: string[];
   /**
   * JSON-formatted user level "elasticsearch.yml" setting overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
   */
   readonly userSettingsJson?: string;
   /**
   * JSON-formatted admin (ECE) level "elasticsearch.yml" setting overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
   */
   readonly userSettingsOverrideJson?: string;
   /**
   * YAML-formatted admin (ECE) level "elasticsearch.yml" setting overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
   */
   readonly userSettingsOverrideYaml?: string;
   /**
   * YAML-formatted user level "elasticsearch.yml" setting overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
   */
   readonly userSettingsYaml?: string;
 }
@@ -1680,31 +1680,31 @@ export interface DeploymentElasticsearchCoordinatingAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -1921,61 +1921,61 @@ export interface DeploymentElasticsearchCoordinating {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchCoordinatingAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -2344,25 +2344,25 @@ export interface DeploymentElasticsearchExtension {
   /**
   * Extension name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#name Deployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#name Deployment#name}
   */
   readonly name: string;
   /**
   * Extension type, only `bundle` or `plugin` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#type Deployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#type Deployment#type}
   */
   readonly type: string;
   /**
   * Bundle or plugin URL, the extension URL can be obtained from the `ec_deployment_extension.<name>.url` attribute or the API and cannot be a random HTTP address that is hosted elsewhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#url Deployment#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#url Deployment#url}
   */
   readonly url: string;
   /**
   * Elasticsearch compatibility version. Bundles should specify major or minor versions with wildcards, such as `7.*` or `*` but **plugins must use full version notation down to the patch level**, such as `7.10.1` and wildcards are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#version Deployment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#version Deployment#version}
   */
   readonly version: string;
 }
@@ -2555,31 +2555,31 @@ export interface DeploymentElasticsearchFrozenAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -2796,61 +2796,61 @@ export interface DeploymentElasticsearchFrozen {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchFrozenAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -3219,31 +3219,31 @@ export interface DeploymentElasticsearchHotAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -3460,61 +3460,61 @@ export interface DeploymentElasticsearchHot {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchHotAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -3883,13 +3883,13 @@ export interface DeploymentElasticsearchKeystoreContents {
   /**
   * If true, the secret is handled as a file. Otherwise, it's handled as a plain string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#as_file Deployment#as_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#as_file Deployment#as_file}
   */
   readonly asFile?: boolean | cdktf.IResolvable;
   /**
   * Secret value. This can either be a string or a JSON object that is stored as a JSON string in the keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#value Deployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#value Deployment#value}
   */
   readonly value: string;
 }
@@ -4031,31 +4031,31 @@ export interface DeploymentElasticsearchMasterAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -4262,61 +4262,61 @@ export interface DeploymentElasticsearchMaster {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchMasterAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -4685,31 +4685,31 @@ export interface DeploymentElasticsearchMlAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -4926,61 +4926,61 @@ export interface DeploymentElasticsearchMl {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchMlAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -5349,25 +5349,25 @@ export interface DeploymentElasticsearchRemoteCluster {
   /**
   * Alias for this Cross Cluster Search binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#alias Deployment#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#alias Deployment#alias}
   */
   readonly alias: string;
   /**
   * Remote deployment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#deployment_id Deployment#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#deployment_id Deployment#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * Remote elasticsearch "ref_id", it is best left to the default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
   /**
   * If true, skip the cluster during search when disconnected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#skip_unavailable Deployment#skip_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#skip_unavailable Deployment#skip_unavailable}
   */
   readonly skipUnavailable?: boolean | cdktf.IResolvable;
 }
@@ -5566,7 +5566,7 @@ export interface DeploymentElasticsearchSnapshotRepositoryReference {
   /**
   * ECE snapshot repository name, from the '/platform/configuration/snapshots/repositories' endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#repository_name Deployment#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#repository_name Deployment#repository_name}
   */
   readonly repositoryName: string;
 }
@@ -5659,7 +5659,7 @@ export interface DeploymentElasticsearchSnapshotRepository {
   /**
   * Cluster snapshot reference repository settings, containing the repository name in ECE fashion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#reference Deployment#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#reference Deployment#reference}
   */
   readonly reference?: DeploymentElasticsearchSnapshotRepositoryReference;
 }
@@ -5755,13 +5755,13 @@ export interface DeploymentElasticsearchSnapshot {
   /**
   * Indicates if Snapshotting is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#enabled Deployment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#enabled Deployment#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Snapshot repository configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#repository Deployment#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#repository Deployment#repository}
   */
   readonly repository?: DeploymentElasticsearchSnapshotRepository;
 }
@@ -5883,13 +5883,13 @@ export interface DeploymentElasticsearchSnapshotSource {
   /**
   * Name of the snapshot to restore. Use '__latest_success__' to get the most recent successful snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#snapshot_name Deployment#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#snapshot_name Deployment#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * ID of the Elasticsearch cluster that will be used as the source of the snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#source_elasticsearch_cluster_id Deployment#source_elasticsearch_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#source_elasticsearch_cluster_id Deployment#source_elasticsearch_cluster_id}
   */
   readonly sourceElasticsearchClusterId: string;
 }
@@ -6011,19 +6011,19 @@ export interface DeploymentElasticsearchTrustAccount {
   /**
   * The ID of the Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#account_id Deployment#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#account_id Deployment#account_id}
   */
   readonly accountId: string;
   /**
   * If true, all clusters in this account will by default be trusted and the `trust_allowlist` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#trust_all Deployment#trust_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#trust_all Deployment#trust_all}
   */
   readonly trustAll: boolean | cdktf.IResolvable;
   /**
   * The list of clusters to trust. Only used when `trust_all` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#trust_allowlist Deployment#trust_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#trust_allowlist Deployment#trust_allowlist}
   */
   readonly trustAllowlist?: string[];
 }
@@ -6193,19 +6193,19 @@ export interface DeploymentElasticsearchTrustExternal {
   /**
   * The ID of the external trust relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#relationship_id Deployment#relationship_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#relationship_id Deployment#relationship_id}
   */
   readonly relationshipId: string;
   /**
   * If true, all clusters in this account will by default be trusted and the `trust_allowlist` is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#trust_all Deployment#trust_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#trust_all Deployment#trust_all}
   */
   readonly trustAll: boolean | cdktf.IResolvable;
   /**
   * The list of clusters to trust. Only used when `trust_all` is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#trust_allowlist Deployment#trust_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#trust_allowlist Deployment#trust_allowlist}
   */
   readonly trustAllowlist?: string[];
 }
@@ -6375,31 +6375,31 @@ export interface DeploymentElasticsearchWarmAutoscaling {
   /**
   * Whether this specific tier should be auto-scaled, overrides deployment-wide setting. Allowed for `ml` tier only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
-  * Maximum size value for the maximum autoscaling setting.
+  * Maximum autoscaling size. Set it to "0g" if tier should not be created when autoscaling is enabled on ES level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size Deployment#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size Deployment#max_size}
   */
   readonly maxSize?: string;
   /**
   * Maximum resource type for the maximum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#max_size_resource Deployment#max_size_resource}
   */
   readonly maxSizeResource?: string;
   /**
-  * Minimum size value for the minimum autoscaling setting.
+  * Minimum autoscaling size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size Deployment#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size Deployment#min_size}
   */
   readonly minSize?: string;
   /**
   * Minimum resource type for the minimum autoscaling setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#min_size_resource Deployment#min_size_resource}
   */
   readonly minSizeResource?: string;
 }
@@ -6616,61 +6616,61 @@ export interface DeploymentElasticsearchWarm {
   /**
   * Optional Elasticsearch autoscaling settings, such a maximum and minimum size and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscaling Deployment#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscaling Deployment#autoscaling}
   */
   readonly autoscaling: DeploymentElasticsearchWarmAutoscaling;
   /**
   * Instance Configuration ID of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
   * Instance Configuration version of the topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
   * The node type for the Elasticsearch Topology element (data node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_data Deployment#node_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_data Deployment#node_type_data}
   */
   readonly nodeTypeData?: string;
   /**
   * The node type for the Elasticsearch Topology element (ingest node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ingest Deployment#node_type_ingest}
   */
   readonly nodeTypeIngest?: string;
   /**
   * The node type for the Elasticsearch Topology element (master node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_master Deployment#node_type_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_master Deployment#node_type_master}
   */
   readonly nodeTypeMaster?: string;
   /**
   * The node type for the Elasticsearch Topology element (machine learning node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#node_type_ml Deployment#node_type_ml}
   */
   readonly nodeTypeMl?: string;
   /**
   * Amount of "size_resource" per node in the "<size in GB>g" notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
   * Number of zones that the Elasticsearch cluster will span. This is used to set HA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -7039,73 +7039,73 @@ export interface DeploymentElasticsearch {
   /**
   * Enable or disable autoscaling. Defaults to the setting coming from the deployment template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#autoscale Deployment#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#autoscale Deployment#autoscale}
   */
   readonly autoscale?: boolean | cdktf.IResolvable;
   /**
   * 'cold' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#cold Deployment#cold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#cold Deployment#cold}
   */
   readonly cold?: DeploymentElasticsearchCold;
   /**
   * Elasticsearch settings which will be applied to all topologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#config Deployment#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#config Deployment#config}
   */
   readonly config?: DeploymentElasticsearchConfig;
   /**
   * 'coordinating' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#coordinating Deployment#coordinating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#coordinating Deployment#coordinating}
   */
   readonly coordinating?: DeploymentElasticsearchCoordinating;
   /**
   * Optional Elasticsearch extensions such as custom bundles or plugins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#extension Deployment#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#extension Deployment#extension}
   */
   readonly extension?: DeploymentElasticsearchExtension[] | cdktf.IResolvable;
   /**
   * 'frozen' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#frozen Deployment#frozen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#frozen Deployment#frozen}
   */
   readonly frozen?: DeploymentElasticsearchFrozen;
   /**
   * 'hot' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#hot Deployment#hot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#hot Deployment#hot}
   */
   readonly hot: DeploymentElasticsearchHot;
   /**
   * Keystore contents that are controlled by the deployment resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#keystore_contents Deployment#keystore_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#keystore_contents Deployment#keystore_contents}
   */
   readonly keystoreContents?: { [key: string]: DeploymentElasticsearchKeystoreContents } | cdktf.IResolvable;
   /**
   * 'master' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#master Deployment#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#master Deployment#master}
   */
   readonly master?: DeploymentElasticsearchMaster;
   /**
   * 'ml' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ml Deployment#ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ml Deployment#ml}
   */
   readonly ml?: DeploymentElasticsearchMl;
   /**
   * A human readable reference for the Elasticsearch resource. The default value `main-elasticsearch` is recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
   /**
   * Optional Elasticsearch remote clusters to configure for the Elasticsearch resource, can be set multiple times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#remote_cluster Deployment#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#remote_cluster Deployment#remote_cluster}
   */
   readonly remoteCluster?: DeploymentElasticsearchRemoteCluster[] | cdktf.IResolvable;
   /**
@@ -7113,7 +7113,7 @@ export interface DeploymentElasticsearch {
   * 
   * For ESS please use the [elasticstack_elasticsearch_snapshot_repository](https://registry.terraform.io/providers/elastic/elasticstack/latest/docs/resources/elasticsearch_snapshot_repository) resource from the [Elastic Stack terraform provider](https://registry.terraform.io/providers/elastic/elasticstack/latest).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#snapshot Deployment#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#snapshot Deployment#snapshot}
   */
   readonly snapshot?: DeploymentElasticsearchSnapshot;
   /**
@@ -7121,31 +7121,31 @@ export interface DeploymentElasticsearch {
   * 
   * ~> **Note on behavior** The <code>snapshot_source</code> block will not be saved in the Terraform state due to its transient nature. This means that whenever the <code>snapshot_source</code> block is set, a snapshot will **always be restored**, unless removed before running <code>terraform apply</code>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#snapshot_source Deployment#snapshot_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#snapshot_source Deployment#snapshot_source}
   */
   readonly snapshotSource?: DeploymentElasticsearchSnapshotSource;
   /**
   * Configuration strategy type autodetect, grow_and_shrink, rolling_grow_and_shrink, rolling_all
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#strategy Deployment#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#strategy Deployment#strategy}
   */
   readonly strategy?: string;
   /**
   * Optional Elasticsearch account trust settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#trust_account Deployment#trust_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#trust_account Deployment#trust_account}
   */
   readonly trustAccount?: DeploymentElasticsearchTrustAccount[] | cdktf.IResolvable;
   /**
   * Optional Elasticsearch external trust settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#trust_external Deployment#trust_external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#trust_external Deployment#trust_external}
   */
   readonly trustExternal?: DeploymentElasticsearchTrustExternal[] | cdktf.IResolvable;
   /**
   * 'warm' topology element
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#warm Deployment#warm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#warm Deployment#warm}
   */
   readonly warm?: DeploymentElasticsearchWarm;
 }
@@ -7756,31 +7756,31 @@ export interface DeploymentEnterpriseSearchConfig {
   /**
   * Optionally override the docker image the Enterprise Search nodes will use. Note that this field will only work for internal users only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#docker_image Deployment#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#docker_image Deployment#docker_image}
   */
   readonly dockerImage?: string;
   /**
   * An arbitrary JSON object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_yaml' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (This field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
   */
   readonly userSettingsJson?: string;
   /**
   * An arbitrary JSON object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_yaml' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
   */
   readonly userSettingsOverrideJson?: string;
   /**
   * An arbitrary YAML object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_json' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
   */
   readonly userSettingsOverrideYaml?: string;
   /**
   * An arbitrary YAML object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_json' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (These field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
   */
   readonly userSettingsYaml?: string;
 }
@@ -7992,37 +7992,37 @@ export interface DeploymentEnterpriseSearch {
   /**
   * Optionally define the Enterprise Search configuration options for the Enterprise Search Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#config Deployment#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#config Deployment#config}
   */
   readonly config?: DeploymentEnterpriseSearchConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
   */
   readonly elasticsearchClusterRefId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Optional size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -8366,37 +8366,37 @@ export interface DeploymentIntegrationsServerConfig {
   /**
   * Optionally enable debug mode for Integrations Server instances - defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#debug_enabled Deployment#debug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#debug_enabled Deployment#debug_enabled}
   */
   readonly debugEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optionally override the docker image the Integrations Server nodes will use. Note that this field will only work for internal users only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#docker_image Deployment#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#docker_image Deployment#docker_image}
   */
   readonly dockerImage?: string;
   /**
   * An arbitrary JSON object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_yaml' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (This field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
   */
   readonly userSettingsJson?: string;
   /**
   * An arbitrary JSON object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_yaml' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
   */
   readonly userSettingsOverrideJson?: string;
   /**
   * An arbitrary YAML object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_json' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
   */
   readonly userSettingsOverrideYaml?: string;
   /**
   * An arbitrary YAML object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_json' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (These field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
   */
   readonly userSettingsYaml?: string;
 }
@@ -8716,43 +8716,43 @@ export interface DeploymentIntegrationsServer {
   /**
   * Optionally define the Integrations Server configuration options for the IntegrationsServer Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#config Deployment#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#config Deployment#config}
   */
   readonly config?: DeploymentIntegrationsServerConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
   */
   readonly elasticsearchClusterRefId?: string;
   /**
   * URLs for the accessing the Fleet and APM API's within this Integrations Server resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#endpoints Deployment#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#endpoints Deployment#endpoints}
   */
   readonly endpoints?: DeploymentIntegrationsServerEndpoints;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Optional size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -9110,31 +9110,31 @@ export interface DeploymentKibanaConfig {
   /**
   * Optionally override the docker image the Kibana nodes will use. Note that this field will only work for internal users only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#docker_image Deployment#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#docker_image Deployment#docker_image}
   */
   readonly dockerImage?: string;
   /**
   * An arbitrary JSON object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_yaml' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (This field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_json Deployment#user_settings_json}
   */
   readonly userSettingsJson?: string;
   /**
   * An arbitrary JSON object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_yaml' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_json Deployment#user_settings_override_json}
   */
   readonly userSettingsOverrideJson?: string;
   /**
   * An arbitrary YAML object allowing ECE admins owners to set clusters' parameters (only one of this and 'user_settings_override_json' is allowed), ie in addition to the documented 'system_settings'. (This field together with 'system_settings' and 'user_settings*' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_override_yaml Deployment#user_settings_override_yaml}
   */
   readonly userSettingsOverrideYaml?: string;
   /**
   * An arbitrary YAML object allowing (non-admin) cluster owners to set their parameters (only one of this and 'user_settings_json' is allowed), provided they are on the whitelist ('user_settings_whitelist') and not on the blacklist ('user_settings_blacklist'). (These field together with 'user_settings_override*' and 'system_settings' defines the total set of resource settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#user_settings_yaml Deployment#user_settings_yaml}
   */
   readonly userSettingsYaml?: string;
 }
@@ -9346,37 +9346,37 @@ export interface DeploymentKibana {
   /**
   * Optionally define the Kibana configuration options for the Kibana Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#config Deployment#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#config Deployment#config}
   */
   readonly config?: DeploymentKibanaConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#elasticsearch_cluster_ref_id Deployment#elasticsearch_cluster_ref_id}
   */
   readonly elasticsearchClusterRefId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_id Deployment#instance_configuration_id}
   */
   readonly instanceConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#instance_configuration_version Deployment#instance_configuration_version}
   */
   readonly instanceConfigurationVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size Deployment#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size Deployment#size}
   */
   readonly size?: string;
   /**
   * Optional size type, defaults to "memory".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#size_resource Deployment#size_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#size_resource Deployment#size_resource}
   */
   readonly sizeResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#zone_count Deployment#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#zone_count Deployment#zone_count}
   */
   readonly zoneCount?: number;
 }
@@ -9703,19 +9703,19 @@ export class DeploymentKibanaOutputReference extends cdktf.ComplexObject {
 }
 export interface DeploymentObservability {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#deployment_id Deployment#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#deployment_id Deployment#deployment_id}
   */
   readonly deploymentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#logs Deployment#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#logs Deployment#logs}
   */
   readonly logs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#metrics Deployment#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#metrics Deployment#metrics}
   */
   readonly metrics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#ref_id Deployment#ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#ref_id Deployment#ref_id}
   */
   readonly refId?: string;
 }
@@ -9893,7 +9893,7 @@ export class DeploymentObservabilityOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment ec_deployment}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment ec_deployment}
 */
 export class Deployment extends cdktf.TerraformResource {
 
@@ -9909,7 +9909,7 @@ export class Deployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Deployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Deployment to import
-  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9921,7 +9921,7 @@ export class Deployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment ec_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment ec_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9932,8 +9932,8 @@ export class Deployment extends cdktf.TerraformResource {
       terraformResourceType: 'ec_deployment',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

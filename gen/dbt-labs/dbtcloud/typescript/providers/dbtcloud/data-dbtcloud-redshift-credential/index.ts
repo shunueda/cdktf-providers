@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataDbtcloudRedshiftCredentialConfig extends cdktf.TerraformMet
   /**
   * Credential ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential#credential_id DataDbtcloudRedshiftCredential#credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential#credential_id DataDbtcloudRedshiftCredential#credential_id}
   */
   readonly credentialId: number;
   /**
   * Default schema name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential#default_schema DataDbtcloudRedshiftCredential#default_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential#default_schema DataDbtcloudRedshiftCredential#default_schema}
   */
   readonly defaultSchema: string;
   /**
   * Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential#project_id DataDbtcloudRedshiftCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential#project_id DataDbtcloudRedshiftCredential#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential dbtcloud_redshift_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential dbtcloud_redshift_credential}
 */
 export class DataDbtcloudRedshiftCredential extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataDbtcloudRedshiftCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDbtcloudRedshiftCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDbtcloudRedshiftCredential to import
-  * @param importFromId The id of the existing DataDbtcloudRedshiftCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDbtcloudRedshiftCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDbtcloudRedshiftCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataDbtcloudRedshiftCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/data-sources/redshift_credential dbtcloud_redshift_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/data-sources/redshift_credential dbtcloud_redshift_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataDbtcloudRedshiftCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'dbtcloud_redshift_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

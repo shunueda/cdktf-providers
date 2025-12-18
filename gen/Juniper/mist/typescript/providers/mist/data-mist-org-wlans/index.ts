@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_wlans
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_wlans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataMistOrgWlansConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_wlans#org_id DataMistOrgWlans#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_wlans#org_id DataMistOrgWlans#org_id}
   */
   readonly orgId: string;
 }
@@ -1428,9 +1428,49 @@ export class DataMistOrgWlansOrgWlansMistNacOutputReference extends cdktf.Comple
     }
   }
 
+  // acct_interim_interval - computed: true, optional: false, required: false
+  public get acctInterimInterval() {
+    return this.getNumberAttribute('acct_interim_interval');
+  }
+
+  // auth_servers_retries - computed: true, optional: false, required: false
+  public get authServersRetries() {
+    return this.getNumberAttribute('auth_servers_retries');
+  }
+
+  // auth_servers_timeout - computed: true, optional: false, required: false
+  public get authServersTimeout() {
+    return this.getNumberAttribute('auth_servers_timeout');
+  }
+
+  // coa_enabled - computed: true, optional: false, required: false
+  public get coaEnabled() {
+    return this.getBooleanAttribute('coa_enabled');
+  }
+
+  // coa_port - computed: true, optional: false, required: false
+  public get coaPort() {
+    return this.getNumberAttribute('coa_port');
+  }
+
   // enabled - computed: true, optional: false, required: false
   public get enabled() {
     return this.getBooleanAttribute('enabled');
+  }
+
+  // fast_dot1x_timers - computed: true, optional: false, required: false
+  public get fastDot1XTimers() {
+    return this.getBooleanAttribute('fast_dot1x_timers');
+  }
+
+  // network - computed: true, optional: false, required: false
+  public get network() {
+    return this.getStringAttribute('network');
+  }
+
+  // source_ip - computed: true, optional: false, required: false
+  public get sourceIp() {
+    return this.getStringAttribute('source_ip');
   }
 }
 export interface DataMistOrgWlansOrgWlansPortal {
@@ -1750,6 +1790,16 @@ export class DataMistOrgWlansOrgWlansPortalOutputReference extends cdktf.Complex
   // sms_provider - computed: true, optional: false, required: false
   public get smsProvider() {
     return this.getStringAttribute('sms_provider');
+  }
+
+  // smsglobal_api_key - computed: true, optional: false, required: false
+  public get smsglobalApiKey() {
+    return this.getStringAttribute('smsglobal_api_key');
+  }
+
+  // smsglobal_api_secret - computed: true, optional: false, required: false
+  public get smsglobalApiSecret() {
+    return this.getStringAttribute('smsglobal_api_secret');
   }
 
   // sponsor_auto_approve - computed: true, optional: false, required: false
@@ -2916,7 +2966,7 @@ export class DataMistOrgWlansOrgWlansList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_wlans mist_org_wlans}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_wlans mist_org_wlans}
 */
 export class DataMistOrgWlans extends cdktf.TerraformDataSource {
 
@@ -2932,7 +2982,7 @@ export class DataMistOrgWlans extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistOrgWlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistOrgWlans to import
-  * @param importFromId The id of the existing DataMistOrgWlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_wlans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistOrgWlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_wlans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistOrgWlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2944,7 +2994,7 @@ export class DataMistOrgWlans extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/org_wlans mist_org_wlans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/org_wlans mist_org_wlans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2955,8 +3005,8 @@ export class DataMistOrgWlans extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_org_wlans',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

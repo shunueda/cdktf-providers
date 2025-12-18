@@ -1,3 +1,3 @@
 # `data_oci_lustre_file_storage_object_storage_link_sync_job`
 
-Refer to the Terraform Registry for docs: [`data_oci_lustre_file_storage_object_storage_link_sync_job`](https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job).
+Refer to the Terraform Registry for docs: [`data_oci_lustre_file_storage_object_storage_link_sync_job`](https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SecurityProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * admin features package (BYOK, BYOIDP, CCS, CCR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#admin_features_package SecurityProject#admin_features_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#admin_features_package SecurityProject#admin_features_package}
   */
   readonly adminFeaturesPackage?: string;
   /**
   * A custom domain label compatible with RFC-1035 standards. Derived from the project name by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#alias SecurityProject#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#alias SecurityProject#alias}
   */
   readonly alias?: string;
   /**
   * Descriptive name for a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#name SecurityProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#name SecurityProject#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#product_types SecurityProject#product_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#product_types SecurityProject#product_types}
   */
   readonly productTypes?: SecurityProjectProductTypes[] | cdktf.IResolvable;
   /**
   * Unique human-readable identifier for a region in Elastic Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#region_id SecurityProject#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#region_id SecurityProject#region_id}
   */
   readonly regionId: string;
 }
@@ -149,6 +149,11 @@ export class SecurityProjectEndpointsOutputReference extends cdktf.ComplexObject
     return this.getStringAttribute('elasticsearch');
   }
 
+  // ingest - computed: true, optional: false, required: false
+  public get ingest() {
+    return this.getStringAttribute('ingest');
+  }
+
   // kibana - computed: true, optional: false, required: false
   public get kibana() {
     return this.getStringAttribute('kibana');
@@ -232,13 +237,13 @@ export interface SecurityProjectProductTypes {
   /**
   * The identifier of the Security Solution product line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#product_line SecurityProject#product_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#product_line SecurityProject#product_line}
   */
   readonly productLine: string;
   /**
   * The identifier of the Security Solution product tier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#product_tier SecurityProject#product_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#product_tier SecurityProject#product_tier}
   */
   readonly productTier: string;
 }
@@ -377,7 +382,7 @@ export class SecurityProjectProductTypesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project ec_security_project}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project ec_security_project}
 */
 export class SecurityProject extends cdktf.TerraformResource {
 
@@ -393,7 +398,7 @@ export class SecurityProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityProject to import
-  * @param importFromId The id of the existing SecurityProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +410,7 @@ export class SecurityProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/security_project ec_security_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/security_project ec_security_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +421,8 @@ export class SecurityProject extends cdktf.TerraformResource {
       terraformResourceType: 'ec_security_project',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

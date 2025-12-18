@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMarketplaceListingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#category DataOciMarketplaceListings#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#category DataOciMarketplaceListings#category}
   */
   readonly category?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#compartment_id DataOciMarketplaceListings#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#compartment_id DataOciMarketplaceListings#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#id DataOciMarketplaceListings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#id DataOciMarketplaceListings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#image_id DataOciMarketplaceListings#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#image_id DataOciMarketplaceListings#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#is_featured DataOciMarketplaceListings#is_featured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#is_featured DataOciMarketplaceListings#is_featured}
   */
   readonly isFeatured?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#listing_id DataOciMarketplaceListings#listing_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#listing_id DataOciMarketplaceListings#listing_id}
   */
   readonly listingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#listing_types DataOciMarketplaceListings#listing_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#listing_types DataOciMarketplaceListings#listing_types}
   */
   readonly listingTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#name DataOciMarketplaceListings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#name DataOciMarketplaceListings#name}
   */
   readonly name?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#operating_systems DataOciMarketplaceListings#operating_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#operating_systems DataOciMarketplaceListings#operating_systems}
   */
   readonly operatingSystems?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#package_type DataOciMarketplaceListings#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#package_type DataOciMarketplaceListings#package_type}
   */
   readonly packageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#pricing DataOciMarketplaceListings#pricing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#pricing DataOciMarketplaceListings#pricing}
   */
   readonly pricing?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#publisher_id DataOciMarketplaceListings#publisher_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#publisher_id DataOciMarketplaceListings#publisher_id}
   */
   readonly publisherId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#filter DataOciMarketplaceListings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#filter DataOciMarketplaceListings#filter}
   */
   readonly filter?: DataOciMarketplaceListingsFilter[] | cdktf.IResolvable;
 }
@@ -814,15 +814,15 @@ export class DataOciMarketplaceListingsListingsList extends cdktf.ComplexList {
 }
 export interface DataOciMarketplaceListingsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#name DataOciMarketplaceListings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#name DataOciMarketplaceListings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#regex DataOciMarketplaceListings#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#regex DataOciMarketplaceListings#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#values DataOciMarketplaceListings#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#values DataOciMarketplaceListings#values}
   */
   readonly values: string[];
 }
@@ -990,7 +990,7 @@ export class DataOciMarketplaceListingsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings oci_marketplace_listings}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings oci_marketplace_listings}
 */
 export class DataOciMarketplaceListings extends cdktf.TerraformDataSource {
 
@@ -1006,7 +1006,7 @@ export class DataOciMarketplaceListings extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMarketplaceListings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMarketplaceListings to import
-  * @param importFromId The id of the existing DataOciMarketplaceListings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMarketplaceListings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMarketplaceListings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1018,7 +1018,7 @@ export class DataOciMarketplaceListings extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_listings oci_marketplace_listings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_listings oci_marketplace_listings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1029,8 +1029,8 @@ export class DataOciMarketplaceListings extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_marketplace_listings',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

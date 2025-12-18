@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,55 @@ export interface VolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#availability_zone Volume#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#availability_zone Volume#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * The description of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#description Volume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#description Volume#description}
   */
   readonly description?: string;
   /**
   * Labels are key-value string pairs which can be attached to a resource container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#labels Volume#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#labels Volume#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#name Volume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#name Volume#name}
   */
   readonly name?: string;
   /**
   * The performance class of the volume. Possible values are documented in [Service plans BlockStorage](https://docs.stackit.cloud/products/storage/block-storage/basics/service-plans/#currently-available-service-plans-performance-classes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#performance_class Volume#performance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#performance_class Volume#performance_class}
   */
   readonly performanceClass?: string;
   /**
   * STACKIT project ID to which the volume is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#project_id Volume#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#project_id Volume#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#region Volume#region}
+  */
+  readonly region?: string;
+  /**
   * The size of the volume in GB. It can only be updated to a larger value than the current size. Either `size` or `source` must be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#size Volume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#size Volume#size}
   */
   readonly size?: number;
   /**
   * The source of the volume. It can be either a volume, an image, a snapshot or a backup. Either `size` or `source` must be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#source Volume#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#source Volume#source}
   */
   readonly source?: VolumeSource;
 }
@@ -60,7 +66,7 @@ export interface VolumeSource {
   /**
   * The ID of the source, e.g. image ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#id Volume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#id Volume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +75,7 @@ export interface VolumeSource {
   /**
   * The type of the source. Possible values are: `volume`, `image`, `snapshot`, `backup`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#type Volume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#type Volume#type}
   */
   readonly type: string;
 }
@@ -186,7 +192,7 @@ export class VolumeSourceOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume stackit_volume}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume stackit_volume}
 */
 export class Volume extends cdktf.TerraformResource {
 
@@ -202,7 +208,7 @@ export class Volume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Volume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Volume to import
-  * @param importFromId The id of the existing Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Volume that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Volume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +220,7 @@ export class Volume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/volume stackit_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/volume stackit_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +231,8 @@ export class Volume extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_volume',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -242,6 +248,7 @@ export class Volume extends cdktf.TerraformResource {
     this._name = config.name;
     this._performanceClass = config.performanceClass;
     this._projectId = config.projectId;
+    this._region = config.region;
     this._size = config.size;
     this._source.internalValue = config.source;
   }
@@ -345,6 +352,22 @@ export class Volume extends cdktf.TerraformResource {
     return this._projectId;
   }
 
+  // region - computed: true, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // server_id - computed: true, optional: false, required: false
   public get serverId() {
     return this.getStringAttribute('server_id');
@@ -399,6 +422,7 @@ export class Volume extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       performance_class: cdktf.stringToTerraform(this._performanceClass),
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       size: cdktf.numberToTerraform(this._size),
       source: volumeSourceToTerraform(this._source.internalValue),
     };
@@ -438,6 +462,12 @@ export class Volume extends cdktf.TerraformResource {
       },
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

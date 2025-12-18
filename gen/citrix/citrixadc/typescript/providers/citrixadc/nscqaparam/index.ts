@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface NscqaparamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#harqretxdelay Nscqaparam#harqretxdelay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#harqretxdelay Nscqaparam#harqretxdelay}
   */
   readonly harqretxdelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#id Nscqaparam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#id Nscqaparam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#lr1coeflist Nscqaparam#lr1coeflist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#lr1coeflist Nscqaparam#lr1coeflist}
   */
   readonly lr1Coeflist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#lr1probthresh Nscqaparam#lr1probthresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#lr1probthresh Nscqaparam#lr1probthresh}
   */
   readonly lr1Probthresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#lr2coeflist Nscqaparam#lr2coeflist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#lr2coeflist Nscqaparam#lr2coeflist}
   */
   readonly lr2Coeflist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#lr2probthresh Nscqaparam#lr2probthresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#lr2probthresh Nscqaparam#lr2probthresh}
   */
   readonly lr2Probthresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#minrttnet1 Nscqaparam#minrttnet1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#minrttnet1 Nscqaparam#minrttnet1}
   */
   readonly minrttnet1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#minrttnet2 Nscqaparam#minrttnet2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#minrttnet2 Nscqaparam#minrttnet2}
   */
   readonly minrttnet2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#minrttnet3 Nscqaparam#minrttnet3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#minrttnet3 Nscqaparam#minrttnet3}
   */
   readonly minrttnet3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net1cclscale Nscqaparam#net1cclscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net1cclscale Nscqaparam#net1cclscale}
   */
   readonly net1Cclscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net1csqscale Nscqaparam#net1csqscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net1csqscale Nscqaparam#net1csqscale}
   */
   readonly net1Csqscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net1label Nscqaparam#net1label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net1label Nscqaparam#net1label}
   */
   readonly net1Label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net1logcoef Nscqaparam#net1logcoef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net1logcoef Nscqaparam#net1logcoef}
   */
   readonly net1Logcoef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net2cclscale Nscqaparam#net2cclscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net2cclscale Nscqaparam#net2cclscale}
   */
   readonly net2Cclscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net2csqscale Nscqaparam#net2csqscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net2csqscale Nscqaparam#net2csqscale}
   */
   readonly net2Csqscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net2label Nscqaparam#net2label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net2label Nscqaparam#net2label}
   */
   readonly net2Label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net2logcoef Nscqaparam#net2logcoef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net2logcoef Nscqaparam#net2logcoef}
   */
   readonly net2Logcoef?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net3cclscale Nscqaparam#net3cclscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net3cclscale Nscqaparam#net3cclscale}
   */
   readonly net3Cclscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net3csqscale Nscqaparam#net3csqscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net3csqscale Nscqaparam#net3csqscale}
   */
   readonly net3Csqscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net3label Nscqaparam#net3label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net3label Nscqaparam#net3label}
   */
   readonly net3Label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#net3logcoef Nscqaparam#net3logcoef}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#net3logcoef Nscqaparam#net3logcoef}
   */
   readonly net3Logcoef?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam citrixadc_nscqaparam}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam citrixadc_nscqaparam}
 */
 export class Nscqaparam extends cdktf.TerraformResource {
 
@@ -113,7 +113,7 @@ export class Nscqaparam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nscqaparam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nscqaparam to import
-  * @param importFromId The id of the existing Nscqaparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nscqaparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nscqaparam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class Nscqaparam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nscqaparam citrixadc_nscqaparam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nscqaparam citrixadc_nscqaparam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class Nscqaparam extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nscqaparam',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

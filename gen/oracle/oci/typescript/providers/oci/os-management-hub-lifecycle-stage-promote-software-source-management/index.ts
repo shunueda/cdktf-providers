@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubLifecycleStagePromoteSoftwareSourceManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#id OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#id OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#lifecycle_stage_id OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#lifecycle_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#lifecycle_stage_id OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#lifecycle_stage_id}
   */
   readonly lifecycleStageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#software_source_id OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#software_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#software_source_id OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#software_source_id}
   */
   readonly softwareSourceId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#timeouts OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#timeouts OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubLifecycleStagePromoteSoftwareSourceManagementTimeouts;
   /**
   * work_request_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#work_request_details OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#work_request_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#work_request_details OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#work_request_details}
   */
   readonly workRequestDetails?: OsManagementHubLifecycleStagePromoteSoftwareSourceManagementWorkRequestDetails;
 }
 export interface OsManagementHubLifecycleStagePromoteSoftwareSourceManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#create OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#create OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#delete OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#delete OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#update OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#update OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#update}
   */
   readonly update?: string;
 }
@@ -197,11 +197,11 @@ export class OsManagementHubLifecycleStagePromoteSoftwareSourceManagementTimeout
 }
 export interface OsManagementHubLifecycleStagePromoteSoftwareSourceManagementWorkRequestDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#description OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#description OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#display_name OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#display_name OsManagementHubLifecycleStagePromoteSoftwareSourceManagement#display_name}
   */
   readonly displayName?: string;
 }
@@ -314,7 +314,7 @@ export class OsManagementHubLifecycleStagePromoteSoftwareSourceManagementWorkReq
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management oci_os_management_hub_lifecycle_stage_promote_software_source_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management oci_os_management_hub_lifecycle_stage_promote_software_source_management}
 */
 export class OsManagementHubLifecycleStagePromoteSoftwareSourceManagement extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class OsManagementHubLifecycleStagePromoteSoftwareSourceManagement extend
   * Generates CDKTF code for importing a OsManagementHubLifecycleStagePromoteSoftwareSourceManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubLifecycleStagePromoteSoftwareSourceManagement to import
-  * @param importFromId The id of the existing OsManagementHubLifecycleStagePromoteSoftwareSourceManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubLifecycleStagePromoteSoftwareSourceManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubLifecycleStagePromoteSoftwareSourceManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class OsManagementHubLifecycleStagePromoteSoftwareSourceManagement extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management oci_os_management_hub_lifecycle_stage_promote_software_source_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_lifecycle_stage_promote_software_source_management oci_os_management_hub_lifecycle_stage_promote_software_source_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class OsManagementHubLifecycleStagePromoteSoftwareSourceManagement extend
       terraformResourceType: 'oci_os_management_hub_lifecycle_stage_promote_software_source_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

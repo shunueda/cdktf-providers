@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface AppfwsettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#ceflogging Appfwsettings#ceflogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#ceflogging Appfwsettings#ceflogging}
   */
   readonly ceflogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#centralizedlearning Appfwsettings#centralizedlearning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#centralizedlearning Appfwsettings#centralizedlearning}
   */
   readonly centralizedlearning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#clientiploggingheader Appfwsettings#clientiploggingheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#clientiploggingheader Appfwsettings#clientiploggingheader}
   */
   readonly clientiploggingheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#cookieflags Appfwsettings#cookieflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#cookieflags Appfwsettings#cookieflags}
   */
   readonly cookieflags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#cookiepostencryptprefix Appfwsettings#cookiepostencryptprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#cookiepostencryptprefix Appfwsettings#cookiepostencryptprefix}
   */
   readonly cookiepostencryptprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#defaultprofile Appfwsettings#defaultprofile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#defaultprofile Appfwsettings#defaultprofile}
   */
   readonly defaultprofile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#entitydecoding Appfwsettings#entitydecoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#entitydecoding Appfwsettings#entitydecoding}
   */
   readonly entitydecoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#geolocationlogging Appfwsettings#geolocationlogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#geolocationlogging Appfwsettings#geolocationlogging}
   */
   readonly geolocationlogging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#id Appfwsettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#id Appfwsettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#importsizelimit Appfwsettings#importsizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#importsizelimit Appfwsettings#importsizelimit}
   */
   readonly importsizelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#learnratelimit Appfwsettings#learnratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#learnratelimit Appfwsettings#learnratelimit}
   */
   readonly learnratelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#logmalformedreq Appfwsettings#logmalformedreq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#logmalformedreq Appfwsettings#logmalformedreq}
   */
   readonly logmalformedreq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#malformedreqaction Appfwsettings#malformedreqaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#malformedreqaction Appfwsettings#malformedreqaction}
   */
   readonly malformedreqaction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#proxypassword Appfwsettings#proxypassword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#proxypassword Appfwsettings#proxypassword}
   */
   readonly proxypassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#proxyport Appfwsettings#proxyport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#proxyport Appfwsettings#proxyport}
   */
   readonly proxyport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#proxyserver Appfwsettings#proxyserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#proxyserver Appfwsettings#proxyserver}
   */
   readonly proxyserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#proxyusername Appfwsettings#proxyusername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#proxyusername Appfwsettings#proxyusername}
   */
   readonly proxyusername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#sessioncookiename Appfwsettings#sessioncookiename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#sessioncookiename Appfwsettings#sessioncookiename}
   */
   readonly sessioncookiename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#sessionlifetime Appfwsettings#sessionlifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#sessionlifetime Appfwsettings#sessionlifetime}
   */
   readonly sessionlifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#sessionlimit Appfwsettings#sessionlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#sessionlimit Appfwsettings#sessionlimit}
   */
   readonly sessionlimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#sessiontimeout Appfwsettings#sessiontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#sessiontimeout Appfwsettings#sessiontimeout}
   */
   readonly sessiontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#signatureautoupdate Appfwsettings#signatureautoupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#signatureautoupdate Appfwsettings#signatureautoupdate}
   */
   readonly signatureautoupdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#signatureurl Appfwsettings#signatureurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#signatureurl Appfwsettings#signatureurl}
   */
   readonly signatureurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#undefaction Appfwsettings#undefaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#undefaction Appfwsettings#undefaction}
   */
   readonly undefaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#useconfigurablesecretkey Appfwsettings#useconfigurablesecretkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#useconfigurablesecretkey Appfwsettings#useconfigurablesecretkey}
   */
   readonly useconfigurablesecretkey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings citrixadc_appfwsettings}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings citrixadc_appfwsettings}
 */
 export class Appfwsettings extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class Appfwsettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Appfwsettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Appfwsettings to import
-  * @param importFromId The id of the existing Appfwsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Appfwsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Appfwsettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class Appfwsettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appfwsettings citrixadc_appfwsettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appfwsettings citrixadc_appfwsettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class Appfwsettings extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appfwsettings',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

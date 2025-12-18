@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciBudgetBudgetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#compartment_id DataOciBudgetBudgets#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#compartment_id DataOciBudgetBudgets#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#display_name DataOciBudgetBudgets#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#display_name DataOciBudgetBudgets#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#id DataOciBudgetBudgets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#id DataOciBudgetBudgets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#state DataOciBudgetBudgets#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#state DataOciBudgetBudgets#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#target_type DataOciBudgetBudgets#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#target_type DataOciBudgetBudgets#target_type}
   */
   readonly targetType?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#filter DataOciBudgetBudgets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#filter DataOciBudgetBudgets#filter}
   */
   readonly filter?: DataOciBudgetBudgetsFilter[] | cdktf.IResolvable;
 }
@@ -226,15 +226,15 @@ export class DataOciBudgetBudgetsBudgetsList extends cdktf.ComplexList {
 }
 export interface DataOciBudgetBudgetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#name DataOciBudgetBudgets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#name DataOciBudgetBudgets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#regex DataOciBudgetBudgets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#regex DataOciBudgetBudgets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#values DataOciBudgetBudgets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#values DataOciBudgetBudgets#values}
   */
   readonly values: string[];
 }
@@ -402,7 +402,7 @@ export class DataOciBudgetBudgetsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets oci_budget_budgets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets oci_budget_budgets}
 */
 export class DataOciBudgetBudgets extends cdktf.TerraformDataSource {
 
@@ -418,7 +418,7 @@ export class DataOciBudgetBudgets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciBudgetBudgets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciBudgetBudgets to import
-  * @param importFromId The id of the existing DataOciBudgetBudgets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciBudgetBudgets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciBudgetBudgets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +430,7 @@ export class DataOciBudgetBudgets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/budget_budgets oci_budget_budgets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/budget_budgets oci_budget_budgets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +441,8 @@ export class DataOciBudgetBudgets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_budget_budgets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

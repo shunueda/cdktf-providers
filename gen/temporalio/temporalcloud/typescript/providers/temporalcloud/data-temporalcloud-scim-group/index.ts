@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/scim_group
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/scim_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataTemporalcloudScimGroupConfig extends cdktf.TerraformMetaArg
   /**
   * The IDP ID of the SCIM group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/scim_group#idp_id DataTemporalcloudScimGroup#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/scim_group#idp_id DataTemporalcloudScimGroup#idp_id}
   */
   readonly idpId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/scim_group temporalcloud_scim_group}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/scim_group temporalcloud_scim_group}
 */
 export class DataTemporalcloudScimGroup extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataTemporalcloudScimGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTemporalcloudScimGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalcloudScimGroup to import
-  * @param importFromId The id of the existing DataTemporalcloudScimGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/scim_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalcloudScimGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/scim_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalcloudScimGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataTemporalcloudScimGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/scim_group temporalcloud_scim_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/scim_group temporalcloud_scim_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataTemporalcloudScimGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporalcloud_scim_group',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OrgServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `type`==`custom`, IPv4 and/or IPv6 subnets (e.g. 10.0.0.0/8, fd28::/128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#addresses OrgService#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#addresses OrgService#addresses}
   */
   readonly addresses?: string[];
   /**
   * When `type`==`app_categories`, list of application categories are available through [List App Category Definitions]($e/Constants%20Definitions/listAppCategoryDefinitions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#app_categories OrgService#app_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#app_categories OrgService#app_categories}
   */
   readonly appCategories?: string[];
   /**
   * When `type`==`app_categories`, list of application categories are available through [List App Sub Category Definitions]($e/Constants%20Definitions/listAppSubCategoryDefinitions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#app_subcategories OrgService#app_subcategories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#app_subcategories OrgService#app_subcategories}
   */
   readonly appSubcategories?: string[];
   /**
@@ -31,111 +31,111 @@ export interface OrgServiceConfig extends cdktf.TerraformMetaArguments {
   *   * [List Gateway Applications]($e/Constants%20Definitions/listGatewayApplications)
   *   * /insight/top_app_by-bytes?wired=true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#apps OrgService#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#apps OrgService#apps}
   */
   readonly apps?: string[];
   /**
   * 0 means unlimited, value from 0 to 107374182
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#client_limit_down OrgService#client_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#client_limit_down OrgService#client_limit_down}
   */
   readonly clientLimitDown?: number;
   /**
   * 0 means unlimited, value from 0 to 107374182
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#client_limit_up OrgService#client_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#client_limit_up OrgService#client_limit_up}
   */
   readonly clientLimitUp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#description OrgService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#description OrgService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#dscp OrgService#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#dscp OrgService#dscp}
   */
   readonly dscp?: string;
   /**
   * enum: `non_revertible`, `none`, `revertible`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#failover_policy OrgService#failover_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#failover_policy OrgService#failover_policy}
   */
   readonly failoverPolicy?: string;
   /**
   * If `type`==`custom`, web filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#hostnames OrgService#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#hostnames OrgService#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#max_jitter OrgService#max_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#max_jitter OrgService#max_jitter}
   */
   readonly maxJitter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#max_latency OrgService#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#max_latency OrgService#max_latency}
   */
   readonly maxLatency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#max_loss OrgService#max_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#max_loss OrgService#max_loss}
   */
   readonly maxLoss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#name OrgService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#name OrgService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#org_id OrgService#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#org_id OrgService#org_id}
   */
   readonly orgId: string;
   /**
   * 0 means unlimited, value from 0 to 107374182
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#service_limit_down OrgService#service_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#service_limit_down OrgService#service_limit_down}
   */
   readonly serviceLimitDown?: number;
   /**
   * 0 means unlimited, value from 0 to 107374182
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#service_limit_up OrgService#service_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#service_limit_up OrgService#service_limit_up}
   */
   readonly serviceLimitUp?: number;
   /**
   * Whether to enable measure SLE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#sle_enabled OrgService#sle_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#sle_enabled OrgService#sle_enabled}
   */
   readonly sleEnabled?: boolean | cdktf.IResolvable;
   /**
   * When `type`==`custom`, optional, if it doesn't exist, http and https is assumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#specs OrgService#specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#specs OrgService#specs}
   */
   readonly specs?: OrgServiceSpecs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#ssr_relaxed_tcp_state_enforcement OrgService#ssr_relaxed_tcp_state_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#ssr_relaxed_tcp_state_enforcement OrgService#ssr_relaxed_tcp_state_enforcement}
   */
   readonly ssrRelaxedTcpStateEnforcement?: boolean | cdktf.IResolvable;
   /**
   * when `traffic_type`==`custom`. enum: `best_effort`, `high`, `low`, `medium`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#traffic_class OrgService#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#traffic_class OrgService#traffic_class}
   */
   readonly trafficClass?: string;
   /**
   * values from [List Traffic Types]($e/Constants%20Definitions/listTrafficTypes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#traffic_type OrgService#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#traffic_type OrgService#traffic_type}
   */
   readonly trafficType?: string;
   /**
   * enum: `app_categories`, `apps`, `custom`, `urls`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#type OrgService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#type OrgService#type}
   */
   readonly type?: string;
   /**
   * When `type`==`urls`, no need for spec as URL can encode the ports being used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#urls OrgService#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#urls OrgService#urls}
   */
   readonly urls?: string[];
 }
@@ -143,13 +143,13 @@ export interface OrgServiceSpecs {
   /**
   * Port number, port range, or variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#port_range OrgService#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#port_range OrgService#port_range}
   */
   readonly portRange?: string;
   /**
   * `https`/ `tcp` / `udp` / `icmp` / `gre` / `any` / `:protocol_number`, `protocol_number` is between 1-254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#protocol OrgService#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#protocol OrgService#protocol}
   */
   readonly protocol?: string;
 }
@@ -294,7 +294,7 @@ export class OrgServiceSpecsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service mist_org_service}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service mist_org_service}
 */
 export class OrgService extends cdktf.TerraformResource {
 
@@ -310,7 +310,7 @@ export class OrgService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgService to import
-  * @param importFromId The id of the existing OrgService that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgService that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class OrgService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_service mist_org_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_service mist_org_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class OrgService extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_service',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

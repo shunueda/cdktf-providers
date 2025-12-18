@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "confluent": "2.56.0"
+    "confluent": "2.57.0"
   }
 }

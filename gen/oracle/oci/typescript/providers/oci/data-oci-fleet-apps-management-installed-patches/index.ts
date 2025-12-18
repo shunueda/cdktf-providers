@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFleetAppsManagementInstalledPatchesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#compartment_id DataOciFleetAppsManagementInstalledPatches#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#compartment_id DataOciFleetAppsManagementInstalledPatches#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#id DataOciFleetAppsManagementInstalledPatches#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#id DataOciFleetAppsManagementInstalledPatches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#patch_level DataOciFleetAppsManagementInstalledPatches#patch_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#patch_level DataOciFleetAppsManagementInstalledPatches#patch_level}
   */
   readonly patchLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#patch_type DataOciFleetAppsManagementInstalledPatches#patch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#patch_type DataOciFleetAppsManagementInstalledPatches#patch_type}
   */
   readonly patchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#severity DataOciFleetAppsManagementInstalledPatches#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#severity DataOciFleetAppsManagementInstalledPatches#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#target_id DataOciFleetAppsManagementInstalledPatches#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#target_id DataOciFleetAppsManagementInstalledPatches#target_id}
   */
   readonly targetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#target_name DataOciFleetAppsManagementInstalledPatches#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#target_name DataOciFleetAppsManagementInstalledPatches#target_name}
   */
   readonly targetName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#filter DataOciFleetAppsManagementInstalledPatches#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#filter DataOciFleetAppsManagementInstalledPatches#filter}
   */
   readonly filter?: DataOciFleetAppsManagementInstalledPatchesFilter[] | cdktf.IResolvable;
 }
@@ -233,15 +233,15 @@ export class DataOciFleetAppsManagementInstalledPatchesInstalledPatchCollectionL
 }
 export interface DataOciFleetAppsManagementInstalledPatchesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#name DataOciFleetAppsManagementInstalledPatches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#name DataOciFleetAppsManagementInstalledPatches#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#regex DataOciFleetAppsManagementInstalledPatches#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#regex DataOciFleetAppsManagementInstalledPatches#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#values DataOciFleetAppsManagementInstalledPatches#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#values DataOciFleetAppsManagementInstalledPatches#values}
   */
   readonly values: string[];
 }
@@ -409,7 +409,7 @@ export class DataOciFleetAppsManagementInstalledPatchesFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches oci_fleet_apps_management_installed_patches}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches oci_fleet_apps_management_installed_patches}
 */
 export class DataOciFleetAppsManagementInstalledPatches extends cdktf.TerraformDataSource {
 
@@ -425,7 +425,7 @@ export class DataOciFleetAppsManagementInstalledPatches extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciFleetAppsManagementInstalledPatches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFleetAppsManagementInstalledPatches to import
-  * @param importFromId The id of the existing DataOciFleetAppsManagementInstalledPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFleetAppsManagementInstalledPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFleetAppsManagementInstalledPatches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class DataOciFleetAppsManagementInstalledPatches extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fleet_apps_management_installed_patches oci_fleet_apps_management_installed_patches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fleet_apps_management_installed_patches oci_fleet_apps_management_installed_patches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class DataOciFleetAppsManagementInstalledPatches extends cdktf.TerraformD
       terraformResourceType: 'oci_fleet_apps_management_installed_patches',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

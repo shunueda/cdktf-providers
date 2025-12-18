@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataTemporalcloudNamespaceConfig extends cdktf.TerraformMetaArg
   /**
   * If true, Temporal Cloud will use API key authentication for this namespace. If false, mutual TLS (mTLS) authentication will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#api_key_auth DataTemporalcloudNamespace#api_key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#api_key_auth DataTemporalcloudNamespace#api_key_auth}
   */
   readonly apiKeyAuth?: boolean | cdktf.IResolvable;
   /**
   * A list of filters to apply to client certificates when initiating a connection Temporal Cloud. If present, connections will only be allowed from client certificates whose distinguished name properties match at least one of the filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#certificate_filters DataTemporalcloudNamespace#certificate_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#certificate_filters DataTemporalcloudNamespace#certificate_filters}
   */
   readonly certificateFilters?: DataTemporalcloudNamespaceCertificateFilters[] | cdktf.IResolvable;
   /**
   * A codec server is used by the Temporal Cloud UI to decode payloads for all users interacting with this namespace, even if the workflow history itself is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#codec_server DataTemporalcloudNamespace#codec_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#codec_server DataTemporalcloudNamespace#codec_server}
   */
   readonly codecServer?: DataTemporalcloudNamespaceCodecServer;
   /**
   * The IDs of the connectivity rules for this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#connectivity_rule_ids DataTemporalcloudNamespace#connectivity_rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#connectivity_rule_ids DataTemporalcloudNamespace#connectivity_rule_ids}
   */
   readonly connectivityRuleIds?: string[];
   /**
   * The custom search attributes to use for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#custom_search_attributes DataTemporalcloudNamespace#custom_search_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#custom_search_attributes DataTemporalcloudNamespace#custom_search_attributes}
   */
   readonly customSearchAttributes?: { [key: string]: string };
   /**
   * The unique identifier of the namespace across all Temporal Cloud tenants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#id DataTemporalcloudNamespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#id DataTemporalcloudNamespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,19 +49,19 @@ export interface DataTemporalcloudNamespaceConfig extends cdktf.TerraformMetaArg
   /**
   * The date and time when the namespace was last modified. Will not be set if the namespace has never been modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#last_modified_time DataTemporalcloudNamespace#last_modified_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#last_modified_time DataTemporalcloudNamespace#last_modified_time}
   */
   readonly lastModifiedTime?: string;
   /**
   * The private connectivities for the namespace, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#private_connectivities DataTemporalcloudNamespace#private_connectivities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#private_connectivities DataTemporalcloudNamespace#private_connectivities}
   */
   readonly privateConnectivities?: DataTemporalcloudNamespacePrivateConnectivities[] | cdktf.IResolvable;
   /**
   * The tags for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#tags DataTemporalcloudNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#tags DataTemporalcloudNamespace#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -480,7 +480,7 @@ export interface DataTemporalcloudNamespacePrivateConnectivities {
   /**
   * The AWS PrivateLink info. This will only be set for namespaces whose cloud provider is AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#aws_private_link_info DataTemporalcloudNamespace#aws_private_link_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#aws_private_link_info DataTemporalcloudNamespace#aws_private_link_info}
   */
   readonly awsPrivateLinkInfo?: DataTemporalcloudNamespacePrivateConnectivitiesAwsPrivateLinkInfo;
 }
@@ -601,7 +601,7 @@ export class DataTemporalcloudNamespacePrivateConnectivitiesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace temporalcloud_namespace}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace temporalcloud_namespace}
 */
 export class DataTemporalcloudNamespace extends cdktf.TerraformDataSource {
 
@@ -617,7 +617,7 @@ export class DataTemporalcloudNamespace extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTemporalcloudNamespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalcloudNamespace to import
-  * @param importFromId The id of the existing DataTemporalcloudNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalcloudNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalcloudNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class DataTemporalcloudNamespace extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/namespace temporalcloud_namespace} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/namespace temporalcloud_namespace} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class DataTemporalcloudNamespace extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporalcloud_namespace',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

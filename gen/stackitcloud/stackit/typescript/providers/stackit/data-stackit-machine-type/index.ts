@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -24,25 +24,31 @@ export interface DataStackitMachineTypeConfig extends cdktf.TerraformMetaArgumen
   * stackit server machine-type list
   * ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type#filter DataStackitMachineType#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type#filter DataStackitMachineType#filter}
   */
   readonly filter: string;
   /**
   * STACKIT Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type#project_id DataStackitMachineType#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type#project_id DataStackitMachineType#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type#region DataStackitMachineType#region}
+  */
+  readonly region?: string;
+  /**
   * Sort machine types by name ascending (`true`) or descending (`false`). Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type#sort_ascending DataStackitMachineType#sort_ascending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type#sort_ascending DataStackitMachineType#sort_ascending}
   */
   readonly sortAscending?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type stackit_machine_type}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type stackit_machine_type}
 */
 export class DataStackitMachineType extends cdktf.TerraformDataSource {
 
@@ -58,7 +64,7 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitMachineType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitMachineType to import
-  * @param importFromId The id of the existing DataStackitMachineType that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitMachineType that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitMachineType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +76,7 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/machine_type stackit_machine_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/machine_type stackit_machine_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +87,8 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_machine_type',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,6 +100,7 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
     });
     this._filter = config.filter;
     this._projectId = config.projectId;
+    this._region = config.region;
     this._sortAscending = config.sortAscending;
   }
 
@@ -158,6 +165,22 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('ram');
   }
 
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // sort_ascending - computed: false, optional: true, required: false
   private _sortAscending?: boolean | cdktf.IResolvable; 
   public get sortAscending() {
@@ -187,6 +210,7 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
     return {
       filter: cdktf.stringToTerraform(this._filter),
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       sort_ascending: cdktf.booleanToTerraform(this._sortAscending),
     };
   }
@@ -201,6 +225,12 @@ export class DataStackitMachineType extends cdktf.TerraformDataSource {
       },
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

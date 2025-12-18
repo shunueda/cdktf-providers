@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface MistProviderConfig {
   /**
   * Enable API request/response debugging. When enabled, request and response bodies, headers, and other sensitive data may be logged. Can also be set via the `MIST_API_DEBUG` environment variable. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#api_debug MistProvider#api_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#api_debug MistProvider#api_debug}
   */
   readonly apiDebug?: boolean | cdktf.IResolvable;
   /**
   * Timeout in seconds for API requests. Set to 0 for infinite timeout. Can also be set via the `MIST_API_TIMEOUT` environment variable. Default: `10` seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#api_timeout MistProvider#api_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#api_timeout MistProvider#api_timeout}
   */
   readonly apiTimeout?: number;
   /**
   * Mist API Token for authentication. Can also be set via the `MIST_APITOKEN` environment variable. This is the recommended authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#apitoken MistProvider#apitoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#apitoken MistProvider#apitoken}
   */
   readonly apitoken?: string;
   /**
   * URL of the Mist Cloud (e.g., `api.mist.com`). Can also be set via the `MIST_HOST` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#host MistProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#host MistProvider#host}
   */
   readonly host?: string;
   /**
   * Mist Account password for basic authentication. Can also be set via the `MIST_PASSWORD` environment variable. Requires `username` to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#password MistProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#password MistProvider#password}
   */
   readonly password?: string;
   /**
   * Proxy configuration for API requests. The value may be either a complete URL or `[username:password@]host[:port]` format. Supported schemes: `http`, `https`, and `socks5`. If no scheme is provided, `http` is assumed. Can also be set via the `MIST_PROXY` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#proxy MistProvider#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#proxy MistProvider#proxy}
   */
   readonly proxy?: string;
   /**
   * Mist Account username for basic authentication. Can also be set via the `MIST_USERNAME` environment variable. Requires `password` to be set and 2FA to be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#username MistProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#username MistProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#alias MistProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#alias MistProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs mist}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs mist}
 */
 export class MistProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class MistProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MistProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MistProvider to import
-  * @param importFromId The id of the existing MistProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MistProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MistProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class MistProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs mist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs mist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class MistProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mist',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       terraformProviderSource: 'Juniper/mist'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TlsSubscriptionValidationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation#id TlsSubscriptionValidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation#id TlsSubscriptionValidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TlsSubscriptionValidationConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the TLS Subscription that should be validated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation#subscription_id TlsSubscriptionValidation#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation#subscription_id TlsSubscriptionValidation#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation#timeouts TlsSubscriptionValidation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation#timeouts TlsSubscriptionValidation#timeouts}
   */
   readonly timeouts?: TlsSubscriptionValidationTimeouts;
 }
 export interface TlsSubscriptionValidationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation#create TlsSubscriptionValidation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation#create TlsSubscriptionValidation#create}
   */
   readonly create?: string;
 }
@@ -123,7 +123,7 @@ export class TlsSubscriptionValidationTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation fastly_tls_subscription_validation}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation fastly_tls_subscription_validation}
 */
 export class TlsSubscriptionValidation extends cdktf.TerraformResource {
 
@@ -139,7 +139,7 @@ export class TlsSubscriptionValidation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TlsSubscriptionValidation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TlsSubscriptionValidation to import
-  * @param importFromId The id of the existing TlsSubscriptionValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TlsSubscriptionValidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TlsSubscriptionValidation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class TlsSubscriptionValidation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/tls_subscription_validation fastly_tls_subscription_validation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/tls_subscription_validation fastly_tls_subscription_validation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class TlsSubscriptionValidation extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_tls_subscription_validation',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

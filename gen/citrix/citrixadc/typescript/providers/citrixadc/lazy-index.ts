@@ -764,8 +764,10 @@ Object.defineProperty(exports, 'vxlanSrcipBinding', { get: function () { return 
 Object.defineProperty(exports, 'vxlanvlanmap', { get: function () { return require('./vxlanvlanmap'); } });
 Object.defineProperty(exports, 'vxlanvlanmapVxlanBinding', { get: function () { return require('./vxlanvlanmap-vxlan-binding'); } });
 Object.defineProperty(exports, 'dataCitrixadcHanode', { get: function () { return require('./data-citrixadc-hanode'); } });
+Object.defineProperty(exports, 'dataCitrixadcLbparameter', { get: function () { return require('./data-citrixadc-lbparameter'); } });
 Object.defineProperty(exports, 'dataCitrixadcNitroInfo', { get: function () { return require('./data-citrixadc-nitro-info'); } });
 Object.defineProperty(exports, 'dataCitrixadcNsversion', { get: function () { return require('./data-citrixadc-nsversion'); } });
+Object.defineProperty(exports, 'dataCitrixadcSslcertkey', { get: function () { return require('./data-citrixadc-sslcertkey'); } });
 Object.defineProperty(exports, 'dataCitrixadcSslcipherSslvserverBindings', { get: function () { return require('./data-citrixadc-sslcipher-sslvserver-bindings'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

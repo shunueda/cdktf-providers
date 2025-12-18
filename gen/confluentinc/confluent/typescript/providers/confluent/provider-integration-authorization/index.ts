@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProviderIntegrationAuthorizationConfig extends cdktf.TerraformM
   /**
   * The ID of the provider integration to authorize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#provider_integration_id ProviderIntegrationAuthorization#provider_integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#provider_integration_id ProviderIntegrationAuthorization#provider_integration_id}
   */
   readonly providerIntegrationId: string;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#azure ProviderIntegrationAuthorization#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#azure ProviderIntegrationAuthorization#azure}
   */
   readonly azure?: ProviderIntegrationAuthorizationAzure;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#environment ProviderIntegrationAuthorization#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#environment ProviderIntegrationAuthorization#environment}
   */
   readonly environment: ProviderIntegrationAuthorizationEnvironment;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#gcp ProviderIntegrationAuthorization#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#gcp ProviderIntegrationAuthorization#gcp}
   */
   readonly gcp?: ProviderIntegrationAuthorizationGcp;
 }
@@ -36,7 +36,7 @@ export interface ProviderIntegrationAuthorizationAzure {
   /**
   * Customer's Azure Tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#customer_azure_tenant_id ProviderIntegrationAuthorization#customer_azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#customer_azure_tenant_id ProviderIntegrationAuthorization#customer_azure_tenant_id}
   */
   readonly customerAzureTenantId: string;
 }
@@ -124,7 +124,7 @@ export interface ProviderIntegrationAuthorizationEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#id ProviderIntegrationAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#id ProviderIntegrationAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -210,7 +210,7 @@ export interface ProviderIntegrationAuthorizationGcp {
   /**
   * Customer's Google Service Account that Confluent Cloud impersonates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#customer_google_service_account ProviderIntegrationAuthorization#customer_google_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#customer_google_service_account ProviderIntegrationAuthorization#customer_google_service_account}
   */
   readonly customerGoogleServiceAccount: string;
 }
@@ -296,7 +296,7 @@ export class ProviderIntegrationAuthorizationGcpOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization confluent_provider_integration_authorization}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization confluent_provider_integration_authorization}
 */
 export class ProviderIntegrationAuthorization extends cdktf.TerraformResource {
 
@@ -312,7 +312,7 @@ export class ProviderIntegrationAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProviderIntegrationAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProviderIntegrationAuthorization to import
-  * @param importFromId The id of the existing ProviderIntegrationAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProviderIntegrationAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProviderIntegrationAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -324,7 +324,7 @@ export class ProviderIntegrationAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/provider_integration_authorization confluent_provider_integration_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/provider_integration_authorization confluent_provider_integration_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,8 +335,8 @@ export class ProviderIntegrationAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_provider_integration_authorization',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

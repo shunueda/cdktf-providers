@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#end_time_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#end_time_less_than_or_equal_to}
   */
   readonly endTimeLessThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#start_time_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#start_time_greater_than_or_equal_to}
   */
   readonly startTimeGreaterThanOrEqualTo?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutionsFilter[] | cdktf.IResolvable;
 }
@@ -1071,15 +1071,15 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorE
 }
 export interface DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#regex DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#regex DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#values DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#values DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions#values}
   */
   readonly values: string[];
 }
@@ -1247,7 +1247,7 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorE
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions oci_database_management_managed_database_optimizer_statistics_advisor_executions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions oci_database_management_managed_database_optimizer_statistics_advisor_executions}
 */
 export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions extends cdktf.TerraformDataSource {
 
@@ -1263,7 +1263,7 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorE
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1275,7 +1275,7 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorE
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions oci_database_management_managed_database_optimizer_statistics_advisor_executions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_executions oci_database_management_managed_database_optimizer_statistics_advisor_executions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1286,8 +1286,8 @@ export class DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorE
       terraformResourceType: 'oci_database_management_managed_database_optimizer_statistics_advisor_executions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

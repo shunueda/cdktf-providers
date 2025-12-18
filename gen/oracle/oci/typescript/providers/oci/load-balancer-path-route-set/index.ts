@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerPathRouteSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#id LoadBalancerPathRouteSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#id LoadBalancerPathRouteSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#load_balancer_id LoadBalancerPathRouteSet#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#load_balancer_id LoadBalancerPathRouteSet#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#name LoadBalancerPathRouteSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#name LoadBalancerPathRouteSet#name}
   */
   readonly name: string;
   /**
   * path_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#path_routes LoadBalancerPathRouteSet#path_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#path_routes LoadBalancerPathRouteSet#path_routes}
   */
   readonly pathRoutes: LoadBalancerPathRouteSetPathRoutes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#timeouts LoadBalancerPathRouteSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#timeouts LoadBalancerPathRouteSet#timeouts}
   */
   readonly timeouts?: LoadBalancerPathRouteSetTimeouts;
 }
 export interface LoadBalancerPathRouteSetPathRoutesPathMatchType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#match_type LoadBalancerPathRouteSet#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#match_type LoadBalancerPathRouteSet#match_type}
   */
   readonly matchType: string;
 }
@@ -118,17 +118,17 @@ export class LoadBalancerPathRouteSetPathRoutesPathMatchTypeOutputReference exte
 }
 export interface LoadBalancerPathRouteSetPathRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#backend_set_name LoadBalancerPathRouteSet#backend_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#backend_set_name LoadBalancerPathRouteSet#backend_set_name}
   */
   readonly backendSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#path LoadBalancerPathRouteSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#path LoadBalancerPathRouteSet#path}
   */
   readonly path: string;
   /**
   * path_match_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#path_match_type LoadBalancerPathRouteSet#path_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#path_match_type LoadBalancerPathRouteSet#path_match_type}
   */
   readonly pathMatchType: LoadBalancerPathRouteSetPathRoutesPathMatchType;
 }
@@ -293,15 +293,15 @@ export class LoadBalancerPathRouteSetPathRoutesList extends cdktf.ComplexList {
 }
 export interface LoadBalancerPathRouteSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#create LoadBalancerPathRouteSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#create LoadBalancerPathRouteSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#delete LoadBalancerPathRouteSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#delete LoadBalancerPathRouteSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#update LoadBalancerPathRouteSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#update LoadBalancerPathRouteSet#update}
   */
   readonly update?: string;
 }
@@ -453,7 +453,7 @@ export class LoadBalancerPathRouteSetTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set oci_load_balancer_path_route_set}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set oci_load_balancer_path_route_set}
 */
 export class LoadBalancerPathRouteSet extends cdktf.TerraformResource {
 
@@ -469,7 +469,7 @@ export class LoadBalancerPathRouteSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerPathRouteSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerPathRouteSet to import
-  * @param importFromId The id of the existing LoadBalancerPathRouteSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerPathRouteSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerPathRouteSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class LoadBalancerPathRouteSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/load_balancer_path_route_set oci_load_balancer_path_route_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/load_balancer_path_route_set oci_load_balancer_path_route_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class LoadBalancerPathRouteSet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_load_balancer_path_route_set',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

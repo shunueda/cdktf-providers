@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ConfigstoreEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
   * A map representing an entry in the Config Store, (key/value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries#entries ConfigstoreEntries#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries#entries ConfigstoreEntries#entries}
   */
   readonly entries: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries#id ConfigstoreEntries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries#id ConfigstoreEntries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ConfigstoreEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Have Terraform manage the entries (default: false). If set to `true` Terraform will remove any entries that were added externally from the config seeded values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries#manage_entries ConfigstoreEntries#manage_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries#manage_entries ConfigstoreEntries#manage_entries}
   */
   readonly manageEntries?: boolean | cdktf.IResolvable;
   /**
   * An alphanumeric string identifying the Config Store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries#store_id ConfigstoreEntries#store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries#store_id ConfigstoreEntries#store_id}
   */
   readonly storeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries fastly_configstore_entries}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries fastly_configstore_entries}
 */
 export class ConfigstoreEntries extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ConfigstoreEntries extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigstoreEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigstoreEntries to import
-  * @param importFromId The id of the existing ConfigstoreEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigstoreEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigstoreEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ConfigstoreEntries extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/configstore_entries fastly_configstore_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/configstore_entries fastly_configstore_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ConfigstoreEntries extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_configstore_entries',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

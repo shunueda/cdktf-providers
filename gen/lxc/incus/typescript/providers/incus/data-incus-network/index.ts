@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network
+// https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface DataIncusNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#description DataIncusNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#description DataIncusNetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#locations DataIncusNetwork#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#locations DataIncusNetwork#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#managed DataIncusNetwork#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#managed DataIncusNetwork#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#name DataIncusNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#name DataIncusNetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#project DataIncusNetwork#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#project DataIncusNetwork#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#remote DataIncusNetwork#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#remote DataIncusNetwork#remote}
   */
   readonly remote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#status DataIncusNetwork#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#status DataIncusNetwork#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#target DataIncusNetwork#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#target DataIncusNetwork#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#type DataIncusNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#type DataIncusNetwork#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network incus_network}
+* Represents a {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network incus_network}
 */
 export class DataIncusNetwork extends cdktf.TerraformDataSource {
 
@@ -62,7 +62,7 @@ export class DataIncusNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIncusNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIncusNetwork to import
-  * @param importFromId The id of the existing DataIncusNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIncusNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIncusNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DataIncusNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.1/docs/data-sources/network incus_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/lxc/incus/1.0.2/docs/data-sources/network incus_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DataIncusNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'incus_network',
       terraformGeneratorMetadata: {
         providerName: 'incus',
-        providerVersion: '1.0.1',
-        providerVersionConstraint: '1.0.1'
+        providerVersion: '1.0.2',
+        providerVersionConstraint: '1.0.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

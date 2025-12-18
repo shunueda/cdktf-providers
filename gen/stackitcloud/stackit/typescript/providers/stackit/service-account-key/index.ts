@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ServiceAccountKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The STACKIT project ID associated with the service account key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key#project_id ServiceAccountKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key#project_id ServiceAccountKey#project_id}
   */
   readonly projectId: string;
   /**
   * Specifies the public_key (RSA2048 key-pair). If not provided, a certificate from STACKIT will be used to generate a private_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key#public_key ServiceAccountKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key#public_key ServiceAccountKey#public_key}
   */
   readonly publicKey?: string;
   /**
   * A map of arbitrary key/value pairs designed to force key recreation when they change, facilitating key rotation based on external factors such as a changing timestamp. Modifying this map triggers the creation of a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key#rotate_when_changed ServiceAccountKey#rotate_when_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key#rotate_when_changed ServiceAccountKey#rotate_when_changed}
   */
   readonly rotateWhenChanged?: { [key: string]: string };
   /**
   * The email address associated with the service account, used for account identification and communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key#service_account_email ServiceAccountKey#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key#service_account_email ServiceAccountKey#service_account_email}
   */
   readonly serviceAccountEmail: string;
   /**
   * Specifies the key's validity duration in days. If left unspecified, the key is considered valid until it is deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key#ttl_days ServiceAccountKey#ttl_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key#ttl_days ServiceAccountKey#ttl_days}
   */
   readonly ttlDays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key stackit_service_account_key}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key stackit_service_account_key}
 */
 export class ServiceAccountKey extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ServiceAccountKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAccountKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAccountKey to import
-  * @param importFromId The id of the existing ServiceAccountKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAccountKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAccountKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ServiceAccountKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/service_account_key stackit_service_account_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/service_account_key stackit_service_account_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ServiceAccountKey extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_service_account_key',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

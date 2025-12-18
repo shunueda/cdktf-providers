@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface NgwafWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the request headers containing the client IP address. Maximum of 10 header names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#client_ip_headers NgwafWorkspace#client_ip_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#client_ip_headers NgwafWorkspace#client_ip_headers}
   */
   readonly clientIpHeaders?: string[];
   /**
   * The status code returned when a request is blocked. This configuration is applied at the workspace but can be overwritten in rules. Accepted values are [`301`, `302`, `400..599`]. Default value `406`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#default_blocking_response_code NgwafWorkspace#default_blocking_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#default_blocking_response_code NgwafWorkspace#default_blocking_response_code}
   */
   readonly defaultBlockingResponseCode?: number;
   /**
   * The redirect URL used if default_blocking_response_code is `301` or `302`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#default_redirect_url NgwafWorkspace#default_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#default_redirect_url NgwafWorkspace#default_redirect_url}
   */
   readonly defaultRedirectUrl?: string;
   /**
   * The description of the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#description NgwafWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#description NgwafWorkspace#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#id NgwafWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#id NgwafWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface NgwafWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Agents will anonymize IP addresses according to the option selected. Accepted value is `hashed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#ip_anonymization NgwafWorkspace#ip_anonymization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#ip_anonymization NgwafWorkspace#ip_anonymization}
   */
   readonly ipAnonymization?: string;
   /**
   * The operation mode of the workspace. Accepted values are `off`, `block`, and `log`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#mode NgwafWorkspace#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#mode NgwafWorkspace#mode}
   */
   readonly mode: string;
   /**
   * The display name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#name NgwafWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#name NgwafWorkspace#name}
   */
   readonly name: string;
   /**
   * attack_signal_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#attack_signal_thresholds NgwafWorkspace#attack_signal_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#attack_signal_thresholds NgwafWorkspace#attack_signal_thresholds}
   */
   readonly attackSignalThresholds: NgwafWorkspaceAttackSignalThresholds;
 }
@@ -67,25 +67,25 @@ export interface NgwafWorkspaceAttackSignalThresholds {
   /**
   * Ignore thresholds and block immediately when at least one attack signal is detected. Default value `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#immediate NgwafWorkspace#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#immediate NgwafWorkspace#immediate}
   */
   readonly immediate?: boolean | cdktf.IResolvable;
   /**
   * The one-hour interval threshold. Minimum 1 and maximum 10,000. Default value 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#one_hour NgwafWorkspace#one_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#one_hour NgwafWorkspace#one_hour}
   */
   readonly oneHour?: number;
   /**
   * The one-minute interval threshold. Minimum 1 and maximum 10,000. Default value 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#one_minute NgwafWorkspace#one_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#one_minute NgwafWorkspace#one_minute}
   */
   readonly oneMinute?: number;
   /**
   * The ten-minute interval threshold. Minimum 1 and maximum 10,000. Default value 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#ten_minutes NgwafWorkspace#ten_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#ten_minutes NgwafWorkspace#ten_minutes}
   */
   readonly tenMinutes?: number;
 }
@@ -256,7 +256,7 @@ export class NgwafWorkspaceAttackSignalThresholdsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace fastly_ngwaf_workspace}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace fastly_ngwaf_workspace}
 */
 export class NgwafWorkspace extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class NgwafWorkspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafWorkspace to import
-  * @param importFromId The id of the existing NgwafWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class NgwafWorkspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace fastly_ngwaf_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace fastly_ngwaf_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class NgwafWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_workspace',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

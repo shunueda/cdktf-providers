@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RubricLevelConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the rubric level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level#description RubricLevel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level#description RubricLevel#description}
   */
   readonly description?: string;
   /**
   * An integer allowing this level to be inserted between others. Must be unique per rubric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level#index RubricLevel#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level#index RubricLevel#index}
   */
   readonly index?: number;
   /**
   * The display name of the rubric level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level#name RubricLevel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level#name RubricLevel#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level opslevel_rubric_level}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level opslevel_rubric_level}
 */
 export class RubricLevel extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class RubricLevel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RubricLevel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RubricLevel to import
-  * @param importFromId The id of the existing RubricLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RubricLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RubricLevel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class RubricLevel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/rubric_level opslevel_rubric_level} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/rubric_level opslevel_rubric_level} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class RubricLevel extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_rubric_level',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

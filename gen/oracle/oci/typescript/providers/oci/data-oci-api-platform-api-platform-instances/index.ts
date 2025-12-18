@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApiPlatformApiPlatformInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#compartment_id DataOciApiPlatformApiPlatformInstances#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#compartment_id DataOciApiPlatformApiPlatformInstances#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#id DataOciApiPlatformApiPlatformInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#id DataOciApiPlatformApiPlatformInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#state DataOciApiPlatformApiPlatformInstances#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#state DataOciApiPlatformApiPlatformInstances#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#filter DataOciApiPlatformApiPlatformInstances#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#filter DataOciApiPlatformApiPlatformInstances#filter}
   */
   readonly filter?: DataOciApiPlatformApiPlatformInstancesFilter[] | cdktf.IResolvable;
 }
@@ -406,15 +406,15 @@ export class DataOciApiPlatformApiPlatformInstancesApiPlatformInstanceCollection
 }
 export interface DataOciApiPlatformApiPlatformInstancesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#regex DataOciApiPlatformApiPlatformInstances#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#regex DataOciApiPlatformApiPlatformInstances#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#values DataOciApiPlatformApiPlatformInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#values DataOciApiPlatformApiPlatformInstances#values}
   */
   readonly values: string[];
 }
@@ -582,7 +582,7 @@ export class DataOciApiPlatformApiPlatformInstancesFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances oci_api_platform_api_platform_instances}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances oci_api_platform_api_platform_instances}
 */
 export class DataOciApiPlatformApiPlatformInstances extends cdktf.TerraformDataSource {
 
@@ -598,7 +598,7 @@ export class DataOciApiPlatformApiPlatformInstances extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciApiPlatformApiPlatformInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApiPlatformApiPlatformInstances to import
-  * @param importFromId The id of the existing DataOciApiPlatformApiPlatformInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApiPlatformApiPlatformInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApiPlatformApiPlatformInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -610,7 +610,7 @@ export class DataOciApiPlatformApiPlatformInstances extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/api_platform_api_platform_instances oci_api_platform_api_platform_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/api_platform_api_platform_instances oci_api_platform_api_platform_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,8 +621,8 @@ export class DataOciApiPlatformApiPlatformInstances extends cdktf.TerraformDataS
       terraformResourceType: 'oci_api_platform_api_platform_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

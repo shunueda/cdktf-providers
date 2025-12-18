@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CsvserverContentinspectionpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#bindpoint CsvserverContentinspectionpolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#bindpoint CsvserverContentinspectionpolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#gotopriorityexpression CsvserverContentinspectionpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#gotopriorityexpression CsvserverContentinspectionpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#id CsvserverContentinspectionpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#id CsvserverContentinspectionpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#invoke CsvserverContentinspectionpolicyBinding#invoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#invoke CsvserverContentinspectionpolicyBinding#invoke}
   */
   readonly invoke?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#labelname CsvserverContentinspectionpolicyBinding#labelname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#labelname CsvserverContentinspectionpolicyBinding#labelname}
   */
   readonly labelname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#labeltype CsvserverContentinspectionpolicyBinding#labeltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#labeltype CsvserverContentinspectionpolicyBinding#labeltype}
   */
   readonly labeltype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#name CsvserverContentinspectionpolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#name CsvserverContentinspectionpolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#policyname CsvserverContentinspectionpolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#policyname CsvserverContentinspectionpolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#priority CsvserverContentinspectionpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#priority CsvserverContentinspectionpolicyBinding#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#targetlbvserver CsvserverContentinspectionpolicyBinding#targetlbvserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#targetlbvserver CsvserverContentinspectionpolicyBinding#targetlbvserver}
   */
   readonly targetlbvserver?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding citrixadc_csvserver_contentinspectionpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding citrixadc_csvserver_contentinspectionpolicy_binding}
 */
 export class CsvserverContentinspectionpolicyBinding extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class CsvserverContentinspectionpolicyBinding extends cdktf.TerraformReso
   * Generates CDKTF code for importing a CsvserverContentinspectionpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsvserverContentinspectionpolicyBinding to import
-  * @param importFromId The id of the existing CsvserverContentinspectionpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsvserverContentinspectionpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsvserverContentinspectionpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class CsvserverContentinspectionpolicyBinding extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/csvserver_contentinspectionpolicy_binding citrixadc_csvserver_contentinspectionpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/csvserver_contentinspectionpolicy_binding citrixadc_csvserver_contentinspectionpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class CsvserverContentinspectionpolicyBinding extends cdktf.TerraformReso
       terraformResourceType: 'citrixadc_csvserver_contentinspectionpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

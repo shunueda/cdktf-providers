@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface AdmRemediationRunConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#compartment_id AdmRemediationRun#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#compartment_id AdmRemediationRun#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#defined_tags AdmRemediationRun#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#defined_tags AdmRemediationRun#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#display_name AdmRemediationRun#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#display_name AdmRemediationRun#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#freeform_tags AdmRemediationRun#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#freeform_tags AdmRemediationRun#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#id AdmRemediationRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#id AdmRemediationRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#remediation_recipe_id AdmRemediationRun#remediation_recipe_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#remediation_recipe_id AdmRemediationRun#remediation_recipe_id}
   */
   readonly remediationRecipeId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#timeouts AdmRemediationRun#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#timeouts AdmRemediationRun#timeouts}
   */
   readonly timeouts?: AdmRemediationRunTimeouts;
 }
@@ -138,15 +138,15 @@ export class AdmRemediationRunStagesList extends cdktf.ComplexList {
 }
 export interface AdmRemediationRunTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#create AdmRemediationRun#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#create AdmRemediationRun#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#delete AdmRemediationRun#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#delete AdmRemediationRun#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#update AdmRemediationRun#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#update AdmRemediationRun#update}
   */
   readonly update?: string;
 }
@@ -298,7 +298,7 @@ export class AdmRemediationRunTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run oci_adm_remediation_run}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run oci_adm_remediation_run}
 */
 export class AdmRemediationRun extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class AdmRemediationRun extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdmRemediationRun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdmRemediationRun to import
-  * @param importFromId The id of the existing AdmRemediationRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdmRemediationRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdmRemediationRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class AdmRemediationRun extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/adm_remediation_run oci_adm_remediation_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/adm_remediation_run oci_adm_remediation_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class AdmRemediationRun extends cdktf.TerraformResource {
       terraformResourceType: 'oci_adm_remediation_run',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

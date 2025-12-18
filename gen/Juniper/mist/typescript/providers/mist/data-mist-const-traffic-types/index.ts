@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/const_traffic_types
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/const_traffic_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -120,7 +120,7 @@ export class DataMistConstTrafficTypesConstTrafficTypesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/const_traffic_types mist_const_traffic_types}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/const_traffic_types mist_const_traffic_types}
 */
 export class DataMistConstTrafficTypes extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataMistConstTrafficTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistConstTrafficTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistConstTrafficTypes to import
-  * @param importFromId The id of the existing DataMistConstTrafficTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/const_traffic_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistConstTrafficTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/const_traffic_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistConstTrafficTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataMistConstTrafficTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/data-sources/const_traffic_types mist_const_traffic_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/const_traffic_types mist_const_traffic_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataMistConstTrafficTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_const_traffic_types',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

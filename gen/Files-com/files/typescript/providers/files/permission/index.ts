@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission
+// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface PermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#group_id Permission#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#group_id Permission#group_id}
   */
   readonly groupId?: number;
   /**
   * Group name (if applicable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#group_name Permission#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#group_name Permission#group_name}
   */
   readonly groupName?: string;
   /**
   * Partner ID (if applicable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#partner_id Permission#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#partner_id Permission#partner_id}
   */
   readonly partnerId?: number;
   /**
   * Path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#path Permission#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#path Permission#path}
   */
   readonly path: string;
   /**
   * Permission type.  See the table referenced in the documentation for an explanation of each permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#permission Permission#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#permission Permission#permission}
   */
   readonly permission?: string;
   /**
   * Recursive: does this permission apply to subfolders?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#recursive Permission#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#recursive Permission#recursive}
   */
   readonly recursive?: boolean | cdktf.IResolvable;
   /**
   * Site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#site_id Permission#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#site_id Permission#site_id}
   */
   readonly siteId?: number;
   /**
   * User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#user_id Permission#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#user_id Permission#user_id}
   */
   readonly userId?: number;
   /**
   * Username (if applicable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#username Permission#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#username Permission#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission files_permission}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission files_permission}
 */
 export class Permission extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class Permission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Permission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Permission to import
-  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Permission that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Permission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class Permission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/permission files_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/permission files_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class Permission extends cdktf.TerraformResource {
       terraformResourceType: 'files_permission',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.412',
-        providerVersionConstraint: '0.1.412'
+        providerVersion: '0.1.415',
+        providerVersionConstraint: '0.1.415'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

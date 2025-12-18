@@ -50,6 +50,10 @@ Object.defineProperty(exports, 'auditConfiguration', { get: function () { return
 Object.defineProperty(exports, 'autoscalingAutoScalingConfiguration', { get: function () { return require('./autoscaling-auto-scaling-configuration'); } });
 Object.defineProperty(exports, 'bastionBastion', { get: function () { return require('./bastion-bastion'); } });
 Object.defineProperty(exports, 'bastionSession', { get: function () { return require('./bastion-session'); } });
+Object.defineProperty(exports, 'batchBatchContext', { get: function () { return require('./batch-batch-context'); } });
+Object.defineProperty(exports, 'batchBatchJobPool', { get: function () { return require('./batch-batch-job-pool'); } });
+Object.defineProperty(exports, 'batchBatchTaskEnvironment', { get: function () { return require('./batch-batch-task-environment'); } });
+Object.defineProperty(exports, 'batchBatchTaskProfile', { get: function () { return require('./batch-batch-task-profile'); } });
 Object.defineProperty(exports, 'bdsAutoScalingConfiguration', { get: function () { return require('./bds-auto-scaling-configuration'); } });
 Object.defineProperty(exports, 'bdsBdsCapacityReport', { get: function () { return require('./bds-bds-capacity-report'); } });
 Object.defineProperty(exports, 'bdsBdsInstance', { get: function () { return require('./bds-bds-instance'); } });
@@ -576,6 +580,7 @@ Object.defineProperty(exports, 'identityDomainsIdentityPropagationTrust', { get:
 Object.defineProperty(exports, 'identityDomainsIdentityProvider', { get: function () { return require('./identity-domains-identity-provider'); } });
 Object.defineProperty(exports, 'identityDomainsIdentitySetting', { get: function () { return require('./identity-domains-identity-setting'); } });
 Object.defineProperty(exports, 'identityDomainsKmsiSetting', { get: function () { return require('./identity-domains-kmsi-setting'); } });
+Object.defineProperty(exports, 'identityDomainsMappedAttribute', { get: function () { return require('./identity-domains-mapped-attribute'); } });
 Object.defineProperty(exports, 'identityDomainsMyApiKey', { get: function () { return require('./identity-domains-my-api-key'); } });
 Object.defineProperty(exports, 'identityDomainsMyAuthToken', { get: function () { return require('./identity-domains-my-auth-token'); } });
 Object.defineProperty(exports, 'identityDomainsMyCustomerSecretKey', { get: function () { return require('./identity-domains-my-customer-secret-key'); } });
@@ -1029,6 +1034,15 @@ Object.defineProperty(exports, 'dataOciBastionBastion', { get: function () { ret
 Object.defineProperty(exports, 'dataOciBastionBastions', { get: function () { return require('./data-oci-bastion-bastions'); } });
 Object.defineProperty(exports, 'dataOciBastionSession', { get: function () { return require('./data-oci-bastion-session'); } });
 Object.defineProperty(exports, 'dataOciBastionSessions', { get: function () { return require('./data-oci-bastion-sessions'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchContext', { get: function () { return require('./data-oci-batch-batch-context'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchContextShapes', { get: function () { return require('./data-oci-batch-batch-context-shapes'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchContexts', { get: function () { return require('./data-oci-batch-batch-contexts'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchJobPool', { get: function () { return require('./data-oci-batch-batch-job-pool'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchJobPools', { get: function () { return require('./data-oci-batch-batch-job-pools'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchTaskEnvironment', { get: function () { return require('./data-oci-batch-batch-task-environment'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchTaskEnvironments', { get: function () { return require('./data-oci-batch-batch-task-environments'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchTaskProfile', { get: function () { return require('./data-oci-batch-batch-task-profile'); } });
+Object.defineProperty(exports, 'dataOciBatchBatchTaskProfiles', { get: function () { return require('./data-oci-batch-batch-task-profiles'); } });
 Object.defineProperty(exports, 'dataOciBdsAutoScalingConfiguration', { get: function () { return require('./data-oci-bds-auto-scaling-configuration'); } });
 Object.defineProperty(exports, 'dataOciBdsAutoScalingConfigurations', { get: function () { return require('./data-oci-bds-auto-scaling-configurations'); } });
 Object.defineProperty(exports, 'dataOciBdsBdsClusterVersions', { get: function () { return require('./data-oci-bds-bds-cluster-versions'); } });
@@ -1276,6 +1290,8 @@ Object.defineProperty(exports, 'dataOciCoreDrgs', { get: function () { return re
 Object.defineProperty(exports, 'dataOciCoreFastConnectProviderService', { get: function () { return require('./data-oci-core-fast-connect-provider-service'); } });
 Object.defineProperty(exports, 'dataOciCoreFastConnectProviderServiceKey', { get: function () { return require('./data-oci-core-fast-connect-provider-service-key'); } });
 Object.defineProperty(exports, 'dataOciCoreFastConnectProviderServices', { get: function () { return require('./data-oci-core-fast-connect-provider-services'); } });
+Object.defineProperty(exports, 'dataOciCoreFirmwareBundle', { get: function () { return require('./data-oci-core-firmware-bundle'); } });
+Object.defineProperty(exports, 'dataOciCoreFirmwareBundles', { get: function () { return require('./data-oci-core-firmware-bundles'); } });
 Object.defineProperty(exports, 'dataOciCoreImage', { get: function () { return require('./data-oci-core-image'); } });
 Object.defineProperty(exports, 'dataOciCoreImageShape', { get: function () { return require('./data-oci-core-image-shape'); } });
 Object.defineProperty(exports, 'dataOciCoreImageShapes', { get: function () { return require('./data-oci-core-image-shapes'); } });
@@ -2293,6 +2309,8 @@ Object.defineProperty(exports, 'dataOciIdentityDomainsIdentitySetting', { get: f
 Object.defineProperty(exports, 'dataOciIdentityDomainsIdentitySettings', { get: function () { return require('./data-oci-identity-domains-identity-settings'); } });
 Object.defineProperty(exports, 'dataOciIdentityDomainsKmsiSetting', { get: function () { return require('./data-oci-identity-domains-kmsi-setting'); } });
 Object.defineProperty(exports, 'dataOciIdentityDomainsKmsiSettings', { get: function () { return require('./data-oci-identity-domains-kmsi-settings'); } });
+Object.defineProperty(exports, 'dataOciIdentityDomainsMappedAttribute', { get: function () { return require('./data-oci-identity-domains-mapped-attribute'); } });
+Object.defineProperty(exports, 'dataOciIdentityDomainsMappedAttributes', { get: function () { return require('./data-oci-identity-domains-mapped-attributes'); } });
 Object.defineProperty(exports, 'dataOciIdentityDomainsMyApiKey', { get: function () { return require('./data-oci-identity-domains-my-api-key'); } });
 Object.defineProperty(exports, 'dataOciIdentityDomainsMyApiKeys', { get: function () { return require('./data-oci-identity-domains-my-api-keys'); } });
 Object.defineProperty(exports, 'dataOciIdentityDomainsMyApps', { get: function () { return require('./data-oci-identity-domains-my-apps'); } });

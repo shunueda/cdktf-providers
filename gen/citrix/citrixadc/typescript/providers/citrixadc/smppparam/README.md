@@ -1,3 +1,3 @@
 # `citrixadc_smppparam`
 
-Refer to the Terraform Registry for docs: [`citrixadc_smppparam`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/smppparam).
+Refer to the Terraform Registry for docs: [`citrixadc_smppparam`](https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/smppparam).

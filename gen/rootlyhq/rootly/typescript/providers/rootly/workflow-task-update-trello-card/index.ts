@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateTrelloCardConfig extends cdktf.TerraformMetaA
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#enabled WorkflowTaskUpdateTrelloCard#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#enabled WorkflowTaskUpdateTrelloCard#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#id WorkflowTaskUpdateTrelloCard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#id WorkflowTaskUpdateTrelloCard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskUpdateTrelloCardConfig extends cdktf.TerraformMetaA
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#name WorkflowTaskUpdateTrelloCard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#name WorkflowTaskUpdateTrelloCard#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#position WorkflowTaskUpdateTrelloCard#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#position WorkflowTaskUpdateTrelloCard#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#skip_on_failure WorkflowTaskUpdateTrelloCard#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#skip_on_failure WorkflowTaskUpdateTrelloCard#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#workflow_id WorkflowTaskUpdateTrelloCard#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#workflow_id WorkflowTaskUpdateTrelloCard#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#task_params WorkflowTaskUpdateTrelloCard#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#task_params WorkflowTaskUpdateTrelloCard#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateTrelloCardTaskParams;
 }
 export interface WorkflowTaskUpdateTrelloCardTaskParamsLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#id WorkflowTaskUpdateTrelloCard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#id WorkflowTaskUpdateTrelloCard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#name WorkflowTaskUpdateTrelloCard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#name WorkflowTaskUpdateTrelloCard#name}
   */
   readonly name: string;
 }
@@ -201,53 +201,53 @@ export interface WorkflowTaskUpdateTrelloCardTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. The archivation id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#archivation WorkflowTaskUpdateTrelloCard#archivation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#archivation WorkflowTaskUpdateTrelloCard#archivation}
   */
   readonly archivation: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. The board id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#board WorkflowTaskUpdateTrelloCard#board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#board WorkflowTaskUpdateTrelloCard#board}
   */
   readonly board?: { [key: string]: string };
   /**
   * The card id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#card_id WorkflowTaskUpdateTrelloCard#card_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#card_id WorkflowTaskUpdateTrelloCard#card_id}
   */
   readonly cardId: string;
   /**
   * The card description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#description WorkflowTaskUpdateTrelloCard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#description WorkflowTaskUpdateTrelloCard#description}
   */
   readonly description?: string;
   /**
   * The due date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#due_date WorkflowTaskUpdateTrelloCard#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#due_date WorkflowTaskUpdateTrelloCard#due_date}
   */
   readonly dueDate?: string;
   /**
   * Map must contain two fields, `id` and `name`. The list id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#list WorkflowTaskUpdateTrelloCard#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#list WorkflowTaskUpdateTrelloCard#list}
   */
   readonly list?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#task_type WorkflowTaskUpdateTrelloCard#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#task_type WorkflowTaskUpdateTrelloCard#task_type}
   */
   readonly taskType?: string;
   /**
   * The card title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#title WorkflowTaskUpdateTrelloCard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#title WorkflowTaskUpdateTrelloCard#title}
   */
   readonly title?: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#labels WorkflowTaskUpdateTrelloCard#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#labels WorkflowTaskUpdateTrelloCard#labels}
   */
   readonly labels?: WorkflowTaskUpdateTrelloCardTaskParamsLabels[] | cdktf.IResolvable;
 }
@@ -557,7 +557,7 @@ export class WorkflowTaskUpdateTrelloCardTaskParamsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card rootly_workflow_task_update_trello_card}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card rootly_workflow_task_update_trello_card}
 */
 export class WorkflowTaskUpdateTrelloCard extends cdktf.TerraformResource {
 
@@ -573,7 +573,7 @@ export class WorkflowTaskUpdateTrelloCard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateTrelloCard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateTrelloCard to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateTrelloCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateTrelloCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateTrelloCard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -585,7 +585,7 @@ export class WorkflowTaskUpdateTrelloCard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_trello_card rootly_workflow_task_update_trello_card} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_trello_card rootly_workflow_task_update_trello_card} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -596,8 +596,8 @@ export class WorkflowTaskUpdateTrelloCard extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_trello_card',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

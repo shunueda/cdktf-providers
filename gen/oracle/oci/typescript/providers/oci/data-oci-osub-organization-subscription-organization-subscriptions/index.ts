@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOsubOrganizationSubscriptionOrganizationSubscriptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#compartment_id DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#compartment_id DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#id DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#id DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#subscription_ids DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#subscription_ids DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#subscription_ids}
   */
   readonly subscriptionIds: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#x_one_origin_region DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#x_one_origin_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#x_one_origin_region DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#x_one_origin_region}
   */
   readonly xOneOriginRegion?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#filter DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#filter DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#filter}
   */
   readonly filter?: DataOciOsubOrganizationSubscriptionOrganizationSubscriptionsFilter[] | cdktf.IResolvable;
 }
@@ -231,15 +231,15 @@ export class DataOciOsubOrganizationSubscriptionOrganizationSubscriptionsSubscri
 }
 export interface DataOciOsubOrganizationSubscriptionOrganizationSubscriptionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#name DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#name DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#regex DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#regex DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#values DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#values DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#values}
   */
   readonly values: string[];
 }
@@ -407,7 +407,7 @@ export class DataOciOsubOrganizationSubscriptionOrganizationSubscriptionsFilterL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions oci_osub_organization_subscription_organization_subscriptions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions oci_osub_organization_subscription_organization_subscriptions}
 */
 export class DataOciOsubOrganizationSubscriptionOrganizationSubscriptions extends cdktf.TerraformDataSource {
 
@@ -423,7 +423,7 @@ export class DataOciOsubOrganizationSubscriptionOrganizationSubscriptions extend
   * Generates CDKTF code for importing a DataOciOsubOrganizationSubscriptionOrganizationSubscriptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOsubOrganizationSubscriptionOrganizationSubscriptions to import
-  * @param importFromId The id of the existing DataOciOsubOrganizationSubscriptionOrganizationSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOsubOrganizationSubscriptionOrganizationSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOsubOrganizationSubscriptionOrganizationSubscriptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +435,7 @@ export class DataOciOsubOrganizationSubscriptionOrganizationSubscriptions extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_organization_subscription_organization_subscriptions oci_osub_organization_subscription_organization_subscriptions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/osub_organization_subscription_organization_subscriptions oci_osub_organization_subscription_organization_subscriptions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,8 +446,8 @@ export class DataOciOsubOrganizationSubscriptionOrganizationSubscriptions extend
       terraformResourceType: 'oci_osub_organization_subscription_organization_subscriptions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

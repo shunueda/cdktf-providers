@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsCloudGateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#attribute_sets DataOciIdentityDomainsCloudGate#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#attribute_sets DataOciIdentityDomainsCloudGate#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#attributes DataOciIdentityDomainsCloudGate#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#attributes DataOciIdentityDomainsCloudGate#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#authorization DataOciIdentityDomainsCloudGate#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#authorization DataOciIdentityDomainsCloudGate#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#cloud_gate_id DataOciIdentityDomainsCloudGate#cloud_gate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#cloud_gate_id DataOciIdentityDomainsCloudGate#cloud_gate_id}
   */
   readonly cloudGateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#idcs_endpoint DataOciIdentityDomainsCloudGate#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#idcs_endpoint DataOciIdentityDomainsCloudGate#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#resource_type_schema_version DataOciIdentityDomainsCloudGate#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#resource_type_schema_version DataOciIdentityDomainsCloudGate#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -904,7 +904,7 @@ export class DataOciIdentityDomainsCloudGateUpstreamServersList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate oci_identity_domains_cloud_gate}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate oci_identity_domains_cloud_gate}
 */
 export class DataOciIdentityDomainsCloudGate extends cdktf.TerraformDataSource {
 
@@ -920,7 +920,7 @@ export class DataOciIdentityDomainsCloudGate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityDomainsCloudGate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsCloudGate to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsCloudGate that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsCloudGate that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsCloudGate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -932,7 +932,7 @@ export class DataOciIdentityDomainsCloudGate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate oci_identity_domains_cloud_gate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/identity_domains_cloud_gate oci_identity_domains_cloud_gate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -943,8 +943,8 @@ export class DataOciIdentityDomainsCloudGate extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_domains_cloud_gate',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

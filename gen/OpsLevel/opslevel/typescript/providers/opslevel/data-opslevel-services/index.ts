@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelServicesConfig extends cdktf.TerraformMetaArguments
   /**
   * Used to filter services by one of 'filter`, `framework`, `language`, `lifecycle`, `owner`, `product`, `tag`, `tier'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services#filter DataOpslevelServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services#filter DataOpslevelServices#filter}
   */
   readonly filter?: DataOpslevelServicesFilter;
 }
@@ -18,13 +18,13 @@ export interface DataOpslevelServicesFilter {
   /**
   * The field of the target resource to filter upon. One of `filter`, `framework`, `language`, `lifecycle`, `owner`, `product`, `tag`, `tier`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services#field DataOpslevelServices#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services#field DataOpslevelServices#field}
   */
   readonly field: string;
   /**
   * The field value of the target resource to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services#value DataOpslevelServices#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services#value DataOpslevelServices#value}
   */
   readonly value: string;
 }
@@ -226,7 +226,7 @@ export class DataOpslevelServicesServicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services opslevel_services}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services opslevel_services}
 */
 export class DataOpslevelServices extends cdktf.TerraformDataSource {
 
@@ -242,7 +242,7 @@ export class DataOpslevelServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelServices to import
-  * @param importFromId The id of the existing DataOpslevelServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class DataOpslevelServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/services opslevel_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/services opslevel_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class DataOpslevelServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_services',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

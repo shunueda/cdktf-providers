@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface SiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * full address of the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#address Site#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#address Site#address}
   */
   readonly address: string;
   /**
   * Alarm Template ID, this takes precedence over the Org-level alarmtemplate_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#alarmtemplate_id Site#alarmtemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#alarmtemplate_id Site#alarmtemplate_id}
   */
   readonly alarmtemplateId?: string;
   /**
   * AP Template ID, used by APs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#aptemplate_id Site#aptemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#aptemplate_id Site#aptemplate_id}
   */
   readonly aptemplateId?: string;
   /**
   * Country code for the site (for AP config generation), in two-character
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#country_code Site#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#country_code Site#country_code}
   */
   readonly countryCode?: string;
   /**
   * Gateway Template ID, used by gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#gatewaytemplate_id Site#gatewaytemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#gatewaytemplate_id Site#gatewaytemplate_id}
   */
   readonly gatewaytemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#latlng Site#latlng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#latlng Site#latlng}
   */
   readonly latlng?: SiteLatlng;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#name Site#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#name Site#name}
   */
   readonly name: string;
   /**
   * Network Template ID, this takes precedence over Site Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#networktemplate_id Site#networktemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#networktemplate_id Site#networktemplate_id}
   */
   readonly networktemplateId?: string;
   /**
   * Optional, any notes about the site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#notes Site#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#notes Site#notes}
   */
   readonly notes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#org_id Site#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#org_id Site#org_id}
   */
   readonly orgId: string;
   /**
   * RF Template ID, this takes precedence over Site Settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#rftemplate_id Site#rftemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#rftemplate_id Site#rftemplate_id}
   */
   readonly rftemplateId?: string;
   /**
   * SecPolicy ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#secpolicy_id Site#secpolicy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#secpolicy_id Site#secpolicy_id}
   */
   readonly secpolicyId?: string;
   /**
   * Sitegroups this site belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#sitegroup_ids Site#sitegroup_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#sitegroup_ids Site#sitegroup_ids}
   */
   readonly sitegroupIds?: string[];
   /**
   * Site Template ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#sitetemplate_id Site#sitetemplate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#sitetemplate_id Site#sitetemplate_id}
   */
   readonly sitetemplateId?: string;
   /**
   * Timezone the site is at
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#timezone Site#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#timezone Site#timezone}
   */
   readonly timezone?: string;
 }
 export interface SiteLatlng {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#lat Site#lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#lat Site#lat}
   */
   readonly lat: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#lng Site#lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#lng Site#lng}
   */
   readonly lng: number;
 }
@@ -215,7 +215,7 @@ export class SiteLatlngOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site mist_site}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site mist_site}
 */
 export class Site extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class Site extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Site resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Site to import
-  * @param importFromId The id of the existing Site that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Site that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Site to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class Site extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site mist_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site mist_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class Site extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

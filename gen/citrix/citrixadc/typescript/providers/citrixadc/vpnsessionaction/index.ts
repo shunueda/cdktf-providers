@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,316 +8,316 @@ import * as cdktf from 'cdktf';
 
 export interface VpnsessionactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#advancedclientlessvpnmode Vpnsessionaction#advancedclientlessvpnmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#advancedclientlessvpnmode Vpnsessionaction#advancedclientlessvpnmode}
   */
   readonly advancedclientlessvpnmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#allowedlogingroups Vpnsessionaction#allowedlogingroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#allowedlogingroups Vpnsessionaction#allowedlogingroups}
   */
   readonly allowedlogingroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#allprotocolproxy Vpnsessionaction#allprotocolproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#allprotocolproxy Vpnsessionaction#allprotocolproxy}
   */
   readonly allprotocolproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#alwaysonprofilename Vpnsessionaction#alwaysonprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#alwaysonprofilename Vpnsessionaction#alwaysonprofilename}
   */
   readonly alwaysonprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#authorizationgroup Vpnsessionaction#authorizationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#authorizationgroup Vpnsessionaction#authorizationgroup}
   */
   readonly authorizationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#autoproxyurl Vpnsessionaction#autoproxyurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#autoproxyurl Vpnsessionaction#autoproxyurl}
   */
   readonly autoproxyurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#citrixreceiverhome Vpnsessionaction#citrixreceiverhome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#citrixreceiverhome Vpnsessionaction#citrixreceiverhome}
   */
   readonly citrixreceiverhome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientchoices Vpnsessionaction#clientchoices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientchoices Vpnsessionaction#clientchoices}
   */
   readonly clientchoices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientcleanupprompt Vpnsessionaction#clientcleanupprompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientcleanupprompt Vpnsessionaction#clientcleanupprompt}
   */
   readonly clientcleanupprompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientconfiguration Vpnsessionaction#clientconfiguration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientconfiguration Vpnsessionaction#clientconfiguration}
   */
   readonly clientconfiguration?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientdebug Vpnsessionaction#clientdebug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientdebug Vpnsessionaction#clientdebug}
   */
   readonly clientdebug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientidletimeout Vpnsessionaction#clientidletimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientidletimeout Vpnsessionaction#clientidletimeout}
   */
   readonly clientidletimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientlessmodeurlencoding Vpnsessionaction#clientlessmodeurlencoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientlessmodeurlencoding Vpnsessionaction#clientlessmodeurlencoding}
   */
   readonly clientlessmodeurlencoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientlesspersistentcookie Vpnsessionaction#clientlesspersistentcookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientlesspersistentcookie Vpnsessionaction#clientlesspersistentcookie}
   */
   readonly clientlesspersistentcookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientlessvpnmode Vpnsessionaction#clientlessvpnmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientlessvpnmode Vpnsessionaction#clientlessvpnmode}
   */
   readonly clientlessvpnmode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientoptions Vpnsessionaction#clientoptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientoptions Vpnsessionaction#clientoptions}
   */
   readonly clientoptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientsecurity Vpnsessionaction#clientsecurity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientsecurity Vpnsessionaction#clientsecurity}
   */
   readonly clientsecurity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientsecuritygroup Vpnsessionaction#clientsecuritygroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientsecuritygroup Vpnsessionaction#clientsecuritygroup}
   */
   readonly clientsecuritygroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientsecuritylog Vpnsessionaction#clientsecuritylog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientsecuritylog Vpnsessionaction#clientsecuritylog}
   */
   readonly clientsecuritylog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#clientsecuritymessage Vpnsessionaction#clientsecuritymessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#clientsecuritymessage Vpnsessionaction#clientsecuritymessage}
   */
   readonly clientsecuritymessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#defaultauthorizationaction Vpnsessionaction#defaultauthorizationaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#defaultauthorizationaction Vpnsessionaction#defaultauthorizationaction}
   */
   readonly defaultauthorizationaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#dnsvservername Vpnsessionaction#dnsvservername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#dnsvservername Vpnsessionaction#dnsvservername}
   */
   readonly dnsvservername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#emailhome Vpnsessionaction#emailhome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#emailhome Vpnsessionaction#emailhome}
   */
   readonly emailhome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#epaclienttype Vpnsessionaction#epaclienttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#epaclienttype Vpnsessionaction#epaclienttype}
   */
   readonly epaclienttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#forcecleanup Vpnsessionaction#forcecleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#forcecleanup Vpnsessionaction#forcecleanup}
   */
   readonly forcecleanup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#forcedtimeout Vpnsessionaction#forcedtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#forcedtimeout Vpnsessionaction#forcedtimeout}
   */
   readonly forcedtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#forcedtimeoutwarning Vpnsessionaction#forcedtimeoutwarning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#forcedtimeoutwarning Vpnsessionaction#forcedtimeoutwarning}
   */
   readonly forcedtimeoutwarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#fqdnspoofedip Vpnsessionaction#fqdnspoofedip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#fqdnspoofedip Vpnsessionaction#fqdnspoofedip}
   */
   readonly fqdnspoofedip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#ftpproxy Vpnsessionaction#ftpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#ftpproxy Vpnsessionaction#ftpproxy}
   */
   readonly ftpproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#gopherproxy Vpnsessionaction#gopherproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#gopherproxy Vpnsessionaction#gopherproxy}
   */
   readonly gopherproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#homepage Vpnsessionaction#homepage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#homepage Vpnsessionaction#homepage}
   */
   readonly homepage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#httpport Vpnsessionaction#httpport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#httpport Vpnsessionaction#httpport}
   */
   readonly httpport?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#httpproxy Vpnsessionaction#httpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#httpproxy Vpnsessionaction#httpproxy}
   */
   readonly httpproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#icaproxy Vpnsessionaction#icaproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#icaproxy Vpnsessionaction#icaproxy}
   */
   readonly icaproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#iconwithreceiver Vpnsessionaction#iconwithreceiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#iconwithreceiver Vpnsessionaction#iconwithreceiver}
   */
   readonly iconwithreceiver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#id Vpnsessionaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#id Vpnsessionaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#iipdnssuffix Vpnsessionaction#iipdnssuffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#iipdnssuffix Vpnsessionaction#iipdnssuffix}
   */
   readonly iipdnssuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#kcdaccount Vpnsessionaction#kcdaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#kcdaccount Vpnsessionaction#kcdaccount}
   */
   readonly kcdaccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#killconnections Vpnsessionaction#killconnections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#killconnections Vpnsessionaction#killconnections}
   */
   readonly killconnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#linuxpluginupgrade Vpnsessionaction#linuxpluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#linuxpluginupgrade Vpnsessionaction#linuxpluginupgrade}
   */
   readonly linuxpluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#locallanaccess Vpnsessionaction#locallanaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#locallanaccess Vpnsessionaction#locallanaccess}
   */
   readonly locallanaccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#loginscript Vpnsessionaction#loginscript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#loginscript Vpnsessionaction#loginscript}
   */
   readonly loginscript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#logoutscript Vpnsessionaction#logoutscript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#logoutscript Vpnsessionaction#logoutscript}
   */
   readonly logoutscript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#macpluginupgrade Vpnsessionaction#macpluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#macpluginupgrade Vpnsessionaction#macpluginupgrade}
   */
   readonly macpluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#name Vpnsessionaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#name Vpnsessionaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#netmask Vpnsessionaction#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#netmask Vpnsessionaction#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#ntdomain Vpnsessionaction#ntdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#ntdomain Vpnsessionaction#ntdomain}
   */
   readonly ntdomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#pcoipprofilename Vpnsessionaction#pcoipprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#pcoipprofilename Vpnsessionaction#pcoipprofilename}
   */
   readonly pcoipprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#proxy Vpnsessionaction#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#proxy Vpnsessionaction#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#proxyexception Vpnsessionaction#proxyexception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#proxyexception Vpnsessionaction#proxyexception}
   */
   readonly proxyexception?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#proxylocalbypass Vpnsessionaction#proxylocalbypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#proxylocalbypass Vpnsessionaction#proxylocalbypass}
   */
   readonly proxylocalbypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#rdpclientprofilename Vpnsessionaction#rdpclientprofilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#rdpclientprofilename Vpnsessionaction#rdpclientprofilename}
   */
   readonly rdpclientprofilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#rfc1918 Vpnsessionaction#rfc1918}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#rfc1918 Vpnsessionaction#rfc1918}
   */
   readonly rfc1918?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#securebrowse Vpnsessionaction#securebrowse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#securebrowse Vpnsessionaction#securebrowse}
   */
   readonly securebrowse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#sesstimeout Vpnsessionaction#sesstimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#sesstimeout Vpnsessionaction#sesstimeout}
   */
   readonly sesstimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#sfgatewayauthtype Vpnsessionaction#sfgatewayauthtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#sfgatewayauthtype Vpnsessionaction#sfgatewayauthtype}
   */
   readonly sfgatewayauthtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#smartgroup Vpnsessionaction#smartgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#smartgroup Vpnsessionaction#smartgroup}
   */
   readonly smartgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#socksproxy Vpnsessionaction#socksproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#socksproxy Vpnsessionaction#socksproxy}
   */
   readonly socksproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#splitdns Vpnsessionaction#splitdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#splitdns Vpnsessionaction#splitdns}
   */
   readonly splitdns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#splittunnel Vpnsessionaction#splittunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#splittunnel Vpnsessionaction#splittunnel}
   */
   readonly splittunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#spoofiip Vpnsessionaction#spoofiip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#spoofiip Vpnsessionaction#spoofiip}
   */
   readonly spoofiip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#sslproxy Vpnsessionaction#sslproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#sslproxy Vpnsessionaction#sslproxy}
   */
   readonly sslproxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#sso Vpnsessionaction#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#sso Vpnsessionaction#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#ssocredential Vpnsessionaction#ssocredential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#ssocredential Vpnsessionaction#ssocredential}
   */
   readonly ssocredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#storefronturl Vpnsessionaction#storefronturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#storefronturl Vpnsessionaction#storefronturl}
   */
   readonly storefronturl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#transparentinterception Vpnsessionaction#transparentinterception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#transparentinterception Vpnsessionaction#transparentinterception}
   */
   readonly transparentinterception?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#useiip Vpnsessionaction#useiip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#useiip Vpnsessionaction#useiip}
   */
   readonly useiip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#usemip Vpnsessionaction#usemip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#usemip Vpnsessionaction#usemip}
   */
   readonly usemip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#useraccounting Vpnsessionaction#useraccounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#useraccounting Vpnsessionaction#useraccounting}
   */
   readonly useraccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#wihome Vpnsessionaction#wihome}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#wihome Vpnsessionaction#wihome}
   */
   readonly wihome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#wihomeaddresstype Vpnsessionaction#wihomeaddresstype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#wihomeaddresstype Vpnsessionaction#wihomeaddresstype}
   */
   readonly wihomeaddresstype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#windowsautologon Vpnsessionaction#windowsautologon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#windowsautologon Vpnsessionaction#windowsautologon}
   */
   readonly windowsautologon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#windowsclienttype Vpnsessionaction#windowsclienttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#windowsclienttype Vpnsessionaction#windowsclienttype}
   */
   readonly windowsclienttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#windowspluginupgrade Vpnsessionaction#windowspluginupgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#windowspluginupgrade Vpnsessionaction#windowspluginupgrade}
   */
   readonly windowspluginupgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#winsip Vpnsessionaction#winsip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#winsip Vpnsessionaction#winsip}
   */
   readonly winsip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#wiportalmode Vpnsessionaction#wiportalmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#wiportalmode Vpnsessionaction#wiportalmode}
   */
   readonly wiportalmode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction citrixadc_vpnsessionaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction citrixadc_vpnsessionaction}
 */
 export class Vpnsessionaction extends cdktf.TerraformResource {
 
@@ -333,7 +333,7 @@ export class Vpnsessionaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpnsessionaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpnsessionaction to import
-  * @param importFromId The id of the existing Vpnsessionaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpnsessionaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpnsessionaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class Vpnsessionaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnsessionaction citrixadc_vpnsessionaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnsessionaction citrixadc_vpnsessionaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class Vpnsessionaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_vpnsessionaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

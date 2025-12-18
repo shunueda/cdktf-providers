@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciManagementAgentManagementAgentNamedCredentialsMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#compartment_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#compartment_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#management_agent_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#management_agent_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#management_agent_id}
   */
   readonly managementAgentId?: string;
 }
@@ -221,7 +221,7 @@ export class DataOciManagementAgentManagementAgentNamedCredentialsMetadataMetada
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata oci_management_agent_management_agent_named_credentials_metadata}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata oci_management_agent_management_agent_named_credentials_metadata}
 */
 export class DataOciManagementAgentManagementAgentNamedCredentialsMetadata extends cdktf.TerraformDataSource {
 
@@ -237,7 +237,7 @@ export class DataOciManagementAgentManagementAgentNamedCredentialsMetadata exten
   * Generates CDKTF code for importing a DataOciManagementAgentManagementAgentNamedCredentialsMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciManagementAgentManagementAgentNamedCredentialsMetadata to import
-  * @param importFromId The id of the existing DataOciManagementAgentManagementAgentNamedCredentialsMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciManagementAgentManagementAgentNamedCredentialsMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciManagementAgentManagementAgentNamedCredentialsMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class DataOciManagementAgentManagementAgentNamedCredentialsMetadata exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata oci_management_agent_management_agent_named_credentials_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata oci_management_agent_management_agent_named_credentials_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class DataOciManagementAgentManagementAgentNamedCredentialsMetadata exten
       terraformResourceType: 'oci_management_agent_management_agent_named_credentials_metadata',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

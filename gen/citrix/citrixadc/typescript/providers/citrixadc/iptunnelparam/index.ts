@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface IptunnelparamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#dropfrag Iptunnelparam#dropfrag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#dropfrag Iptunnelparam#dropfrag}
   */
   readonly dropfrag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#dropfragcputhreshold Iptunnelparam#dropfragcputhreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#dropfragcputhreshold Iptunnelparam#dropfragcputhreshold}
   */
   readonly dropfragcputhreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#enablestrictrx Iptunnelparam#enablestrictrx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#enablestrictrx Iptunnelparam#enablestrictrx}
   */
   readonly enablestrictrx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#enablestricttx Iptunnelparam#enablestricttx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#enablestricttx Iptunnelparam#enablestricttx}
   */
   readonly enablestricttx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#id Iptunnelparam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#id Iptunnelparam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#mac Iptunnelparam#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#mac Iptunnelparam#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#srcip Iptunnelparam#srcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#srcip Iptunnelparam#srcip}
   */
   readonly srcip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#srciproundrobin Iptunnelparam#srciproundrobin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#srciproundrobin Iptunnelparam#srciproundrobin}
   */
   readonly srciproundrobin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#useclientsourceip Iptunnelparam#useclientsourceip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#useclientsourceip Iptunnelparam#useclientsourceip}
   */
   readonly useclientsourceip?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam citrixadc_iptunnelparam}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam citrixadc_iptunnelparam}
 */
 export class Iptunnelparam extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class Iptunnelparam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Iptunnelparam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Iptunnelparam to import
-  * @param importFromId The id of the existing Iptunnelparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Iptunnelparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Iptunnelparam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class Iptunnelparam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/iptunnelparam citrixadc_iptunnelparam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/iptunnelparam citrixadc_iptunnelparam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class Iptunnelparam extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_iptunnelparam',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

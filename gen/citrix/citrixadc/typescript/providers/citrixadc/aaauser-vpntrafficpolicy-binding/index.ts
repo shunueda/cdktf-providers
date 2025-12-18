@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface AaauserVpntrafficpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#gotopriorityexpression AaauserVpntrafficpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#gotopriorityexpression AaauserVpntrafficpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#id AaauserVpntrafficpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#id AaauserVpntrafficpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#policy AaauserVpntrafficpolicyBinding#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#policy AaauserVpntrafficpolicyBinding#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#priority AaauserVpntrafficpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#priority AaauserVpntrafficpolicyBinding#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#type AaauserVpntrafficpolicyBinding#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#type AaauserVpntrafficpolicyBinding#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#username AaauserVpntrafficpolicyBinding#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#username AaauserVpntrafficpolicyBinding#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding citrixadc_aaauser_vpntrafficpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding citrixadc_aaauser_vpntrafficpolicy_binding}
 */
 export class AaauserVpntrafficpolicyBinding extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class AaauserVpntrafficpolicyBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AaauserVpntrafficpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AaauserVpntrafficpolicyBinding to import
-  * @param importFromId The id of the existing AaauserVpntrafficpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AaauserVpntrafficpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AaauserVpntrafficpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class AaauserVpntrafficpolicyBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaauser_vpntrafficpolicy_binding citrixadc_aaauser_vpntrafficpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaauser_vpntrafficpolicy_binding citrixadc_aaauser_vpntrafficpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class AaauserVpntrafficpolicyBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_aaauser_vpntrafficpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

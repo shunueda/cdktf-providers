@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#compartment_id DatascienceSchedule#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#compartment_id DatascienceSchedule#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#defined_tags DatascienceSchedule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#defined_tags DatascienceSchedule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#description DatascienceSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#description DatascienceSchedule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#display_name DatascienceSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#display_name DatascienceSchedule#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#freeform_tags DatascienceSchedule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#freeform_tags DatascienceSchedule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#id DatascienceSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#id DatascienceSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#project_id DatascienceSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#project_id DatascienceSchedule#project_id}
   */
   readonly projectId: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#action DatascienceSchedule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#action DatascienceSchedule#action}
   */
   readonly action: DatascienceScheduleAction;
   /**
   * log_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_details DatascienceSchedule#log_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_details DatascienceSchedule#log_details}
   */
   readonly logDetails?: DatascienceScheduleLogDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#timeouts DatascienceSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#timeouts DatascienceSchedule#timeouts}
   */
   readonly timeouts?: DatascienceScheduleTimeouts;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#trigger DatascienceSchedule#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#trigger DatascienceSchedule#trigger}
   */
   readonly trigger: DatascienceScheduleTrigger;
 }
 export interface DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#job_type DatascienceSchedule#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#job_type DatascienceSchedule#job_type}
   */
   readonly jobType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
 }
@@ -245,27 +245,27 @@ export class DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobConfigu
 }
 export interface DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobEnvironmentConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#cmd DatascienceSchedule#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#cmd DatascienceSchedule#cmd}
   */
   readonly cmd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#entrypoint DatascienceSchedule#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#entrypoint DatascienceSchedule#entrypoint}
   */
   readonly entrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#image DatascienceSchedule#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#image DatascienceSchedule#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#image_digest DatascienceSchedule#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#image_digest DatascienceSchedule#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#image_signature_id DatascienceSchedule#image_signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#image_signature_id DatascienceSchedule#image_signature_id}
   */
   readonly imageSignatureId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#job_environment_type DatascienceSchedule#job_environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#job_environment_type DatascienceSchedule#job_environment_type}
   */
   readonly jobEnvironmentType: string;
 }
@@ -488,19 +488,19 @@ export class DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobEnviron
 }
 export interface DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobLogConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#enable_auto_log_creation DatascienceSchedule#enable_auto_log_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#enable_auto_log_creation DatascienceSchedule#enable_auto_log_creation}
   */
   readonly enableAutoLogCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#enable_logging DatascienceSchedule#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#enable_logging DatascienceSchedule#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}
   */
   readonly logId?: string;
 }
@@ -671,45 +671,45 @@ export class DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobLogConf
 }
 export interface DatascienceScheduleActionActionDetailsCreateJobRunDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#compartment_id DatascienceSchedule#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#compartment_id DatascienceSchedule#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#defined_tags DatascienceSchedule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#defined_tags DatascienceSchedule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#display_name DatascienceSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#display_name DatascienceSchedule#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#freeform_tags DatascienceSchedule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#freeform_tags DatascienceSchedule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#job_id DatascienceSchedule#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#job_id DatascienceSchedule#job_id}
   */
   readonly jobId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#project_id DatascienceSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#project_id DatascienceSchedule#project_id}
   */
   readonly projectId?: string;
   /**
   * job_configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#job_configuration_override_details DatascienceSchedule#job_configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#job_configuration_override_details DatascienceSchedule#job_configuration_override_details}
   */
   readonly jobConfigurationOverrideDetails?: DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobConfigurationOverrideDetails;
   /**
   * job_environment_configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#job_environment_configuration_override_details DatascienceSchedule#job_environment_configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#job_environment_configuration_override_details DatascienceSchedule#job_environment_configuration_override_details}
   */
   readonly jobEnvironmentConfigurationOverrideDetails?: DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobEnvironmentConfigurationOverrideDetails;
   /**
   * job_log_configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#job_log_configuration_override_details DatascienceSchedule#job_log_configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#job_log_configuration_override_details DatascienceSchedule#job_log_configuration_override_details}
   */
   readonly jobLogConfigurationOverrideDetails?: DatascienceScheduleActionActionDetailsCreateJobRunDetailsJobLogConfigurationOverrideDetails;
 }
@@ -1025,19 +1025,19 @@ export class DatascienceScheduleActionActionDetailsCreateJobRunDetailsOutputRefe
 }
 export interface DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#type DatascienceSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#type DatascienceSchedule#type}
   */
   readonly type: string;
 }
@@ -1205,19 +1205,19 @@ export class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsConfi
 }
 export interface DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsLogConfigurationOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#enable_auto_log_creation DatascienceSchedule#enable_auto_log_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#enable_auto_log_creation DatascienceSchedule#enable_auto_log_creation}
   */
   readonly enableAutoLogCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#enable_logging DatascienceSchedule#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#enable_logging DatascienceSchedule#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}
   */
   readonly logId?: string;
 }
@@ -1388,15 +1388,15 @@ export class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsLogCo
 }
 export interface DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}
   */
   readonly commandLineArguments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}
   */
   readonly maximumRuntimeInMinutes?: string;
 }
@@ -1538,27 +1538,27 @@ export class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepO
 }
 export interface DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepContainerConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#cmd DatascienceSchedule#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#cmd DatascienceSchedule#cmd}
   */
   readonly cmd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#container_type DatascienceSchedule#container_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#container_type DatascienceSchedule#container_type}
   */
   readonly containerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#entrypoint DatascienceSchedule#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#entrypoint DatascienceSchedule#entrypoint}
   */
   readonly entrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#image DatascienceSchedule#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#image DatascienceSchedule#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#image_digest DatascienceSchedule#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#image_digest DatascienceSchedule#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#image_signature_id DatascienceSchedule#image_signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#image_signature_id DatascienceSchedule#image_signature_id}
   */
   readonly imageSignatureId?: string;
 }
@@ -1781,19 +1781,19 @@ export class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepO
 }
 export interface DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#step_name DatascienceSchedule#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#step_name DatascienceSchedule#step_name}
   */
   readonly stepName?: string;
   /**
   * step_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#step_configuration_details DatascienceSchedule#step_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#step_configuration_details DatascienceSchedule#step_configuration_details}
   */
   readonly stepConfigurationDetails?: DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepConfigurationDetails;
   /**
   * step_container_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#step_container_configuration_details DatascienceSchedule#step_container_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#step_container_configuration_details DatascienceSchedule#step_container_configuration_details}
   */
   readonly stepContainerConfigurationDetails?: DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepContainerConfigurationDetails;
 }
@@ -1967,49 +1967,49 @@ export class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepO
 }
 export interface DatascienceScheduleActionActionDetailsCreatePipelineRunDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#compartment_id DatascienceSchedule#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#compartment_id DatascienceSchedule#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#defined_tags DatascienceSchedule#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#defined_tags DatascienceSchedule#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#display_name DatascienceSchedule#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#display_name DatascienceSchedule#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#freeform_tags DatascienceSchedule#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#freeform_tags DatascienceSchedule#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#pipeline_id DatascienceSchedule#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#pipeline_id DatascienceSchedule#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#project_id DatascienceSchedule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#project_id DatascienceSchedule#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#system_tags DatascienceSchedule#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#system_tags DatascienceSchedule#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#configuration_override_details DatascienceSchedule#configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#configuration_override_details DatascienceSchedule#configuration_override_details}
   */
   readonly configurationOverrideDetails?: DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsConfigurationOverrideDetails;
   /**
   * log_configuration_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_configuration_override_details DatascienceSchedule#log_configuration_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_configuration_override_details DatascienceSchedule#log_configuration_override_details}
   */
   readonly logConfigurationOverrideDetails?: DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsLogConfigurationOverrideDetails;
   /**
   * step_override_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#step_override_details DatascienceSchedule#step_override_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#step_override_details DatascienceSchedule#step_override_details}
   */
   readonly stepOverrideDetails?: DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetails[] | cdktf.IResolvable;
 }
@@ -2354,11 +2354,11 @@ export class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsOutpu
 }
 export interface DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceViewFlowDetailsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#name DatascienceSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#name DatascienceSchedule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#value DatascienceSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#value DatascienceSchedule#value}
   */
   readonly value?: string;
 }
@@ -2503,13 +2503,13 @@ export class DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceV
 }
 export interface DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceViewFlowDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#trigger_name DatascienceSchedule#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#trigger_name DatascienceSchedule#trigger_name}
   */
   readonly triggerName?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#parameters DatascienceSchedule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#parameters DatascienceSchedule#parameters}
   */
   readonly parameters?: DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceViewFlowDetailsParameters[] | cdktf.IResolvable;
 }
@@ -2622,29 +2622,29 @@ export class DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceV
 }
 export interface DatascienceScheduleActionActionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#http_action_type DatascienceSchedule#http_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#http_action_type DatascienceSchedule#http_action_type}
   */
   readonly httpActionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#ml_application_instance_view_id DatascienceSchedule#ml_application_instance_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#ml_application_instance_view_id DatascienceSchedule#ml_application_instance_view_id}
   */
   readonly mlApplicationInstanceViewId?: string;
   /**
   * create_job_run_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#create_job_run_details DatascienceSchedule#create_job_run_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#create_job_run_details DatascienceSchedule#create_job_run_details}
   */
   readonly createJobRunDetails?: DatascienceScheduleActionActionDetailsCreateJobRunDetails;
   /**
   * create_pipeline_run_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#create_pipeline_run_details DatascienceSchedule#create_pipeline_run_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#create_pipeline_run_details DatascienceSchedule#create_pipeline_run_details}
   */
   readonly createPipelineRunDetails?: DatascienceScheduleActionActionDetailsCreatePipelineRunDetails;
   /**
   * trigger_ml_application_instance_view_flow_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#trigger_ml_application_instance_view_flow_details DatascienceSchedule#trigger_ml_application_instance_view_flow_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#trigger_ml_application_instance_view_flow_details DatascienceSchedule#trigger_ml_application_instance_view_flow_details}
   */
   readonly triggerMlApplicationInstanceViewFlowDetails?: DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceViewFlowDetails;
 }
@@ -2841,13 +2841,13 @@ export class DatascienceScheduleActionActionDetailsOutputReference extends cdktf
 }
 export interface DatascienceScheduleAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#action_type DatascienceSchedule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#action_type DatascienceSchedule#action_type}
   */
   readonly actionType: string;
   /**
   * action_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#action_details DatascienceSchedule#action_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#action_details DatascienceSchedule#action_details}
   */
   readonly actionDetails: DatascienceScheduleActionActionDetails;
 }
@@ -2954,11 +2954,11 @@ export class DatascienceScheduleActionOutputReference extends cdktf.ComplexObjec
 }
 export interface DatascienceScheduleLogDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}
   */
   readonly logGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}
   */
   readonly logId: string;
 }
@@ -3065,15 +3065,15 @@ export class DatascienceScheduleLogDetailsOutputReference extends cdktf.ComplexO
 }
 export interface DatascienceScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#create DatascienceSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#create DatascienceSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#delete DatascienceSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#delete DatascienceSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#update DatascienceSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#update DatascienceSchedule#update}
   */
   readonly update?: string;
 }
@@ -3225,35 +3225,35 @@ export class DatascienceScheduleTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface DatascienceScheduleTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#cron_expression DatascienceSchedule#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#cron_expression DatascienceSchedule#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#frequency DatascienceSchedule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#frequency DatascienceSchedule#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#interval DatascienceSchedule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#interval DatascienceSchedule#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#is_random_start_time DatascienceSchedule#is_random_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#is_random_start_time DatascienceSchedule#is_random_start_time}
   */
   readonly isRandomStartTime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#recurrence DatascienceSchedule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#recurrence DatascienceSchedule#recurrence}
   */
   readonly recurrence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#time_end DatascienceSchedule#time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#time_end DatascienceSchedule#time_end}
   */
   readonly timeEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#time_start DatascienceSchedule#time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#time_start DatascienceSchedule#time_start}
   */
   readonly timeStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#trigger_type DatascienceSchedule#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#trigger_type DatascienceSchedule#trigger_type}
   */
   readonly triggerType: string;
 }
@@ -3537,7 +3537,7 @@ export class DatascienceScheduleTriggerOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule oci_datascience_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule oci_datascience_schedule}
 */
 export class DatascienceSchedule extends cdktf.TerraformResource {
 
@@ -3553,7 +3553,7 @@ export class DatascienceSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceSchedule to import
-  * @param importFromId The id of the existing DatascienceSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3565,7 +3565,7 @@ export class DatascienceSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_schedule oci_datascience_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_schedule oci_datascience_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3576,8 +3576,8 @@ export class DatascienceSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

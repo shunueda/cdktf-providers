@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataFastlyTlsPrivateKeyConfig extends cdktf.TerraformMetaArgume
   /**
   * Timestamp (GMT) when the private key was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#created_at DataFastlyTlsPrivateKey#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#created_at DataFastlyTlsPrivateKey#created_at}
   */
   readonly createdAt?: string;
   /**
   * Fastly private key ID. Conflicts with all the other filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#id DataFastlyTlsPrivateKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#id DataFastlyTlsPrivateKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,31 +25,31 @@ export interface DataFastlyTlsPrivateKeyConfig extends cdktf.TerraformMetaArgume
   /**
   * The key length used to generate the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#key_length DataFastlyTlsPrivateKey#key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#key_length DataFastlyTlsPrivateKey#key_length}
   */
   readonly keyLength?: number;
   /**
   * The algorithm used to generate the private key. Must be RSA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#key_type DataFastlyTlsPrivateKey#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#key_type DataFastlyTlsPrivateKey#key_type}
   */
   readonly keyType?: string;
   /**
   * The human-readable name assigned to the private key when uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#name DataFastlyTlsPrivateKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#name DataFastlyTlsPrivateKey#name}
   */
   readonly name?: string;
   /**
   * A hash of the associated public key, useful for safely identifying it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#public_key_sha1 DataFastlyTlsPrivateKey#public_key_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#public_key_sha1 DataFastlyTlsPrivateKey#public_key_sha1}
   */
   readonly publicKeySha1?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key fastly_tls_private_key}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key fastly_tls_private_key}
 */
 export class DataFastlyTlsPrivateKey extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataFastlyTlsPrivateKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFastlyTlsPrivateKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFastlyTlsPrivateKey to import
-  * @param importFromId The id of the existing DataFastlyTlsPrivateKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFastlyTlsPrivateKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFastlyTlsPrivateKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataFastlyTlsPrivateKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/data-sources/tls_private_key fastly_tls_private_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/data-sources/tls_private_key fastly_tls_private_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataFastlyTlsPrivateKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'fastly_tls_private_key',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

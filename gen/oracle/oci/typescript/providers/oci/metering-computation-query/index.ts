@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface MeteringComputationQueryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#compartment_id MeteringComputationQuery#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#compartment_id MeteringComputationQuery#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#id MeteringComputationQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#id MeteringComputationQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,23 +21,23 @@ export interface MeteringComputationQueryConfig extends cdktf.TerraformMetaArgum
   /**
   * query_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#query_definition MeteringComputationQuery#query_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#query_definition MeteringComputationQuery#query_definition}
   */
   readonly queryDefinition: MeteringComputationQueryQueryDefinition;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#timeouts MeteringComputationQuery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#timeouts MeteringComputationQuery#timeouts}
   */
   readonly timeouts?: MeteringComputationQueryTimeouts;
 }
 export interface MeteringComputationQueryQueryDefinitionCostAnalysisUi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#graph MeteringComputationQuery#graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#graph MeteringComputationQuery#graph}
   */
   readonly graph?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#is_cumulative_graph MeteringComputationQuery#is_cumulative_graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#is_cumulative_graph MeteringComputationQuery#is_cumulative_graph}
   */
   readonly isCumulativeGraph?: boolean | cdktf.IResolvable;
 }
@@ -150,15 +150,15 @@ export class MeteringComputationQueryQueryDefinitionCostAnalysisUiOutputReferenc
 }
 export interface MeteringComputationQueryQueryDefinitionReportQueryForecast {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#forecast_type MeteringComputationQuery#forecast_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#forecast_type MeteringComputationQuery#forecast_type}
   */
   readonly forecastType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#time_forecast_ended MeteringComputationQuery#time_forecast_ended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#time_forecast_ended MeteringComputationQuery#time_forecast_ended}
   */
   readonly timeForecastEnded: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#time_forecast_started MeteringComputationQuery#time_forecast_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#time_forecast_started MeteringComputationQuery#time_forecast_started}
   */
   readonly timeForecastStarted?: string;
 }
@@ -297,15 +297,15 @@ export class MeteringComputationQueryQueryDefinitionReportQueryForecastOutputRef
 }
 export interface MeteringComputationQueryQueryDefinitionReportQueryGroupByTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#key MeteringComputationQuery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#key MeteringComputationQuery#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#namespace MeteringComputationQuery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#namespace MeteringComputationQuery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#value MeteringComputationQuery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#value MeteringComputationQuery#value}
   */
   readonly value?: string;
 }
@@ -479,55 +479,55 @@ export class MeteringComputationQueryQueryDefinitionReportQueryGroupByTagList ex
 }
 export interface MeteringComputationQueryQueryDefinitionReportQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#compartment_depth MeteringComputationQuery#compartment_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#compartment_depth MeteringComputationQuery#compartment_depth}
   */
   readonly compartmentDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#date_range_name MeteringComputationQuery#date_range_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#date_range_name MeteringComputationQuery#date_range_name}
   */
   readonly dateRangeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#filter MeteringComputationQuery#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#filter MeteringComputationQuery#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#granularity MeteringComputationQuery#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#granularity MeteringComputationQuery#granularity}
   */
   readonly granularity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#group_by MeteringComputationQuery#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#group_by MeteringComputationQuery#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#is_aggregate_by_time MeteringComputationQuery#is_aggregate_by_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#is_aggregate_by_time MeteringComputationQuery#is_aggregate_by_time}
   */
   readonly isAggregateByTime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#query_type MeteringComputationQuery#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#query_type MeteringComputationQuery#query_type}
   */
   readonly queryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#tenant_id MeteringComputationQuery#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#tenant_id MeteringComputationQuery#tenant_id}
   */
   readonly tenantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#time_usage_ended MeteringComputationQuery#time_usage_ended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#time_usage_ended MeteringComputationQuery#time_usage_ended}
   */
   readonly timeUsageEnded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#time_usage_started MeteringComputationQuery#time_usage_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#time_usage_started MeteringComputationQuery#time_usage_started}
   */
   readonly timeUsageStarted?: string;
   /**
   * forecast block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#forecast MeteringComputationQuery#forecast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#forecast MeteringComputationQuery#forecast}
   */
   readonly forecast?: MeteringComputationQueryQueryDefinitionReportQueryForecast;
   /**
   * group_by_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#group_by_tag MeteringComputationQuery#group_by_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#group_by_tag MeteringComputationQuery#group_by_tag}
   */
   readonly groupByTag?: MeteringComputationQueryQueryDefinitionReportQueryGroupByTag[] | cdktf.IResolvable;
 }
@@ -924,23 +924,23 @@ export class MeteringComputationQueryQueryDefinitionReportQueryOutputReference e
 }
 export interface MeteringComputationQueryQueryDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#display_name MeteringComputationQuery#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#display_name MeteringComputationQuery#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#version MeteringComputationQuery#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#version MeteringComputationQuery#version}
   */
   readonly version: number;
   /**
   * cost_analysis_ui block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#cost_analysis_ui MeteringComputationQuery#cost_analysis_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#cost_analysis_ui MeteringComputationQuery#cost_analysis_ui}
   */
   readonly costAnalysisUi: MeteringComputationQueryQueryDefinitionCostAnalysisUi;
   /**
   * report_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#report_query MeteringComputationQuery#report_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#report_query MeteringComputationQuery#report_query}
   */
   readonly reportQuery: MeteringComputationQueryQueryDefinitionReportQuery;
 }
@@ -1099,15 +1099,15 @@ export class MeteringComputationQueryQueryDefinitionOutputReference extends cdkt
 }
 export interface MeteringComputationQueryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#create MeteringComputationQuery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#create MeteringComputationQuery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#delete MeteringComputationQuery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#delete MeteringComputationQuery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#update MeteringComputationQuery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#update MeteringComputationQuery#update}
   */
   readonly update?: string;
 }
@@ -1259,7 +1259,7 @@ export class MeteringComputationQueryTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query oci_metering_computation_query}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query oci_metering_computation_query}
 */
 export class MeteringComputationQuery extends cdktf.TerraformResource {
 
@@ -1275,7 +1275,7 @@ export class MeteringComputationQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MeteringComputationQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MeteringComputationQuery to import
-  * @param importFromId The id of the existing MeteringComputationQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MeteringComputationQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MeteringComputationQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1287,7 +1287,7 @@ export class MeteringComputationQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/metering_computation_query oci_metering_computation_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/metering_computation_query oci_metering_computation_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1298,8 +1298,8 @@ export class MeteringComputationQuery extends cdktf.TerraformResource {
       terraformResourceType: 'oci_metering_computation_query',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

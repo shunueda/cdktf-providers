@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface IcalatencyprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#id Icalatencyprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#id Icalatencyprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#l7latencymaxnotifycount Icalatencyprofile#l7latencymaxnotifycount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#l7latencymaxnotifycount Icalatencyprofile#l7latencymaxnotifycount}
   */
   readonly l7Latencymaxnotifycount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#l7latencymonitoring Icalatencyprofile#l7latencymonitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#l7latencymonitoring Icalatencyprofile#l7latencymonitoring}
   */
   readonly l7Latencymonitoring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#l7latencynotifyinterval Icalatencyprofile#l7latencynotifyinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#l7latencynotifyinterval Icalatencyprofile#l7latencynotifyinterval}
   */
   readonly l7Latencynotifyinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#l7latencythresholdfactor Icalatencyprofile#l7latencythresholdfactor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#l7latencythresholdfactor Icalatencyprofile#l7latencythresholdfactor}
   */
   readonly l7Latencythresholdfactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#l7latencywaittime Icalatencyprofile#l7latencywaittime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#l7latencywaittime Icalatencyprofile#l7latencywaittime}
   */
   readonly l7Latencywaittime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#name Icalatencyprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#name Icalatencyprofile#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile citrixadc_icalatencyprofile}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile citrixadc_icalatencyprofile}
 */
 export class Icalatencyprofile extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Icalatencyprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Icalatencyprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Icalatencyprofile to import
-  * @param importFromId The id of the existing Icalatencyprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Icalatencyprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Icalatencyprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Icalatencyprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icalatencyprofile citrixadc_icalatencyprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icalatencyprofile citrixadc_icalatencyprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Icalatencyprofile extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_icalatencyprofile',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

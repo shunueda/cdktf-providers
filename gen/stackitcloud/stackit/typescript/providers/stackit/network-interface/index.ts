@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,61 @@ export interface NetworkInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of CIDR (Classless Inter-Domain Routing) notations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#allowed_addresses NetworkInterface#allowed_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#allowed_addresses NetworkInterface#allowed_addresses}
   */
   readonly allowedAddresses?: string[];
   /**
   * The IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#ipv4 NetworkInterface#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#ipv4 NetworkInterface#ipv4}
   */
   readonly ipv4?: string;
   /**
   * Labels are key-value string pairs which can be attached to a network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#labels NetworkInterface#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#labels NetworkInterface#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
   * The network ID to which the network interface is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#network_id NetworkInterface#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#network_id NetworkInterface#network_id}
   */
   readonly networkId: string;
   /**
   * STACKIT project ID to which the network is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#project_id NetworkInterface#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#project_id NetworkInterface#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#region NetworkInterface#region}
+  */
+  readonly region?: string;
+  /**
   * The Network Interface Security. If set to false, then no security groups will apply to this network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#security NetworkInterface#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#security NetworkInterface#security}
   */
   readonly security?: boolean | cdktf.IResolvable;
   /**
   * The list of security group UUIDs. If security is set to false, setting this field will lead to an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#security_group_ids NetworkInterface#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#security_group_ids NetworkInterface#security_group_ids}
   */
   readonly securityGroupIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface stackit_network_interface}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface stackit_network_interface}
 */
 export class NetworkInterface extends cdktf.TerraformResource {
 
@@ -74,7 +80,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkInterface to import
-  * @param importFromId The id of the existing NetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +92,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/network_interface stackit_network_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/network_interface stackit_network_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +103,8 @@ export class NetworkInterface extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_network_interface',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -114,6 +120,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
     this._name = config.name;
     this._networkId = config.networkId;
     this._projectId = config.projectId;
+    this._region = config.region;
     this._security = config.security;
     this._securityGroupIds = config.securityGroupIds;
   }
@@ -232,6 +239,22 @@ export class NetworkInterface extends cdktf.TerraformResource {
     return this._projectId;
   }
 
+  // region - computed: true, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // security - computed: true, optional: true, required: false
   private _security?: boolean | cdktf.IResolvable; 
   public get security() {
@@ -281,6 +304,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       network_id: cdktf.stringToTerraform(this._networkId),
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       security: cdktf.booleanToTerraform(this._security),
       security_group_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._securityGroupIds),
     };
@@ -320,6 +344,12 @@ export class NetworkInterface extends cdktf.TerraformResource {
       },
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

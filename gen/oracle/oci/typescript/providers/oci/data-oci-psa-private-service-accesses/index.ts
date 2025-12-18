@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciPsaPrivateServiceAccessesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#compartment_id DataOciPsaPrivateServiceAccesses#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#compartment_id DataOciPsaPrivateServiceAccesses#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#display_name DataOciPsaPrivateServiceAccesses#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#display_name DataOciPsaPrivateServiceAccesses#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#id DataOciPsaPrivateServiceAccesses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#id DataOciPsaPrivateServiceAccesses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#service_id DataOciPsaPrivateServiceAccesses#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#service_id DataOciPsaPrivateServiceAccesses#service_id}
   */
   readonly serviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#state DataOciPsaPrivateServiceAccesses#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#state DataOciPsaPrivateServiceAccesses#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#vcn_id DataOciPsaPrivateServiceAccesses#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#vcn_id DataOciPsaPrivateServiceAccesses#vcn_id}
   */
   readonly vcnId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#filter DataOciPsaPrivateServiceAccesses#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#filter DataOciPsaPrivateServiceAccesses#filter}
   */
   readonly filter?: DataOciPsaPrivateServiceAccessesFilter[] | cdktf.IResolvable;
 }
@@ -283,15 +283,15 @@ export class DataOciPsaPrivateServiceAccessesPrivateServiceAccessCollectionList 
 }
 export interface DataOciPsaPrivateServiceAccessesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#name DataOciPsaPrivateServiceAccesses#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#name DataOciPsaPrivateServiceAccesses#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#regex DataOciPsaPrivateServiceAccesses#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#regex DataOciPsaPrivateServiceAccesses#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#values DataOciPsaPrivateServiceAccesses#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#values DataOciPsaPrivateServiceAccesses#values}
   */
   readonly values: string[];
 }
@@ -459,7 +459,7 @@ export class DataOciPsaPrivateServiceAccessesFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses oci_psa_private_service_accesses}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses oci_psa_private_service_accesses}
 */
 export class DataOciPsaPrivateServiceAccesses extends cdktf.TerraformDataSource {
 
@@ -475,7 +475,7 @@ export class DataOciPsaPrivateServiceAccesses extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciPsaPrivateServiceAccesses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciPsaPrivateServiceAccesses to import
-  * @param importFromId The id of the existing DataOciPsaPrivateServiceAccesses that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciPsaPrivateServiceAccesses that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciPsaPrivateServiceAccesses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class DataOciPsaPrivateServiceAccesses extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_private_service_accesses oci_psa_private_service_accesses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/psa_private_service_accesses oci_psa_private_service_accesses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class DataOciPsaPrivateServiceAccesses extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_psa_private_service_accesses',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

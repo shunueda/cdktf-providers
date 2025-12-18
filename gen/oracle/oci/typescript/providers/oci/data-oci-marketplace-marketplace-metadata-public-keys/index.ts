@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMarketplaceMarketplaceMetadataPublicKeysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#compartment_id DataOciMarketplaceMarketplaceMetadataPublicKeys#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#compartment_id DataOciMarketplaceMarketplaceMetadataPublicKeys#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#id DataOciMarketplaceMarketplaceMetadataPublicKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#id DataOciMarketplaceMarketplaceMetadataPublicKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciMarketplaceMarketplaceMetadataPublicKeysConfig extends c
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#filter DataOciMarketplaceMarketplaceMetadataPublicKeys#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#filter DataOciMarketplaceMarketplaceMetadataPublicKeys#filter}
   */
   readonly filter?: DataOciMarketplaceMarketplaceMetadataPublicKeysFilter[] | cdktf.IResolvable;
 }
@@ -137,15 +137,15 @@ export class DataOciMarketplaceMarketplaceMetadataPublicKeysMarketplaceMetadataP
 }
 export interface DataOciMarketplaceMarketplaceMetadataPublicKeysFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#name DataOciMarketplaceMarketplaceMetadataPublicKeys#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#name DataOciMarketplaceMarketplaceMetadataPublicKeys#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#regex DataOciMarketplaceMarketplaceMetadataPublicKeys#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#regex DataOciMarketplaceMarketplaceMetadataPublicKeys#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#values DataOciMarketplaceMarketplaceMetadataPublicKeys#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#values DataOciMarketplaceMarketplaceMetadataPublicKeys#values}
   */
   readonly values: string[];
 }
@@ -313,7 +313,7 @@ export class DataOciMarketplaceMarketplaceMetadataPublicKeysFilterList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys oci_marketplace_marketplace_metadata_public_keys}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys oci_marketplace_marketplace_metadata_public_keys}
 */
 export class DataOciMarketplaceMarketplaceMetadataPublicKeys extends cdktf.TerraformDataSource {
 
@@ -329,7 +329,7 @@ export class DataOciMarketplaceMarketplaceMetadataPublicKeys extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciMarketplaceMarketplaceMetadataPublicKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMarketplaceMarketplaceMetadataPublicKeys to import
-  * @param importFromId The id of the existing DataOciMarketplaceMarketplaceMetadataPublicKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMarketplaceMarketplaceMetadataPublicKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMarketplaceMarketplaceMetadataPublicKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class DataOciMarketplaceMarketplaceMetadataPublicKeys extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/marketplace_marketplace_metadata_public_keys oci_marketplace_marketplace_metadata_public_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/marketplace_marketplace_metadata_public_keys oci_marketplace_marketplace_metadata_public_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class DataOciMarketplaceMarketplaceMetadataPublicKeys extends cdktf.Terra
       terraformResourceType: 'oci_marketplace_marketplace_metadata_public_keys',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

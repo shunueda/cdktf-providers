@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BotprofileWhitelistBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#bot_bind_comment BotprofileWhitelistBinding#bot_bind_comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#bot_bind_comment BotprofileWhitelistBinding#bot_bind_comment}
   */
   readonly botBindComment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#bot_whitelist BotprofileWhitelistBinding#bot_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#bot_whitelist BotprofileWhitelistBinding#bot_whitelist}
   */
   readonly botWhitelist?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#bot_whitelist_enabled BotprofileWhitelistBinding#bot_whitelist_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#bot_whitelist_enabled BotprofileWhitelistBinding#bot_whitelist_enabled}
   */
   readonly botWhitelistEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#bot_whitelist_type BotprofileWhitelistBinding#bot_whitelist_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#bot_whitelist_type BotprofileWhitelistBinding#bot_whitelist_type}
   */
   readonly botWhitelistType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#bot_whitelist_value BotprofileWhitelistBinding#bot_whitelist_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#bot_whitelist_value BotprofileWhitelistBinding#bot_whitelist_value}
   */
   readonly botWhitelistValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#id BotprofileWhitelistBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#id BotprofileWhitelistBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#log BotprofileWhitelistBinding#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#log BotprofileWhitelistBinding#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#logmessage BotprofileWhitelistBinding#logmessage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#logmessage BotprofileWhitelistBinding#logmessage}
   */
   readonly logmessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#name BotprofileWhitelistBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#name BotprofileWhitelistBinding#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding citrixadc_botprofile_whitelist_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding citrixadc_botprofile_whitelist_binding}
 */
 export class BotprofileWhitelistBinding extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class BotprofileWhitelistBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BotprofileWhitelistBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BotprofileWhitelistBinding to import
-  * @param importFromId The id of the existing BotprofileWhitelistBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BotprofileWhitelistBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BotprofileWhitelistBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class BotprofileWhitelistBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/botprofile_whitelist_binding citrixadc_botprofile_whitelist_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/botprofile_whitelist_binding citrixadc_botprofile_whitelist_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class BotprofileWhitelistBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_botprofile_whitelist_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

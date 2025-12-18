@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface DnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access control list. E.g. `0.0.0.0/0,::/0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#acl DnsZone#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#acl DnsZone#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#active DnsZone#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#active DnsZone#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * A contact e-mail for the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#contact_email DnsZone#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#contact_email DnsZone#contact_email}
   */
   readonly contactEmail?: string;
   /**
   * Default time to live. E.g. 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#default_ttl DnsZone#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#default_ttl DnsZone#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
   * Description of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#description DnsZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#description DnsZone#description}
   */
   readonly description?: string;
   /**
   * The zone name. E.g. `example.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#dns_name DnsZone#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#dns_name DnsZone#dns_name}
   */
   readonly dnsName: string;
   /**
   * Expire time. E.g. 1209600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#expire_time DnsZone#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#expire_time DnsZone#expire_time}
   */
   readonly expireTime?: number;
   /**
   * Specifies, if the zone is a reverse zone or not. Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#is_reverse_zone DnsZone#is_reverse_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#is_reverse_zone DnsZone#is_reverse_zone}
   */
   readonly isReverseZone?: boolean | cdktf.IResolvable;
   /**
   * The user given name of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#name DnsZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#name DnsZone#name}
   */
   readonly name: string;
   /**
   * Negative caching. E.g. 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#negative_cache DnsZone#negative_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#negative_cache DnsZone#negative_cache}
   */
   readonly negativeCache?: number;
   /**
   * Primary name server for secondary zone. E.g. ["1.2.3.4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#primaries DnsZone#primaries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#primaries DnsZone#primaries}
   */
   readonly primaries?: string[];
   /**
   * STACKIT project ID to which the dns zone is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#project_id DnsZone#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#project_id DnsZone#project_id}
   */
   readonly projectId: string;
   /**
   * Refresh time. E.g. 3600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#refresh_time DnsZone#refresh_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#refresh_time DnsZone#refresh_time}
   */
   readonly refreshTime?: number;
   /**
   * Retry time. E.g. 600
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#retry_time DnsZone#retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#retry_time DnsZone#retry_time}
   */
   readonly retryTime?: number;
   /**
   * Zone type. Defaults to `primary`. Possible values are: `primary`, `secondary`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#type DnsZone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#type DnsZone#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone stackit_dns_zone}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone stackit_dns_zone}
 */
 export class DnsZone extends cdktf.TerraformResource {
 
@@ -114,7 +114,7 @@ export class DnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsZone to import
-  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/dns_zone stackit_dns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/dns_zone stackit_dns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_dns_zone',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

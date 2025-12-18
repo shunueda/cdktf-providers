@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface IcaparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#dfpersistence Icaparameter#dfpersistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#dfpersistence Icaparameter#dfpersistence}
   */
   readonly dfpersistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#edtlosstolerant Icaparameter#edtlosstolerant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#edtlosstolerant Icaparameter#edtlosstolerant}
   */
   readonly edtlosstolerant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#edtpmtuddf Icaparameter#edtpmtuddf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#edtpmtuddf Icaparameter#edtpmtuddf}
   */
   readonly edtpmtuddf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#edtpmtuddftimeout Icaparameter#edtpmtuddftimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#edtpmtuddftimeout Icaparameter#edtpmtuddftimeout}
   */
   readonly edtpmtuddftimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#edtpmtudrediscovery Icaparameter#edtpmtudrediscovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#edtpmtudrediscovery Icaparameter#edtpmtudrediscovery}
   */
   readonly edtpmtudrediscovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#enablesronhafailover Icaparameter#enablesronhafailover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#enablesronhafailover Icaparameter#enablesronhafailover}
   */
   readonly enablesronhafailover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#hdxinsightnonnsap Icaparameter#hdxinsightnonnsap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#hdxinsightnonnsap Icaparameter#hdxinsightnonnsap}
   */
   readonly hdxinsightnonnsap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#id Icaparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#id Icaparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#l7latencyfrequency Icaparameter#l7latencyfrequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#l7latencyfrequency Icaparameter#l7latencyfrequency}
   */
   readonly l7Latencyfrequency?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter citrixadc_icaparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter citrixadc_icaparameter}
 */
 export class Icaparameter extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class Icaparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Icaparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Icaparameter to import
-  * @param importFromId The id of the existing Icaparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Icaparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Icaparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class Icaparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/icaparameter citrixadc_icaparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/icaparameter citrixadc_icaparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class Icaparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_icaparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

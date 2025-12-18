@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/server
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,19 @@ export interface DataStackitServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * STACKIT project ID to which the server is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/server#project_id DataStackitServer#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server#project_id DataStackitServer#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server#region DataStackitServer#region}
+  */
+  readonly region?: string;
+  /**
   * The server ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/server#server_id DataStackitServer#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server#server_id DataStackitServer#server_id}
   */
   readonly serverId: string;
 }
@@ -81,7 +87,7 @@ export class DataStackitServerBootVolumeOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/server stackit_server}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server stackit_server}
 */
 export class DataStackitServer extends cdktf.TerraformDataSource {
 
@@ -97,7 +103,7 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitServer to import
-  * @param importFromId The id of the existing DataStackitServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +115,7 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/server stackit_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/server stackit_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +126,8 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_server',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -132,6 +138,7 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._projectId = config.projectId;
+    this._region = config.region;
     this._serverId = config.serverId;
   }
 
@@ -214,6 +221,22 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
     return this._projectId;
   }
 
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // server_id - computed: false, optional: false, required: true
   private _serverId?: string; 
   public get serverId() {
@@ -244,6 +267,7 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       server_id: cdktf.stringToTerraform(this._serverId),
     };
   }
@@ -252,6 +276,12 @@ export class DataStackitServer extends cdktf.TerraformDataSource {
     const attrs = {
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

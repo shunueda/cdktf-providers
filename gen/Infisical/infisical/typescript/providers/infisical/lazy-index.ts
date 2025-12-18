@@ -2,7 +2,10 @@
 Object.defineProperty(exports, 'accessApprovalPolicy', { get: function () { return require('./access-approval-policy'); } });
 Object.defineProperty(exports, 'appConnection1Password', { get: function () { return require('./app-connection-1password'); } });
 Object.defineProperty(exports, 'appConnectionAws', { get: function () { return require('./app-connection-aws'); } });
+Object.defineProperty(exports, 'appConnectionAzureAppConfiguration', { get: function () { return require('./app-connection-azure-app-configuration'); } });
 Object.defineProperty(exports, 'appConnectionAzureClientSecrets', { get: function () { return require('./app-connection-azure-client-secrets'); } });
+Object.defineProperty(exports, 'appConnectionAzureDevops', { get: function () { return require('./app-connection-azure-devops'); } });
+Object.defineProperty(exports, 'appConnectionAzureKeyVault', { get: function () { return require('./app-connection-azure-key-vault'); } });
 Object.defineProperty(exports, 'appConnectionBitbucket', { get: function () { return require('./app-connection-bitbucket'); } });
 Object.defineProperty(exports, 'appConnectionCloudflare', { get: function () { return require('./app-connection-cloudflare'); } });
 Object.defineProperty(exports, 'appConnectionDatabricks', { get: function () { return require('./app-connection-databricks'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface CmpparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#addvaryheader Cmpparameter#addvaryheader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#addvaryheader Cmpparameter#addvaryheader}
   */
   readonly addvaryheader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#cmpbypasspct Cmpparameter#cmpbypasspct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#cmpbypasspct Cmpparameter#cmpbypasspct}
   */
   readonly cmpbypasspct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#cmplevel Cmpparameter#cmplevel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#cmplevel Cmpparameter#cmplevel}
   */
   readonly cmplevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#cmponpush Cmpparameter#cmponpush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#cmponpush Cmpparameter#cmponpush}
   */
   readonly cmponpush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#externalcache Cmpparameter#externalcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#externalcache Cmpparameter#externalcache}
   */
   readonly externalcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#heurexpiry Cmpparameter#heurexpiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#heurexpiry Cmpparameter#heurexpiry}
   */
   readonly heurexpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#heurexpiryhistwt Cmpparameter#heurexpiryhistwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#heurexpiryhistwt Cmpparameter#heurexpiryhistwt}
   */
   readonly heurexpiryhistwt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#heurexpirythres Cmpparameter#heurexpirythres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#heurexpirythres Cmpparameter#heurexpirythres}
   */
   readonly heurexpirythres?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#id Cmpparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#id Cmpparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#minressize Cmpparameter#minressize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#minressize Cmpparameter#minressize}
   */
   readonly minressize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#policytype Cmpparameter#policytype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#policytype Cmpparameter#policytype}
   */
   readonly policytype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#quantumsize Cmpparameter#quantumsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#quantumsize Cmpparameter#quantumsize}
   */
   readonly quantumsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#randomgzipfilename Cmpparameter#randomgzipfilename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#randomgzipfilename Cmpparameter#randomgzipfilename}
   */
   readonly randomgzipfilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#randomgzipfilenamemaxlength Cmpparameter#randomgzipfilenamemaxlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#randomgzipfilenamemaxlength Cmpparameter#randomgzipfilenamemaxlength}
   */
   readonly randomgzipfilenamemaxlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#randomgzipfilenameminlength Cmpparameter#randomgzipfilenameminlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#randomgzipfilenameminlength Cmpparameter#randomgzipfilenameminlength}
   */
   readonly randomgzipfilenameminlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#servercmp Cmpparameter#servercmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#servercmp Cmpparameter#servercmp}
   */
   readonly servercmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#varyheadervalue Cmpparameter#varyheadervalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#varyheadervalue Cmpparameter#varyheadervalue}
   */
   readonly varyheadervalue?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter citrixadc_cmpparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter citrixadc_cmpparameter}
 */
 export class Cmpparameter extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class Cmpparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cmpparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cmpparameter to import
-  * @param importFromId The id of the existing Cmpparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cmpparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cmpparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class Cmpparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/cmpparameter citrixadc_cmpparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/cmpparameter citrixadc_cmpparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class Cmpparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_cmpparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

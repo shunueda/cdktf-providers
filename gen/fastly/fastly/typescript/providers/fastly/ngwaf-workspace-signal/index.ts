@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NgwafWorkspaceSignalConfig extends cdktf.TerraformMetaArguments
   /**
   * The description of the signal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal#description NgwafWorkspaceSignal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal#description NgwafWorkspaceSignal#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal#id NgwafWorkspaceSignal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal#id NgwafWorkspaceSignal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface NgwafWorkspaceSignalConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the signal. Special characters and periods are not accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal#name NgwafWorkspaceSignal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal#name NgwafWorkspaceSignal#name}
   */
   readonly name: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal#workspace_id NgwafWorkspaceSignal#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal#workspace_id NgwafWorkspaceSignal#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal fastly_ngwaf_workspace_signal}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal fastly_ngwaf_workspace_signal}
 */
 export class NgwafWorkspaceSignal extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NgwafWorkspaceSignal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafWorkspaceSignal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafWorkspaceSignal to import
-  * @param importFromId The id of the existing NgwafWorkspaceSignal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafWorkspaceSignal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafWorkspaceSignal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NgwafWorkspaceSignal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_workspace_signal fastly_ngwaf_workspace_signal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_workspace_signal fastly_ngwaf_workspace_signal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class NgwafWorkspaceSignal extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_workspace_signal',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

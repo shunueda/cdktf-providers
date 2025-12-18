@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseExascaleDbStorageVaultsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes}
   */
   readonly attachedShapeAttributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes_not_equal_to DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes_not_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes_not_equal_to DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes_not_equal_to}
   */
   readonly attachedShapeAttributesNotEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#cluster_placement_group_id DataOciDatabaseExascaleDbStorageVaults#cluster_placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#cluster_placement_group_id DataOciDatabaseExascaleDbStorageVaults#cluster_placement_group_id}
   */
   readonly clusterPlacementGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#compartment_id DataOciDatabaseExascaleDbStorageVaults#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#compartment_id DataOciDatabaseExascaleDbStorageVaults#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#display_name DataOciDatabaseExascaleDbStorageVaults#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#display_name DataOciDatabaseExascaleDbStorageVaults#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#exadata_infrastructure_id DataOciDatabaseExascaleDbStorageVaults#exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#exadata_infrastructure_id DataOciDatabaseExascaleDbStorageVaults#exadata_infrastructure_id}
   */
   readonly exadataInfrastructureId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#id DataOciDatabaseExascaleDbStorageVaults#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#id DataOciDatabaseExascaleDbStorageVaults#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#state DataOciDatabaseExascaleDbStorageVaults#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#state DataOciDatabaseExascaleDbStorageVaults#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_greater_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_greater_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_greater_than_or_equal_to}
   */
   readonly vmClusterCountGreaterThanOrEqualTo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_less_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_less_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_less_than_or_equal_to}
   */
   readonly vmClusterCountLessThanOrEqualTo?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#filter DataOciDatabaseExascaleDbStorageVaults#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#filter DataOciDatabaseExascaleDbStorageVaults#filter}
   */
   readonly filter?: DataOciDatabaseExascaleDbStorageVaultsFilter[] | cdktf.IResolvable;
 }
@@ -323,15 +323,15 @@ export class DataOciDatabaseExascaleDbStorageVaultsExascaleDbStorageVaultsList e
 }
 export interface DataOciDatabaseExascaleDbStorageVaultsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#name DataOciDatabaseExascaleDbStorageVaults#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#name DataOciDatabaseExascaleDbStorageVaults#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#regex DataOciDatabaseExascaleDbStorageVaults#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#regex DataOciDatabaseExascaleDbStorageVaults#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#values DataOciDatabaseExascaleDbStorageVaults#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#values DataOciDatabaseExascaleDbStorageVaults#values}
   */
   readonly values: string[];
 }
@@ -499,7 +499,7 @@ export class DataOciDatabaseExascaleDbStorageVaultsFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults oci_database_exascale_db_storage_vaults}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults oci_database_exascale_db_storage_vaults}
 */
 export class DataOciDatabaseExascaleDbStorageVaults extends cdktf.TerraformDataSource {
 
@@ -515,7 +515,7 @@ export class DataOciDatabaseExascaleDbStorageVaults extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciDatabaseExascaleDbStorageVaults resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseExascaleDbStorageVaults to import
-  * @param importFromId The id of the existing DataOciDatabaseExascaleDbStorageVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseExascaleDbStorageVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseExascaleDbStorageVaults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class DataOciDatabaseExascaleDbStorageVaults extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_exascale_db_storage_vaults oci_database_exascale_db_storage_vaults} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_exascale_db_storage_vaults oci_database_exascale_db_storage_vaults} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class DataOciDatabaseExascaleDbStorageVaults extends cdktf.TerraformDataS
       terraformResourceType: 'oci_database_exascale_db_storage_vaults',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

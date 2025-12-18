@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ObservabilityAlertgroupConfig extends cdktf.TerraformMetaArgume
   /**
   * Observability instance ID to which the alert group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#instance_id ObservabilityAlertgroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#instance_id ObservabilityAlertgroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * Specifies the frequency at which rules within the group are evaluated. The interval must be at least 60 seconds and defaults to 60 seconds if not set. Supported formats include hours, minutes, and seconds, either singly or in combination. Examples of valid formats are: '5h30m40s', '5h', '5h30m', '60m', and '60s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#interval ObservabilityAlertgroup#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#interval ObservabilityAlertgroup#interval}
   */
   readonly interval?: string;
   /**
   * The name of the alert group. Is the identifier and must be unique in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#name ObservabilityAlertgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#name ObservabilityAlertgroup#name}
   */
   readonly name: string;
   /**
   * STACKIT project ID to which the alert group is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#project_id ObservabilityAlertgroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#project_id ObservabilityAlertgroup#project_id}
   */
   readonly projectId: string;
   /**
   * Rules for the alert group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#rules ObservabilityAlertgroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#rules ObservabilityAlertgroup#rules}
   */
   readonly rules: ObservabilityAlertgroupRules[] | cdktf.IResolvable;
 }
@@ -42,31 +42,31 @@ export interface ObservabilityAlertgroupRules {
   /**
   * The name of the alert rule. Is the identifier and must be unique in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#alert ObservabilityAlertgroup#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#alert ObservabilityAlertgroup#alert}
   */
   readonly alert: string;
   /**
   * A map of key:value. Annotations to add or overwrite for each alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#annotations ObservabilityAlertgroup#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#annotations ObservabilityAlertgroup#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The PromQL expression to evaluate. Every evaluation cycle this is evaluated at the current time, and all resultant time series become pending/firing alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#expression ObservabilityAlertgroup#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#expression ObservabilityAlertgroup#expression}
   */
   readonly expression: string;
   /**
   * Alerts are considered firing once they have been returned for this long. Alerts which have not yet fired for long enough are considered pending. Default is 0s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#for ObservabilityAlertgroup#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#for ObservabilityAlertgroup#for}
   */
   readonly for?: string;
   /**
   * A map of key:value. Labels to add or overwrite for each alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#labels ObservabilityAlertgroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#labels ObservabilityAlertgroup#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -292,7 +292,7 @@ export class ObservabilityAlertgroupRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup stackit_observability_alertgroup}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup stackit_observability_alertgroup}
 */
 export class ObservabilityAlertgroup extends cdktf.TerraformResource {
 
@@ -308,7 +308,7 @@ export class ObservabilityAlertgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityAlertgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityAlertgroup to import
-  * @param importFromId The id of the existing ObservabilityAlertgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityAlertgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityAlertgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -320,7 +320,7 @@ export class ObservabilityAlertgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/resources/observability_alertgroup stackit_observability_alertgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/resources/observability_alertgroup stackit_observability_alertgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -331,8 +331,8 @@ export class ObservabilityAlertgroup extends cdktf.TerraformResource {
       terraformResourceType: 'stackit_observability_alertgroup',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

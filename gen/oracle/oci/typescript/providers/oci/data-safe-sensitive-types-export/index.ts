@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSensitiveTypesExportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#compartment_id DataSafeSensitiveTypesExport#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#compartment_id DataSafeSensitiveTypesExport#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#defined_tags DataSafeSensitiveTypesExport#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#defined_tags DataSafeSensitiveTypesExport#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#description DataSafeSensitiveTypesExport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#description DataSafeSensitiveTypesExport#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#display_name DataSafeSensitiveTypesExport#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#display_name DataSafeSensitiveTypesExport#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#freeform_tags DataSafeSensitiveTypesExport#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#freeform_tags DataSafeSensitiveTypesExport#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#id DataSafeSensitiveTypesExport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#id DataSafeSensitiveTypesExport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#is_include_all_sensitive_types DataSafeSensitiveTypesExport#is_include_all_sensitive_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#is_include_all_sensitive_types DataSafeSensitiveTypesExport#is_include_all_sensitive_types}
   */
   readonly isIncludeAllSensitiveTypes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#sensitive_type_ids_for_export DataSafeSensitiveTypesExport#sensitive_type_ids_for_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#sensitive_type_ids_for_export DataSafeSensitiveTypesExport#sensitive_type_ids_for_export}
   */
   readonly sensitiveTypeIdsForExport?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#timeouts DataSafeSensitiveTypesExport#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#timeouts DataSafeSensitiveTypesExport#timeouts}
   */
   readonly timeouts?: DataSafeSensitiveTypesExportTimeouts;
 }
 export interface DataSafeSensitiveTypesExportTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#create DataSafeSensitiveTypesExport#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#create DataSafeSensitiveTypesExport#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#delete DataSafeSensitiveTypesExport#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#delete DataSafeSensitiveTypesExport#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#update DataSafeSensitiveTypesExport#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#update DataSafeSensitiveTypesExport#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class DataSafeSensitiveTypesExportTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export oci_data_safe_sensitive_types_export}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export oci_data_safe_sensitive_types_export}
 */
 export class DataSafeSensitiveTypesExport extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DataSafeSensitiveTypesExport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeSensitiveTypesExport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSensitiveTypesExport to import
-  * @param importFromId The id of the existing DataSafeSensitiveTypesExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSensitiveTypesExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSensitiveTypesExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DataSafeSensitiveTypesExport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_types_export oci_data_safe_sensitive_types_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_types_export oci_data_safe_sensitive_types_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DataSafeSensitiveTypesExport extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_sensitive_types_export',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

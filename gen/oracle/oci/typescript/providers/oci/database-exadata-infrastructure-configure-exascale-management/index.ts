@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExadataInfrastructureConfigureExascaleManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#exadata_infrastructure_id DatabaseExadataInfrastructureConfigureExascaleManagement#exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#exadata_infrastructure_id DatabaseExadataInfrastructureConfigureExascaleManagement#exadata_infrastructure_id}
   */
   readonly exadataInfrastructureId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#id DatabaseExadataInfrastructureConfigureExascaleManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#id DatabaseExadataInfrastructureConfigureExascaleManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_storage_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_storage_in_gbs}
   */
   readonly totalStorageInGbs: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#timeouts DatabaseExadataInfrastructureConfigureExascaleManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#timeouts DatabaseExadataInfrastructureConfigureExascaleManagement#timeouts}
   */
   readonly timeouts?: DatabaseExadataInfrastructureConfigureExascaleManagementTimeouts;
 }
@@ -659,15 +659,15 @@ export class DatabaseExadataInfrastructureConfigureExascaleManagementNetworkBond
 }
 export interface DatabaseExadataInfrastructureConfigureExascaleManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#create DatabaseExadataInfrastructureConfigureExascaleManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#create DatabaseExadataInfrastructureConfigureExascaleManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#delete DatabaseExadataInfrastructureConfigureExascaleManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#delete DatabaseExadataInfrastructureConfigureExascaleManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#update DatabaseExadataInfrastructureConfigureExascaleManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#update DatabaseExadataInfrastructureConfigureExascaleManagement#update}
   */
   readonly update?: string;
 }
@@ -819,7 +819,7 @@ export class DatabaseExadataInfrastructureConfigureExascaleManagementTimeoutsOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management oci_database_exadata_infrastructure_configure_exascale_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management oci_database_exadata_infrastructure_configure_exascale_management}
 */
 export class DatabaseExadataInfrastructureConfigureExascaleManagement extends cdktf.TerraformResource {
 
@@ -835,7 +835,7 @@ export class DatabaseExadataInfrastructureConfigureExascaleManagement extends cd
   * Generates CDKTF code for importing a DatabaseExadataInfrastructureConfigureExascaleManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExadataInfrastructureConfigureExascaleManagement to import
-  * @param importFromId The id of the existing DatabaseExadataInfrastructureConfigureExascaleManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExadataInfrastructureConfigureExascaleManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExadataInfrastructureConfigureExascaleManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -847,7 +847,7 @@ export class DatabaseExadataInfrastructureConfigureExascaleManagement extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_exadata_infrastructure_configure_exascale_management oci_database_exadata_infrastructure_configure_exascale_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_exadata_infrastructure_configure_exascale_management oci_database_exadata_infrastructure_configure_exascale_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -858,8 +858,8 @@ export class DatabaseExadataInfrastructureConfigureExascaleManagement extends cd
       terraformResourceType: 'oci_database_exadata_infrastructure_configure_exascale_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

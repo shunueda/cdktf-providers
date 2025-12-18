@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BlockStorageSnapshotsConfig extends cdktf.TerraformMetaArgument
   /**
   * The description of the volume snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots#description BlockStorageSnapshots#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots#description BlockStorageSnapshots#description}
   */
   readonly description: string;
   /**
   * The name of the volume snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots#name BlockStorageSnapshots#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots#name BlockStorageSnapshots#name}
   */
   readonly name: string;
   /**
   * The ID of the snapshot source, for creating a snapshot object from a snaphot instant. Is required when volume ID is not set and both volume ID and snapshot source ID cannot be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots#snapshot_source_id BlockStorageSnapshots#snapshot_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots#snapshot_source_id BlockStorageSnapshots#snapshot_source_id}
   */
   readonly snapshotSourceId?: string;
   /**
   * The type of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots#type BlockStorageSnapshots#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots#type BlockStorageSnapshots#type}
   */
   readonly type?: string;
   /**
   * ID of block storage volume. Is required when snapshot source is not set and both volume ID and snapshot source ID cannot be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots#volume_id BlockStorageSnapshots#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots#volume_id BlockStorageSnapshots#volume_id}
   */
   readonly volumeId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots mgc_block_storage_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots mgc_block_storage_snapshots}
 */
 export class BlockStorageSnapshots extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class BlockStorageSnapshots extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorageSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorageSnapshots to import
-  * @param importFromId The id of the existing BlockStorageSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorageSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorageSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class BlockStorageSnapshots extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/block_storage_snapshots mgc_block_storage_snapshots} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/block_storage_snapshots mgc_block_storage_snapshots} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class BlockStorageSnapshots extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_block_storage_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

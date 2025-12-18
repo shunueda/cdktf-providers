@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/component_type
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/component_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelComponentTypeConfig extends cdktf.TerraformMetaArgu
   /**
   * The identifier (id or alias) of the component type to lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/component_type#identifier DataOpslevelComponentType#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/component_type#identifier DataOpslevelComponentType#identifier}
   */
   readonly identifier: string;
 }
@@ -343,7 +343,7 @@ export class DataOpslevelComponentTypePropertiesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/component_type opslevel_component_type}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/component_type opslevel_component_type}
 */
 export class DataOpslevelComponentType extends cdktf.TerraformDataSource {
 
@@ -359,7 +359,7 @@ export class DataOpslevelComponentType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOpslevelComponentType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelComponentType to import
-  * @param importFromId The id of the existing DataOpslevelComponentType that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/component_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelComponentType that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/component_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelComponentType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -371,7 +371,7 @@ export class DataOpslevelComponentType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/component_type opslevel_component_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/component_type opslevel_component_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -382,8 +382,8 @@ export class DataOpslevelComponentType extends cdktf.TerraformDataSource {
       terraformResourceType: 'opslevel_component_type',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

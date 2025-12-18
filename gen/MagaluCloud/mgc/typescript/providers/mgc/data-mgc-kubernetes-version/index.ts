@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/kubernetes_version
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/kubernetes_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -90,7 +90,7 @@ export class DataMgcKubernetesVersionVersionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/kubernetes_version mgc_kubernetes_version}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/kubernetes_version mgc_kubernetes_version}
 */
 export class DataMgcKubernetesVersion extends cdktf.TerraformDataSource {
 
@@ -106,7 +106,7 @@ export class DataMgcKubernetesVersion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMgcKubernetesVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMgcKubernetesVersion to import
-  * @param importFromId The id of the existing DataMgcKubernetesVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/kubernetes_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMgcKubernetesVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/kubernetes_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMgcKubernetesVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -118,7 +118,7 @@ export class DataMgcKubernetesVersion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/data-sources/kubernetes_version mgc_kubernetes_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/data-sources/kubernetes_version mgc_kubernetes_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -129,8 +129,8 @@ export class DataMgcKubernetesVersion extends cdktf.TerraformDataSource {
       terraformResourceType: 'mgc_kubernetes_version',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

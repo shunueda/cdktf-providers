@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ManagementAgentNamedCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#defined_tags ManagementAgentNamedCredential#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#defined_tags ManagementAgentNamedCredential#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#description ManagementAgentNamedCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#description ManagementAgentNamedCredential#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#freeform_tags ManagementAgentNamedCredential#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#freeform_tags ManagementAgentNamedCredential#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#id ManagementAgentNamedCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#id ManagementAgentNamedCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#management_agent_id ManagementAgentNamedCredential#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#management_agent_id ManagementAgentNamedCredential#management_agent_id}
   */
   readonly managementAgentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#type ManagementAgentNamedCredential#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#type ManagementAgentNamedCredential#type}
   */
   readonly type: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#properties ManagementAgentNamedCredential#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#properties ManagementAgentNamedCredential#properties}
   */
   readonly properties: ManagementAgentNamedCredentialProperties[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#timeouts ManagementAgentNamedCredential#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#timeouts ManagementAgentNamedCredential#timeouts}
   */
   readonly timeouts?: ManagementAgentNamedCredentialTimeouts;
 }
 export interface ManagementAgentNamedCredentialProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}
   */
   readonly valueCategory: string;
 }
@@ -226,15 +226,15 @@ export class ManagementAgentNamedCredentialPropertiesList extends cdktf.ComplexL
 }
 export interface ManagementAgentNamedCredentialTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#create ManagementAgentNamedCredential#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#create ManagementAgentNamedCredential#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#delete ManagementAgentNamedCredential#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#delete ManagementAgentNamedCredential#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#update ManagementAgentNamedCredential#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#update ManagementAgentNamedCredential#update}
   */
   readonly update?: string;
 }
@@ -386,7 +386,7 @@ export class ManagementAgentNamedCredentialTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential oci_management_agent_named_credential}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential oci_management_agent_named_credential}
 */
 export class ManagementAgentNamedCredential extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class ManagementAgentNamedCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagementAgentNamedCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagementAgentNamedCredential to import
-  * @param importFromId The id of the existing ManagementAgentNamedCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagementAgentNamedCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagementAgentNamedCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class ManagementAgentNamedCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/management_agent_named_credential oci_management_agent_named_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/management_agent_named_credential oci_management_agent_named_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class ManagementAgentNamedCredential extends cdktf.TerraformResource {
       terraformResourceType: 'oci_management_agent_named_credential',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

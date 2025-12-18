@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface AiDocumentModelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#compartment_id AiDocumentModel#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#compartment_id AiDocumentModel#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#defined_tags AiDocumentModel#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#defined_tags AiDocumentModel#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#description AiDocumentModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#description AiDocumentModel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#display_name AiDocumentModel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#display_name AiDocumentModel#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#freeform_tags AiDocumentModel#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#freeform_tags AiDocumentModel#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#id AiDocumentModel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#id AiDocumentModel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#inference_units AiDocumentModel#inference_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#inference_units AiDocumentModel#inference_units}
   */
   readonly inferenceUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#is_quick_mode AiDocumentModel#is_quick_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#is_quick_mode AiDocumentModel#is_quick_mode}
   */
   readonly isQuickMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#language AiDocumentModel#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#language AiDocumentModel#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#max_training_time_in_hours AiDocumentModel#max_training_time_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#max_training_time_in_hours AiDocumentModel#max_training_time_in_hours}
   */
   readonly maxTrainingTimeInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}
   */
   readonly modelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_version AiDocumentModel#model_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_version AiDocumentModel#model_version}
   */
   readonly modelVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#project_id AiDocumentModel#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#project_id AiDocumentModel#project_id}
   */
   readonly projectId: string;
   /**
   * component_models block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#component_models AiDocumentModel#component_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#component_models AiDocumentModel#component_models}
   */
   readonly componentModels?: AiDocumentModelComponentModels[] | cdktf.IResolvable;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#locks AiDocumentModel#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#locks AiDocumentModel#locks}
   */
   readonly locks?: AiDocumentModelLocks[] | cdktf.IResolvable;
   /**
   * model_sub_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}
   */
   readonly modelSubType?: AiDocumentModelModelSubType;
   /**
   * testing_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#testing_dataset AiDocumentModel#testing_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#testing_dataset AiDocumentModel#testing_dataset}
   */
   readonly testingDataset?: AiDocumentModelTestingDataset;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#timeouts AiDocumentModel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#timeouts AiDocumentModel#timeouts}
   */
   readonly timeouts?: AiDocumentModelTimeouts;
   /**
   * training_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#training_dataset AiDocumentModel#training_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#training_dataset AiDocumentModel#training_dataset}
   */
   readonly trainingDataset?: AiDocumentModelTrainingDataset;
   /**
   * validation_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#validation_dataset AiDocumentModel#validation_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#validation_dataset AiDocumentModel#validation_dataset}
   */
   readonly validationDataset?: AiDocumentModelValidationDataset;
 }
@@ -656,7 +656,7 @@ export class AiDocumentModelMetricsList extends cdktf.ComplexList {
 }
 export interface AiDocumentModelComponentModels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_id AiDocumentModel#model_id}
   */
   readonly modelId?: string;
 }
@@ -772,23 +772,23 @@ export class AiDocumentModelComponentModelsList extends cdktf.ComplexList {
 }
 export interface AiDocumentModelLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#compartment_id AiDocumentModel#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#compartment_id AiDocumentModel#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#message AiDocumentModel#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#message AiDocumentModel#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#related_resource_id AiDocumentModel#related_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#related_resource_id AiDocumentModel#related_resource_id}
   */
   readonly relatedResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#time_created AiDocumentModel#time_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#time_created AiDocumentModel#time_created}
   */
   readonly timeCreated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#type AiDocumentModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#type AiDocumentModel#type}
   */
   readonly type: string;
 }
@@ -1017,11 +1017,11 @@ export class AiDocumentModelLocksList extends cdktf.ComplexList {
 }
 export interface AiDocumentModelModelSubType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_sub_type AiDocumentModel#model_sub_type}
   */
   readonly modelSubType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#model_type AiDocumentModel#model_type}
   */
   readonly modelType: string;
 }
@@ -1128,23 +1128,23 @@ export class AiDocumentModelModelSubTypeOutputReference extends cdktf.ComplexObj
 }
 export interface AiDocumentModelTestingDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}
   */
   readonly datasetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}
   */
   readonly datasetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#object AiDocumentModel#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#object AiDocumentModel#object}
   */
   readonly object?: string;
 }
@@ -1341,15 +1341,15 @@ export class AiDocumentModelTestingDatasetOutputReference extends cdktf.ComplexO
 }
 export interface AiDocumentModelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#create AiDocumentModel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#create AiDocumentModel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#delete AiDocumentModel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#delete AiDocumentModel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#update AiDocumentModel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#update AiDocumentModel#update}
   */
   readonly update?: string;
 }
@@ -1501,23 +1501,23 @@ export class AiDocumentModelTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 export interface AiDocumentModelTrainingDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}
   */
   readonly datasetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}
   */
   readonly datasetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#object AiDocumentModel#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#object AiDocumentModel#object}
   */
   readonly object?: string;
 }
@@ -1714,23 +1714,23 @@ export class AiDocumentModelTrainingDatasetOutputReference extends cdktf.Complex
 }
 export interface AiDocumentModelValidationDataset {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}
   */
   readonly datasetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}
   */
   readonly datasetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#object AiDocumentModel#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#object AiDocumentModel#object}
   */
   readonly object?: string;
 }
@@ -1927,7 +1927,7 @@ export class AiDocumentModelValidationDatasetOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model oci_ai_document_model}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model oci_ai_document_model}
 */
 export class AiDocumentModel extends cdktf.TerraformResource {
 
@@ -1943,7 +1943,7 @@ export class AiDocumentModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiDocumentModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiDocumentModel to import
-  * @param importFromId The id of the existing AiDocumentModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiDocumentModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiDocumentModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1955,7 +1955,7 @@ export class AiDocumentModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_document_model oci_ai_document_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/ai_document_model oci_ai_document_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1966,8 +1966,8 @@ export class AiDocumentModel extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_document_model',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

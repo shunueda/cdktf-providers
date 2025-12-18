@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CheckCustomEventConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#category CheckCustomEvent#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#category CheckCustomEvent#category}
   */
   readonly category: string;
   /**
@@ -19,79 +19,79 @@ export interface CheckCustomEventConfig extends cdktf.TerraformMetaArguments {
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#enable_on CheckCustomEvent#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#enable_on CheckCustomEvent#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#enabled CheckCustomEvent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#enabled CheckCustomEvent#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#filter CheckCustomEvent#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#filter CheckCustomEvent#filter}
   */
   readonly filter?: string;
   /**
   * The integration id this check will use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#integration CheckCustomEvent#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#integration CheckCustomEvent#integration}
   */
   readonly integration: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#level CheckCustomEvent#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#level CheckCustomEvent#level}
   */
   readonly level: string;
   /**
   * The check result message template. It is compiled with Liquid and formatted in Markdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#message CheckCustomEvent#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#message CheckCustomEvent#message}
   */
   readonly message?: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#name CheckCustomEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#name CheckCustomEvent#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#notes CheckCustomEvent#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#notes CheckCustomEvent#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#owner CheckCustomEvent#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#owner CheckCustomEvent#owner}
   */
   readonly owner?: string;
   /**
   * True if this check should pass by default. Otherwise the default 'pending' state counts as a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#pass_pending CheckCustomEvent#pass_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#pass_pending CheckCustomEvent#pass_pending}
   */
   readonly passPending: boolean | cdktf.IResolvable;
   /**
   * A jq expression that will be ran against your payload. This will parse out the service identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#service_selector CheckCustomEvent#service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#service_selector CheckCustomEvent#service_selector}
   */
   readonly serviceSelector: string;
   /**
   * A jq expression that will be ran against your payload. A truthy value will result in the check passing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#success_condition CheckCustomEvent#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#success_condition CheckCustomEvent#success_condition}
   */
   readonly successCondition: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event opslevel_check_custom_event}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event opslevel_check_custom_event}
 */
 export class CheckCustomEvent extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class CheckCustomEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckCustomEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckCustomEvent to import
-  * @param importFromId The id of the existing CheckCustomEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckCustomEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckCustomEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class CheckCustomEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_custom_event opslevel_check_custom_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_custom_event opslevel_check_custom_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,8 +130,8 @@ export class CheckCustomEvent extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_custom_event',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

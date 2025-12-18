@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_folder
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataintegrationWorkspaceFolderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_folder#folder_key DataOciDataintegrationWorkspaceFolder#folder_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_folder#folder_key DataOciDataintegrationWorkspaceFolder#folder_key}
   */
   readonly folderKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_folder#workspace_id DataOciDataintegrationWorkspaceFolder#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_folder#workspace_id DataOciDataintegrationWorkspaceFolder#workspace_id}
   */
   readonly workspaceId: string;
 }
@@ -587,7 +587,7 @@ export class DataOciDataintegrationWorkspaceFolderRegistryMetadataList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_folder oci_dataintegration_workspace_folder}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_folder oci_dataintegration_workspace_folder}
 */
 export class DataOciDataintegrationWorkspaceFolder extends cdktf.TerraformDataSource {
 
@@ -603,7 +603,7 @@ export class DataOciDataintegrationWorkspaceFolder extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciDataintegrationWorkspaceFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataintegrationWorkspaceFolder to import
-  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataintegrationWorkspaceFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -615,7 +615,7 @@ export class DataOciDataintegrationWorkspaceFolder extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_folder oci_dataintegration_workspace_folder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_folder oci_dataintegration_workspace_folder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -626,8 +626,8 @@ export class DataOciDataintegrationWorkspaceFolder extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_dataintegration_workspace_folder',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

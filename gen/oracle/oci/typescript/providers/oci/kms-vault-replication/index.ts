@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface KmsVaultReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#id KmsVaultReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#id KmsVaultReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#replica_region KmsVaultReplication#replica_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#replica_region KmsVaultReplication#replica_region}
   */
   readonly replicaRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#vault_id KmsVaultReplication#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#vault_id KmsVaultReplication#vault_id}
   */
   readonly vaultId: string;
   /**
   * replica_vault_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#replica_vault_metadata KmsVaultReplication#replica_vault_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#replica_vault_metadata KmsVaultReplication#replica_vault_metadata}
   */
   readonly replicaVaultMetadata?: KmsVaultReplicationReplicaVaultMetadata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#timeouts KmsVaultReplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#timeouts KmsVaultReplication#timeouts}
   */
   readonly timeouts?: KmsVaultReplicationTimeouts;
 }
 export interface KmsVaultReplicationReplicaVaultMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#idcs_account_name_url KmsVaultReplication#idcs_account_name_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#idcs_account_name_url KmsVaultReplication#idcs_account_name_url}
   */
   readonly idcsAccountNameUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#private_endpoint_id KmsVaultReplication#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#private_endpoint_id KmsVaultReplication#private_endpoint_id}
   */
   readonly privateEndpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#vault_type KmsVaultReplication#vault_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#vault_type KmsVaultReplication#vault_type}
   */
   readonly vaultType: string;
 }
@@ -178,15 +178,15 @@ export class KmsVaultReplicationReplicaVaultMetadataOutputReference extends cdkt
 }
 export interface KmsVaultReplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#create KmsVaultReplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#create KmsVaultReplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#delete KmsVaultReplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#delete KmsVaultReplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#update KmsVaultReplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#update KmsVaultReplication#update}
   */
   readonly update?: string;
 }
@@ -338,7 +338,7 @@ export class KmsVaultReplicationTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication oci_kms_vault_replication}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication oci_kms_vault_replication}
 */
 export class KmsVaultReplication extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class KmsVaultReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsVaultReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsVaultReplication to import
-  * @param importFromId The id of the existing KmsVaultReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsVaultReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsVaultReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class KmsVaultReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/kms_vault_replication oci_kms_vault_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/kms_vault_replication oci_kms_vault_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class KmsVaultReplication extends cdktf.TerraformResource {
       terraformResourceType: 'oci_kms_vault_replication',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

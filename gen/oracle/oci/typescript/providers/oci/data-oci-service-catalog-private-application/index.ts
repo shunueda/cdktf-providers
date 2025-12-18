@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_private_application
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/service_catalog_private_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciServiceCatalogPrivateApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}
   */
   readonly privateApplicationId: string;
 }
@@ -184,7 +184,7 @@ export class DataOciServiceCatalogPrivateApplicationPackageDetailsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_private_application oci_service_catalog_private_application}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/service_catalog_private_application oci_service_catalog_private_application}
 */
 export class DataOciServiceCatalogPrivateApplication extends cdktf.TerraformDataSource {
 
@@ -200,7 +200,7 @@ export class DataOciServiceCatalogPrivateApplication extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciServiceCatalogPrivateApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciServiceCatalogPrivateApplication to import
-  * @param importFromId The id of the existing DataOciServiceCatalogPrivateApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_private_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciServiceCatalogPrivateApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/service_catalog_private_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciServiceCatalogPrivateApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class DataOciServiceCatalogPrivateApplication extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_private_application oci_service_catalog_private_application} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/service_catalog_private_application oci_service_catalog_private_application} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class DataOciServiceCatalogPrivateApplication extends cdktf.TerraformData
       terraformResourceType: 'oci_service_catalog_private_application',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

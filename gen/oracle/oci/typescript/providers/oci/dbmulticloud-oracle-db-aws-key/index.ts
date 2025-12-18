@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface DbmulticloudOracleDbAwsKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#aws_account_id DbmulticloudOracleDbAwsKey#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#aws_account_id DbmulticloudOracleDbAwsKey#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#aws_key_arn DbmulticloudOracleDbAwsKey#aws_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#aws_key_arn DbmulticloudOracleDbAwsKey#aws_key_arn}
   */
   readonly awsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#compartment_id DbmulticloudOracleDbAwsKey#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#compartment_id DbmulticloudOracleDbAwsKey#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#defined_tags DbmulticloudOracleDbAwsKey#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#defined_tags DbmulticloudOracleDbAwsKey#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#display_name DbmulticloudOracleDbAwsKey#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#display_name DbmulticloudOracleDbAwsKey#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#freeform_tags DbmulticloudOracleDbAwsKey#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#freeform_tags DbmulticloudOracleDbAwsKey#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#id DbmulticloudOracleDbAwsKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#id DbmulticloudOracleDbAwsKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#is_aws_key_enabled DbmulticloudOracleDbAwsKey#is_aws_key_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#is_aws_key_enabled DbmulticloudOracleDbAwsKey#is_aws_key_enabled}
   */
   readonly isAwsKeyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#location DbmulticloudOracleDbAwsKey#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#location DbmulticloudOracleDbAwsKey#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#oracle_db_connector_id DbmulticloudOracleDbAwsKey#oracle_db_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#oracle_db_connector_id DbmulticloudOracleDbAwsKey#oracle_db_connector_id}
   */
   readonly oracleDbConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#properties DbmulticloudOracleDbAwsKey#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#properties DbmulticloudOracleDbAwsKey#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#type DbmulticloudOracleDbAwsKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#type DbmulticloudOracleDbAwsKey#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#timeouts DbmulticloudOracleDbAwsKey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#timeouts DbmulticloudOracleDbAwsKey#timeouts}
   */
   readonly timeouts?: DbmulticloudOracleDbAwsKeyTimeouts;
 }
 export interface DbmulticloudOracleDbAwsKeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#create DbmulticloudOracleDbAwsKey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#create DbmulticloudOracleDbAwsKey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#delete DbmulticloudOracleDbAwsKey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#delete DbmulticloudOracleDbAwsKey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#update DbmulticloudOracleDbAwsKey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#update DbmulticloudOracleDbAwsKey#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class DbmulticloudOracleDbAwsKeyTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key oci_dbmulticloud_oracle_db_aws_key}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key oci_dbmulticloud_oracle_db_aws_key}
 */
 export class DbmulticloudOracleDbAwsKey extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class DbmulticloudOracleDbAwsKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbmulticloudOracleDbAwsKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbmulticloudOracleDbAwsKey to import
-  * @param importFromId The id of the existing DbmulticloudOracleDbAwsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbmulticloudOracleDbAwsKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbmulticloudOracleDbAwsKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DbmulticloudOracleDbAwsKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_aws_key oci_dbmulticloud_oracle_db_aws_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/dbmulticloud_oracle_db_aws_key oci_dbmulticloud_oracle_db_aws_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DbmulticloudOracleDbAwsKey extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dbmulticloud_oracle_db_aws_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

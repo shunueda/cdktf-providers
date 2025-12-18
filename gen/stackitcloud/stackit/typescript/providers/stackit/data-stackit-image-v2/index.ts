@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2
+// https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,43 @@ export interface DataStackitImageV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Additional filtering options based on image properties. Can be used independently or in conjunction with `name` or `name_regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#filter DataStackitImageV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#filter DataStackitImageV2#filter}
   */
   readonly filter?: DataStackitImageV2Filter;
   /**
   * Image ID to fetch directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#image_id DataStackitImageV2#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#image_id DataStackitImageV2#image_id}
   */
   readonly imageId?: string;
   /**
   * Exact image name to match. Optionally applies a `filter` block to further refine results in case multiple images share the same name. The first match is returned, optionally sorted by name in ascending order. Cannot be used together with `name_regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#name DataStackitImageV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#name DataStackitImageV2#name}
   */
   readonly name?: string;
   /**
   * Regular expression to match against image names. Optionally applies a `filter` block to narrow down results when multiple image names match the regex. The first match is returned, optionally sorted by name in ascending order. Cannot be used together with `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#name_regex DataStackitImageV2#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#name_regex DataStackitImageV2#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * STACKIT project ID to which the image is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#project_id DataStackitImageV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#project_id DataStackitImageV2#project_id}
   */
   readonly projectId: string;
   /**
+  * The resource region. If not defined, the provider region is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#region DataStackitImageV2#region}
+  */
+  readonly region?: string;
+  /**
   * If set to `true`, images are sorted in ascending lexicographical order by image name (such as `Ubuntu 18.04`, `Ubuntu 20.04`, `Ubuntu 22.04`) before selecting the first match. Defaults to `false` (descending such as `Ubuntu 22.04`, `Ubuntu 20.04`, `Ubuntu 18.04`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#sort_ascending DataStackitImageV2#sort_ascending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#sort_ascending DataStackitImageV2#sort_ascending}
   */
   readonly sortAscending?: boolean | cdktf.IResolvable;
 }
@@ -221,31 +227,31 @@ export interface DataStackitImageV2Filter {
   /**
   * Filter images by operating system distribution. For example: `ubuntu`, `ubuntu-arm64`, `debian`, `rhel`, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#distro DataStackitImageV2#distro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#distro DataStackitImageV2#distro}
   */
   readonly distro?: string;
   /**
   * Filter images by operating system type, such as `linux` or `windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#os DataStackitImageV2#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#os DataStackitImageV2#os}
   */
   readonly os?: string;
   /**
   * Filter images with Secure Boot support. Set to `true` to match images that support Secure Boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#secure_boot DataStackitImageV2#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#secure_boot DataStackitImageV2#secure_boot}
   */
   readonly secureBoot?: boolean | cdktf.IResolvable;
   /**
   * Filter images based on UEFI support. Set to `true` to match images that support UEFI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#uefi DataStackitImageV2#uefi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#uefi DataStackitImageV2#uefi}
   */
   readonly uefi?: boolean | cdktf.IResolvable;
   /**
   * Filter images by OS distribution version, such as `22.04`, `11`, or `9.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#version DataStackitImageV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#version DataStackitImageV2#version}
   */
   readonly version?: string;
 }
@@ -455,7 +461,7 @@ export class DataStackitImageV2FilterOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2 stackit_image_v2}
+* Represents a {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2 stackit_image_v2}
 */
 export class DataStackitImageV2 extends cdktf.TerraformDataSource {
 
@@ -471,7 +477,7 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStackitImageV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStackitImageV2 to import
-  * @param importFromId The id of the existing DataStackitImageV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStackitImageV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStackitImageV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -483,7 +489,7 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.74.0/docs/data-sources/image_v2 stackit_image_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stackitcloud/stackit/0.75.0/docs/data-sources/image_v2 stackit_image_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -494,8 +500,8 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'stackit_image_v2',
       terraformGeneratorMetadata: {
         providerName: 'stackit',
-        providerVersion: '0.74.0',
-        providerVersionConstraint: '0.74.0'
+        providerVersion: '0.75.0',
+        providerVersionConstraint: '0.75.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -510,6 +516,7 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
     this._name = config.name;
     this._nameRegex = config.nameRegex;
     this._projectId = config.projectId;
+    this._region = config.region;
     this._sortAscending = config.sortAscending;
   }
 
@@ -637,6 +644,22 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
     return this.getBooleanAttribute('protected');
   }
 
+  // region - computed: false, optional: true, required: false
+  private _region?: string; 
+  public get region() {
+    return this.getStringAttribute('region');
+  }
+  public set region(value: string) {
+    this._region = value;
+  }
+  public resetRegion() {
+    this._region = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionInput() {
+    return this._region;
+  }
+
   // scope - computed: true, optional: false, required: false
   public get scope() {
     return this.getStringAttribute('scope');
@@ -669,6 +692,7 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
       name: cdktf.stringToTerraform(this._name),
       name_regex: cdktf.stringToTerraform(this._nameRegex),
       project_id: cdktf.stringToTerraform(this._projectId),
+      region: cdktf.stringToTerraform(this._region),
       sort_ascending: cdktf.booleanToTerraform(this._sortAscending),
     };
   }
@@ -701,6 +725,12 @@ export class DataStackitImageV2 extends cdktf.TerraformDataSource {
       },
       project_id: {
         value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

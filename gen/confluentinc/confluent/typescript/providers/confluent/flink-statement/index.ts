@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface FlinkStatementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#id FlinkStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#id FlinkStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#properties FlinkStatement#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#properties FlinkStatement#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#properties_sensitive FlinkStatement#properties_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#properties_sensitive FlinkStatement#properties_sensitive}
   */
   readonly propertiesSensitive?: { [key: string]: string };
   /**
   * The REST endpoint of the Flink Compute Pool cluster, for example, `https://flink.us-east-1.aws.confluent.cloud/sql/v1/organizations/1111aaaa-11aa-11aa-11aa-111111aaaaaa/environments/env-abc123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#rest_endpoint FlinkStatement#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#rest_endpoint FlinkStatement#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * The raw SQL text of the Statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#statement FlinkStatement#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#statement FlinkStatement#statement}
   */
   readonly statement: string;
   /**
   * The unique identifier of the Statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#statement_name FlinkStatement#statement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#statement_name FlinkStatement#statement_name}
   */
   readonly statementName?: string;
   /**
   * Indicates whether the statement should be stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#stopped FlinkStatement#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#stopped FlinkStatement#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
   /**
   * compute_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#compute_pool FlinkStatement#compute_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#compute_pool FlinkStatement#compute_pool}
   */
   readonly computePool?: FlinkStatementComputePool;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#credentials FlinkStatement#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#credentials FlinkStatement#credentials}
   */
   readonly credentials?: FlinkStatementCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#environment FlinkStatement#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#environment FlinkStatement#environment}
   */
   readonly environment?: FlinkStatementEnvironment;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#organization FlinkStatement#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#organization FlinkStatement#organization}
   */
   readonly organization?: FlinkStatementOrganization;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#principal FlinkStatement#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#principal FlinkStatement#principal}
   */
   readonly principal?: FlinkStatementPrincipal;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#timeouts FlinkStatement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#timeouts FlinkStatement#timeouts}
   */
   readonly timeouts?: FlinkStatementTimeouts;
 }
 export interface FlinkStatementComputePool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#id FlinkStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#id FlinkStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,13 +171,13 @@ export interface FlinkStatementCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#key FlinkStatement#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#key FlinkStatement#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#secret FlinkStatement#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#secret FlinkStatement#secret}
   */
   readonly secret: string;
 }
@@ -284,7 +284,7 @@ export class FlinkStatementCredentialsOutputReference extends cdktf.ComplexObjec
 }
 export interface FlinkStatementEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#id FlinkStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#id FlinkStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -368,7 +368,7 @@ export class FlinkStatementEnvironmentOutputReference extends cdktf.ComplexObjec
 }
 export interface FlinkStatementOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#id FlinkStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#id FlinkStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ export class FlinkStatementOrganizationOutputReference extends cdktf.ComplexObje
 }
 export interface FlinkStatementPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#id FlinkStatement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#id FlinkStatement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -536,7 +536,7 @@ export class FlinkStatementPrincipalOutputReference extends cdktf.ComplexObject 
 }
 export interface FlinkStatementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#create FlinkStatement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#create FlinkStatement#create}
   */
   readonly create?: string;
 }
@@ -630,7 +630,7 @@ export class FlinkStatementTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement confluent_flink_statement}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement confluent_flink_statement}
 */
 export class FlinkStatement extends cdktf.TerraformResource {
 
@@ -646,7 +646,7 @@ export class FlinkStatement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlinkStatement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlinkStatement to import
-  * @param importFromId The id of the existing FlinkStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlinkStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlinkStatement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -658,7 +658,7 @@ export class FlinkStatement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/flink_statement confluent_flink_statement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/flink_statement confluent_flink_statement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -669,8 +669,8 @@ export class FlinkStatement extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_flink_statement',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

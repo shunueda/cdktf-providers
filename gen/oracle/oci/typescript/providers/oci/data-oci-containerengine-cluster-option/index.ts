@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciContainerengineClusterOptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option#cluster_option_id DataOciContainerengineClusterOption#cluster_option_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option#cluster_option_id DataOciContainerengineClusterOption#cluster_option_id}
   */
   readonly clusterOptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option#compartment_id DataOciContainerengineClusterOption#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option#compartment_id DataOciContainerengineClusterOption#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option#id DataOciContainerengineClusterOption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option#id DataOciContainerengineClusterOption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option#should_list_all_patch_versions DataOciContainerengineClusterOption#should_list_all_patch_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option#should_list_all_patch_versions DataOciContainerengineClusterOption#should_list_all_patch_versions}
   */
   readonly shouldListAllPatchVersions?: boolean | cdktf.IResolvable;
 }
@@ -104,7 +104,7 @@ export class DataOciContainerengineClusterOptionClusterPodNetworkOptionsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option oci_containerengine_cluster_option}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option oci_containerengine_cluster_option}
 */
 export class DataOciContainerengineClusterOption extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataOciContainerengineClusterOption extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciContainerengineClusterOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciContainerengineClusterOption to import
-  * @param importFromId The id of the existing DataOciContainerengineClusterOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciContainerengineClusterOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciContainerengineClusterOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataOciContainerengineClusterOption extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_cluster_option oci_containerengine_cluster_option} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/containerengine_cluster_option oci_containerengine_cluster_option} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataOciContainerengineClusterOption extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_containerengine_cluster_option',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

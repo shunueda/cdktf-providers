@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface VpnvserverAuthenticationlocalpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#bindpoint VpnvserverAuthenticationlocalpolicyBinding#bindpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#bindpoint VpnvserverAuthenticationlocalpolicyBinding#bindpoint}
   */
   readonly bindpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#gotopriorityexpression VpnvserverAuthenticationlocalpolicyBinding#gotopriorityexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#gotopriorityexpression VpnvserverAuthenticationlocalpolicyBinding#gotopriorityexpression}
   */
   readonly gotopriorityexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#groupextraction VpnvserverAuthenticationlocalpolicyBinding#groupextraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#groupextraction VpnvserverAuthenticationlocalpolicyBinding#groupextraction}
   */
   readonly groupextraction?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#id VpnvserverAuthenticationlocalpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#id VpnvserverAuthenticationlocalpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#name VpnvserverAuthenticationlocalpolicyBinding#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#name VpnvserverAuthenticationlocalpolicyBinding#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#policy VpnvserverAuthenticationlocalpolicyBinding#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#policy VpnvserverAuthenticationlocalpolicyBinding#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#priority VpnvserverAuthenticationlocalpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#priority VpnvserverAuthenticationlocalpolicyBinding#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#secondary VpnvserverAuthenticationlocalpolicyBinding#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#secondary VpnvserverAuthenticationlocalpolicyBinding#secondary}
   */
   readonly secondary?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding citrixadc_vpnvserver_authenticationlocalpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding citrixadc_vpnvserver_authenticationlocalpolicy_binding}
 */
 export class VpnvserverAuthenticationlocalpolicyBinding extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class VpnvserverAuthenticationlocalpolicyBinding extends cdktf.TerraformR
   * Generates CDKTF code for importing a VpnvserverAuthenticationlocalpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnvserverAuthenticationlocalpolicyBinding to import
-  * @param importFromId The id of the existing VpnvserverAuthenticationlocalpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnvserverAuthenticationlocalpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnvserverAuthenticationlocalpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class VpnvserverAuthenticationlocalpolicyBinding extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding citrixadc_vpnvserver_authenticationlocalpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/vpnvserver_authenticationlocalpolicy_binding citrixadc_vpnvserver_authenticationlocalpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class VpnvserverAuthenticationlocalpolicyBinding extends cdktf.TerraformR
       terraformResourceType: 'citrixadc_vpnvserver_authenticationlocalpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

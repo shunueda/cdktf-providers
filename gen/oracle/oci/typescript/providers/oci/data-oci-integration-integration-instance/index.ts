@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/integration_integration_instance
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/integration_integration_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIntegrationIntegrationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}
   */
   readonly integrationInstanceId: string;
 }
@@ -668,6 +668,328 @@ export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsAllowlis
     return new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcnsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcns {
+}
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsToTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcns): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsToHclTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcns): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcns | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcns | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allowlisted_ips - computed: true, optional: false, required: false
+  public get allowlistedIps() {
+    return this.getListAttribute('allowlisted_ips');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsOutputReference {
+    return new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime {
+}
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeToTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeToHclTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allowlisted_http_ips - computed: true, optional: false, required: false
+  public get allowlistedHttpIps() {
+    return this.getListAttribute('allowlisted_http_ips');
+  }
+
+  // allowlisted_http_vcns - computed: true, optional: false, required: false
+  private _allowlistedHttpVcns = new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeAllowlistedHttpVcnsList(this, "allowlisted_http_vcns", false);
+  public get allowlistedHttpVcns() {
+    return this._allowlistedHttpVcns;
+  }
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeOutputReference {
+    return new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcns {
+}
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsToTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcns): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsToHclTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcns): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcns | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcns | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allowlisted_ips - computed: true, optional: false, required: false
+  public get allowlistedIps() {
+    return this.getListAttribute('allowlisted_ips');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsOutputReference {
+    return new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime {
+}
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeToTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeToHclTerraform(struct?: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntime | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allowlisted_http_ips - computed: true, optional: false, required: false
+  public get allowlistedHttpIps() {
+    return this.getListAttribute('allowlisted_http_ips');
+  }
+
+  // allowlisted_http_vcns - computed: true, optional: false, required: false
+  private _allowlistedHttpVcns = new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeAllowlistedHttpVcnsList(this, "allowlisted_http_vcns", false);
+  public get allowlistedHttpVcns() {
+    return this._allowlistedHttpVcns;
+  }
+}
+
+export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeOutputReference {
+    return new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataOciIntegrationIntegrationInstanceNetworkEndpointDetails {
 }
 
@@ -730,6 +1052,12 @@ export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsOutputRe
     return this._allowlistedHttpVcns;
   }
 
+  // design_time - computed: true, optional: false, required: false
+  private _designTime = new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsDesignTimeList(this, "design_time", false);
+  public get designTime() {
+    return this._designTime;
+  }
+
   // is_integration_vcn_allowlisted - computed: true, optional: false, required: false
   public get isIntegrationVcnAllowlisted() {
     return this.getBooleanAttribute('is_integration_vcn_allowlisted');
@@ -738,6 +1066,12 @@ export class DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsOutputRe
   // network_endpoint_type - computed: true, optional: false, required: false
   public get networkEndpointType() {
     return this.getStringAttribute('network_endpoint_type');
+  }
+
+  // runtime - computed: true, optional: false, required: false
+  private _runtime = new DataOciIntegrationIntegrationInstanceNetworkEndpointDetailsRuntimeList(this, "runtime", false);
+  public get runtime() {
+    return this._runtime;
   }
 }
 
@@ -810,6 +1144,11 @@ export class DataOciIntegrationIntegrationInstancePrivateEndpointOutboundConnect
     }
   }
 
+  // is_all_outbound_traffic_private - computed: true, optional: false, required: false
+  public get isAllOutboundTrafficPrivate() {
+    return this.getBooleanAttribute('is_all_outbound_traffic_private');
+  }
+
   // nsg_ids - computed: true, optional: false, required: false
   public get nsgIds() {
     return this.getListAttribute('nsg_ids');
@@ -846,7 +1185,7 @@ export class DataOciIntegrationIntegrationInstancePrivateEndpointOutboundConnect
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/integration_integration_instance oci_integration_integration_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/integration_integration_instance oci_integration_integration_instance}
 */
 export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSource {
 
@@ -862,7 +1201,7 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciIntegrationIntegrationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIntegrationIntegrationInstance to import
-  * @param importFromId The id of the existing DataOciIntegrationIntegrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/integration_integration_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIntegrationIntegrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/integration_integration_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIntegrationIntegrationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -874,7 +1213,7 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/integration_integration_instance oci_integration_integration_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/integration_integration_instance oci_integration_integration_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -885,8 +1224,8 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_integration_integration_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -925,6 +1264,11 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
     return this.getStringAttribute('consumption_model');
   }
 
+  // convert_instance_trigger - computed: true, optional: false, required: false
+  public get convertInstanceTrigger() {
+    return this.getNumberAttribute('convert_instance_trigger');
+  }
+
   // custom_endpoint - computed: true, optional: false, required: false
   private _customEndpoint = new DataOciIntegrationIntegrationInstanceCustomEndpointList(this, "custom_endpoint", false);
   public get customEndpoint() {
@@ -940,6 +1284,11 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
   private _definedTags = new cdktf.StringMap(this, "defined_tags");
   public get definedTags() {
     return this._definedTags;
+  }
+
+  // disable_process_automation_trigger - computed: true, optional: false, required: false
+  public get disableProcessAutomationTrigger() {
+    return this.getNumberAttribute('disable_process_automation_trigger');
   }
 
   // disaster_recovery_details - computed: true, optional: false, required: false
@@ -1046,6 +1395,11 @@ export class DataOciIntegrationIntegrationInstance extends cdktf.TerraformDataSo
   // lifecycle_details - computed: true, optional: false, required: false
   public get lifecycleDetails() {
     return this.getStringAttribute('lifecycle_details');
+  }
+
+  // log_group_id - computed: true, optional: false, required: false
+  public get logGroupId() {
+    return this.getStringAttribute('log_group_id');
   }
 
   // message_packs - computed: true, optional: false, required: false

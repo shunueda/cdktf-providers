@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/security_attribute_security_attribute
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/security_attribute_security_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciSecurityAttributeSecurityAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/security_attribute_security_attribute#security_attribute_name DataOciSecurityAttributeSecurityAttribute#security_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/security_attribute_security_attribute#security_attribute_name DataOciSecurityAttributeSecurityAttribute#security_attribute_name}
   */
   readonly securityAttributeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/security_attribute_security_attribute#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttribute#security_attribute_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/security_attribute_security_attribute#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttribute#security_attribute_namespace_id}
   */
   readonly securityAttributeNamespaceId: string;
 }
@@ -98,7 +98,7 @@ export class DataOciSecurityAttributeSecurityAttributeValidatorList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/security_attribute_security_attribute oci_security_attribute_security_attribute}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/security_attribute_security_attribute oci_security_attribute_security_attribute}
 */
 export class DataOciSecurityAttributeSecurityAttribute extends cdktf.TerraformDataSource {
 
@@ -114,7 +114,7 @@ export class DataOciSecurityAttributeSecurityAttribute extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciSecurityAttributeSecurityAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciSecurityAttributeSecurityAttribute to import
-  * @param importFromId The id of the existing DataOciSecurityAttributeSecurityAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/security_attribute_security_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciSecurityAttributeSecurityAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/security_attribute_security_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciSecurityAttributeSecurityAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -126,7 +126,7 @@ export class DataOciSecurityAttributeSecurityAttribute extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/security_attribute_security_attribute oci_security_attribute_security_attribute} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/security_attribute_security_attribute oci_security_attribute_security_attribute} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -137,8 +137,8 @@ export class DataOciSecurityAttributeSecurityAttribute extends cdktf.TerraformDa
       terraformResourceType: 'oci_security_attribute_security_attribute',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

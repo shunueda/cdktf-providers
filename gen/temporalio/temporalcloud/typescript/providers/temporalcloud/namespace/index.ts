@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,87 +10,224 @@ export interface NamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Base64-encoded CA cert in PEM format that clients use when authenticating with Temporal Cloud. This is a required field when a Namespace uses mTLS authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#accepted_client_ca Namespace#accepted_client_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#accepted_client_ca Namespace#accepted_client_ca}
   */
   readonly acceptedClientCa?: string;
   /**
   * If true, Temporal Cloud will enable API key authentication for this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#api_key_auth Namespace#api_key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#api_key_auth Namespace#api_key_auth}
   */
   readonly apiKeyAuth?: boolean | cdktf.IResolvable;
   /**
+  * The capacity configuration for the namespace.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#capacity Namespace#capacity}
+  */
+  readonly capacity?: NamespaceCapacity;
+  /**
   * A list of filters to apply to client certificates when initiating a connection Temporal Cloud. If present, connections will only be allowed from client certificates whose distinguished name properties match at least one of the filters. Empty lists are not allowed, omit the attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#certificate_filters Namespace#certificate_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#certificate_filters Namespace#certificate_filters}
   */
   readonly certificateFilters?: NamespaceCertificateFilters[] | cdktf.IResolvable;
   /**
   * A codec server is used by the Temporal Cloud UI to decode payloads for all users interacting with this namespace, even if the workflow history itself is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#codec_server Namespace#codec_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#codec_server Namespace#codec_server}
   */
   readonly codecServer?: NamespaceCodecServer;
   /**
   * The IDs of the connectivity rules for this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#connectivity_rule_ids Namespace#connectivity_rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#connectivity_rule_ids Namespace#connectivity_rule_ids}
   */
   readonly connectivityRuleIds?: string[];
   /**
   * The name of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#name Namespace#name}
   */
   readonly name: string;
   /**
-  * The lifecycle configuration for the namespace.
+  * The lifecycle configuration for the namespace. Note that this is different from the Terraform resource lifecycle. This controls settings like delete protection within Temporal Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#namespace_lifecycle Namespace#namespace_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#namespace_lifecycle Namespace#namespace_lifecycle}
   */
   readonly namespaceLifecycle?: NamespaceNamespaceLifecycle;
   /**
   * The list of regions where this namespace is available. Must be one or two regions. See https://docs.temporal.io/cloud/regions for a list of available regions and HA options. Note that regions are prefixed with the cloud provider (aws-us-east-1, not us-east-1). If two regions are specified, the namespace will be replicated across them in a high availability (HA) configuration. Same-region, multi-region, and multi-cloud HA namespaces are supported. Please note that changing, adding, or removing regions for an existing namespace is not currently supported and the provider will throw an error. For HA namespaces the provider will ignore order changes on regions, which can happen if the namespace fails over.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#regions Namespace#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#regions Namespace#regions}
   */
   readonly regions: string[];
   /**
   * The number of days to retain workflow history. Any changes to the retention period will be applied to all new running workflows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#retention_days Namespace#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#retention_days Namespace#retention_days}
   */
   readonly retentionDays: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#timeouts Namespace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#timeouts Namespace#timeouts}
   */
   readonly timeouts?: NamespaceTimeouts;
+}
+export interface NamespaceCapacity {
+  /**
+  * The mode of the capacity configuration. Must be one of 'provisioned' or 'on_demand'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#mode Namespace#mode}
+  */
+  readonly mode?: string;
+  /**
+  * The value of the capacity configuration. Must be set when mode is 'provisioned'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#value Namespace#value}
+  */
+  readonly value?: number;
+}
+
+export function namespaceCapacityToTerraform(struct?: NamespaceCapacity | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    mode: cdktf.stringToTerraform(struct!.mode),
+    value: cdktf.numberToTerraform(struct!.value),
+  }
+}
+
+
+export function namespaceCapacityToHclTerraform(struct?: NamespaceCapacity | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    mode: {
+      value: cdktf.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.numberToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NamespaceCapacityOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): NamespaceCapacity | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NamespaceCapacity | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._mode = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._mode = value.mode;
+      this._value = value.value;
+    }
+  }
+
+  // mode - computed: false, optional: true, required: false
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  public resetMode() {
+    this._mode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+
+  // value - computed: false, optional: true, required: false
+  private _value?: number; 
+  public get value() {
+    return this.getNumberAttribute('value');
+  }
+  public set value(value: number) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
 }
 export interface NamespaceCertificateFilters {
   /**
   * The certificate's common name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#common_name Namespace#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#common_name Namespace#common_name}
   */
   readonly commonName?: string;
   /**
   * The certificate's organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#organization Namespace#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#organization Namespace#organization}
   */
   readonly organization?: string;
   /**
   * The certificate's organizational unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#organizational_unit Namespace#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#organizational_unit Namespace#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
   * The certificate's subject alternative name (or SAN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#subject_alternative_name Namespace#subject_alternative_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#subject_alternative_name Namespace#subject_alternative_name}
   */
   readonly subjectAlternativeName?: string;
 }
@@ -295,19 +432,19 @@ export interface NamespaceCodecServer {
   /**
   * The endpoint of the codec server. Must begin with "https".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#endpoint Namespace#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#endpoint Namespace#endpoint}
   */
   readonly endpoint: string;
   /**
   * If true, Temporal Cloud will include cross-origin credentials in requests to the codec server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#include_cross_origin_credentials Namespace#include_cross_origin_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#include_cross_origin_credentials Namespace#include_cross_origin_credentials}
   */
   readonly includeCrossOriginCredentials?: boolean | cdktf.IResolvable;
   /**
   * If true, Temporal Cloud will pass the access token to the codec server upon each request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#pass_access_token Namespace#pass_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#pass_access_token Namespace#pass_access_token}
   */
   readonly passAccessToken?: boolean | cdktf.IResolvable;
 }
@@ -522,7 +659,7 @@ export interface NamespaceNamespaceLifecycle {
   /**
   * If true, the namespace cannot be deleted. This is a safeguard against accidental deletion. To delete a namespace with this option enabled, you must first set it to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#enable_delete_protection Namespace#enable_delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#enable_delete_protection Namespace#enable_delete_protection}
   */
   readonly enableDeleteProtection?: boolean | cdktf.IResolvable;
 }
@@ -618,13 +755,13 @@ export interface NamespaceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#create Namespace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#create Namespace#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#delete Namespace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#delete Namespace#delete}
   */
   readonly delete?: string;
 }
@@ -747,7 +884,7 @@ export class NamespaceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace temporalcloud_namespace}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace temporalcloud_namespace}
 */
 export class Namespace extends cdktf.TerraformResource {
 
@@ -763,7 +900,7 @@ export class Namespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Namespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Namespace to import
-  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Namespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -775,7 +912,7 @@ export class Namespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace temporalcloud_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace temporalcloud_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -786,8 +923,8 @@ export class Namespace extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_namespace',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -799,6 +936,7 @@ export class Namespace extends cdktf.TerraformResource {
     });
     this._acceptedClientCa = config.acceptedClientCa;
     this._apiKeyAuth = config.apiKeyAuth;
+    this._capacity.internalValue = config.capacity;
     this._certificateFilters.internalValue = config.certificateFilters;
     this._codecServer.internalValue = config.codecServer;
     this._connectivityRuleIds = config.connectivityRuleIds;
@@ -843,6 +981,22 @@ export class Namespace extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get apiKeyAuthInput() {
     return this._apiKeyAuth;
+  }
+
+  // capacity - computed: false, optional: true, required: false
+  private _capacity = new NamespaceCapacityOutputReference(this, "capacity");
+  public get capacity() {
+    return this._capacity;
+  }
+  public putCapacity(value: NamespaceCapacity) {
+    this._capacity.internalValue = value;
+  }
+  public resetCapacity() {
+    this._capacity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityInput() {
+    return this._capacity.internalValue;
   }
 
   // certificate_filters - computed: false, optional: true, required: false
@@ -983,6 +1137,7 @@ export class Namespace extends cdktf.TerraformResource {
     return {
       accepted_client_ca: cdktf.stringToTerraform(this._acceptedClientCa),
       api_key_auth: cdktf.booleanToTerraform(this._apiKeyAuth),
+      capacity: namespaceCapacityToTerraform(this._capacity.internalValue),
       certificate_filters: cdktf.listMapper(namespaceCertificateFiltersToTerraform, false)(this._certificateFilters.internalValue),
       codec_server: namespaceCodecServerToTerraform(this._codecServer.internalValue),
       connectivity_rule_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._connectivityRuleIds),
@@ -1007,6 +1162,12 @@ export class Namespace extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      capacity: {
+        value: namespaceCapacityToHclTerraform(this._capacity.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "NamespaceCapacity",
       },
       certificate_filters: {
         value: cdktf.listMapperHcl(namespaceCertificateFiltersToHclTerraform, false)(this._certificateFilters.internalValue),

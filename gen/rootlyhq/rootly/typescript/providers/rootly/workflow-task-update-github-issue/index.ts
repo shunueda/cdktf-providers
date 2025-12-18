@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateGithubIssueConfig extends cdktf.TerraformMeta
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#enabled WorkflowTaskUpdateGithubIssue#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#enabled WorkflowTaskUpdateGithubIssue#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#id WorkflowTaskUpdateGithubIssue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#id WorkflowTaskUpdateGithubIssue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateGithubIssueConfig extends cdktf.TerraformMeta
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#name WorkflowTaskUpdateGithubIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#name WorkflowTaskUpdateGithubIssue#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#position WorkflowTaskUpdateGithubIssue#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#position WorkflowTaskUpdateGithubIssue#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#skip_on_failure WorkflowTaskUpdateGithubIssue#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#skip_on_failure WorkflowTaskUpdateGithubIssue#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#workflow_id WorkflowTaskUpdateGithubIssue#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#workflow_id WorkflowTaskUpdateGithubIssue#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#task_params WorkflowTaskUpdateGithubIssue#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#task_params WorkflowTaskUpdateGithubIssue#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateGithubIssueTaskParams;
 }
@@ -55,29 +55,29 @@ export interface WorkflowTaskUpdateGithubIssueTaskParams {
   /**
   * The issue body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#body WorkflowTaskUpdateGithubIssue#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#body WorkflowTaskUpdateGithubIssue#body}
   */
   readonly body?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#completion WorkflowTaskUpdateGithubIssue#completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#completion WorkflowTaskUpdateGithubIssue#completion}
   */
   readonly completion: { [key: string]: string };
   /**
   * The issue id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#issue_id WorkflowTaskUpdateGithubIssue#issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#issue_id WorkflowTaskUpdateGithubIssue#issue_id}
   */
   readonly issueId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#task_type WorkflowTaskUpdateGithubIssue#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#task_type WorkflowTaskUpdateGithubIssue#task_type}
   */
   readonly taskType?: string;
   /**
   * The issue title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#title WorkflowTaskUpdateGithubIssue#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#title WorkflowTaskUpdateGithubIssue#title}
   */
   readonly title?: string;
 }
@@ -271,7 +271,7 @@ export class WorkflowTaskUpdateGithubIssueTaskParamsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue rootly_workflow_task_update_github_issue}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue rootly_workflow_task_update_github_issue}
 */
 export class WorkflowTaskUpdateGithubIssue extends cdktf.TerraformResource {
 
@@ -287,7 +287,7 @@ export class WorkflowTaskUpdateGithubIssue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateGithubIssue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateGithubIssue to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateGithubIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateGithubIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateGithubIssue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -299,7 +299,7 @@ export class WorkflowTaskUpdateGithubIssue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_github_issue rootly_workflow_task_update_github_issue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_github_issue rootly_workflow_task_update_github_issue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -310,8 +310,8 @@ export class WorkflowTaskUpdateGithubIssue extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_github_issue',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

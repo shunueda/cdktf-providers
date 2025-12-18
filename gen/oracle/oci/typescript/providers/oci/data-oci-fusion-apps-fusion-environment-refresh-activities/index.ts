@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFusionAppsFusionEnvironmentRefreshActivitiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#display_name DataOciFusionAppsFusionEnvironmentRefreshActivities#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#display_name DataOciFusionAppsFusionEnvironmentRefreshActivities#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivities#fusion_environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivities#fusion_environment_id}
   */
   readonly fusionEnvironmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#id DataOciFusionAppsFusionEnvironmentRefreshActivities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#id DataOciFusionAppsFusionEnvironmentRefreshActivities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#state DataOciFusionAppsFusionEnvironmentRefreshActivities#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#state DataOciFusionAppsFusionEnvironmentRefreshActivities#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_expected_finish_less_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_expected_finish_less_than_or_equal_to}
   */
   readonly timeExpectedFinishLessThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_scheduled_start_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_scheduled_start_greater_than_or_equal_to}
   */
   readonly timeScheduledStartGreaterThanOrEqualTo?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#filter DataOciFusionAppsFusionEnvironmentRefreshActivities#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#filter DataOciFusionAppsFusionEnvironmentRefreshActivities#filter}
   */
   readonly filter?: DataOciFusionAppsFusionEnvironmentRefreshActivitiesFilter[] | cdktf.IResolvable;
 }
@@ -340,15 +340,15 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivitiesRefreshActivityC
 }
 export interface DataOciFusionAppsFusionEnvironmentRefreshActivitiesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#name DataOciFusionAppsFusionEnvironmentRefreshActivities#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#name DataOciFusionAppsFusionEnvironmentRefreshActivities#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#regex DataOciFusionAppsFusionEnvironmentRefreshActivities#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#regex DataOciFusionAppsFusionEnvironmentRefreshActivities#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#values DataOciFusionAppsFusionEnvironmentRefreshActivities#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#values DataOciFusionAppsFusionEnvironmentRefreshActivities#values}
   */
   readonly values: string[];
 }
@@ -516,7 +516,7 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivitiesFilterList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities oci_fusion_apps_fusion_environment_refresh_activities}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities oci_fusion_apps_fusion_environment_refresh_activities}
 */
 export class DataOciFusionAppsFusionEnvironmentRefreshActivities extends cdktf.TerraformDataSource {
 
@@ -532,7 +532,7 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivities extends cdktf.T
   * Generates CDKTF code for importing a DataOciFusionAppsFusionEnvironmentRefreshActivities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFusionAppsFusionEnvironmentRefreshActivities to import
-  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentRefreshActivities that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFusionAppsFusionEnvironmentRefreshActivities that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFusionAppsFusionEnvironmentRefreshActivities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -544,7 +544,7 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivities extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities oci_fusion_apps_fusion_environment_refresh_activities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities oci_fusion_apps_fusion_environment_refresh_activities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,8 +555,8 @@ export class DataOciFusionAppsFusionEnvironmentRefreshActivities extends cdktf.T
       terraformResourceType: 'oci_fusion_apps_fusion_environment_refresh_activities',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

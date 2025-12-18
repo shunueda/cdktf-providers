@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OspGatewaySubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#compartment_id OspGatewaySubscription#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#compartment_id OspGatewaySubscription#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#email OspGatewaySubscription#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#email OspGatewaySubscription#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#osp_home_region OspGatewaySubscription#osp_home_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#osp_home_region OspGatewaySubscription#osp_home_region}
   */
   readonly ospHomeRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#subscription_id OspGatewaySubscription#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#subscription_id OspGatewaySubscription#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#subscription OspGatewaySubscription#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#subscription OspGatewaySubscription#subscription}
   */
   readonly subscription: OspGatewaySubscriptionSubscription;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#timeouts OspGatewaySubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#timeouts OspGatewaySubscription#timeouts}
   */
   readonly timeouts?: OspGatewaySubscriptionTimeouts;
 }
@@ -626,107 +626,107 @@ export class OspGatewaySubscriptionTaxInfoList extends cdktf.ComplexList {
 }
 export interface OspGatewaySubscriptionSubscriptionBillingAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#address_key OspGatewaySubscription#address_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#address_key OspGatewaySubscription#address_key}
   */
   readonly addressKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#city OspGatewaySubscription#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#city OspGatewaySubscription#city}
   */
   readonly city?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#company_name OspGatewaySubscription#company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#company_name OspGatewaySubscription#company_name}
   */
   readonly companyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#contributor_class OspGatewaySubscription#contributor_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#contributor_class OspGatewaySubscription#contributor_class}
   */
   readonly contributorClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#country OspGatewaySubscription#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#country OspGatewaySubscription#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#county OspGatewaySubscription#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#county OspGatewaySubscription#county}
   */
   readonly county?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#department_name OspGatewaySubscription#department_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#department_name OspGatewaySubscription#department_name}
   */
   readonly departmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#internal_number OspGatewaySubscription#internal_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#internal_number OspGatewaySubscription#internal_number}
   */
   readonly internalNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#job_title OspGatewaySubscription#job_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#job_title OspGatewaySubscription#job_title}
   */
   readonly jobTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#line1 OspGatewaySubscription#line1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#line1 OspGatewaySubscription#line1}
   */
   readonly line1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#line2 OspGatewaySubscription#line2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#line2 OspGatewaySubscription#line2}
   */
   readonly line2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#line3 OspGatewaySubscription#line3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#line3 OspGatewaySubscription#line3}
   */
   readonly line3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#line4 OspGatewaySubscription#line4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#line4 OspGatewaySubscription#line4}
   */
   readonly line4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#middle_name OspGatewaySubscription#middle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#middle_name OspGatewaySubscription#middle_name}
   */
   readonly middleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#municipal_inscription OspGatewaySubscription#municipal_inscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#municipal_inscription OspGatewaySubscription#municipal_inscription}
   */
   readonly municipalInscription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#phone_country_code OspGatewaySubscription#phone_country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#phone_country_code OspGatewaySubscription#phone_country_code}
   */
   readonly phoneCountryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#phone_number OspGatewaySubscription#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#phone_number OspGatewaySubscription#phone_number}
   */
   readonly phoneNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#postal_code OspGatewaySubscription#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#postal_code OspGatewaySubscription#postal_code}
   */
   readonly postalCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#province OspGatewaySubscription#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#province OspGatewaySubscription#province}
   */
   readonly province?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#state OspGatewaySubscription#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#state OspGatewaySubscription#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#state_inscription OspGatewaySubscription#state_inscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#state_inscription OspGatewaySubscription#state_inscription}
   */
   readonly stateInscription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#street_name OspGatewaySubscription#street_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#street_name OspGatewaySubscription#street_name}
   */
   readonly streetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#street_number OspGatewaySubscription#street_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#street_number OspGatewaySubscription#street_number}
   */
   readonly streetNumber?: string;
 }
@@ -1567,11 +1567,11 @@ export class OspGatewaySubscriptionSubscriptionBillingAddressList extends cdktf.
 }
 export interface OspGatewaySubscriptionSubscriptionPaymentGatewayMerchantDefinedData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#cloud_account_name OspGatewaySubscription#cloud_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#cloud_account_name OspGatewaySubscription#cloud_account_name}
   */
   readonly cloudAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#promo_type OspGatewaySubscription#promo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#promo_type OspGatewaySubscription#promo_type}
   */
   readonly promoType?: string;
 }
@@ -1686,7 +1686,7 @@ export interface OspGatewaySubscriptionSubscriptionPaymentGateway {
   /**
   * merchant_defined_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#merchant_defined_data OspGatewaySubscription#merchant_defined_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#merchant_defined_data OspGatewaySubscription#merchant_defined_data}
   */
   readonly merchantDefinedData?: OspGatewaySubscriptionSubscriptionPaymentGatewayMerchantDefinedData;
 }
@@ -1770,47 +1770,47 @@ export class OspGatewaySubscriptionSubscriptionPaymentGatewayOutputReference ext
 }
 export interface OspGatewaySubscriptionSubscriptionPaymentOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#credit_card_type OspGatewaySubscription#credit_card_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#credit_card_type OspGatewaySubscription#credit_card_type}
   */
   readonly creditCardType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#ext_billing_agreement_id OspGatewaySubscription#ext_billing_agreement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#ext_billing_agreement_id OspGatewaySubscription#ext_billing_agreement_id}
   */
   readonly extBillingAgreementId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#last_digits OspGatewaySubscription#last_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#last_digits OspGatewaySubscription#last_digits}
   */
   readonly lastDigits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#name_on_card OspGatewaySubscription#name_on_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#name_on_card OspGatewaySubscription#name_on_card}
   */
   readonly nameOnCard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#payment_method OspGatewaySubscription#payment_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#payment_method OspGatewaySubscription#payment_method}
   */
   readonly paymentMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#time_expiration OspGatewaySubscription#time_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#time_expiration OspGatewaySubscription#time_expiration}
   */
   readonly timeExpiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#wallet_instrument_id OspGatewaySubscription#wallet_instrument_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#wallet_instrument_id OspGatewaySubscription#wallet_instrument_id}
   */
   readonly walletInstrumentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#wallet_transaction_id OspGatewaySubscription#wallet_transaction_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#wallet_transaction_id OspGatewaySubscription#wallet_transaction_id}
   */
   readonly walletTransactionId?: string;
 }
@@ -2213,23 +2213,23 @@ export class OspGatewaySubscriptionSubscriptionPaymentOptionsList extends cdktf.
 }
 export interface OspGatewaySubscriptionSubscriptionTaxInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#no_tax_reason_code OspGatewaySubscription#no_tax_reason_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#no_tax_reason_code OspGatewaySubscription#no_tax_reason_code}
   */
   readonly noTaxReasonCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#no_tax_reason_code_details OspGatewaySubscription#no_tax_reason_code_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#no_tax_reason_code_details OspGatewaySubscription#no_tax_reason_code_details}
   */
   readonly noTaxReasonCodeDetails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#tax_cnpj OspGatewaySubscription#tax_cnpj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#tax_cnpj OspGatewaySubscription#tax_cnpj}
   */
   readonly taxCnpj?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#tax_payer_id OspGatewaySubscription#tax_payer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#tax_payer_id OspGatewaySubscription#tax_payer_id}
   */
   readonly taxPayerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#tax_reg_number OspGatewaySubscription#tax_reg_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#tax_reg_number OspGatewaySubscription#tax_reg_number}
   */
   readonly taxRegNumber?: string;
 }
@@ -2429,102 +2429,102 @@ export class OspGatewaySubscriptionSubscriptionTaxInfoOutputReference extends cd
 }
 export interface OspGatewaySubscriptionSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#account_type OspGatewaySubscription#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#account_type OspGatewaySubscription#account_type}
   */
   readonly accountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#bill_to_cust_account_id OspGatewaySubscription#bill_to_cust_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#bill_to_cust_account_id OspGatewaySubscription#bill_to_cust_account_id}
   */
   readonly billToCustAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#currency_code OspGatewaySubscription#currency_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#currency_code OspGatewaySubscription#currency_code}
   */
   readonly currencyCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#gsi_org_code OspGatewaySubscription#gsi_org_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#gsi_org_code OspGatewaySubscription#gsi_org_code}
   */
   readonly gsiOrgCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#is_corporate_conversion_allowed OspGatewaySubscription#is_corporate_conversion_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#is_corporate_conversion_allowed OspGatewaySubscription#is_corporate_conversion_allowed}
   */
   readonly isCorporateConversionAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#is_intent_to_pay OspGatewaySubscription#is_intent_to_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#is_intent_to_pay OspGatewaySubscription#is_intent_to_pay}
   */
   readonly isIntentToPay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#language_code OspGatewaySubscription#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#language_code OspGatewaySubscription#language_code}
   */
   readonly languageCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#organization_id OspGatewaySubscription#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#organization_id OspGatewaySubscription#organization_id}
   */
   readonly organizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#plan_type OspGatewaySubscription#plan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#plan_type OspGatewaySubscription#plan_type}
   */
   readonly planType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#ship_to_cust_acct_role_id OspGatewaySubscription#ship_to_cust_acct_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#ship_to_cust_acct_role_id OspGatewaySubscription#ship_to_cust_acct_role_id}
   */
   readonly shipToCustAcctRoleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#ship_to_cust_acct_site_id OspGatewaySubscription#ship_to_cust_acct_site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#ship_to_cust_acct_site_id OspGatewaySubscription#ship_to_cust_acct_site_id}
   */
   readonly shipToCustAcctSiteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#subscription_plan_number OspGatewaySubscription#subscription_plan_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#subscription_plan_number OspGatewaySubscription#subscription_plan_number}
   */
   readonly subscriptionPlanNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#time_personal_to_corporate_conv OspGatewaySubscription#time_personal_to_corporate_conv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#time_personal_to_corporate_conv OspGatewaySubscription#time_personal_to_corporate_conv}
   */
   readonly timePersonalToCorporateConv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#time_plan_upgrade OspGatewaySubscription#time_plan_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#time_plan_upgrade OspGatewaySubscription#time_plan_upgrade}
   */
   readonly timePlanUpgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#time_start OspGatewaySubscription#time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#time_start OspGatewaySubscription#time_start}
   */
   readonly timeStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#upgrade_state OspGatewaySubscription#upgrade_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#upgrade_state OspGatewaySubscription#upgrade_state}
   */
   readonly upgradeState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#upgrade_state_details OspGatewaySubscription#upgrade_state_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#upgrade_state_details OspGatewaySubscription#upgrade_state_details}
   */
   readonly upgradeStateDetails?: string;
   /**
   * billing_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#billing_address OspGatewaySubscription#billing_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#billing_address OspGatewaySubscription#billing_address}
   */
   readonly billingAddress?: OspGatewaySubscriptionSubscriptionBillingAddress[] | cdktf.IResolvable;
   /**
   * payment_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#payment_gateway OspGatewaySubscription#payment_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#payment_gateway OspGatewaySubscription#payment_gateway}
   */
   readonly paymentGateway?: OspGatewaySubscriptionSubscriptionPaymentGateway;
   /**
   * payment_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#payment_options OspGatewaySubscription#payment_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#payment_options OspGatewaySubscription#payment_options}
   */
   readonly paymentOptions?: OspGatewaySubscriptionSubscriptionPaymentOptions[] | cdktf.IResolvable;
   /**
   * tax_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#tax_info OspGatewaySubscription#tax_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#tax_info OspGatewaySubscription#tax_info}
   */
   readonly taxInfo?: OspGatewaySubscriptionSubscriptionTaxInfo;
 }
@@ -3214,15 +3214,15 @@ export class OspGatewaySubscriptionSubscriptionOutputReference extends cdktf.Com
 }
 export interface OspGatewaySubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#create OspGatewaySubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#create OspGatewaySubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#delete OspGatewaySubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#delete OspGatewaySubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#update OspGatewaySubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#update OspGatewaySubscription#update}
   */
   readonly update?: string;
 }
@@ -3374,7 +3374,7 @@ export class OspGatewaySubscriptionTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription oci_osp_gateway_subscription}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription oci_osp_gateway_subscription}
 */
 export class OspGatewaySubscription extends cdktf.TerraformResource {
 
@@ -3390,7 +3390,7 @@ export class OspGatewaySubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OspGatewaySubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OspGatewaySubscription to import
-  * @param importFromId The id of the existing OspGatewaySubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OspGatewaySubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OspGatewaySubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3402,7 +3402,7 @@ export class OspGatewaySubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/osp_gateway_subscription oci_osp_gateway_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/osp_gateway_subscription oci_osp_gateway_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3413,8 +3413,8 @@ export class OspGatewaySubscription extends cdktf.TerraformResource {
       terraformResourceType: 'oci_osp_gateway_subscription',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

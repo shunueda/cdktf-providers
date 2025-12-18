@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs
+// https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ConfluentSchemaRegistryProviderConfig {
   /**
   * Static bearer token for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#bearer_token ConfluentSchemaRegistryProvider#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#bearer_token ConfluentSchemaRegistryProvider#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * OAuth2 client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#oauth2_client_id ConfluentSchemaRegistryProvider#oauth2_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#oauth2_client_id ConfluentSchemaRegistryProvider#oauth2_client_id}
   */
   readonly oauth2ClientId?: string;
   /**
   * OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#oauth2_client_secret ConfluentSchemaRegistryProvider#oauth2_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#oauth2_client_secret ConfluentSchemaRegistryProvider#oauth2_client_secret}
   */
   readonly oauth2ClientSecret?: string;
   /**
   * OAuth2 scopes to request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#oauth2_scopes ConfluentSchemaRegistryProvider#oauth2_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#oauth2_scopes ConfluentSchemaRegistryProvider#oauth2_scopes}
   */
   readonly oauth2Scopes?: string[];
   /**
   * OAuth2 token endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#oauth2_token_url ConfluentSchemaRegistryProvider#oauth2_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#oauth2_token_url ConfluentSchemaRegistryProvider#oauth2_token_url}
   */
   readonly oauth2TokenUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#password ConfluentSchemaRegistryProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#password ConfluentSchemaRegistryProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#schema_registry_url ConfluentSchemaRegistryProvider#schema_registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#schema_registry_url ConfluentSchemaRegistryProvider#schema_registry_url}
   */
   readonly schemaRegistryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#username ConfluentSchemaRegistryProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#username ConfluentSchemaRegistryProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#alias ConfluentSchemaRegistryProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#alias ConfluentSchemaRegistryProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs confluent-schema-registry}
+* Represents a {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs confluent-schema-registry}
 */
 export class ConfluentSchemaRegistryProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class ConfluentSchemaRegistryProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ConfluentSchemaRegistryProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfluentSchemaRegistryProvider to import
-  * @param importFromId The id of the existing ConfluentSchemaRegistryProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfluentSchemaRegistryProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfluentSchemaRegistryProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class ConfluentSchemaRegistryProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/0.7.0/docs confluent-schema-registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/drfaust92/confluent-schema-registry/1.0.0/docs confluent-schema-registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class ConfluentSchemaRegistryProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'confluent-schema-registry',
       terraformGeneratorMetadata: {
         providerName: 'confluent-schema-registry',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '1.0.0',
+        providerVersionConstraint: '1.0.0'
       },
       terraformProviderSource: 'DrFaust92/confluent-schema-registry'
     });

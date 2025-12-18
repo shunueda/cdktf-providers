@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface CustomFieldOptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The hex color of the custom_field_option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#color CustomFieldOption#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#color CustomFieldOption#color}
   */
   readonly color?: string;
   /**
   * The ID of the parent custom field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#custom_field_id CustomFieldOption#custom_field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#custom_field_id CustomFieldOption#custom_field_id}
   */
   readonly customFieldId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#default CustomFieldOption#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#default CustomFieldOption#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#id CustomFieldOption#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#id CustomFieldOption#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,19 +33,19 @@ export interface CustomFieldOptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The position of the custom_field_option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#position CustomFieldOption#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#position CustomFieldOption#position}
   */
   readonly position?: number;
   /**
   * The value of the custom_field_option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#value CustomFieldOption#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#value CustomFieldOption#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option rootly_custom_field_option}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option rootly_custom_field_option}
 */
 export class CustomFieldOption extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class CustomFieldOption extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFieldOption resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFieldOption to import
-  * @param importFromId The id of the existing CustomFieldOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFieldOption that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFieldOption to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class CustomFieldOption extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/custom_field_option rootly_custom_field_option} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/custom_field_option rootly_custom_field_option} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class CustomFieldOption extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_custom_field_option',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

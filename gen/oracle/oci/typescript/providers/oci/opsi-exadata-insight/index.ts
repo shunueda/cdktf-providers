@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface OpsiExadataInsightConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#defined_tags OpsiExadataInsight#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#defined_tags OpsiExadataInsight#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#enterprise_manager_bridge_id OpsiExadataInsight#enterprise_manager_bridge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#enterprise_manager_bridge_id OpsiExadataInsight#enterprise_manager_bridge_id}
   */
   readonly enterpriseManagerBridgeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#enterprise_manager_entity_identifier OpsiExadataInsight#enterprise_manager_entity_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#enterprise_manager_entity_identifier OpsiExadataInsight#enterprise_manager_entity_identifier}
   */
   readonly enterpriseManagerEntityIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#enterprise_manager_identifier OpsiExadataInsight#enterprise_manager_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#enterprise_manager_identifier OpsiExadataInsight#enterprise_manager_identifier}
   */
   readonly enterpriseManagerIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#entity_source OpsiExadataInsight#entity_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#entity_source OpsiExadataInsight#entity_source}
   */
   readonly entitySource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#exadata_infra_id OpsiExadataInsight#exadata_infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#exadata_infra_id OpsiExadataInsight#exadata_infra_id}
   */
   readonly exadataInfraId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#freeform_tags OpsiExadataInsight#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#freeform_tags OpsiExadataInsight#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#id OpsiExadataInsight#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#id OpsiExadataInsight#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#is_auto_sync_enabled OpsiExadataInsight#is_auto_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#is_auto_sync_enabled OpsiExadataInsight#is_auto_sync_enabled}
   */
   readonly isAutoSyncEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#status OpsiExadataInsight#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#status OpsiExadataInsight#status}
   */
   readonly status?: string;
   /**
   * member_vm_cluster_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#member_vm_cluster_details OpsiExadataInsight#member_vm_cluster_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#member_vm_cluster_details OpsiExadataInsight#member_vm_cluster_details}
   */
   readonly memberVmClusterDetails?: OpsiExadataInsightMemberVmClusterDetails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#timeouts OpsiExadataInsight#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#timeouts OpsiExadataInsight#timeouts}
   */
   readonly timeouts?: OpsiExadataInsightTimeouts;
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionCredentialDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
   */
   readonly credentialSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
   */
   readonly namedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
   */
   readonly userName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
   */
   readonly walletSecretId?: string;
 }
@@ -348,19 +348,19 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConn
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}
   */
   readonly serviceName?: string;
 }
@@ -531,31 +531,31 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConn
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsCredentialDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
   */
   readonly credentialSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
   */
   readonly namedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
   */
   readonly userName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
   */
   readonly walletSecretId?: string;
 }
@@ -810,65 +810,65 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsCred
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#database_id OpsiExadataInsight#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#database_id OpsiExadataInsight#database_id}
   */
   readonly databaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#database_resource_type OpsiExadataInsight#database_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#database_resource_type OpsiExadataInsight#database_resource_type}
   */
   readonly databaseResourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#defined_tags OpsiExadataInsight#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#defined_tags OpsiExadataInsight#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#deployment_type OpsiExadataInsight#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#deployment_type OpsiExadataInsight#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#entity_source OpsiExadataInsight#entity_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#entity_source OpsiExadataInsight#entity_source}
   */
   readonly entitySource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#freeform_tags OpsiExadataInsight#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#freeform_tags OpsiExadataInsight#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#is_advanced_features_enabled OpsiExadataInsight#is_advanced_features_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#is_advanced_features_enabled OpsiExadataInsight#is_advanced_features_enabled}
   */
   readonly isAdvancedFeaturesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#management_agent_id OpsiExadataInsight#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#management_agent_id OpsiExadataInsight#management_agent_id}
   */
   readonly managementAgentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#opsi_private_endpoint_id OpsiExadataInsight#opsi_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#opsi_private_endpoint_id OpsiExadataInsight#opsi_private_endpoint_id}
   */
   readonly opsiPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#system_tags OpsiExadataInsight#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#system_tags OpsiExadataInsight#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * connection_credential_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#connection_credential_details OpsiExadataInsight#connection_credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#connection_credential_details OpsiExadataInsight#connection_credential_details}
   */
   readonly connectionCredentialDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionCredentialDetails;
   /**
   * connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#connection_details OpsiExadataInsight#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#connection_details OpsiExadataInsight#connection_details}
   */
   readonly connectionDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionDetails;
   /**
   * credential_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_details OpsiExadataInsight#credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_details OpsiExadataInsight#credential_details}
   */
   readonly credentialDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsCredentialDetails;
 }
@@ -1361,31 +1361,31 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsList
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnectionCredentialDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
   */
   readonly credentialSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
   */
   readonly namedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
   */
   readonly userName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
   */
   readonly walletSecretId?: string;
 }
@@ -1640,11 +1640,11 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnec
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnectionDetailsHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#host_ip OpsiExadataInsight#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#host_ip OpsiExadataInsight#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}
   */
   readonly port?: number;
 }
@@ -1789,25 +1789,25 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnec
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}
   */
   readonly serviceName?: string;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#hosts OpsiExadataInsight#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#hosts OpsiExadataInsight#hosts}
   */
   readonly hosts?: OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnectionDetailsHosts[] | cdktf.IResolvable;
 }
@@ -2007,31 +2007,31 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnec
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsCredentialDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_source_name OpsiExadataInsight#credential_source_name}
   */
   readonly credentialSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_type OpsiExadataInsight#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#named_credential_id OpsiExadataInsight#named_credential_id}
   */
   readonly namedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#password_secret_id OpsiExadataInsight#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#role OpsiExadataInsight#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#user_name OpsiExadataInsight#user_name}
   */
   readonly userName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#wallet_secret_id OpsiExadataInsight#wallet_secret_id}
   */
   readonly walletSecretId?: string;
 }
@@ -2286,69 +2286,69 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsCreden
 }
 export interface OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#database_id OpsiExadataInsight#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#database_id OpsiExadataInsight#database_id}
   */
   readonly databaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#database_resource_type OpsiExadataInsight#database_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#database_resource_type OpsiExadataInsight#database_resource_type}
   */
   readonly databaseResourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#dbm_private_endpoint_id OpsiExadataInsight#dbm_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#dbm_private_endpoint_id OpsiExadataInsight#dbm_private_endpoint_id}
   */
   readonly dbmPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#defined_tags OpsiExadataInsight#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#defined_tags OpsiExadataInsight#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#deployment_type OpsiExadataInsight#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#deployment_type OpsiExadataInsight#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#entity_source OpsiExadataInsight#entity_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#entity_source OpsiExadataInsight#entity_source}
   */
   readonly entitySource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#freeform_tags OpsiExadataInsight#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#freeform_tags OpsiExadataInsight#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#management_agent_id OpsiExadataInsight#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#management_agent_id OpsiExadataInsight#management_agent_id}
   */
   readonly managementAgentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#opsi_private_endpoint_id OpsiExadataInsight#opsi_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#opsi_private_endpoint_id OpsiExadataInsight#opsi_private_endpoint_id}
   */
   readonly opsiPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#system_tags OpsiExadataInsight#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#system_tags OpsiExadataInsight#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * connection_credential_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#connection_credential_details OpsiExadataInsight#connection_credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#connection_credential_details OpsiExadataInsight#connection_credential_details}
   */
   readonly connectionCredentialDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnectionCredentialDetails;
   /**
   * connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#connection_details OpsiExadataInsight#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#connection_details OpsiExadataInsight#connection_details}
   */
   readonly connectionDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsConnectionDetails;
   /**
   * credential_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#credential_details OpsiExadataInsight#credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#credential_details OpsiExadataInsight#credential_details}
   */
   readonly credentialDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsCredentialDetails;
 }
@@ -2870,35 +2870,35 @@ export class OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetailsList e
 }
 export interface OpsiExadataInsightMemberVmClusterDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#compartment_id OpsiExadataInsight#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#dbm_private_endpoint_id OpsiExadataInsight#dbm_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#dbm_private_endpoint_id OpsiExadataInsight#dbm_private_endpoint_id}
   */
   readonly dbmPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#opsi_private_endpoint_id OpsiExadataInsight#opsi_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#opsi_private_endpoint_id OpsiExadataInsight#opsi_private_endpoint_id}
   */
   readonly opsiPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#vm_cluster_type OpsiExadataInsight#vm_cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#vm_cluster_type OpsiExadataInsight#vm_cluster_type}
   */
   readonly vmClusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#vmcluster_id OpsiExadataInsight#vmcluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#vmcluster_id OpsiExadataInsight#vmcluster_id}
   */
   readonly vmclusterId?: string;
   /**
   * member_autonomous_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#member_autonomous_details OpsiExadataInsight#member_autonomous_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#member_autonomous_details OpsiExadataInsight#member_autonomous_details}
   */
   readonly memberAutonomousDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetails[] | cdktf.IResolvable;
   /**
   * member_database_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#member_database_details OpsiExadataInsight#member_database_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#member_database_details OpsiExadataInsight#member_database_details}
   */
   readonly memberDatabaseDetails?: OpsiExadataInsightMemberVmClusterDetailsMemberDatabaseDetails[] | cdktf.IResolvable;
 }
@@ -3188,15 +3188,15 @@ export class OpsiExadataInsightMemberVmClusterDetailsList extends cdktf.ComplexL
 }
 export interface OpsiExadataInsightTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#create OpsiExadataInsight#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#create OpsiExadataInsight#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#delete OpsiExadataInsight#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#delete OpsiExadataInsight#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#update OpsiExadataInsight#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#update OpsiExadataInsight#update}
   */
   readonly update?: string;
 }
@@ -3348,7 +3348,7 @@ export class OpsiExadataInsightTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight oci_opsi_exadata_insight}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight oci_opsi_exadata_insight}
 */
 export class OpsiExadataInsight extends cdktf.TerraformResource {
 
@@ -3364,7 +3364,7 @@ export class OpsiExadataInsight extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpsiExadataInsight resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpsiExadataInsight to import
-  * @param importFromId The id of the existing OpsiExadataInsight that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpsiExadataInsight that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpsiExadataInsight to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3376,7 +3376,7 @@ export class OpsiExadataInsight extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_exadata_insight oci_opsi_exadata_insight} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_exadata_insight oci_opsi_exadata_insight} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3387,8 +3387,8 @@ export class OpsiExadataInsight extends cdktf.TerraformResource {
       terraformResourceType: 'oci_opsi_exadata_insight',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

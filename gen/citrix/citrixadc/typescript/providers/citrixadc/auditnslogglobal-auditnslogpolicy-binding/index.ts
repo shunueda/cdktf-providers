@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface AuditnslogglobalAuditnslogpolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#builtin AuditnslogglobalAuditnslogpolicyBinding#builtin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#builtin AuditnslogglobalAuditnslogpolicyBinding#builtin}
   */
   readonly builtin?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#globalbindtype AuditnslogglobalAuditnslogpolicyBinding#globalbindtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#globalbindtype AuditnslogglobalAuditnslogpolicyBinding#globalbindtype}
   */
   readonly globalbindtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#id AuditnslogglobalAuditnslogpolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#id AuditnslogglobalAuditnslogpolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#policyname AuditnslogglobalAuditnslogpolicyBinding#policyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#policyname AuditnslogglobalAuditnslogpolicyBinding#policyname}
   */
   readonly policyname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#priority AuditnslogglobalAuditnslogpolicyBinding#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#priority AuditnslogglobalAuditnslogpolicyBinding#priority}
   */
   readonly priority: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding citrixadc_auditnslogglobal_auditnslogpolicy_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding citrixadc_auditnslogglobal_auditnslogpolicy_binding}
 */
 export class AuditnslogglobalAuditnslogpolicyBinding extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class AuditnslogglobalAuditnslogpolicyBinding extends cdktf.TerraformReso
   * Generates CDKTF code for importing a AuditnslogglobalAuditnslogpolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditnslogglobalAuditnslogpolicyBinding to import
-  * @param importFromId The id of the existing AuditnslogglobalAuditnslogpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditnslogglobalAuditnslogpolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditnslogglobalAuditnslogpolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class AuditnslogglobalAuditnslogpolicyBinding extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding citrixadc_auditnslogglobal_auditnslogpolicy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/auditnslogglobal_auditnslogpolicy_binding citrixadc_auditnslogglobal_auditnslogpolicy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class AuditnslogglobalAuditnslogpolicyBinding extends cdktf.TerraformReso
       terraformResourceType: 'citrixadc_auditnslogglobal_auditnslogpolicy_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

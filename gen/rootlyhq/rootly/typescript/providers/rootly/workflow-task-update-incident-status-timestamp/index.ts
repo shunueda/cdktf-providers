@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateIncidentStatusTimestampConfig extends cdktf.T
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#enabled WorkflowTaskUpdateIncidentStatusTimestamp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#enabled WorkflowTaskUpdateIncidentStatusTimestamp#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#id WorkflowTaskUpdateIncidentStatusTimestamp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#id WorkflowTaskUpdateIncidentStatusTimestamp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateIncidentStatusTimestampConfig extends cdktf.T
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#name WorkflowTaskUpdateIncidentStatusTimestamp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#name WorkflowTaskUpdateIncidentStatusTimestamp#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#position WorkflowTaskUpdateIncidentStatusTimestamp#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#position WorkflowTaskUpdateIncidentStatusTimestamp#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#skip_on_failure WorkflowTaskUpdateIncidentStatusTimestamp#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#skip_on_failure WorkflowTaskUpdateIncidentStatusTimestamp#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#workflow_id WorkflowTaskUpdateIncidentStatusTimestamp#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#workflow_id WorkflowTaskUpdateIncidentStatusTimestamp#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#task_params WorkflowTaskUpdateIncidentStatusTimestamp#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#task_params WorkflowTaskUpdateIncidentStatusTimestamp#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateIncidentStatusTimestampTaskParams;
 }
@@ -55,17 +55,17 @@ export interface WorkflowTaskUpdateIncidentStatusTimestampTaskParams {
   /**
   * Timestamp of when the sub-status was assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#assigned_at WorkflowTaskUpdateIncidentStatusTimestamp#assigned_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#assigned_at WorkflowTaskUpdateIncidentStatusTimestamp#assigned_at}
   */
   readonly assignedAt: string;
   /**
   * Sub-status to update timestamp for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#sub_status_id WorkflowTaskUpdateIncidentStatusTimestamp#sub_status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#sub_status_id WorkflowTaskUpdateIncidentStatusTimestamp#sub_status_id}
   */
   readonly subStatusId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#task_type WorkflowTaskUpdateIncidentStatusTimestamp#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#task_type WorkflowTaskUpdateIncidentStatusTimestamp#task_type}
   */
   readonly taskType?: string;
 }
@@ -201,7 +201,7 @@ export class WorkflowTaskUpdateIncidentStatusTimestampTaskParamsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp rootly_workflow_task_update_incident_status_timestamp}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp rootly_workflow_task_update_incident_status_timestamp}
 */
 export class WorkflowTaskUpdateIncidentStatusTimestamp extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class WorkflowTaskUpdateIncidentStatusTimestamp extends cdktf.TerraformRe
   * Generates CDKTF code for importing a WorkflowTaskUpdateIncidentStatusTimestamp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateIncidentStatusTimestamp to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateIncidentStatusTimestamp that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateIncidentStatusTimestamp that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateIncidentStatusTimestamp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class WorkflowTaskUpdateIncidentStatusTimestamp extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_update_incident_status_timestamp rootly_workflow_task_update_incident_status_timestamp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_update_incident_status_timestamp rootly_workflow_task_update_incident_status_timestamp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class WorkflowTaskUpdateIncidentStatusTimestamp extends cdktf.TerraformRe
       terraformResourceType: 'rootly_workflow_task_update_incident_status_timestamp',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

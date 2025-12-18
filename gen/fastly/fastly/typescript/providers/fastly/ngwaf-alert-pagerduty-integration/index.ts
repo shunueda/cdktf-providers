@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NgwafAlertPagerdutyIntegrationConfig extends cdktf.TerraformMet
   /**
   * The description of the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration#description NgwafAlertPagerdutyIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration#description NgwafAlertPagerdutyIntegration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration#id NgwafAlertPagerdutyIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration#id NgwafAlertPagerdutyIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface NgwafAlertPagerdutyIntegrationConfig extends cdktf.TerraformMet
   /**
   * The PagerDuty integration key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration#key NgwafAlertPagerdutyIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration#key NgwafAlertPagerdutyIntegration#key}
   */
   readonly key: string;
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration#workspace_id NgwafAlertPagerdutyIntegration#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration#workspace_id NgwafAlertPagerdutyIntegration#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration fastly_ngwaf_alert_pagerduty_integration}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration fastly_ngwaf_alert_pagerduty_integration}
 */
 export class NgwafAlertPagerdutyIntegration extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class NgwafAlertPagerdutyIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafAlertPagerdutyIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafAlertPagerdutyIntegration to import
-  * @param importFromId The id of the existing NgwafAlertPagerdutyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafAlertPagerdutyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafAlertPagerdutyIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class NgwafAlertPagerdutyIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_alert_pagerduty_integration fastly_ngwaf_alert_pagerduty_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_alert_pagerduty_integration fastly_ngwaf_alert_pagerduty_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class NgwafAlertPagerdutyIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_alert_pagerduty_integration',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

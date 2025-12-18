@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface OpsiDatabaseInsightConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#compartment_id OpsiDatabaseInsight#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#compartment_id OpsiDatabaseInsight#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#connector_id OpsiDatabaseInsight#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#connector_id OpsiDatabaseInsight#connector_id}
   */
   readonly connectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#database_connection_status_details OpsiDatabaseInsight#database_connection_status_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#database_connection_status_details OpsiDatabaseInsight#database_connection_status_details}
   */
   readonly databaseConnectionStatusDetails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#database_connector_id OpsiDatabaseInsight#database_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#database_connector_id OpsiDatabaseInsight#database_connector_id}
   */
   readonly databaseConnectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#database_id OpsiDatabaseInsight#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#database_id OpsiDatabaseInsight#database_id}
   */
   readonly databaseId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#database_resource_type OpsiDatabaseInsight#database_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#database_resource_type OpsiDatabaseInsight#database_resource_type}
   */
   readonly databaseResourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#dbm_private_endpoint_id OpsiDatabaseInsight#dbm_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#dbm_private_endpoint_id OpsiDatabaseInsight#dbm_private_endpoint_id}
   */
   readonly dbmPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#defined_tags OpsiDatabaseInsight#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#defined_tags OpsiDatabaseInsight#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#deployment_type OpsiDatabaseInsight#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#deployment_type OpsiDatabaseInsight#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#enterprise_manager_bridge_id OpsiDatabaseInsight#enterprise_manager_bridge_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#enterprise_manager_bridge_id OpsiDatabaseInsight#enterprise_manager_bridge_id}
   */
   readonly enterpriseManagerBridgeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#enterprise_manager_entity_identifier OpsiDatabaseInsight#enterprise_manager_entity_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#enterprise_manager_entity_identifier OpsiDatabaseInsight#enterprise_manager_entity_identifier}
   */
   readonly enterpriseManagerEntityIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#enterprise_manager_identifier OpsiDatabaseInsight#enterprise_manager_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#enterprise_manager_identifier OpsiDatabaseInsight#enterprise_manager_identifier}
   */
   readonly enterpriseManagerIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#entity_source OpsiDatabaseInsight#entity_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#entity_source OpsiDatabaseInsight#entity_source}
   */
   readonly entitySource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#exadata_insight_id OpsiDatabaseInsight#exadata_insight_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#exadata_insight_id OpsiDatabaseInsight#exadata_insight_id}
   */
   readonly exadataInsightId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#freeform_tags OpsiDatabaseInsight#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#freeform_tags OpsiDatabaseInsight#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#id OpsiDatabaseInsight#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#id OpsiDatabaseInsight#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#is_advanced_features_enabled OpsiDatabaseInsight#is_advanced_features_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#is_advanced_features_enabled OpsiDatabaseInsight#is_advanced_features_enabled}
   */
   readonly isAdvancedFeaturesEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#management_agent_id OpsiDatabaseInsight#management_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#management_agent_id OpsiDatabaseInsight#management_agent_id}
   */
   readonly managementAgentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#opsi_private_endpoint_id OpsiDatabaseInsight#opsi_private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#opsi_private_endpoint_id OpsiDatabaseInsight#opsi_private_endpoint_id}
   */
   readonly opsiPrivateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#service_name OpsiDatabaseInsight#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#service_name OpsiDatabaseInsight#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#status OpsiDatabaseInsight#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#status OpsiDatabaseInsight#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#system_tags OpsiDatabaseInsight#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#system_tags OpsiDatabaseInsight#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
   * connection_credential_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#connection_credential_details OpsiDatabaseInsight#connection_credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#connection_credential_details OpsiDatabaseInsight#connection_credential_details}
   */
   readonly connectionCredentialDetails?: OpsiDatabaseInsightConnectionCredentialDetails;
   /**
   * connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#connection_details OpsiDatabaseInsight#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#connection_details OpsiDatabaseInsight#connection_details}
   */
   readonly connectionDetails?: OpsiDatabaseInsightConnectionDetails;
   /**
   * credential_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#credential_details OpsiDatabaseInsight#credential_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#credential_details OpsiDatabaseInsight#credential_details}
   */
   readonly credentialDetails?: OpsiDatabaseInsightCredentialDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#timeouts OpsiDatabaseInsight#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#timeouts OpsiDatabaseInsight#timeouts}
   */
   readonly timeouts?: OpsiDatabaseInsightTimeouts;
 }
 export interface OpsiDatabaseInsightConnectionCredentialDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#credential_source_name OpsiDatabaseInsight#credential_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#credential_source_name OpsiDatabaseInsight#credential_source_name}
   */
   readonly credentialSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#credential_type OpsiDatabaseInsight#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#credential_type OpsiDatabaseInsight#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#named_credential_id OpsiDatabaseInsight#named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#named_credential_id OpsiDatabaseInsight#named_credential_id}
   */
   readonly namedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#password_secret_id OpsiDatabaseInsight#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#password_secret_id OpsiDatabaseInsight#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#role OpsiDatabaseInsight#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#role OpsiDatabaseInsight#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#user_name OpsiDatabaseInsight#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#user_name OpsiDatabaseInsight#user_name}
   */
   readonly userName?: string;
 }
@@ -371,11 +371,11 @@ export class OpsiDatabaseInsightConnectionCredentialDetailsOutputReference exten
 }
 export interface OpsiDatabaseInsightConnectionDetailsHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#host_ip OpsiDatabaseInsight#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#host_ip OpsiDatabaseInsight#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}
   */
   readonly port?: number;
 }
@@ -520,25 +520,25 @@ export class OpsiDatabaseInsightConnectionDetailsHostsList extends cdktf.Complex
 }
 export interface OpsiDatabaseInsightConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#host_name OpsiDatabaseInsight#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#host_name OpsiDatabaseInsight#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#protocol OpsiDatabaseInsight#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#protocol OpsiDatabaseInsight#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#service_name OpsiDatabaseInsight#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#service_name OpsiDatabaseInsight#service_name}
   */
   readonly serviceName?: string;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#hosts OpsiDatabaseInsight#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#hosts OpsiDatabaseInsight#hosts}
   */
   readonly hosts?: OpsiDatabaseInsightConnectionDetailsHosts[] | cdktf.IResolvable;
 }
@@ -738,31 +738,31 @@ export class OpsiDatabaseInsightConnectionDetailsOutputReference extends cdktf.C
 }
 export interface OpsiDatabaseInsightCredentialDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#credential_source_name OpsiDatabaseInsight#credential_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#credential_source_name OpsiDatabaseInsight#credential_source_name}
   */
   readonly credentialSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#credential_type OpsiDatabaseInsight#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#credential_type OpsiDatabaseInsight#credential_type}
   */
   readonly credentialType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#named_credential_id OpsiDatabaseInsight#named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#named_credential_id OpsiDatabaseInsight#named_credential_id}
   */
   readonly namedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#password_secret_id OpsiDatabaseInsight#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#password_secret_id OpsiDatabaseInsight#password_secret_id}
   */
   readonly passwordSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#role OpsiDatabaseInsight#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#role OpsiDatabaseInsight#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#user_name OpsiDatabaseInsight#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#user_name OpsiDatabaseInsight#user_name}
   */
   readonly userName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#wallet_secret_id OpsiDatabaseInsight#wallet_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#wallet_secret_id OpsiDatabaseInsight#wallet_secret_id}
   */
   readonly walletSecretId?: string;
 }
@@ -1017,15 +1017,15 @@ export class OpsiDatabaseInsightCredentialDetailsOutputReference extends cdktf.C
 }
 export interface OpsiDatabaseInsightTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#create OpsiDatabaseInsight#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#create OpsiDatabaseInsight#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#delete OpsiDatabaseInsight#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#delete OpsiDatabaseInsight#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#update OpsiDatabaseInsight#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#update OpsiDatabaseInsight#update}
   */
   readonly update?: string;
 }
@@ -1177,7 +1177,7 @@ export class OpsiDatabaseInsightTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight oci_opsi_database_insight}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight oci_opsi_database_insight}
 */
 export class OpsiDatabaseInsight extends cdktf.TerraformResource {
 
@@ -1193,7 +1193,7 @@ export class OpsiDatabaseInsight extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpsiDatabaseInsight resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpsiDatabaseInsight to import
-  * @param importFromId The id of the existing OpsiDatabaseInsight that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpsiDatabaseInsight that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpsiDatabaseInsight to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1205,7 +1205,7 @@ export class OpsiDatabaseInsight extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opsi_database_insight oci_opsi_database_insight} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opsi_database_insight oci_opsi_database_insight} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1216,8 +1216,8 @@ export class OpsiDatabaseInsight extends cdktf.TerraformResource {
       terraformResourceType: 'oci_opsi_database_insight',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

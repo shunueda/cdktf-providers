@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,208 +8,208 @@ import * as cdktf from 'cdktf';
 
 export interface OpensearchOpensearchClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#compartment_id OpensearchOpensearchCluster#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#compartment_id OpensearchOpensearchCluster#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#configure_outbound_cluster_trigger OpensearchOpensearchCluster#configure_outbound_cluster_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#configure_outbound_cluster_trigger OpensearchOpensearchCluster#configure_outbound_cluster_trigger}
   */
   readonly configureOutboundClusterTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_count OpensearchOpensearchCluster#data_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_count OpensearchOpensearchCluster#data_node_count}
   */
   readonly dataNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_host_bare_metal_shape OpensearchOpensearchCluster#data_node_host_bare_metal_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_host_bare_metal_shape OpensearchOpensearchCluster#data_node_host_bare_metal_shape}
   */
   readonly dataNodeHostBareMetalShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_host_memory_gb OpensearchOpensearchCluster#data_node_host_memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_host_memory_gb OpensearchOpensearchCluster#data_node_host_memory_gb}
   */
   readonly dataNodeHostMemoryGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_host_ocpu_count OpensearchOpensearchCluster#data_node_host_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_host_ocpu_count OpensearchOpensearchCluster#data_node_host_ocpu_count}
   */
   readonly dataNodeHostOcpuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_host_shape OpensearchOpensearchCluster#data_node_host_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_host_shape OpensearchOpensearchCluster#data_node_host_shape}
   */
   readonly dataNodeHostShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_host_type OpensearchOpensearchCluster#data_node_host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_host_type OpensearchOpensearchCluster#data_node_host_type}
   */
   readonly dataNodeHostType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#data_node_storage_gb OpensearchOpensearchCluster#data_node_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#data_node_storage_gb OpensearchOpensearchCluster#data_node_storage_gb}
   */
   readonly dataNodeStorageGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#defined_tags OpensearchOpensearchCluster#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#defined_tags OpensearchOpensearchCluster#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#freeform_tags OpensearchOpensearchCluster#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#freeform_tags OpensearchOpensearchCluster#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#id OpensearchOpensearchCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#id OpensearchOpensearchCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#inbound_cluster_ids OpensearchOpensearchCluster#inbound_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#inbound_cluster_ids OpensearchOpensearchCluster#inbound_cluster_ids}
   */
   readonly inboundClusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#master_node_count OpensearchOpensearchCluster#master_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#master_node_count OpensearchOpensearchCluster#master_node_count}
   */
   readonly masterNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#master_node_host_bare_metal_shape OpensearchOpensearchCluster#master_node_host_bare_metal_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#master_node_host_bare_metal_shape OpensearchOpensearchCluster#master_node_host_bare_metal_shape}
   */
   readonly masterNodeHostBareMetalShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#master_node_host_memory_gb OpensearchOpensearchCluster#master_node_host_memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#master_node_host_memory_gb OpensearchOpensearchCluster#master_node_host_memory_gb}
   */
   readonly masterNodeHostMemoryGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#master_node_host_ocpu_count OpensearchOpensearchCluster#master_node_host_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#master_node_host_ocpu_count OpensearchOpensearchCluster#master_node_host_ocpu_count}
   */
   readonly masterNodeHostOcpuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#master_node_host_shape OpensearchOpensearchCluster#master_node_host_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#master_node_host_shape OpensearchOpensearchCluster#master_node_host_shape}
   */
   readonly masterNodeHostShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#master_node_host_type OpensearchOpensearchCluster#master_node_host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#master_node_host_type OpensearchOpensearchCluster#master_node_host_type}
   */
   readonly masterNodeHostType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#nsg_id OpensearchOpensearchCluster#nsg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#nsg_id OpensearchOpensearchCluster#nsg_id}
   */
   readonly nsgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_count OpensearchOpensearchCluster#opendashboard_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_count OpensearchOpensearchCluster#opendashboard_node_count}
   */
   readonly opendashboardNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_memory_gb OpensearchOpensearchCluster#opendashboard_node_host_memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_memory_gb OpensearchOpensearchCluster#opendashboard_node_host_memory_gb}
   */
   readonly opendashboardNodeHostMemoryGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_ocpu_count OpensearchOpensearchCluster#opendashboard_node_host_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_ocpu_count OpensearchOpensearchCluster#opendashboard_node_host_ocpu_count}
   */
   readonly opendashboardNodeHostOcpuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_shape OpensearchOpensearchCluster#opendashboard_node_host_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_shape OpensearchOpensearchCluster#opendashboard_node_host_shape}
   */
   readonly opendashboardNodeHostShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#reverse_connection_endpoint_customer_ips OpensearchOpensearchCluster#reverse_connection_endpoint_customer_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#reverse_connection_endpoint_customer_ips OpensearchOpensearchCluster#reverse_connection_endpoint_customer_ips}
   */
   readonly reverseConnectionEndpointCustomerIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#search_node_count OpensearchOpensearchCluster#search_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#search_node_count OpensearchOpensearchCluster#search_node_count}
   */
   readonly searchNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#search_node_host_memory_gb OpensearchOpensearchCluster#search_node_host_memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#search_node_host_memory_gb OpensearchOpensearchCluster#search_node_host_memory_gb}
   */
   readonly searchNodeHostMemoryGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#search_node_host_ocpu_count OpensearchOpensearchCluster#search_node_host_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#search_node_host_ocpu_count OpensearchOpensearchCluster#search_node_host_ocpu_count}
   */
   readonly searchNodeHostOcpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#search_node_host_shape OpensearchOpensearchCluster#search_node_host_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#search_node_host_shape OpensearchOpensearchCluster#search_node_host_shape}
   */
   readonly searchNodeHostShape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#search_node_host_type OpensearchOpensearchCluster#search_node_host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#search_node_host_type OpensearchOpensearchCluster#search_node_host_type}
   */
   readonly searchNodeHostType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#search_node_storage_gb OpensearchOpensearchCluster#search_node_storage_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#search_node_storage_gb OpensearchOpensearchCluster#search_node_storage_gb}
   */
   readonly searchNodeStorageGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#security_attributes OpensearchOpensearchCluster#security_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#security_attributes OpensearchOpensearchCluster#security_attributes}
   */
   readonly securityAttributes?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#security_master_user_name OpensearchOpensearchCluster#security_master_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#security_master_user_name OpensearchOpensearchCluster#security_master_user_name}
   */
   readonly securityMasterUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#security_master_user_password_hash OpensearchOpensearchCluster#security_master_user_password_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#security_master_user_password_hash OpensearchOpensearchCluster#security_master_user_password_hash}
   */
   readonly securityMasterUserPasswordHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#security_mode OpensearchOpensearchCluster#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#security_mode OpensearchOpensearchCluster#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#software_version OpensearchOpensearchCluster#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#software_version OpensearchOpensearchCluster#software_version}
   */
   readonly softwareVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#subnet_compartment_id OpensearchOpensearchCluster#subnet_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#subnet_compartment_id OpensearchOpensearchCluster#subnet_compartment_id}
   */
   readonly subnetCompartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#subnet_id OpensearchOpensearchCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#subnet_id OpensearchOpensearchCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#system_tags OpensearchOpensearchCluster#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#system_tags OpensearchOpensearchCluster#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#upgrade_major_version_trigger OpensearchOpensearchCluster#upgrade_major_version_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#upgrade_major_version_trigger OpensearchOpensearchCluster#upgrade_major_version_trigger}
   */
   readonly upgradeMajorVersionTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#vcn_compartment_id OpensearchOpensearchCluster#vcn_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#vcn_compartment_id OpensearchOpensearchCluster#vcn_compartment_id}
   */
   readonly vcnCompartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#vcn_id OpensearchOpensearchCluster#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#vcn_id OpensearchOpensearchCluster#vcn_id}
   */
   readonly vcnId: string;
   /**
   * certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#certificate_config OpensearchOpensearchCluster#certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#certificate_config OpensearchOpensearchCluster#certificate_config}
   */
   readonly certificateConfig?: OpensearchOpensearchClusterCertificateConfig;
   /**
   * maintenance_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#maintenance_details OpensearchOpensearchCluster#maintenance_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#maintenance_details OpensearchOpensearchCluster#maintenance_details}
   */
   readonly maintenanceDetails?: OpensearchOpensearchClusterMaintenanceDetails;
   /**
   * outbound_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#outbound_cluster_config OpensearchOpensearchCluster#outbound_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#outbound_cluster_config OpensearchOpensearchCluster#outbound_cluster_config}
   */
   readonly outboundClusterConfig?: OpensearchOpensearchClusterOutboundClusterConfig;
   /**
   * security_saml_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#security_saml_config OpensearchOpensearchCluster#security_saml_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#security_saml_config OpensearchOpensearchCluster#security_saml_config}
   */
   readonly securitySamlConfig?: OpensearchOpensearchClusterSecuritySamlConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#timeouts OpensearchOpensearchCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#timeouts OpensearchOpensearchCluster#timeouts}
   */
   readonly timeouts?: OpensearchOpensearchClusterTimeouts;
 }
@@ -295,19 +295,19 @@ export class OpensearchOpensearchClusterReverseConnectionEndpointsList extends c
 }
 export interface OpensearchOpensearchClusterCertificateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#cluster_certificate_mode OpensearchOpensearchCluster#cluster_certificate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#cluster_certificate_mode OpensearchOpensearchCluster#cluster_certificate_mode}
   */
   readonly clusterCertificateMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#dashboard_certificate_mode OpensearchOpensearchCluster#dashboard_certificate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#dashboard_certificate_mode OpensearchOpensearchCluster#dashboard_certificate_mode}
   */
   readonly dashboardCertificateMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#open_search_api_certificate_id OpensearchOpensearchCluster#open_search_api_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#open_search_api_certificate_id OpensearchOpensearchCluster#open_search_api_certificate_id}
   */
   readonly openSearchApiCertificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#open_search_dashboard_certificate_id OpensearchOpensearchCluster#open_search_dashboard_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#open_search_dashboard_certificate_id OpensearchOpensearchCluster#open_search_dashboard_certificate_id}
   */
   readonly openSearchDashboardCertificateId?: string;
 }
@@ -478,7 +478,7 @@ export class OpensearchOpensearchClusterCertificateConfigOutputReference extends
 }
 export interface OpensearchOpensearchClusterMaintenanceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#notification_email_ids OpensearchOpensearchCluster#notification_email_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#notification_email_ids OpensearchOpensearchCluster#notification_email_ids}
   */
   readonly notificationEmailIds?: string[];
 }
@@ -577,23 +577,23 @@ export class OpensearchOpensearchClusterMaintenanceDetailsOutputReference extend
 }
 export interface OpensearchOpensearchClusterOutboundClusterConfigOutboundClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#is_skip_unavailable OpensearchOpensearchCluster#is_skip_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#is_skip_unavailable OpensearchOpensearchCluster#is_skip_unavailable}
   */
   readonly isSkipUnavailable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#mode OpensearchOpensearchCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#mode OpensearchOpensearchCluster#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#ping_schedule OpensearchOpensearchCluster#ping_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#ping_schedule OpensearchOpensearchCluster#ping_schedule}
   */
   readonly pingSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#seed_cluster_id OpensearchOpensearchCluster#seed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#seed_cluster_id OpensearchOpensearchCluster#seed_cluster_id}
   */
   readonly seedClusterId: string;
 }
@@ -819,13 +819,13 @@ export class OpensearchOpensearchClusterOutboundClusterConfigOutboundClustersLis
 }
 export interface OpensearchOpensearchClusterOutboundClusterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
   * outbound_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#outbound_clusters OpensearchOpensearchCluster#outbound_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#outbound_clusters OpensearchOpensearchCluster#outbound_clusters}
   */
   readonly outboundClusters: OpensearchOpensearchClusterOutboundClusterConfigOutboundClusters[] | cdktf.IResolvable;
 }
@@ -932,31 +932,31 @@ export class OpensearchOpensearchClusterOutboundClusterConfigOutputReference ext
 }
 export interface OpensearchOpensearchClusterSecuritySamlConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#admin_backend_role OpensearchOpensearchCluster#admin_backend_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#admin_backend_role OpensearchOpensearchCluster#admin_backend_role}
   */
   readonly adminBackendRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#idp_entity_id OpensearchOpensearchCluster#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#idp_entity_id OpensearchOpensearchCluster#idp_entity_id}
   */
   readonly idpEntityId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#idp_metadata_content OpensearchOpensearchCluster#idp_metadata_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#idp_metadata_content OpensearchOpensearchCluster#idp_metadata_content}
   */
   readonly idpMetadataContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#is_enabled OpensearchOpensearchCluster#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#opendashboard_url OpensearchOpensearchCluster#opendashboard_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#opendashboard_url OpensearchOpensearchCluster#opendashboard_url}
   */
   readonly opendashboardUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#roles_key OpensearchOpensearchCluster#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#roles_key OpensearchOpensearchCluster#roles_key}
   */
   readonly rolesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#subject_key OpensearchOpensearchCluster#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#subject_key OpensearchOpensearchCluster#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -1205,15 +1205,15 @@ export class OpensearchOpensearchClusterSecuritySamlConfigOutputReference extend
 }
 export interface OpensearchOpensearchClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#create OpensearchOpensearchCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#create OpensearchOpensearchCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#delete OpensearchOpensearchCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#delete OpensearchOpensearchCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#update OpensearchOpensearchCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#update OpensearchOpensearchCluster#update}
   */
   readonly update?: string;
 }
@@ -1365,7 +1365,7 @@ export class OpensearchOpensearchClusterTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster}
 */
 export class OpensearchOpensearchCluster extends cdktf.TerraformResource {
 
@@ -1381,7 +1381,7 @@ export class OpensearchOpensearchCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchOpensearchCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchOpensearchCluster to import
-  * @param importFromId The id of the existing OpensearchOpensearchCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchOpensearchCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchOpensearchCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1393,7 +1393,7 @@ export class OpensearchOpensearchCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/opensearch_opensearch_cluster oci_opensearch_opensearch_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1404,8 +1404,8 @@ export class OpensearchOpensearchCluster extends cdktf.TerraformResource {
       terraformResourceType: 'oci_opensearch_opensearch_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

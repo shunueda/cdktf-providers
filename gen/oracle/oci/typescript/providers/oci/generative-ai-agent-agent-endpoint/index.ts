@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface GenerativeAiAgentAgentEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#agent_id GenerativeAiAgentAgentEndpoint#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#agent_id GenerativeAiAgentAgentEndpoint#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#compartment_id GenerativeAiAgentAgentEndpoint#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#compartment_id GenerativeAiAgentAgentEndpoint#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#defined_tags GenerativeAiAgentAgentEndpoint#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#defined_tags GenerativeAiAgentAgentEndpoint#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#description GenerativeAiAgentAgentEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#description GenerativeAiAgentAgentEndpoint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#display_name GenerativeAiAgentAgentEndpoint#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#display_name GenerativeAiAgentAgentEndpoint#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#freeform_tags GenerativeAiAgentAgentEndpoint#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#freeform_tags GenerativeAiAgentAgentEndpoint#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#id GenerativeAiAgentAgentEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#id GenerativeAiAgentAgentEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#metadata GenerativeAiAgentAgentEndpoint#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#metadata GenerativeAiAgentAgentEndpoint#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_citation GenerativeAiAgentAgentEndpoint#should_enable_citation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_citation GenerativeAiAgentAgentEndpoint#should_enable_citation}
   */
   readonly shouldEnableCitation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_multi_language GenerativeAiAgentAgentEndpoint#should_enable_multi_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_multi_language GenerativeAiAgentAgentEndpoint#should_enable_multi_language}
   */
   readonly shouldEnableMultiLanguage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_session GenerativeAiAgentAgentEndpoint#should_enable_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_session GenerativeAiAgentAgentEndpoint#should_enable_session}
   */
   readonly shouldEnableSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_trace GenerativeAiAgentAgentEndpoint#should_enable_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_trace GenerativeAiAgentAgentEndpoint#should_enable_trace}
   */
   readonly shouldEnableTrace?: boolean | cdktf.IResolvable;
   /**
   * content_moderation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
   */
   readonly contentModerationConfig?: GenerativeAiAgentAgentEndpointContentModerationConfig;
   /**
   * guardrail_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#guardrail_config GenerativeAiAgentAgentEndpoint#guardrail_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#guardrail_config GenerativeAiAgentAgentEndpoint#guardrail_config}
   */
   readonly guardrailConfig?: GenerativeAiAgentAgentEndpointGuardrailConfig;
   /**
   * human_input_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#human_input_config GenerativeAiAgentAgentEndpoint#human_input_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#human_input_config GenerativeAiAgentAgentEndpoint#human_input_config}
   */
   readonly humanInputConfig?: GenerativeAiAgentAgentEndpointHumanInputConfig;
   /**
   * output_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#output_config GenerativeAiAgentAgentEndpoint#output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#output_config GenerativeAiAgentAgentEndpoint#output_config}
   */
   readonly outputConfig?: GenerativeAiAgentAgentEndpointOutputConfig;
   /**
   * session_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#session_config GenerativeAiAgentAgentEndpoint#session_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#session_config GenerativeAiAgentAgentEndpoint#session_config}
   */
   readonly sessionConfig?: GenerativeAiAgentAgentEndpointSessionConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#timeouts GenerativeAiAgentAgentEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#timeouts GenerativeAiAgentAgentEndpoint#timeouts}
   */
   readonly timeouts?: GenerativeAiAgentAgentEndpointTimeouts;
 }
 export interface GenerativeAiAgentAgentEndpointContentModerationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_on_input GenerativeAiAgentAgentEndpoint#should_enable_on_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_on_input GenerativeAiAgentAgentEndpoint#should_enable_on_input}
   */
   readonly shouldEnableOnInput?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_on_output GenerativeAiAgentAgentEndpoint#should_enable_on_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_on_output GenerativeAiAgentAgentEndpoint#should_enable_on_output}
   */
   readonly shouldEnableOnOutput?: boolean | cdktf.IResolvable;
 }
@@ -214,11 +214,11 @@ export class GenerativeAiAgentAgentEndpointContentModerationConfigOutputReferenc
 }
 export interface GenerativeAiAgentAgentEndpointGuardrailConfigContentModerationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}
   */
   readonly inputGuardrailMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}
   */
   readonly outputGuardrailMode?: string;
 }
@@ -331,11 +331,11 @@ export class GenerativeAiAgentAgentEndpointGuardrailConfigContentModerationConfi
 }
 export interface GenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}
   */
   readonly inputGuardrailMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#output_guardrail_mode GenerativeAiAgentAgentEndpoint#output_guardrail_mode}
   */
   readonly outputGuardrailMode?: string;
 }
@@ -448,7 +448,7 @@ export class GenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiable
 }
 export interface GenerativeAiAgentAgentEndpointGuardrailConfigPromptInjectionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#input_guardrail_mode GenerativeAiAgentAgentEndpoint#input_guardrail_mode}
   */
   readonly inputGuardrailMode?: string;
 }
@@ -534,19 +534,19 @@ export interface GenerativeAiAgentAgentEndpointGuardrailConfig {
   /**
   * content_moderation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
   */
   readonly contentModerationConfig?: GenerativeAiAgentAgentEndpointGuardrailConfigContentModerationConfig;
   /**
   * personally_identifiable_information_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#personally_identifiable_information_config GenerativeAiAgentAgentEndpoint#personally_identifiable_information_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#personally_identifiable_information_config GenerativeAiAgentAgentEndpoint#personally_identifiable_information_config}
   */
   readonly personallyIdentifiableInformationConfig?: GenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig;
   /**
   * prompt_injection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#prompt_injection_config GenerativeAiAgentAgentEndpoint#prompt_injection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#prompt_injection_config GenerativeAiAgentAgentEndpoint#prompt_injection_config}
   */
   readonly promptInjectionConfig?: GenerativeAiAgentAgentEndpointGuardrailConfigPromptInjectionConfig;
 }
@@ -688,7 +688,7 @@ export class GenerativeAiAgentAgentEndpointGuardrailConfigOutputReference extend
 }
 export interface GenerativeAiAgentAgentEndpointHumanInputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_human_input GenerativeAiAgentAgentEndpoint#should_enable_human_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#should_enable_human_input GenerativeAiAgentAgentEndpoint#should_enable_human_input}
   */
   readonly shouldEnableHumanInput: boolean | cdktf.IResolvable;
 }
@@ -769,19 +769,19 @@ export class GenerativeAiAgentAgentEndpointHumanInputConfigOutputReference exten
 }
 export interface GenerativeAiAgentAgentEndpointOutputConfigOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#bucket GenerativeAiAgentAgentEndpoint#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#bucket GenerativeAiAgentAgentEndpoint#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#namespace GenerativeAiAgentAgentEndpoint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#namespace GenerativeAiAgentAgentEndpoint#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#output_location_type GenerativeAiAgentAgentEndpoint#output_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#output_location_type GenerativeAiAgentAgentEndpoint#output_location_type}
   */
   readonly outputLocationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#prefix GenerativeAiAgentAgentEndpoint#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#prefix GenerativeAiAgentAgentEndpoint#prefix}
   */
   readonly prefix?: string;
 }
@@ -943,13 +943,13 @@ export class GenerativeAiAgentAgentEndpointOutputConfigOutputLocationOutputRefer
 }
 export interface GenerativeAiAgentAgentEndpointOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#retention_period_in_minutes GenerativeAiAgentAgentEndpoint#retention_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#retention_period_in_minutes GenerativeAiAgentAgentEndpoint#retention_period_in_minutes}
   */
   readonly retentionPeriodInMinutes?: number;
   /**
   * output_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#output_location GenerativeAiAgentAgentEndpoint#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#output_location GenerativeAiAgentAgentEndpoint#output_location}
   */
   readonly outputLocation: GenerativeAiAgentAgentEndpointOutputConfigOutputLocation;
 }
@@ -1059,7 +1059,7 @@ export class GenerativeAiAgentAgentEndpointOutputConfigOutputReference extends c
 }
 export interface GenerativeAiAgentAgentEndpointSessionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#idle_timeout_in_seconds GenerativeAiAgentAgentEndpoint#idle_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#idle_timeout_in_seconds GenerativeAiAgentAgentEndpoint#idle_timeout_in_seconds}
   */
   readonly idleTimeoutInSeconds?: number;
 }
@@ -1143,15 +1143,15 @@ export class GenerativeAiAgentAgentEndpointSessionConfigOutputReference extends 
 }
 export interface GenerativeAiAgentAgentEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#create GenerativeAiAgentAgentEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#create GenerativeAiAgentAgentEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#delete GenerativeAiAgentAgentEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#delete GenerativeAiAgentAgentEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#update GenerativeAiAgentAgentEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#update GenerativeAiAgentAgentEndpoint#update}
   */
   readonly update?: string;
 }
@@ -1303,7 +1303,7 @@ export class GenerativeAiAgentAgentEndpointTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint oci_generative_ai_agent_agent_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint oci_generative_ai_agent_agent_endpoint}
 */
 export class GenerativeAiAgentAgentEndpoint extends cdktf.TerraformResource {
 
@@ -1319,7 +1319,7 @@ export class GenerativeAiAgentAgentEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenerativeAiAgentAgentEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenerativeAiAgentAgentEndpoint to import
-  * @param importFromId The id of the existing GenerativeAiAgentAgentEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenerativeAiAgentAgentEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenerativeAiAgentAgentEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1331,7 +1331,7 @@ export class GenerativeAiAgentAgentEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_agent_agent_endpoint oci_generative_ai_agent_agent_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_agent_agent_endpoint oci_generative_ai_agent_agent_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1342,8 +1342,8 @@ export class GenerativeAiAgentAgentEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'oci_generative_ai_agent_agent_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

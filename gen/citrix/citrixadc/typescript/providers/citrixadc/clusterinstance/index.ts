@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ClusterinstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#backplanebasedview Clusterinstance#backplanebasedview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#backplanebasedview Clusterinstance#backplanebasedview}
   */
   readonly backplanebasedview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#clid Clusterinstance#clid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#clid Clusterinstance#clid}
   */
   readonly clid: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#clusterproxyarp Clusterinstance#clusterproxyarp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#clusterproxyarp Clusterinstance#clusterproxyarp}
   */
   readonly clusterproxyarp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#deadinterval Clusterinstance#deadinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#deadinterval Clusterinstance#deadinterval}
   */
   readonly deadinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#dfdretainl2params Clusterinstance#dfdretainl2params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#dfdretainl2params Clusterinstance#dfdretainl2params}
   */
   readonly dfdretainl2Params?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#hellointerval Clusterinstance#hellointerval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#hellointerval Clusterinstance#hellointerval}
   */
   readonly hellointerval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#id Clusterinstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#id Clusterinstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#inc Clusterinstance#inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#inc Clusterinstance#inc}
   */
   readonly inc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#nodegroup Clusterinstance#nodegroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#nodegroup Clusterinstance#nodegroup}
   */
   readonly nodegroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#preemption Clusterinstance#preemption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#preemption Clusterinstance#preemption}
   */
   readonly preemption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#processlocal Clusterinstance#processlocal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#processlocal Clusterinstance#processlocal}
   */
   readonly processlocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#quorumtype Clusterinstance#quorumtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#quorumtype Clusterinstance#quorumtype}
   */
   readonly quorumtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#retainconnectionsoncluster Clusterinstance#retainconnectionsoncluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#retainconnectionsoncluster Clusterinstance#retainconnectionsoncluster}
   */
   readonly retainconnectionsoncluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#secureheartbeats Clusterinstance#secureheartbeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#secureheartbeats Clusterinstance#secureheartbeats}
   */
   readonly secureheartbeats?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#syncstatusstrictmode Clusterinstance#syncstatusstrictmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#syncstatusstrictmode Clusterinstance#syncstatusstrictmode}
   */
   readonly syncstatusstrictmode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance citrixadc_clusterinstance}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance citrixadc_clusterinstance}
 */
 export class Clusterinstance extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class Clusterinstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Clusterinstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Clusterinstance to import
-  * @param importFromId The id of the existing Clusterinstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Clusterinstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Clusterinstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class Clusterinstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/clusterinstance citrixadc_clusterinstance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/clusterinstance citrixadc_clusterinstance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class Clusterinstance extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_clusterinstance',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

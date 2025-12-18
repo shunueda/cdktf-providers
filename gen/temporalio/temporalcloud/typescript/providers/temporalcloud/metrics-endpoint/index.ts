@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface MetricsEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Base64-encoded CA cert in PEM format used to authenticate clients connecting to the metrics endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint#accepted_client_ca MetricsEndpoint#accepted_client_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint#accepted_client_ca MetricsEndpoint#accepted_client_ca}
   */
   readonly acceptedClientCa: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint#timeouts MetricsEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint#timeouts MetricsEndpoint#timeouts}
   */
   readonly timeouts?: MetricsEndpointTimeouts;
 }
@@ -24,19 +24,19 @@ export interface MetricsEndpointTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint#create MetricsEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint#create MetricsEndpoint#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint#delete MetricsEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint#delete MetricsEndpoint#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint#update MetricsEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint#update MetricsEndpoint#update}
   */
   readonly update?: string;
 }
@@ -188,7 +188,7 @@ export class MetricsEndpointTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint temporalcloud_metrics_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint temporalcloud_metrics_endpoint}
 */
 export class MetricsEndpoint extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class MetricsEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricsEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricsEndpoint to import
-  * @param importFromId The id of the existing MetricsEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricsEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricsEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class MetricsEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/metrics_endpoint temporalcloud_metrics_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/metrics_endpoint temporalcloud_metrics_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class MetricsEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_metrics_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreComputeCapacityTopologyComputeHpcIslandsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#availability_domain DataOciCoreComputeCapacityTopologyComputeHpcIslands#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#availability_domain DataOciCoreComputeCapacityTopologyComputeHpcIslands#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compartment_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compartment_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compute_capacity_topology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compute_capacity_topology_id}
   */
   readonly computeCapacityTopologyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#id DataOciCoreComputeCapacityTopologyComputeHpcIslands#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#id DataOciCoreComputeCapacityTopologyComputeHpcIslands#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DataOciCoreComputeCapacityTopologyComputeHpcIslandsConfig exten
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#filter DataOciCoreComputeCapacityTopologyComputeHpcIslands#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#filter DataOciCoreComputeCapacityTopologyComputeHpcIslands#filter}
   */
   readonly filter?: DataOciCoreComputeCapacityTopologyComputeHpcIslandsFilter[] | cdktf.IResolvable;
 }
@@ -211,15 +211,15 @@ export class DataOciCoreComputeCapacityTopologyComputeHpcIslandsComputeHpcIsland
 }
 export interface DataOciCoreComputeCapacityTopologyComputeHpcIslandsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#name DataOciCoreComputeCapacityTopologyComputeHpcIslands#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#name DataOciCoreComputeCapacityTopologyComputeHpcIslands#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#regex DataOciCoreComputeCapacityTopologyComputeHpcIslands#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#regex DataOciCoreComputeCapacityTopologyComputeHpcIslands#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#values DataOciCoreComputeCapacityTopologyComputeHpcIslands#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#values DataOciCoreComputeCapacityTopologyComputeHpcIslands#values}
   */
   readonly values: string[];
 }
@@ -387,7 +387,7 @@ export class DataOciCoreComputeCapacityTopologyComputeHpcIslandsFilterList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands oci_core_compute_capacity_topology_compute_hpc_islands}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands oci_core_compute_capacity_topology_compute_hpc_islands}
 */
 export class DataOciCoreComputeCapacityTopologyComputeHpcIslands extends cdktf.TerraformDataSource {
 
@@ -403,7 +403,7 @@ export class DataOciCoreComputeCapacityTopologyComputeHpcIslands extends cdktf.T
   * Generates CDKTF code for importing a DataOciCoreComputeCapacityTopologyComputeHpcIslands resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreComputeCapacityTopologyComputeHpcIslands to import
-  * @param importFromId The id of the existing DataOciCoreComputeCapacityTopologyComputeHpcIslands that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreComputeCapacityTopologyComputeHpcIslands that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreComputeCapacityTopologyComputeHpcIslands to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class DataOciCoreComputeCapacityTopologyComputeHpcIslands extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands oci_core_compute_capacity_topology_compute_hpc_islands} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands oci_core_compute_capacity_topology_compute_hpc_islands} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class DataOciCoreComputeCapacityTopologyComputeHpcIslands extends cdktf.T
       terraformResourceType: 'oci_core_compute_capacity_topology_compute_hpc_islands',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

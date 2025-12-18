@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface AppqoeparameterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter#avgwaitingclient Appqoeparameter#avgwaitingclient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter#avgwaitingclient Appqoeparameter#avgwaitingclient}
   */
   readonly avgwaitingclient?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter#dosattackthresh Appqoeparameter#dosattackthresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter#dosattackthresh Appqoeparameter#dosattackthresh}
   */
   readonly dosattackthresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter#id Appqoeparameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter#id Appqoeparameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter#maxaltrespbandwidth Appqoeparameter#maxaltrespbandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter#maxaltrespbandwidth Appqoeparameter#maxaltrespbandwidth}
   */
   readonly maxaltrespbandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter#sessionlife Appqoeparameter#sessionlife}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter#sessionlife Appqoeparameter#sessionlife}
   */
   readonly sessionlife?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter citrixadc_appqoeparameter}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter citrixadc_appqoeparameter}
 */
 export class Appqoeparameter extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class Appqoeparameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Appqoeparameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Appqoeparameter to import
-  * @param importFromId The id of the existing Appqoeparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Appqoeparameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Appqoeparameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class Appqoeparameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/appqoeparameter citrixadc_appqoeparameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/appqoeparameter citrixadc_appqoeparameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class Appqoeparameter extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_appqoeparameter',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

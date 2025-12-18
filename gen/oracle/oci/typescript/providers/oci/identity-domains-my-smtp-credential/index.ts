@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsMySmtpCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#authorization IdentityDomainsMySmtpCredential#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#authorization IdentityDomainsMySmtpCredential#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#description IdentityDomainsMySmtpCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#description IdentityDomainsMySmtpCredential#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#expires_on IdentityDomainsMySmtpCredential#expires_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#expires_on IdentityDomainsMySmtpCredential#expires_on}
   */
   readonly expiresOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#idcs_endpoint IdentityDomainsMySmtpCredential#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#idcs_endpoint IdentityDomainsMySmtpCredential#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#ocid IdentityDomainsMySmtpCredential#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#ocid IdentityDomainsMySmtpCredential#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#resource_type_schema_version IdentityDomainsMySmtpCredential#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#resource_type_schema_version IdentityDomainsMySmtpCredential#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#schemas IdentityDomainsMySmtpCredential#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#schemas IdentityDomainsMySmtpCredential#schemas}
   */
   readonly schemas: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#status IdentityDomainsMySmtpCredential#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#status IdentityDomainsMySmtpCredential#status}
   */
   readonly status?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#tags IdentityDomainsMySmtpCredential#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#tags IdentityDomainsMySmtpCredential#tags}
   */
   readonly tags?: IdentityDomainsMySmtpCredentialTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#timeouts IdentityDomainsMySmtpCredential#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#timeouts IdentityDomainsMySmtpCredential#timeouts}
   */
   readonly timeouts?: IdentityDomainsMySmtpCredentialTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#user IdentityDomainsMySmtpCredential#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#user IdentityDomainsMySmtpCredential#user}
   */
   readonly user?: IdentityDomainsMySmtpCredentialUser;
 }
@@ -345,11 +345,11 @@ export class IdentityDomainsMySmtpCredentialMetaList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsMySmtpCredentialTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#key IdentityDomainsMySmtpCredential#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#key IdentityDomainsMySmtpCredential#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#value IdentityDomainsMySmtpCredential#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#value IdentityDomainsMySmtpCredential#value}
   */
   readonly value: string;
 }
@@ -488,15 +488,15 @@ export class IdentityDomainsMySmtpCredentialTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsMySmtpCredentialTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#create IdentityDomainsMySmtpCredential#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#create IdentityDomainsMySmtpCredential#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#delete IdentityDomainsMySmtpCredential#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#delete IdentityDomainsMySmtpCredential#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#update IdentityDomainsMySmtpCredential#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#update IdentityDomainsMySmtpCredential#update}
   */
   readonly update?: string;
 }
@@ -648,11 +648,11 @@ export class IdentityDomainsMySmtpCredentialTimeoutsOutputReference extends cdkt
 }
 export interface IdentityDomainsMySmtpCredentialUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#ocid IdentityDomainsMySmtpCredential#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#ocid IdentityDomainsMySmtpCredential#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#value IdentityDomainsMySmtpCredential#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#value IdentityDomainsMySmtpCredential#value}
   */
   readonly value?: string;
 }
@@ -780,7 +780,7 @@ export class IdentityDomainsMySmtpCredentialUserOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential oci_identity_domains_my_smtp_credential}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential oci_identity_domains_my_smtp_credential}
 */
 export class IdentityDomainsMySmtpCredential extends cdktf.TerraformResource {
 
@@ -796,7 +796,7 @@ export class IdentityDomainsMySmtpCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsMySmtpCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsMySmtpCredential to import
-  * @param importFromId The id of the existing IdentityDomainsMySmtpCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsMySmtpCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsMySmtpCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -808,7 +808,7 @@ export class IdentityDomainsMySmtpCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_smtp_credential oci_identity_domains_my_smtp_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/identity_domains_my_smtp_credential oci_identity_domains_my_smtp_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -819,8 +819,8 @@ export class IdentityDomainsMySmtpCredential extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_my_smtp_credential',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

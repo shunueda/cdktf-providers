@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseDbNodeConsoleConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#db_node_id DatabaseDbNodeConsoleConnection#db_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#db_node_id DatabaseDbNodeConsoleConnection#db_node_id}
   */
   readonly dbNodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#defined_tags DatabaseDbNodeConsoleConnection#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#defined_tags DatabaseDbNodeConsoleConnection#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#freeform_tags DatabaseDbNodeConsoleConnection#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#freeform_tags DatabaseDbNodeConsoleConnection#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#id DatabaseDbNodeConsoleConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#id DatabaseDbNodeConsoleConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#public_key DatabaseDbNodeConsoleConnection#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#public_key DatabaseDbNodeConsoleConnection#public_key}
   */
   readonly publicKey: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#timeouts DatabaseDbNodeConsoleConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#timeouts DatabaseDbNodeConsoleConnection#timeouts}
   */
   readonly timeouts?: DatabaseDbNodeConsoleConnectionTimeouts;
 }
 export interface DatabaseDbNodeConsoleConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#create DatabaseDbNodeConsoleConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#create DatabaseDbNodeConsoleConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#delete DatabaseDbNodeConsoleConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#delete DatabaseDbNodeConsoleConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#update DatabaseDbNodeConsoleConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#update DatabaseDbNodeConsoleConnection#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class DatabaseDbNodeConsoleConnectionTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection oci_database_db_node_console_connection}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection oci_database_db_node_console_connection}
 */
 export class DatabaseDbNodeConsoleConnection extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class DatabaseDbNodeConsoleConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseDbNodeConsoleConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseDbNodeConsoleConnection to import
-  * @param importFromId The id of the existing DatabaseDbNodeConsoleConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseDbNodeConsoleConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseDbNodeConsoleConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class DatabaseDbNodeConsoleConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_db_node_console_connection oci_database_db_node_console_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_db_node_console_connection oci_database_db_node_console_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class DatabaseDbNodeConsoleConnection extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_db_node_console_connection',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

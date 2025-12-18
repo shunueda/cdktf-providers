@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DbaasReplicasConfig extends cdktf.TerraformMetaArguments {
   /**
   * Compute and memory capacity of the replica determined by the instance-type field label (e.g., 'DP2-16-40'). Can be changed to scale the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas#instance_type DbaasReplicas#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas#instance_type DbaasReplicas#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Replica name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas#name DbaasReplicas#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas#name DbaasReplicas#name}
   */
   readonly name: string;
   /**
   * ID of the source instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas#source_id DbaasReplicas#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas#source_id DbaasReplicas#source_id}
   */
   readonly sourceId: string;
   /**
   * Size of the storage volume in GB. Can be increased but not decreased after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas#volume_size DbaasReplicas#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas#volume_size DbaasReplicas#volume_size}
   */
   readonly volumeSize?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas mgc_dbaas_replicas}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas mgc_dbaas_replicas}
 */
 export class DbaasReplicas extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DbaasReplicas extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbaasReplicas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbaasReplicas to import
-  * @param importFromId The id of the existing DbaasReplicas that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbaasReplicas that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbaasReplicas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DbaasReplicas extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/dbaas_replicas mgc_dbaas_replicas} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/dbaas_replicas mgc_dbaas_replicas} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DbaasReplicas extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_dbaas_replicas',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

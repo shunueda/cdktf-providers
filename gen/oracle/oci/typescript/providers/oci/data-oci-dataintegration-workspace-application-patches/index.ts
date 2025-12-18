@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataintegrationWorkspaceApplicationPatchesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#application_key DataOciDataintegrationWorkspaceApplicationPatches#application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#application_key DataOciDataintegrationWorkspaceApplicationPatches#application_key}
   */
   readonly applicationKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#fields DataOciDataintegrationWorkspaceApplicationPatches#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#fields DataOciDataintegrationWorkspaceApplicationPatches#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#id DataOciDataintegrationWorkspaceApplicationPatches#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#id DataOciDataintegrationWorkspaceApplicationPatches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#identifier DataOciDataintegrationWorkspaceApplicationPatches#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#identifier DataOciDataintegrationWorkspaceApplicationPatches#identifier}
   */
   readonly identifier?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#name DataOciDataintegrationWorkspaceApplicationPatches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#name DataOciDataintegrationWorkspaceApplicationPatches#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#workspace_id DataOciDataintegrationWorkspaceApplicationPatches#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#workspace_id DataOciDataintegrationWorkspaceApplicationPatches#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#filter DataOciDataintegrationWorkspaceApplicationPatches#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#filter DataOciDataintegrationWorkspaceApplicationPatches#filter}
   */
   readonly filter?: DataOciDataintegrationWorkspaceApplicationPatchesFilter[] | cdktf.IResolvable;
 }
@@ -1085,15 +1085,15 @@ export class DataOciDataintegrationWorkspaceApplicationPatchesPatchSummaryCollec
 }
 export interface DataOciDataintegrationWorkspaceApplicationPatchesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#name DataOciDataintegrationWorkspaceApplicationPatches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#name DataOciDataintegrationWorkspaceApplicationPatches#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#regex DataOciDataintegrationWorkspaceApplicationPatches#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#regex DataOciDataintegrationWorkspaceApplicationPatches#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#values DataOciDataintegrationWorkspaceApplicationPatches#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#values DataOciDataintegrationWorkspaceApplicationPatches#values}
   */
   readonly values: string[];
 }
@@ -1261,7 +1261,7 @@ export class DataOciDataintegrationWorkspaceApplicationPatchesFilterList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches oci_dataintegration_workspace_application_patches}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches oci_dataintegration_workspace_application_patches}
 */
 export class DataOciDataintegrationWorkspaceApplicationPatches extends cdktf.TerraformDataSource {
 
@@ -1277,7 +1277,7 @@ export class DataOciDataintegrationWorkspaceApplicationPatches extends cdktf.Ter
   * Generates CDKTF code for importing a DataOciDataintegrationWorkspaceApplicationPatches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataintegrationWorkspaceApplicationPatches to import
-  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceApplicationPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceApplicationPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataintegrationWorkspaceApplicationPatches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1289,7 +1289,7 @@ export class DataOciDataintegrationWorkspaceApplicationPatches extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_application_patches oci_dataintegration_workspace_application_patches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/dataintegration_workspace_application_patches oci_dataintegration_workspace_application_patches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1300,8 +1300,8 @@ export class DataOciDataintegrationWorkspaceApplicationPatches extends cdktf.Ter
       terraformResourceType: 'oci_dataintegration_workspace_application_patches',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

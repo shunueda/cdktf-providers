@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface BdsBdsInstanceNodeBackupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#backup_config_id BdsBdsInstanceNodeBackup#backup_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#backup_config_id BdsBdsInstanceNodeBackup#backup_config_id}
   */
   readonly backupConfigId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#backup_type BdsBdsInstanceNodeBackup#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#backup_type BdsBdsInstanceNodeBackup#backup_type}
   */
   readonly backupType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#bds_instance_id BdsBdsInstanceNodeBackup#bds_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#bds_instance_id BdsBdsInstanceNodeBackup#bds_instance_id}
   */
   readonly bdsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#display_name BdsBdsInstanceNodeBackup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#display_name BdsBdsInstanceNodeBackup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#id BdsBdsInstanceNodeBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#id BdsBdsInstanceNodeBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#node_instance_id BdsBdsInstanceNodeBackup#node_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#node_instance_id BdsBdsInstanceNodeBackup#node_instance_id}
   */
   readonly nodeInstanceId?: string;
   /**
   * level_type_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#level_type_details BdsBdsInstanceNodeBackup#level_type_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#level_type_details BdsBdsInstanceNodeBackup#level_type_details}
   */
   readonly levelTypeDetails: BdsBdsInstanceNodeBackupLevelTypeDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#timeouts BdsBdsInstanceNodeBackup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#timeouts BdsBdsInstanceNodeBackup#timeouts}
   */
   readonly timeouts?: BdsBdsInstanceNodeBackupTimeouts;
 }
 export interface BdsBdsInstanceNodeBackupLevelTypeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#level_type BdsBdsInstanceNodeBackup#level_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#level_type BdsBdsInstanceNodeBackup#level_type}
   */
   readonly levelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#node_host_name BdsBdsInstanceNodeBackup#node_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#node_host_name BdsBdsInstanceNodeBackup#node_host_name}
   */
   readonly nodeHostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#node_type BdsBdsInstanceNodeBackup#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#node_type BdsBdsInstanceNodeBackup#node_type}
   */
   readonly nodeType?: string;
 }
@@ -196,15 +196,15 @@ export class BdsBdsInstanceNodeBackupLevelTypeDetailsOutputReference extends cdk
 }
 export interface BdsBdsInstanceNodeBackupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#create BdsBdsInstanceNodeBackup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#create BdsBdsInstanceNodeBackup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#delete BdsBdsInstanceNodeBackup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#delete BdsBdsInstanceNodeBackup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#update BdsBdsInstanceNodeBackup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#update BdsBdsInstanceNodeBackup#update}
   */
   readonly update?: string;
 }
@@ -356,7 +356,7 @@ export class BdsBdsInstanceNodeBackupTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup oci_bds_bds_instance_node_backup}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup oci_bds_bds_instance_node_backup}
 */
 export class BdsBdsInstanceNodeBackup extends cdktf.TerraformResource {
 
@@ -372,7 +372,7 @@ export class BdsBdsInstanceNodeBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BdsBdsInstanceNodeBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BdsBdsInstanceNodeBackup to import
-  * @param importFromId The id of the existing BdsBdsInstanceNodeBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BdsBdsInstanceNodeBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BdsBdsInstanceNodeBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -384,7 +384,7 @@ export class BdsBdsInstanceNodeBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_node_backup oci_bds_bds_instance_node_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/bds_bds_instance_node_backup oci_bds_bds_instance_node_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,8 +395,8 @@ export class BdsBdsInstanceNodeBackup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_bds_bds_instance_node_backup',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

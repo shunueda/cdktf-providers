@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface NosqlConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#compartment_id NosqlConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#compartment_id NosqlConfiguration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#environment NosqlConfiguration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#environment NosqlConfiguration#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#id NosqlConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#id NosqlConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#is_opc_dry_run NosqlConfiguration#is_opc_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#is_opc_dry_run NosqlConfiguration#is_opc_dry_run}
   */
   readonly isOpcDryRun?: boolean | cdktf.IResolvable;
   /**
   * kms_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#kms_key NosqlConfiguration#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#kms_key NosqlConfiguration#kms_key}
   */
   readonly kmsKey?: NosqlConfigurationKmsKey;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#timeouts NosqlConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#timeouts NosqlConfiguration#timeouts}
   */
   readonly timeouts?: NosqlConfigurationTimeouts;
 }
 export interface NosqlConfigurationKmsKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#id NosqlConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#id NosqlConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#kms_key_state NosqlConfiguration#kms_key_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#kms_key_state NosqlConfiguration#kms_key_state}
   */
   readonly kmsKeyState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#kms_vault_id NosqlConfiguration#kms_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#kms_vault_id NosqlConfiguration#kms_vault_id}
   */
   readonly kmsVaultId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#time_created NosqlConfiguration#time_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#time_created NosqlConfiguration#time_created}
   */
   readonly timeCreated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#time_updated NosqlConfiguration#time_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#time_updated NosqlConfiguration#time_updated}
   */
   readonly timeUpdated?: string;
 }
@@ -260,15 +260,15 @@ export class NosqlConfigurationKmsKeyOutputReference extends cdktf.ComplexObject
 }
 export interface NosqlConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#create NosqlConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#create NosqlConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#delete NosqlConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#delete NosqlConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#update NosqlConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#update NosqlConfiguration#update}
   */
   readonly update?: string;
 }
@@ -420,7 +420,7 @@ export class NosqlConfigurationTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration oci_nosql_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration oci_nosql_configuration}
 */
 export class NosqlConfiguration extends cdktf.TerraformResource {
 
@@ -436,7 +436,7 @@ export class NosqlConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NosqlConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NosqlConfiguration to import
-  * @param importFromId The id of the existing NosqlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NosqlConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NosqlConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +448,7 @@ export class NosqlConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/nosql_configuration oci_nosql_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/nosql_configuration oci_nosql_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +459,8 @@ export class NosqlConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'oci_nosql_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

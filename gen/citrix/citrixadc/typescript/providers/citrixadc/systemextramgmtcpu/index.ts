@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface SystemextramgmtcpuConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#enabled Systemextramgmtcpu#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#enabled Systemextramgmtcpu#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#id Systemextramgmtcpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#id Systemextramgmtcpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#reachable_poll_delay Systemextramgmtcpu#reachable_poll_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#reachable_poll_delay Systemextramgmtcpu#reachable_poll_delay}
   */
   readonly reachablePollDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#reachable_poll_interval Systemextramgmtcpu#reachable_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#reachable_poll_interval Systemextramgmtcpu#reachable_poll_interval}
   */
   readonly reachablePollInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#reachable_poll_timeout Systemextramgmtcpu#reachable_poll_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#reachable_poll_timeout Systemextramgmtcpu#reachable_poll_timeout}
   */
   readonly reachablePollTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#reachable_timeout Systemextramgmtcpu#reachable_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#reachable_timeout Systemextramgmtcpu#reachable_timeout}
   */
   readonly reachableTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#reboot Systemextramgmtcpu#reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#reboot Systemextramgmtcpu#reboot}
   */
   readonly reboot?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu citrixadc_systemextramgmtcpu}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu citrixadc_systemextramgmtcpu}
 */
 export class Systemextramgmtcpu extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Systemextramgmtcpu extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Systemextramgmtcpu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Systemextramgmtcpu to import
-  * @param importFromId The id of the existing Systemextramgmtcpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Systemextramgmtcpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Systemextramgmtcpu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Systemextramgmtcpu extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemextramgmtcpu citrixadc_systemextramgmtcpu} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemextramgmtcpu citrixadc_systemextramgmtcpu} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Systemextramgmtcpu extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_systemextramgmtcpu',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

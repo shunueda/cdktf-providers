@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule
+// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface UserLifecycleRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action to take on inactive users (disable or delete)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#action UserLifecycleRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#action UserLifecycleRule#action}
   */
   readonly action?: string;
   /**
   * User authentication method for which the rule will apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#authentication_method UserLifecycleRule#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#authentication_method UserLifecycleRule#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Array of Group IDs to which the rule applies. If empty or not set, the rule applies to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#group_ids UserLifecycleRule#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#group_ids UserLifecycleRule#group_ids}
   */
   readonly groupIds?: number[];
   /**
   * Number of days of inactivity before the rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#inactivity_days UserLifecycleRule#inactivity_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#inactivity_days UserLifecycleRule#inactivity_days}
   */
   readonly inactivityDays?: number;
   /**
   * If true, the rule will apply to folder admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#include_folder_admins UserLifecycleRule#include_folder_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#include_folder_admins UserLifecycleRule#include_folder_admins}
   */
   readonly includeFolderAdmins?: boolean | cdktf.IResolvable;
   /**
   * If true, the rule will apply to site admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#include_site_admins UserLifecycleRule#include_site_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#include_site_admins UserLifecycleRule#include_site_admins}
   */
   readonly includeSiteAdmins?: boolean | cdktf.IResolvable;
   /**
   * User Lifecycle Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#name UserLifecycleRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#name UserLifecycleRule#name}
   */
   readonly name?: string;
   /**
   * If provided, only users belonging to Partners with this tag at the Partner level will be affected by the rule. Tags must only contain lowercase letters, numbers, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#partner_tag UserLifecycleRule#partner_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#partner_tag UserLifecycleRule#partner_tag}
   */
   readonly partnerTag?: string;
   /**
   * State of the users to apply the rule to (inactive or disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#user_state UserLifecycleRule#user_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#user_state UserLifecycleRule#user_state}
   */
   readonly userState?: string;
   /**
   * If provided, only users with this tag will be affected by the rule. Tags must only contain lowercase letters, numbers, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#user_tag UserLifecycleRule#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#user_tag UserLifecycleRule#user_tag}
   */
   readonly userTag?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule files_user_lifecycle_rule}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule files_user_lifecycle_rule}
 */
 export class UserLifecycleRule extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class UserLifecycleRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserLifecycleRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserLifecycleRule to import
-  * @param importFromId The id of the existing UserLifecycleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserLifecycleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserLifecycleRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class UserLifecycleRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.412/docs/resources/user_lifecycle_rule files_user_lifecycle_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/user_lifecycle_rule files_user_lifecycle_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class UserLifecycleRule extends cdktf.TerraformResource {
       terraformResourceType: 'files_user_lifecycle_rule',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.412',
-        providerVersionConstraint: '0.1.412'
+        providerVersion: '0.1.415',
+        providerVersionConstraint: '0.1.415'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

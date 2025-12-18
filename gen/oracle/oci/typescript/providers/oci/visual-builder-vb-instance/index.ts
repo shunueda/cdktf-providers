@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface VisualBuilderVbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#compartment_id VisualBuilderVbInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#compartment_id VisualBuilderVbInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#consumption_model VisualBuilderVbInstance#consumption_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#consumption_model VisualBuilderVbInstance#consumption_model}
   */
   readonly consumptionModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#defined_tags VisualBuilderVbInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#defined_tags VisualBuilderVbInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#display_name VisualBuilderVbInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#display_name VisualBuilderVbInstance#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#freeform_tags VisualBuilderVbInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#freeform_tags VisualBuilderVbInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#id VisualBuilderVbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#id VisualBuilderVbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#idcs_open_id VisualBuilderVbInstance#idcs_open_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#idcs_open_id VisualBuilderVbInstance#idcs_open_id}
   */
   readonly idcsOpenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#is_visual_builder_enabled VisualBuilderVbInstance#is_visual_builder_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#is_visual_builder_enabled VisualBuilderVbInstance#is_visual_builder_enabled}
   */
   readonly isVisualBuilderEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#node_count VisualBuilderVbInstance#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#node_count VisualBuilderVbInstance#node_count}
   */
   readonly nodeCount: number;
   /**
   * alternate_custom_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#alternate_custom_endpoints VisualBuilderVbInstance#alternate_custom_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#alternate_custom_endpoints VisualBuilderVbInstance#alternate_custom_endpoints}
   */
   readonly alternateCustomEndpoints?: VisualBuilderVbInstanceAlternateCustomEndpoints[] | cdktf.IResolvable;
   /**
   * custom_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#custom_endpoint VisualBuilderVbInstance#custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#custom_endpoint VisualBuilderVbInstance#custom_endpoint}
   */
   readonly customEndpoint?: VisualBuilderVbInstanceCustomEndpoint;
   /**
   * network_endpoint_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#network_endpoint_details VisualBuilderVbInstance#network_endpoint_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#network_endpoint_details VisualBuilderVbInstance#network_endpoint_details}
   */
   readonly networkEndpointDetails?: VisualBuilderVbInstanceNetworkEndpointDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#timeouts VisualBuilderVbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#timeouts VisualBuilderVbInstance#timeouts}
   */
   readonly timeouts?: VisualBuilderVbInstanceTimeouts;
 }
 export interface VisualBuilderVbInstanceAlternateCustomEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#certificate_secret_id VisualBuilderVbInstance#certificate_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#certificate_secret_id VisualBuilderVbInstance#certificate_secret_id}
   */
   readonly certificateSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#hostname VisualBuilderVbInstance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#hostname VisualBuilderVbInstance#hostname}
   */
   readonly hostname: string;
 }
@@ -224,11 +224,11 @@ export class VisualBuilderVbInstanceAlternateCustomEndpointsList extends cdktf.C
 }
 export interface VisualBuilderVbInstanceCustomEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#certificate_secret_id VisualBuilderVbInstance#certificate_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#certificate_secret_id VisualBuilderVbInstance#certificate_secret_id}
   */
   readonly certificateSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#hostname VisualBuilderVbInstance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#hostname VisualBuilderVbInstance#hostname}
   */
   readonly hostname: string;
 }
@@ -343,11 +343,11 @@ export class VisualBuilderVbInstanceCustomEndpointOutputReference extends cdktf.
 }
 export interface VisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#allowlisted_ip_cidrs VisualBuilderVbInstance#allowlisted_ip_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#allowlisted_ip_cidrs VisualBuilderVbInstance#allowlisted_ip_cidrs}
   */
   readonly allowlistedIpCidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#id VisualBuilderVbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#id VisualBuilderVbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,29 +492,29 @@ export class VisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcnsLis
 }
 export interface VisualBuilderVbInstanceNetworkEndpointDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#allowlisted_http_ips VisualBuilderVbInstance#allowlisted_http_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#allowlisted_http_ips VisualBuilderVbInstance#allowlisted_http_ips}
   */
   readonly allowlistedHttpIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#network_endpoint_type VisualBuilderVbInstance#network_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#network_endpoint_type VisualBuilderVbInstance#network_endpoint_type}
   */
   readonly networkEndpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#network_security_group_ids VisualBuilderVbInstance#network_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#network_security_group_ids VisualBuilderVbInstance#network_security_group_ids}
   */
   readonly networkSecurityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#private_endpoint_ip VisualBuilderVbInstance#private_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#private_endpoint_ip VisualBuilderVbInstance#private_endpoint_ip}
   */
   readonly privateEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#subnet_id VisualBuilderVbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#subnet_id VisualBuilderVbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * allowlisted_http_vcns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#allowlisted_http_vcns VisualBuilderVbInstance#allowlisted_http_vcns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#allowlisted_http_vcns VisualBuilderVbInstance#allowlisted_http_vcns}
   */
   readonly allowlistedHttpVcns?: VisualBuilderVbInstanceNetworkEndpointDetailsAllowlistedHttpVcns[] | cdktf.IResolvable;
 }
@@ -740,15 +740,15 @@ export class VisualBuilderVbInstanceNetworkEndpointDetailsOutputReference extend
 }
 export interface VisualBuilderVbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#create VisualBuilderVbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#create VisualBuilderVbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#delete VisualBuilderVbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#delete VisualBuilderVbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#update VisualBuilderVbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#update VisualBuilderVbInstance#update}
   */
   readonly update?: string;
 }
@@ -900,7 +900,7 @@ export class VisualBuilderVbInstanceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance oci_visual_builder_vb_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance oci_visual_builder_vb_instance}
 */
 export class VisualBuilderVbInstance extends cdktf.TerraformResource {
 
@@ -916,7 +916,7 @@ export class VisualBuilderVbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisualBuilderVbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisualBuilderVbInstance to import
-  * @param importFromId The id of the existing VisualBuilderVbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisualBuilderVbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisualBuilderVbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -928,7 +928,7 @@ export class VisualBuilderVbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/visual_builder_vb_instance oci_visual_builder_vb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/visual_builder_vb_instance oci_visual_builder_vb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -939,8 +939,8 @@ export class VisualBuilderVbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_visual_builder_vb_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

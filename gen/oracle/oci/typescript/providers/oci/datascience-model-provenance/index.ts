@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceModelProvenanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#git_branch DatascienceModelProvenance#git_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#git_branch DatascienceModelProvenance#git_branch}
   */
   readonly gitBranch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#git_commit DatascienceModelProvenance#git_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#git_commit DatascienceModelProvenance#git_commit}
   */
   readonly gitCommit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#id DatascienceModelProvenance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#id DatascienceModelProvenance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#model_id DatascienceModelProvenance#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#model_id DatascienceModelProvenance#model_id}
   */
   readonly modelId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#repository_url DatascienceModelProvenance#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#repository_url DatascienceModelProvenance#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#script_dir DatascienceModelProvenance#script_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#script_dir DatascienceModelProvenance#script_dir}
   */
   readonly scriptDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#training_id DatascienceModelProvenance#training_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#training_id DatascienceModelProvenance#training_id}
   */
   readonly trainingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#training_script DatascienceModelProvenance#training_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#training_script DatascienceModelProvenance#training_script}
   */
   readonly trainingScript?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#timeouts DatascienceModelProvenance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#timeouts DatascienceModelProvenance#timeouts}
   */
   readonly timeouts?: DatascienceModelProvenanceTimeouts;
 }
 export interface DatascienceModelProvenanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#create DatascienceModelProvenance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#create DatascienceModelProvenance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#delete DatascienceModelProvenance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#delete DatascienceModelProvenance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#update DatascienceModelProvenance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#update DatascienceModelProvenance#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class DatascienceModelProvenanceTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance oci_datascience_model_provenance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance oci_datascience_model_provenance}
 */
 export class DatascienceModelProvenance extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DatascienceModelProvenance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceModelProvenance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceModelProvenance to import
-  * @param importFromId The id of the existing DatascienceModelProvenance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceModelProvenance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceModelProvenance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DatascienceModelProvenance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_provenance oci_datascience_model_provenance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_provenance oci_datascience_model_provenance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DatascienceModelProvenance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_model_provenance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

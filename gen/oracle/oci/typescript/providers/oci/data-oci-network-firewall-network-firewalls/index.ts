@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciNetworkFirewallNetworkFirewallsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#availability_domain DataOciNetworkFirewallNetworkFirewalls#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#availability_domain DataOciNetworkFirewallNetworkFirewalls#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#compartment_id DataOciNetworkFirewallNetworkFirewalls#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#compartment_id DataOciNetworkFirewallNetworkFirewalls#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#display_name DataOciNetworkFirewallNetworkFirewalls#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#display_name DataOciNetworkFirewallNetworkFirewalls#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#id DataOciNetworkFirewallNetworkFirewalls#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#id DataOciNetworkFirewallNetworkFirewalls#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewalls#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewalls#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#state DataOciNetworkFirewallNetworkFirewalls#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#state DataOciNetworkFirewallNetworkFirewalls#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#filter DataOciNetworkFirewallNetworkFirewalls#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#filter DataOciNetworkFirewallNetworkFirewalls#filter}
   */
   readonly filter?: DataOciNetworkFirewallNetworkFirewallsFilter[] | cdktf.IResolvable;
 }
@@ -358,15 +358,15 @@ export class DataOciNetworkFirewallNetworkFirewallsNetworkFirewallCollectionList
 }
 export interface DataOciNetworkFirewallNetworkFirewallsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#name DataOciNetworkFirewallNetworkFirewalls#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#name DataOciNetworkFirewallNetworkFirewalls#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#regex DataOciNetworkFirewallNetworkFirewalls#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#regex DataOciNetworkFirewallNetworkFirewalls#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#values DataOciNetworkFirewallNetworkFirewalls#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#values DataOciNetworkFirewallNetworkFirewalls#values}
   */
   readonly values: string[];
 }
@@ -534,7 +534,7 @@ export class DataOciNetworkFirewallNetworkFirewallsFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls oci_network_firewall_network_firewalls}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls oci_network_firewall_network_firewalls}
 */
 export class DataOciNetworkFirewallNetworkFirewalls extends cdktf.TerraformDataSource {
 
@@ -550,7 +550,7 @@ export class DataOciNetworkFirewallNetworkFirewalls extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciNetworkFirewallNetworkFirewalls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciNetworkFirewallNetworkFirewalls to import
-  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewalls that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewalls that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciNetworkFirewallNetworkFirewalls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -562,7 +562,7 @@ export class DataOciNetworkFirewallNetworkFirewalls extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewalls oci_network_firewall_network_firewalls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/network_firewall_network_firewalls oci_network_firewall_network_firewalls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -573,8 +573,8 @@ export class DataOciNetworkFirewallNetworkFirewalls extends cdktf.TerraformDataS
       terraformResourceType: 'oci_network_firewall_network_firewalls',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ScimGroupPartialPermissionsConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the existing group to manage partial permissions for. This group must already exist and is typically from an external identity provider synced via SCIM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#group_id ScimGroupPartialPermissions#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#group_id ScimGroupPartialPermissions#group_id}
   */
   readonly groupId: number;
   /**
   * Partial set of permissions to apply to the group. These permissions will be added to any existing permissions. Other permissions on the group will not be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#permissions ScimGroupPartialPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#permissions ScimGroupPartialPermissions#permissions}
   */
   readonly permissions?: ScimGroupPartialPermissionsPermissions[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface ScimGroupPartialPermissionsPermissions {
   /**
   * Whether access should be provided for all projects or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#all_projects ScimGroupPartialPermissions#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#all_projects ScimGroupPartialPermissions#all_projects}
   */
   readonly allProjects: boolean | cdktf.IResolvable;
   /**
   * Set of permissions to apply. The permissions allowed are the same as the ones for the `dbtcloud_group` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#permission_set ScimGroupPartialPermissions#permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#permission_set ScimGroupPartialPermissions#permission_set}
   */
   readonly permissionSet: string;
   /**
   * Project ID to apply this permission to for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#project_id ScimGroupPartialPermissions#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#project_id ScimGroupPartialPermissions#project_id}
   */
   readonly projectId?: number;
   /**
@@ -46,7 +46,7 @@ export interface ScimGroupPartialPermissionsPermissions {
   * Not setting a value is the same as selecting `all`. 
   * Not all permission sets support environment level write settings, only `analyst`, `database_admin`, `developer`, `git_admin` and `team_admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#writable_environment_categories ScimGroupPartialPermissions#writable_environment_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#writable_environment_categories ScimGroupPartialPermissions#writable_environment_categories}
   */
   readonly writableEnvironmentCategories?: string[];
 }
@@ -243,7 +243,7 @@ export class ScimGroupPartialPermissionsPermissionsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions dbtcloud_scim_group_partial_permissions}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions dbtcloud_scim_group_partial_permissions}
 */
 export class ScimGroupPartialPermissions extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class ScimGroupPartialPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScimGroupPartialPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScimGroupPartialPermissions to import
-  * @param importFromId The id of the existing ScimGroupPartialPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScimGroupPartialPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScimGroupPartialPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class ScimGroupPartialPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/scim_group_partial_permissions dbtcloud_scim_group_partial_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/scim_group_partial_permissions dbtcloud_scim_group_partial_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class ScimGroupPartialPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_scim_group_partial_permissions',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

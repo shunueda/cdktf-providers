@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/relationship_definition
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/relationship_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOpslevelRelationshipDefinitionConfig extends cdktf.Terrafor
   /**
   * The identifier (id or alias) of the component type to lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/relationship_definition#identifier DataOpslevelRelationshipDefinition#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/relationship_definition#identifier DataOpslevelRelationshipDefinition#identifier}
   */
   readonly identifier: string;
 }
@@ -131,7 +131,7 @@ export class DataOpslevelRelationshipDefinitionManagementRulesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/relationship_definition opslevel_relationship_definition}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/relationship_definition opslevel_relationship_definition}
 */
 export class DataOpslevelRelationshipDefinition extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataOpslevelRelationshipDefinition extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOpslevelRelationshipDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpslevelRelationshipDefinition to import
-  * @param importFromId The id of the existing DataOpslevelRelationshipDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/relationship_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpslevelRelationshipDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/relationship_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpslevelRelationshipDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataOpslevelRelationshipDefinition extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/data-sources/relationship_definition opslevel_relationship_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/data-sources/relationship_definition opslevel_relationship_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataOpslevelRelationshipDefinition extends cdktf.TerraformDataSourc
       terraformResourceType: 'opslevel_relationship_definition',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

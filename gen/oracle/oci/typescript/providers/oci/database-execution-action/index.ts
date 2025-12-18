@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExecutionActionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#action_params DatabaseExecutionAction#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#action_params DatabaseExecutionAction#action_params}
   */
   readonly actionParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#action_type DatabaseExecutionAction#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#action_type DatabaseExecutionAction#action_type}
   */
   readonly actionType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#compartment_id DatabaseExecutionAction#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#compartment_id DatabaseExecutionAction#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#defined_tags DatabaseExecutionAction#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#defined_tags DatabaseExecutionAction#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#execution_window_id DatabaseExecutionAction#execution_window_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#execution_window_id DatabaseExecutionAction#execution_window_id}
   */
   readonly executionWindowId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#freeform_tags DatabaseExecutionAction#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#freeform_tags DatabaseExecutionAction#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#id DatabaseExecutionAction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#id DatabaseExecutionAction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,35 +41,35 @@ export interface DatabaseExecutionActionConfig extends cdktf.TerraformMetaArgume
   /**
   * action_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#action_members DatabaseExecutionAction#action_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#action_members DatabaseExecutionAction#action_members}
   */
   readonly actionMembers?: DatabaseExecutionActionActionMembers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#timeouts DatabaseExecutionAction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#timeouts DatabaseExecutionAction#timeouts}
   */
   readonly timeouts?: DatabaseExecutionActionTimeouts;
 }
 export interface DatabaseExecutionActionActionMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#estimated_time_in_mins DatabaseExecutionAction#estimated_time_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#estimated_time_in_mins DatabaseExecutionAction#estimated_time_in_mins}
   */
   readonly estimatedTimeInMins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#member_id DatabaseExecutionAction#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#member_id DatabaseExecutionAction#member_id}
   */
   readonly memberId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#member_order DatabaseExecutionAction#member_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#member_order DatabaseExecutionAction#member_order}
   */
   readonly memberOrder: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#status DatabaseExecutionAction#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#status DatabaseExecutionAction#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#total_time_taken_in_mins DatabaseExecutionAction#total_time_taken_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#total_time_taken_in_mins DatabaseExecutionAction#total_time_taken_in_mins}
   */
   readonly totalTimeTakenInMins?: number;
 }
@@ -295,15 +295,15 @@ export class DatabaseExecutionActionActionMembersList extends cdktf.ComplexList 
 }
 export interface DatabaseExecutionActionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#create DatabaseExecutionAction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#create DatabaseExecutionAction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#delete DatabaseExecutionAction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#delete DatabaseExecutionAction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#update DatabaseExecutionAction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#update DatabaseExecutionAction#update}
   */
   readonly update?: string;
 }
@@ -455,7 +455,7 @@ export class DatabaseExecutionActionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action oci_database_execution_action}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action oci_database_execution_action}
 */
 export class DatabaseExecutionAction extends cdktf.TerraformResource {
 
@@ -471,7 +471,7 @@ export class DatabaseExecutionAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseExecutionAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExecutionAction to import
-  * @param importFromId The id of the existing DatabaseExecutionAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExecutionAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExecutionAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -483,7 +483,7 @@ export class DatabaseExecutionAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_action oci_database_execution_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/database_execution_action oci_database_execution_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -494,8 +494,8 @@ export class DatabaseExecutionAction extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_execution_action',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

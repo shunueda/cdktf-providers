@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IntegrationAzureResourcesConfig extends cdktf.TerraformMetaArgu
   /**
   * The client id OpsLevel uses to access the Azure account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#client_id IntegrationAzureResources#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#client_id IntegrationAzureResources#client_id}
   */
   readonly clientId: string;
   /**
   * The client secret OpsLevel uses to access the Azure account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#client_secret IntegrationAzureResources#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#client_secret IntegrationAzureResources#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#name IntegrationAzureResources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#name IntegrationAzureResources#name}
   */
   readonly name: string;
   /**
   * An Array of tag keys used to associate ownership from an integration. Max 5 (default = ["owner"])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#ownership_tag_keys IntegrationAzureResources#ownership_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#ownership_tag_keys IntegrationAzureResources#ownership_tag_keys}
   */
   readonly ownershipTagKeys?: string[];
   /**
   * Allow tags imported from Azure to override ownership set in OpsLevel directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#ownership_tag_overrides IntegrationAzureResources#ownership_tag_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#ownership_tag_overrides IntegrationAzureResources#ownership_tag_overrides}
   */
   readonly ownershipTagOverrides?: boolean | cdktf.IResolvable;
   /**
   * The subscription OpsLevel uses to access the Azure account. [Microsoft's docs on regex pattern for ID](https://learn.microsoft.com/en-us/rest/api/defenderforcloud/tasks/get-subscription-level-task?view=rest-defenderforcloud-2015-06-01-preview&tabs=HTTP#uri-parameters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#subscription_id IntegrationAzureResources#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#subscription_id IntegrationAzureResources#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The tenant OpsLevel uses to access the Azure account. [Microsoft's docs on regex pattern for ID](https://learn.microsoft.com/en-us/rest/api/defenderforcloud/tasks/get-subscription-level-task?view=rest-defenderforcloud-2015-06-01-preview&tabs=HTTP#uri-parameters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#tenant_id IntegrationAzureResources#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#tenant_id IntegrationAzureResources#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources opslevel_integration_azure_resources}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources opslevel_integration_azure_resources}
 */
 export class IntegrationAzureResources extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class IntegrationAzureResources extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAzureResources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAzureResources to import
-  * @param importFromId The id of the existing IntegrationAzureResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAzureResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAzureResources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class IntegrationAzureResources extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_azure_resources opslevel_integration_azure_resources} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_azure_resources opslevel_integration_azure_resources} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class IntegrationAzureResources extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_integration_azure_resources',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

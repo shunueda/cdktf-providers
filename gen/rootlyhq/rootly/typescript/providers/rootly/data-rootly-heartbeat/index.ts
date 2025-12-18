@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/heartbeat
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/heartbeat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyHeartbeatConfig extends cdktf.TerraformMetaArguments 
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/heartbeat#created_at DataRootlyHeartbeat#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/heartbeat#created_at DataRootlyHeartbeat#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/heartbeat#name DataRootlyHeartbeat#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/heartbeat#name DataRootlyHeartbeat#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/heartbeat rootly_heartbeat}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/heartbeat rootly_heartbeat}
 */
 export class DataRootlyHeartbeat extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlyHeartbeat extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyHeartbeat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyHeartbeat to import
-  * @param importFromId The id of the existing DataRootlyHeartbeat that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/heartbeat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyHeartbeat that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/heartbeat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyHeartbeat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlyHeartbeat extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/data-sources/heartbeat rootly_heartbeat} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/data-sources/heartbeat rootly_heartbeat} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlyHeartbeat extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_heartbeat',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

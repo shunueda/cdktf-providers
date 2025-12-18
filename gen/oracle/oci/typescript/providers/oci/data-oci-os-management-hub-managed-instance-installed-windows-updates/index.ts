@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name_contains}
   */
   readonly displayNameContains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#managed_instance_id}
   */
   readonly managedInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#name}
   */
   readonly name?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#filter DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#filter DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#filter}
   */
   readonly filter?: DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesFilter[] | cdktf.IResolvable;
 }
@@ -204,15 +204,15 @@ export class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesInstall
 }
 export interface DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#regex DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#regex DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#values DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#values DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#values}
   */
   readonly values: string[];
 }
@@ -380,7 +380,7 @@ export class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesFilterL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates oci_os_management_hub_managed_instance_installed_windows_updates}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates oci_os_management_hub_managed_instance_installed_windows_updates}
 */
 export class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates extends cdktf.TerraformDataSource {
 
@@ -396,7 +396,7 @@ export class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates extend
   * Generates CDKTF code for importing a DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates to import
-  * @param importFromId The id of the existing DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -408,7 +408,7 @@ export class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates oci_os_management_hub_managed_instance_installed_windows_updates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates oci_os_management_hub_managed_instance_installed_windows_updates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -419,8 +419,8 @@ export class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates extend
       terraformResourceType: 'oci_os_management_hub_managed_instance_installed_windows_updates',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

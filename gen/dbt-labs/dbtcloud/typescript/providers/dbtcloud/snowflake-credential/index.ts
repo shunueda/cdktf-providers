@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface SnowflakeCredentialConfig extends cdktf.TerraformMetaArguments 
   /**
   * The type of Snowflake credential ('password' or 'keypair')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#auth_type SnowflakeCredential#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#auth_type SnowflakeCredential#auth_type}
   */
   readonly authType: string;
   /**
   * The catalog to connect use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#database SnowflakeCredential#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#database SnowflakeCredential#database}
   */
   readonly database?: string;
   /**
   * Whether the Snowflake credential is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#is_active SnowflakeCredential#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#is_active SnowflakeCredential#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Number of threads to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#num_threads SnowflakeCredential#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#num_threads SnowflakeCredential#num_threads}
   */
   readonly numThreads: number;
   /**
   * The password for the Snowflake account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#password SnowflakeCredential#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#password SnowflakeCredential#password}
   */
   readonly password?: string;
   /**
   * The private key for the Snowflake account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#private_key SnowflakeCredential#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#private_key SnowflakeCredential#private_key}
   */
   readonly privateKey?: string;
   /**
   * The passphrase for the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#private_key_passphrase SnowflakeCredential#private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#private_key_passphrase SnowflakeCredential#private_key_passphrase}
   */
   readonly privateKeyPassphrase?: string;
   /**
   * Project ID to create the Snowflake credential in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#project_id SnowflakeCredential#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#project_id SnowflakeCredential#project_id}
   */
   readonly projectId: number;
   /**
   * The role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#role SnowflakeCredential#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#role SnowflakeCredential#role}
   */
   readonly role?: string;
   /**
   * The schema where to create models. This is an optional field ONLY if the credential is used for Semantic Layer configuration, otherwise it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#schema SnowflakeCredential#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#schema SnowflakeCredential#schema}
   */
   readonly schema?: string;
   /**
   * This field indicates that the credential is used as part of the Semantic Layer configuration. It is used to create a Snowflake credential for the Semantic Layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#semantic_layer_credential SnowflakeCredential#semantic_layer_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#semantic_layer_credential SnowflakeCredential#semantic_layer_credential}
   */
   readonly semanticLayerCredential?: boolean | cdktf.IResolvable;
   /**
   * The username for the Snowflake account. This is an optional field ONLY if the credential is used for Semantic Layer configuration, otherwise it is required. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#user SnowflakeCredential#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#user SnowflakeCredential#user}
   */
   readonly user?: string;
   /**
   * The warehouse to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#warehouse SnowflakeCredential#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#warehouse SnowflakeCredential#warehouse}
   */
   readonly warehouse?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential dbtcloud_snowflake_credential}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential dbtcloud_snowflake_credential}
 */
 export class SnowflakeCredential extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class SnowflakeCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnowflakeCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnowflakeCredential to import
-  * @param importFromId The id of the existing SnowflakeCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnowflakeCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnowflakeCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class SnowflakeCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/snowflake_credential dbtcloud_snowflake_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/snowflake_credential dbtcloud_snowflake_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class SnowflakeCredential extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_snowflake_credential',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

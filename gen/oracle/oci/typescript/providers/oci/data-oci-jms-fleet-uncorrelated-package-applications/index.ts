@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciJmsFleetUncorrelatedPackageApplicationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#application_id DataOciJmsFleetUncorrelatedPackageApplications#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#application_id DataOciJmsFleetUncorrelatedPackageApplications#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#fleet_id DataOciJmsFleetUncorrelatedPackageApplications#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#fleet_id DataOciJmsFleetUncorrelatedPackageApplications#fleet_id}
   */
   readonly fleetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#id DataOciJmsFleetUncorrelatedPackageApplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#id DataOciJmsFleetUncorrelatedPackageApplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#managed_instance_id DataOciJmsFleetUncorrelatedPackageApplications#managed_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#managed_instance_id DataOciJmsFleetUncorrelatedPackageApplications#managed_instance_id}
   */
   readonly managedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#package_name DataOciJmsFleetUncorrelatedPackageApplications#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#package_name DataOciJmsFleetUncorrelatedPackageApplications#package_name}
   */
   readonly packageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_end DataOciJmsFleetUncorrelatedPackageApplications#time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_end DataOciJmsFleetUncorrelatedPackageApplications#time_end}
   */
   readonly timeEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_start DataOciJmsFleetUncorrelatedPackageApplications#time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_start DataOciJmsFleetUncorrelatedPackageApplications#time_start}
   */
   readonly timeStart?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#filter DataOciJmsFleetUncorrelatedPackageApplications#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#filter DataOciJmsFleetUncorrelatedPackageApplications#filter}
   */
   readonly filter?: DataOciJmsFleetUncorrelatedPackageApplicationsFilter[] | cdktf.IResolvable;
 }
@@ -213,15 +213,15 @@ export class DataOciJmsFleetUncorrelatedPackageApplicationsUncorrelatedPackageAp
 }
 export interface DataOciJmsFleetUncorrelatedPackageApplicationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#name DataOciJmsFleetUncorrelatedPackageApplications#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#name DataOciJmsFleetUncorrelatedPackageApplications#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#regex DataOciJmsFleetUncorrelatedPackageApplications#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#regex DataOciJmsFleetUncorrelatedPackageApplications#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#values DataOciJmsFleetUncorrelatedPackageApplications#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#values DataOciJmsFleetUncorrelatedPackageApplications#values}
   */
   readonly values: string[];
 }
@@ -389,7 +389,7 @@ export class DataOciJmsFleetUncorrelatedPackageApplicationsFilterList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications oci_jms_fleet_uncorrelated_package_applications}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications oci_jms_fleet_uncorrelated_package_applications}
 */
 export class DataOciJmsFleetUncorrelatedPackageApplications extends cdktf.TerraformDataSource {
 
@@ -405,7 +405,7 @@ export class DataOciJmsFleetUncorrelatedPackageApplications extends cdktf.Terraf
   * Generates CDKTF code for importing a DataOciJmsFleetUncorrelatedPackageApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciJmsFleetUncorrelatedPackageApplications to import
-  * @param importFromId The id of the existing DataOciJmsFleetUncorrelatedPackageApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciJmsFleetUncorrelatedPackageApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciJmsFleetUncorrelatedPackageApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class DataOciJmsFleetUncorrelatedPackageApplications extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/jms_fleet_uncorrelated_package_applications oci_jms_fleet_uncorrelated_package_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/jms_fleet_uncorrelated_package_applications oci_jms_fleet_uncorrelated_package_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class DataOciJmsFleetUncorrelatedPackageApplications extends cdktf.Terraf
       terraformResourceType: 'oci_jms_fleet_uncorrelated_package_applications',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

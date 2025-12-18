@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ApigatewayUsagePlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#compartment_id ApigatewayUsagePlan#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#compartment_id ApigatewayUsagePlan#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#defined_tags ApigatewayUsagePlan#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#defined_tags ApigatewayUsagePlan#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#display_name ApigatewayUsagePlan#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#display_name ApigatewayUsagePlan#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#freeform_tags ApigatewayUsagePlan#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#freeform_tags ApigatewayUsagePlan#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#id ApigatewayUsagePlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#id ApigatewayUsagePlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#is_lock_override ApigatewayUsagePlan#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#is_lock_override ApigatewayUsagePlan#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
   * entitlements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#entitlements ApigatewayUsagePlan#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#entitlements ApigatewayUsagePlan#entitlements}
   */
   readonly entitlements: ApigatewayUsagePlanEntitlements[] | cdktf.IResolvable;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#locks ApigatewayUsagePlan#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#locks ApigatewayUsagePlan#locks}
   */
   readonly locks?: ApigatewayUsagePlanLocks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#timeouts ApigatewayUsagePlan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#timeouts ApigatewayUsagePlan#timeouts}
   */
   readonly timeouts?: ApigatewayUsagePlanTimeouts;
 }
 export interface ApigatewayUsagePlanEntitlementsQuota {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#operation_on_breach ApigatewayUsagePlan#operation_on_breach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#operation_on_breach ApigatewayUsagePlan#operation_on_breach}
   */
   readonly operationOnBreach: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#reset_policy ApigatewayUsagePlan#reset_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#reset_policy ApigatewayUsagePlan#reset_policy}
   */
   readonly resetPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}
   */
   readonly value: number;
 }
@@ -226,11 +226,11 @@ export class ApigatewayUsagePlanEntitlementsQuotaOutputReference extends cdktf.C
 }
 export interface ApigatewayUsagePlanEntitlementsRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}
   */
   readonly value: number;
 }
@@ -337,7 +337,7 @@ export class ApigatewayUsagePlanEntitlementsRateLimitOutputReference extends cdk
 }
 export interface ApigatewayUsagePlanEntitlementsTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#deployment_id ApigatewayUsagePlan#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#deployment_id ApigatewayUsagePlan#deployment_id}
   */
   readonly deploymentId: string;
 }
@@ -450,29 +450,29 @@ export class ApigatewayUsagePlanEntitlementsTargetsList extends cdktf.ComplexLis
 }
 export interface ApigatewayUsagePlanEntitlements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#description ApigatewayUsagePlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#description ApigatewayUsagePlan#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#name ApigatewayUsagePlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#name ApigatewayUsagePlan#name}
   */
   readonly name: string;
   /**
   * quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#quota ApigatewayUsagePlan#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#quota ApigatewayUsagePlan#quota}
   */
   readonly quota?: ApigatewayUsagePlanEntitlementsQuota;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#rate_limit ApigatewayUsagePlan#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#rate_limit ApigatewayUsagePlan#rate_limit}
   */
   readonly rateLimit?: ApigatewayUsagePlanEntitlementsRateLimit;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#targets ApigatewayUsagePlan#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#targets ApigatewayUsagePlan#targets}
   */
   readonly targets?: ApigatewayUsagePlanEntitlementsTargets[] | cdktf.IResolvable;
 }
@@ -701,11 +701,11 @@ export class ApigatewayUsagePlanEntitlementsList extends cdktf.ComplexList {
 }
 export interface ApigatewayUsagePlanLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#message ApigatewayUsagePlan#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#message ApigatewayUsagePlan#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#type ApigatewayUsagePlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#type ApigatewayUsagePlan#type}
   */
   readonly type: string;
 }
@@ -857,15 +857,15 @@ export class ApigatewayUsagePlanLocksList extends cdktf.ComplexList {
 }
 export interface ApigatewayUsagePlanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#create ApigatewayUsagePlan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#create ApigatewayUsagePlan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#delete ApigatewayUsagePlan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#delete ApigatewayUsagePlan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#update ApigatewayUsagePlan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#update ApigatewayUsagePlan#update}
   */
   readonly update?: string;
 }
@@ -1017,7 +1017,7 @@ export class ApigatewayUsagePlanTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan oci_apigateway_usage_plan}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan oci_apigateway_usage_plan}
 */
 export class ApigatewayUsagePlan extends cdktf.TerraformResource {
 
@@ -1033,7 +1033,7 @@ export class ApigatewayUsagePlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApigatewayUsagePlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayUsagePlan to import
-  * @param importFromId The id of the existing ApigatewayUsagePlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayUsagePlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayUsagePlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1045,7 +1045,7 @@ export class ApigatewayUsagePlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apigateway_usage_plan oci_apigateway_usage_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apigateway_usage_plan oci_apigateway_usage_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1056,8 +1056,8 @@ export class ApigatewayUsagePlan extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apigateway_usage_plan',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

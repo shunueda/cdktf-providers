@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_preference
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/log_analytics_log_analytics_preference
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLogAnalyticsLogAnalyticsPreferenceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_preference#id DataOciLogAnalyticsLogAnalyticsPreference#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/log_analytics_log_analytics_preference#id DataOciLogAnalyticsLogAnalyticsPreference#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_preference#namespace DataOciLogAnalyticsLogAnalyticsPreference#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/log_analytics_log_analytics_preference#namespace DataOciLogAnalyticsLogAnalyticsPreference#namespace}
   */
   readonly namespace: string;
 }
@@ -101,7 +101,7 @@ export class DataOciLogAnalyticsLogAnalyticsPreferenceItemsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_preference oci_log_analytics_log_analytics_preference}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/log_analytics_log_analytics_preference oci_log_analytics_log_analytics_preference}
 */
 export class DataOciLogAnalyticsLogAnalyticsPreference extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataOciLogAnalyticsLogAnalyticsPreference extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciLogAnalyticsLogAnalyticsPreference resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLogAnalyticsLogAnalyticsPreference to import
-  * @param importFromId The id of the existing DataOciLogAnalyticsLogAnalyticsPreference that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_preference#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLogAnalyticsLogAnalyticsPreference that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/log_analytics_log_analytics_preference#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLogAnalyticsLogAnalyticsPreference to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataOciLogAnalyticsLogAnalyticsPreference extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_preference oci_log_analytics_log_analytics_preference} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/log_analytics_log_analytics_preference oci_log_analytics_log_analytics_preference} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataOciLogAnalyticsLogAnalyticsPreference extends cdktf.TerraformDa
       terraformResourceType: 'oci_log_analytics_log_analytics_preference',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

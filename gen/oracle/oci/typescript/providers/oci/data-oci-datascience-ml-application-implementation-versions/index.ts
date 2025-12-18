@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceMlApplicationImplementationVersionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#id DataOciDatascienceMlApplicationImplementationVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#id DataOciDatascienceMlApplicationImplementationVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#ml_application_implementation_id DataOciDatascienceMlApplicationImplementationVersions#ml_application_implementation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#ml_application_implementation_id DataOciDatascienceMlApplicationImplementationVersions#ml_application_implementation_id}
   */
   readonly mlApplicationImplementationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#state DataOciDatascienceMlApplicationImplementationVersions#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#state DataOciDatascienceMlApplicationImplementationVersions#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#filter DataOciDatascienceMlApplicationImplementationVersions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#filter DataOciDatascienceMlApplicationImplementationVersions#filter}
   */
   readonly filter?: DataOciDatascienceMlApplicationImplementationVersionsFilter[] | cdktf.IResolvable;
 }
@@ -659,15 +659,15 @@ export class DataOciDatascienceMlApplicationImplementationVersionsMlApplicationI
 }
 export interface DataOciDatascienceMlApplicationImplementationVersionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#name DataOciDatascienceMlApplicationImplementationVersions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#name DataOciDatascienceMlApplicationImplementationVersions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#regex DataOciDatascienceMlApplicationImplementationVersions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#regex DataOciDatascienceMlApplicationImplementationVersions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#values DataOciDatascienceMlApplicationImplementationVersions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#values DataOciDatascienceMlApplicationImplementationVersions#values}
   */
   readonly values: string[];
 }
@@ -835,7 +835,7 @@ export class DataOciDatascienceMlApplicationImplementationVersionsFilterList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions oci_datascience_ml_application_implementation_versions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions oci_datascience_ml_application_implementation_versions}
 */
 export class DataOciDatascienceMlApplicationImplementationVersions extends cdktf.TerraformDataSource {
 
@@ -851,7 +851,7 @@ export class DataOciDatascienceMlApplicationImplementationVersions extends cdktf
   * Generates CDKTF code for importing a DataOciDatascienceMlApplicationImplementationVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceMlApplicationImplementationVersions to import
-  * @param importFromId The id of the existing DataOciDatascienceMlApplicationImplementationVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceMlApplicationImplementationVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceMlApplicationImplementationVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -863,7 +863,7 @@ export class DataOciDatascienceMlApplicationImplementationVersions extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_ml_application_implementation_versions oci_datascience_ml_application_implementation_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/datascience_ml_application_implementation_versions oci_datascience_ml_application_implementation_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -874,8 +874,8 @@ export class DataOciDatascienceMlApplicationImplementationVersions extends cdktf
       terraformResourceType: 'oci_datascience_ml_application_implementation_versions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -2,7 +2,10 @@
 export * as accessApprovalPolicy from './access-approval-policy';
 export * as appConnection1Password from './app-connection-1password';
 export * as appConnectionAws from './app-connection-aws';
+export * as appConnectionAzureAppConfiguration from './app-connection-azure-app-configuration';
 export * as appConnectionAzureClientSecrets from './app-connection-azure-client-secrets';
+export * as appConnectionAzureDevops from './app-connection-azure-devops';
+export * as appConnectionAzureKeyVault from './app-connection-azure-key-vault';
 export * as appConnectionBitbucket from './app-connection-bitbucket';
 export * as appConnectionCloudflare from './app-connection-cloudflare';
 export * as appConnectionDatabricks from './app-connection-databricks';

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ContainerengineClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#compartment_id ContainerengineCluster#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#compartment_id ContainerengineCluster#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#defined_tags ContainerengineCluster#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#defined_tags ContainerengineCluster#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#freeform_tags ContainerengineCluster#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#freeform_tags ContainerengineCluster#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#id ContainerengineCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#id ContainerengineCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#kms_key_id ContainerengineCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#kms_key_id ContainerengineCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#kubernetes_version ContainerengineCluster#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#kubernetes_version ContainerengineCluster#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#name ContainerengineCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#name ContainerengineCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#type ContainerengineCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#type ContainerengineCluster#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#vcn_id ContainerengineCluster#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#vcn_id ContainerengineCluster#vcn_id}
   */
   readonly vcnId: string;
   /**
   * cluster_pod_network_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#cluster_pod_network_options ContainerengineCluster#cluster_pod_network_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#cluster_pod_network_options ContainerengineCluster#cluster_pod_network_options}
   */
   readonly clusterPodNetworkOptions?: ContainerengineClusterClusterPodNetworkOptions[] | cdktf.IResolvable;
   /**
   * endpoint_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#endpoint_config ContainerengineCluster#endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#endpoint_config ContainerengineCluster#endpoint_config}
   */
   readonly endpointConfig?: ContainerengineClusterEndpointConfig;
   /**
   * image_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#image_policy_config ContainerengineCluster#image_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#image_policy_config ContainerengineCluster#image_policy_config}
   */
   readonly imagePolicyConfig?: ContainerengineClusterImagePolicyConfig;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#options ContainerengineCluster#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#options ContainerengineCluster#options}
   */
   readonly options?: ContainerengineClusterOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#timeouts ContainerengineCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#timeouts ContainerengineCluster#timeouts}
   */
   readonly timeouts?: ContainerengineClusterTimeouts;
 }
@@ -294,7 +294,7 @@ export class ContainerengineClusterMetadataList extends cdktf.ComplexList {
 }
 export interface ContainerengineClusterClusterPodNetworkOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#cni_type ContainerengineCluster#cni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#cni_type ContainerengineCluster#cni_type}
   */
   readonly cniType: string;
 }
@@ -407,15 +407,15 @@ export class ContainerengineClusterClusterPodNetworkOptionsList extends cdktf.Co
 }
 export interface ContainerengineClusterEndpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_public_ip_enabled ContainerengineCluster#is_public_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_public_ip_enabled ContainerengineCluster#is_public_ip_enabled}
   */
   readonly isPublicIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#nsg_ids ContainerengineCluster#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#nsg_ids ContainerengineCluster#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#subnet_id ContainerengineCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#subnet_id ContainerengineCluster#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -554,7 +554,7 @@ export class ContainerengineClusterEndpointConfigOutputReference extends cdktf.C
 }
 export interface ContainerengineClusterImagePolicyConfigKeyDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#kms_key_id ContainerengineCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#kms_key_id ContainerengineCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -670,13 +670,13 @@ export class ContainerengineClusterImagePolicyConfigKeyDetailsList extends cdktf
 }
 export interface ContainerengineClusterImagePolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_policy_enabled ContainerengineCluster#is_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_policy_enabled ContainerengineCluster#is_policy_enabled}
   */
   readonly isPolicyEnabled?: boolean | cdktf.IResolvable;
   /**
   * key_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#key_details ContainerengineCluster#key_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#key_details ContainerengineCluster#key_details}
   */
   readonly keyDetails?: ContainerengineClusterImagePolicyConfigKeyDetails[] | cdktf.IResolvable;
 }
@@ -789,11 +789,11 @@ export class ContainerengineClusterImagePolicyConfigOutputReference extends cdkt
 }
 export interface ContainerengineClusterOptionsAddOns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_kubernetes_dashboard_enabled ContainerengineCluster#is_kubernetes_dashboard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_kubernetes_dashboard_enabled ContainerengineCluster#is_kubernetes_dashboard_enabled}
   */
   readonly isKubernetesDashboardEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_tiller_enabled ContainerengineCluster#is_tiller_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_tiller_enabled ContainerengineCluster#is_tiller_enabled}
   */
   readonly isTillerEnabled?: boolean | cdktf.IResolvable;
 }
@@ -906,7 +906,7 @@ export class ContainerengineClusterOptionsAddOnsOutputReference extends cdktf.Co
 }
 export interface ContainerengineClusterOptionsAdmissionControllerOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_pod_security_policy_enabled ContainerengineCluster#is_pod_security_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_pod_security_policy_enabled ContainerengineCluster#is_pod_security_policy_enabled}
   */
   readonly isPodSecurityPolicyEnabled?: boolean | cdktf.IResolvable;
 }
@@ -990,11 +990,11 @@ export class ContainerengineClusterOptionsAdmissionControllerOptionsOutputRefere
 }
 export interface ContainerengineClusterOptionsKubernetesNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#pods_cidr ContainerengineCluster#pods_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#pods_cidr ContainerengineCluster#pods_cidr}
   */
   readonly podsCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#services_cidr ContainerengineCluster#services_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#services_cidr ContainerengineCluster#services_cidr}
   */
   readonly servicesCidr?: string;
 }
@@ -1107,7 +1107,7 @@ export class ContainerengineClusterOptionsKubernetesNetworkConfigOutputReference
 }
 export interface ContainerengineClusterOptionsOpenIdConnectDiscovery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_open_id_connect_discovery_enabled ContainerengineCluster#is_open_id_connect_discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_open_id_connect_discovery_enabled ContainerengineCluster#is_open_id_connect_discovery_enabled}
   */
   readonly isOpenIdConnectDiscoveryEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1191,11 +1191,11 @@ export class ContainerengineClusterOptionsOpenIdConnectDiscoveryOutputReference 
 }
 export interface ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfigRequiredClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#key ContainerengineCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#key ContainerengineCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#value ContainerengineCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#value ContainerengineCluster#value}
   */
   readonly value?: string;
 }
@@ -1340,49 +1340,49 @@ export class ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfig
 }
 export interface ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#ca_certificate ContainerengineCluster#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#ca_certificate ContainerengineCluster#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#client_id ContainerengineCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#client_id ContainerengineCluster#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#configuration_file ContainerengineCluster#configuration_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#configuration_file ContainerengineCluster#configuration_file}
   */
   readonly configurationFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#groups_claim ContainerengineCluster#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#groups_claim ContainerengineCluster#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#groups_prefix ContainerengineCluster#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#groups_prefix ContainerengineCluster#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#is_open_id_connect_auth_enabled ContainerengineCluster#is_open_id_connect_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#is_open_id_connect_auth_enabled ContainerengineCluster#is_open_id_connect_auth_enabled}
   */
   readonly isOpenIdConnectAuthEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#issuer_url ContainerengineCluster#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#issuer_url ContainerengineCluster#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#signing_algorithms ContainerengineCluster#signing_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#signing_algorithms ContainerengineCluster#signing_algorithms}
   */
   readonly signingAlgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#username_claim ContainerengineCluster#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#username_claim ContainerengineCluster#username_claim}
   */
   readonly usernameClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#username_prefix ContainerengineCluster#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#username_prefix ContainerengineCluster#username_prefix}
   */
   readonly usernamePrefix?: string;
   /**
   * required_claims block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#required_claims ContainerengineCluster#required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#required_claims ContainerengineCluster#required_claims}
   */
   readonly requiredClaims?: ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfigRequiredClaims[] | cdktf.IResolvable;
 }
@@ -1753,11 +1753,11 @@ export class ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfig
 }
 export interface ContainerengineClusterOptionsPersistentVolumeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#defined_tags ContainerengineCluster#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#defined_tags ContainerengineCluster#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#freeform_tags ContainerengineCluster#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#freeform_tags ContainerengineCluster#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
 }
@@ -1870,11 +1870,15 @@ export class ContainerengineClusterOptionsPersistentVolumeConfigOutputReference 
 }
 export interface ContainerengineClusterOptionsServiceLbConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#defined_tags ContainerengineCluster#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#backend_nsg_ids ContainerengineCluster#backend_nsg_ids}
+  */
+  readonly backendNsgIds?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#defined_tags ContainerengineCluster#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#freeform_tags ContainerengineCluster#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#freeform_tags ContainerengineCluster#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
 }
@@ -1885,6 +1889,7 @@ export function containerengineClusterOptionsServiceLbConfigToTerraform(struct?:
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    backend_nsg_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.backendNsgIds),
     defined_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.definedTags),
     freeform_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.freeformTags),
   }
@@ -1897,6 +1902,12 @@ export function containerengineClusterOptionsServiceLbConfigToHclTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    backend_nsg_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.backendNsgIds),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
     defined_tags: {
       value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.definedTags),
       isBlock: false,
@@ -1929,6 +1940,10 @@ export class ContainerengineClusterOptionsServiceLbConfigOutputReference extends
   public get internalValue(): ContainerengineClusterOptionsServiceLbConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._backendNsgIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.backendNsgIds = this._backendNsgIds;
+    }
     if (this._definedTags !== undefined) {
       hasAnyValues = true;
       internalValueResult.definedTags = this._definedTags;
@@ -1943,14 +1958,32 @@ export class ContainerengineClusterOptionsServiceLbConfigOutputReference extends
   public set internalValue(value: ContainerengineClusterOptionsServiceLbConfig | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._backendNsgIds = undefined;
       this._definedTags = undefined;
       this._freeformTags = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._backendNsgIds = value.backendNsgIds;
       this._definedTags = value.definedTags;
       this._freeformTags = value.freeformTags;
     }
+  }
+
+  // backend_nsg_ids - computed: true, optional: true, required: false
+  private _backendNsgIds?: string[]; 
+  public get backendNsgIds() {
+    return this.getListAttribute('backend_nsg_ids');
+  }
+  public set backendNsgIds(value: string[]) {
+    this._backendNsgIds = value;
+  }
+  public resetBackendNsgIds() {
+    this._backendNsgIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get backendNsgIdsInput() {
+    return this._backendNsgIds;
   }
 
   // defined_tags - computed: true, optional: true, required: false
@@ -1987,53 +2020,53 @@ export class ContainerengineClusterOptionsServiceLbConfigOutputReference extends
 }
 export interface ContainerengineClusterOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#ip_families ContainerengineCluster#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#ip_families ContainerengineCluster#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#service_lb_subnet_ids ContainerengineCluster#service_lb_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#service_lb_subnet_ids ContainerengineCluster#service_lb_subnet_ids}
   */
   readonly serviceLbSubnetIds?: string[];
   /**
   * add_ons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#add_ons ContainerengineCluster#add_ons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#add_ons ContainerengineCluster#add_ons}
   */
   readonly addOns?: ContainerengineClusterOptionsAddOns;
   /**
   * admission_controller_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#admission_controller_options ContainerengineCluster#admission_controller_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#admission_controller_options ContainerengineCluster#admission_controller_options}
   */
   readonly admissionControllerOptions?: ContainerengineClusterOptionsAdmissionControllerOptions;
   /**
   * kubernetes_network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#kubernetes_network_config ContainerengineCluster#kubernetes_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#kubernetes_network_config ContainerengineCluster#kubernetes_network_config}
   */
   readonly kubernetesNetworkConfig?: ContainerengineClusterOptionsKubernetesNetworkConfig;
   /**
   * open_id_connect_discovery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#open_id_connect_discovery ContainerengineCluster#open_id_connect_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#open_id_connect_discovery ContainerengineCluster#open_id_connect_discovery}
   */
   readonly openIdConnectDiscovery?: ContainerengineClusterOptionsOpenIdConnectDiscovery;
   /**
   * open_id_connect_token_authentication_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#open_id_connect_token_authentication_config ContainerengineCluster#open_id_connect_token_authentication_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#open_id_connect_token_authentication_config ContainerengineCluster#open_id_connect_token_authentication_config}
   */
   readonly openIdConnectTokenAuthenticationConfig?: ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfig;
   /**
   * persistent_volume_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#persistent_volume_config ContainerengineCluster#persistent_volume_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#persistent_volume_config ContainerengineCluster#persistent_volume_config}
   */
   readonly persistentVolumeConfig?: ContainerengineClusterOptionsPersistentVolumeConfig;
   /**
   * service_lb_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#service_lb_config ContainerengineCluster#service_lb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#service_lb_config ContainerengineCluster#service_lb_config}
   */
   readonly serviceLbConfig?: ContainerengineClusterOptionsServiceLbConfig;
 }
@@ -2349,15 +2382,15 @@ export class ContainerengineClusterOptionsOutputReference extends cdktf.ComplexO
 }
 export interface ContainerengineClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#create ContainerengineCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#create ContainerengineCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#delete ContainerengineCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#delete ContainerengineCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#update ContainerengineCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#update ContainerengineCluster#update}
   */
   readonly update?: string;
 }
@@ -2509,7 +2542,7 @@ export class ContainerengineClusterTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster oci_containerengine_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster oci_containerengine_cluster}
 */
 export class ContainerengineCluster extends cdktf.TerraformResource {
 
@@ -2525,7 +2558,7 @@ export class ContainerengineCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerengineCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerengineCluster to import
-  * @param importFromId The id of the existing ContainerengineCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerengineCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerengineCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2537,7 +2570,7 @@ export class ContainerengineCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/containerengine_cluster oci_containerengine_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/containerengine_cluster oci_containerengine_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2548,8 +2581,8 @@ export class ContainerengineCluster extends cdktf.TerraformResource {
       terraformResourceType: 'oci_containerengine_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

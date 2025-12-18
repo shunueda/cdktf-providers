@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateGoogleDocsPageConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#enabled WorkflowTaskCreateGoogleDocsPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#enabled WorkflowTaskCreateGoogleDocsPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#id WorkflowTaskCreateGoogleDocsPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#id WorkflowTaskCreateGoogleDocsPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateGoogleDocsPageConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#name WorkflowTaskCreateGoogleDocsPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#name WorkflowTaskCreateGoogleDocsPage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#position WorkflowTaskCreateGoogleDocsPage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#position WorkflowTaskCreateGoogleDocsPage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#skip_on_failure WorkflowTaskCreateGoogleDocsPage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#skip_on_failure WorkflowTaskCreateGoogleDocsPage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#workflow_id WorkflowTaskCreateGoogleDocsPage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#workflow_id WorkflowTaskCreateGoogleDocsPage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#task_params WorkflowTaskCreateGoogleDocsPage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#task_params WorkflowTaskCreateGoogleDocsPage#task_params}
   */
   readonly taskParams: WorkflowTaskCreateGoogleDocsPageTaskParams;
 }
@@ -55,53 +55,53 @@ export interface WorkflowTaskCreateGoogleDocsPageTaskParams {
   /**
   * The page content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#content WorkflowTaskCreateGoogleDocsPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#content WorkflowTaskCreateGoogleDocsPage#content}
   */
   readonly content?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#drive WorkflowTaskCreateGoogleDocsPage#drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#drive WorkflowTaskCreateGoogleDocsPage#drive}
   */
   readonly drive?: { [key: string]: string };
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#mark_post_mortem_as_published WorkflowTaskCreateGoogleDocsPage#mark_post_mortem_as_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#mark_post_mortem_as_published WorkflowTaskCreateGoogleDocsPage#mark_post_mortem_as_published}
   */
   readonly markPostMortemAsPublished?: boolean | cdktf.IResolvable;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#parent_folder WorkflowTaskCreateGoogleDocsPage#parent_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#parent_folder WorkflowTaskCreateGoogleDocsPage#parent_folder}
   */
   readonly parentFolder?: { [key: string]: string };
   /**
   * Page permissions JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#permissions WorkflowTaskCreateGoogleDocsPage#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#permissions WorkflowTaskCreateGoogleDocsPage#permissions}
   */
   readonly permissions?: string;
   /**
   * Retrospective template to use when creating page, if desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#post_mortem_template_id WorkflowTaskCreateGoogleDocsPage#post_mortem_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#post_mortem_template_id WorkflowTaskCreateGoogleDocsPage#post_mortem_template_id}
   */
   readonly postMortemTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#task_type WorkflowTaskCreateGoogleDocsPage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#task_type WorkflowTaskCreateGoogleDocsPage#task_type}
   */
   readonly taskType?: string;
   /**
   * The Google Doc file ID to use as a template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#template_id WorkflowTaskCreateGoogleDocsPage#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#template_id WorkflowTaskCreateGoogleDocsPage#template_id}
   */
   readonly templateId?: string;
   /**
   * The page title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#title WorkflowTaskCreateGoogleDocsPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#title WorkflowTaskCreateGoogleDocsPage#title}
   */
   readonly title: string;
 }
@@ -414,7 +414,7 @@ export class WorkflowTaskCreateGoogleDocsPageTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page rootly_workflow_task_create_google_docs_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page rootly_workflow_task_create_google_docs_page}
 */
 export class WorkflowTaskCreateGoogleDocsPage extends cdktf.TerraformResource {
 
@@ -430,7 +430,7 @@ export class WorkflowTaskCreateGoogleDocsPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateGoogleDocsPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateGoogleDocsPage to import
-  * @param importFromId The id of the existing WorkflowTaskCreateGoogleDocsPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateGoogleDocsPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateGoogleDocsPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +442,7 @@ export class WorkflowTaskCreateGoogleDocsPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_create_google_docs_page rootly_workflow_task_create_google_docs_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_create_google_docs_page rootly_workflow_task_create_google_docs_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,8 +453,8 @@ export class WorkflowTaskCreateGoogleDocsPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_google_docs_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

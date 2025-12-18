@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DeploymentExtensionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description for the extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#description DeploymentExtension#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#description DeploymentExtension#description}
   */
   readonly description?: string;
   /**
   * The URL to download the extension archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#download_url DeploymentExtension#download_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#download_url DeploymentExtension#download_url}
   */
   readonly downloadUrl?: string;
   /**
   * Extension type. Must be `bundle` or `plugin`. A `bundle` will usually contain a dictionary or script, where a `plugin` is compiled from source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#extension_type DeploymentExtension#extension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#extension_type DeploymentExtension#extension_type}
   */
   readonly extensionType: string;
   /**
   * Hash value of the file. Triggers re-uploading the file on change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#file_hash DeploymentExtension#file_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#file_hash DeploymentExtension#file_hash}
   */
   readonly fileHash?: string;
   /**
   * Local file path to upload as the extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#file_path DeploymentExtension#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#file_path DeploymentExtension#file_path}
   */
   readonly filePath?: string;
   /**
   * Name of the extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#name DeploymentExtension#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#name DeploymentExtension#name}
   */
   readonly name: string;
   /**
   * Elastic stack version. A full version (e.g 8.7.0) should be set for plugins. A wildcard (e.g 8.*) may be used for bundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#version DeploymentExtension#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#version DeploymentExtension#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension ec_deployment_extension}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension ec_deployment_extension}
 */
 export class DeploymentExtension extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class DeploymentExtension extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentExtension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentExtension to import
-  * @param importFromId The id of the existing DeploymentExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentExtension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DeploymentExtension extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_extension ec_deployment_extension} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_extension ec_deployment_extension} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DeploymentExtension extends cdktf.TerraformResource {
       terraformResourceType: 'ec_deployment_extension',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

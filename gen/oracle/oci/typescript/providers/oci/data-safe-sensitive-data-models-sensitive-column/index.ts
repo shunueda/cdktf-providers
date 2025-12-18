@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSensitiveDataModelsSensitiveColumnConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#app_defined_child_column_keys DataSafeSensitiveDataModelsSensitiveColumn#app_defined_child_column_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#app_defined_child_column_keys DataSafeSensitiveDataModelsSensitiveColumn#app_defined_child_column_keys}
   */
   readonly appDefinedChildColumnKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#app_name DataSafeSensitiveDataModelsSensitiveColumn#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#app_name DataSafeSensitiveDataModelsSensitiveColumn#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#column_name DataSafeSensitiveDataModelsSensitiveColumn#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#column_name DataSafeSensitiveDataModelsSensitiveColumn#column_name}
   */
   readonly columnName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#data_type DataSafeSensitiveDataModelsSensitiveColumn#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#data_type DataSafeSensitiveDataModelsSensitiveColumn#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#db_defined_child_column_keys DataSafeSensitiveDataModelsSensitiveColumn#db_defined_child_column_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#db_defined_child_column_keys DataSafeSensitiveDataModelsSensitiveColumn#db_defined_child_column_keys}
   */
   readonly dbDefinedChildColumnKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#id DataSafeSensitiveDataModelsSensitiveColumn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#id DataSafeSensitiveDataModelsSensitiveColumn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#object DataSafeSensitiveDataModelsSensitiveColumn#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#object DataSafeSensitiveDataModelsSensitiveColumn#object}
   */
   readonly object: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#object_type DataSafeSensitiveDataModelsSensitiveColumn#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#object_type DataSafeSensitiveDataModelsSensitiveColumn#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#parent_column_keys DataSafeSensitiveDataModelsSensitiveColumn#parent_column_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#parent_column_keys DataSafeSensitiveDataModelsSensitiveColumn#parent_column_keys}
   */
   readonly parentColumnKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#relation_type DataSafeSensitiveDataModelsSensitiveColumn#relation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#relation_type DataSafeSensitiveDataModelsSensitiveColumn#relation_type}
   */
   readonly relationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#schema_name DataSafeSensitiveDataModelsSensitiveColumn#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#schema_name DataSafeSensitiveDataModelsSensitiveColumn#schema_name}
   */
   readonly schemaName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#sensitive_data_model_id DataSafeSensitiveDataModelsSensitiveColumn#sensitive_data_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#sensitive_data_model_id DataSafeSensitiveDataModelsSensitiveColumn#sensitive_data_model_id}
   */
   readonly sensitiveDataModelId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#sensitive_type_id DataSafeSensitiveDataModelsSensitiveColumn#sensitive_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#sensitive_type_id DataSafeSensitiveDataModelsSensitiveColumn#sensitive_type_id}
   */
   readonly sensitiveTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#status DataSafeSensitiveDataModelsSensitiveColumn#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#status DataSafeSensitiveDataModelsSensitiveColumn#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#timeouts DataSafeSensitiveDataModelsSensitiveColumn#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#timeouts DataSafeSensitiveDataModelsSensitiveColumn#timeouts}
   */
   readonly timeouts?: DataSafeSensitiveDataModelsSensitiveColumnTimeouts;
 }
@@ -175,15 +175,15 @@ export class DataSafeSensitiveDataModelsSensitiveColumnConfidenceLevelDetailsLis
 }
 export interface DataSafeSensitiveDataModelsSensitiveColumnTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#create DataSafeSensitiveDataModelsSensitiveColumn#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#create DataSafeSensitiveDataModelsSensitiveColumn#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#delete DataSafeSensitiveDataModelsSensitiveColumn#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#delete DataSafeSensitiveDataModelsSensitiveColumn#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#update DataSafeSensitiveDataModelsSensitiveColumn#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#update DataSafeSensitiveDataModelsSensitiveColumn#update}
   */
   readonly update?: string;
 }
@@ -335,7 +335,7 @@ export class DataSafeSensitiveDataModelsSensitiveColumnTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column oci_data_safe_sensitive_data_models_sensitive_column}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column oci_data_safe_sensitive_data_models_sensitive_column}
 */
 export class DataSafeSensitiveDataModelsSensitiveColumn extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class DataSafeSensitiveDataModelsSensitiveColumn extends cdktf.TerraformR
   * Generates CDKTF code for importing a DataSafeSensitiveDataModelsSensitiveColumn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSensitiveDataModelsSensitiveColumn to import
-  * @param importFromId The id of the existing DataSafeSensitiveDataModelsSensitiveColumn that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSensitiveDataModelsSensitiveColumn that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSensitiveDataModelsSensitiveColumn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class DataSafeSensitiveDataModelsSensitiveColumn extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_sensitive_data_models_sensitive_column oci_data_safe_sensitive_data_models_sensitive_column} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_sensitive_data_models_sensitive_column oci_data_safe_sensitive_data_models_sensitive_column} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class DataSafeSensitiveDataModelsSensitiveColumn extends cdktf.TerraformR
       terraformResourceType: 'oci_data_safe_sensitive_data_models_sensitive_column',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

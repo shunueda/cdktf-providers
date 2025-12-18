@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,220 +8,220 @@ import * as cdktf from 'cdktf';
 
 export interface NstcpparamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#ackonpush Nstcpparam#ackonpush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#ackonpush Nstcpparam#ackonpush}
   */
   readonly ackonpush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#autosyncookietimeout Nstcpparam#autosyncookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#autosyncookietimeout Nstcpparam#autosyncookietimeout}
   */
   readonly autosyncookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#compacttcpoptionnoop Nstcpparam#compacttcpoptionnoop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#compacttcpoptionnoop Nstcpparam#compacttcpoptionnoop}
   */
   readonly compacttcpoptionnoop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#connflushifnomem Nstcpparam#connflushifnomem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#connflushifnomem Nstcpparam#connflushifnomem}
   */
   readonly connflushifnomem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#connflushthres Nstcpparam#connflushthres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#connflushthres Nstcpparam#connflushthres}
   */
   readonly connflushthres?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#delayedack Nstcpparam#delayedack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#delayedack Nstcpparam#delayedack}
   */
   readonly delayedack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#delinkclientserveronrst Nstcpparam#delinkclientserveronrst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#delinkclientserveronrst Nstcpparam#delinkclientserveronrst}
   */
   readonly delinkclientserveronrst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#downstaterst Nstcpparam#downstaterst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#downstaterst Nstcpparam#downstaterst}
   */
   readonly downstaterst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#enhancedisngeneration Nstcpparam#enhancedisngeneration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#enhancedisngeneration Nstcpparam#enhancedisngeneration}
   */
   readonly enhancedisngeneration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#id Nstcpparam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#id Nstcpparam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#initialcwnd Nstcpparam#initialcwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#initialcwnd Nstcpparam#initialcwnd}
   */
   readonly initialcwnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#kaprobeupdatelastactivity Nstcpparam#kaprobeupdatelastactivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#kaprobeupdatelastactivity Nstcpparam#kaprobeupdatelastactivity}
   */
   readonly kaprobeupdatelastactivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#learnvsvrmss Nstcpparam#learnvsvrmss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#learnvsvrmss Nstcpparam#learnvsvrmss}
   */
   readonly learnvsvrmss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#limitedpersist Nstcpparam#limitedpersist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#limitedpersist Nstcpparam#limitedpersist}
   */
   readonly limitedpersist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxburst Nstcpparam#maxburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxburst Nstcpparam#maxburst}
   */
   readonly maxburst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxdynserverprobes Nstcpparam#maxdynserverprobes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxdynserverprobes Nstcpparam#maxdynserverprobes}
   */
   readonly maxdynserverprobes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxpktpermss Nstcpparam#maxpktpermss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxpktpermss Nstcpparam#maxpktpermss}
   */
   readonly maxpktpermss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxsynackretx Nstcpparam#maxsynackretx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxsynackretx Nstcpparam#maxsynackretx}
   */
   readonly maxsynackretx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxsynhold Nstcpparam#maxsynhold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxsynhold Nstcpparam#maxsynhold}
   */
   readonly maxsynhold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxsynholdperprobe Nstcpparam#maxsynholdperprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxsynholdperprobe Nstcpparam#maxsynholdperprobe}
   */
   readonly maxsynholdperprobe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#maxtimewaitconn Nstcpparam#maxtimewaitconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#maxtimewaitconn Nstcpparam#maxtimewaitconn}
   */
   readonly maxtimewaitconn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#minrto Nstcpparam#minrto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#minrto Nstcpparam#minrto}
   */
   readonly minrto?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpchecksum Nstcpparam#mptcpchecksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpchecksum Nstcpparam#mptcpchecksum}
   */
   readonly mptcpchecksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpclosemptcpsessiononlastsfclose Nstcpparam#mptcpclosemptcpsessiononlastsfclose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpclosemptcpsessiononlastsfclose Nstcpparam#mptcpclosemptcpsessiononlastsfclose}
   */
   readonly mptcpclosemptcpsessiononlastsfclose?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpconcloseonpassivesf Nstcpparam#mptcpconcloseonpassivesf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpconcloseonpassivesf Nstcpparam#mptcpconcloseonpassivesf}
   */
   readonly mptcpconcloseonpassivesf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpfastcloseoption Nstcpparam#mptcpfastcloseoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpfastcloseoption Nstcpparam#mptcpfastcloseoption}
   */
   readonly mptcpfastcloseoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpimmediatesfcloseonfin Nstcpparam#mptcpimmediatesfcloseonfin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpimmediatesfcloseonfin Nstcpparam#mptcpimmediatesfcloseonfin}
   */
   readonly mptcpimmediatesfcloseonfin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpmaxpendingsf Nstcpparam#mptcpmaxpendingsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpmaxpendingsf Nstcpparam#mptcpmaxpendingsf}
   */
   readonly mptcpmaxpendingsf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpmaxsf Nstcpparam#mptcpmaxsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpmaxsf Nstcpparam#mptcpmaxsf}
   */
   readonly mptcpmaxsf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcppendingjointhreshold Nstcpparam#mptcppendingjointhreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcppendingjointhreshold Nstcpparam#mptcppendingjointhreshold}
   */
   readonly mptcppendingjointhreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpreliableaddaddr Nstcpparam#mptcpreliableaddaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpreliableaddaddr Nstcpparam#mptcpreliableaddaddr}
   */
   readonly mptcpreliableaddaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcprtostoswitchsf Nstcpparam#mptcprtostoswitchsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcprtostoswitchsf Nstcpparam#mptcprtostoswitchsf}
   */
   readonly mptcprtostoswitchsf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpsendsfresetoption Nstcpparam#mptcpsendsfresetoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpsendsfresetoption Nstcpparam#mptcpsendsfresetoption}
   */
   readonly mptcpsendsfresetoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpsfreplacetimeout Nstcpparam#mptcpsfreplacetimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpsfreplacetimeout Nstcpparam#mptcpsfreplacetimeout}
   */
   readonly mptcpsfreplacetimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpsftimeout Nstcpparam#mptcpsftimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpsftimeout Nstcpparam#mptcpsftimeout}
   */
   readonly mptcpsftimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#mptcpusebackupondss Nstcpparam#mptcpusebackupondss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#mptcpusebackupondss Nstcpparam#mptcpusebackupondss}
   */
   readonly mptcpusebackupondss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#msslearndelay Nstcpparam#msslearndelay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#msslearndelay Nstcpparam#msslearndelay}
   */
   readonly msslearndelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#msslearninterval Nstcpparam#msslearninterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#msslearninterval Nstcpparam#msslearninterval}
   */
   readonly msslearninterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#nagle Nstcpparam#nagle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#nagle Nstcpparam#nagle}
   */
   readonly nagle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#oooqsize Nstcpparam#oooqsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#oooqsize Nstcpparam#oooqsize}
   */
   readonly oooqsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#pktperretx Nstcpparam#pktperretx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#pktperretx Nstcpparam#pktperretx}
   */
   readonly pktperretx?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#recvbuffsize Nstcpparam#recvbuffsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#recvbuffsize Nstcpparam#recvbuffsize}
   */
   readonly recvbuffsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#rfc5961chlgacklimit Nstcpparam#rfc5961chlgacklimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#rfc5961chlgacklimit Nstcpparam#rfc5961chlgacklimit}
   */
   readonly rfc5961Chlgacklimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#sack Nstcpparam#sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#sack Nstcpparam#sack}
   */
   readonly sack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#slowstartincr Nstcpparam#slowstartincr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#slowstartincr Nstcpparam#slowstartincr}
   */
   readonly slowstartincr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#synattackdetection Nstcpparam#synattackdetection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#synattackdetection Nstcpparam#synattackdetection}
   */
   readonly synattackdetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#synholdfastgiveup Nstcpparam#synholdfastgiveup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#synholdfastgiveup Nstcpparam#synholdfastgiveup}
   */
   readonly synholdfastgiveup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#tcpfastopencookietimeout Nstcpparam#tcpfastopencookietimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#tcpfastopencookietimeout Nstcpparam#tcpfastopencookietimeout}
   */
   readonly tcpfastopencookietimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#tcpfintimeout Nstcpparam#tcpfintimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#tcpfintimeout Nstcpparam#tcpfintimeout}
   */
   readonly tcpfintimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#tcpmaxretries Nstcpparam#tcpmaxretries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#tcpmaxretries Nstcpparam#tcpmaxretries}
   */
   readonly tcpmaxretries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#ws Nstcpparam#ws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#ws Nstcpparam#ws}
   */
   readonly ws?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#wsval Nstcpparam#wsval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#wsval Nstcpparam#wsval}
   */
   readonly wsval?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam citrixadc_nstcpparam}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam citrixadc_nstcpparam}
 */
 export class Nstcpparam extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class Nstcpparam extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nstcpparam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nstcpparam to import
-  * @param importFromId The id of the existing Nstcpparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nstcpparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nstcpparam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class Nstcpparam extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/nstcpparam citrixadc_nstcpparam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/nstcpparam citrixadc_nstcpparam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class Nstcpparam extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_nstcpparam',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

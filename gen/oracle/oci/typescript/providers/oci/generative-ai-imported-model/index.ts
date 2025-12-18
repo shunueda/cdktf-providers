@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface GenerativeAiImportedModelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#capabilities GenerativeAiImportedModel#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#capabilities GenerativeAiImportedModel#capabilities}
   */
   readonly capabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#compartment_id GenerativeAiImportedModel#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#compartment_id GenerativeAiImportedModel#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#defined_tags GenerativeAiImportedModel#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#defined_tags GenerativeAiImportedModel#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#description GenerativeAiImportedModel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#description GenerativeAiImportedModel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#display_name GenerativeAiImportedModel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#display_name GenerativeAiImportedModel#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#freeform_tags GenerativeAiImportedModel#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#freeform_tags GenerativeAiImportedModel#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#id GenerativeAiImportedModel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#id GenerativeAiImportedModel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#vendor GenerativeAiImportedModel#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#vendor GenerativeAiImportedModel#vendor}
   */
   readonly vendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#version GenerativeAiImportedModel#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#version GenerativeAiImportedModel#version}
   */
   readonly version?: string;
   /**
   * data_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#data_source GenerativeAiImportedModel#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#data_source GenerativeAiImportedModel#data_source}
   */
   readonly dataSource: GenerativeAiImportedModelDataSource;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#timeouts GenerativeAiImportedModel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#timeouts GenerativeAiImportedModel#timeouts}
   */
   readonly timeouts?: GenerativeAiImportedModelTimeouts;
 }
 export interface GenerativeAiImportedModelDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#access_token GenerativeAiImportedModel#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#access_token GenerativeAiImportedModel#access_token}
   */
   readonly accessToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#branch GenerativeAiImportedModel#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#branch GenerativeAiImportedModel#branch}
   */
   readonly branch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#bucket GenerativeAiImportedModel#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#bucket GenerativeAiImportedModel#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#commit GenerativeAiImportedModel#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#commit GenerativeAiImportedModel#commit}
   */
   readonly commit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#model_id GenerativeAiImportedModel#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#model_id GenerativeAiImportedModel#model_id}
   */
   readonly modelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#namespace GenerativeAiImportedModel#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#namespace GenerativeAiImportedModel#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#prefix_name GenerativeAiImportedModel#prefix_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#prefix_name GenerativeAiImportedModel#prefix_name}
   */
   readonly prefixName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#region GenerativeAiImportedModel#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#region GenerativeAiImportedModel#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#source_type GenerativeAiImportedModel#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#source_type GenerativeAiImportedModel#source_type}
   */
   readonly sourceType?: string;
 }
@@ -409,15 +409,15 @@ export class GenerativeAiImportedModelDataSourceOutputReference extends cdktf.Co
 }
 export interface GenerativeAiImportedModelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#create GenerativeAiImportedModel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#create GenerativeAiImportedModel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#delete GenerativeAiImportedModel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#delete GenerativeAiImportedModel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#update GenerativeAiImportedModel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#update GenerativeAiImportedModel#update}
   */
   readonly update?: string;
 }
@@ -569,7 +569,7 @@ export class GenerativeAiImportedModelTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model oci_generative_ai_imported_model}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model oci_generative_ai_imported_model}
 */
 export class GenerativeAiImportedModel extends cdktf.TerraformResource {
 
@@ -585,7 +585,7 @@ export class GenerativeAiImportedModel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenerativeAiImportedModel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenerativeAiImportedModel to import
-  * @param importFromId The id of the existing GenerativeAiImportedModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenerativeAiImportedModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenerativeAiImportedModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class GenerativeAiImportedModel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/generative_ai_imported_model oci_generative_ai_imported_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/generative_ai_imported_model oci_generative_ai_imported_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class GenerativeAiImportedModel extends cdktf.TerraformResource {
       terraformResourceType: 'oci_generative_ai_imported_model',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

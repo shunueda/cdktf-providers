@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/user_groups
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/user_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface UserGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDs of the groups to assign to the user. If additional groups were assigned manually in dbt Cloud, they will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/user_groups#group_ids UserGroups#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/user_groups#group_ids UserGroups#group_ids}
   */
   readonly groupIds: number[];
   /**
   * The internal ID of a dbt Cloud user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/user_groups#user_id UserGroups#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/user_groups#user_id UserGroups#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/user_groups dbtcloud_user_groups}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/user_groups dbtcloud_user_groups}
 */
 export class UserGroups extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class UserGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserGroups to import
-  * @param importFromId The id of the existing UserGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/user_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/user_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class UserGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/user_groups dbtcloud_user_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/user_groups dbtcloud_user_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class UserGroups extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_user_groups',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

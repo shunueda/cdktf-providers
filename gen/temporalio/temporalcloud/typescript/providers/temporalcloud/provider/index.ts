@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TemporalcloudProviderConfig {
   /**
   * If set to True, it allows for an insecure connection to the Temporal Cloud API. This should never be set to 'true' in production and defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs#allow_insecure TemporalcloudProvider#allow_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs#allow_insecure TemporalcloudProvider#allow_insecure}
   */
   readonly allowInsecure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the account to operate on. Prevents accidental mutation of accounts other than that provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs#allowed_account_id TemporalcloudProvider#allowed_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs#allowed_account_id TemporalcloudProvider#allowed_account_id}
   */
   readonly allowedAccountId?: string;
   /**
   * The API key for Temporal Cloud. See [this documentation](https://docs.temporal.io/cloud/api-keys) for information on how to obtain an API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs#api_key TemporalcloudProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs#api_key TemporalcloudProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * The endpoint for the Temporal Cloud API. Defaults to `saas-api.tmprl.cloud:443`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs#endpoint TemporalcloudProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs#endpoint TemporalcloudProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs#alias TemporalcloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs#alias TemporalcloudProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs temporalcloud}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs temporalcloud}
 */
 export class TemporalcloudProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class TemporalcloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TemporalcloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemporalcloudProvider to import
-  * @param importFromId The id of the existing TemporalcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemporalcloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemporalcloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class TemporalcloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs temporalcloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs temporalcloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class TemporalcloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'temporalcloud',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       terraformProviderSource: 'temporalio/temporalcloud'
     });

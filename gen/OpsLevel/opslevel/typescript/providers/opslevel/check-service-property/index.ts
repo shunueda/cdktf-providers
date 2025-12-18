@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CheckServicePropertyConfig extends cdktf.TerraformMetaArguments
   /**
   * The id of the category the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#category CheckServiceProperty#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#category CheckServiceProperty#category}
   */
   readonly category: string;
   /**
   * The Component Type that a custom property belongs to. When property_definition is set without component_type, the check will apply to ALL component types that have a property with that alias. To limit the check to a specific component type (e.g., only Services), explicitly set this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#component_type CheckServiceProperty#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#component_type CheckServiceProperty#component_type}
   */
   readonly componentType?: string;
   /**
@@ -25,61 +25,61 @@ export interface CheckServicePropertyConfig extends cdktf.TerraformMetaArguments
   *  See example in opslevel_check_manual for proper configuration.
   *  
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#enable_on CheckServiceProperty#enable_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#enable_on CheckServiceProperty#enable_on}
   */
   readonly enableOn?: string;
   /**
   * Whether the check is enabled or not.  Do not use this field in tandem with 'enable_on'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#enabled CheckServiceProperty#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#enabled CheckServiceProperty#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The id of the filter of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#filter CheckServiceProperty#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#filter CheckServiceProperty#filter}
   */
   readonly filter?: string;
   /**
   * The id of the level the check belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#level CheckServiceProperty#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#level CheckServiceProperty#level}
   */
   readonly level: string;
   /**
   * The display name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#name CheckServiceProperty#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#name CheckServiceProperty#name}
   */
   readonly name: string;
   /**
   * Additional information to display to the service owner about the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#notes CheckServiceProperty#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#notes CheckServiceProperty#notes}
   */
   readonly notes?: string;
   /**
   * The id of the team that owns the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#owner CheckServiceProperty#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#owner CheckServiceProperty#owner}
   */
   readonly owner?: string;
   /**
   * A condition that should be satisfied. One of `belongs_to`, `contains`, `does_not_contain`, `does_not_equal`, `does_not_exist`, `does_not_match`, `does_not_match_regex`, `ends_with`, `equals`, `exists`, `greater_than_or_equal_to`, `less_than_or_equal_to`, `matches`, `matches_regex`, `satisfies_jq_expression`, `satisfies_version_constraint`, `starts_with`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#predicate CheckServiceProperty#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#predicate CheckServiceProperty#predicate}
   */
   readonly predicate?: CheckServicePropertyPredicate;
   /**
   * The property of the service that the check will verify. One of `custom_property`, `description`, `framework`, `language`, `lifecycle_index`, `name`, `note`, `product`, `system`, `tier_index`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#property CheckServiceProperty#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#property CheckServiceProperty#property}
   */
   readonly property: string;
   /**
   * The alias of the property that the check will verify (e.g. the specific custom property). When used without component_type, targets all component types with this property alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#property_definition CheckServiceProperty#property_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#property_definition CheckServiceProperty#property_definition}
   */
   readonly propertyDefinition?: string;
 }
@@ -87,13 +87,13 @@ export interface CheckServicePropertyPredicate {
   /**
   * A condition that should be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#type CheckServiceProperty#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#type CheckServiceProperty#type}
   */
   readonly type: string;
   /**
   * The condition value used by the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#value CheckServiceProperty#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#value CheckServiceProperty#value}
   */
   readonly value?: string;
 }
@@ -213,7 +213,7 @@ export class CheckServicePropertyPredicateOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property opslevel_check_service_property}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property opslevel_check_service_property}
 */
 export class CheckServiceProperty extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class CheckServiceProperty extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckServiceProperty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckServiceProperty to import
-  * @param importFromId The id of the existing CheckServiceProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckServiceProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckServiceProperty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class CheckServiceProperty extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/check_service_property opslevel_check_service_property} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/check_service_property opslevel_check_service_property} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class CheckServiceProperty extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_check_service_property',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

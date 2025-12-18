@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NamespaceTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the namespace to manage tags for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags#namespace_id NamespaceTags#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags#namespace_id NamespaceTags#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * A map of tag keys to tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags#tags NamespaceTags#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags#tags NamespaceTags#tags}
   */
   readonly tags: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags#timeouts NamespaceTags#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags#timeouts NamespaceTags#timeouts}
   */
   readonly timeouts?: NamespaceTagsTimeouts;
 }
@@ -30,13 +30,13 @@ export interface NamespaceTagsTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags#create NamespaceTags#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags#create NamespaceTags#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags#delete NamespaceTags#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags#delete NamespaceTags#delete}
   */
   readonly delete?: string;
 }
@@ -159,7 +159,7 @@ export class NamespaceTagsTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags temporalcloud_namespace_tags}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags temporalcloud_namespace_tags}
 */
 export class NamespaceTags extends cdktf.TerraformResource {
 
@@ -175,7 +175,7 @@ export class NamespaceTags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NamespaceTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NamespaceTags to import
-  * @param importFromId The id of the existing NamespaceTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NamespaceTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NamespaceTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class NamespaceTags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/resources/namespace_tags temporalcloud_namespace_tags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/resources/namespace_tags temporalcloud_namespace_tags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class NamespaceTags extends cdktf.TerraformResource {
       terraformResourceType: 'temporalcloud_namespace_tags',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

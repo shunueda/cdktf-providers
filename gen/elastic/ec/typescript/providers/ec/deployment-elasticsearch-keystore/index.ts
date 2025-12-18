@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore
+// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DeploymentElasticsearchKeystoreConfig extends cdktf.TerraformMe
   /**
   * Indicates the the remote keystore setting should be stored as a file. The default is false, which stores the keystore setting as string when value is a plain string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore#as_file DeploymentElasticsearchKeystore#as_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore#as_file DeploymentElasticsearchKeystore#as_file}
   */
   readonly asFile?: boolean | cdktf.IResolvable;
   /**
   * Deployment ID of the Deployment that holds the Elasticsearch cluster where the keystore setting will be written to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore#deployment_id DeploymentElasticsearchKeystore#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore#deployment_id DeploymentElasticsearchKeystore#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * Name for the keystore setting, if the setting already exists in the Elasticsearch cluster, it will be overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore#setting_name DeploymentElasticsearchKeystore#setting_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore#setting_name DeploymentElasticsearchKeystore#setting_name}
   */
   readonly settingName: string;
   /**
   * Value of this setting. This can either be a string or a JSON object that is stored as a JSON string in the keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore#value DeploymentElasticsearchKeystore#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore#value DeploymentElasticsearchKeystore#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore ec_deployment_elasticsearch_keystore}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore ec_deployment_elasticsearch_keystore}
 */
 export class DeploymentElasticsearchKeystore extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DeploymentElasticsearchKeystore extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentElasticsearchKeystore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentElasticsearchKeystore to import
-  * @param importFromId The id of the existing DeploymentElasticsearchKeystore that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentElasticsearchKeystore that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentElasticsearchKeystore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DeploymentElasticsearchKeystore extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.2/docs/resources/deployment_elasticsearch_keystore ec_deployment_elasticsearch_keystore} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_elasticsearch_keystore ec_deployment_elasticsearch_keystore} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DeploymentElasticsearchKeystore extends cdktf.TerraformResource {
       terraformResourceType: 'ec_deployment_elasticsearch_keystore',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.2',
-        providerVersionConstraint: '0.12.2'
+        providerVersion: '0.12.3',
+        providerVersionConstraint: '0.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

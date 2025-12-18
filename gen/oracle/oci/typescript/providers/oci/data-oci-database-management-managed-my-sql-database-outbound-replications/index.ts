@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplicationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#id DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#id DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#managed_my_sql_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#managed_my_sql_database_id}
   */
   readonly managedMySqlDatabaseId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#filter DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#filter DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplicationsFilter[] | cdktf.IResolvable;
 }
@@ -198,15 +198,15 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplicationsMa
 }
 export interface DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplicationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#name DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#name DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#regex DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#regex DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#values DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#values DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications#values}
   */
   readonly values: string[];
 }
@@ -374,7 +374,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplicationsFi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications oci_database_management_managed_my_sql_database_outbound_replications}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications oci_database_management_managed_my_sql_database_outbound_replications}
 */
 export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications extends cdktf.TerraformDataSource {
 
@@ -390,7 +390,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications e
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +402,7 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications oci_database_management_managed_my_sql_database_outbound_replications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/database_management_managed_my_sql_database_outbound_replications oci_database_management_managed_my_sql_database_outbound_replications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +413,8 @@ export class DataOciDatabaseManagementManagedMySqlDatabaseOutboundReplications e
       terraformResourceType: 'oci_database_management_managed_my_sql_database_outbound_replications',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

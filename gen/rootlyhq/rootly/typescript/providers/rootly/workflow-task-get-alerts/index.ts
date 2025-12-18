@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskGetAlertsConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#enabled WorkflowTaskGetAlerts#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#enabled WorkflowTaskGetAlerts#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#id WorkflowTaskGetAlerts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#id WorkflowTaskGetAlerts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskGetAlertsConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#name WorkflowTaskGetAlerts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#name WorkflowTaskGetAlerts#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#position WorkflowTaskGetAlerts#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#position WorkflowTaskGetAlerts#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#skip_on_failure WorkflowTaskGetAlerts#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#skip_on_failure WorkflowTaskGetAlerts#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#workflow_id WorkflowTaskGetAlerts#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#workflow_id WorkflowTaskGetAlerts#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#task_params WorkflowTaskGetAlerts#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#task_params WorkflowTaskGetAlerts#task_params}
   */
   readonly taskParams: WorkflowTaskGetAlertsTaskParams;
 }
 export interface WorkflowTaskGetAlertsTaskParamsPostToSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#id WorkflowTaskGetAlerts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#id WorkflowTaskGetAlerts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#name WorkflowTaskGetAlerts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#name WorkflowTaskGetAlerts#name}
   */
   readonly name: string;
 }
@@ -199,59 +199,59 @@ export class WorkflowTaskGetAlertsTaskParamsPostToSlackChannelsList extends cdkt
 }
 export interface WorkflowTaskGetAlertsTaskParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#environment_ids WorkflowTaskGetAlerts#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#environment_ids WorkflowTaskGetAlerts#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#environments_impacted_by_incident WorkflowTaskGetAlerts#environments_impacted_by_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#environments_impacted_by_incident WorkflowTaskGetAlerts#environments_impacted_by_incident}
   */
   readonly environmentsImpactedByIncident?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#labels WorkflowTaskGetAlerts#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#labels WorkflowTaskGetAlerts#labels}
   */
   readonly labels?: string[];
   /**
   * Map must contain two fields, `id` and `name`. A hash where [id] is the task id of the parent task that sent a message, and [name] is the name of the parent task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#parent_message_thread_task WorkflowTaskGetAlerts#parent_message_thread_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#parent_message_thread_task WorkflowTaskGetAlerts#parent_message_thread_task}
   */
   readonly parentMessageThreadTask?: { [key: string]: string };
   /**
   * How far back to fetch commits (in format '1 minute', '30 days', '3 months', etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#past_duration WorkflowTaskGetAlerts#past_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#past_duration WorkflowTaskGetAlerts#past_duration}
   */
   readonly pastDuration: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#post_to_incident_timeline WorkflowTaskGetAlerts#post_to_incident_timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#post_to_incident_timeline WorkflowTaskGetAlerts#post_to_incident_timeline}
   */
   readonly postToIncidentTimeline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#service_ids WorkflowTaskGetAlerts#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#service_ids WorkflowTaskGetAlerts#service_ids}
   */
   readonly serviceIds?: string[];
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#services_impacted_by_incident WorkflowTaskGetAlerts#services_impacted_by_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#services_impacted_by_incident WorkflowTaskGetAlerts#services_impacted_by_incident}
   */
   readonly servicesImpactedByIncident?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#sources WorkflowTaskGetAlerts#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#sources WorkflowTaskGetAlerts#sources}
   */
   readonly sources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#task_type WorkflowTaskGetAlerts#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#task_type WorkflowTaskGetAlerts#task_type}
   */
   readonly taskType?: string;
   /**
   * post_to_slack_channels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#post_to_slack_channels WorkflowTaskGetAlerts#post_to_slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#post_to_slack_channels WorkflowTaskGetAlerts#post_to_slack_channels}
   */
   readonly postToSlackChannels?: WorkflowTaskGetAlertsTaskParamsPostToSlackChannels[] | cdktf.IResolvable;
 }
@@ -622,7 +622,7 @@ export class WorkflowTaskGetAlertsTaskParamsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts rootly_workflow_task_get_alerts}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts rootly_workflow_task_get_alerts}
 */
 export class WorkflowTaskGetAlerts extends cdktf.TerraformResource {
 
@@ -638,7 +638,7 @@ export class WorkflowTaskGetAlerts extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskGetAlerts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskGetAlerts to import
-  * @param importFromId The id of the existing WorkflowTaskGetAlerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskGetAlerts that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskGetAlerts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -650,7 +650,7 @@ export class WorkflowTaskGetAlerts extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_get_alerts rootly_workflow_task_get_alerts} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_get_alerts rootly_workflow_task_get_alerts} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -661,8 +661,8 @@ export class WorkflowTaskGetAlerts extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_get_alerts',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

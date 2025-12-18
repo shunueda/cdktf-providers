@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`astro`](https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs).
+Refer to the Terraform Registry for docs: [`astro`](https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs).

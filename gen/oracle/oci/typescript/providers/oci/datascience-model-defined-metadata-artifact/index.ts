@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceModelDefinedMetadataArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#content_disposition DatascienceModelDefinedMetadataArtifact#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#content_disposition DatascienceModelDefinedMetadataArtifact#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#content_length DatascienceModelDefinedMetadataArtifact#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#content_length DatascienceModelDefinedMetadataArtifact#content_length}
   */
   readonly contentLength: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#id DatascienceModelDefinedMetadataArtifact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#id DatascienceModelDefinedMetadataArtifact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#metadatum_key_name DatascienceModelDefinedMetadataArtifact#metadatum_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#metadatum_key_name DatascienceModelDefinedMetadataArtifact#metadatum_key_name}
   */
   readonly metadatumKeyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#model_defined_metadatum_artifact DatascienceModelDefinedMetadataArtifact#model_defined_metadatum_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#model_defined_metadatum_artifact DatascienceModelDefinedMetadataArtifact#model_defined_metadatum_artifact}
   */
   readonly modelDefinedMetadatumArtifact: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#model_id DatascienceModelDefinedMetadataArtifact#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#model_id DatascienceModelDefinedMetadataArtifact#model_id}
   */
   readonly modelId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#timeouts DatascienceModelDefinedMetadataArtifact#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#timeouts DatascienceModelDefinedMetadataArtifact#timeouts}
   */
   readonly timeouts?: DatascienceModelDefinedMetadataArtifactTimeouts;
 }
 export interface DatascienceModelDefinedMetadataArtifactTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#create DatascienceModelDefinedMetadataArtifact#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#create DatascienceModelDefinedMetadataArtifact#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#delete DatascienceModelDefinedMetadataArtifact#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#delete DatascienceModelDefinedMetadataArtifact#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#update DatascienceModelDefinedMetadataArtifact#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#update DatascienceModelDefinedMetadataArtifact#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class DatascienceModelDefinedMetadataArtifactTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact oci_datascience_model_defined_metadata_artifact}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact oci_datascience_model_defined_metadata_artifact}
 */
 export class DatascienceModelDefinedMetadataArtifact extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class DatascienceModelDefinedMetadataArtifact extends cdktf.TerraformReso
   * Generates CDKTF code for importing a DatascienceModelDefinedMetadataArtifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceModelDefinedMetadataArtifact to import
-  * @param importFromId The id of the existing DatascienceModelDefinedMetadataArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceModelDefinedMetadataArtifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceModelDefinedMetadataArtifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DatascienceModelDefinedMetadataArtifact extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_defined_metadata_artifact oci_datascience_model_defined_metadata_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/datascience_model_defined_metadata_artifact oci_datascience_model_defined_metadata_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DatascienceModelDefinedMetadataArtifact extends cdktf.TerraformReso
       terraformResourceType: 'oci_datascience_model_defined_metadata_artifact',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

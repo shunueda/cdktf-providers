@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,81 @@ export interface OrgNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to disallow Mist Devices in the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#disallow_mist_services OrgNetwork#disallow_mist_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#disallow_mist_services OrgNetwork#disallow_mist_services}
   */
   readonly disallowMistServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#gateway OrgNetwork#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#gateway OrgNetwork#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#gateway6 OrgNetwork#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#gateway6 OrgNetwork#gateway6}
   */
   readonly gateway6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#internal_access OrgNetwork#internal_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#internal_access OrgNetwork#internal_access}
   */
   readonly internalAccess?: OrgNetworkInternalAccess;
   /**
   * Whether this network has direct internet access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#internet_access OrgNetwork#internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#internet_access OrgNetwork#internet_access}
   */
   readonly internetAccess?: OrgNetworkInternetAccess;
   /**
   * Whether to allow clients in the network to talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#isolation OrgNetwork#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#isolation OrgNetwork#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable multicast support (only PIM-sparse mode is supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#multicast OrgNetwork#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#multicast OrgNetwork#multicast}
   */
   readonly multicast?: OrgNetworkMulticast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#name OrgNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#name OrgNetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#org_id OrgNetwork#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#org_id OrgNetwork#org_id}
   */
   readonly orgId: string;
   /**
   * For a Network (usually LAN), it can be routable to other networks (e.g. OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#routed_for_networks OrgNetwork#routed_for_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#routed_for_networks OrgNetwork#routed_for_networks}
   */
   readonly routedForNetworks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#subnet OrgNetwork#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#subnet OrgNetwork#subnet}
   */
   readonly subnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#subnet6 OrgNetwork#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#subnet6 OrgNetwork#subnet6}
   */
   readonly subnet6?: string;
   /**
   * Property key must be the user/tenant name (i.e. "printer-1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#tenants OrgNetwork#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#tenants OrgNetwork#tenants}
   */
   readonly tenants?: { [key: string]: OrgNetworkTenants } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#vlan_id OrgNetwork#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#vlan_id OrgNetwork#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * Property key is the VPN name. Whether this network can be accessed from vpn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#vpn_access OrgNetwork#vpn_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#vpn_access OrgNetwork#vpn_access}
   */
   readonly vpnAccess?: { [key: string]: OrgNetworkVpnAccess } | cdktf.IResolvable;
 }
 export interface OrgNetworkInternalAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#enabled OrgNetwork#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#enabled OrgNetwork#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -180,23 +180,23 @@ export interface OrgNetworkInternetAccessDestinationNat {
   /**
   * The Destination NAT destination IP Address. Must be an IP (i.e. "192.168.70.30") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#name OrgNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#name OrgNetwork#name}
   */
   readonly name?: string;
   /**
   * The Destination NAT destination IP Address. Must be a Port (i.e. "443") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#port OrgNetwork#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#port OrgNetwork#port}
   */
   readonly port?: string;
   /**
   * SRX Only. If not set, we configure the nat policies against all WAN ports for simplicity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#wan_name OrgNetwork#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#wan_name OrgNetwork#wan_name}
   */
   readonly wanName?: string;
 }
@@ -399,17 +399,17 @@ export interface OrgNetworkInternetAccessStaticNat {
   /**
   * The Static NAT destination IP Address. Must be an IP Address (i.e. "192.168.70.3") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#name OrgNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#name OrgNetwork#name}
   */
   readonly name: string;
   /**
   * SRX Only. If not set, we configure the nat policies against all WAN ports for simplicity. Can be a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#wan_name OrgNetwork#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#wan_name OrgNetwork#wan_name}
   */
   readonly wanName?: string;
 }
@@ -575,29 +575,29 @@ export class OrgNetworkInternetAccessStaticNatMap extends cdktf.ComplexMap {
 }
 export interface OrgNetworkInternetAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#create_simple_service_policy OrgNetwork#create_simple_service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#create_simple_service_policy OrgNetwork#create_simple_service_policy}
   */
   readonly createSimpleServicePolicy?: boolean | cdktf.IResolvable;
   /**
   * Property key can be an External IP (i.e. "63.16.0.3"), an External IP:Port (i.e. "63.16.0.3:443"), an External Port (i.e. ":443"), an External CIDR (i.e. "63.16.0.0/30"), an External CIDR:Port (i.e. "63.16.0.0/30:443") or a Variable (i.e. "{{myvar}}"). At least one of the `internal_ip` or `port` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#destination_nat OrgNetwork#destination_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#destination_nat OrgNetwork#destination_nat}
   */
   readonly destinationNat?: { [key: string]: OrgNetworkInternetAccessDestinationNat } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#enabled OrgNetwork#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#enabled OrgNetwork#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * By default, all access is allowed, to only allow certain traffic, make `restricted`=`true` and define service_policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#restricted OrgNetwork#restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#restricted OrgNetwork#restricted}
   */
   readonly restricted?: boolean | cdktf.IResolvable;
   /**
   * Property key may be an External IP Address (i.e. "63.16.0.3"), a CIDR (i.e. "63.16.0.12/20") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#static_nat OrgNetwork#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#static_nat OrgNetwork#static_nat}
   */
   readonly staticNat?: { [key: string]: OrgNetworkInternetAccessStaticNat } | cdktf.IResolvable;
 }
@@ -809,7 +809,7 @@ export interface OrgNetworkMulticastGroups {
   /**
   * RP (rendezvous point) IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#rp_ip OrgNetwork#rp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#rp_ip OrgNetwork#rp_ip}
   */
   readonly rpIp?: string;
 }
@@ -925,17 +925,17 @@ export interface OrgNetworkMulticast {
   /**
   * If the network will only be the source of the multicast traffic, IGMP can be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#disable_igmp OrgNetwork#disable_igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#disable_igmp OrgNetwork#disable_igmp}
   */
   readonly disableIgmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#enabled OrgNetwork#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#enabled OrgNetwork#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Group address to RP (rendezvous point) mapping. Property Key is the CIDR (example "225.1.0.3/32")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#groups OrgNetwork#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#groups OrgNetwork#groups}
   */
   readonly groups?: { [key: string]: OrgNetworkMulticastGroups } | cdktf.IResolvable;
 }
@@ -1087,7 +1087,7 @@ export class OrgNetworkMulticastOutputReference extends cdktf.ComplexObject {
 }
 export interface OrgNetworkTenants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#addresses OrgNetwork#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#addresses OrgNetwork#addresses}
   */
   readonly addresses?: string[];
 }
@@ -1203,15 +1203,15 @@ export interface OrgNetworkVpnAccessDestinationNat {
   /**
   * The Destination NAT destination IP Address. Must be an IP (i.e. "192.168.70.30") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#name OrgNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#name OrgNetwork#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#port OrgNetwork#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#port OrgNetwork#port}
   */
   readonly port?: string;
 }
@@ -1383,7 +1383,7 @@ export class OrgNetworkVpnAccessDestinationNatMap extends cdktf.ComplexMap {
 }
 export interface OrgNetworkVpnAccessSourceNat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#external_ip OrgNetwork#external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#external_ip OrgNetwork#external_ip}
   */
   readonly externalIp?: string;
 }
@@ -1479,11 +1479,11 @@ export interface OrgNetworkVpnAccessStaticNat {
   /**
   * The Static NAT destination IP Address. Must be an IP Address (i.e. "192.168.70.3") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#internal_ip OrgNetwork#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#name OrgNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#name OrgNetwork#name}
   */
   readonly name: string;
 }
@@ -1622,85 +1622,85 @@ export interface OrgNetworkVpnAccess {
   /**
   * If `routed`==`true`, whether to advertise an aggregated subnet toward HUB this is useful when there are multiple networks on SPOKE's side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#advertised_subnet OrgNetwork#advertised_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#advertised_subnet OrgNetwork#advertised_subnet}
   */
   readonly advertisedSubnet?: string;
   /**
   * Whether to allow ping from vpn into this routed network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#allow_ping OrgNetwork#allow_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#allow_ping OrgNetwork#allow_ping}
   */
   readonly allowPing?: boolean | cdktf.IResolvable;
   /**
   * Property key can be an External IP (i.e. "63.16.0.3"), an External IP:Port (i.e. "63.16.0.3:443"), an External Port (i.e. ":443"), an External CIDR (i.e. "63.16.0.0/30"), an External CIDR:Port (i.e. "63.16.0.0/30:443") or a Variable (i.e. "{{myvar}}"). At least one of the `internal_ip` or `port` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#destination_nat OrgNetwork#destination_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#destination_nat OrgNetwork#destination_nat}
   */
   readonly destinationNat?: { [key: string]: OrgNetworkVpnAccessDestinationNat } | cdktf.IResolvable;
   /**
   * If `routed`==`false` (usually at Spoke), but some hosts needs to be reachable from Hub, a subnet is required to create and advertise the route to Hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#nat_pool OrgNetwork#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#nat_pool OrgNetwork#nat_pool}
   */
   readonly natPool?: string;
   /**
   * toward LAN-side BGP peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#no_readvertise_to_lan_bgp OrgNetwork#no_readvertise_to_lan_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#no_readvertise_to_lan_bgp OrgNetwork#no_readvertise_to_lan_bgp}
   */
   readonly noReadvertiseToLanBgp?: boolean | cdktf.IResolvable;
   /**
   * toward LAN-side OSPF peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#no_readvertise_to_lan_ospf OrgNetwork#no_readvertise_to_lan_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#no_readvertise_to_lan_ospf OrgNetwork#no_readvertise_to_lan_ospf}
   */
   readonly noReadvertiseToLanOspf?: boolean | cdktf.IResolvable;
   /**
   * toward overlay, how HUB should deal with routes it received from Spokes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#no_readvertise_to_overlay OrgNetwork#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#no_readvertise_to_overlay OrgNetwork#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * By default, the routes are only readvertised toward the same vrf on spoke. To allow it to be leaked to other vrfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#other_vrfs OrgNetwork#other_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#other_vrfs OrgNetwork#other_vrfs}
   */
   readonly otherVrfs?: string[];
   /**
   * Whether this network is routable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#routed OrgNetwork#routed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#routed OrgNetwork#routed}
   */
   readonly routed?: boolean | cdktf.IResolvable;
   /**
   * If `routed`==`false` (usually at Spoke), but some hosts needs to be reachable from Hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#source_nat OrgNetwork#source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#source_nat OrgNetwork#source_nat}
   */
   readonly sourceNat?: OrgNetworkVpnAccessSourceNat;
   /**
   * Property key may be an External IP Address (i.e. "63.16.0.3"), a CIDR (i.e. "63.16.0.12/20") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#static_nat OrgNetwork#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#static_nat OrgNetwork#static_nat}
   */
   readonly staticNat?: { [key: string]: OrgNetworkVpnAccessStaticNat } | cdktf.IResolvable;
   /**
   * toward overlay, how HUB should deal with routes it received from Spokes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#summarized_subnet OrgNetwork#summarized_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#summarized_subnet OrgNetwork#summarized_subnet}
   */
   readonly summarizedSubnet?: string;
   /**
   * toward LAN-side BGP peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#summarized_subnet_to_lan_bgp OrgNetwork#summarized_subnet_to_lan_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#summarized_subnet_to_lan_bgp OrgNetwork#summarized_subnet_to_lan_bgp}
   */
   readonly summarizedSubnetToLanBgp?: string;
   /**
   * toward LAN-side OSPF peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#summarized_subnet_to_lan_ospf OrgNetwork#summarized_subnet_to_lan_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#summarized_subnet_to_lan_ospf OrgNetwork#summarized_subnet_to_lan_ospf}
   */
   readonly summarizedSubnetToLanOspf?: string;
 }
@@ -2191,7 +2191,7 @@ export class OrgNetworkVpnAccessMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network mist_org_network}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network mist_org_network}
 */
 export class OrgNetwork extends cdktf.TerraformResource {
 
@@ -2207,7 +2207,7 @@ export class OrgNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgNetwork to import
-  * @param importFromId The id of the existing OrgNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2219,7 +2219,7 @@ export class OrgNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_network mist_org_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_network mist_org_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2230,8 +2230,8 @@ export class OrgNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_network',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

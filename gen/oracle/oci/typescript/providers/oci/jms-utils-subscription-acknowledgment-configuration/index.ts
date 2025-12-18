@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface JmsUtilsSubscriptionAcknowledgmentConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#compartment_id JmsUtilsSubscriptionAcknowledgmentConfiguration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#compartment_id JmsUtilsSubscriptionAcknowledgmentConfiguration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#id JmsUtilsSubscriptionAcknowledgmentConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#id JmsUtilsSubscriptionAcknowledgmentConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#is_acknowledged JmsUtilsSubscriptionAcknowledgmentConfiguration#is_acknowledged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#is_acknowledged JmsUtilsSubscriptionAcknowledgmentConfiguration#is_acknowledged}
   */
   readonly isAcknowledged: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#timeouts JmsUtilsSubscriptionAcknowledgmentConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#timeouts JmsUtilsSubscriptionAcknowledgmentConfiguration#timeouts}
   */
   readonly timeouts?: JmsUtilsSubscriptionAcknowledgmentConfigurationTimeouts;
 }
 export interface JmsUtilsSubscriptionAcknowledgmentConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#create JmsUtilsSubscriptionAcknowledgmentConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#create JmsUtilsSubscriptionAcknowledgmentConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#delete JmsUtilsSubscriptionAcknowledgmentConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#delete JmsUtilsSubscriptionAcknowledgmentConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#update JmsUtilsSubscriptionAcknowledgmentConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#update JmsUtilsSubscriptionAcknowledgmentConfiguration#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class JmsUtilsSubscriptionAcknowledgmentConfigurationTimeoutsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration oci_jms_utils_subscription_acknowledgment_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration oci_jms_utils_subscription_acknowledgment_configuration}
 */
 export class JmsUtilsSubscriptionAcknowledgmentConfiguration extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class JmsUtilsSubscriptionAcknowledgmentConfiguration extends cdktf.Terra
   * Generates CDKTF code for importing a JmsUtilsSubscriptionAcknowledgmentConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JmsUtilsSubscriptionAcknowledgmentConfiguration to import
-  * @param importFromId The id of the existing JmsUtilsSubscriptionAcknowledgmentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JmsUtilsSubscriptionAcknowledgmentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JmsUtilsSubscriptionAcknowledgmentConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class JmsUtilsSubscriptionAcknowledgmentConfiguration extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/jms_utils_subscription_acknowledgment_configuration oci_jms_utils_subscription_acknowledgment_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/jms_utils_subscription_acknowledgment_configuration oci_jms_utils_subscription_acknowledgment_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class JmsUtilsSubscriptionAcknowledgmentConfiguration extends cdktf.Terra
       terraformResourceType: 'oci_jms_utils_subscription_acknowledgment_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,213 +10,213 @@ export interface SiteWlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable coa-immediate-update and address-change-immediate-update on the access profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#acct_immediate_update SiteWlan#acct_immediate_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#acct_immediate_update SiteWlan#acct_immediate_update}
   */
   readonly acctImmediateUpdate?: boolean | cdktf.IResolvable;
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from RADIUS Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#acct_interim_interval SiteWlan#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#acct_interim_interval SiteWlan#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
   * List of RADIUS accounting servers, optional, order matters where the first one is treated as primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#acct_servers SiteWlan#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#acct_servers SiteWlan#acct_servers}
   */
   readonly acctServers?: SiteWlanAcctServers[] | cdktf.IResolvable;
   /**
   * Airwatch wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#airwatch SiteWlan#airwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#airwatch SiteWlan#airwatch}
   */
   readonly airwatch?: SiteWlanAirwatch;
   /**
   * Only applicable when `limit_bcast`==`true`, which allows or disallows ipv6 Neighbor Discovery packets to go through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#allow_ipv6_ndp SiteWlan#allow_ipv6_ndp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#allow_ipv6_ndp SiteWlan#allow_ipv6_ndp}
   */
   readonly allowIpv6Ndp?: boolean | cdktf.IResolvable;
   /**
   * Only applicable when `limit_bcast`==`true`, which allows mDNS / Bonjour packets to go through
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#allow_mdns SiteWlan#allow_mdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#allow_mdns SiteWlan#allow_mdns}
   */
   readonly allowMdns?: boolean | cdktf.IResolvable;
   /**
   * Only applicable when `limit_bcast`==`true`, which allows SSDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#allow_ssdp SiteWlan#allow_ssdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#allow_ssdp SiteWlan#allow_ssdp}
   */
   readonly allowSsdp?: boolean | cdktf.IResolvable;
   /**
   * List of device ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#ap_ids SiteWlan#ap_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#ap_ids SiteWlan#ap_ids}
   */
   readonly apIds?: string[];
   /**
   * Bandwidth limiting for apps (applies to up/down)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#app_limit SiteWlan#app_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#app_limit SiteWlan#app_limit}
   */
   readonly appLimit?: SiteWlanAppLimit;
   /**
-  * APp qos wlan settings
+  * APP qos wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#app_qos SiteWlan#app_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#app_qos SiteWlan#app_qos}
   */
   readonly appQos?: SiteWlanAppQos;
   /**
   * enum: `aps`, `site`, `wxtags`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#apply_to SiteWlan#apply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#apply_to SiteWlan#apply_to}
   */
   readonly applyTo?: string;
   /**
   * Whether to enable smart arp filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#arp_filter SiteWlan#arp_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#arp_filter SiteWlan#arp_filter}
   */
   readonly arpFilter?: boolean | cdktf.IResolvable;
   /**
   * Authentication wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth SiteWlan#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth SiteWlan#auth}
   */
   readonly auth?: SiteWlanAuth;
   /**
   * When ordered, AP will prefer and go back to the first server if possible. enum: `ordered`, `unordered`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_server_selection SiteWlan#auth_server_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_server_selection SiteWlan#auth_server_selection}
   */
   readonly authServerSelection?: string;
   /**
   * List of RADIUS authentication servers, at least one is needed if `auth type`==`eap`, order matters where the first one is treated as primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers SiteWlan#auth_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers SiteWlan#auth_servers}
   */
   readonly authServers?: SiteWlanAuthServers[] | cdktf.IResolvable;
   /**
   * Optional, up to 48 bytes, will be dynamically generated if not provided. used only for authentication servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers_nas_id SiteWlan#auth_servers_nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers_nas_id SiteWlan#auth_servers_nas_id}
   */
   readonly authServersNasId?: string;
   /**
   * Optional, NAS-IP-ADDRESS to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers_nas_ip SiteWlan#auth_servers_nas_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers_nas_ip SiteWlan#auth_servers_nas_ip}
   */
   readonly authServersNasIp?: string;
   /**
   * Radius auth session retries. Following fast timers are set if "fast_dot1x_timers" knob is enabled. ‘retries’  are set to value of auth_servers_retries. ‘max-requests’ is also set when setting auth_servers_retries and is set to default value to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers_retries SiteWlan#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers_retries SiteWlan#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout. Following fast timers are set if "fast_dot1x_timers" knob is enabled. ‘quite-period’  and ‘transmit-period’ are set to half the value of auth_servers_timeout. ‘supplicant-timeout’ is also set when setting auth_servers_timeout and is set to default value of 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers_timeout SiteWlan#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers_timeout SiteWlan#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
   * Whether to enable band_steering, this works only when band==both
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#band_steer SiteWlan#band_steer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#band_steer SiteWlan#band_steer}
   */
   readonly bandSteer?: boolean | cdktf.IResolvable;
   /**
   * Force dual_band capable client to connect to 5G
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#band_steer_force_band5 SiteWlan#band_steer_force_band5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#band_steer_force_band5 SiteWlan#band_steer_force_band5}
   */
   readonly bandSteerForceBand5?: boolean | cdktf.IResolvable;
   /**
   * list of radios that the wlan should apply to. enum: `24`, `5`, `6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#bands SiteWlan#bands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#bands SiteWlan#bands}
   */
   readonly bands?: string[];
   /**
   * Whether to block the clients in the blacklist (up to first 256 macs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#block_blacklist_clients SiteWlan#block_blacklist_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#block_blacklist_clients SiteWlan#block_blacklist_clients}
   */
   readonly blockBlacklistClients?: boolean | cdktf.IResolvable;
   /**
   * Bonjour gateway wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#bonjour SiteWlan#bonjour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#bonjour SiteWlan#bonjour}
   */
   readonly bonjour?: SiteWlanBonjour;
   /**
   * Cisco CWA (central web authentication) required RADIUS with COA in order to work. See CWA: https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/115732-central-web-auth-00.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#cisco_cwa SiteWlan#cisco_cwa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#cisco_cwa SiteWlan#cisco_cwa}
   */
   readonly ciscoCwa?: SiteWlanCiscoCwa;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#client_limit_down SiteWlan#client_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#client_limit_down SiteWlan#client_limit_down}
   */
   readonly clientLimitDown?: string;
   /**
   * If downlink limiting per-client is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#client_limit_down_enabled SiteWlan#client_limit_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#client_limit_down_enabled SiteWlan#client_limit_down_enabled}
   */
   readonly clientLimitDownEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#client_limit_up SiteWlan#client_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#client_limit_up SiteWlan#client_limit_up}
   */
   readonly clientLimitUp?: string;
   /**
   * If uplink limiting per-client is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#client_limit_up_enabled SiteWlan#client_limit_up_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#client_limit_up_enabled SiteWlan#client_limit_up_enabled}
   */
   readonly clientLimitUpEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of COA (change of authorization) servers, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#coa_servers SiteWlan#coa_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#coa_servers SiteWlan#coa_servers}
   */
   readonly coaServers?: SiteWlanCoaServers[] | cdktf.IResolvable;
   /**
   * Some old WLAN drivers may not be compatible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_11ax SiteWlan#disable_11ax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_11ax SiteWlan#disable_11ax}
   */
   readonly disable11Ax?: boolean | cdktf.IResolvable;
   /**
   * To disable Wi-Fi 7 EHT IEs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_11be SiteWlan#disable_11be}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_11be SiteWlan#disable_11be}
   */
   readonly disable11Be?: boolean | cdktf.IResolvable;
   /**
   * To disable ht or vht rates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_ht_vht_rates SiteWlan#disable_ht_vht_rates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_ht_vht_rates SiteWlan#disable_ht_vht_rates}
   */
   readonly disableHtVhtRates?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable U-APSD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_uapsd SiteWlan#disable_uapsd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_uapsd SiteWlan#disable_uapsd}
   */
   readonly disableUapsd?: boolean | cdktf.IResolvable;
   /**
   * Disable sending v2 roam notification messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_v1_roam_notify SiteWlan#disable_v1_roam_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_v1_roam_notify SiteWlan#disable_v1_roam_notify}
   */
   readonly disableV1RoamNotify?: boolean | cdktf.IResolvable;
   /**
   * Disable sending v2 roam notification messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_v2_roam_notify SiteWlan#disable_v2_roam_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_v2_roam_notify SiteWlan#disable_v2_roam_notify}
   */
   readonly disableV2RoamNotify?: boolean | cdktf.IResolvable;
   /**
@@ -225,27 +225,27 @@ export interface SiteWlanConfig extends cdktf.TerraformMetaArguments {
   *    * cannot obtain default gateway
   *    * cannot reach default gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_when_gateway_unreachable SiteWlan#disable_when_gateway_unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_when_gateway_unreachable SiteWlan#disable_when_gateway_unreachable}
   */
   readonly disableWhenGatewayUnreachable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_when_mxtunnel_down SiteWlan#disable_when_mxtunnel_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_when_mxtunnel_down SiteWlan#disable_when_mxtunnel_down}
   */
   readonly disableWhenMxtunnelDown?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable WMM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_wmm SiteWlan#disable_wmm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_wmm SiteWlan#disable_wmm}
   */
   readonly disableWmm?: boolean | cdktf.IResolvable;
   /**
   * For radius_group-based DNS server (rewrite DNS request depending on the Group RADIUS server returns)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dns_server_rewrite SiteWlan#dns_server_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dns_server_rewrite SiteWlan#dns_server_rewrite}
   */
   readonly dnsServerRewrite?: SiteWlanDnsServerRewrite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dtim SiteWlan#dtim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dtim SiteWlan#dtim}
   */
   readonly dtim?: number;
   /**
@@ -259,281 +259,281 @@ export interface SiteWlanConfig extends cdktf.TerraformMetaArguments {
   *   * `multi_psk_only` and `psk` is ignored
   *   * `pairwise` can only be wpa2-ccmp (for now, wpa3 support on the roadmap)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dynamic_psk SiteWlan#dynamic_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dynamic_psk SiteWlan#dynamic_psk}
   */
   readonly dynamicPsk?: SiteWlanDynamicPsk;
   /**
   * For 802.1x
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dynamic_vlan SiteWlan#dynamic_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dynamic_vlan SiteWlan#dynamic_vlan}
   */
   readonly dynamicVlan?: SiteWlanDynamicVlan;
   /**
   * Enable AP-AP keycaching via multicast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enable_local_keycaching SiteWlan#enable_local_keycaching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enable_local_keycaching SiteWlan#enable_local_keycaching}
   */
   readonly enableLocalKeycaching?: boolean | cdktf.IResolvable;
   /**
   * By default, we'd inspect all DHCP packets and drop those unrelated to the wireless client itself in the case where client is a wireless bridge (DHCP packets for other MACs will need to be forwarded), wireless_bridging can be enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enable_wireless_bridging SiteWlan#enable_wireless_bridging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enable_wireless_bridging SiteWlan#enable_wireless_bridging}
   */
   readonly enableWirelessBridging?: boolean | cdktf.IResolvable;
   /**
   * If the client bridge is doing DHCP on behalf of other devices (L2-NAT), enable dhcp_tracking will cut down DHCP response packets to be forwarded to wireless
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enable_wireless_bridging_dhcp_tracking SiteWlan#enable_wireless_bridging_dhcp_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enable_wireless_bridging_dhcp_tracking SiteWlan#enable_wireless_bridging_dhcp_tracking}
   */
   readonly enableWirelessBridgingDhcpTracking?: boolean | cdktf.IResolvable;
   /**
   * If this wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set to true, sets default fast-timers with values calculated from ‘auth_servers_timeout’ and ‘auth_server_retries’ .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#fast_dot1x_timers SiteWlan#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#fast_dot1x_timers SiteWlan#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Whether to hide SSID in beacon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#hide_ssid SiteWlan#hide_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#hide_ssid SiteWlan#hide_ssid}
   */
   readonly hideSsid?: boolean | cdktf.IResolvable;
   /**
   * Include hostname inside IE in AP beacons / probe responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#hostname_ie SiteWlan#hostname_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#hostname_ie SiteWlan#hostname_ie}
   */
   readonly hostnameIe?: boolean | cdktf.IResolvable;
   /**
   * Hostspot 2.0 wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#hotspot20 SiteWlan#hotspot20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#hotspot20 SiteWlan#hotspot20}
   */
   readonly hotspot20?: SiteWlanHotspot20;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#inject_dhcp_option_82 SiteWlan#inject_dhcp_option_82}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#inject_dhcp_option_82 SiteWlan#inject_dhcp_option_82}
   */
   readonly injectDhcpOption82?: SiteWlanInjectDhcpOption82;
   /**
   * where this WLAN will be connected to. enum: `all`, `eth0`, `eth1`, `eth2`, `eth3`, `mxtunnel`, `site_mxedge`, `wxtunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#interface SiteWlan#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#interface SiteWlan#interface}
   */
   readonly interface?: string;
   /**
   * Whether to stop clients to talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#isolation SiteWlan#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#isolation SiteWlan#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
   * If isolation is enabled, whether to deny clients to talk to L2 on the LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#l2_isolation SiteWlan#l2_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#l2_isolation SiteWlan#l2_isolation}
   */
   readonly l2Isolation?: boolean | cdktf.IResolvable;
   /**
   * Legacy devices requires the Over-DS (for Fast BSS Transition) bit set (while our chip doesn’t support it). Warning! Enabling this will cause problem for iOS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#legacy_overds SiteWlan#legacy_overds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#legacy_overds SiteWlan#legacy_overds}
   */
   readonly legacyOverds?: boolean | cdktf.IResolvable;
   /**
   * Whether to limit broadcast packets going to wireless (i.e. only allow certain bcast packets to go through)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#limit_bcast SiteWlan#limit_bcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#limit_bcast SiteWlan#limit_bcast}
   */
   readonly limitBcast?: boolean | cdktf.IResolvable;
   /**
   * Limit probe response base on some heuristic rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#limit_probe_response SiteWlan#limit_probe_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#limit_probe_response SiteWlan#limit_probe_response}
   */
   readonly limitProbeResponse?: boolean | cdktf.IResolvable;
   /**
   * Max idle time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#max_idletime SiteWlan#max_idletime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#max_idletime SiteWlan#max_idletime}
   */
   readonly maxIdletime?: number;
   /**
   * Maximum number of client connected to the SSID. `0` means unlimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#max_num_clients SiteWlan#max_num_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#max_num_clients SiteWlan#max_num_clients}
   */
   readonly maxNumClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#mist_nac SiteWlan#mist_nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#mist_nac SiteWlan#mist_nac}
   */
   readonly mistNac?: SiteWlanMistNac;
   /**
   * When `interface`=`mxtunnel`, id of the Mist Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#mxtunnel_ids SiteWlan#mxtunnel_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#mxtunnel_ids SiteWlan#mxtunnel_ids}
   */
   readonly mxtunnelIds?: string[];
   /**
   * When `interface`=`site_mxedge`, name of the mxtunnel that in mxtunnels under Site Setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#mxtunnel_name SiteWlan#mxtunnel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#mxtunnel_name SiteWlan#mxtunnel_name}
   */
   readonly mxtunnelName?: string[];
   /**
   * Whether to only allow client to use DNS that we’ve learned from DHCP response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#no_static_dns SiteWlan#no_static_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#no_static_dns SiteWlan#no_static_dns}
   */
   readonly noStaticDns?: boolean | cdktf.IResolvable;
   /**
   * Whether to only allow client that we’ve learned from DHCP exchange to talk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#no_static_ip SiteWlan#no_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#no_static_ip SiteWlan#no_static_ip}
   */
   readonly noStaticIp?: boolean | cdktf.IResolvable;
   /**
   * Portal wlan settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#portal SiteWlan#portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#portal SiteWlan#portal}
   */
   readonly portal?: SiteWlanPortal;
   /**
   * List of hostnames without http(s):// (matched by substring)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#portal_allowed_hostnames SiteWlan#portal_allowed_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#portal_allowed_hostnames SiteWlan#portal_allowed_hostnames}
   */
   readonly portalAllowedHostnames?: string[];
   /**
   * List of CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#portal_allowed_subnets SiteWlan#portal_allowed_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#portal_allowed_subnets SiteWlan#portal_allowed_subnets}
   */
   readonly portalAllowedSubnets?: string[];
   /**
   * List of hostnames without http(s):// (matched by substring), this takes precedence over portal_allowed_hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#portal_denied_hostnames SiteWlan#portal_denied_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#portal_denied_hostnames SiteWlan#portal_denied_hostnames}
   */
   readonly portalDeniedHostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#qos SiteWlan#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#qos SiteWlan#qos}
   */
   readonly qos?: SiteWlanQos;
   /**
   * RadSec settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#radsec SiteWlan#radsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#radsec SiteWlan#radsec}
   */
   readonly radsec?: SiteWlanRadsec;
   /**
   * Property key is the RF band. enum: `24`, `5`, `6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#rateset SiteWlan#rateset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#rateset SiteWlan#rateset}
   */
   readonly rateset?: { [key: string]: SiteWlanRateset } | cdktf.IResolvable;
   /**
   * When different mxcluster is on different subnet, we'd want to disconnect clients (so they'll reconnect and get new IPs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#reconnect_clients_when_roaming_mxcluster SiteWlan#reconnect_clients_when_roaming_mxcluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#reconnect_clients_when_roaming_mxcluster SiteWlan#reconnect_clients_when_roaming_mxcluster}
   */
   readonly reconnectClientsWhenRoamingMxcluster?: boolean | cdktf.IResolvable;
   /**
   * enum: `11r`, `OKC`, `NONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#roam_mode SiteWlan#roam_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#roam_mode SiteWlan#roam_mode}
   */
   readonly roamMode?: string;
   /**
   * WLAN operating schedule, default is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#schedule SiteWlan#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#schedule SiteWlan#schedule}
   */
   readonly schedule?: SiteWlanSchedule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#site_id SiteWlan#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#site_id SiteWlan#site_id}
   */
   readonly siteId: string;
   /**
   * Whether to exclude this WLAN from SLE metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sle_excluded SiteWlan#sle_excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sle_excluded SiteWlan#sle_excluded}
   */
   readonly sleExcluded?: boolean | cdktf.IResolvable;
   /**
   * Name of the SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#ssid SiteWlan#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#ssid SiteWlan#ssid}
   */
   readonly ssid: string;
   /**
   * If `auth.type`==`eap` or `auth.type`==`psk`, should only be set for legacy client, such as pre-2004, 802.11b devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#use_eapol_v1 SiteWlan#use_eapol_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#use_eapol_v1 SiteWlan#use_eapol_v1}
   */
   readonly useEapolV1?: boolean | cdktf.IResolvable;
   /**
   * If vlan tagging is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#vlan_enabled SiteWlan#vlan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#vlan_enabled SiteWlan#vlan_enabled}
   */
   readonly vlanEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#vlan_id SiteWlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#vlan_id SiteWlan#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * if `vlan_enabled`==`true` and `vlan_pooling`==`true`. List of VLAN IDs (comma separated) to be used in the VLAN Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#vlan_ids SiteWlan#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#vlan_ids SiteWlan#vlan_ids}
   */
   readonly vlanIds?: string[];
   /**
   * Requires `vlan_enabled`==`true` to be set to `true`. Vlan pooling allows AP to place client on different VLAN using a deterministic algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#vlan_pooling SiteWlan#vlan_pooling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#vlan_pooling SiteWlan#vlan_pooling}
   */
   readonly vlanPooling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wlan_limit_down SiteWlan#wlan_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wlan_limit_down SiteWlan#wlan_limit_down}
   */
   readonly wlanLimitDown?: string;
   /**
   * If downlink limiting for whole wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wlan_limit_down_enabled SiteWlan#wlan_limit_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wlan_limit_down_enabled SiteWlan#wlan_limit_down_enabled}
   */
   readonly wlanLimitDownEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wlan_limit_up SiteWlan#wlan_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wlan_limit_up SiteWlan#wlan_limit_up}
   */
   readonly wlanLimitUp?: string;
   /**
   * If uplink limiting for whole wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wlan_limit_up_enabled SiteWlan#wlan_limit_up_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wlan_limit_up_enabled SiteWlan#wlan_limit_up_enabled}
   */
   readonly wlanLimitUpEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of wxtag_ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wxtag_ids SiteWlan#wxtag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wxtag_ids SiteWlan#wxtag_ids}
   */
   readonly wxtagIds?: string[];
   /**
   * When `interface`=`wxtunnel`, id of the WXLAN Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wxtunnel_id SiteWlan#wxtunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wxtunnel_id SiteWlan#wxtunnel_id}
   */
   readonly wxtunnelId?: string;
   /**
   * When `interface`=`wxtunnel`, remote tunnel identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wxtunnel_remote_id SiteWlan#wxtunnel_remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wxtunnel_remote_id SiteWlan#wxtunnel_remote_id}
   */
   readonly wxtunnelRemoteId?: string;
 }
@@ -541,35 +541,35 @@ export interface SiteWlanAcctServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#host SiteWlan#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#host SiteWlan#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_enabled SiteWlan#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_enabled SiteWlan#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_format SiteWlan#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_format SiteWlan#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_kek SiteWlan#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_kek SiteWlan#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_mack SiteWlan#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_mack SiteWlan#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#port SiteWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#port SiteWlan#port}
   */
   readonly port?: string;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#secret SiteWlan#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#secret SiteWlan#secret}
   */
   readonly secret: string;
 }
@@ -855,29 +855,29 @@ export interface SiteWlanAirwatch {
   /**
   * API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#api_key SiteWlan#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#api_key SiteWlan#api_key}
   */
   readonly apiKey?: string;
   /**
   * Console URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#console_url SiteWlan#console_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#console_url SiteWlan#console_url}
   */
   readonly consoleUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#password SiteWlan#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#password SiteWlan#password}
   */
   readonly password?: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#username SiteWlan#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#username SiteWlan#username}
   */
   readonly username?: string;
 }
@@ -1090,17 +1090,17 @@ export interface SiteWlanAppLimit {
   * Map from app key to bandwidth in kbps. 
   * Property key is the app key, defined in Get Application List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#apps SiteWlan#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#apps SiteWlan#apps}
   */
   readonly apps?: { [key: string]: number };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Map from wxtag_id of Hostname Wxlan Tags to bandwidth in kbps. Property key is the `wxtag_id`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wxtag_ids SiteWlan#wxtag_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wxtag_ids SiteWlan#wxtag_ids}
   */
   readonly wxtagIds?: { [key: string]: number };
 }
@@ -1254,19 +1254,19 @@ export interface SiteWlanAppQosApps {
   /**
   * DSCP value range between 0 and 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dscp SiteWlan#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dscp SiteWlan#dscp}
   */
   readonly dscp?: string;
   /**
   * Subnet filter is not required but helps AP to only inspect certain traffic (thus reducing AP load)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dst_subnet SiteWlan#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dst_subnet SiteWlan#dst_subnet}
   */
   readonly dstSubnet?: string;
   /**
   * Subnet filter is not required but helps AP to only inspect certain traffic (thus reducing AP load)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#src_subnet SiteWlan#src_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#src_subnet SiteWlan#src_subnet}
   */
   readonly srcSubnet?: string;
 }
@@ -1438,23 +1438,23 @@ export class SiteWlanAppQosAppsMap extends cdktf.ComplexMap {
 }
 export interface SiteWlanAppQosOthers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dscp SiteWlan#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dscp SiteWlan#dscp}
   */
   readonly dscp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#dst_subnet SiteWlan#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#dst_subnet SiteWlan#dst_subnet}
   */
   readonly dstSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#port_ranges SiteWlan#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#port_ranges SiteWlan#port_ranges}
   */
   readonly portRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#protocol SiteWlan#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#protocol SiteWlan#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#src_subnet SiteWlan#src_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#src_subnet SiteWlan#src_subnet}
   */
   readonly srcSubnet?: string;
 }
@@ -1686,15 +1686,15 @@ export class SiteWlanAppQosOthersList extends cdktf.ComplexList {
 }
 export interface SiteWlanAppQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#apps SiteWlan#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#apps SiteWlan#apps}
   */
   readonly apps?: { [key: string]: SiteWlanAppQosApps } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#others SiteWlan#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#others SiteWlan#others}
   */
   readonly others?: SiteWlanAppQosOthers[] | cdktf.IResolvable;
 }
@@ -1848,73 +1848,73 @@ export interface SiteWlanAuth {
   /**
   * SAE anti-clogging token threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#anticlog_threshold SiteWlan#anticlog_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#anticlog_threshold SiteWlan#anticlog_threshold}
   */
   readonly anticlogThreshold?: number;
   /**
   * Whether to trigger EAP reauth when the session ends
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#eap_reauth SiteWlan#eap_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#eap_reauth SiteWlan#eap_reauth}
   */
   readonly eapReauth?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable MAC Auth, uses the same auth_servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enable_mac_auth SiteWlan#enable_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enable_mac_auth SiteWlan#enable_mac_auth}
   */
   readonly enableMacAuth?: boolean | cdktf.IResolvable;
   /**
   * When `type`==`wep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#key_idx SiteWlan#key_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#key_idx SiteWlan#key_idx}
   */
   readonly keyIdx?: number;
   /**
   * When type=wep, four 10-character or 26-character hex string, null can be used. All keys, if provided, have to be in the same length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keys SiteWlan#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keys SiteWlan#keys}
   */
   readonly keys?: string[];
   /**
   * When `type`==`psk`, whether to only use multi_psk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#multi_psk_only SiteWlan#multi_psk_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#multi_psk_only SiteWlan#multi_psk_only}
   */
   readonly multiPskOnly?: boolean | cdktf.IResolvable;
   /**
   * if `type`==`open`. enum: `disabled`, `enabled` (means transition mode), `required`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#owe SiteWlan#owe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#owe SiteWlan#owe}
   */
   readonly owe?: string;
   /**
   * When `type`=`psk` or `type`=`eap`, one or more of `wpa1-ccmp`, `wpa1-tkip`, `wpa2-ccmp`, `wpa2-tkip`, `wpa3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#pairwise SiteWlan#pairwise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#pairwise SiteWlan#pairwise}
   */
   readonly pairwise?: string[];
   /**
   * When `multi_psk_only`==`true`, whether private wlan is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#private_wlan SiteWlan#private_wlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#private_wlan SiteWlan#private_wlan}
   */
   readonly privateWlan?: boolean | cdktf.IResolvable;
   /**
   * When `type`==`psk`, 8-64 characters, or 64 hex characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#psk SiteWlan#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#psk SiteWlan#psk}
   */
   readonly psk?: string;
   /**
   * enum: `eap`, `eap192`, `open`, `psk`, `psk-tkip`, `psk-wpa2-tkip`, `wep`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#type SiteWlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#type SiteWlan#type}
   */
   readonly type?: string;
   /**
   * Enable WEP as secondary auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wep_as_secondary_auth SiteWlan#wep_as_secondary_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wep_as_secondary_auth SiteWlan#wep_as_secondary_auth}
   */
   readonly wepAsSecondaryAuth?: boolean | cdktf.IResolvable;
 }
@@ -2329,41 +2329,41 @@ export interface SiteWlanAuthServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#host SiteWlan#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#host SiteWlan#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_enabled SiteWlan#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_enabled SiteWlan#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_format SiteWlan#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_format SiteWlan#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_kek SiteWlan#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_kek SiteWlan#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#keywrap_mack SiteWlan#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#keywrap_mack SiteWlan#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#port SiteWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#port SiteWlan#port}
   */
   readonly port?: string;
   /**
   * Whether to require Message-Authenticator in requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#require_message_authenticator SiteWlan#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#require_message_authenticator SiteWlan#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: boolean | cdktf.IResolvable;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#secret SiteWlan#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#secret SiteWlan#secret}
   */
   readonly secret: string;
 }
@@ -2678,19 +2678,19 @@ export interface SiteWlanBonjourServices {
   /**
   * Whether to prevent wireless clients to discover bonjour devices on the same WLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_local SiteWlan#disable_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_local SiteWlan#disable_local}
   */
   readonly disableLocal?: boolean | cdktf.IResolvable;
   /**
   * Optional, if the service is further restricted for certain RADIUS groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#radius_groups SiteWlan#radius_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#radius_groups SiteWlan#radius_groups}
   */
   readonly radiusGroups?: string[];
   /**
   * how bonjour services should be discovered for the same WLAN. enum: `same_ap`, `same_map`, `same_site`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#scope SiteWlan#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#scope SiteWlan#scope}
   */
   readonly scope?: string;
 }
@@ -2864,20 +2864,20 @@ export interface SiteWlanBonjour {
   /**
   * additional VLAN IDs (on the LAN side or from other WLANs) should we be forwarding bonjour queries/responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#additional_vlan_ids SiteWlan#additional_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#additional_vlan_ids SiteWlan#additional_vlan_ids}
   */
   readonly additionalVlanIds?: string[];
   /**
   * Whether to enable bonjour for this WLAN. Once enabled, limit_bcast is assumed true, allow_mdns is assumed false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * What services are allowed. 
   * Property key is the service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#services SiteWlan#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#services SiteWlan#services}
   */
   readonly services?: { [key: string]: SiteWlanBonjourServices } | cdktf.IResolvable;
 }
@@ -3031,23 +3031,23 @@ export interface SiteWlanCiscoCwa {
   /**
   * List of hostnames without http(s):// (matched by substring)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#allowed_hostnames SiteWlan#allowed_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#allowed_hostnames SiteWlan#allowed_hostnames}
   */
   readonly allowedHostnames?: string[];
   /**
   * List of CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#allowed_subnets SiteWlan#allowed_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#allowed_subnets SiteWlan#allowed_subnets}
   */
   readonly allowedSubnets?: string[];
   /**
   * List of blocked CIDRs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#blocked_subnets SiteWlan#blocked_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#blocked_subnets SiteWlan#blocked_subnets}
   */
   readonly blockedSubnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3230,23 +3230,23 @@ export interface SiteWlanCoaServers {
   /**
   * Whether to disable Event-Timestamp Check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#disable_event_timestamp_check SiteWlan#disable_event_timestamp_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#disable_event_timestamp_check SiteWlan#disable_event_timestamp_check}
   */
   readonly disableEventTimestampCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#ip SiteWlan#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#ip SiteWlan#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#port SiteWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#port SiteWlan#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#secret SiteWlan#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#secret SiteWlan#secret}
   */
   readonly secret: string;
 }
@@ -3472,13 +3472,13 @@ export class SiteWlanCoaServersList extends cdktf.ComplexList {
 }
 export interface SiteWlanDnsServerRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Map between radius_group and the desired DNS server (IPv4 only). Property key is the RADIUS group, property value is the desired DNS Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#radius_groups SiteWlan#radius_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#radius_groups SiteWlan#radius_groups}
   */
   readonly radiusGroups?: { [key: string]: string };
 }
@@ -3603,27 +3603,27 @@ export interface SiteWlanDynamicPsk {
   /**
   * Default PSK to use if cloud WLC is not available, 8-63 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#default_psk SiteWlan#default_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#default_psk SiteWlan#default_psk}
   */
   readonly defaultPsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#default_vlan_id SiteWlan#default_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#default_vlan_id SiteWlan#default_vlan_id}
   */
   readonly defaultVlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When 11r is enabled, we'll try to use the cached PMK, this can be disabled. `false` means auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#force_lookup SiteWlan#force_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#force_lookup SiteWlan#force_lookup}
   */
   readonly forceLookup?: boolean | cdktf.IResolvable;
   /**
   * enum: `cloud_psks`, `radius`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#source SiteWlan#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#source SiteWlan#source}
   */
   readonly source?: string;
 }
@@ -3835,25 +3835,25 @@ export interface SiteWlanDynamicVlan {
   /**
   * Default VLAN ID(s) can be a number, a range of VLAN IDs, a variable or multiple numbers, ranges or variables as a VLAN pool. Default VLAN as a pool of VLANS requires 0.14.x or newer firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#default_vlan_ids SiteWlan#default_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#default_vlan_ids SiteWlan#default_vlan_ids}
   */
   readonly defaultVlanIds?: string[];
   /**
   * Requires `vlan_enabled`==`true` to be set to `true`. Whether to enable dynamic vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * VLAN_ids to be locally bridged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#local_vlan_ids SiteWlan#local_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#local_vlan_ids SiteWlan#local_vlan_ids}
   */
   readonly localVlanIds?: string[];
   /**
   * standard (using Tunnel-Private-Group-ID, widely supported), airespace-interface-name (Airespace/Cisco). enum: `airespace-interface-name`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#type SiteWlan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#type SiteWlan#type}
   */
   readonly type?: string;
   /**
@@ -3861,7 +3861,7 @@ export interface SiteWlanDynamicVlan {
   *   * if `dynamic_vlan.type`==`standard`, property key is the Vlan ID and property value is \"\"
   *   * if `dynamic_vlan.type`==`airespace-interface-name`, property key is the Vlan ID and property value is the Airespace Interface Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#vlans SiteWlan#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#vlans SiteWlan#vlans}
   */
   readonly vlans?: { [key: string]: string };
 }
@@ -4071,33 +4071,33 @@ export class SiteWlanDynamicVlanOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteWlanHotspot20 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#domain_name SiteWlan#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#domain_name SiteWlan#domain_name}
   */
   readonly domainName?: string[];
   /**
   * Whether to enable hotspot 2.0 config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#nai_realms SiteWlan#nai_realms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#nai_realms SiteWlan#nai_realms}
   */
   readonly naiRealms?: string[];
   /**
   * List of operators to support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#operators SiteWlan#operators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#operators SiteWlan#operators}
   */
   readonly operators?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#rcoi SiteWlan#rcoi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#rcoi SiteWlan#rcoi}
   */
   readonly rcoi?: string[];
   /**
   * Venue name, default is site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#venue_name SiteWlan#venue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#venue_name SiteWlan#venue_name}
   */
   readonly venueName?: string;
 }
@@ -4344,13 +4344,13 @@ export interface SiteWlanInjectDhcpOption82 {
   *   * {{SITE_NAME}}
   *   * {{SSID}}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#circuit_id SiteWlan#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#circuit_id SiteWlan#circuit_id}
   */
   readonly circuitId?: string;
   /**
   * Whether to inject option 82 when forwarding DHCP packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4475,31 +4475,31 @@ export interface SiteWlanMistNac {
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#acct_interim_interval SiteWlan#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#acct_interim_interval SiteWlan#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
   * Radius auth session retries. Following fast timers are set if `fast_dot1x_timers` knob is enabled. "retries" are set to value of `auth_servers_timeout`. "max-requests" is also set when setting `auth_servers_retries` is set to default value to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers_retries SiteWlan#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers_retries SiteWlan#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout. Following fast timers are set if `fast_dot1x_timers` knob is enabled. "quite-period" and "transmit-period" are set to half the value of `auth_servers_timeout`. "supplicant-timeout" is also set when setting `auth_servers_timeout` is set to default value of 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth_servers_timeout SiteWlan#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth_servers_timeout SiteWlan#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
   * Allows a RADIUS server to dynamically modify the authorization status of a user session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#coa_enabled SiteWlan#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#coa_enabled SiteWlan#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
   * the communication port used for “Change of Authorization” (CoA) messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#coa_port SiteWlan#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#coa_port SiteWlan#coa_port}
   */
   readonly coaPort?: number;
   /**
@@ -4511,25 +4511,25 @@ export interface SiteWlanMistNac {
   *   * `radsec` is ignored
   *   * `coa_enabled` is assumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set to true, sets default fast-timers with values calculated from `auth_servers_timeout` and `auth_server_retries`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#fast_dot1x_timers SiteWlan#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#fast_dot1x_timers SiteWlan#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Which network the mist nac server resides in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#network SiteWlan#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#network SiteWlan#network}
   */
   readonly network?: string;
   /**
   * In case there is a static IP for this network, we can specify it using source ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#source_ip SiteWlan#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#source_ip SiteWlan#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -4857,377 +4857,377 @@ export interface SiteWlanPortal {
   /**
   * Optional if `amazon_enabled`==`true`. Whether to allow guest to connect to other Guest WLANs (with different `WLAN.ssid`) of same org without reauthentication (disable random_mac for seamless roaming)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#allow_wlan_id_roam SiteWlan#allow_wlan_id_roam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#allow_wlan_id_roam SiteWlan#allow_wlan_id_roam}
   */
   readonly allowWlanIdRoam?: boolean | cdktf.IResolvable;
   /**
   * Optional if `amazon_enabled`==`true`. Amazon OAuth2 client id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#amazon_client_id SiteWlan#amazon_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#amazon_client_id SiteWlan#amazon_client_id}
   */
   readonly amazonClientId?: string;
   /**
   * Optional if `amazon_enabled`==`true`. Amazon OAuth2 client secret. If amazon_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#amazon_client_secret SiteWlan#amazon_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#amazon_client_secret SiteWlan#amazon_client_secret}
   */
   readonly amazonClientSecret?: string;
   /**
   * Optional if `amazon_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#amazon_email_domains SiteWlan#amazon_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#amazon_email_domains SiteWlan#amazon_email_domains}
   */
   readonly amazonEmailDomains?: string[];
   /**
   * Whether amazon is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#amazon_enabled SiteWlan#amazon_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#amazon_enabled SiteWlan#amazon_enabled}
   */
   readonly amazonEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `amazon_enabled`==`true`. Interval for which guest remains authorized using amazon auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#amazon_expire SiteWlan#amazon_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#amazon_expire SiteWlan#amazon_expire}
   */
   readonly amazonExpire?: number;
   /**
   * authentication scheme. enum: `amazon`, `azure`, `email`, `external`, `facebook`, `google`, `microsoft`, `multi`, `none`, `password`, `sms`, `sponsor`, `sso`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#auth SiteWlan#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#auth SiteWlan#auth}
   */
   readonly auth?: string;
   /**
   * Required if `azure_enabled`==`true`. Azure active directory app client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#azure_client_id SiteWlan#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#azure_client_id SiteWlan#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * Required if `azure_enabled`==`true`. Azure active directory app client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#azure_client_secret SiteWlan#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#azure_client_secret SiteWlan#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * Whether Azure Active Directory is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#azure_enabled SiteWlan#azure_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#azure_enabled SiteWlan#azure_enabled}
   */
   readonly azureEnabled?: boolean | cdktf.IResolvable;
   /**
   * Interval for which guest remains authorized using azure auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#azure_expire SiteWlan#azure_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#azure_expire SiteWlan#azure_expire}
   */
   readonly azureExpire?: number;
   /**
   * Required if `azure_enabled`==`true`. Azure active directory tenant id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#azure_tenant_id SiteWlan#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#azure_tenant_id SiteWlan#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Required if `sms_provider`==`broadnet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#broadnet_password SiteWlan#broadnet_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#broadnet_password SiteWlan#broadnet_password}
   */
   readonly broadnetPassword?: string;
   /**
   * Required if `sms_provider`==`broadnet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#broadnet_sid SiteWlan#broadnet_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#broadnet_sid SiteWlan#broadnet_sid}
   */
   readonly broadnetSid?: string;
   /**
   * Required if `sms_provider`==`broadnet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#broadnet_user_id SiteWlan#broadnet_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#broadnet_user_id SiteWlan#broadnet_user_id}
   */
   readonly broadnetUserId?: string;
   /**
   * Whether to bypass the guest portal when cloud not reachable (and apply the default policies)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#bypass_when_cloud_down SiteWlan#bypass_when_cloud_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#bypass_when_cloud_down SiteWlan#bypass_when_cloud_down}
   */
   readonly bypassWhenCloudDown?: boolean | cdktf.IResolvable;
   /**
   * Required if `sms_provider`==`clickatell`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#clickatell_api_key SiteWlan#clickatell_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#clickatell_api_key SiteWlan#clickatell_api_key}
   */
   readonly clickatellApiKey?: string;
   /**
   * Whether to allow guest to roam between WLANs (with same `WLAN.ssid`, regardless of variables) of different sites of same org without reauthentication (disable random_mac for seamless roaming)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#cross_site SiteWlan#cross_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#cross_site SiteWlan#cross_site}
   */
   readonly crossSite?: boolean | cdktf.IResolvable;
   /**
   * Whether email (access code verification) is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#email_enabled SiteWlan#email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#email_enabled SiteWlan#email_enabled}
   */
   readonly emailEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether guest portal is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * How long to remain authorized, in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#expire SiteWlan#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#expire SiteWlan#expire}
   */
   readonly expire?: number;
   /**
   * Required if `wlan_portal_auth`==`external`. External portal URL (e.g. https://host/url) where we can append our query parameters to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#external_portal_url SiteWlan#external_portal_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#external_portal_url SiteWlan#external_portal_url}
   */
   readonly externalPortalUrl?: string;
   /**
   * Required if `facebook_enabled`==`true`. Facebook OAuth2 app id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#facebook_client_id SiteWlan#facebook_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#facebook_client_id SiteWlan#facebook_client_id}
   */
   readonly facebookClientId?: string;
   /**
   * Required if `facebook_enabled`==`true`. Facebook OAuth2 app secret. If facebook_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#facebook_client_secret SiteWlan#facebook_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#facebook_client_secret SiteWlan#facebook_client_secret}
   */
   readonly facebookClientSecret?: string;
   /**
   * Optional if `facebook_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#facebook_email_domains SiteWlan#facebook_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#facebook_email_domains SiteWlan#facebook_email_domains}
   */
   readonly facebookEmailDomains?: string[];
   /**
   * Whether facebook is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#facebook_enabled SiteWlan#facebook_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#facebook_enabled SiteWlan#facebook_enabled}
   */
   readonly facebookEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `facebook_enabled`==`true`. Interval for which guest remains authorized using facebook auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#facebook_expire SiteWlan#facebook_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#facebook_expire SiteWlan#facebook_expire}
   */
   readonly facebookExpire?: number;
   /**
   * Whether to forward the user to another URL after authorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#forward SiteWlan#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#forward SiteWlan#forward}
   */
   readonly forward?: boolean | cdktf.IResolvable;
   /**
   * URL to forward the user to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#forward_url SiteWlan#forward_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#forward_url SiteWlan#forward_url}
   */
   readonly forwardUrl?: string;
   /**
   * Google OAuth2 app id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#google_client_id SiteWlan#google_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#google_client_id SiteWlan#google_client_id}
   */
   readonly googleClientId?: string;
   /**
   * Optional if `google_enabled`==`true`. Google OAuth2 app secret. If google_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#google_client_secret SiteWlan#google_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#google_client_secret SiteWlan#google_client_secret}
   */
   readonly googleClientSecret?: string;
   /**
   * Optional if `google_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#google_email_domains SiteWlan#google_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#google_email_domains SiteWlan#google_email_domains}
   */
   readonly googleEmailDomains?: string[];
   /**
   * Whether Google is enabled as login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#google_enabled SiteWlan#google_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#google_enabled SiteWlan#google_enabled}
   */
   readonly googleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `google_enabled`==`true`. Interval for which guest remains authorized using Google Auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#google_expire SiteWlan#google_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#google_expire SiteWlan#google_expire}
   */
   readonly googleExpire?: number;
   /**
   * Required if `sms_provider`==`gupshup`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#gupshup_password SiteWlan#gupshup_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#gupshup_password SiteWlan#gupshup_password}
   */
   readonly gupshupPassword?: string;
   /**
   * Required if `sms_provider`==`gupshup`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#gupshup_userid SiteWlan#gupshup_userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#gupshup_userid SiteWlan#gupshup_userid}
   */
   readonly gupshupUserid?: string;
   /**
   * Optional if `microsoft_enabled`==`true`. Microsoft 365 OAuth2 client id. This is optional. If not provided, it will use a default one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#microsoft_client_id SiteWlan#microsoft_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#microsoft_client_id SiteWlan#microsoft_client_id}
   */
   readonly microsoftClientId?: string;
   /**
   * Optional if `microsoft_enabled`==`true`. Microsoft 365 OAuth2 client secret. If microsoft_client_id was provided, provide a corresponding value. Else leave blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#microsoft_client_secret SiteWlan#microsoft_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#microsoft_client_secret SiteWlan#microsoft_client_secret}
   */
   readonly microsoftClientSecret?: string;
   /**
   * Optional if `microsoft_enabled`==`true`. Matches authenticated user email against provided domains. If null or [], all authenticated emails will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#microsoft_email_domains SiteWlan#microsoft_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#microsoft_email_domains SiteWlan#microsoft_email_domains}
   */
   readonly microsoftEmailDomains?: string[];
   /**
   * Whether microsoft 365 is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#microsoft_enabled SiteWlan#microsoft_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#microsoft_enabled SiteWlan#microsoft_enabled}
   */
   readonly microsoftEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `microsoft_enabled`==`true`. Interval for which guest remains authorized using microsoft auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#microsoft_expire SiteWlan#microsoft_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#microsoft_expire SiteWlan#microsoft_expire}
   */
   readonly microsoftExpire?: number;
   /**
   * Whether password is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#passphrase_enabled SiteWlan#passphrase_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#passphrase_enabled SiteWlan#passphrase_enabled}
   */
   readonly passphraseEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `passphrase_enabled`==`true`. Interval for which guest remains authorized using passphrase auth (in minutes), if not provided, uses `expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#passphrase_expire SiteWlan#passphrase_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#passphrase_expire SiteWlan#passphrase_expire}
   */
   readonly passphraseExpire?: number;
   /**
   * Required if `passphrase_enabled`==`true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#password SiteWlan#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#password SiteWlan#password}
   */
   readonly password?: string;
   /**
   * Whether to show list of sponsor emails mentioned in `sponsors` object as a dropdown. If both `sponsor_notify_all` and `predefined_sponsors_enabled` are false, behavior is acc to `sponsor_email_domains`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#predefined_sponsors_enabled SiteWlan#predefined_sponsors_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#predefined_sponsors_enabled SiteWlan#predefined_sponsors_enabled}
   */
   readonly predefinedSponsorsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to hide sponsor’s email from list of sponsors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#predefined_sponsors_hide_email SiteWlan#predefined_sponsors_hide_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#predefined_sponsors_hide_email SiteWlan#predefined_sponsors_hide_email}
   */
   readonly predefinedSponsorsHideEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#privacy SiteWlan#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#privacy SiteWlan#privacy}
   */
   readonly privacy?: boolean | cdktf.IResolvable;
   /**
   * Required if `sms_provider`==`puzzel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#puzzel_password SiteWlan#puzzel_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#puzzel_password SiteWlan#puzzel_password}
   */
   readonly puzzelPassword?: string;
   /**
   * Required if `sms_provider`==`puzzel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#puzzel_service_id SiteWlan#puzzel_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#puzzel_service_id SiteWlan#puzzel_service_id}
   */
   readonly puzzelServiceId?: string;
   /**
   * Required if `sms_provider`==`puzzel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#puzzel_username SiteWlan#puzzel_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#puzzel_username SiteWlan#puzzel_username}
   */
   readonly puzzelUsername?: string;
   /**
   * Whether sms is enabled as a login method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sms_enabled SiteWlan#sms_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sms_enabled SiteWlan#sms_enabled}
   */
   readonly smsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `sms_enabled`==`true`. Interval for which guest remains authorized using sms auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sms_expire SiteWlan#sms_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sms_expire SiteWlan#sms_expire}
   */
   readonly smsExpire?: number;
   /**
   * Optional if `sms_enabled`==`true`. SMS Message format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sms_message_format SiteWlan#sms_message_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sms_message_format SiteWlan#sms_message_format}
   */
   readonly smsMessageFormat?: string;
   /**
   * Optional if `sms_enabled`==`true`. enum: `broadnet`, `clickatell`, `gupshup`, `manual`, `puzzel`, `smsglobal`, `telstra`, `twilio`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sms_provider SiteWlan#sms_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sms_provider SiteWlan#sms_provider}
   */
   readonly smsProvider?: string;
   /**
   * Required if `sms_provider`==`smsglobal`, Client API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#smsglobal_api_key SiteWlan#smsglobal_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#smsglobal_api_key SiteWlan#smsglobal_api_key}
   */
   readonly smsglobalApiKey?: string;
   /**
   * Required if `sms_provider`==`smsglobal`, Client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#smsglobal_api_secret SiteWlan#smsglobal_api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#smsglobal_api_secret SiteWlan#smsglobal_api_secret}
   */
   readonly smsglobalApiSecret?: string;
   /**
   * Optional if `sponsor_enabled`==`true`. Whether to automatically approve guest and allow sponsor to revoke guest access, needs predefined_sponsors_enabled enabled and sponsor_notify_all disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_auto_approve SiteWlan#sponsor_auto_approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_auto_approve SiteWlan#sponsor_auto_approve}
   */
   readonly sponsorAutoApprove?: boolean | cdktf.IResolvable;
   /**
   * List of domain allowed for sponsor email. Required if `sponsor_enabled` is `true` and `sponsors` is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_email_domains SiteWlan#sponsor_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_email_domains SiteWlan#sponsor_email_domains}
   */
   readonly sponsorEmailDomains?: string[];
   /**
   * Whether sponsor is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_enabled SiteWlan#sponsor_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_enabled SiteWlan#sponsor_enabled}
   */
   readonly sponsorEnabled?: boolean | cdktf.IResolvable;
   /**
   * Optional if `sponsor_enabled`==`true`. Interval for which guest remains authorized using sponsor auth (in minutes), if not provided, uses expire`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_expire SiteWlan#sponsor_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_expire SiteWlan#sponsor_expire}
   */
   readonly sponsorExpire?: number;
   /**
   * Optional if `sponsor_enabled`==`true`. How long to remain valid sponsored guest request approve/deny link received in email, in minutes. Default is 60 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_link_validity_duration SiteWlan#sponsor_link_validity_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_link_validity_duration SiteWlan#sponsor_link_validity_duration}
   */
   readonly sponsorLinkValidityDuration?: string;
   /**
   * Optional if `sponsor_enabled`==`true`. whether to notify all sponsors that are mentioned in `sponsors` object. Both `sponsor_notify_all` and `predefined_sponsors_enabled` should be true in order to notify sponsors. If true, email sent to 10 sponsors in no particular order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_notify_all SiteWlan#sponsor_notify_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_notify_all SiteWlan#sponsor_notify_all}
   */
   readonly sponsorNotifyAll?: boolean | cdktf.IResolvable;
   /**
   * Optional if `sponsor_enabled`==`true`. If enabled, guest will get email about sponsor's action (approve/deny)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsor_status_notify SiteWlan#sponsor_status_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsor_status_notify SiteWlan#sponsor_status_notify}
   */
   readonly sponsorStatusNotify?: boolean | cdktf.IResolvable;
   /**
@@ -5236,79 +5236,79 @@ export interface SiteWlanPortal {
   * 
   *             Property key is the sponsor email, Property value is the sponsor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sponsors SiteWlan#sponsors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sponsors SiteWlan#sponsors}
   */
   readonly sponsors?: { [key: string]: string };
   /**
   * Optional if `wlan_portal_auth`==`sso`, default role to assign if there’s no match. By default, an assertion is treated as invalid when there’s no role matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_default_role SiteWlan#sso_default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_default_role SiteWlan#sso_default_role}
   */
   readonly ssoDefaultRole?: string;
   /**
   * Optional if `wlan_portal_auth`==`sso`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_forced_role SiteWlan#sso_forced_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_forced_role SiteWlan#sso_forced_role}
   */
   readonly ssoForcedRole?: string;
   /**
   * Required if `wlan_portal_auth`==`sso`. IDP Cert (used to verify the signed response)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_idp_cert SiteWlan#sso_idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_idp_cert SiteWlan#sso_idp_cert}
   */
   readonly ssoIdpCert?: string;
   /**
   * Optional if `wlan_portal_auth`==`sso`, Signing algorithm for SAML Assertion. enum: `sha1`, `sha256`, `sha384`, `sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_idp_sign_algo SiteWlan#sso_idp_sign_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_idp_sign_algo SiteWlan#sso_idp_sign_algo}
   */
   readonly ssoIdpSignAlgo?: string;
   /**
   * Required if `wlan_portal_auth`==`sso`, IDP Single-Sign-On URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_idp_sso_url SiteWlan#sso_idp_sso_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_idp_sso_url SiteWlan#sso_idp_sso_url}
   */
   readonly ssoIdpSsoUrl?: string;
   /**
   * Required if `wlan_portal_auth`==`sso`, IDP issuer URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_issuer SiteWlan#sso_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_issuer SiteWlan#sso_issuer}
   */
   readonly ssoIssuer?: string;
   /**
   * Optional if `wlan_portal_auth`==`sso`. enum: `email`, `unspecified`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sso_nameid_format SiteWlan#sso_nameid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sso_nameid_format SiteWlan#sso_nameid_format}
   */
   readonly ssoNameidFormat?: string;
   /**
   * Required if `sms_provider`==`telstra`, Client ID provided by Telstra
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#telstra_client_id SiteWlan#telstra_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#telstra_client_id SiteWlan#telstra_client_id}
   */
   readonly telstraClientId?: string;
   /**
   * Required if `sms_provider`==`telstra`, Client secret provided by Telstra
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#telstra_client_secret SiteWlan#telstra_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#telstra_client_secret SiteWlan#telstra_client_secret}
   */
   readonly telstraClientSecret?: string;
   /**
   * Required if `sms_provider`==`twilio`, Auth token account with twilio account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#twilio_auth_token SiteWlan#twilio_auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#twilio_auth_token SiteWlan#twilio_auth_token}
   */
   readonly twilioAuthToken?: string;
   /**
   * Required if `sms_provider`==`twilio`, Twilio phone number associated with the account. See example for accepted format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#twilio_phone_number SiteWlan#twilio_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#twilio_phone_number SiteWlan#twilio_phone_number}
   */
   readonly twilioPhoneNumber?: string;
   /**
   * Required if `sms_provider`==`twilio`, Account SID provided by Twilio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#twilio_sid SiteWlan#twilio_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#twilio_sid SiteWlan#twilio_sid}
   */
   readonly twilioSid?: string;
 }
@@ -7579,13 +7579,13 @@ export interface SiteWlanQos {
   /**
   * enum: `background`, `best_effort`, `video`, `voice`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#class SiteWlan#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#class SiteWlan#class}
   */
   readonly class?: string;
   /**
   * Whether to overwrite QoS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#overwrite SiteWlan#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#overwrite SiteWlan#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
 }
@@ -7708,11 +7708,11 @@ export class SiteWlanQosOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteWlanRadsecServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#host SiteWlan#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#host SiteWlan#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#port SiteWlan#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#port SiteWlan#port}
   */
   readonly port?: number;
 }
@@ -7857,51 +7857,51 @@ export class SiteWlanRadsecServersList extends cdktf.ComplexList {
 }
 export interface SiteWlanRadsec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#coa_enabled SiteWlan#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#coa_enabled SiteWlan#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#idle_timeout SiteWlan#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#idle_timeout SiteWlan#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * To use Org mxedges when this WLAN does not use mxtunnel, specify their mxcluster_ids. Org mxedge(s) identified by mxcluster_ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#mxcluster_ids SiteWlan#mxcluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#mxcluster_ids SiteWlan#mxcluster_ids}
   */
   readonly mxclusterIds?: string[];
   /**
   * Default is site.mxedge.radsec.proxy_hosts which must be a superset of all `wlans[*].radsec.proxy_hosts`. When `radsec.proxy_hosts` are not used, tunnel peers (org or site mxedges) are used irrespective of `use_site_mxedge`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#proxy_hosts SiteWlan#proxy_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#proxy_hosts SiteWlan#proxy_hosts}
   */
   readonly proxyHosts?: string[];
   /**
   * Name of the server to verify (against the cacerts in Org Setting). Only if not Mist Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#server_name SiteWlan#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#server_name SiteWlan#server_name}
   */
   readonly serverName?: string;
   /**
   * List of RadSec Servers. Only if not Mist Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#servers SiteWlan#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#servers SiteWlan#servers}
   */
   readonly servers?: SiteWlanRadsecServers[] | cdktf.IResolvable;
   /**
   * use mxedge(s) as RadSec Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#use_mxedge SiteWlan#use_mxedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#use_mxedge SiteWlan#use_mxedge}
   */
   readonly useMxedge?: boolean | cdktf.IResolvable;
   /**
   * To use Site mxedges when this WLAN does not use mxtunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#use_site_mxedge SiteWlan#use_site_mxedge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#use_site_mxedge SiteWlan#use_site_mxedge}
   */
   readonly useSiteMxedge?: boolean | cdktf.IResolvable;
 }
@@ -8229,31 +8229,31 @@ export interface SiteWlanRateset {
   /**
   * If `template`==`custom`. EHT MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#eht SiteWlan#eht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#eht SiteWlan#eht}
   */
   readonly eht?: string;
   /**
   * If `template`==`custom`. HE MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#he SiteWlan#he}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#he SiteWlan#he}
   */
   readonly he?: string;
   /**
   * If `template`==`custom`. MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit), e.g. 00ff 00f0 001f limits HT rates to MCS 0-7 for 1 stream, MCS 4-7 for 2 stream (i.e. MCS 12-15), MCS 1-5 for 3 stream (i.e. MCS 16-20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#ht SiteWlan#ht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#ht SiteWlan#ht}
   */
   readonly ht?: string;
   /**
   * if `template`==`custom`. List of supported rates (IE=1) and extended supported rates (IE=50) for custom template, append ‘b’ at the end to indicate a rate being basic/mandatory. If `template`==`custom` is configured and legacy does not define at least one basic rate, it will use `no-legacy` default values. enum: `1`, `11`, `11b`, `12`, `12b`, `18`, `18b`, `1b`, `2`, `24`, `24b`, `2b`, `36`, `36b`, `48`, `48b`, `5.5`, `5.5b`, `54`, `54b`, `6`, `6b`, `9`, `9b`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#legacy SiteWlan#legacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#legacy SiteWlan#legacy}
   */
   readonly legacy?: string[];
   /**
   * Minimum RSSI for client to connect, 0 means not enforcing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#min_rssi SiteWlan#min_rssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#min_rssi SiteWlan#min_rssi}
   */
   readonly minRssi?: number;
   /**
@@ -8264,13 +8264,13 @@ export interface SiteWlanRateset {
   *   * `high-density`: no 11b, no low rates
   *   * `custom`: user defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#template SiteWlan#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#template SiteWlan#template}
   */
   readonly template?: string;
   /**
   * If `template`==`custom`. MCS bitmasks for 4 streams (16-bit for each stream, MCS0 is least significant bit), e.g. 03ff 01ff 00ff limits VHT rates to MCS 0-9 for 1 stream, MCS 0-8 for 2 streams, and MCS 0-7 for 3 streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#vht SiteWlan#vht}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#vht SiteWlan#vht}
   */
   readonly vht?: string;
 }
@@ -8560,43 +8560,43 @@ export interface SiteWlanScheduleHours {
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#fri SiteWlan#fri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#fri SiteWlan#fri}
   */
   readonly fri?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#mon SiteWlan#mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#mon SiteWlan#mon}
   */
   readonly mon?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sat SiteWlan#sat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sat SiteWlan#sat}
   */
   readonly sat?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#sun SiteWlan#sun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#sun SiteWlan#sun}
   */
   readonly sun?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#thu SiteWlan#thu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#thu SiteWlan#thu}
   */
   readonly thu?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#tue SiteWlan#tue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#tue SiteWlan#tue}
   */
   readonly tue?: string;
   /**
   * Hour range of the day (e.g. `09:00-17:00`). If the hour is not defined then it's treated as 00:00-23:59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#wed SiteWlan#wed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#wed SiteWlan#wed}
   */
   readonly wed?: string;
 }
@@ -8864,13 +8864,13 @@ export class SiteWlanScheduleHoursOutputReference extends cdktf.ComplexObject {
 }
 export interface SiteWlanSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#enabled SiteWlan#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#enabled SiteWlan#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Days/Hours of operation filter, the available days (mon, tue, wed, thu, fri, sat, sun)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#hours SiteWlan#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#hours SiteWlan#hours}
   */
   readonly hours?: SiteWlanScheduleHours;
 }
@@ -8993,7 +8993,7 @@ export class SiteWlanScheduleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan mist_site_wlan}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan mist_site_wlan}
 */
 export class SiteWlan extends cdktf.TerraformResource {
 
@@ -9009,7 +9009,7 @@ export class SiteWlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteWlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteWlan to import
-  * @param importFromId The id of the existing SiteWlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteWlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteWlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9021,7 +9021,7 @@ export class SiteWlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/site_wlan mist_site_wlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/site_wlan mist_site_wlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9032,8 +9032,8 @@ export class SiteWlan extends cdktf.TerraformResource {
       terraformResourceType: 'mist_site_wlan',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

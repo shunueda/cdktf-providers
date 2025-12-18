@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLustreFileStorageObjectStorageLinksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#availability_domain DataOciLustreFileStorageObjectStorageLinks#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#availability_domain DataOciLustreFileStorageObjectStorageLinks#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#compartment_id DataOciLustreFileStorageObjectStorageLinks#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#compartment_id DataOciLustreFileStorageObjectStorageLinks#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#display_name DataOciLustreFileStorageObjectStorageLinks#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#display_name DataOciLustreFileStorageObjectStorageLinks#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#id DataOciLustreFileStorageObjectStorageLinks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#id DataOciLustreFileStorageObjectStorageLinks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#lustre_file_system_id DataOciLustreFileStorageObjectStorageLinks#lustre_file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#lustre_file_system_id DataOciLustreFileStorageObjectStorageLinks#lustre_file_system_id}
   */
   readonly lustreFileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#state DataOciLustreFileStorageObjectStorageLinks#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#state DataOciLustreFileStorageObjectStorageLinks#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#filter DataOciLustreFileStorageObjectStorageLinks#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#filter DataOciLustreFileStorageObjectStorageLinks#filter}
   */
   readonly filter?: DataOciLustreFileStorageObjectStorageLinksFilter[] | cdktf.IResolvable;
 }
@@ -297,15 +297,15 @@ export class DataOciLustreFileStorageObjectStorageLinksObjectStorageLinkCollecti
 }
 export interface DataOciLustreFileStorageObjectStorageLinksFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#name DataOciLustreFileStorageObjectStorageLinks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#name DataOciLustreFileStorageObjectStorageLinks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#regex DataOciLustreFileStorageObjectStorageLinks#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#regex DataOciLustreFileStorageObjectStorageLinks#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#values DataOciLustreFileStorageObjectStorageLinks#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#values DataOciLustreFileStorageObjectStorageLinks#values}
   */
   readonly values: string[];
 }
@@ -473,7 +473,7 @@ export class DataOciLustreFileStorageObjectStorageLinksFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links oci_lustre_file_storage_object_storage_links}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links oci_lustre_file_storage_object_storage_links}
 */
 export class DataOciLustreFileStorageObjectStorageLinks extends cdktf.TerraformDataSource {
 
@@ -489,7 +489,7 @@ export class DataOciLustreFileStorageObjectStorageLinks extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciLustreFileStorageObjectStorageLinks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLustreFileStorageObjectStorageLinks to import
-  * @param importFromId The id of the existing DataOciLustreFileStorageObjectStorageLinks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLustreFileStorageObjectStorageLinks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLustreFileStorageObjectStorageLinks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class DataOciLustreFileStorageObjectStorageLinks extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/lustre_file_storage_object_storage_links oci_lustre_file_storage_object_storage_links} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/lustre_file_storage_object_storage_links oci_lustre_file_storage_object_storage_links} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class DataOciLustreFileStorageObjectStorageLinks extends cdktf.TerraformD
       terraformResourceType: 'oci_lustre_file_storage_object_storage_links',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

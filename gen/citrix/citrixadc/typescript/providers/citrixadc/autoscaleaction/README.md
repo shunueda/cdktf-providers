@@ -1,3 +1,3 @@
 # `citrixadc_autoscaleaction`
 
-Refer to the Terraform Registry for docs: [`citrixadc_autoscaleaction`](https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/autoscaleaction).
+Refer to the Terraform Registry for docs: [`citrixadc_autoscaleaction`](https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/autoscaleaction).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_replication_schedule
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/cloud_migrations_replication_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCloudMigrationsReplicationScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_replication_schedule#replication_schedule_id DataOciCloudMigrationsReplicationSchedule#replication_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/cloud_migrations_replication_schedule#replication_schedule_id DataOciCloudMigrationsReplicationSchedule#replication_schedule_id}
   */
   readonly replicationScheduleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule}
 */
 export class DataOciCloudMigrationsReplicationSchedule extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciCloudMigrationsReplicationSchedule extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciCloudMigrationsReplicationSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCloudMigrationsReplicationSchedule to import
-  * @param importFromId The id of the existing DataOciCloudMigrationsReplicationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_replication_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCloudMigrationsReplicationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/cloud_migrations_replication_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCloudMigrationsReplicationSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciCloudMigrationsReplicationSchedule extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/cloud_migrations_replication_schedule oci_cloud_migrations_replication_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciCloudMigrationsReplicationSchedule extends cdktf.TerraformDa
       terraformResourceType: 'oci_cloud_migrations_replication_schedule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

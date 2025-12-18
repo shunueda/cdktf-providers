@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_endpoint
+// https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface IntegrationEndpointConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_endpoint#name IntegrationEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_endpoint#name IntegrationEndpoint#name}
   */
   readonly name: string;
   /**
   * The type of the Integration Endpoint. One of `apiDoc`, `aquaSecurity`, `argocd`, `awsEcr`, `bugsnag`, `circleci`, `codacy`, `coveralls`, `customEvent`, `datadogCheck`, `deploy`, `dynatrace`, `flux`, `githubActions`, `gitlabCi`, `grafana`, `grype`, `jenkins`, `jfrogXray`, `lacework`, `newRelicCheck`, `octopus`, `prismaCloud`, `prometheus`, `rollbar`, `sentry`, `snyk`, `sonarqube`, `stackhawk`, `sumoLogic`, `veracode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_endpoint#type IntegrationEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_endpoint#type IntegrationEndpoint#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_endpoint opslevel_integration_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_endpoint opslevel_integration_endpoint}
 */
 export class IntegrationEndpoint extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class IntegrationEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationEndpoint to import
-  * @param importFromId The id of the existing IntegrationEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class IntegrationEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.0/docs/resources/integration_endpoint opslevel_integration_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opslevel/opslevel/1.8.1/docs/resources/integration_endpoint opslevel_integration_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class IntegrationEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'opslevel_integration_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'opslevel',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.8.1',
+        providerVersionConstraint: '1.8.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

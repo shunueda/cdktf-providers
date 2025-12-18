@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskPageOpsgenieOnCallRespondersConfig extends cdktf.Te
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#enabled WorkflowTaskPageOpsgenieOnCallResponders#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#enabled WorkflowTaskPageOpsgenieOnCallResponders#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#id WorkflowTaskPageOpsgenieOnCallResponders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#id WorkflowTaskPageOpsgenieOnCallResponders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskPageOpsgenieOnCallRespondersConfig extends cdktf.Te
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#name WorkflowTaskPageOpsgenieOnCallResponders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#name WorkflowTaskPageOpsgenieOnCallResponders#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#position WorkflowTaskPageOpsgenieOnCallResponders#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#position WorkflowTaskPageOpsgenieOnCallResponders#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#skip_on_failure WorkflowTaskPageOpsgenieOnCallResponders#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#skip_on_failure WorkflowTaskPageOpsgenieOnCallResponders#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#workflow_id WorkflowTaskPageOpsgenieOnCallResponders#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#workflow_id WorkflowTaskPageOpsgenieOnCallResponders#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#task_params WorkflowTaskPageOpsgenieOnCallResponders#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#task_params WorkflowTaskPageOpsgenieOnCallResponders#task_params}
   */
   readonly taskParams: WorkflowTaskPageOpsgenieOnCallRespondersTaskParams;
 }
 export interface WorkflowTaskPageOpsgenieOnCallRespondersTaskParamsTeams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#id WorkflowTaskPageOpsgenieOnCallResponders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#id WorkflowTaskPageOpsgenieOnCallResponders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#name WorkflowTaskPageOpsgenieOnCallResponders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#name WorkflowTaskPageOpsgenieOnCallResponders#name}
   */
   readonly name: string;
 }
@@ -199,14 +199,14 @@ export class WorkflowTaskPageOpsgenieOnCallRespondersTaskParamsTeamsList extends
 }
 export interface WorkflowTaskPageOpsgenieOnCallRespondersTaskParamsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#id WorkflowTaskPageOpsgenieOnCallResponders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#id WorkflowTaskPageOpsgenieOnCallResponders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#name WorkflowTaskPageOpsgenieOnCallResponders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#name WorkflowTaskPageOpsgenieOnCallResponders#name}
   */
   readonly name: string;
 }
@@ -347,41 +347,41 @@ export interface WorkflowTaskPageOpsgenieOnCallRespondersTaskParams {
   /**
   * Description field of the incident that is generally used to provide a detailed information about the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#description WorkflowTaskPageOpsgenieOnCallResponders#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#description WorkflowTaskPageOpsgenieOnCallResponders#description}
   */
   readonly description?: string;
   /**
   * Message of the incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#message WorkflowTaskPageOpsgenieOnCallResponders#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#message WorkflowTaskPageOpsgenieOnCallResponders#message}
   */
   readonly message?: string;
   /**
   * Value must be one of `P1`, `P2`, `P3`, `P4`, `P5`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#priority WorkflowTaskPageOpsgenieOnCallResponders#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#priority WorkflowTaskPageOpsgenieOnCallResponders#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#task_type WorkflowTaskPageOpsgenieOnCallResponders#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#task_type WorkflowTaskPageOpsgenieOnCallResponders#task_type}
   */
   readonly taskType?: string;
   /**
   * Incident title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#title WorkflowTaskPageOpsgenieOnCallResponders#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#title WorkflowTaskPageOpsgenieOnCallResponders#title}
   */
   readonly title?: string;
   /**
   * teams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#teams WorkflowTaskPageOpsgenieOnCallResponders#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#teams WorkflowTaskPageOpsgenieOnCallResponders#teams}
   */
   readonly teams?: WorkflowTaskPageOpsgenieOnCallRespondersTaskParamsTeams[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#users WorkflowTaskPageOpsgenieOnCallResponders#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#users WorkflowTaskPageOpsgenieOnCallResponders#users}
   */
   readonly users?: WorkflowTaskPageOpsgenieOnCallRespondersTaskParamsUsers[] | cdktf.IResolvable;
 }
@@ -639,7 +639,7 @@ export class WorkflowTaskPageOpsgenieOnCallRespondersTaskParamsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders rootly_workflow_task_page_opsgenie_on_call_responders}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders rootly_workflow_task_page_opsgenie_on_call_responders}
 */
 export class WorkflowTaskPageOpsgenieOnCallResponders extends cdktf.TerraformResource {
 
@@ -655,7 +655,7 @@ export class WorkflowTaskPageOpsgenieOnCallResponders extends cdktf.TerraformRes
   * Generates CDKTF code for importing a WorkflowTaskPageOpsgenieOnCallResponders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskPageOpsgenieOnCallResponders to import
-  * @param importFromId The id of the existing WorkflowTaskPageOpsgenieOnCallResponders that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskPageOpsgenieOnCallResponders that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskPageOpsgenieOnCallResponders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -667,7 +667,7 @@ export class WorkflowTaskPageOpsgenieOnCallResponders extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_page_opsgenie_on_call_responders rootly_workflow_task_page_opsgenie_on_call_responders} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_page_opsgenie_on_call_responders rootly_workflow_task_page_opsgenie_on_call_responders} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -678,8 +678,8 @@ export class WorkflowTaskPageOpsgenieOnCallResponders extends cdktf.TerraformRes
       terraformResourceType: 'rootly_workflow_task_page_opsgenie_on_call_responders',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

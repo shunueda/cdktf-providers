@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CatalogIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the catalog integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#display_name CatalogIntegration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#display_name CatalogIntegration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#id CatalogIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#id CatalogIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface CatalogIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * aws_glue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#aws_glue CatalogIntegration#aws_glue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#aws_glue CatalogIntegration#aws_glue}
   */
   readonly awsGlue?: CatalogIntegrationAwsGlue;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#credentials CatalogIntegration#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#credentials CatalogIntegration#credentials}
   */
   readonly credentials?: CatalogIntegrationCredentials;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#environment CatalogIntegration#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#environment CatalogIntegration#environment}
   */
   readonly environment: CatalogIntegrationEnvironment;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#kafka_cluster CatalogIntegration#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#kafka_cluster CatalogIntegration#kafka_cluster}
   */
   readonly kafkaCluster: CatalogIntegrationKafkaCluster;
   /**
   * snowflake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#snowflake CatalogIntegration#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#snowflake CatalogIntegration#snowflake}
   */
   readonly snowflake?: CatalogIntegrationSnowflake;
 }
 export interface CatalogIntegrationAwsGlue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#provider_integration_id CatalogIntegration#provider_integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#provider_integration_id CatalogIntegration#provider_integration_id}
   */
   readonly providerIntegrationId: string;
 }
@@ -136,13 +136,13 @@ export interface CatalogIntegrationCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#key CatalogIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#key CatalogIntegration#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#secret CatalogIntegration#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#secret CatalogIntegration#secret}
   */
   readonly secret: string;
 }
@@ -251,7 +251,7 @@ export interface CatalogIntegrationEnvironment {
   /**
   * The unique identifier for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#id CatalogIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#id CatalogIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -337,7 +337,7 @@ export interface CatalogIntegrationKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#id CatalogIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#id CatalogIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -423,27 +423,27 @@ export interface CatalogIntegrationSnowflake {
   /**
   * Allowed scope of the Snowflake Open Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#allowed_scope CatalogIntegration#allowed_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#allowed_scope CatalogIntegration#allowed_scope}
   */
   readonly allowedScope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#client_id CatalogIntegration#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#client_id CatalogIntegration#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#client_secret CatalogIntegration#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#client_secret CatalogIntegration#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The catalog integration connection endpoint for Snowflake Open Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#endpoint CatalogIntegration#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#endpoint CatalogIntegration#endpoint}
   */
   readonly endpoint: string;
   /**
   * Warehouse name of the Snowflake Open Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#warehouse CatalogIntegration#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#warehouse CatalogIntegration#warehouse}
   */
   readonly warehouse: string;
 }
@@ -628,7 +628,7 @@ export class CatalogIntegrationSnowflakeOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration confluent_catalog_integration}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration confluent_catalog_integration}
 */
 export class CatalogIntegration extends cdktf.TerraformResource {
 
@@ -644,7 +644,7 @@ export class CatalogIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogIntegration to import
-  * @param importFromId The id of the existing CatalogIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class CatalogIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/catalog_integration confluent_catalog_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/catalog_integration confluent_catalog_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class CatalogIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_catalog_integration',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

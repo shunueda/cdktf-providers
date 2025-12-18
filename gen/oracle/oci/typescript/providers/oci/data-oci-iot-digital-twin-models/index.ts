@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIotDigitalTwinModelsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#display_name DataOciIotDigitalTwinModels#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#display_name DataOciIotDigitalTwinModels#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#id DataOciIotDigitalTwinModels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#id DataOciIotDigitalTwinModels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#iot_domain_id DataOciIotDigitalTwinModels#iot_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#iot_domain_id DataOciIotDigitalTwinModels#iot_domain_id}
   */
   readonly iotDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#spec_uri_starts_with DataOciIotDigitalTwinModels#spec_uri_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#spec_uri_starts_with DataOciIotDigitalTwinModels#spec_uri_starts_with}
   */
   readonly specUriStartsWith?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#state DataOciIotDigitalTwinModels#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#state DataOciIotDigitalTwinModels#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#filter DataOciIotDigitalTwinModels#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#filter DataOciIotDigitalTwinModels#filter}
   */
   readonly filter?: DataOciIotDigitalTwinModelsFilter[] | cdktf.IResolvable;
 }
@@ -248,15 +248,15 @@ export class DataOciIotDigitalTwinModelsDigitalTwinModelCollectionList extends c
 }
 export interface DataOciIotDigitalTwinModelsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#name DataOciIotDigitalTwinModels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#name DataOciIotDigitalTwinModels#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#regex DataOciIotDigitalTwinModels#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#regex DataOciIotDigitalTwinModels#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#values DataOciIotDigitalTwinModels#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#values DataOciIotDigitalTwinModels#values}
   */
   readonly values: string[];
 }
@@ -424,7 +424,7 @@ export class DataOciIotDigitalTwinModelsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models oci_iot_digital_twin_models}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models oci_iot_digital_twin_models}
 */
 export class DataOciIotDigitalTwinModels extends cdktf.TerraformDataSource {
 
@@ -440,7 +440,7 @@ export class DataOciIotDigitalTwinModels extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIotDigitalTwinModels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIotDigitalTwinModels to import
-  * @param importFromId The id of the existing DataOciIotDigitalTwinModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIotDigitalTwinModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIotDigitalTwinModels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class DataOciIotDigitalTwinModels extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_models oci_iot_digital_twin_models} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/iot_digital_twin_models oci_iot_digital_twin_models} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class DataOciIotDigitalTwinModels extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_iot_digital_twin_models',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

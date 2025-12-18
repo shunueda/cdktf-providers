@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NgwafAccountListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list#description NgwafAccountList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list#description NgwafAccountList#description}
   */
   readonly description?: string;
   /**
   * The values in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list#entries NgwafAccountList#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list#entries NgwafAccountList#entries}
   */
   readonly entries: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list#id NgwafAccountList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list#id NgwafAccountList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface NgwafAccountListConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list#name NgwafAccountList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list#name NgwafAccountList#name}
   */
   readonly name: string;
   /**
   * The type of list. Accepted values are `string`, `wildcard`, `ip`, `country`, and `signal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list#type NgwafAccountList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list#type NgwafAccountList#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list fastly_ngwaf_account_list}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list fastly_ngwaf_account_list}
 */
 export class NgwafAccountList extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class NgwafAccountList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafAccountList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafAccountList to import
-  * @param importFromId The id of the existing NgwafAccountList that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafAccountList that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafAccountList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class NgwafAccountList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_list fastly_ngwaf_account_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_list fastly_ngwaf_account_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class NgwafAccountList extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_account_list',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

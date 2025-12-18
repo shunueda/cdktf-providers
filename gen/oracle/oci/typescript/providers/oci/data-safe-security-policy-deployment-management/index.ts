@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSecurityPolicyDeploymentManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#compartment_id DataSafeSecurityPolicyDeploymentManagement#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#compartment_id DataSafeSecurityPolicyDeploymentManagement#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#defined_tags DataSafeSecurityPolicyDeploymentManagement#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#defined_tags DataSafeSecurityPolicyDeploymentManagement#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#deploy_trigger DataSafeSecurityPolicyDeploymentManagement#deploy_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#deploy_trigger DataSafeSecurityPolicyDeploymentManagement#deploy_trigger}
   */
   readonly deployTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#description DataSafeSecurityPolicyDeploymentManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#description DataSafeSecurityPolicyDeploymentManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#display_name DataSafeSecurityPolicyDeploymentManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#display_name DataSafeSecurityPolicyDeploymentManagement#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#freeform_tags DataSafeSecurityPolicyDeploymentManagement#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#freeform_tags DataSafeSecurityPolicyDeploymentManagement#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#id DataSafeSecurityPolicyDeploymentManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#id DataSafeSecurityPolicyDeploymentManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#refresh_trigger DataSafeSecurityPolicyDeploymentManagement#refresh_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#refresh_trigger DataSafeSecurityPolicyDeploymentManagement#refresh_trigger}
   */
   readonly refreshTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#security_policy_id DataSafeSecurityPolicyDeploymentManagement#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#security_policy_id DataSafeSecurityPolicyDeploymentManagement#security_policy_id}
   */
   readonly securityPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#target_id DataSafeSecurityPolicyDeploymentManagement#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#target_id DataSafeSecurityPolicyDeploymentManagement#target_id}
   */
   readonly targetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#target_type DataSafeSecurityPolicyDeploymentManagement#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#target_type DataSafeSecurityPolicyDeploymentManagement#target_type}
   */
   readonly targetType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#timeouts DataSafeSecurityPolicyDeploymentManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#timeouts DataSafeSecurityPolicyDeploymentManagement#timeouts}
   */
   readonly timeouts?: DataSafeSecurityPolicyDeploymentManagementTimeouts;
 }
 export interface DataSafeSecurityPolicyDeploymentManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#create DataSafeSecurityPolicyDeploymentManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#create DataSafeSecurityPolicyDeploymentManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#delete DataSafeSecurityPolicyDeploymentManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#delete DataSafeSecurityPolicyDeploymentManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#update DataSafeSecurityPolicyDeploymentManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#update DataSafeSecurityPolicyDeploymentManagement#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class DataSafeSecurityPolicyDeploymentManagementTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management oci_data_safe_security_policy_deployment_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management oci_data_safe_security_policy_deployment_management}
 */
 export class DataSafeSecurityPolicyDeploymentManagement extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class DataSafeSecurityPolicyDeploymentManagement extends cdktf.TerraformR
   * Generates CDKTF code for importing a DataSafeSecurityPolicyDeploymentManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSecurityPolicyDeploymentManagement to import
-  * @param importFromId The id of the existing DataSafeSecurityPolicyDeploymentManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSecurityPolicyDeploymentManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSecurityPolicyDeploymentManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class DataSafeSecurityPolicyDeploymentManagement extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_policy_deployment_management oci_data_safe_security_policy_deployment_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_safe_security_policy_deployment_management oci_data_safe_security_policy_deployment_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class DataSafeSecurityPolicyDeploymentManagement extends cdktf.TerraformR
       terraformResourceType: 'oci_data_safe_security_policy_deployment_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

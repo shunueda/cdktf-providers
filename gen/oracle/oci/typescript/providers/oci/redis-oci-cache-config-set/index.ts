@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface RedisOciCacheConfigSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#compartment_id RedisOciCacheConfigSet#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#compartment_id RedisOciCacheConfigSet#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#defined_tags RedisOciCacheConfigSet#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#defined_tags RedisOciCacheConfigSet#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#description RedisOciCacheConfigSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#description RedisOciCacheConfigSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#display_name RedisOciCacheConfigSet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#display_name RedisOciCacheConfigSet#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#freeform_tags RedisOciCacheConfigSet#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#freeform_tags RedisOciCacheConfigSet#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#id RedisOciCacheConfigSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#id RedisOciCacheConfigSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#software_version RedisOciCacheConfigSet#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#software_version RedisOciCacheConfigSet#software_version}
   */
   readonly softwareVersion: string;
   /**
   * configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#configuration_details RedisOciCacheConfigSet#configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#configuration_details RedisOciCacheConfigSet#configuration_details}
   */
   readonly configurationDetails: RedisOciCacheConfigSetConfigurationDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#timeouts RedisOciCacheConfigSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#timeouts RedisOciCacheConfigSet#timeouts}
   */
   readonly timeouts?: RedisOciCacheConfigSetTimeouts;
 }
 export interface RedisOciCacheConfigSetConfigurationDetailsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}
   */
   readonly configKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}
   */
   readonly configValue: string;
 }
@@ -198,7 +198,7 @@ export interface RedisOciCacheConfigSetConfigurationDetails {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#items RedisOciCacheConfigSet#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#items RedisOciCacheConfigSet#items}
   */
   readonly items: RedisOciCacheConfigSetConfigurationDetailsItems[] | cdktf.IResolvable;
 }
@@ -279,15 +279,15 @@ export class RedisOciCacheConfigSetConfigurationDetailsOutputReference extends c
 }
 export interface RedisOciCacheConfigSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#create RedisOciCacheConfigSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#create RedisOciCacheConfigSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#delete RedisOciCacheConfigSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#delete RedisOciCacheConfigSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#update RedisOciCacheConfigSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#update RedisOciCacheConfigSet#update}
   */
   readonly update?: string;
 }
@@ -439,7 +439,7 @@ export class RedisOciCacheConfigSetTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set oci_redis_oci_cache_config_set}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set oci_redis_oci_cache_config_set}
 */
 export class RedisOciCacheConfigSet extends cdktf.TerraformResource {
 
@@ -455,7 +455,7 @@ export class RedisOciCacheConfigSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisOciCacheConfigSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisOciCacheConfigSet to import
-  * @param importFromId The id of the existing RedisOciCacheConfigSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisOciCacheConfigSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisOciCacheConfigSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class RedisOciCacheConfigSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/redis_oci_cache_config_set oci_redis_oci_cache_config_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/redis_oci_cache_config_set oci_redis_oci_cache_config_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class RedisOciCacheConfigSet extends cdktf.TerraformResource {
       terraformResourceType: 'oci_redis_oci_cache_config_set',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

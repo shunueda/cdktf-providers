@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/semantic_layer_configuration
+// https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/semantic_layer_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SemanticLayerConfigurationConfig extends cdktf.TerraformMetaArg
   /**
   * The ID of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/semantic_layer_configuration#environment_id SemanticLayerConfiguration#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/semantic_layer_configuration#environment_id SemanticLayerConfiguration#environment_id}
   */
   readonly environmentId: number;
   /**
   * The ID of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/semantic_layer_configuration#project_id SemanticLayerConfiguration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/semantic_layer_configuration#project_id SemanticLayerConfiguration#project_id}
   */
   readonly projectId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/semantic_layer_configuration dbtcloud_semantic_layer_configuration}
+* Represents a {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/semantic_layer_configuration dbtcloud_semantic_layer_configuration}
 */
 export class SemanticLayerConfiguration extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SemanticLayerConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SemanticLayerConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SemanticLayerConfiguration to import
-  * @param importFromId The id of the existing SemanticLayerConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/semantic_layer_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SemanticLayerConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/semantic_layer_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SemanticLayerConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SemanticLayerConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.0/docs/resources/semantic_layer_configuration dbtcloud_semantic_layer_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dbt-labs/dbtcloud/1.5.1/docs/resources/semantic_layer_configuration dbtcloud_semantic_layer_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SemanticLayerConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'dbtcloud_semantic_layer_configuration',
       terraformGeneratorMetadata: {
         providerName: 'dbtcloud',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

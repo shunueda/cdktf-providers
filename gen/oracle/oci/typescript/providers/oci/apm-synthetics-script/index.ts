@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface ApmSyntheticsScriptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#apm_domain_id ApmSyntheticsScript#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#apm_domain_id ApmSyntheticsScript#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#content ApmSyntheticsScript#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#content ApmSyntheticsScript#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#content_file_name ApmSyntheticsScript#content_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#content_file_name ApmSyntheticsScript#content_file_name}
   */
   readonly contentFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#content_type ApmSyntheticsScript#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#content_type ApmSyntheticsScript#content_type}
   */
   readonly contentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#defined_tags ApmSyntheticsScript#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#defined_tags ApmSyntheticsScript#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#display_name ApmSyntheticsScript#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#display_name ApmSyntheticsScript#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#freeform_tags ApmSyntheticsScript#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#freeform_tags ApmSyntheticsScript#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#id ApmSyntheticsScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#id ApmSyntheticsScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,13 +45,13 @@ export interface ApmSyntheticsScriptConfig extends cdktf.TerraformMetaArguments 
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#parameters ApmSyntheticsScript#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#parameters ApmSyntheticsScript#parameters}
   */
   readonly parameters?: ApmSyntheticsScriptParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#timeouts ApmSyntheticsScript#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#timeouts ApmSyntheticsScript#timeouts}
   */
   readonly timeouts?: ApmSyntheticsScriptTimeouts;
 }
@@ -232,15 +232,15 @@ export class ApmSyntheticsScriptParametersScriptParameterList extends cdktf.Comp
 }
 export interface ApmSyntheticsScriptParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#is_secret ApmSyntheticsScript#is_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#is_secret ApmSyntheticsScript#is_secret}
   */
   readonly isSecret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#param_name ApmSyntheticsScript#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#param_name ApmSyntheticsScript#param_name}
   */
   readonly paramName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#param_value ApmSyntheticsScript#param_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#param_value ApmSyntheticsScript#param_value}
   */
   readonly paramValue?: string;
 }
@@ -422,15 +422,15 @@ export class ApmSyntheticsScriptParametersList extends cdktf.ComplexList {
 }
 export interface ApmSyntheticsScriptTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#create ApmSyntheticsScript#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#create ApmSyntheticsScript#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#delete ApmSyntheticsScript#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#delete ApmSyntheticsScript#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#update ApmSyntheticsScript#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#update ApmSyntheticsScript#update}
   */
   readonly update?: string;
 }
@@ -582,7 +582,7 @@ export class ApmSyntheticsScriptTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script oci_apm_synthetics_script}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script oci_apm_synthetics_script}
 */
 export class ApmSyntheticsScript extends cdktf.TerraformResource {
 
@@ -598,7 +598,7 @@ export class ApmSyntheticsScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApmSyntheticsScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApmSyntheticsScript to import
-  * @param importFromId The id of the existing ApmSyntheticsScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApmSyntheticsScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApmSyntheticsScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -610,7 +610,7 @@ export class ApmSyntheticsScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_synthetics_script oci_apm_synthetics_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/apm_synthetics_script oci_apm_synthetics_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,8 +621,8 @@ export class ApmSyntheticsScript extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apm_synthetics_script',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

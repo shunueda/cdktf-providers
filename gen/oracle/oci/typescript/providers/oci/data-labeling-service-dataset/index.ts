@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface DataLabelingServiceDatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#annotation_format DataLabelingServiceDataset#annotation_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#annotation_format DataLabelingServiceDataset#annotation_format}
   */
   readonly annotationFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#compartment_id DataLabelingServiceDataset#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#compartment_id DataLabelingServiceDataset#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#defined_tags DataLabelingServiceDataset#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#defined_tags DataLabelingServiceDataset#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#description DataLabelingServiceDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#description DataLabelingServiceDataset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#display_name DataLabelingServiceDataset#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#display_name DataLabelingServiceDataset#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#freeform_tags DataLabelingServiceDataset#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#freeform_tags DataLabelingServiceDataset#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#id DataLabelingServiceDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#id DataLabelingServiceDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#labeling_instructions DataLabelingServiceDataset#labeling_instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#labeling_instructions DataLabelingServiceDataset#labeling_instructions}
   */
   readonly labelingInstructions?: string;
   /**
   * dataset_format_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#dataset_format_details DataLabelingServiceDataset#dataset_format_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#dataset_format_details DataLabelingServiceDataset#dataset_format_details}
   */
   readonly datasetFormatDetails: DataLabelingServiceDatasetDatasetFormatDetails;
   /**
   * dataset_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#dataset_source_details DataLabelingServiceDataset#dataset_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#dataset_source_details DataLabelingServiceDataset#dataset_source_details}
   */
   readonly datasetSourceDetails: DataLabelingServiceDatasetDatasetSourceDetails;
   /**
   * initial_import_dataset_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#initial_import_dataset_configuration DataLabelingServiceDataset#initial_import_dataset_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#initial_import_dataset_configuration DataLabelingServiceDataset#initial_import_dataset_configuration}
   */
   readonly initialImportDatasetConfiguration?: DataLabelingServiceDatasetInitialImportDatasetConfiguration;
   /**
   * initial_record_generation_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#initial_record_generation_configuration DataLabelingServiceDataset#initial_record_generation_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#initial_record_generation_configuration DataLabelingServiceDataset#initial_record_generation_configuration}
   */
   readonly initialRecordGenerationConfiguration?: DataLabelingServiceDatasetInitialRecordGenerationConfiguration;
   /**
   * label_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#label_set DataLabelingServiceDataset#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#label_set DataLabelingServiceDataset#label_set}
   */
   readonly labelSet: DataLabelingServiceDatasetLabelSet;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#timeouts DataLabelingServiceDataset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#timeouts DataLabelingServiceDataset#timeouts}
   */
   readonly timeouts?: DataLabelingServiceDatasetTimeouts;
 }
 export interface DataLabelingServiceDatasetDatasetFormatDetailsTextFileTypeMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#column_delimiter DataLabelingServiceDataset#column_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#column_delimiter DataLabelingServiceDataset#column_delimiter}
   */
   readonly columnDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#column_index DataLabelingServiceDataset#column_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#column_index DataLabelingServiceDataset#column_index}
   */
   readonly columnIndex: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#column_name DataLabelingServiceDataset#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#column_name DataLabelingServiceDataset#column_name}
   */
   readonly columnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#escape_character DataLabelingServiceDataset#escape_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#escape_character DataLabelingServiceDataset#escape_character}
   */
   readonly escapeCharacter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#format_type DataLabelingServiceDataset#format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#format_type DataLabelingServiceDataset#format_type}
   */
   readonly formatType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#line_delimiter DataLabelingServiceDataset#line_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#line_delimiter DataLabelingServiceDataset#line_delimiter}
   */
   readonly lineDelimiter?: string;
 }
@@ -324,13 +324,13 @@ export class DataLabelingServiceDatasetDatasetFormatDetailsTextFileTypeMetadataO
 }
 export interface DataLabelingServiceDatasetDatasetFormatDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#format_type DataLabelingServiceDataset#format_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#format_type DataLabelingServiceDataset#format_type}
   */
   readonly formatType: string;
   /**
   * text_file_type_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#text_file_type_metadata DataLabelingServiceDataset#text_file_type_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#text_file_type_metadata DataLabelingServiceDataset#text_file_type_metadata}
   */
   readonly textFileTypeMetadata?: DataLabelingServiceDatasetDatasetFormatDetailsTextFileTypeMetadata;
 }
@@ -440,19 +440,19 @@ export class DataLabelingServiceDatasetDatasetFormatDetailsOutputReference exten
 }
 export interface DataLabelingServiceDatasetDatasetSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#bucket DataLabelingServiceDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#bucket DataLabelingServiceDataset#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#namespace DataLabelingServiceDataset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#namespace DataLabelingServiceDataset#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#prefix DataLabelingServiceDataset#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#prefix DataLabelingServiceDataset#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#source_type DataLabelingServiceDataset#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#source_type DataLabelingServiceDataset#source_type}
   */
   readonly sourceType: string;
 }
@@ -614,11 +614,11 @@ export class DataLabelingServiceDatasetDatasetSourceDetailsOutputReference exten
 }
 export interface DataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#version DataLabelingServiceDataset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#version DataLabelingServiceDataset#version}
   */
   readonly version?: string;
 }
@@ -728,19 +728,19 @@ export class DataLabelingServiceDatasetInitialImportDatasetConfigurationImportFo
 }
 export interface DataLabelingServiceDatasetInitialImportDatasetConfigurationImportMetadataPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#bucket DataLabelingServiceDataset#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#bucket DataLabelingServiceDataset#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#namespace DataLabelingServiceDataset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#namespace DataLabelingServiceDataset#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#path DataLabelingServiceDataset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#path DataLabelingServiceDataset#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#source_type DataLabelingServiceDataset#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#source_type DataLabelingServiceDataset#source_type}
   */
   readonly sourceType: string;
 }
@@ -901,13 +901,13 @@ export interface DataLabelingServiceDatasetInitialImportDatasetConfiguration {
   /**
   * import_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#import_format DataLabelingServiceDataset#import_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#import_format DataLabelingServiceDataset#import_format}
   */
   readonly importFormat: DataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat;
   /**
   * import_metadata_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#import_metadata_path DataLabelingServiceDataset#import_metadata_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#import_metadata_path DataLabelingServiceDataset#import_metadata_path}
   */
   readonly importMetadataPath: DataLabelingServiceDatasetInitialImportDatasetConfigurationImportMetadataPath;
 }
@@ -1063,7 +1063,7 @@ export class DataLabelingServiceDatasetInitialRecordGenerationConfigurationOutpu
 }
 export interface DataLabelingServiceDatasetLabelSetItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}
   */
   readonly name: string;
 }
@@ -1178,7 +1178,7 @@ export interface DataLabelingServiceDatasetLabelSet {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#items DataLabelingServiceDataset#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#items DataLabelingServiceDataset#items}
   */
   readonly items: DataLabelingServiceDatasetLabelSetItems[] | cdktf.IResolvable;
 }
@@ -1259,15 +1259,15 @@ export class DataLabelingServiceDatasetLabelSetOutputReference extends cdktf.Com
 }
 export interface DataLabelingServiceDatasetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#create DataLabelingServiceDataset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#create DataLabelingServiceDataset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#delete DataLabelingServiceDataset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#delete DataLabelingServiceDataset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#update DataLabelingServiceDataset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#update DataLabelingServiceDataset#update}
   */
   readonly update?: string;
 }
@@ -1419,7 +1419,7 @@ export class DataLabelingServiceDatasetTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset oci_data_labeling_service_dataset}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset oci_data_labeling_service_dataset}
 */
 export class DataLabelingServiceDataset extends cdktf.TerraformResource {
 
@@ -1435,7 +1435,7 @@ export class DataLabelingServiceDataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataLabelingServiceDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLabelingServiceDataset to import
-  * @param importFromId The id of the existing DataLabelingServiceDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLabelingServiceDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLabelingServiceDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1447,7 +1447,7 @@ export class DataLabelingServiceDataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_labeling_service_dataset oci_data_labeling_service_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/data_labeling_service_dataset oci_data_labeling_service_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1458,8 +1458,8 @@ export class DataLabelingServiceDataset extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_labeling_service_dataset',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

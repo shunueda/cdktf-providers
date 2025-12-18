@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_heat_wave_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/mysql_heat_wave_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMysqlHeatWaveClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_heat_wave_cluster#db_system_id DataOciMysqlHeatWaveCluster#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/mysql_heat_wave_cluster#db_system_id DataOciMysqlHeatWaveCluster#db_system_id}
   */
   readonly dbSystemId: string;
 }
@@ -104,7 +104,7 @@ export class DataOciMysqlHeatWaveClusterClusterNodesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster}
 */
 export class DataOciMysqlHeatWaveCluster extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataOciMysqlHeatWaveCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMysqlHeatWaveCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMysqlHeatWaveCluster to import
-  * @param importFromId The id of the existing DataOciMysqlHeatWaveCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_heat_wave_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMysqlHeatWaveCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/mysql_heat_wave_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMysqlHeatWaveCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataOciMysqlHeatWaveCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/data-sources/mysql_heat_wave_cluster oci_mysql_heat_wave_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataOciMysqlHeatWaveCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_mysql_heat_wave_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

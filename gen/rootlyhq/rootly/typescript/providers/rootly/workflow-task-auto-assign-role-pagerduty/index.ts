@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty
+// https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskAutoAssignRolePagerdutyConfig extends cdktf.Terrafo
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#enabled WorkflowTaskAutoAssignRolePagerduty#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#enabled WorkflowTaskAutoAssignRolePagerduty#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#id WorkflowTaskAutoAssignRolePagerduty#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#id WorkflowTaskAutoAssignRolePagerduty#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskAutoAssignRolePagerdutyConfig extends cdktf.Terrafo
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#name WorkflowTaskAutoAssignRolePagerduty#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#name WorkflowTaskAutoAssignRolePagerduty#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#position WorkflowTaskAutoAssignRolePagerduty#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#position WorkflowTaskAutoAssignRolePagerduty#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#skip_on_failure WorkflowTaskAutoAssignRolePagerduty#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#skip_on_failure WorkflowTaskAutoAssignRolePagerduty#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#workflow_id WorkflowTaskAutoAssignRolePagerduty#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#workflow_id WorkflowTaskAutoAssignRolePagerduty#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#task_params WorkflowTaskAutoAssignRolePagerduty#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#task_params WorkflowTaskAutoAssignRolePagerduty#task_params}
   */
   readonly taskParams: WorkflowTaskAutoAssignRolePagerdutyTaskParams;
 }
@@ -55,29 +55,29 @@ export interface WorkflowTaskAutoAssignRolePagerdutyTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#escalation_policy WorkflowTaskAutoAssignRolePagerduty#escalation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#escalation_policy WorkflowTaskAutoAssignRolePagerduty#escalation_policy}
   */
   readonly escalationPolicy?: { [key: string]: string };
   /**
   * The role id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#incident_role_id WorkflowTaskAutoAssignRolePagerduty#incident_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#incident_role_id WorkflowTaskAutoAssignRolePagerduty#incident_role_id}
   */
   readonly incidentRoleId: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#schedule WorkflowTaskAutoAssignRolePagerduty#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#schedule WorkflowTaskAutoAssignRolePagerduty#schedule}
   */
   readonly schedule?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#service WorkflowTaskAutoAssignRolePagerduty#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#service WorkflowTaskAutoAssignRolePagerduty#service}
   */
   readonly service?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#task_type WorkflowTaskAutoAssignRolePagerduty#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#task_type WorkflowTaskAutoAssignRolePagerduty#task_type}
   */
   readonly taskType?: string;
 }
@@ -274,7 +274,7 @@ export class WorkflowTaskAutoAssignRolePagerdutyTaskParamsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty rootly_workflow_task_auto_assign_role_pagerduty}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty rootly_workflow_task_auto_assign_role_pagerduty}
 */
 export class WorkflowTaskAutoAssignRolePagerduty extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class WorkflowTaskAutoAssignRolePagerduty extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WorkflowTaskAutoAssignRolePagerduty resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskAutoAssignRolePagerduty to import
-  * @param importFromId The id of the existing WorkflowTaskAutoAssignRolePagerduty that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskAutoAssignRolePagerduty that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskAutoAssignRolePagerduty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class WorkflowTaskAutoAssignRolePagerduty extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.1.0/docs/resources/workflow_task_auto_assign_role_pagerduty rootly_workflow_task_auto_assign_role_pagerduty} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/5.2.0/docs/resources/workflow_task_auto_assign_role_pagerduty rootly_workflow_task_auto_assign_role_pagerduty} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class WorkflowTaskAutoAssignRolePagerduty extends cdktf.TerraformResource
       terraformResourceType: 'rootly_workflow_task_auto_assign_role_pagerduty',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '5.1.0',
-        providerVersionConstraint: '5.1.0'
+        providerVersion: '5.2.0',
+        providerVersionConstraint: '5.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

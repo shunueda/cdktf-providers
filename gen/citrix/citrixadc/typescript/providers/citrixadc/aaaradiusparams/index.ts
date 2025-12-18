@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface AaaradiusparamsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#accounting Aaaradiusparams#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#accounting Aaaradiusparams#accounting}
   */
   readonly accounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#authentication Aaaradiusparams#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#authentication Aaaradiusparams#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#authservretry Aaaradiusparams#authservretry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#authservretry Aaaradiusparams#authservretry}
   */
   readonly authservretry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#authtimeout Aaaradiusparams#authtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#authtimeout Aaaradiusparams#authtimeout}
   */
   readonly authtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#callingstationid Aaaradiusparams#callingstationid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#callingstationid Aaaradiusparams#callingstationid}
   */
   readonly callingstationid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#defaultauthenticationgroup Aaaradiusparams#defaultauthenticationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#defaultauthenticationgroup Aaaradiusparams#defaultauthenticationgroup}
   */
   readonly defaultauthenticationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#id Aaaradiusparams#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#id Aaaradiusparams#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#ipattributetype Aaaradiusparams#ipattributetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#ipattributetype Aaaradiusparams#ipattributetype}
   */
   readonly ipattributetype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#ipvendorid Aaaradiusparams#ipvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#ipvendorid Aaaradiusparams#ipvendorid}
   */
   readonly ipvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#messageauthenticator Aaaradiusparams#messageauthenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#messageauthenticator Aaaradiusparams#messageauthenticator}
   */
   readonly messageauthenticator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#passencoding Aaaradiusparams#passencoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#passencoding Aaaradiusparams#passencoding}
   */
   readonly passencoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#pwdattributetype Aaaradiusparams#pwdattributetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#pwdattributetype Aaaradiusparams#pwdattributetype}
   */
   readonly pwdattributetype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#pwdvendorid Aaaradiusparams#pwdvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#pwdvendorid Aaaradiusparams#pwdvendorid}
   */
   readonly pwdvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radattributetype Aaaradiusparams#radattributetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radattributetype Aaaradiusparams#radattributetype}
   */
   readonly radattributetype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radgroupseparator Aaaradiusparams#radgroupseparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radgroupseparator Aaaradiusparams#radgroupseparator}
   */
   readonly radgroupseparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radgroupsprefix Aaaradiusparams#radgroupsprefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radgroupsprefix Aaaradiusparams#radgroupsprefix}
   */
   readonly radgroupsprefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radkey Aaaradiusparams#radkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radkey Aaaradiusparams#radkey}
   */
   readonly radkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radnasid Aaaradiusparams#radnasid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radnasid Aaaradiusparams#radnasid}
   */
   readonly radnasid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radnasip Aaaradiusparams#radnasip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radnasip Aaaradiusparams#radnasip}
   */
   readonly radnasip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#radvendorid Aaaradiusparams#radvendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#radvendorid Aaaradiusparams#radvendorid}
   */
   readonly radvendorid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#serverip Aaaradiusparams#serverip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#serverip Aaaradiusparams#serverip}
   */
   readonly serverip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#serverport Aaaradiusparams#serverport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#serverport Aaaradiusparams#serverport}
   */
   readonly serverport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#tunnelendpointclientip Aaaradiusparams#tunnelendpointclientip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#tunnelendpointclientip Aaaradiusparams#tunnelendpointclientip}
   */
   readonly tunnelendpointclientip?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams citrixadc_aaaradiusparams}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams citrixadc_aaaradiusparams}
 */
 export class Aaaradiusparams extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class Aaaradiusparams extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Aaaradiusparams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Aaaradiusparams to import
-  * @param importFromId The id of the existing Aaaradiusparams that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Aaaradiusparams that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Aaaradiusparams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class Aaaradiusparams extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/aaaradiusparams citrixadc_aaaradiusparams} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/aaaradiusparams citrixadc_aaaradiusparams} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class Aaaradiusparams extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_aaaradiusparams',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway
+// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,143 +10,143 @@ export interface OrgDeviceprofileGatewayConfig extends cdktf.TerraformMetaArgume
   /**
   * additional CLI commands to append to the generated Junos config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#additional_config_cmds OrgDeviceprofileGateway#additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#additional_config_cmds OrgDeviceprofileGateway#additional_config_cmds}
   */
   readonly additionalConfigCmds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#bgp_config OrgDeviceprofileGateway#bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#bgp_config OrgDeviceprofileGateway#bgp_config}
   */
   readonly bgpConfig?: { [key: string]: OrgDeviceprofileGatewayBgpConfig } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dhcpd_config OrgDeviceprofileGateway#dhcpd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dhcpd_config OrgDeviceprofileGateway#dhcpd_config}
   */
   readonly dhcpdConfig?: OrgDeviceprofileGatewayDhcpdConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_override OrgDeviceprofileGateway#dns_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_override OrgDeviceprofileGateway#dns_override}
   */
   readonly dnsOverride?: boolean | cdktf.IResolvable;
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_servers OrgDeviceprofileGateway#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_servers OrgDeviceprofileGateway#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_suffix OrgDeviceprofileGateway#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_suffix OrgDeviceprofileGateway#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Property key is the destination CIDR (e.g. "10.0.0.0/8"), the destination Network name or a variable (e.g. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#extra_routes OrgDeviceprofileGateway#extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#extra_routes OrgDeviceprofileGateway#extra_routes}
   */
   readonly extraRoutes?: { [key: string]: OrgDeviceprofileGatewayExtraRoutes } | cdktf.IResolvable;
   /**
   * Property key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64"), the destination Network name or a variable (e.g. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#extra_routes6 OrgDeviceprofileGateway#extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#extra_routes6 OrgDeviceprofileGateway#extra_routes6}
   */
   readonly extraRoutes6?: { [key: string]: OrgDeviceprofileGatewayExtraRoutes6 } | cdktf.IResolvable;
   /**
   * Property key is the profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#idp_profiles OrgDeviceprofileGateway#idp_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#idp_profiles OrgDeviceprofileGateway#idp_profiles}
   */
   readonly idpProfiles?: { [key: string]: OrgDeviceprofileGatewayIdpProfiles } | cdktf.IResolvable;
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip_configs OrgDeviceprofileGateway#ip_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip_configs OrgDeviceprofileGateway#ip_configs}
   */
   readonly ipConfigs?: { [key: string]: OrgDeviceprofileGatewayIpConfigs } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
   */
   readonly networks?: OrgDeviceprofileGatewayNetworks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ntp_override OrgDeviceprofileGateway#ntp_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ntp_override OrgDeviceprofileGateway#ntp_override}
   */
   readonly ntpOverride?: boolean | cdktf.IResolvable;
   /**
   * List of NTP servers specific to this device. By default, those in Site Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ntp_servers OrgDeviceprofileGateway#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ntp_servers OrgDeviceprofileGateway#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * Out-of-band (vme/em0/fxp0) IP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#oob_ip_config OrgDeviceprofileGateway#oob_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#oob_ip_config OrgDeviceprofileGateway#oob_ip_config}
   */
   readonly oobIpConfig?: OrgDeviceprofileGatewayOobIpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#org_id OrgDeviceprofileGateway#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#org_id OrgDeviceprofileGateway#org_id}
   */
   readonly orgId: string;
   /**
   * Property key is the path name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#path_preferences OrgDeviceprofileGateway#path_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#path_preferences OrgDeviceprofileGateway#path_preferences}
   */
   readonly pathPreferences?: { [key: string]: OrgDeviceprofileGatewayPathPreferences } | cdktf.IResolvable;
   /**
   * Property key is the port(s) name or range (e.g. "ge-0/0/0-10")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#port_config OrgDeviceprofileGateway#port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#port_config OrgDeviceprofileGateway#port_config}
   */
   readonly portConfig?: { [key: string]: OrgDeviceprofileGatewayPortConfig } | cdktf.IResolvable;
   /**
   * Auto assigned if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#router_id OrgDeviceprofileGateway#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#router_id OrgDeviceprofileGateway#router_id}
   */
   readonly routerId?: string;
   /**
   * Property key is the routing policy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#routing_policies OrgDeviceprofileGateway#routing_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#routing_policies OrgDeviceprofileGateway#routing_policies}
   */
   readonly routingPolicies?: { [key: string]: OrgDeviceprofileGatewayRoutingPolicies } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#service_policies OrgDeviceprofileGateway#service_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#service_policies OrgDeviceprofileGateway#service_policies}
   */
   readonly servicePolicies?: OrgDeviceprofileGatewayServicePolicies[] | cdktf.IResolvable;
   /**
   * additional CLI commands to append to the generated SSR config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ssr_additional_config_cmds OrgDeviceprofileGateway#ssr_additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ssr_additional_config_cmds OrgDeviceprofileGateway#ssr_additional_config_cmds}
   */
   readonly ssrAdditionalConfigCmds?: string[];
   /**
   * Property key is the tunnel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#tunnel_configs OrgDeviceprofileGateway#tunnel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#tunnel_configs OrgDeviceprofileGateway#tunnel_configs}
   */
   readonly tunnelConfigs?: { [key: string]: OrgDeviceprofileGatewayTunnelConfigs } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#tunnel_provider_options OrgDeviceprofileGateway#tunnel_provider_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#tunnel_provider_options OrgDeviceprofileGateway#tunnel_provider_options}
   */
   readonly tunnelProviderOptions?: OrgDeviceprofileGatewayTunnelProviderOptions;
   /**
   * When a service policy denies a app_category, what message to show in user's browser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#url_filtering_deny_msg OrgDeviceprofileGateway#url_filtering_deny_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#url_filtering_deny_msg OrgDeviceprofileGateway#url_filtering_deny_msg}
   */
   readonly urlFilteringDenyMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vrf_config OrgDeviceprofileGateway#vrf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vrf_config OrgDeviceprofileGateway#vrf_config}
   */
   readonly vrfConfig?: OrgDeviceprofileGatewayVrfConfig;
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vrf_instances OrgDeviceprofileGateway#vrf_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vrf_instances OrgDeviceprofileGateway#vrf_instances}
   */
   readonly vrfInstances?: { [key: string]: OrgDeviceprofileGatewayVrfInstances } | cdktf.IResolvable;
 }
@@ -154,31 +154,31 @@ export interface OrgDeviceprofileGatewayBgpConfigNeighbors {
   /**
   * If true, the BGP session to this neighbor will be administratively disabled/shutdown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#export_policy OrgDeviceprofileGateway#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#export_policy OrgDeviceprofileGateway#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#hold_time OrgDeviceprofileGateway#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#hold_time OrgDeviceprofileGateway#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#import_policy OrgDeviceprofileGateway#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#import_policy OrgDeviceprofileGateway#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * Assuming BGP neighbor is directly connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#multihop_ttl OrgDeviceprofileGateway#multihop_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#multihop_ttl OrgDeviceprofileGateway#multihop_ttl}
   */
   readonly multihopTtl?: number;
   /**
   * Neighbor AS. Value must be in range 1-4294967295 or a variable (e.g. `{{as_variable}}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#neighbor_as OrgDeviceprofileGateway#neighbor_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#neighbor_as OrgDeviceprofileGateway#neighbor_as}
   */
   readonly neighborAs: string;
 }
@@ -436,7 +436,7 @@ export interface OrgDeviceprofileGatewayBgpConfig {
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#auth_key OrgDeviceprofileGateway#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#auth_key OrgDeviceprofileGateway#auth_key}
   */
   readonly authKey?: string;
   /**
@@ -444,123 +444,123 @@ export interface OrgDeviceprofileGatewayBgpConfig {
   *   * 1000 if `type`==`external`
   *   * 350 `type`==`internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#bfd_minimum_interval OrgDeviceprofileGateway#bfd_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#bfd_minimum_interval OrgDeviceprofileGateway#bfd_minimum_interval}
   */
   readonly bfdMinimumInterval?: number;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`, when bfd_minimum_interval_is_configured alone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#bfd_multiplier OrgDeviceprofileGateway#bfd_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#bfd_multiplier OrgDeviceprofileGateway#bfd_multiplier}
   */
   readonly bfdMultiplier?: number;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. BFD provides faster path failure detection and is enabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disable_bfd OrgDeviceprofileGateway#disable_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disable_bfd OrgDeviceprofileGateway#disable_bfd}
   */
   readonly disableBfd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#export OrgDeviceprofileGateway#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#export OrgDeviceprofileGateway#export}
   */
   readonly export?: string;
   /**
   * Default export policies if no per-neighbor policies defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#export_policy OrgDeviceprofileGateway#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#export_policy OrgDeviceprofileGateway#export_policy}
   */
   readonly exportPolicy?: string;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. By default, either inet/net6 unicast depending on neighbor IP family (v4 or v6). For v6 neighbors, to exchange v4 nexthop, which allows dual-stack support, enable this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#extended_v4_nexthop OrgDeviceprofileGateway#extended_v4_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#extended_v4_nexthop OrgDeviceprofileGateway#extended_v4_nexthop}
   */
   readonly extendedV4Nexthop?: boolean | cdktf.IResolvable;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. `0` means disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#graceful_restart_time OrgDeviceprofileGateway#graceful_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#graceful_restart_time OrgDeviceprofileGateway#graceful_restart_time}
   */
   readonly gracefulRestartTime?: number;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. Default is 90.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#hold_time OrgDeviceprofileGateway#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#hold_time OrgDeviceprofileGateway#hold_time}
   */
   readonly holdTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#import OrgDeviceprofileGateway#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#import OrgDeviceprofileGateway#import}
   */
   readonly import?: string;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. Default import policies if no per-neighbor policies defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#import_policy OrgDeviceprofileGateway#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#import_policy OrgDeviceprofileGateway#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * Required if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. BGPLocal AS. Value must be in range 1-4294967295 or a variable (e.g. `{{as_variable}}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#local_as OrgDeviceprofileGateway#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#local_as OrgDeviceprofileGateway#local_as}
   */
   readonly localAs?: string;
   /**
   * Neighbor AS. If `type`==`internal`, must be equal to `local_as`. Value must be in range 1-4294967295 or a variable (e.g. `{{as_variable}}`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#neighbor_as OrgDeviceprofileGateway#neighbor_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#neighbor_as OrgDeviceprofileGateway#neighbor_as}
   */
   readonly neighborAs?: string;
   /**
   * Required if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. If per-neighbor as is desired. Property key is the neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#neighbors OrgDeviceprofileGateway#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#neighbors OrgDeviceprofileGateway#neighbors}
   */
   readonly neighbors?: { [key: string]: OrgDeviceprofileGatewayBgpConfigNeighbors } | cdktf.IResolvable;
   /**
   * Optional if `via`==`lan`. List of networks where we expect BGP neighbor to connect to/from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
   */
   readonly networks?: string[];
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. If true, we will not advertise private ASNs (AS 64512-65534) to this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#no_private_as OrgDeviceprofileGateway#no_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#no_private_as OrgDeviceprofileGateway#no_private_as}
   */
   readonly noPrivateAs?: boolean | cdktf.IResolvable;
   /**
   * Optional if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. By default, we'll re-advertise all learned BGP routers toward overlay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#no_readvertise_to_overlay OrgDeviceprofileGateway#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#no_readvertise_to_overlay OrgDeviceprofileGateway#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * Optional if `via`==`tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#tunnel_name OrgDeviceprofileGateway#tunnel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#tunnel_name OrgDeviceprofileGateway#tunnel_name}
   */
   readonly tunnelName?: string;
   /**
   * Required if `via`==`lan`, `via`==`tunnel` or `via`==`wan`. enum: `external`, `internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
   * enum: `lan`, `tunnel`, `vpn`, `wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
   */
   readonly via: string;
   /**
   * Optional if `via`==`vpn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vpn_name OrgDeviceprofileGateway#vpn_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vpn_name OrgDeviceprofileGateway#vpn_name}
   */
   readonly vpnName?: string;
   /**
   * Optional if `via`==`wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
   */
   readonly wanName?: string;
 }
@@ -1280,15 +1280,15 @@ export class OrgDeviceprofileGatewayBgpConfigMap extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayDhcpdConfigConfigFixedBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip6 OrgDeviceprofileGateway#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip6 OrgDeviceprofileGateway#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
 }
@@ -1462,11 +1462,11 @@ export interface OrgDeviceprofileGatewayDhcpdConfigConfigOptions {
   /**
   * enum: `boolean`, `hex`, `int16`, `int32`, `ip`, `string`, `uint16`, `uint32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#value OrgDeviceprofileGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#value OrgDeviceprofileGateway#value}
   */
   readonly value?: string;
 }
@@ -1611,11 +1611,11 @@ export interface OrgDeviceprofileGatewayDhcpdConfigConfigVendorEncapsulated {
   /**
   * enum: `boolean`, `hex`, `int16`, `int32`, `ip`, `string`, `uint16`, `uint32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#value OrgDeviceprofileGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#value OrgDeviceprofileGateway#value}
   */
   readonly value?: string;
 }
@@ -1760,92 +1760,92 @@ export interface OrgDeviceprofileGatewayDhcpdConfigConfig {
   /**
   * If `type`==`local` or `type6`==`local` - optional, if not defined, system one will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_servers OrgDeviceprofileGateway#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_servers OrgDeviceprofileGateway#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * If `type`==`local` or `type6`==`local` - optional, if not defined, system one will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_suffix OrgDeviceprofileGateway#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_suffix OrgDeviceprofileGateway#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * If `type`==`local` or `type6`==`local`. Property key is the MAC Address. Format is `[0-9a-f]{12}` (e.g. "5684dae9ac8b")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#fixed_bindings OrgDeviceprofileGateway#fixed_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#fixed_bindings OrgDeviceprofileGateway#fixed_bindings}
   */
   readonly fixedBindings?: { [key: string]: OrgDeviceprofileGatewayDhcpdConfigConfigFixedBindings } | cdktf.IResolvable;
   /**
   * If `type`==`local` - optional, `ip` will be used if not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
   */
   readonly gateway?: string;
   /**
   * If `type6`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip6_end OrgDeviceprofileGateway#ip6_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip6_end OrgDeviceprofileGateway#ip6_end}
   */
   readonly ip6End?: string;
   /**
   * If `type6`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip6_start OrgDeviceprofileGateway#ip6_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip6_start OrgDeviceprofileGateway#ip6_start}
   */
   readonly ip6Start?: string;
   /**
   * If `type`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip_end OrgDeviceprofileGateway#ip_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip_end OrgDeviceprofileGateway#ip_end}
   */
   readonly ipEnd?: string;
   /**
   * If `type`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip_start OrgDeviceprofileGateway#ip_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip_start OrgDeviceprofileGateway#ip_start}
   */
   readonly ipStart?: string;
   /**
   * In seconds, lease time has to be between 3600 [1hr] - 604800 [1 week], default is 86400 [1 day]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lease_time OrgDeviceprofileGateway#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lease_time OrgDeviceprofileGateway#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * If `type`==`local` or `type6`==`local`. Property key is the DHCP option number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#options OrgDeviceprofileGateway#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#options OrgDeviceprofileGateway#options}
   */
   readonly options?: { [key: string]: OrgDeviceprofileGatewayDhcpdConfigConfigOptions } | cdktf.IResolvable;
   /**
   * `server_id_override`==`true` means the device, when acts as DHCP relay and forwards DHCP responses from DHCP server to clients, 
   * should overwrite the Sever Identifier option (i.e. DHCP option 54) in DHCP responses with its own IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#server_id_override OrgDeviceprofileGateway#server_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#server_id_override OrgDeviceprofileGateway#server_id_override}
   */
   readonly serverIdOverride?: boolean | cdktf.IResolvable;
   /**
   * If `type`==`relay`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#servers OrgDeviceprofileGateway#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#servers OrgDeviceprofileGateway#servers}
   */
   readonly servers?: string[];
   /**
   * If `type6`==`relay`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#serversv6 OrgDeviceprofileGateway#serversv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#serversv6 OrgDeviceprofileGateway#serversv6}
   */
   readonly serversv6?: string[];
   /**
   * enum: `local` (DHCP Server), `none`, `relay` (DHCP Relay)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
   * enum: `local` (DHCP Server), `none`, `relay` (DHCP Relay)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type6 OrgDeviceprofileGateway#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type6 OrgDeviceprofileGateway#type6}
   */
   readonly type6?: string;
   /**
@@ -1853,7 +1853,7 @@ export interface OrgDeviceprofileGatewayDhcpdConfigConfig {
   *   * enterprise number: 1-65535 (https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers)
   *   * sub option code: 1-255, sub-option code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vendor_encapsulated OrgDeviceprofileGateway#vendor_encapsulated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vendor_encapsulated OrgDeviceprofileGateway#vendor_encapsulated}
   */
   readonly vendorEncapsulated?: { [key: string]: OrgDeviceprofileGatewayDhcpdConfigConfigVendorEncapsulated } | cdktf.IResolvable;
 }
@@ -2404,13 +2404,13 @@ export interface OrgDeviceprofileGatewayDhcpdConfig {
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#config OrgDeviceprofileGateway#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#config OrgDeviceprofileGateway#config}
   */
   readonly config?: { [key: string]: OrgDeviceprofileGatewayDhcpdConfigConfig } | cdktf.IResolvable;
   /**
   * If set to `false`, disable the DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2533,7 +2533,7 @@ export class OrgDeviceprofileGatewayDhcpdConfigOutputReference extends cdktf.Com
 }
 export interface OrgDeviceprofileGatewayExtraRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
   */
   readonly via: string;
 }
@@ -2644,7 +2644,7 @@ export class OrgDeviceprofileGatewayExtraRoutesMap extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayExtraRoutes6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
   */
   readonly via: string;
 }
@@ -2755,15 +2755,15 @@ export class OrgDeviceprofileGatewayExtraRoutes6Map extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayIdpProfilesOverwritesMatching {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#attack_name OrgDeviceprofileGateway#attack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#attack_name OrgDeviceprofileGateway#attack_name}
   */
   readonly attackName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dst_subnet OrgDeviceprofileGateway#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dst_subnet OrgDeviceprofileGateway#dst_subnet}
   */
   readonly dstSubnet?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#severity OrgDeviceprofileGateway#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#severity OrgDeviceprofileGateway#severity}
   */
   readonly severity?: string[];
 }
@@ -2920,15 +2920,15 @@ export interface OrgDeviceprofileGatewayIdpProfilesOverwrites {
   *   * drop: silently dropping packets
   *   * close: notify client/server to close connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#action OrgDeviceprofileGateway#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#action OrgDeviceprofileGateway#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#matching OrgDeviceprofileGateway#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#matching OrgDeviceprofileGateway#matching}
   */
   readonly matching?: OrgDeviceprofileGatewayIdpProfilesOverwritesMatching;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
 }
@@ -3104,19 +3104,19 @@ export interface OrgDeviceprofileGatewayIdpProfiles {
   /**
   * enum: `critical`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#base_profile OrgDeviceprofileGateway#base_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#base_profile OrgDeviceprofileGateway#base_profile}
   */
   readonly baseProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#org_id OrgDeviceprofileGateway#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#org_id OrgDeviceprofileGateway#org_id}
   */
   readonly orgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#overwrites OrgDeviceprofileGateway#overwrites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#overwrites OrgDeviceprofileGateway#overwrites}
   */
   readonly overwrites?: OrgDeviceprofileGatewayIdpProfilesOverwrites[] | cdktf.IResolvable;
 }
@@ -3317,37 +3317,37 @@ export class OrgDeviceprofileGatewayIdpProfilesMap extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayIpConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip6 OrgDeviceprofileGateway#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip6 OrgDeviceprofileGateway#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#netmask6 OrgDeviceprofileGateway#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#netmask6 OrgDeviceprofileGateway#netmask6}
   */
   readonly netmask6?: string;
   /**
   * Optional list of secondary IPs in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#secondary_ips OrgDeviceprofileGateway#secondary_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#secondary_ips OrgDeviceprofileGateway#secondary_ips}
   */
   readonly secondaryIps?: string[];
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
   * enum: `autoconf`, `dhcp`, `disabled`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type6 OrgDeviceprofileGateway#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type6 OrgDeviceprofileGateway#type6}
   */
   readonly type6?: string;
 }
@@ -3635,7 +3635,7 @@ export class OrgDeviceprofileGatewayIpConfigsMap extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayNetworksInternalAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3731,23 +3731,23 @@ export interface OrgDeviceprofileGatewayNetworksInternetAccessDestinationNat {
   /**
   * The Destination NAT destination IP Address. Must be an IP (i.e. "192.168.70.30") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
   * The Destination NAT destination IP Address. Must be a Port (i.e. "443") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#port OrgDeviceprofileGateway#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#port OrgDeviceprofileGateway#port}
   */
   readonly port?: string;
   /**
   * SRX Only. If not set, we configure the nat policies against all WAN ports for simplicity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
   */
   readonly wanName?: string;
 }
@@ -3950,17 +3950,17 @@ export interface OrgDeviceprofileGatewayNetworksInternetAccessStaticNat {
   /**
   * The Static NAT destination IP Address. Must be an IP Address (i.e. "192.168.70.3") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name: string;
   /**
   * SRX Only. If not set, we configure the nat policies against all WAN ports for simplicity. Can be a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
   */
   readonly wanName?: string;
 }
@@ -4126,29 +4126,29 @@ export class OrgDeviceprofileGatewayNetworksInternetAccessStaticNatMap extends c
 }
 export interface OrgDeviceprofileGatewayNetworksInternetAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#create_simple_service_policy OrgDeviceprofileGateway#create_simple_service_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#create_simple_service_policy OrgDeviceprofileGateway#create_simple_service_policy}
   */
   readonly createSimpleServicePolicy?: boolean | cdktf.IResolvable;
   /**
   * Property key can be an External IP (i.e. "63.16.0.3"), an External IP:Port (i.e. "63.16.0.3:443"), an External Port (i.e. ":443"), an External CIDR (i.e. "63.16.0.0/30"), an External CIDR:Port (i.e. "63.16.0.0/30:443") or a Variable (i.e. "{{myvar}}"). At least one of the `internal_ip` or `port` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#destination_nat OrgDeviceprofileGateway#destination_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#destination_nat OrgDeviceprofileGateway#destination_nat}
   */
   readonly destinationNat?: { [key: string]: OrgDeviceprofileGatewayNetworksInternetAccessDestinationNat } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * By default, all access is allowed, to only allow certain traffic, make `restricted`=`true` and define service_policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#restricted OrgDeviceprofileGateway#restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#restricted OrgDeviceprofileGateway#restricted}
   */
   readonly restricted?: boolean | cdktf.IResolvable;
   /**
   * Property key may be an External IP Address (i.e. "63.16.0.3"), a CIDR (i.e. "63.16.0.12/20") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#static_nat OrgDeviceprofileGateway#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#static_nat OrgDeviceprofileGateway#static_nat}
   */
   readonly staticNat?: { [key: string]: OrgDeviceprofileGatewayNetworksInternetAccessStaticNat } | cdktf.IResolvable;
 }
@@ -4360,7 +4360,7 @@ export interface OrgDeviceprofileGatewayNetworksMulticastGroups {
   /**
   * RP (rendezvous point) IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#rp_ip OrgDeviceprofileGateway#rp_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#rp_ip OrgDeviceprofileGateway#rp_ip}
   */
   readonly rpIp?: string;
 }
@@ -4476,17 +4476,17 @@ export interface OrgDeviceprofileGatewayNetworksMulticast {
   /**
   * If the network will only be the source of the multicast traffic, IGMP can be disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disable_igmp OrgDeviceprofileGateway#disable_igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disable_igmp OrgDeviceprofileGateway#disable_igmp}
   */
   readonly disableIgmp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Group address to RP (rendezvous point) mapping. Property Key is the CIDR (example "225.1.0.3/32")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#groups OrgDeviceprofileGateway#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#groups OrgDeviceprofileGateway#groups}
   */
   readonly groups?: { [key: string]: OrgDeviceprofileGatewayNetworksMulticastGroups } | cdktf.IResolvable;
 }
@@ -4638,7 +4638,7 @@ export class OrgDeviceprofileGatewayNetworksMulticastOutputReference extends cdk
 }
 export interface OrgDeviceprofileGatewayNetworksTenants {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#addresses OrgDeviceprofileGateway#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#addresses OrgDeviceprofileGateway#addresses}
   */
   readonly addresses?: string[];
 }
@@ -4754,15 +4754,15 @@ export interface OrgDeviceprofileGatewayNetworksVpnAccessDestinationNat {
   /**
   * The Destination NAT destination IP Address. Must be an IP (i.e. "192.168.70.30") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#port OrgDeviceprofileGateway#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#port OrgDeviceprofileGateway#port}
   */
   readonly port?: string;
 }
@@ -4934,7 +4934,7 @@ export class OrgDeviceprofileGatewayNetworksVpnAccessDestinationNatMap extends c
 }
 export interface OrgDeviceprofileGatewayNetworksVpnAccessSourceNat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#external_ip OrgDeviceprofileGateway#external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#external_ip OrgDeviceprofileGateway#external_ip}
   */
   readonly externalIp?: string;
 }
@@ -5030,11 +5030,11 @@ export interface OrgDeviceprofileGatewayNetworksVpnAccessStaticNat {
   /**
   * The Static NAT destination IP Address. Must be an IP Address (i.e. "192.168.70.3") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_ip OrgDeviceprofileGateway#internal_ip}
   */
   readonly internalIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name: string;
 }
@@ -5173,85 +5173,85 @@ export interface OrgDeviceprofileGatewayNetworksVpnAccess {
   /**
   * If `routed`==`true`, whether to advertise an aggregated subnet toward HUB this is useful when there are multiple networks on SPOKE's side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#advertised_subnet OrgDeviceprofileGateway#advertised_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#advertised_subnet OrgDeviceprofileGateway#advertised_subnet}
   */
   readonly advertisedSubnet?: string;
   /**
   * Whether to allow ping from vpn into this routed network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#allow_ping OrgDeviceprofileGateway#allow_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#allow_ping OrgDeviceprofileGateway#allow_ping}
   */
   readonly allowPing?: boolean | cdktf.IResolvable;
   /**
   * Property key can be an External IP (i.e. "63.16.0.3"), an External IP:Port (i.e. "63.16.0.3:443"), an External Port (i.e. ":443"), an External CIDR (i.e. "63.16.0.0/30"), an External CIDR:Port (i.e. "63.16.0.0/30:443") or a Variable (i.e. "{{myvar}}"). At least one of the `internal_ip` or `port` must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#destination_nat OrgDeviceprofileGateway#destination_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#destination_nat OrgDeviceprofileGateway#destination_nat}
   */
   readonly destinationNat?: { [key: string]: OrgDeviceprofileGatewayNetworksVpnAccessDestinationNat } | cdktf.IResolvable;
   /**
   * If `routed`==`false` (usually at Spoke), but some hosts needs to be reachable from Hub, a subnet is required to create and advertise the route to Hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#nat_pool OrgDeviceprofileGateway#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#nat_pool OrgDeviceprofileGateway#nat_pool}
   */
   readonly natPool?: string;
   /**
   * toward LAN-side BGP peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#no_readvertise_to_lan_bgp OrgDeviceprofileGateway#no_readvertise_to_lan_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#no_readvertise_to_lan_bgp OrgDeviceprofileGateway#no_readvertise_to_lan_bgp}
   */
   readonly noReadvertiseToLanBgp?: boolean | cdktf.IResolvable;
   /**
   * toward LAN-side OSPF peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#no_readvertise_to_lan_ospf OrgDeviceprofileGateway#no_readvertise_to_lan_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#no_readvertise_to_lan_ospf OrgDeviceprofileGateway#no_readvertise_to_lan_ospf}
   */
   readonly noReadvertiseToLanOspf?: boolean | cdktf.IResolvable;
   /**
   * toward overlay, how HUB should deal with routes it received from Spokes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#no_readvertise_to_overlay OrgDeviceprofileGateway#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#no_readvertise_to_overlay OrgDeviceprofileGateway#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * By default, the routes are only readvertised toward the same vrf on spoke. To allow it to be leaked to other vrfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#other_vrfs OrgDeviceprofileGateway#other_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#other_vrfs OrgDeviceprofileGateway#other_vrfs}
   */
   readonly otherVrfs?: string[];
   /**
   * Whether this network is routable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#routed OrgDeviceprofileGateway#routed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#routed OrgDeviceprofileGateway#routed}
   */
   readonly routed?: boolean | cdktf.IResolvable;
   /**
   * If `routed`==`false` (usually at Spoke), but some hosts needs to be reachable from Hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#source_nat OrgDeviceprofileGateway#source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#source_nat OrgDeviceprofileGateway#source_nat}
   */
   readonly sourceNat?: OrgDeviceprofileGatewayNetworksVpnAccessSourceNat;
   /**
   * Property key may be an External IP Address (i.e. "63.16.0.3"), a CIDR (i.e. "63.16.0.12/20") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#static_nat OrgDeviceprofileGateway#static_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#static_nat OrgDeviceprofileGateway#static_nat}
   */
   readonly staticNat?: { [key: string]: OrgDeviceprofileGatewayNetworksVpnAccessStaticNat } | cdktf.IResolvable;
   /**
   * toward overlay, how HUB should deal with routes it received from Spokes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#summarized_subnet OrgDeviceprofileGateway#summarized_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#summarized_subnet OrgDeviceprofileGateway#summarized_subnet}
   */
   readonly summarizedSubnet?: string;
   /**
   * toward LAN-side BGP peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#summarized_subnet_to_lan_bgp OrgDeviceprofileGateway#summarized_subnet_to_lan_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#summarized_subnet_to_lan_bgp OrgDeviceprofileGateway#summarized_subnet_to_lan_bgp}
   */
   readonly summarizedSubnetToLanBgp?: string;
   /**
   * toward LAN-side OSPF peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#summarized_subnet_to_lan_ospf OrgDeviceprofileGateway#summarized_subnet_to_lan_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#summarized_subnet_to_lan_ospf OrgDeviceprofileGateway#summarized_subnet_to_lan_ospf}
   */
   readonly summarizedSubnetToLanOspf?: string;
 }
@@ -5744,71 +5744,71 @@ export interface OrgDeviceprofileGatewayNetworks {
   /**
   * Whether to disallow Mist Devices in the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disallow_mist_services OrgDeviceprofileGateway#disallow_mist_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disallow_mist_services OrgDeviceprofileGateway#disallow_mist_services}
   */
   readonly disallowMistServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway6 OrgDeviceprofileGateway#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway6 OrgDeviceprofileGateway#gateway6}
   */
   readonly gateway6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_access OrgDeviceprofileGateway#internal_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_access OrgDeviceprofileGateway#internal_access}
   */
   readonly internalAccess?: OrgDeviceprofileGatewayNetworksInternalAccess;
   /**
   * Whether this network has direct internet access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internet_access OrgDeviceprofileGateway#internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internet_access OrgDeviceprofileGateway#internet_access}
   */
   readonly internetAccess?: OrgDeviceprofileGatewayNetworksInternetAccess;
   /**
   * Whether to allow clients in the network to talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#isolation OrgDeviceprofileGateway#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#isolation OrgDeviceprofileGateway#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable multicast support (only PIM-sparse mode is supported)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#multicast OrgDeviceprofileGateway#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#multicast OrgDeviceprofileGateway#multicast}
   */
   readonly multicast?: OrgDeviceprofileGatewayNetworksMulticast;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name: string;
   /**
   * For a Network (usually LAN), it can be routable to other networks (e.g. OSPF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#routed_for_networks OrgDeviceprofileGateway#routed_for_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#routed_for_networks OrgDeviceprofileGateway#routed_for_networks}
   */
   readonly routedForNetworks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#subnet OrgDeviceprofileGateway#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#subnet OrgDeviceprofileGateway#subnet}
   */
   readonly subnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#subnet6 OrgDeviceprofileGateway#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#subnet6 OrgDeviceprofileGateway#subnet6}
   */
   readonly subnet6?: string;
   /**
   * Property key must be the user/tenant name (i.e. "printer-1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#tenants OrgDeviceprofileGateway#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#tenants OrgDeviceprofileGateway#tenants}
   */
   readonly tenants?: { [key: string]: OrgDeviceprofileGatewayNetworksTenants } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * Property key is the VPN name. Whether this network can be accessed from vpn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vpn_access OrgDeviceprofileGateway#vpn_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vpn_access OrgDeviceprofileGateway#vpn_access}
   */
   readonly vpnAccess?: { [key: string]: OrgDeviceprofileGatewayNetworksVpnAccess } | cdktf.IResolvable;
 }
@@ -6297,39 +6297,39 @@ export interface OrgDeviceprofileGatewayOobIpConfigNode1 {
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
   */
   readonly ip?: string;
   /**
   * Used only if `subnet` is not specified in `networks`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
   */
   readonly netmask?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
   * If supported on the platform. If enabled, DNS will be using this routing-instance, too
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf OrgDeviceprofileGateway#use_mgmt_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf OrgDeviceprofileGateway#use_mgmt_vrf}
   */
   readonly useMgmtVrf?: boolean | cdktf.IResolvable;
   /**
   * Whether to use `mgmt_junos` for host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf_for_host_out OrgDeviceprofileGateway#use_mgmt_vrf_for_host_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf_for_host_out OrgDeviceprofileGateway#use_mgmt_vrf_for_host_out}
   */
   readonly useMgmtVrfForHostOut?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -6599,47 +6599,47 @@ export interface OrgDeviceprofileGatewayOobIpConfig {
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
   */
   readonly gateway?: string;
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
   */
   readonly ip?: string;
   /**
   * If `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
   */
   readonly netmask?: string;
   /**
   * For HA Cluster, node1 can have different IP Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#node1 OrgDeviceprofileGateway#node1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#node1 OrgDeviceprofileGateway#node1}
   */
   readonly node1?: OrgDeviceprofileGatewayOobIpConfigNode1;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
   * If supported on the platform. If enabled, DNS will be using this routing-instance, too
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf OrgDeviceprofileGateway#use_mgmt_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf OrgDeviceprofileGateway#use_mgmt_vrf}
   */
   readonly useMgmtVrf?: boolean | cdktf.IResolvable;
   /**
   * For host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf_for_host_out OrgDeviceprofileGateway#use_mgmt_vrf_for_host_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#use_mgmt_vrf_for_host_out OrgDeviceprofileGateway#use_mgmt_vrf_for_host_out}
   */
   readonly useMgmtVrfForHostOut?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
   */
   readonly vlanId?: string;
 }
@@ -6936,25 +6936,25 @@ export class OrgDeviceprofileGatewayOobIpConfigOutputReference extends cdktf.Com
 }
 export interface OrgDeviceprofileGatewayPathPreferencesPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#cost OrgDeviceprofileGateway#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#cost OrgDeviceprofileGateway#cost}
   */
   readonly cost?: number;
   /**
   * For SSR Only. `true`, if this specific path is undesired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Only if `type`==`local`, if a different gateway is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway_ip OrgDeviceprofileGateway#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway_ip OrgDeviceprofileGateway#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * Only if `type`==`vpn`, if this vpn path can be used for internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internet_access OrgDeviceprofileGateway#internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internet_access OrgDeviceprofileGateway#internet_access}
   */
   readonly internetAccess?: boolean | cdktf.IResolvable;
   /**
@@ -6962,31 +6962,31 @@ export interface OrgDeviceprofileGatewayPathPreferencesPaths {
   *   * `type`==`vpn`: the name of the VPN Path to use 
   *   * `type`==`wan`: the name of the WAN interface to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
   * Required when `type`==`local`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
   */
   readonly networks?: string[];
   /**
   * If `type`==`local`, if destination IP is to be replaced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#target_ips OrgDeviceprofileGateway#target_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#target_ips OrgDeviceprofileGateway#target_ips}
   */
   readonly targetIps?: string[];
   /**
   * enum: `local`, `tunnel`, `vpn`, `wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type: string;
   /**
   * Optional if `type`==`vpn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_name OrgDeviceprofileGateway#wan_name}
   */
   readonly wanName?: string;
 }
@@ -7331,13 +7331,13 @@ export class OrgDeviceprofileGatewayPathPreferencesPathsList extends cdktf.Compl
 }
 export interface OrgDeviceprofileGatewayPathPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#paths OrgDeviceprofileGateway#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#paths OrgDeviceprofileGateway#paths}
   */
   readonly paths?: OrgDeviceprofileGatewayPathPreferencesPaths[] | cdktf.IResolvable;
   /**
   * enum: `ecmp`, `ordered`, `weighted`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#strategy OrgDeviceprofileGateway#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#strategy OrgDeviceprofileGateway#strategy}
   */
   readonly strategy?: string;
 }
@@ -7482,85 +7482,85 @@ export interface OrgDeviceprofileGatewayPortConfigIpConfig {
   /**
   * Except for out-of_band interface (vme/em0/fxp0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns OrgDeviceprofileGateway#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns OrgDeviceprofileGateway#dns}
   */
   readonly dns?: string[];
   /**
   * Except for out-of_band interface (vme/em0/fxp0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_suffix OrgDeviceprofileGateway#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_suffix OrgDeviceprofileGateway#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Except for out-of_band interface (vme/em0/fxp0). Interface Default Gateway IP Address (i.e. "192.168.1.1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway OrgDeviceprofileGateway#gateway}
   */
   readonly gateway?: string;
   /**
   * Except for out-of_band interface (vme/em0/fxp0). Interface Default Gateway IPv6 Address (i.e. "2001:db8::1") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#gateway6 OrgDeviceprofileGateway#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#gateway6 OrgDeviceprofileGateway#gateway6}
   */
   readonly gateway6?: string;
   /**
   * Interface IP Address (i.e. "192.168.1.8") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip OrgDeviceprofileGateway#ip}
   */
   readonly ip?: string;
   /**
   * Interface IPv6 Address (i.e. "2001:db8::123") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip6 OrgDeviceprofileGateway#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip6 OrgDeviceprofileGateway#ip6}
   */
   readonly ip6?: string;
   /**
   * Used only if `subnet` is not specified in `networks`. Interface Netmask (i.e. "/24") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#netmask OrgDeviceprofileGateway#netmask}
   */
   readonly netmask?: string;
   /**
   * Used only if `subnet` is not specified in `networks`. Interface IPv6 Netmask (i.e. "/64") or a Variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#netmask6 OrgDeviceprofileGateway#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#netmask6 OrgDeviceprofileGateway#netmask6}
   */
   readonly netmask6?: string;
   /**
   * Optional, the network to be used for mgmt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#network OrgDeviceprofileGateway#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#network OrgDeviceprofileGateway#network}
   */
   readonly network?: string;
   /**
   * If `type`==`pppoe`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#poser_password OrgDeviceprofileGateway#poser_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#poser_password OrgDeviceprofileGateway#poser_password}
   */
   readonly poserPassword?: string;
   /**
   * if `type`==`pppoe`. enum: `chap`, `none`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#pppoe_auth OrgDeviceprofileGateway#pppoe_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#pppoe_auth OrgDeviceprofileGateway#pppoe_auth}
   */
   readonly pppoeAuth?: string;
   /**
   * If `type`==`pppoe`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#pppoe_username OrgDeviceprofileGateway#pppoe_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#pppoe_username OrgDeviceprofileGateway#pppoe_username}
   */
   readonly pppoeUsername?: string;
   /**
   * enum: `dhcp`, `pppoe`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
   /**
   * enum: `autoconf`, `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type6 OrgDeviceprofileGateway#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type6 OrgDeviceprofileGateway#type6}
   */
   readonly type6?: string;
 }
@@ -8033,17 +8033,17 @@ export interface OrgDeviceprofileGatewayPortConfigTrafficShaping {
   /**
   * percentages for different class of traffic: high / medium / low / best-effort. Sum must be equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#class_percentages OrgDeviceprofileGateway#class_percentages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#class_percentages OrgDeviceprofileGateway#class_percentages}
   */
   readonly classPercentages?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interface Transmit Cap in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#max_tx_kbps OrgDeviceprofileGateway#max_tx_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#max_tx_kbps OrgDeviceprofileGateway#max_tx_kbps}
   */
   readonly maxTxKbps?: number;
 }
@@ -8197,17 +8197,17 @@ export interface OrgDeviceprofileGatewayPortConfigVpnPathsTrafficShaping {
   /**
   * percentages for different class of traffic: high / medium / low / best-effort. Sum must be equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#class_percentages OrgDeviceprofileGateway#class_percentages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#class_percentages OrgDeviceprofileGateway#class_percentages}
   */
   readonly classPercentages?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Interface Transmit Cap in kbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#max_tx_kbps OrgDeviceprofileGateway#max_tx_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#max_tx_kbps OrgDeviceprofileGateway#max_tx_kbps}
   */
   readonly maxTxKbps?: number;
 }
@@ -8361,29 +8361,29 @@ export interface OrgDeviceprofileGatewayPortConfigVpnPaths {
   /**
   * Only if the VPN `type`==`hub_spoke`. enum: `broadband`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#bfd_profile OrgDeviceprofileGateway#bfd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#bfd_profile OrgDeviceprofileGateway#bfd_profile}
   */
   readonly bfdProfile?: string;
   /**
   * Only if the VPN `type`==`hub_spoke`. Whether to use tunnel mode. SSR only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#bfd_use_tunnel_mode OrgDeviceprofileGateway#bfd_use_tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#bfd_use_tunnel_mode OrgDeviceprofileGateway#bfd_use_tunnel_mode}
   */
   readonly bfdUseTunnelMode?: boolean | cdktf.IResolvable;
   /**
   * Only if the VPN `type`==`hub_spoke`. For a given VPN, when `path_selection.strategy`==`simple`, the preference for a path (lower is preferred)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#preference OrgDeviceprofileGateway#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#preference OrgDeviceprofileGateway#preference}
   */
   readonly preference?: number;
   /**
   * If the VPN `type`==`hub_spoke`, enum: `hub`, `spoke`. If the VPN `type`==`mesh`, enum: `mesh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#role OrgDeviceprofileGateway#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#role OrgDeviceprofileGateway#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#traffic_shaping OrgDeviceprofileGateway#traffic_shaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#traffic_shaping OrgDeviceprofileGateway#traffic_shaping}
   */
   readonly trafficShaping?: OrgDeviceprofileGatewayPortConfigVpnPathsTrafficShaping;
 }
@@ -8613,7 +8613,7 @@ export class OrgDeviceprofileGatewayPortConfigVpnPathsMap extends cdktf.ComplexM
 }
 export interface OrgDeviceprofileGatewayPortConfigWanExtraRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
   */
   readonly via?: string;
 }
@@ -8727,7 +8727,7 @@ export class OrgDeviceprofileGatewayPortConfigWanExtraRoutesMap extends cdktf.Co
 }
 export interface OrgDeviceprofileGatewayPortConfigWanExtraRoutes6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#via OrgDeviceprofileGateway#via}
   */
   readonly via?: string;
 }
@@ -8841,17 +8841,17 @@ export class OrgDeviceprofileGatewayPortConfigWanExtraRoutes6Map extends cdktf.C
 }
 export interface OrgDeviceprofileGatewayPortConfigWanProbeOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip6s OrgDeviceprofileGateway#ip6s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip6s OrgDeviceprofileGateway#ip6s}
   */
   readonly ip6S?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ips OrgDeviceprofileGateway#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ips OrgDeviceprofileGateway#ips}
   */
   readonly ips?: string[];
   /**
   * enum: `broadband`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#probe_profile OrgDeviceprofileGateway#probe_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#probe_profile OrgDeviceprofileGateway#probe_profile}
   */
   readonly probeProfile?: string;
 }
@@ -9005,19 +9005,19 @@ export interface OrgDeviceprofileGatewayPortConfigWanSourceNat {
   /**
   * Or to disable the source-nat
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * If alternative nat_pool is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#nat6_pool OrgDeviceprofileGateway#nat6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#nat6_pool OrgDeviceprofileGateway#nat6_pool}
   */
   readonly nat6Pool?: string;
   /**
   * If alternative nat_pool is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#nat_pool OrgDeviceprofileGateway#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#nat_pool OrgDeviceprofileGateway#nat_pool}
   */
   readonly natPool?: string;
 }
@@ -9171,267 +9171,267 @@ export interface OrgDeviceprofileGatewayPortConfig {
   /**
   * If `aggregated`==`true`. To disable LCP support for the AE interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ae_disable_lacp OrgDeviceprofileGateway#ae_disable_lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ae_disable_lacp OrgDeviceprofileGateway#ae_disable_lacp}
   */
   readonly aeDisableLacp?: boolean | cdktf.IResolvable;
   /**
   * If `aggregated`==`true`. Users could force to use the designated AE name (must be an integer between 0 and 127)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ae_idx OrgDeviceprofileGateway#ae_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ae_idx OrgDeviceprofileGateway#ae_idx}
   */
   readonly aeIdx?: string;
   /**
   * For SRX only, if `aggregated`==`true`.Sets the state of the interface as UP when the peer has limited LACP capability. Use case: When a device connected to this AE port is ZTPing for the first time, it will not have LACP configured on the other end. **Note:** Turning this on will enable force-up on one of the interfaces in the bundle only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ae_lacp_force_up OrgDeviceprofileGateway#ae_lacp_force_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ae_lacp_force_up OrgDeviceprofileGateway#ae_lacp_force_up}
   */
   readonly aeLacpForceUp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aggregated OrgDeviceprofileGateway#aggregated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aggregated OrgDeviceprofileGateway#aggregated}
   */
   readonly aggregated?: boolean | cdktf.IResolvable;
   /**
   * To generate port up/down alarm, set it to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#critical OrgDeviceprofileGateway#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#critical OrgDeviceprofileGateway#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
   * Interface Description. Can be a variable (i.e. "{{myvar}}")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#description OrgDeviceprofileGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#description OrgDeviceprofileGateway#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disable_autoneg OrgDeviceprofileGateway#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disable_autoneg OrgDeviceprofileGateway#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * Port admin up (true) / down (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#disabled OrgDeviceprofileGateway#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * if `wan_type`==`dsl`. enum: `adsl`, `vdsl`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dsl_type OrgDeviceprofileGateway#dsl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dsl_type OrgDeviceprofileGateway#dsl_type}
   */
   readonly dslType?: string;
   /**
   * If `wan_type`==`dsl`, 16 bit int
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dsl_vci OrgDeviceprofileGateway#dsl_vci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dsl_vci OrgDeviceprofileGateway#dsl_vci}
   */
   readonly dslVci?: number;
   /**
   * If `wan_type`==`dsl`, 8 bit int
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dsl_vpi OrgDeviceprofileGateway#dsl_vpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dsl_vpi OrgDeviceprofileGateway#dsl_vpi}
   */
   readonly dslVpi?: number;
   /**
   * enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#duplex OrgDeviceprofileGateway#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#duplex OrgDeviceprofileGateway#duplex}
   */
   readonly duplex?: string;
   /**
   * Junos IP Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ip_config OrgDeviceprofileGateway#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ip_config OrgDeviceprofileGateway#ip_config}
   */
   readonly ipConfig?: OrgDeviceprofileGatewayPortConfigIpConfig;
   /**
   * If `wan_type`==`lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lte_apn OrgDeviceprofileGateway#lte_apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lte_apn OrgDeviceprofileGateway#lte_apn}
   */
   readonly lteApn?: string;
   /**
   * if `wan_type`==`lte`. enum: `chap`, `none`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lte_auth OrgDeviceprofileGateway#lte_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lte_auth OrgDeviceprofileGateway#lte_auth}
   */
   readonly lteAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lte_backup OrgDeviceprofileGateway#lte_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lte_backup OrgDeviceprofileGateway#lte_backup}
   */
   readonly lteBackup?: boolean | cdktf.IResolvable;
   /**
   * If `wan_type`==`lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lte_password OrgDeviceprofileGateway#lte_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lte_password OrgDeviceprofileGateway#lte_password}
   */
   readonly ltePassword?: string;
   /**
   * If `wan_type`==`lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lte_username OrgDeviceprofileGateway#lte_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lte_username OrgDeviceprofileGateway#lte_username}
   */
   readonly lteUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#mtu OrgDeviceprofileGateway#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#mtu OrgDeviceprofileGateway#mtu}
   */
   readonly mtu?: number;
   /**
   * Name that we'll use to derive config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
   * if `usage`==`lan`, name of the `mist_org_network` resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
   */
   readonly networks?: string[];
   /**
   * For Q-in-Q
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#outer_vlan_id OrgDeviceprofileGateway#outer_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#outer_vlan_id OrgDeviceprofileGateway#outer_vlan_id}
   */
   readonly outerVlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#poe_disabled OrgDeviceprofileGateway#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#poe_disabled OrgDeviceprofileGateway#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * Only for SRX and if `usage`==`lan`, the name of the Network to be used as the Untagged VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#port_network OrgDeviceprofileGateway#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#port_network OrgDeviceprofileGateway#port_network}
   */
   readonly portNetwork?: string;
   /**
   * Whether to preserve dscp when sending traffic over VPN (SSR-only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#preserve_dscp OrgDeviceprofileGateway#preserve_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#preserve_dscp OrgDeviceprofileGateway#preserve_dscp}
   */
   readonly preserveDscp?: boolean | cdktf.IResolvable;
   /**
   * If HA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#redundant OrgDeviceprofileGateway#redundant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#redundant OrgDeviceprofileGateway#redundant}
   */
   readonly redundant?: boolean | cdktf.IResolvable;
   /**
   * If HA mode, SRX Only - support redundancy-group. 1-128 for physical SRX, 1-64 for virtual SRX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#redundant_group OrgDeviceprofileGateway#redundant_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#redundant_group OrgDeviceprofileGateway#redundant_group}
   */
   readonly redundantGroup?: number;
   /**
   * For SRX only and if HA Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#reth_idx OrgDeviceprofileGateway#reth_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#reth_idx OrgDeviceprofileGateway#reth_idx}
   */
   readonly rethIdx?: string;
   /**
   * If HA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#reth_node OrgDeviceprofileGateway#reth_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#reth_node OrgDeviceprofileGateway#reth_node}
   */
   readonly rethNode?: string;
   /**
   * SSR only - supporting vlan-based redundancy (matching the size of `networks`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#reth_nodes OrgDeviceprofileGateway#reth_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#reth_nodes OrgDeviceprofileGateway#reth_nodes}
   */
   readonly rethNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#speed OrgDeviceprofileGateway#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#speed OrgDeviceprofileGateway#speed}
   */
   readonly speed?: string;
   /**
   * When SSR is running as VM, this is required on certain hosting platforms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ssr_no_virtual_mac OrgDeviceprofileGateway#ssr_no_virtual_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ssr_no_virtual_mac OrgDeviceprofileGateway#ssr_no_virtual_mac}
   */
   readonly ssrNoVirtualMac?: boolean | cdktf.IResolvable;
   /**
   * For SSR only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#svr_port_range OrgDeviceprofileGateway#svr_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#svr_port_range OrgDeviceprofileGateway#svr_port_range}
   */
   readonly svrPortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#traffic_shaping OrgDeviceprofileGateway#traffic_shaping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#traffic_shaping OrgDeviceprofileGateway#traffic_shaping}
   */
   readonly trafficShaping?: OrgDeviceprofileGatewayPortConfigTrafficShaping;
   /**
   * port usage name. enum: `ha_control`, `ha_data`, `lan`, `wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#usage OrgDeviceprofileGateway#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#usage OrgDeviceprofileGateway#usage}
   */
   readonly usage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vlan_id OrgDeviceprofileGateway#vlan_id}
   */
   readonly vlanId?: string;
   /**
   * Property key is the VPN name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vpn_paths OrgDeviceprofileGateway#vpn_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vpn_paths OrgDeviceprofileGateway#vpn_paths}
   */
   readonly vpnPaths?: { [key: string]: OrgDeviceprofileGatewayPortConfigVpnPaths } | cdktf.IResolvable;
   /**
   * Only when `wan_type`==`broadband`. enum: `default`, `max`, `recommended`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_arp_policer OrgDeviceprofileGateway#wan_arp_policer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_arp_policer OrgDeviceprofileGateway#wan_arp_policer}
   */
   readonly wanArpPolicer?: string;
   /**
   * If `wan_type`==`wan`, disable speedtest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_disable_speedtest OrgDeviceprofileGateway#wan_disable_speedtest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_disable_speedtest OrgDeviceprofileGateway#wan_disable_speedtest}
   */
   readonly wanDisableSpeedtest?: boolean | cdktf.IResolvable;
   /**
   * Only if `usage`==`wan`, optional. If spoke should reach this port by a different IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_ext_ip OrgDeviceprofileGateway#wan_ext_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_ext_ip OrgDeviceprofileGateway#wan_ext_ip}
   */
   readonly wanExtIp?: string;
   /**
   * Only if `usage`==`wan`, optional. If spoke should reach this port by a different IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_ext_ip6 OrgDeviceprofileGateway#wan_ext_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_ext_ip6 OrgDeviceprofileGateway#wan_ext_ip6}
   */
   readonly wanExtIp6?: string;
   /**
   * Only if `usage`==`wan`. Property Key is the destination CIDR (e.g. "100.100.100.0/24")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_extra_routes OrgDeviceprofileGateway#wan_extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_extra_routes OrgDeviceprofileGateway#wan_extra_routes}
   */
   readonly wanExtraRoutes?: { [key: string]: OrgDeviceprofileGatewayPortConfigWanExtraRoutes } | cdktf.IResolvable;
   /**
   * Only if `usage`==`wan`. Property Key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_extra_routes6 OrgDeviceprofileGateway#wan_extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_extra_routes6 OrgDeviceprofileGateway#wan_extra_routes6}
   */
   readonly wanExtraRoutes6?: { [key: string]: OrgDeviceprofileGatewayPortConfigWanExtraRoutes6 } | cdktf.IResolvable;
   /**
   * Only if `usage`==`wan`. If some networks are connected to this WAN port, it can be added here so policies can be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_networks OrgDeviceprofileGateway#wan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_networks OrgDeviceprofileGateway#wan_networks}
   */
   readonly wanNetworks?: string[];
   /**
   * Only if `usage`==`wan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_probe_override OrgDeviceprofileGateway#wan_probe_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_probe_override OrgDeviceprofileGateway#wan_probe_override}
   */
   readonly wanProbeOverride?: OrgDeviceprofileGatewayPortConfigWanProbeOverride;
   /**
   * Only if `usage`==`wan`, optional. By default, source-NAT is performed on all WAN Ports using the interface-ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_source_nat OrgDeviceprofileGateway#wan_source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_source_nat OrgDeviceprofileGateway#wan_source_nat}
   */
   readonly wanSourceNat?: OrgDeviceprofileGatewayPortConfigWanSourceNat;
   /**
   * Only if `usage`==`wan`. enum: `broadband`, `dsl`, `lte`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_type OrgDeviceprofileGateway#wan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_type OrgDeviceprofileGateway#wan_type}
   */
   readonly wanType?: string;
 }
@@ -10876,51 +10876,51 @@ export class OrgDeviceprofileGatewayPortConfigMap extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayRoutingPoliciesTermsActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#accept OrgDeviceprofileGateway#accept}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#accept OrgDeviceprofileGateway#accept}
   */
   readonly accept?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#add_community OrgDeviceprofileGateway#add_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#add_community OrgDeviceprofileGateway#add_community}
   */
   readonly addCommunity?: string[];
   /**
   * For SSR, hub decides how VRF routes are leaked on spoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#add_target_vrfs OrgDeviceprofileGateway#add_target_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#add_target_vrfs OrgDeviceprofileGateway#add_target_vrfs}
   */
   readonly addTargetVrfs?: string[];
   /**
   * When used as export policy, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#community OrgDeviceprofileGateway#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#community OrgDeviceprofileGateway#community}
   */
   readonly community?: string[];
   /**
   * When used as export policy, optional. To exclude certain AS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#exclude_as_path OrgDeviceprofileGateway#exclude_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#exclude_as_path OrgDeviceprofileGateway#exclude_as_path}
   */
   readonly excludeAsPath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#exclude_community OrgDeviceprofileGateway#exclude_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#exclude_community OrgDeviceprofileGateway#exclude_community}
   */
   readonly excludeCommunity?: string[];
   /**
   * When used as export policy, optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#export_communities OrgDeviceprofileGateway#export_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#export_communities OrgDeviceprofileGateway#export_communities}
   */
   readonly exportCommunities?: string[];
   /**
   * Optional, for an import policy, local_preference can be changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#local_preference OrgDeviceprofileGateway#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#local_preference OrgDeviceprofileGateway#local_preference}
   */
   readonly localPreference?: string;
   /**
   * When used as export policy, optional. By default, the local AS will be prepended, to change it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#prepend_as_path OrgDeviceprofileGateway#prepend_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#prepend_as_path OrgDeviceprofileGateway#prepend_as_path}
   */
   readonly prependAsPath?: string[];
 }
@@ -11246,13 +11246,13 @@ export class OrgDeviceprofileGatewayRoutingPoliciesTermsActionsOutputReference e
 }
 export interface OrgDeviceprofileGatewayRoutingPoliciesTermsMatchingRouteExists {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#route OrgDeviceprofileGateway#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#route OrgDeviceprofileGateway#route}
   */
   readonly route?: string;
   /**
   * Name of the vrf instance, it can also be the name of the VPN or wan if they
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vrf_name OrgDeviceprofileGateway#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vrf_name OrgDeviceprofileGateway#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -11375,15 +11375,15 @@ export class OrgDeviceprofileGatewayRoutingPoliciesTermsMatchingRouteExistsOutpu
 }
 export interface OrgDeviceprofileGatewayRoutingPoliciesTermsMatchingVpnPathSla {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#max_jitter OrgDeviceprofileGateway#max_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#max_jitter OrgDeviceprofileGateway#max_jitter}
   */
   readonly maxJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#max_latency OrgDeviceprofileGateway#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#max_latency OrgDeviceprofileGateway#max_latency}
   */
   readonly maxLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#max_loss OrgDeviceprofileGateway#max_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#max_loss OrgDeviceprofileGateway#max_loss}
   */
   readonly maxLoss?: number;
 }
@@ -11537,47 +11537,47 @@ export interface OrgDeviceprofileGatewayRoutingPoliciesTermsMatching {
   /**
   * takes regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#as_path OrgDeviceprofileGateway#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#as_path OrgDeviceprofileGateway#as_path}
   */
   readonly asPath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#community OrgDeviceprofileGateway#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#community OrgDeviceprofileGateway#community}
   */
   readonly community?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#network OrgDeviceprofileGateway#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#network OrgDeviceprofileGateway#network}
   */
   readonly network?: string[];
   /**
   * zero or more criteria/filter can be specified to match the term, all criteria have to be met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#prefix OrgDeviceprofileGateway#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#prefix OrgDeviceprofileGateway#prefix}
   */
   readonly prefix?: string[];
   /**
   * `direct`, `bgp`, `osp`, `static`, `aggregate`...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#protocol OrgDeviceprofileGateway#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#protocol OrgDeviceprofileGateway#protocol}
   */
   readonly protocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#route_exists OrgDeviceprofileGateway#route_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#route_exists OrgDeviceprofileGateway#route_exists}
   */
   readonly routeExists?: OrgDeviceprofileGatewayRoutingPoliciesTermsMatchingRouteExists;
   /**
   * overlay-facing criteria (used for bgp_config where via=vpn)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vpn_neighbor_mac OrgDeviceprofileGateway#vpn_neighbor_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vpn_neighbor_mac OrgDeviceprofileGateway#vpn_neighbor_mac}
   */
   readonly vpnNeighborMac?: string[];
   /**
   * overlay-facing criteria (used for bgp_config where via=vpn). ordered-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vpn_path OrgDeviceprofileGateway#vpn_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vpn_path OrgDeviceprofileGateway#vpn_path}
   */
   readonly vpnPath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#vpn_path_sla OrgDeviceprofileGateway#vpn_path_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#vpn_path_sla OrgDeviceprofileGateway#vpn_path_sla}
   */
   readonly vpnPathSla?: OrgDeviceprofileGatewayRoutingPoliciesTermsMatchingVpnPathSla;
 }
@@ -11905,13 +11905,13 @@ export interface OrgDeviceprofileGatewayRoutingPoliciesTerms {
   /**
   * When used as import policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#actions OrgDeviceprofileGateway#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#actions OrgDeviceprofileGateway#actions}
   */
   readonly actions?: OrgDeviceprofileGatewayRoutingPoliciesTermsActions;
   /**
   * zero or more criteria/filter can be specified to match the term, all criteria have to be met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#matching OrgDeviceprofileGateway#matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#matching OrgDeviceprofileGateway#matching}
   */
   readonly matching?: OrgDeviceprofileGatewayRoutingPoliciesTermsMatching;
 }
@@ -12058,7 +12058,7 @@ export interface OrgDeviceprofileGatewayRoutingPolicies {
   /**
   * zero or more criteria/filter can be specified to match the term, all criteria have to be met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#terms OrgDeviceprofileGateway#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#terms OrgDeviceprofileGateway#terms}
   */
   readonly terms?: OrgDeviceprofileGatewayRoutingPoliciesTerms[] | cdktf.IResolvable;
 }
@@ -12174,17 +12174,17 @@ export interface OrgDeviceprofileGatewayServicePoliciesAntivirus {
   /**
   * org-level AV Profile can be used, this takes precedence over 'profile'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#avprofile_id OrgDeviceprofileGateway#avprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#avprofile_id OrgDeviceprofileGateway#avprofile_id}
   */
   readonly avprofileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Default / noftp / httponly / or keys from av_profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#profile OrgDeviceprofileGateway#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#profile OrgDeviceprofileGateway#profile}
   */
   readonly profile?: string;
 }
@@ -12336,7 +12336,7 @@ export class OrgDeviceprofileGatewayServicePoliciesAntivirusOutputReference exte
 }
 export interface OrgDeviceprofileGatewayServicePoliciesAppqoe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12430,21 +12430,21 @@ export class OrgDeviceprofileGatewayServicePoliciesAppqoeOutputReference extends
 }
 export interface OrgDeviceprofileGatewayServicePoliciesEwf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#alert_only OrgDeviceprofileGateway#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#alert_only OrgDeviceprofileGateway#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#block_message OrgDeviceprofileGateway#block_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#block_message OrgDeviceprofileGateway#block_message}
   */
   readonly blockMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `critical`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#profile OrgDeviceprofileGateway#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#profile OrgDeviceprofileGateway#profile}
   */
   readonly profile?: string;
 }
@@ -12647,23 +12647,23 @@ export class OrgDeviceprofileGatewayServicePoliciesEwfList extends cdktf.Complex
 }
 export interface OrgDeviceprofileGatewayServicePoliciesIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#alert_only OrgDeviceprofileGateway#alert_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#alert_only OrgDeviceprofileGateway#alert_only}
   */
   readonly alertOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * org_level IDP Profile can be used, this takes precedence over `profile`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#idpprofile_id OrgDeviceprofileGateway#idpprofile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#idpprofile_id OrgDeviceprofileGateway#idpprofile_id}
   */
   readonly idpprofileId?: string;
   /**
   * enum: `Custom`, `strict` (default), `standard` or keys from idp_profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#profile OrgDeviceprofileGateway#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#profile OrgDeviceprofileGateway#profile}
   */
   readonly profile?: string;
 }
@@ -12846,25 +12846,25 @@ export interface OrgDeviceprofileGatewayServicePoliciesSkyatp {
   /**
   * enum: `disabled`, `default`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_dga_detection OrgDeviceprofileGateway#dns_dga_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_dga_detection OrgDeviceprofileGateway#dns_dga_detection}
   */
   readonly dnsDgaDetection?: string;
   /**
   * enum: `disabled`, `default`, `standard`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dns_tunnel_detection OrgDeviceprofileGateway#dns_tunnel_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dns_tunnel_detection OrgDeviceprofileGateway#dns_tunnel_detection}
   */
   readonly dnsTunnelDetection?: string;
   /**
   * enum: `disabled`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#http_inspection OrgDeviceprofileGateway#http_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#http_inspection OrgDeviceprofileGateway#http_inspection}
   */
   readonly httpInspection?: string;
   /**
   * enum: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#iot_device_policy OrgDeviceprofileGateway#iot_device_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#iot_device_policy OrgDeviceprofileGateway#iot_device_policy}
   */
   readonly iotDevicePolicy?: string;
 }
@@ -13047,11 +13047,11 @@ export interface OrgDeviceprofileGatewayServicePoliciesSslProxy {
   /**
   * enum: `medium`, `strong`, `weak`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ciphers_category OrgDeviceprofileGateway#ciphers_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ciphers_category OrgDeviceprofileGateway#ciphers_category}
   */
   readonly ciphersCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -13174,11 +13174,11 @@ export class OrgDeviceprofileGatewayServicePoliciesSslProxyOutputReference exten
 }
 export interface OrgDeviceprofileGatewayServicePoliciesSyslog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#server_names OrgDeviceprofileGateway#server_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#server_names OrgDeviceprofileGateway#server_names}
   */
   readonly serverNames?: string[];
 }
@@ -13303,81 +13303,81 @@ export interface OrgDeviceprofileGatewayServicePolicies {
   /**
   * Required when `servicepolicy_id` is not defined, optional otherwise (override the servicepolicy action). enum: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#action OrgDeviceprofileGateway#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#action OrgDeviceprofileGateway#action}
   */
   readonly action?: string;
   /**
   * For SRX-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#antivirus OrgDeviceprofileGateway#antivirus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#antivirus OrgDeviceprofileGateway#antivirus}
   */
   readonly antivirus?: OrgDeviceprofileGatewayServicePoliciesAntivirus;
   /**
   * SRX only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#appqoe OrgDeviceprofileGateway#appqoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#appqoe OrgDeviceprofileGateway#appqoe}
   */
   readonly appqoe?: OrgDeviceprofileGatewayServicePoliciesAppqoe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ewf OrgDeviceprofileGateway#ewf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ewf OrgDeviceprofileGateway#ewf}
   */
   readonly ewf?: OrgDeviceprofileGatewayServicePoliciesEwf[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#idp OrgDeviceprofileGateway#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#idp OrgDeviceprofileGateway#idp}
   */
   readonly idp?: OrgDeviceprofileGatewayServicePoliciesIdp;
   /**
   * access within the same VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#local_routing OrgDeviceprofileGateway#local_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#local_routing OrgDeviceprofileGateway#local_routing}
   */
   readonly localRouting?: boolean | cdktf.IResolvable;
   /**
   * Required when `servicepolicy_id` is not defined, optional otherwise (override the servicepolicy name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
   * By default, we derive all paths available and use them. Optionally, you can customize by using `path_preference`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#path_preference OrgDeviceprofileGateway#path_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#path_preference OrgDeviceprofileGateway#path_preference}
   */
   readonly pathPreference?: string;
   /**
   * Used to link servicepolicy defined at org level and overwrite some attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#servicepolicy_id OrgDeviceprofileGateway#servicepolicy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#servicepolicy_id OrgDeviceprofileGateway#servicepolicy_id}
   */
   readonly servicepolicyId?: string;
   /**
   * Required when `servicepolicy_id` is not defined. List of Applications / Destinations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#services OrgDeviceprofileGateway#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#services OrgDeviceprofileGateway#services}
   */
   readonly services?: string[];
   /**
   * SRX only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#skyatp OrgDeviceprofileGateway#skyatp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#skyatp OrgDeviceprofileGateway#skyatp}
   */
   readonly skyatp?: OrgDeviceprofileGatewayServicePoliciesSkyatp;
   /**
   * For SRX-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ssl_proxy OrgDeviceprofileGateway#ssl_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ssl_proxy OrgDeviceprofileGateway#ssl_proxy}
   */
   readonly sslProxy?: OrgDeviceprofileGatewayServicePoliciesSslProxy;
   /**
   * Required for syslog logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#syslog OrgDeviceprofileGateway#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#syslog OrgDeviceprofileGateway#syslog}
   */
   readonly syslog?: OrgDeviceprofileGatewayServicePoliciesSyslog;
   /**
   * Required when `servicepolicy_id` is not defined. List of Networks / Users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#tenants OrgDeviceprofileGateway#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#tenants OrgDeviceprofileGateway#tenants}
   */
   readonly tenants?: string[];
 }
@@ -13870,11 +13870,11 @@ export class OrgDeviceprofileGatewayServicePoliciesList extends cdktf.ComplexLis
 }
 export interface OrgDeviceprofileGatewayTunnelConfigsAutoProvisionLatlng {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lat OrgDeviceprofileGateway#lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lat OrgDeviceprofileGateway#lat}
   */
   readonly lat: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#lng OrgDeviceprofileGateway#lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#lng OrgDeviceprofileGateway#lng}
   */
   readonly lng: number;
 }
@@ -13991,13 +13991,13 @@ export class OrgDeviceprofileGatewayTunnelConfigsAutoProvisionLatlngOutputRefere
 }
 export interface OrgDeviceprofileGatewayTunnelConfigsAutoProvisionPrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Optional, only needed if `vars_only`==`false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
   */
   readonly wanNames?: string[];
 }
@@ -14120,13 +14120,13 @@ export class OrgDeviceprofileGatewayTunnelConfigsAutoProvisionPrimaryOutputRefer
 }
 export interface OrgDeviceprofileGatewayTunnelConfigsAutoProvisionSecondary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Optional, only needed if `vars_only`==`false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
   */
   readonly wanNames?: string[];
 }
@@ -14251,39 +14251,39 @@ export interface OrgDeviceprofileGatewayTunnelConfigsAutoProvision {
   /**
   * Enable auto provisioning for the tunnel. If enabled, the `primary` and `secondary` nodes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * API override for POP selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#latlng OrgDeviceprofileGateway#latlng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#latlng OrgDeviceprofileGateway#latlng}
   */
   readonly latlng?: OrgDeviceprofileGatewayTunnelConfigsAutoProvisionLatlng;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#primary OrgDeviceprofileGateway#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#primary OrgDeviceprofileGateway#primary}
   */
   readonly primary?: OrgDeviceprofileGatewayTunnelConfigsAutoProvisionPrimary;
   /**
   * enum: `jse-ipsec`, `zscaler-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#provider OrgDeviceprofileGateway#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#provider OrgDeviceprofileGateway#provider}
   */
   readonly provider: string;
   /**
   * API override for POP selection in the case user wants to override the auto discovery of remote network location and force the tunnel to use the specified peer location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#region OrgDeviceprofileGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#region OrgDeviceprofileGateway#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#secondary OrgDeviceprofileGateway#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#secondary OrgDeviceprofileGateway#secondary}
   */
   readonly secondary?: OrgDeviceprofileGatewayTunnelConfigsAutoProvisionSecondary;
   /**
   * if `provider`==`prisma-ipsec`. By default, we'll use the location of the site to determine the optimal Remote Network location, optionally, service_connection can be considered, then we'll also consider this along with the site location. Define service_connection if the traffic is to be routed to a specific service connection. This field takes a service connection name that is configured in the Prisma cloud, Prisma Access Setup -> Service Connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#service_connection OrgDeviceprofileGateway#service_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#service_connection OrgDeviceprofileGateway#service_connection}
   */
   readonly serviceConnection?: string;
 }
@@ -14550,7 +14550,7 @@ export interface OrgDeviceprofileGatewayTunnelConfigsIkeProposals {
   /**
   * enum: `md5`, `sha1`, `sha2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#auth_algo OrgDeviceprofileGateway#auth_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#auth_algo OrgDeviceprofileGateway#auth_algo}
   */
   readonly authAlgo?: string;
   /**
@@ -14566,13 +14566,13 @@ export interface OrgDeviceprofileGatewayTunnelConfigsIkeProposals {
   *   * 21 (521-bit ECP)
   *   * 24 (2048-bit ECP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dh_group OrgDeviceprofileGateway#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dh_group OrgDeviceprofileGateway#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * enum: `3des`, `aes128`, `aes256`, `aes_gcm128`, `aes_gcm256`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enc_algo OrgDeviceprofileGateway#enc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enc_algo OrgDeviceprofileGateway#enc_algo}
   */
   readonly encAlgo?: string;
 }
@@ -14748,7 +14748,7 @@ export interface OrgDeviceprofileGatewayTunnelConfigsIpsecProposals {
   /**
   * enum: `md5`, `sha1`, `sha2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#auth_algo OrgDeviceprofileGateway#auth_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#auth_algo OrgDeviceprofileGateway#auth_algo}
   */
   readonly authAlgo?: string;
   /**
@@ -14764,13 +14764,13 @@ export interface OrgDeviceprofileGatewayTunnelConfigsIpsecProposals {
   *   * 21 (521-bit ECP)
   *   * 24 (2048-bit ECP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dh_group OrgDeviceprofileGateway#dh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dh_group OrgDeviceprofileGateway#dh_group}
   */
   readonly dhGroup?: string;
   /**
   * enum: `3des`, `aes128`, `aes256`, `aes_gcm128`, `aes_gcm256`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enc_algo OrgDeviceprofileGateway#enc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enc_algo OrgDeviceprofileGateway#enc_algo}
   */
   readonly encAlgo?: string;
 }
@@ -14944,27 +14944,27 @@ export class OrgDeviceprofileGatewayTunnelConfigsIpsecProposalsList extends cdkt
 }
 export interface OrgDeviceprofileGatewayTunnelConfigsPrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#hosts OrgDeviceprofileGateway#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#hosts OrgDeviceprofileGateway#hosts}
   */
   readonly hosts: string[];
   /**
   * Only if `provider`==`zscaler-gre`, `provider`==`jse-ipsec`, `provider`==`custom-ipsec` or `provider`==`custom-gre`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_ips OrgDeviceprofileGateway#internal_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_ips OrgDeviceprofileGateway#internal_ips}
   */
   readonly internalIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Only if  `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#remote_ids OrgDeviceprofileGateway#remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#remote_ids OrgDeviceprofileGateway#remote_ids}
   */
   readonly remoteIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
   */
   readonly wanNames: string[];
 }
@@ -15170,25 +15170,25 @@ export interface OrgDeviceprofileGatewayTunnelConfigsProbe {
   /**
   * How often to trigger the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#interval OrgDeviceprofileGateway#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#interval OrgDeviceprofileGateway#interval}
   */
   readonly interval?: number;
   /**
   * Number of consecutive misses before declaring the tunnel down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#threshold OrgDeviceprofileGateway#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#threshold OrgDeviceprofileGateway#threshold}
   */
   readonly threshold?: number;
   /**
   * Time within which to complete the connectivity check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#timeout OrgDeviceprofileGateway#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#timeout OrgDeviceprofileGateway#timeout}
   */
   readonly timeout?: number;
   /**
   * enum: `http`, `icmp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#type OrgDeviceprofileGateway#type}
   */
   readonly type?: string;
 }
@@ -15369,27 +15369,27 @@ export class OrgDeviceprofileGatewayTunnelConfigsProbeOutputReference extends cd
 }
 export interface OrgDeviceprofileGatewayTunnelConfigsSecondary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#hosts OrgDeviceprofileGateway#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#hosts OrgDeviceprofileGateway#hosts}
   */
   readonly hosts: string[];
   /**
   * Only if `provider`==`zscaler-gre`, `provider`==`jse-ipsec`, `provider`==`custom-ipsec` or `provider`==`custom-gre`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#internal_ips OrgDeviceprofileGateway#internal_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#internal_ips OrgDeviceprofileGateway#internal_ips}
   */
   readonly internalIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#probe_ips OrgDeviceprofileGateway#probe_ips}
   */
   readonly probeIps?: string[];
   /**
   * Only if  `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#remote_ids OrgDeviceprofileGateway#remote_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#remote_ids OrgDeviceprofileGateway#remote_ids}
   */
   readonly remoteIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#wan_names OrgDeviceprofileGateway#wan_names}
   */
   readonly wanNames: string[];
 }
@@ -15595,109 +15595,109 @@ export interface OrgDeviceprofileGatewayTunnelConfigs {
   /**
   * Auto Provisioning configuration for the tunne. This takes precedence over the `primary` and `secondary` nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#auto_provision OrgDeviceprofileGateway#auto_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#auto_provision OrgDeviceprofileGateway#auto_provision}
   */
   readonly autoProvision?: OrgDeviceprofileGatewayTunnelConfigsAutoProvision;
   /**
   * Only if `provider`==`custom-ipsec`. Must be between 180 and 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ike_lifetime OrgDeviceprofileGateway#ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ike_lifetime OrgDeviceprofileGateway#ike_lifetime}
   */
   readonly ikeLifetime?: number;
   /**
   * Only if `provider`==`custom-ipsec`. enum: `aggressive`, `main`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ike_mode OrgDeviceprofileGateway#ike_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ike_mode OrgDeviceprofileGateway#ike_mode}
   */
   readonly ikeMode?: string;
   /**
   * If `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ike_proposals OrgDeviceprofileGateway#ike_proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ike_proposals OrgDeviceprofileGateway#ike_proposals}
   */
   readonly ikeProposals?: OrgDeviceprofileGatewayTunnelConfigsIkeProposals[] | cdktf.IResolvable;
   /**
   * Only if `provider`==`custom-ipsec`. Must be between 180 and 86400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ipsec_lifetime OrgDeviceprofileGateway#ipsec_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ipsec_lifetime OrgDeviceprofileGateway#ipsec_lifetime}
   */
   readonly ipsecLifetime?: number;
   /**
   * Only if  `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ipsec_proposals OrgDeviceprofileGateway#ipsec_proposals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ipsec_proposals OrgDeviceprofileGateway#ipsec_proposals}
   */
   readonly ipsecProposals?: OrgDeviceprofileGatewayTunnelConfigsIpsecProposals[] | cdktf.IResolvable;
   /**
   * Required if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#local_id OrgDeviceprofileGateway#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#local_id OrgDeviceprofileGateway#local_id}
   */
   readonly localId?: string;
   /**
   * List of Local protected subnet for policy-based IPSec negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#local_subnets OrgDeviceprofileGateway#local_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#local_subnets OrgDeviceprofileGateway#local_subnets}
   */
   readonly localSubnets?: string[];
   /**
   * Required if `provider`==`zscaler-gre`, `provider`==`jse-ipsec`. enum: `active-active`, `active-standby`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#mode OrgDeviceprofileGateway#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#mode OrgDeviceprofileGateway#mode}
   */
   readonly mode?: string;
   /**
   * If `provider`==`custom-ipsec` or `provider`==`prisma-ipsec`, networks reachable via this tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
   */
   readonly networks?: string[];
   /**
   * Only if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#primary OrgDeviceprofileGateway#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#primary OrgDeviceprofileGateway#primary}
   */
   readonly primary?: OrgDeviceprofileGatewayTunnelConfigsPrimary;
   /**
   * Only if `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#probe OrgDeviceprofileGateway#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#probe OrgDeviceprofileGateway#probe}
   */
   readonly probe?: OrgDeviceprofileGatewayTunnelConfigsProbe;
   /**
   * Only if `provider`==`custom-ipsec`. enum: `gre`, `ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#protocol OrgDeviceprofileGateway#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#protocol OrgDeviceprofileGateway#protocol}
   */
   readonly protocol?: string;
   /**
   * Only if `auto_provision.enabled`==`false`. enum: `custom-ipsec`, `custom-gre`, `jse-ipsec`, `prisma-ipsec`, `zscaler-gre`, `zscaler-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#provider OrgDeviceprofileGateway#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#provider OrgDeviceprofileGateway#provider}
   */
   readonly provider?: string;
   /**
   * Required if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#psk OrgDeviceprofileGateway#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#psk OrgDeviceprofileGateway#psk}
   */
   readonly psk?: string;
   /**
   * List of Remote protected subnet for policy-based IPSec negotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#remote_subnets OrgDeviceprofileGateway#remote_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#remote_subnets OrgDeviceprofileGateway#remote_subnets}
   */
   readonly remoteSubnets?: string[];
   /**
   * Only if `provider`==`zscaler-ipsec`, `provider`==`jse-ipsec` or `provider`==`custom-ipsec`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#secondary OrgDeviceprofileGateway#secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#secondary OrgDeviceprofileGateway#secondary}
   */
   readonly secondary?: OrgDeviceprofileGatewayTunnelConfigsSecondary;
   /**
   * Only if `provider`==`custom-gre` or `provider`==`custom-ipsec`. enum: `1`, `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#version OrgDeviceprofileGateway#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#version OrgDeviceprofileGateway#version}
   */
   readonly version?: string;
 }
@@ -16304,13 +16304,13 @@ export class OrgDeviceprofileGatewayTunnelConfigsMap extends cdktf.ComplexMap {
 }
 export interface OrgDeviceprofileGatewayTunnelProviderOptionsJse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#num_users OrgDeviceprofileGateway#num_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#num_users OrgDeviceprofileGateway#num_users}
   */
   readonly numUsers?: number;
   /**
   * JSE Organization name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#org_name OrgDeviceprofileGateway#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#org_name OrgDeviceprofileGateway#org_name}
   */
   readonly orgName?: string;
 }
@@ -16435,7 +16435,7 @@ export interface OrgDeviceprofileGatewayTunnelProviderOptionsPrisma {
   /**
   * For prisma-ipsec, service account name to used for tunnel auto provisioning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#service_account_name OrgDeviceprofileGateway#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#service_account_name OrgDeviceprofileGateway#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -16529,85 +16529,85 @@ export class OrgDeviceprofileGatewayTunnelProviderOptionsPrismaOutputReference e
 }
 export interface OrgDeviceprofileGatewayTunnelProviderOptionsZscalerSubLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_block_internet_until_accepted OrgDeviceprofileGateway#aup_block_internet_until_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_block_internet_until_accepted OrgDeviceprofileGateway#aup_block_internet_until_accepted}
   */
   readonly aupBlockInternetUntilAccepted?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display Acceptable Use Policy (AUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_enabled OrgDeviceprofileGateway#aup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_enabled OrgDeviceprofileGateway#aup_enabled}
   */
   readonly aupEnabled?: boolean | cdktf.IResolvable;
   /**
   * Proxy HTTPs traffic, requiring Zscaler cert to be installed in browser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_force_ssl_inspection OrgDeviceprofileGateway#aup_force_ssl_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_force_ssl_inspection OrgDeviceprofileGateway#aup_force_ssl_inspection}
   */
   readonly aupForceSslInspection?: boolean | cdktf.IResolvable;
   /**
   * Required if `aup_enabled`==`true`. Days before AUP is requested again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_timeout_in_days OrgDeviceprofileGateway#aup_timeout_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_timeout_in_days OrgDeviceprofileGateway#aup_timeout_in_days}
   */
   readonly aupTimeoutInDays?: number;
   /**
   * Enable this option to authenticate users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#auth_required OrgDeviceprofileGateway#auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#auth_required OrgDeviceprofileGateway#auth_required}
   */
   readonly authRequired?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display caution notification for non-authenticated users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#caution_enabled OrgDeviceprofileGateway#caution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#caution_enabled OrgDeviceprofileGateway#caution_enabled}
   */
   readonly cautionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dn_bandwidth OrgDeviceprofileGateway#dn_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dn_bandwidth OrgDeviceprofileGateway#dn_bandwidth}
   */
   readonly dnBandwidth?: number;
   /**
   * Required if `surrogate_IP`==`true`, idle Time to Disassociation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#idle_time_in_minutes OrgDeviceprofileGateway#idle_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#idle_time_in_minutes OrgDeviceprofileGateway#idle_time_in_minutes}
   */
   readonly idleTimeInMinutes?: number;
   /**
   * Network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#name OrgDeviceprofileGateway#name}
   */
   readonly name?: string;
   /**
   * If `true`, enable the firewall control option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ofw_enabled OrgDeviceprofileGateway#ofw_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ofw_enabled OrgDeviceprofileGateway#ofw_enabled}
   */
   readonly ofwEnabled?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`true`. Map a user to a private IP address so it applies the user's policies, instead of the location's policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#surrogate_ip OrgDeviceprofileGateway#surrogate_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#surrogate_ip OrgDeviceprofileGateway#surrogate_ip}
   */
   readonly surrogateIp?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `surrogate_IP`==`true`, enforce surrogate IP for known browsers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#surrogate_ip_enforced_for_known_browsers OrgDeviceprofileGateway#surrogate_ip_enforced_for_known_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#surrogate_ip_enforced_for_known_browsers OrgDeviceprofileGateway#surrogate_ip_enforced_for_known_browsers}
   */
   readonly surrogateIpEnforcedForKnownBrowsers?: boolean | cdktf.IResolvable;
   /**
   * Required if `surrogate_IP_enforced_for_known_browsers`==`true`, must be lower or equal than `idle_time_in_minutes`, refresh Time for re-validation of Surrogacy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#surrogate_refresh_time_in_minutes OrgDeviceprofileGateway#surrogate_refresh_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#surrogate_refresh_time_in_minutes OrgDeviceprofileGateway#surrogate_refresh_time_in_minutes}
   */
   readonly surrogateRefreshTimeInMinutes?: number;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#up_bandwidth OrgDeviceprofileGateway#up_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#up_bandwidth OrgDeviceprofileGateway#up_bandwidth}
   */
   readonly upBandwidth?: number;
 }
@@ -17100,91 +17100,91 @@ export class OrgDeviceprofileGatewayTunnelProviderOptionsZscalerSubLocationsList
 }
 export interface OrgDeviceprofileGatewayTunnelProviderOptionsZscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_block_internet_until_accepted OrgDeviceprofileGateway#aup_block_internet_until_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_block_internet_until_accepted OrgDeviceprofileGateway#aup_block_internet_until_accepted}
   */
   readonly aupBlockInternetUntilAccepted?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display Acceptable Use Policy (AUP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_enabled OrgDeviceprofileGateway#aup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_enabled OrgDeviceprofileGateway#aup_enabled}
   */
   readonly aupEnabled?: boolean | cdktf.IResolvable;
   /**
   * Proxy HTTPs traffic, requiring Zscaler cert to be installed in browser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_force_ssl_inspection OrgDeviceprofileGateway#aup_force_ssl_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_force_ssl_inspection OrgDeviceprofileGateway#aup_force_ssl_inspection}
   */
   readonly aupForceSslInspection?: boolean | cdktf.IResolvable;
   /**
   * Required if `aup_enabled`==`true`. Days before AUP is requested again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#aup_timeout_in_days OrgDeviceprofileGateway#aup_timeout_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#aup_timeout_in_days OrgDeviceprofileGateway#aup_timeout_in_days}
   */
   readonly aupTimeoutInDays?: number;
   /**
   * Enable this option to enforce user authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#auth_required OrgDeviceprofileGateway#auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#auth_required OrgDeviceprofileGateway#auth_required}
   */
   readonly authRequired?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`false`, display caution notification for non-authenticated users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#caution_enabled OrgDeviceprofileGateway#caution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#caution_enabled OrgDeviceprofileGateway#caution_enabled}
   */
   readonly cautionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#dn_bandwidth OrgDeviceprofileGateway#dn_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#dn_bandwidth OrgDeviceprofileGateway#dn_bandwidth}
   */
   readonly dnBandwidth?: number;
   /**
   * Required if `surrogate_IP`==`true`, idle Time to Disassociation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#idle_time_in_minutes OrgDeviceprofileGateway#idle_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#idle_time_in_minutes OrgDeviceprofileGateway#idle_time_in_minutes}
   */
   readonly idleTimeInMinutes?: number;
   /**
   * If `true`, enable the firewall control option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#ofw_enabled OrgDeviceprofileGateway#ofw_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#ofw_enabled OrgDeviceprofileGateway#ofw_enabled}
   */
   readonly ofwEnabled?: boolean | cdktf.IResolvable;
   /**
   * `sub-locations` can be used for specific uses cases to define different configuration based on the user network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#sub_locations OrgDeviceprofileGateway#sub_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#sub_locations OrgDeviceprofileGateway#sub_locations}
   */
   readonly subLocations?: OrgDeviceprofileGatewayTunnelProviderOptionsZscalerSubLocations[] | cdktf.IResolvable;
   /**
   * Can only be `true` when `auth_required`==`true`. Map a user to a private IP address so it applies the user's policies, instead of the location's policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#surrogate_ip OrgDeviceprofileGateway#surrogate_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#surrogate_ip OrgDeviceprofileGateway#surrogate_ip}
   */
   readonly surrogateIp?: boolean | cdktf.IResolvable;
   /**
   * Can only be `true` when `surrogate_IP`==`true`, enforce surrogate IP for known browsers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#surrogate_ip_enforced_for_known_browsers OrgDeviceprofileGateway#surrogate_ip_enforced_for_known_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#surrogate_ip_enforced_for_known_browsers OrgDeviceprofileGateway#surrogate_ip_enforced_for_known_browsers}
   */
   readonly surrogateIpEnforcedForKnownBrowsers?: boolean | cdktf.IResolvable;
   /**
   * Required if `surrogate_IP_enforced_for_known_browsers`==`true`, must be lower or equal than `idle_time_in_minutes`, refresh Time for re-validation of Surrogacy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#surrogate_refresh_time_in_minutes OrgDeviceprofileGateway#surrogate_refresh_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#surrogate_refresh_time_in_minutes OrgDeviceprofileGateway#surrogate_refresh_time_in_minutes}
   */
   readonly surrogateRefreshTimeInMinutes?: number;
   /**
   * Download bandwidth cap of the link, in Mbps. Disabled if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#up_bandwidth OrgDeviceprofileGateway#up_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#up_bandwidth OrgDeviceprofileGateway#up_bandwidth}
   */
   readonly upBandwidth?: number;
   /**
   * Location uses proxy chaining to forward traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#xff_forward_enabled OrgDeviceprofileGateway#xff_forward_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#xff_forward_enabled OrgDeviceprofileGateway#xff_forward_enabled}
   */
   readonly xffForwardEnabled?: boolean | cdktf.IResolvable;
 }
@@ -17686,17 +17686,17 @@ export interface OrgDeviceprofileGatewayTunnelProviderOptions {
   /**
   * For jse-ipsec, this allows provisioning of adequate resource on JSE. Make sure adequate licenses are added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#jse OrgDeviceprofileGateway#jse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#jse OrgDeviceprofileGateway#jse}
   */
   readonly jse?: OrgDeviceprofileGatewayTunnelProviderOptionsJse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#prisma OrgDeviceprofileGateway#prisma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#prisma OrgDeviceprofileGateway#prisma}
   */
   readonly prisma?: OrgDeviceprofileGatewayTunnelProviderOptionsPrisma;
   /**
   * For zscaler-ipsec and zscaler-gre
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#zscaler OrgDeviceprofileGateway#zscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#zscaler OrgDeviceprofileGateway#zscaler}
   */
   readonly zscaler?: OrgDeviceprofileGatewayTunnelProviderOptionsZscaler;
 }
@@ -17850,7 +17850,7 @@ export interface OrgDeviceprofileGatewayVrfConfig {
   /**
   * Whether to enable VRF (when supported on the device)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#enabled OrgDeviceprofileGateway#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -17944,7 +17944,7 @@ export class OrgDeviceprofileGatewayVrfConfigOutputReference extends cdktf.Compl
 }
 export interface OrgDeviceprofileGatewayVrfInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#networks OrgDeviceprofileGateway#networks}
   */
   readonly networks?: string[];
 }
@@ -18058,7 +18058,7 @@ export class OrgDeviceprofileGatewayVrfInstancesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway mist_org_deviceprofile_gateway}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway mist_org_deviceprofile_gateway}
 */
 export class OrgDeviceprofileGateway extends cdktf.TerraformResource {
 
@@ -18074,7 +18074,7 @@ export class OrgDeviceprofileGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgDeviceprofileGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgDeviceprofileGateway to import
-  * @param importFromId The id of the existing OrgDeviceprofileGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgDeviceprofileGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgDeviceprofileGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18086,7 +18086,7 @@ export class OrgDeviceprofileGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.1/docs/resources/org_deviceprofile_gateway mist_org_deviceprofile_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_deviceprofile_gateway mist_org_deviceprofile_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18097,8 +18097,8 @@ export class OrgDeviceprofileGateway extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_deviceprofile_gateway',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.1',
-        providerVersionConstraint: '0.6.1'
+        providerVersion: '0.6.2',
+        providerVersionConstraint: '0.6.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

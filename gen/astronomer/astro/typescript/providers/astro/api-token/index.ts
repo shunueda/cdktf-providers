@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token
+// https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApiTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * API Token description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#description ApiToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#description ApiToken#description}
   */
   readonly description?: string;
   /**
   * API Token expiry period in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#expiry_period_in_days ApiToken#expiry_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#expiry_period_in_days ApiToken#expiry_period_in_days}
   */
   readonly expiryPeriodInDays?: number;
   /**
   * API Token name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#name ApiToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#name ApiToken#name}
   */
   readonly name: string;
   /**
   * The roles assigned to the API Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#roles ApiToken#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#roles ApiToken#roles}
   */
   readonly roles: ApiTokenRoles[] | cdktf.IResolvable;
   /**
   * API Token type - if changing this value, the API Token will be recreated with the new type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#type ApiToken#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#type ApiToken#type}
   */
   readonly type: string;
 }
@@ -121,19 +121,19 @@ export interface ApiTokenRoles {
   /**
   * The ID of the entity to assign the role to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#entity_id ApiToken#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#entity_id ApiToken#entity_id}
   */
   readonly entityId: string;
   /**
   * The type of entity to assign the role to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#entity_type ApiToken#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#entity_type ApiToken#entity_type}
   */
   readonly entityType: string;
   /**
   * The role to assign to the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#role ApiToken#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#role ApiToken#role}
   */
   readonly role: string;
 }
@@ -377,7 +377,7 @@ export class ApiTokenUpdatedByOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token astro_api_token}
+* Represents a {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token astro_api_token}
 */
 export class ApiToken extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class ApiToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiToken to import
-  * @param importFromId The id of the existing ApiToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class ApiToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.9/docs/resources/api_token astro_api_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/astronomer/astro/1.0.10/docs/resources/api_token astro_api_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class ApiToken extends cdktf.TerraformResource {
       terraformResourceType: 'astro_api_token',
       terraformGeneratorMetadata: {
         providerName: 'astro',
-        providerVersion: '1.0.9',
-        providerVersionConstraint: '1.0.9'
+        providerVersion: '1.0.10',
+        providerVersionConstraint: '1.0.10'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic
+// https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface KafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The custom topic settings to set (e.g., `"cleanup.policy" = "compact"`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#config KafkaTopic#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#config KafkaTopic#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#id KafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#id KafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface KafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of partitions to create in the topic. Defaults to `6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#partitions_count KafkaTopic#partitions_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#partitions_count KafkaTopic#partitions_count}
   */
   readonly partitionsCount?: number;
   /**
   * The REST endpoint of the Kafka cluster (e.g., `https://pkc-00000.us-central1.gcp.confluent.cloud:443`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#rest_endpoint KafkaTopic#rest_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#rest_endpoint KafkaTopic#rest_endpoint}
   */
   readonly restEndpoint?: string;
   /**
   * The name of the topic, for example, `orders-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#topic_name KafkaTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#topic_name KafkaTopic#topic_name}
   */
   readonly topicName: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#credentials KafkaTopic#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#credentials KafkaTopic#credentials}
   */
   readonly credentials?: KafkaTopicCredentials;
   /**
   * kafka_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#kafka_cluster KafkaTopic#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#kafka_cluster KafkaTopic#kafka_cluster}
   */
   readonly kafkaCluster?: KafkaTopicKafkaCluster;
 }
@@ -55,13 +55,13 @@ export interface KafkaTopicCredentials {
   /**
   * The Cluster API Key for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#key KafkaTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#key KafkaTopic#key}
   */
   readonly key: string;
   /**
   * The Cluster API Secret for your Confluent Cloud cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#secret KafkaTopic#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#secret KafkaTopic#secret}
   */
   readonly secret: string;
 }
@@ -170,7 +170,7 @@ export interface KafkaTopicKafkaCluster {
   /**
   * The Kafka cluster ID (e.g., `lkc-12345`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#id KafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#id KafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -254,7 +254,7 @@ export class KafkaTopicKafkaClusterOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic confluent_kafka_topic}
+* Represents a {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic confluent_kafka_topic}
 */
 export class KafkaTopic extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class KafkaTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaTopic to import
-  * @param importFromId The id of the existing KafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class KafkaTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.56.0/docs/resources/kafka_topic confluent_kafka_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/confluentinc/confluent/2.57.0/docs/resources/kafka_topic confluent_kafka_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class KafkaTopic extends cdktf.TerraformResource {
       terraformResourceType: 'confluent_kafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'confluent',
-        providerVersion: '2.56.0',
-        providerVersionConstraint: '2.56.0'
+        providerVersion: '2.57.0',
+        providerVersionConstraint: '2.57.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

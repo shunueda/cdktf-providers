@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management
+// https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubManagementStationSynchronizeMirrorsManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#id OsManagementHubManagementStationSynchronizeMirrorsManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#id OsManagementHubManagementStationSynchronizeMirrorsManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#management_station_id OsManagementHubManagementStationSynchronizeMirrorsManagement#management_station_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#management_station_id OsManagementHubManagementStationSynchronizeMirrorsManagement#management_station_id}
   */
   readonly managementStationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#software_source_list OsManagementHubManagementStationSynchronizeMirrorsManagement#software_source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#software_source_list OsManagementHubManagementStationSynchronizeMirrorsManagement#software_source_list}
   */
   readonly softwareSourceList: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#timeouts OsManagementHubManagementStationSynchronizeMirrorsManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#timeouts OsManagementHubManagementStationSynchronizeMirrorsManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts;
 }
 export interface OsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#create OsManagementHubManagementStationSynchronizeMirrorsManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#create OsManagementHubManagementStationSynchronizeMirrorsManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#delete OsManagementHubManagementStationSynchronizeMirrorsManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#delete OsManagementHubManagementStationSynchronizeMirrorsManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#update OsManagementHubManagementStationSynchronizeMirrorsManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#update OsManagementHubManagementStationSynchronizeMirrorsManagement#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class OsManagementHubManagementStationSynchronizeMirrorsManagementTimeout
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management oci_os_management_hub_management_station_synchronize_mirrors_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management oci_os_management_hub_management_station_synchronize_mirrors_management}
 */
 export class OsManagementHubManagementStationSynchronizeMirrorsManagement extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class OsManagementHubManagementStationSynchronizeMirrorsManagement extend
   * Generates CDKTF code for importing a OsManagementHubManagementStationSynchronizeMirrorsManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubManagementStationSynchronizeMirrorsManagement to import
-  * @param importFromId The id of the existing OsManagementHubManagementStationSynchronizeMirrorsManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubManagementStationSynchronizeMirrorsManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubManagementStationSynchronizeMirrorsManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class OsManagementHubManagementStationSynchronizeMirrorsManagement extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management oci_os_management_hub_management_station_synchronize_mirrors_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.29.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management oci_os_management_hub_management_station_synchronize_mirrors_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class OsManagementHubManagementStationSynchronizeMirrorsManagement extend
       terraformResourceType: 'oci_os_management_hub_management_station_synchronize_mirrors_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.28.0',
-        providerVersionConstraint: '7.28.0'
+        providerVersion: '7.29.0',
+        providerVersionConstraint: '7.29.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

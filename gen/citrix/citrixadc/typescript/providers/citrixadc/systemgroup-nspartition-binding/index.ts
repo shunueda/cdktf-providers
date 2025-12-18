@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface SystemgroupNspartitionBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding#groupname SystemgroupNspartitionBinding#groupname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding#groupname SystemgroupNspartitionBinding#groupname}
   */
   readonly groupname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding#id SystemgroupNspartitionBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding#id SystemgroupNspartitionBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding#partitionname SystemgroupNspartitionBinding#partitionname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding#partitionname SystemgroupNspartitionBinding#partitionname}
   */
   readonly partitionname: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding citrixadc_systemgroup_nspartition_binding}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding citrixadc_systemgroup_nspartition_binding}
 */
 export class SystemgroupNspartitionBinding extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class SystemgroupNspartitionBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemgroupNspartitionBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemgroupNspartitionBinding to import
-  * @param importFromId The id of the existing SystemgroupNspartitionBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemgroupNspartitionBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemgroupNspartitionBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class SystemgroupNspartitionBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/systemgroup_nspartition_binding citrixadc_systemgroup_nspartition_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/systemgroup_nspartition_binding citrixadc_systemgroup_nspartition_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class SystemgroupNspartitionBinding extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_systemgroup_nspartition_binding',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

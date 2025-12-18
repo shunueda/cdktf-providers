@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network
+// https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface LbaasNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Control Lists for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#acls LbaasNetwork#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#acls LbaasNetwork#acls}
   */
   readonly acls?: LbaasNetworkAcls[] | cdktf.IResolvable;
   /**
   * Backend configurations for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#backends LbaasNetwork#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#backends LbaasNetwork#backends}
   */
   readonly backends: LbaasNetworkBackends[] | cdktf.IResolvable;
   /**
   * The description of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#description LbaasNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#description LbaasNetwork#description}
   */
   readonly description?: string;
   /**
   * Health check configurations for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#health_checks LbaasNetwork#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#health_checks LbaasNetwork#health_checks}
   */
   readonly healthChecks?: LbaasNetworkHealthChecks[] | cdktf.IResolvable;
   /**
   * Listener configurations for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#listeners LbaasNetwork#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#listeners LbaasNetwork#listeners}
   */
   readonly listeners: LbaasNetworkListeners[] | cdktf.IResolvable;
   /**
   * The name of the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#name LbaasNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#name LbaasNetwork#name}
   */
   readonly name: string;
   /**
   * The ID of the public IP associated with the load balancer. Required for external load balancers, must be omitted for internal load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#public_ip_id LbaasNetwork#public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#public_ip_id LbaasNetwork#public_ip_id}
   */
   readonly publicIpId?: string;
   /**
   * The ID of the subnet pool for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#subnetpool_id LbaasNetwork#subnetpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#subnetpool_id LbaasNetwork#subnetpool_id}
   */
   readonly subnetpoolId?: string;
   /**
   * TLS certificate configurations for the load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#tls_certificates LbaasNetwork#tls_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#tls_certificates LbaasNetwork#tls_certificates}
   */
   readonly tlsCertificates?: LbaasNetworkTlsCertificates[] | cdktf.IResolvable;
   /**
   * The type of the load balancer. Only 'proxy' type is currently supported by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#type LbaasNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#type LbaasNetwork#type}
   */
   readonly type: string;
   /**
   * The visibility of the load balancer. Valid values: 'internal' (accessible only within VPC), 'external' (accessible from internet).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#visibility LbaasNetwork#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#visibility LbaasNetwork#visibility}
   */
   readonly visibility: string;
   /**
   * The ID of the VPC where the load balancer is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#vpc_id LbaasNetwork#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#vpc_id LbaasNetwork#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -84,31 +84,31 @@ export interface LbaasNetworkAcls {
   /**
   * The action for the ACL rule. Valid values: 'ALLOW', 'DENY', 'DENY_UNSPECIFIED'. Note: values are case-sensitive and must be uppercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#action LbaasNetwork#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#action LbaasNetwork#action}
   */
   readonly action: string;
   /**
   * The ethertype for the ACL rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#ethertype LbaasNetwork#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#ethertype LbaasNetwork#ethertype}
   */
   readonly ethertype: string;
   /**
   * The name of the ACL rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#name LbaasNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#name LbaasNetwork#name}
   */
   readonly name: string;
   /**
   * The protocol for the ACL rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#protocol LbaasNetwork#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#protocol LbaasNetwork#protocol}
   */
   readonly protocol?: string;
   /**
   * The remote IP prefix for the ACL rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#remote_ip_prefix LbaasNetwork#remote_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#remote_ip_prefix LbaasNetwork#remote_ip_prefix}
   */
   readonly remoteIpPrefix?: string;
 }
@@ -333,19 +333,19 @@ export interface LbaasNetworkBackendsTargets {
   /**
   * The IP address of the target. Required when targets_type is 'raw', must be empty when targets_type is 'instance'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#ip_address LbaasNetwork#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#ip_address LbaasNetwork#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The NIC ID of the target. Required when targets_type is 'instance', must be empty when targets_type is 'raw'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#nic_id LbaasNetwork#nic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#nic_id LbaasNetwork#nic_id}
   */
   readonly nicId?: string;
   /**
   * The port of the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#port LbaasNetwork#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#port LbaasNetwork#port}
   */
   readonly port: number;
 }
@@ -518,49 +518,49 @@ export interface LbaasNetworkBackends {
   /**
   * The load balancing algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#balance_algorithm LbaasNetwork#balance_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#balance_algorithm LbaasNetwork#balance_algorithm}
   */
   readonly balanceAlgorithm: string;
   /**
   * Whether to close connections when a host health check fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#close_connections_on_host_health_failure LbaasNetwork#close_connections_on_host_health_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#close_connections_on_host_health_failure LbaasNetwork#close_connections_on_host_health_failure}
   */
   readonly closeConnectionsOnHostHealthFailure?: boolean | cdktf.IResolvable;
   /**
   * The description of the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#description LbaasNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#description LbaasNetwork#description}
   */
   readonly description?: string;
   /**
   * The name of the health check associated with this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#health_check_name LbaasNetwork#health_check_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#health_check_name LbaasNetwork#health_check_name}
   */
   readonly healthCheckName?: string;
   /**
   * The name of the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#name LbaasNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#name LbaasNetwork#name}
   */
   readonly name: string;
   /**
   * The panic threshold percentage for the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#panic_threshold LbaasNetwork#panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#panic_threshold LbaasNetwork#panic_threshold}
   */
   readonly panicThreshold?: number;
   /**
   * The targets for this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#targets LbaasNetwork#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#targets LbaasNetwork#targets}
   */
   readonly targets: LbaasNetworkBackendsTargets[] | cdktf.IResolvable;
   /**
   * The type of targets. Valid values: 'instance' (requires nic_id and port), 'raw' (requires ip_address and port).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#targets_type LbaasNetwork#targets_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#targets_type LbaasNetwork#targets_type}
   */
   readonly targetsType: string;
 }
@@ -874,67 +874,67 @@ export interface LbaasNetworkHealthChecks {
   /**
   * The description of the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#description LbaasNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#description LbaasNetwork#description}
   */
   readonly description?: string;
   /**
   * The HTTP status code considered healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#healthy_status_code LbaasNetwork#healthy_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#healthy_status_code LbaasNetwork#healthy_status_code}
   */
   readonly healthyStatusCode?: number;
   /**
   * The number of consecutive successful health checks required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#healthy_threshold_count LbaasNetwork#healthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#healthy_threshold_count LbaasNetwork#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
   * The initial delay before starting health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#initial_delay_seconds LbaasNetwork#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#initial_delay_seconds LbaasNetwork#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * The interval between health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#interval_seconds LbaasNetwork#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#interval_seconds LbaasNetwork#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The name of the health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#name LbaasNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#name LbaasNetwork#name}
   */
   readonly name: string;
   /**
   * The path for HTTP health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#path LbaasNetwork#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#path LbaasNetwork#path}
   */
   readonly path?: string;
   /**
   * The port for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#port LbaasNetwork#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#port LbaasNetwork#port}
   */
   readonly port: number;
   /**
   * The protocol for health checks. Valid values: 'tcp', 'http'. Note: values are case-sensitive and must be lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#protocol LbaasNetwork#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#protocol LbaasNetwork#protocol}
   */
   readonly protocol: string;
   /**
   * The timeout for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#timeout_seconds LbaasNetwork#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#timeout_seconds LbaasNetwork#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * The number of consecutive failed health checks before marking unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#unhealthy_threshold_count LbaasNetwork#unhealthy_threshold_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#unhealthy_threshold_count LbaasNetwork#unhealthy_threshold_count}
   */
   readonly unhealthyThresholdCount?: number;
 }
@@ -1338,37 +1338,37 @@ export interface LbaasNetworkListeners {
   /**
   * The name of the backend associated with this listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#backend_name LbaasNetwork#backend_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#backend_name LbaasNetwork#backend_name}
   */
   readonly backendName: string;
   /**
   * The description of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#description LbaasNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#description LbaasNetwork#description}
   */
   readonly description?: string;
   /**
   * The name of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#name LbaasNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#name LbaasNetwork#name}
   */
   readonly name: string;
   /**
   * The port for the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#port LbaasNetwork#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#port LbaasNetwork#port}
   */
   readonly port: number;
   /**
   * The protocol for the listener. Valid values: 'tcp' (for network load balancers), 'tls' (for SSL/TLS termination). Note: values are case-sensitive and must be lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#protocol LbaasNetwork#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#protocol LbaasNetwork#protocol}
   */
   readonly protocol: string;
   /**
   * The name of the TLS certificate for HTTPS listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#tls_certificate_name LbaasNetwork#tls_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#tls_certificate_name LbaasNetwork#tls_certificate_name}
   */
   readonly tlsCertificateName?: string;
 }
@@ -1624,25 +1624,25 @@ export interface LbaasNetworkTlsCertificates {
   /**
   * The TLS certificate content. Must be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#certificate LbaasNetwork#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#certificate LbaasNetwork#certificate}
   */
   readonly certificate: string;
   /**
   * The description of the TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#description LbaasNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#description LbaasNetwork#description}
   */
   readonly description?: string;
   /**
   * The name of the TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#name LbaasNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#name LbaasNetwork#name}
   */
   readonly name: string;
   /**
   * The private key for the TLS certificate, must be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#private_key LbaasNetwork#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#private_key LbaasNetwork#private_key}
   */
   readonly privateKey: string;
 }
@@ -1846,7 +1846,7 @@ export class LbaasNetworkTlsCertificatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network mgc_lbaas_network}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network mgc_lbaas_network}
 */
 export class LbaasNetwork extends cdktf.TerraformResource {
 
@@ -1862,7 +1862,7 @@ export class LbaasNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbaasNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbaasNetwork to import
-  * @param importFromId The id of the existing LbaasNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbaasNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbaasNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1874,7 +1874,7 @@ export class LbaasNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.0/docs/resources/lbaas_network mgc_lbaas_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.41.1/docs/resources/lbaas_network mgc_lbaas_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1885,8 +1885,8 @@ export class LbaasNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_lbaas_network',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.41.0',
-        providerVersionConstraint: '0.41.0'
+        providerVersion: '0.41.1',
+        providerVersionConstraint: '0.41.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

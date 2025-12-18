@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction
+// https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,200 +8,200 @@ import * as cdktf from 'cdktf';
 
 export interface AuthenticationoauthactionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#allowedalgorithms Authenticationoauthaction#allowedalgorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#allowedalgorithms Authenticationoauthaction#allowedalgorithms}
   */
   readonly allowedalgorithms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute1 Authenticationoauthaction#attribute1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute1 Authenticationoauthaction#attribute1}
   */
   readonly attribute1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute10 Authenticationoauthaction#attribute10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute10 Authenticationoauthaction#attribute10}
   */
   readonly attribute10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute11 Authenticationoauthaction#attribute11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute11 Authenticationoauthaction#attribute11}
   */
   readonly attribute11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute12 Authenticationoauthaction#attribute12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute12 Authenticationoauthaction#attribute12}
   */
   readonly attribute12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute13 Authenticationoauthaction#attribute13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute13 Authenticationoauthaction#attribute13}
   */
   readonly attribute13?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute14 Authenticationoauthaction#attribute14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute14 Authenticationoauthaction#attribute14}
   */
   readonly attribute14?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute15 Authenticationoauthaction#attribute15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute15 Authenticationoauthaction#attribute15}
   */
   readonly attribute15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute16 Authenticationoauthaction#attribute16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute16 Authenticationoauthaction#attribute16}
   */
   readonly attribute16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute2 Authenticationoauthaction#attribute2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute2 Authenticationoauthaction#attribute2}
   */
   readonly attribute2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute3 Authenticationoauthaction#attribute3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute3 Authenticationoauthaction#attribute3}
   */
   readonly attribute3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute4 Authenticationoauthaction#attribute4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute4 Authenticationoauthaction#attribute4}
   */
   readonly attribute4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute5 Authenticationoauthaction#attribute5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute5 Authenticationoauthaction#attribute5}
   */
   readonly attribute5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute6 Authenticationoauthaction#attribute6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute6 Authenticationoauthaction#attribute6}
   */
   readonly attribute6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute7 Authenticationoauthaction#attribute7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute7 Authenticationoauthaction#attribute7}
   */
   readonly attribute7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute8 Authenticationoauthaction#attribute8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute8 Authenticationoauthaction#attribute8}
   */
   readonly attribute8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attribute9 Authenticationoauthaction#attribute9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attribute9 Authenticationoauthaction#attribute9}
   */
   readonly attribute9?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#attributes Authenticationoauthaction#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#attributes Authenticationoauthaction#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#audience Authenticationoauthaction#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#audience Authenticationoauthaction#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#authentication Authenticationoauthaction#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#authentication Authenticationoauthaction#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#authorizationendpoint Authenticationoauthaction#authorizationendpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#authorizationendpoint Authenticationoauthaction#authorizationendpoint}
   */
   readonly authorizationendpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#certendpoint Authenticationoauthaction#certendpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#certendpoint Authenticationoauthaction#certendpoint}
   */
   readonly certendpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#certfilepath Authenticationoauthaction#certfilepath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#certfilepath Authenticationoauthaction#certfilepath}
   */
   readonly certfilepath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#clientid Authenticationoauthaction#clientid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#clientid Authenticationoauthaction#clientid}
   */
   readonly clientid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#clientsecret Authenticationoauthaction#clientsecret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#clientsecret Authenticationoauthaction#clientsecret}
   */
   readonly clientsecret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#defaultauthenticationgroup Authenticationoauthaction#defaultauthenticationgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#defaultauthenticationgroup Authenticationoauthaction#defaultauthenticationgroup}
   */
   readonly defaultauthenticationgroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#granttype Authenticationoauthaction#granttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#granttype Authenticationoauthaction#granttype}
   */
   readonly granttype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#graphendpoint Authenticationoauthaction#graphendpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#graphendpoint Authenticationoauthaction#graphendpoint}
   */
   readonly graphendpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#id Authenticationoauthaction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#id Authenticationoauthaction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#idtokendecryptendpoint Authenticationoauthaction#idtokendecryptendpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#idtokendecryptendpoint Authenticationoauthaction#idtokendecryptendpoint}
   */
   readonly idtokendecryptendpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#introspecturl Authenticationoauthaction#introspecturl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#introspecturl Authenticationoauthaction#introspecturl}
   */
   readonly introspecturl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#intunedeviceidexpression Authenticationoauthaction#intunedeviceidexpression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#intunedeviceidexpression Authenticationoauthaction#intunedeviceidexpression}
   */
   readonly intunedeviceidexpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#issuer Authenticationoauthaction#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#issuer Authenticationoauthaction#issuer}
   */
   readonly issuer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#metadataurl Authenticationoauthaction#metadataurl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#metadataurl Authenticationoauthaction#metadataurl}
   */
   readonly metadataurl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#name Authenticationoauthaction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#name Authenticationoauthaction#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#oauthmiscflags Authenticationoauthaction#oauthmiscflags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#oauthmiscflags Authenticationoauthaction#oauthmiscflags}
   */
   readonly oauthmiscflags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#oauthtype Authenticationoauthaction#oauthtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#oauthtype Authenticationoauthaction#oauthtype}
   */
   readonly oauthtype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#pkce Authenticationoauthaction#pkce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#pkce Authenticationoauthaction#pkce}
   */
   readonly pkce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#refreshinterval Authenticationoauthaction#refreshinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#refreshinterval Authenticationoauthaction#refreshinterval}
   */
   readonly refreshinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#requestattribute Authenticationoauthaction#requestattribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#requestattribute Authenticationoauthaction#requestattribute}
   */
   readonly requestattribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#resourceuri Authenticationoauthaction#resourceuri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#resourceuri Authenticationoauthaction#resourceuri}
   */
   readonly resourceuri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#skewtime Authenticationoauthaction#skewtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#skewtime Authenticationoauthaction#skewtime}
   */
   readonly skewtime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#tenantid Authenticationoauthaction#tenantid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#tenantid Authenticationoauthaction#tenantid}
   */
   readonly tenantid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#tokenendpoint Authenticationoauthaction#tokenendpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#tokenendpoint Authenticationoauthaction#tokenendpoint}
   */
   readonly tokenendpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#tokenendpointauthmethod Authenticationoauthaction#tokenendpointauthmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#tokenendpointauthmethod Authenticationoauthaction#tokenendpointauthmethod}
   */
   readonly tokenendpointauthmethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#userinfourl Authenticationoauthaction#userinfourl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#userinfourl Authenticationoauthaction#userinfourl}
   */
   readonly userinfourl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#usernamefield Authenticationoauthaction#usernamefield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#usernamefield Authenticationoauthaction#usernamefield}
   */
   readonly usernamefield?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction citrixadc_authenticationoauthaction}
+* Represents a {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction citrixadc_authenticationoauthaction}
 */
 export class Authenticationoauthaction extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class Authenticationoauthaction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Authenticationoauthaction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Authenticationoauthaction to import
-  * @param importFromId The id of the existing Authenticationoauthaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Authenticationoauthaction that should be imported. Refer to the {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Authenticationoauthaction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class Authenticationoauthaction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.0.0/docs/resources/authenticationoauthaction citrixadc_authenticationoauthaction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/citrix/citrixadc/2.1.0/docs/resources/authenticationoauthaction citrixadc_authenticationoauthaction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class Authenticationoauthaction extends cdktf.TerraformResource {
       terraformResourceType: 'citrixadc_authenticationoauthaction',
       terraformGeneratorMetadata: {
         providerName: 'citrixadc',
-        providerVersion: '2.0.0',
-        providerVersionConstraint: '2.0.0'
+        providerVersion: '2.1.0',
+        providerVersionConstraint: '2.1.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

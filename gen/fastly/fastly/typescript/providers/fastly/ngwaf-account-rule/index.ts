@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule
+// https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface NgwafAccountRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of workspace IDs this signal applies to, or the wildcard `*` if it applies to all workspaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#applies_to NgwafAccountRule#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#applies_to NgwafAccountRule#applies_to}
   */
   readonly appliesTo: string[];
   /**
   * The description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#description NgwafAccountRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#description NgwafAccountRule#description}
   */
   readonly description: string;
   /**
   * Whether the rule is currently enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#enabled NgwafAccountRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#enabled NgwafAccountRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Logical operator to apply to group conditions. Accepted values are `any` and `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#group_operator NgwafAccountRule#group_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#group_operator NgwafAccountRule#group_operator}
   */
   readonly groupOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#id NgwafAccountRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#id NgwafAccountRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface NgwafAccountRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logging behavior for matching requests. Accepted values are `sampled` and `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#request_logging NgwafAccountRule#request_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#request_logging NgwafAccountRule#request_logging}
   */
   readonly requestLogging?: string;
   /**
   * The type of the rule. Accepted values are `request` and `signal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#type NgwafAccountRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#type NgwafAccountRule#type}
   */
   readonly type: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#action NgwafAccountRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#action NgwafAccountRule#action}
   */
   readonly action: NgwafAccountRuleAction[] | cdktf.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#condition NgwafAccountRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#condition NgwafAccountRule#condition}
   */
   readonly condition?: NgwafAccountRuleCondition[] | cdktf.IResolvable;
   /**
   * group_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#group_condition NgwafAccountRule#group_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#group_condition NgwafAccountRule#group_condition}
   */
   readonly groupCondition?: NgwafAccountRuleGroupCondition[] | cdktf.IResolvable;
   /**
   * multival_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#multival_condition NgwafAccountRule#multival_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#multival_condition NgwafAccountRule#multival_condition}
   */
   readonly multivalCondition?: NgwafAccountRuleMultivalCondition[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface NgwafAccountRuleAction {
   /**
   * Signal name to exclude (used when `type = exclude_signal`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#signal NgwafAccountRule#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#signal NgwafAccountRule#signal}
   */
   readonly signal?: string;
   /**
   * The action type. One of: `add_signal`, `allow`, `block`, `browser_challenge`, `dynamic_challenge`, `exclude_signal`, `verify_token` or for rate limit rule valid values: `log_request`, `block_signal`, `browser_challenge`, `verify_token`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#type NgwafAccountRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#type NgwafAccountRule#type}
   */
   readonly type: string;
 }
@@ -229,19 +229,19 @@ export interface NgwafAccountRuleCondition {
   /**
   * Field to inspect (e.g., `ip`, `path`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
   */
   readonly field: string;
   /**
   * Operator to apply (e.g., `equals`, `contains`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
   */
   readonly operator: string;
   /**
   * The value to test the field against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#value NgwafAccountRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#value NgwafAccountRule#value}
   */
   readonly value: string;
 }
@@ -408,19 +408,19 @@ export interface NgwafAccountRuleGroupConditionCondition {
   /**
   * Field to inspect (e.g., `ip`, `path`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
   */
   readonly field: string;
   /**
   * Operator to apply (e.g., `equals`, `contains`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
   */
   readonly operator: string;
   /**
   * The value to test the field against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#value NgwafAccountRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#value NgwafAccountRule#value}
   */
   readonly value: string;
 }
@@ -587,13 +587,13 @@ export interface NgwafAccountRuleGroupCondition {
   /**
   * Logical operator for the group. Accepted values are `any` and `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#group_operator NgwafAccountRule#group_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#group_operator NgwafAccountRule#group_operator}
   */
   readonly groupOperator: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#condition NgwafAccountRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#condition NgwafAccountRule#condition}
   */
   readonly condition: NgwafAccountRuleGroupConditionCondition[] | cdktf.IResolvable;
 }
@@ -734,19 +734,19 @@ export interface NgwafAccountRuleMultivalConditionCondition {
   /**
   * Field to inspect (e.g., `name`, `value`, `signal_id`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
   */
   readonly field: string;
   /**
   * Operator to apply (e.g., `equals`, `contains`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
   */
   readonly operator: string;
   /**
   * The value to test the field against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#value NgwafAccountRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#value NgwafAccountRule#value}
   */
   readonly value: string;
 }
@@ -913,25 +913,25 @@ export interface NgwafAccountRuleMultivalCondition {
   /**
   * Enums for multival condition field.. Accepted values are `post_parameter`, `query_parameter`, `request_cookie`, `request_header`, `response_header`, and `signal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#field NgwafAccountRule#field}
   */
   readonly field: string;
   /**
   * Logical operator for the group. Accepted values are `any` and `all`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#group_operator NgwafAccountRule#group_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#group_operator NgwafAccountRule#group_operator}
   */
   readonly groupOperator: string;
   /**
   * Indicates whether the supplied conditions will check for existence or non-existence of matching field values. Accepted values are `exists` and `does_not_exist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#operator NgwafAccountRule#operator}
   */
   readonly operator: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#condition NgwafAccountRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#condition NgwafAccountRule#condition}
   */
   readonly condition: NgwafAccountRuleMultivalConditionCondition[] | cdktf.IResolvable;
 }
@@ -1122,7 +1122,7 @@ export class NgwafAccountRuleMultivalConditionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule fastly_ngwaf_account_rule}
+* Represents a {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule fastly_ngwaf_account_rule}
 */
 export class NgwafAccountRule extends cdktf.TerraformResource {
 
@@ -1138,7 +1138,7 @@ export class NgwafAccountRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NgwafAccountRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NgwafAccountRule to import
-  * @param importFromId The id of the existing NgwafAccountRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NgwafAccountRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NgwafAccountRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1150,7 +1150,7 @@ export class NgwafAccountRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.5.0/docs/resources/ngwaf_account_rule fastly_ngwaf_account_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fastly/fastly/8.6.0/docs/resources/ngwaf_account_rule fastly_ngwaf_account_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1161,8 +1161,8 @@ export class NgwafAccountRule extends cdktf.TerraformResource {
       terraformResourceType: 'fastly_ngwaf_account_rule',
       terraformGeneratorMetadata: {
         providerName: 'fastly',
-        providerVersion: '8.5.0',
-        providerVersionConstraint: '8.5.0'
+        providerVersion: '8.6.0',
+        providerVersionConstraint: '8.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/service_accounts
+// https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/service_accounts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -103,7 +103,7 @@ export interface DataTemporalcloudServiceAccountsServiceAccounts {
   /**
   * The set of namespace permissions for this service account, including each namespace and its role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/service_accounts#namespace_accesses DataTemporalcloudServiceAccounts#namespace_accesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/service_accounts#namespace_accesses DataTemporalcloudServiceAccounts#namespace_accesses}
   */
   readonly namespaceAccesses?: DataTemporalcloudServiceAccountsServiceAccountsNamespaceAccesses[] | cdktf.IResolvable;
 }
@@ -244,7 +244,7 @@ export class DataTemporalcloudServiceAccountsServiceAccountsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/service_accounts temporalcloud_service_accounts}
+* Represents a {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/service_accounts temporalcloud_service_accounts}
 */
 export class DataTemporalcloudServiceAccounts extends cdktf.TerraformDataSource {
 
@@ -260,7 +260,7 @@ export class DataTemporalcloudServiceAccounts extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTemporalcloudServiceAccounts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalcloudServiceAccounts to import
-  * @param importFromId The id of the existing DataTemporalcloudServiceAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/service_accounts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalcloudServiceAccounts that should be imported. Refer to the {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/service_accounts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalcloudServiceAccounts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -272,7 +272,7 @@ export class DataTemporalcloudServiceAccounts extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.1/docs/data-sources/service_accounts temporalcloud_service_accounts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/temporalio/temporalcloud/1.1.2/docs/data-sources/service_accounts temporalcloud_service_accounts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,8 +283,8 @@ export class DataTemporalcloudServiceAccounts extends cdktf.TerraformDataSource 
       terraformResourceType: 'temporalcloud_service_accounts',
       terraformGeneratorMetadata: {
         providerName: 'temporalcloud',
-        providerVersion: '1.1.1',
-        providerVersionConstraint: '1.1.1'
+        providerVersion: '1.1.2',
+        providerVersionConstraint: '1.1.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

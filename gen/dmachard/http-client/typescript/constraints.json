@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "http-client": "0.4.0"
+    "http-client": "0.6.0"
   }
 }
