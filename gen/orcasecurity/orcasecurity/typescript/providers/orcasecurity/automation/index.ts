@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,169 +10,169 @@ export interface AutomationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Details regarding dismissed alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#alert_dismissal_details Automation#alert_dismissal_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#alert_dismissal_details Automation#alert_dismissal_details}
   */
   readonly alertDismissalDetails?: AutomationAlertDismissalDetails;
   /**
   * Details regarding the new score for the selected alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#alert_score_decrease_details Automation#alert_score_decrease_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#alert_score_decrease_details Automation#alert_score_decrease_details}
   */
   readonly alertScoreDecreaseDetails?: AutomationAlertScoreDecreaseDetails;
   /**
   * Details regarding the new score for the selected alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#alert_score_increase_details Automation#alert_score_increase_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#alert_score_increase_details Automation#alert_score_increase_details}
   */
   readonly alertScoreIncreaseDetails?: AutomationAlertScoreIncreaseDetails;
   /**
   * Details regarding the new score for the selected alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#alert_score_specify_details Automation#alert_score_specify_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#alert_score_specify_details Automation#alert_score_specify_details}
   */
   readonly alertScoreSpecifyDetails?: AutomationAlertScoreSpecifyDetails;
   /**
   * AWS Security Hub template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#aws_security_hub_template Automation#aws_security_hub_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#aws_security_hub_template Automation#aws_security_hub_template}
   */
   readonly awsSecurityHubTemplate?: AutomationAwsSecurityHubTemplate;
   /**
   * AWS Security Lake template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#aws_security_lake_template Automation#aws_security_lake_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#aws_security_lake_template Automation#aws_security_lake_template}
   */
   readonly awsSecurityLakeTemplate?: AutomationAwsSecurityLakeTemplate;
   /**
   * AWS SQS template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#aws_sqs_template Automation#aws_sqs_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#aws_sqs_template Automation#aws_sqs_template}
   */
   readonly awsSqsTemplate?: AutomationAwsSqsTemplate;
   /**
   * Azure DevOps template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#azure_devops_template Automation#azure_devops_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#azure_devops_template Automation#azure_devops_template}
   */
   readonly azureDevopsTemplate?: AutomationAzureDevopsTemplate;
   /**
   * Azure Sentinel template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#azure_sentinel_template Automation#azure_sentinel_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#azure_sentinel_template Automation#azure_sentinel_template}
   */
   readonly azureSentinelTemplate?: AutomationAzureSentinelTemplate;
   /**
   * Business units that this automation applies to, specified by their Orca ID. The business unit list cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#business_units Automation#business_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#business_units Automation#business_units}
   */
   readonly businessUnits?: string[];
   /**
   * Coralogix template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#coralogix_template Automation#coralogix_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#coralogix_template Automation#coralogix_template}
   */
   readonly coralogixTemplate?: AutomationCoralogixTemplate;
   /**
   * Automation description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#description Automation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#description Automation#description}
   */
   readonly description?: string;
   /**
   * Email settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#email_template Automation#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#email_template Automation#email_template}
   */
   readonly emailTemplate?: AutomationEmailTemplate;
   /**
   * Automation status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#enabled Automation#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#enabled Automation#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * GCP Pub/Sub template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#gcp_pub_sub_template Automation#gcp_pub_sub_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#gcp_pub_sub_template Automation#gcp_pub_sub_template}
   */
   readonly gcpPubSubTemplate?: AutomationGcpPubSubTemplate;
   /**
   * Jira Cloud integration template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#jira_cloud_template Automation#jira_cloud_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#jira_cloud_template Automation#jira_cloud_template}
   */
   readonly jiraCloudTemplate?: AutomationJiraCloudTemplate;
   /**
   * Jira Server integration template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#jira_server_template Automation#jira_server_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#jira_server_template Automation#jira_server_template}
   */
   readonly jiraServerTemplate?: AutomationJiraServerTemplate;
   /**
   * Automation name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#name Automation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#name Automation#name}
   */
   readonly name: string;
   /**
   * Opsgenie template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#opsgenie_template Automation#opsgenie_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#opsgenie_template Automation#opsgenie_template}
   */
   readonly opsgenieTemplate?: AutomationOpsgenieTemplate;
   /**
   * Pager Duty template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#pager_duty_template Automation#pager_duty_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#pager_duty_template Automation#pager_duty_template}
   */
   readonly pagerDutyTemplate?: AutomationPagerDutyTemplate;
   /**
   * The query that selects the alerts this automation applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#query Automation#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#query Automation#query}
   */
   readonly query: AutomationQuery;
   /**
   * Slack template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#slack_template Automation#slack_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#slack_template Automation#slack_template}
   */
   readonly slackTemplate?: AutomationSlackTemplate;
   /**
   * Snowflake template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#snowflake_template Automation#snowflake_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#snowflake_template Automation#snowflake_template}
   */
   readonly snowflakeTemplate?: AutomationSnowflakeTemplate;
   /**
   * Splunk template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#splunk_template Automation#splunk_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#splunk_template Automation#splunk_template}
   */
   readonly splunkTemplate?: AutomationSplunkTemplate;
   /**
   * Sumo Logic template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#sumo_logic_template Automation#sumo_logic_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#sumo_logic_template Automation#sumo_logic_template}
   */
   readonly sumoLogicTemplate?: AutomationSumoLogicTemplate;
   /**
   * Tines template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#tines_template Automation#tines_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#tines_template Automation#tines_template}
   */
   readonly tinesTemplate?: AutomationTinesTemplate;
   /**
   * Torq template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#torq_template Automation#torq_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#torq_template Automation#torq_template}
   */
   readonly torqTemplate?: AutomationTorqTemplate;
   /**
   * Webhook template to use for the automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#webhook_template Automation#webhook_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#webhook_template Automation#webhook_template}
   */
   readonly webhookTemplate?: AutomationWebhookTemplate;
 }
@@ -180,13 +180,13 @@ export interface AutomationAlertDismissalDetails {
   /**
   * More detailed reasoning as to why these alerts are being dismissed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#justification Automation#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#justification Automation#justification}
   */
   readonly justification?: string;
   /**
   * The reason these alerts are being dismissed. Valid values are `Acceptable Risk`, `False Positives`, `Non-Actionable`, `Non-Production`, and `Other`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#reason Automation#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#reason Automation#reason}
   */
   readonly reason?: string;
 }
@@ -311,13 +311,13 @@ export interface AutomationAlertScoreDecreaseDetails {
   /**
   * More detailed reasoning as to why these alerts are having their score changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#justification Automation#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#justification Automation#justification}
   */
   readonly justification?: string;
   /**
   * The reason these alerts are being dismissed. Valid values are `Acceptable risk`, `Non-Actionable`, `Non-Production`, `Organization preferences`, and `Other`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#reason Automation#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#reason Automation#reason}
   */
   readonly reason?: string;
 }
@@ -442,13 +442,13 @@ export interface AutomationAlertScoreIncreaseDetails {
   /**
   * More detailed reasoning as to why these alerts are having their score changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#justification Automation#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#justification Automation#justification}
   */
   readonly justification?: string;
   /**
   * The reason these alerts are being dismissed. Valid values are `Acceptable risk`, `Non-Actionable`, `Non-Production`, `Organization preferences`, and `Other`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#reason Automation#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#reason Automation#reason}
   */
   readonly reason?: string;
 }
@@ -573,19 +573,19 @@ export interface AutomationAlertScoreSpecifyDetails {
   /**
   * More detailed reasoning as to why these alerts are having their score changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#justification Automation#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#justification Automation#justification}
   */
   readonly justification?: string;
   /**
   * New score to be assigned to the selected alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#new_score Automation#new_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#new_score Automation#new_score}
   */
   readonly newScore: number;
   /**
   * The reason these alerts are being dismissed. Valid values are `Acceptable risk`, `Non-Actionable`, `Non-Production`, `Organization preferences`, and `Other`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#reason Automation#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#reason Automation#reason}
   */
   readonly reason?: string;
 }
@@ -736,7 +736,7 @@ export interface AutomationAwsSecurityHubTemplate {
   /**
   * AWS Security Hub template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -829,7 +829,7 @@ export interface AutomationAwsSecurityLakeTemplate {
   /**
   * AWS Security Lake template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -922,7 +922,7 @@ export interface AutomationAwsSqsTemplate {
   /**
   * AWS SQS template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1015,13 +1015,13 @@ export interface AutomationAzureDevopsTemplate {
   /**
   * Automatically nest under parent issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#parent_issue Automation#parent_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#parent_issue Automation#parent_issue}
   */
   readonly parentIssue?: string;
   /**
   * An ADO work item template to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1202,7 +1202,7 @@ export interface AutomationCoralogixTemplate {
   /**
   * Coralogix template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1295,13 +1295,13 @@ export interface AutomationEmailTemplate {
   /**
   * Email addresses to send the alerts to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#email Automation#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#email Automation#email}
   */
   readonly email: string[];
   /**
   * `true` means multiple alerts will be aggregated into 1 email. `false` means the email recipients will receive 1 email per alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#multi_alerts Automation#multi_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#multi_alerts Automation#multi_alerts}
   */
   readonly multiAlerts: boolean | cdktf.IResolvable;
 }
@@ -1420,7 +1420,7 @@ export interface AutomationGcpPubSubTemplate {
   /**
   * GCP Pub/Sub template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1513,13 +1513,13 @@ export interface AutomationJiraCloudTemplate {
   /**
   * Automatically nest under this parent issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#parent_issue Automation#parent_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#parent_issue Automation#parent_issue}
   */
   readonly parentIssue?: string;
   /**
   * Name of the Jira Cloud integration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1641,13 +1641,13 @@ export interface AutomationJiraServerTemplate {
   /**
   * Automatically nest under this parent issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#parent_issue Automation#parent_issue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#parent_issue Automation#parent_issue}
   */
   readonly parentIssue?: string;
   /**
   * Name of the Jira Server integration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1769,7 +1769,7 @@ export interface AutomationOpsgenieTemplate {
   /**
   * Opsgenie template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1862,7 +1862,7 @@ export interface AutomationPagerDutyTemplate {
   /**
   * Pager Duty template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -1955,7 +1955,7 @@ export interface AutomationQueryFilter {
   /**
   * When `excludes` is used, the automation applies to the negation of the specified field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#excludes Automation#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#excludes Automation#excludes}
   */
   readonly excludes?: string[];
   /**
@@ -1967,13 +1967,13 @@ export interface AutomationQueryFilter {
   *   - `state.status` - alert statuses
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#field Automation#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#field Automation#field}
   */
   readonly field: string;
   /**
   * When `includes` is used, the automation applies to the specified field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#includes Automation#includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#includes Automation#includes}
   */
   readonly includes?: string[];
 }
@@ -2146,7 +2146,7 @@ export interface AutomationQuery {
   /**
   * List of filters upon which alerts are selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#filter Automation#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#filter Automation#filter}
   */
   readonly filter: AutomationQueryFilter[] | cdktf.IResolvable;
 }
@@ -2239,13 +2239,13 @@ export interface AutomationSlackTemplate {
   /**
   * Slack channel ID to post the alert to. Example: `C04CLKEF7PU`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#channel Automation#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#channel Automation#channel}
   */
   readonly channel: string;
   /**
   * Slack workspace to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#workspace Automation#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#workspace Automation#workspace}
   */
   readonly workspace: string;
 }
@@ -2423,7 +2423,7 @@ export interface AutomationSplunkTemplate {
   /**
   * Splunk template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -2575,7 +2575,7 @@ export interface AutomationTinesTemplate {
   /**
   * Tines template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -2668,7 +2668,7 @@ export interface AutomationTorqTemplate {
   /**
   * Torq template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -2761,7 +2761,7 @@ export interface AutomationWebhookTemplate {
   /**
   * Webhook template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#template Automation#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#template Automation#template}
   */
   readonly template: string;
 }
@@ -2852,7 +2852,7 @@ export class AutomationWebhookTemplateOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation orcasecurity_automation}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation orcasecurity_automation}
 */
 export class Automation extends cdktf.TerraformResource {
 
@@ -2868,7 +2868,7 @@ export class Automation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Automation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Automation to import
-  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Automation that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Automation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2880,7 +2880,7 @@ export class Automation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/automation orcasecurity_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/automation orcasecurity_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2891,8 +2891,8 @@ export class Automation extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_automation',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

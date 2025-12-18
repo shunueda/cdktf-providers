@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TrustedCloudAccountConfig extends cdktf.TerraformMetaArguments 
   /**
   * Human-friendly name for the trusted cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account#account_name TrustedCloudAccount#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account#account_name TrustedCloudAccount#account_name}
   */
   readonly accountName: string;
   /**
   * Cloud Provider. Valid values are `alicloud`, `aws`, `azure`, `gcp`, and `oci`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account#cloud_provider TrustedCloudAccount#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account#cloud_provider TrustedCloudAccount#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * Account ID for the cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account#cloud_provider_id TrustedCloudAccount#cloud_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account#cloud_provider_id TrustedCloudAccount#cloud_provider_id}
   */
   readonly cloudProviderId: string;
   /**
   * Description of the trusted cloud account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account#description TrustedCloudAccount#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account#description TrustedCloudAccount#description}
   */
   readonly description: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account orcasecurity_trusted_cloud_account}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account orcasecurity_trusted_cloud_account}
 */
 export class TrustedCloudAccount extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TrustedCloudAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrustedCloudAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrustedCloudAccount to import
-  * @param importFromId The id of the existing TrustedCloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrustedCloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrustedCloudAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TrustedCloudAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/trusted_cloud_account orcasecurity_trusted_cloud_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/trusted_cloud_account orcasecurity_trusted_cloud_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TrustedCloudAccount extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_trusted_cloud_account',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

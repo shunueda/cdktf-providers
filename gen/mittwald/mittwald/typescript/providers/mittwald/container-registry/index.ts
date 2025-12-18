@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ContainerRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Credentials for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#credentials ContainerRegistry#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#credentials ContainerRegistry#credentials}
   */
   readonly credentials?: ContainerRegistryCredentials;
   /**
   * Description for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#description ContainerRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#description ContainerRegistry#description}
   */
   readonly description: string;
   /**
   * The ID of the project the container_registry belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#project_id ContainerRegistry#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#project_id ContainerRegistry#project_id}
   */
   readonly projectId: string;
   /**
   * Hostname for the registry, for example `gitlab.example.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#uri ContainerRegistry#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#uri ContainerRegistry#uri}
   */
   readonly uri: string;
 }
@@ -36,19 +36,19 @@ export interface ContainerRegistryCredentials {
   /**
   * Password or access token for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#password_wo ContainerRegistry#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#password_wo ContainerRegistry#password_wo}
   */
   readonly passwordWo: string;
   /**
   * Version of the password for the registry. You will need to change this value whenever the password is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#password_wo_version ContainerRegistry#password_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#password_wo_version ContainerRegistry#password_wo_version}
   */
   readonly passwordWoVersion: number;
   /**
   * Username for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#username ContainerRegistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#username ContainerRegistry#username}
   */
   readonly username: string;
 }
@@ -191,7 +191,7 @@ export class ContainerRegistryCredentialsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry mittwald_container_registry}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry mittwald_container_registry}
 */
 export class ContainerRegistry extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class ContainerRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerRegistry to import
-  * @param importFromId The id of the existing ContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class ContainerRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_registry mittwald_container_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/container_registry mittwald_container_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class ContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

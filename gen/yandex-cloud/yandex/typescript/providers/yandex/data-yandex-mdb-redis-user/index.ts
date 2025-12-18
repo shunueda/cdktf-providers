@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexMdbRedisUserConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of the cluster to which user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#cluster_id DataYandexMdbRedisUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#cluster_id DataYandexMdbRedisUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#name DataYandexMdbRedisUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#name DataYandexMdbRedisUser#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#timeouts DataYandexMdbRedisUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#timeouts DataYandexMdbRedisUser#timeouts}
   */
   readonly timeouts?: DataYandexMdbRedisUserTimeouts;
 }
@@ -102,19 +102,19 @@ export interface DataYandexMdbRedisUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#create DataYandexMdbRedisUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#create DataYandexMdbRedisUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#delete DataYandexMdbRedisUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#delete DataYandexMdbRedisUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#update DataYandexMdbRedisUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#update DataYandexMdbRedisUser#update}
   */
   readonly update?: string;
 }
@@ -266,7 +266,7 @@ export class DataYandexMdbRedisUserTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user yandex_mdb_redis_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user yandex_mdb_redis_user}
 */
 export class DataYandexMdbRedisUser extends cdktf.TerraformDataSource {
 
@@ -282,7 +282,7 @@ export class DataYandexMdbRedisUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbRedisUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbRedisUser to import
-  * @param importFromId The id of the existing DataYandexMdbRedisUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbRedisUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbRedisUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class DataYandexMdbRedisUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_user yandex_mdb_redis_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_user yandex_mdb_redis_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class DataYandexMdbRedisUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_redis_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

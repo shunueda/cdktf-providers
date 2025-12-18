@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface K8SClusterOnboardingCredentialConfig extends cdktf.TerraformMet
   /**
   * Description of the onboarding credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential#description K8SClusterOnboardingCredential#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential#description K8SClusterOnboardingCredential#description}
   */
   readonly description?: string;
   /**
   * Illumio Region where the k8s cluster can be onboarded using this credential. An Illumio Region is a designated cloud region where the CloudSecure k8s operators in onboarded k8s clusters connect after onboarding. Choose the Illumio Region nearest to each cluster to maximize performance and security. Must be one of: `aws-ap-southeast-2`, `aws-eu-west-2`, `aws-me-central-1`, `aws-us-west-1`, `aws-us-west-2`, `azure-australia-east`, `azure-germany-west-central`, `azure-japan-east`, `azure-north-europe`, `azure-uae-north`, `azure-us-east`, `azure-us-west-2`, `azure-us-west-3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential#illumio_region K8SClusterOnboardingCredential#illumio_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential#illumio_region K8SClusterOnboardingCredential#illumio_region}
   */
   readonly illumioRegion: string;
   /**
   * Display name for the onboarding credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential#name K8SClusterOnboardingCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential#name K8SClusterOnboardingCredential#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential illumio-cloudsecure_k8s_cluster_onboarding_credential}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential illumio-cloudsecure_k8s_cluster_onboarding_credential}
 */
 export class K8SClusterOnboardingCredential extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class K8SClusterOnboardingCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SClusterOnboardingCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SClusterOnboardingCredential to import
-  * @param importFromId The id of the existing K8SClusterOnboardingCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SClusterOnboardingCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SClusterOnboardingCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class K8SClusterOnboardingCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/k8s_cluster_onboarding_credential illumio-cloudsecure_k8s_cluster_onboarding_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/k8s_cluster_onboarding_credential illumio-cloudsecure_k8s_cluster_onboarding_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class K8SClusterOnboardingCredential extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_k8s_cluster_onboarding_credential',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

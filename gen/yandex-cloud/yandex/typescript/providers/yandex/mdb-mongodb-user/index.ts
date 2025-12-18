@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MdbMongodbUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster to which user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#cluster_id MdbMongodbUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#cluster_id MdbMongodbUser#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#name MdbMongodbUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#name MdbMongodbUser#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#password MdbMongodbUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#password MdbMongodbUser#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#timeouts MdbMongodbUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#timeouts MdbMongodbUser#timeouts}
   */
   readonly timeouts?: MdbMongodbUserTimeouts;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#permission MdbMongodbUser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#permission MdbMongodbUser#permission}
   */
   readonly permission?: MdbMongodbUserPermission[] | cdktf.IResolvable;
 }
@@ -40,19 +40,19 @@ export interface MdbMongodbUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#create MdbMongodbUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#create MdbMongodbUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#delete MdbMongodbUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#delete MdbMongodbUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#update MdbMongodbUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#update MdbMongodbUser#update}
   */
   readonly update?: string;
 }
@@ -206,13 +206,13 @@ export interface MdbMongodbUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#database_name MdbMongodbUser#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#database_name MdbMongodbUser#database_name}
   */
   readonly databaseName: string;
   /**
   * The roles of the user in this database. For more information see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts/users-and-roles).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#roles MdbMongodbUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#roles MdbMongodbUser#roles}
   */
   readonly roles?: string[];
 }
@@ -354,7 +354,7 @@ export class MdbMongodbUserPermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user yandex_mdb_mongodb_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user yandex_mdb_mongodb_user}
 */
 export class MdbMongodbUser extends cdktf.TerraformResource {
 
@@ -370,7 +370,7 @@ export class MdbMongodbUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMongodbUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMongodbUser to import
-  * @param importFromId The id of the existing MdbMongodbUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMongodbUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMongodbUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -382,7 +382,7 @@ export class MdbMongodbUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_user yandex_mdb_mongodb_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_user yandex_mdb_mongodb_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -393,8 +393,8 @@ export class MdbMongodbUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mongodb_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

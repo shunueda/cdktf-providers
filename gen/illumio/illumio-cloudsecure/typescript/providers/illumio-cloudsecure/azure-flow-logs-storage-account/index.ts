@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_flow_logs_storage_account
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/azure_flow_logs_storage_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AzureFlowLogsStorageAccountConfig extends cdktf.TerraformMetaAr
   /**
   * Resource ID of the Azure Storage Account containing flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_flow_logs_storage_account#storage_account_resource_id AzureFlowLogsStorageAccount#storage_account_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/azure_flow_logs_storage_account#storage_account_resource_id AzureFlowLogsStorageAccount#storage_account_resource_id}
   */
   readonly storageAccountResourceId: string;
   /**
   * Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_flow_logs_storage_account#subscription_id AzureFlowLogsStorageAccount#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/azure_flow_logs_storage_account#subscription_id AzureFlowLogsStorageAccount#subscription_id}
   */
   readonly subscriptionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_flow_logs_storage_account illumio-cloudsecure_azure_flow_logs_storage_account}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/azure_flow_logs_storage_account illumio-cloudsecure_azure_flow_logs_storage_account}
 */
 export class AzureFlowLogsStorageAccount extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AzureFlowLogsStorageAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureFlowLogsStorageAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureFlowLogsStorageAccount to import
-  * @param importFromId The id of the existing AzureFlowLogsStorageAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_flow_logs_storage_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureFlowLogsStorageAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/azure_flow_logs_storage_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureFlowLogsStorageAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AzureFlowLogsStorageAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/azure_flow_logs_storage_account illumio-cloudsecure_azure_flow_logs_storage_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/azure_flow_logs_storage_account illumio-cloudsecure_azure_flow_logs_storage_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AzureFlowLogsStorageAccount extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_azure_flow_logs_storage_account',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

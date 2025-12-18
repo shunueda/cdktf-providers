@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule
+// https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface ScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#holidays_public_config Schedule#holidays_public_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#holidays_public_config Schedule#holidays_public_config}
   */
   readonly holidaysPublicConfig?: ScheduleHolidaysPublicConfig;
   /**
   * Human readable name synced from external provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#name Schedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#name Schedule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#rotations Schedule#rotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#rotations Schedule#rotations}
   */
   readonly rotations: ScheduleRotations[] | cdktf.IResolvable;
   /**
   * IDs of teams that own this schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#team_ids Schedule#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#team_ids Schedule#team_ids}
   */
   readonly teamIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#timezone Schedule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#timezone Schedule#timezone}
   */
   readonly timezone: string;
 }
@@ -36,7 +36,7 @@ export interface ScheduleHolidaysPublicConfig {
   /**
   * ISO 3166-1 alpha-2 country codes for the countries that this schedule is configured to view holidays for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#country_codes Schedule#country_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#country_codes Schedule#country_codes}
   */
   readonly countryCodes: string[];
 }
@@ -127,13 +127,13 @@ export class ScheduleHolidaysPublicConfigOutputReference extends cdktf.ComplexOb
 }
 export interface ScheduleRotationsVersionsHandovers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#interval Schedule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#interval Schedule#interval}
   */
   readonly interval: number;
   /**
   * How often a handover occurs. Possible values are: `hourly`, `daily`, `weekly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#interval_type Schedule#interval_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#interval_type Schedule#interval_type}
   */
   readonly intervalType: string;
 }
@@ -272,14 +272,14 @@ export class ScheduleRotationsVersionsHandoversList extends cdktf.ComplexList {
 }
 export interface ScheduleRotationsVersionsLayers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#id Schedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#id Schedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#name Schedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#name Schedule#name}
   */
   readonly name: string;
 }
@@ -418,15 +418,15 @@ export class ScheduleRotationsVersionsLayersList extends cdktf.ComplexList {
 }
 export interface ScheduleRotationsVersionsWorkingIntervals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#end_time Schedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#end_time Schedule#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#start_time Schedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#start_time Schedule#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#weekday Schedule#weekday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#weekday Schedule#weekday}
   */
   readonly weekday: string;
 }
@@ -593,37 +593,37 @@ export interface ScheduleRotationsVersions {
   /**
   * When this rotation config will be effective from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#effective_from Schedule#effective_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#effective_from Schedule#effective_from}
   */
   readonly effectiveFrom?: string;
   /**
   * Defines the next moment we'll trigger a handover
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#handover_start_at Schedule#handover_start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#handover_start_at Schedule#handover_start_at}
   */
   readonly handoverStartAt: string;
   /**
   * Defines the handover intervals for this rota, in order they should apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#handovers Schedule#handovers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#handovers Schedule#handovers}
   */
   readonly handovers: ScheduleRotationsVersionsHandovers[] | cdktf.IResolvable;
   /**
   * Controls how many people are on-call concurrently
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#layers Schedule#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#layers Schedule#layers}
   */
   readonly layers: ScheduleRotationsVersionsLayers[] | cdktf.IResolvable;
   /**
   * The incident.io ID of a user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#users Schedule#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#users Schedule#users}
   */
   readonly users: string[];
   /**
   * Optional restrictions that define when to schedule people for this rota
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#working_intervals Schedule#working_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#working_intervals Schedule#working_intervals}
   */
   readonly workingIntervals?: ScheduleRotationsVersionsWorkingIntervals[] | cdktf.IResolvable;
 }
@@ -874,7 +874,7 @@ export interface ScheduleRotations {
   /**
   * Unique internal ID of the rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#id Schedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#id Schedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -883,11 +883,11 @@ export interface ScheduleRotations {
   /**
   * Human readable name synced from external provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#name Schedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#name Schedule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#versions Schedule#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#versions Schedule#versions}
   */
   readonly versions: ScheduleRotationsVersions[] | cdktf.IResolvable;
 }
@@ -1052,7 +1052,7 @@ export class ScheduleRotationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule incident_schedule}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule incident_schedule}
 */
 export class Schedule extends cdktf.TerraformResource {
 
@@ -1068,7 +1068,7 @@ export class Schedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Schedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Schedule to import
-  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Schedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1080,7 +1080,7 @@ export class Schedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/schedule incident_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/schedule incident_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1091,8 +1091,8 @@ export class Schedule extends cdktf.TerraformResource {
       terraformResourceType: 'incident_schedule',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.22.0',
-        providerVersionConstraint: '5.22.0'
+        providerVersion: '5.23.0',
+        providerVersionConstraint: '5.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

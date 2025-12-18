@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface VpcSecurityGroupRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#description VpcSecurityGroupRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#description VpcSecurityGroupRule#description}
   */
   readonly description?: string;
   /**
   * Direction of the Security group rule. Can be `ingress` (inbound network traffic to the VPC network) or `egress` (outbound network traffic from the VPC network).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#direction VpcSecurityGroupRule#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#direction VpcSecurityGroupRule#direction}
   */
   readonly direction: string;
   /**
   * Minimum port number. Applicable for TCP and UDP protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#from_port VpcSecurityGroupRule#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#from_port VpcSecurityGroupRule#from_port}
   */
   readonly fromPort?: number;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#labels VpcSecurityGroupRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#labels VpcSecurityGroupRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Port number (if applied to a single port).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#port VpcSecurityGroupRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#port VpcSecurityGroupRule#port}
   */
   readonly port?: number;
   /**
   * Special-purpose targets. The `self_security_group` target refers to this particular security group. The `loadbalancer_healthchecks` target represents [NLB health check nodes](https://yandex.cloud/docs/network-load-balancer/concepts/health-check).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#predefined_target VpcSecurityGroupRule#predefined_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#predefined_target VpcSecurityGroupRule#predefined_target}
   */
   readonly predefinedTarget?: string;
   /**
   * Specific network protocol. Can be one of `ANY`, `TCP`, `UDP`, `ICMP`, `IPV6_ICMP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#protocol VpcSecurityGroupRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#protocol VpcSecurityGroupRule#protocol}
   */
   readonly protocol?: string;
   /**
   * The id of target security group which rule belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#security_group_binding VpcSecurityGroupRule#security_group_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#security_group_binding VpcSecurityGroupRule#security_group_binding}
   */
   readonly securityGroupBinding: string;
   /**
   * Target security group ID for this Security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#security_group_id VpcSecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#security_group_id VpcSecurityGroupRule#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * Maximum port number. Applicable for TCP and UDP protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#to_port VpcSecurityGroupRule#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#to_port VpcSecurityGroupRule#to_port}
   */
   readonly toPort?: number;
   /**
   * The list of IPv4 CIDR prefixes for this Security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#v4_cidr_blocks VpcSecurityGroupRule#v4_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#v4_cidr_blocks VpcSecurityGroupRule#v4_cidr_blocks}
   */
   readonly v4CidrBlocks?: string[];
   /**
   * The list of IPv6 CIDR prefixes for this Security group rule. Not supported yet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#v6_cidr_blocks VpcSecurityGroupRule#v6_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#v6_cidr_blocks VpcSecurityGroupRule#v6_cidr_blocks}
   */
   readonly v6CidrBlocks?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#timeouts VpcSecurityGroupRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#timeouts VpcSecurityGroupRule#timeouts}
   */
   readonly timeouts?: VpcSecurityGroupRuleTimeouts;
 }
@@ -90,19 +90,19 @@ export interface VpcSecurityGroupRuleTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#create VpcSecurityGroupRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#create VpcSecurityGroupRule#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#delete VpcSecurityGroupRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#delete VpcSecurityGroupRule#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#update VpcSecurityGroupRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#update VpcSecurityGroupRule#update}
   */
   readonly update?: string;
 }
@@ -254,7 +254,7 @@ export class VpcSecurityGroupRuleTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule yandex_vpc_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule yandex_vpc_security_group_rule}
 */
 export class VpcSecurityGroupRule extends cdktf.TerraformResource {
 
@@ -270,7 +270,7 @@ export class VpcSecurityGroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcSecurityGroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcSecurityGroupRule to import
-  * @param importFromId The id of the existing VpcSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcSecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcSecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class VpcSecurityGroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_security_group_rule yandex_vpc_security_group_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_security_group_rule yandex_vpc_security_group_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class VpcSecurityGroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_vpc_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

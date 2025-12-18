@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LockboxSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#deletion_protection LockboxSecret#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#deletion_protection LockboxSecret#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#description LockboxSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#description LockboxSecret#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#folder_id LockboxSecret#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#folder_id LockboxSecret#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#id LockboxSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#id LockboxSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface LockboxSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The KMS key used to encrypt the Yandex Cloud Lockbox secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#kms_key_id LockboxSecret#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#kms_key_id LockboxSecret#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#labels LockboxSecret#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#labels LockboxSecret#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#name LockboxSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#name LockboxSecret#name}
   */
   readonly name?: string;
   /**
   * password_payload_specification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#password_payload_specification LockboxSecret#password_payload_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#password_payload_specification LockboxSecret#password_payload_specification}
   */
   readonly passwordPayloadSpecification?: LockboxSecretPasswordPayloadSpecification;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#timeouts LockboxSecret#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#timeouts LockboxSecret#timeouts}
   */
   readonly timeouts?: LockboxSecretTimeouts;
 }
@@ -67,49 +67,49 @@ export interface LockboxSecretPasswordPayloadSpecification {
   /**
   * String of punctuation characters to exclude from the default. Requires `include_punctuation = true`. Default is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#excluded_punctuation LockboxSecret#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#excluded_punctuation LockboxSecret#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * Use digits in the generated password. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#include_digits LockboxSecret#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#include_digits LockboxSecret#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * Use lowercase letters in the generated password. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#include_lowercase LockboxSecret#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#include_lowercase LockboxSecret#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
   * Use punctuations (`!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~`) in the generated password. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#include_punctuation LockboxSecret#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#include_punctuation LockboxSecret#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * Use capital letters in the generated password. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#include_uppercase LockboxSecret#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#include_uppercase LockboxSecret#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * String of specific punctuation characters to use. Requires `include_punctuation = true`. Default is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#included_punctuation LockboxSecret#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#included_punctuation LockboxSecret#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * Length of generated password. Default is `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#length LockboxSecret#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#length LockboxSecret#length}
   */
   readonly length?: number;
   /**
   * The key with which the generated password will be placed in the secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#password_key LockboxSecret#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#password_key LockboxSecret#password_key}
   */
   readonly passwordKey: string;
 }
@@ -393,19 +393,19 @@ export class LockboxSecretPasswordPayloadSpecificationOutputReference extends cd
 }
 export interface LockboxSecretTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#create LockboxSecret#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#create LockboxSecret#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#delete LockboxSecret#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#delete LockboxSecret#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#read LockboxSecret#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#read LockboxSecret#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#update LockboxSecret#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#update LockboxSecret#update}
   */
   readonly update?: string;
 }
@@ -586,7 +586,7 @@ export class LockboxSecretTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret yandex_lockbox_secret}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret yandex_lockbox_secret}
 */
 export class LockboxSecret extends cdktf.TerraformResource {
 
@@ -602,7 +602,7 @@ export class LockboxSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LockboxSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LockboxSecret to import
-  * @param importFromId The id of the existing LockboxSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LockboxSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LockboxSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class LockboxSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/lockbox_secret yandex_lockbox_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/lockbox_secret yandex_lockbox_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,8 +625,8 @@ export class LockboxSecret extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_lockbox_secret',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface YdbTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * YDB database endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#database_endpoint YdbTopic#database_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#database_endpoint YdbTopic#database_endpoint}
   */
   readonly databaseEndpoint: string;
   /**
   * Topic description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#description YdbTopic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#description YdbTopic#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#id YdbTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#id YdbTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,65 +29,65 @@ export interface YdbTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of max active partitions. Default value `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#max_partitions_count YdbTopic#max_partitions_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#max_partitions_count YdbTopic#max_partitions_count}
   */
   readonly maxPartitionsCount?: number;
   /**
   * Resource metering mode (`reserved_capacity` - based on the allocated resources or `request_units` - based on actual usage). This option applies to topics in serverless databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#metering_mode YdbTopic#metering_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#metering_mode YdbTopic#metering_mode}
   */
   readonly meteringMode?: string;
   /**
   * Topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#name YdbTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#name YdbTopic#name}
   */
   readonly name: string;
   /**
   * Maximum allowed write speed per partition. If a write speed for a given partition exceeds this value, the write speed will be capped. Default value: `1024 (1MB)`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#partition_write_speed_kbps YdbTopic#partition_write_speed_kbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#partition_write_speed_kbps YdbTopic#partition_write_speed_kbps}
   */
   readonly partitionWriteSpeedKbps?: number;
   /**
   * Number of min partitions. Default value `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#partitions_count YdbTopic#partitions_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#partitions_count YdbTopic#partitions_count}
   */
   readonly partitionsCount?: number;
   /**
   * Data retention time. Default value `86400000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#retention_period_hours YdbTopic#retention_period_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#retention_period_hours YdbTopic#retention_period_hours}
   */
   readonly retentionPeriodHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#retention_storage_mb YdbTopic#retention_storage_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#retention_storage_mb YdbTopic#retention_storage_mb}
   */
   readonly retentionStorageMb?: number;
   /**
   * Supported data encodings. Can be one of `gzip`, `raw` or `zstd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#supported_codecs YdbTopic#supported_codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#supported_codecs YdbTopic#supported_codecs}
   */
   readonly supportedCodecs?: string[];
   /**
   * auto_partitioning_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#auto_partitioning_settings YdbTopic#auto_partitioning_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#auto_partitioning_settings YdbTopic#auto_partitioning_settings}
   */
   readonly autoPartitioningSettings?: YdbTopicAutoPartitioningSettings;
   /**
   * consumer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#consumer YdbTopic#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#consumer YdbTopic#consumer}
   */
   readonly consumer?: YdbTopicConsumer[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#timeouts YdbTopic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#timeouts YdbTopic#timeouts}
   */
   readonly timeouts?: YdbTopicTimeouts;
 }
@@ -95,19 +95,19 @@ export interface YdbTopicAutoPartitioningSettingsAutoPartitioningWriteSpeedStrat
   /**
   * The down utilization percentage threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#down_utilization_percent YdbTopic#down_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#down_utilization_percent YdbTopic#down_utilization_percent}
   */
   readonly downUtilizationPercent?: number;
   /**
   * The stabilization window in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#stabilization_window YdbTopic#stabilization_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#stabilization_window YdbTopic#stabilization_window}
   */
   readonly stabilizationWindow?: number;
   /**
   * The up utilization percentage threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#up_utilization_percent YdbTopic#up_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#up_utilization_percent YdbTopic#up_utilization_percent}
   */
   readonly upUtilizationPercent?: number;
 }
@@ -251,13 +251,13 @@ export interface YdbTopicAutoPartitioningSettings {
   /**
   * The auto partitioning strategy to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#auto_partitioning_strategy YdbTopic#auto_partitioning_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#auto_partitioning_strategy YdbTopic#auto_partitioning_strategy}
   */
   readonly autoPartitioningStrategy?: string;
   /**
   * auto_partitioning_write_speed_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#auto_partitioning_write_speed_strategy YdbTopic#auto_partitioning_write_speed_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#auto_partitioning_write_speed_strategy YdbTopic#auto_partitioning_write_speed_strategy}
   */
   readonly autoPartitioningWriteSpeedStrategy?: YdbTopicAutoPartitioningSettingsAutoPartitioningWriteSpeedStrategy;
 }
@@ -372,25 +372,25 @@ export interface YdbTopicConsumer {
   /**
   * Defines an important consumer. No data will be deleted from the topic until all the important consumers read them. Default value `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#important YdbTopic#important}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#important YdbTopic#important}
   */
   readonly important?: boolean | cdktf.IResolvable;
   /**
   * Reader's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#name YdbTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#name YdbTopic#name}
   */
   readonly name: string;
   /**
   * Timestamp in UNIX timestamp format from which the reader will start reading data. Default value `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#starting_message_timestamp_ms YdbTopic#starting_message_timestamp_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#starting_message_timestamp_ms YdbTopic#starting_message_timestamp_ms}
   */
   readonly startingMessageTimestampMs?: number;
   /**
   * Supported data encodings. Can be one of `gzip`, `raw` or `zstd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#supported_codecs YdbTopic#supported_codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#supported_codecs YdbTopic#supported_codecs}
   */
   readonly supportedCodecs?: string[];
 }
@@ -590,23 +590,23 @@ export class YdbTopicConsumerList extends cdktf.ComplexList {
 }
 export interface YdbTopicTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#create YdbTopic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#create YdbTopic#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#default YdbTopic#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#default YdbTopic#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#delete YdbTopic#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#delete YdbTopic#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#read YdbTopic#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#read YdbTopic#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#update YdbTopic#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#update YdbTopic#update}
   */
   readonly update?: string;
 }
@@ -816,7 +816,7 @@ export class YdbTopicTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic yandex_ydb_topic}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic yandex_ydb_topic}
 */
 export class YdbTopic extends cdktf.TerraformResource {
 
@@ -832,7 +832,7 @@ export class YdbTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YdbTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YdbTopic to import
-  * @param importFromId The id of the existing YdbTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YdbTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YdbTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -844,7 +844,7 @@ export class YdbTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ydb_topic yandex_ydb_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ydb_topic yandex_ydb_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -855,8 +855,8 @@ export class YdbTopic extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ydb_topic',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexAlbHttpRouterConfig extends cdktf.TerraformMetaArgume
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router#description DataYandexAlbHttpRouter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router#description DataYandexAlbHttpRouter#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router#folder_id DataYandexAlbHttpRouter#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router#folder_id DataYandexAlbHttpRouter#folder_id}
   */
   readonly folderId?: string;
   /**
   * HTTP Router ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router#http_router_id DataYandexAlbHttpRouter#http_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router#http_router_id DataYandexAlbHttpRouter#http_router_id}
   */
   readonly httpRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router#id DataYandexAlbHttpRouter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router#id DataYandexAlbHttpRouter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DataYandexAlbHttpRouterConfig extends cdktf.TerraformMetaArgume
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router#name DataYandexAlbHttpRouter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router#name DataYandexAlbHttpRouter#name}
   */
   readonly name?: string;
 }
@@ -531,7 +531,7 @@ export class DataYandexAlbHttpRouterRouteOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router yandex_alb_http_router}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router yandex_alb_http_router}
 */
 export class DataYandexAlbHttpRouter extends cdktf.TerraformDataSource {
 
@@ -547,7 +547,7 @@ export class DataYandexAlbHttpRouter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexAlbHttpRouter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexAlbHttpRouter to import
-  * @param importFromId The id of the existing DataYandexAlbHttpRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexAlbHttpRouter that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexAlbHttpRouter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -559,7 +559,7 @@ export class DataYandexAlbHttpRouter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/alb_http_router yandex_alb_http_router} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/alb_http_router yandex_alb_http_router} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -570,8 +570,8 @@ export class DataYandexAlbHttpRouter extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_alb_http_router',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

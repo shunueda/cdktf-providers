@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BusinessUnitConfig extends cdktf.TerraformMetaArguments {
   /**
   * The filter to select the resources of the business unit. If you are creating a BU that only includes Shift Left resources (projects), this can be safely excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#filter_data BusinessUnit#filter_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#filter_data BusinessUnit#filter_data}
   */
   readonly filterData?: BusinessUnitFilterData;
   /**
   * Whether or not this is a business unit all users within your Orca org can use. If set to true, then it is accessible to all other users in your org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#global_filter BusinessUnit#global_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#global_filter BusinessUnit#global_filter}
   */
   readonly globalFilter?: boolean | cdktf.IResolvable;
   /**
   * Business Unit name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#name BusinessUnit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#name BusinessUnit#name}
   */
   readonly name: string;
   /**
   * The filter to select Shift Left resources for the business unit. If you are creating a BU that only includes Shift Left resources (projects), this can be safely excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#shiftleft_filter_data BusinessUnit#shiftleft_filter_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#shiftleft_filter_data BusinessUnit#shiftleft_filter_data}
   */
   readonly shiftleftFilterData?: BusinessUnitShiftleftFilterData;
 }
@@ -36,31 +36,31 @@ export interface BusinessUnitFilterData {
   /**
   * A list of 1 or more cloud account IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#cloud_account_ids BusinessUnit#cloud_account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#cloud_account_ids BusinessUnit#cloud_account_ids}
   */
   readonly cloudAccountIds?: string[];
   /**
   * A list of 1 or more cloud account tags. The key and value should be separated by a vertical line (|), rather than a colon(:).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#cloud_account_tags BusinessUnit#cloud_account_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#cloud_account_tags BusinessUnit#cloud_account_tags}
   */
   readonly cloudAccountTags?: string[];
   /**
   * A list of 1 or more cloud providers. Valid values are `alicloud`, `aws`, `azure`, `gcp`, `oci`, and `shiftleft`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#cloud_providers BusinessUnit#cloud_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#cloud_providers BusinessUnit#cloud_providers}
   */
   readonly cloudProviders?: string[];
   /**
   * A list of 1 or more cloud tags (for AWS and Azure) or labels (for GCP). The key and value should be separated by a vertical line (|), rather than a colon(:).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#cloud_tags BusinessUnit#cloud_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#cloud_tags BusinessUnit#cloud_tags}
   */
   readonly cloudTags?: string[];
   /**
   * A list of 1 or more custom tags. The key and value should be separated by a vertical line (|), rather than a colon(:).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#custom_tags BusinessUnit#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#custom_tags BusinessUnit#custom_tags}
   */
   readonly customTags?: string[];
 }
@@ -272,7 +272,7 @@ export interface BusinessUnitShiftleftFilterData {
   /**
   * A list of 1 or more Shift Left project IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#shiftleft_project_ids BusinessUnit#shiftleft_project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#shiftleft_project_ids BusinessUnit#shiftleft_project_ids}
   */
   readonly shiftleftProjectIds?: string[];
 }
@@ -366,7 +366,7 @@ export class BusinessUnitShiftleftFilterDataOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit orcasecurity_business_unit}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit orcasecurity_business_unit}
 */
 export class BusinessUnit extends cdktf.TerraformResource {
 
@@ -382,7 +382,7 @@ export class BusinessUnit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessUnit to import
-  * @param importFromId The id of the existing BusinessUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -394,7 +394,7 @@ export class BusinessUnit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/business_unit orcasecurity_business_unit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/business_unit orcasecurity_business_unit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -405,8 +405,8 @@ export class BusinessUnit extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_business_unit',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

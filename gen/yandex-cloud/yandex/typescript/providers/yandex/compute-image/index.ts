@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ComputeImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#description ComputeImage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#description ComputeImage#description}
   */
   readonly description?: string;
   /**
   * The name of the image family to which this image belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#family ComputeImage#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#family ComputeImage#family}
   */
   readonly family?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#folder_id ComputeImage#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#folder_id ComputeImage#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#id ComputeImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#id ComputeImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface ComputeImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#labels ComputeImage#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#labels ComputeImage#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Minimum size in GB of the disk that will be created from this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#min_disk_size ComputeImage#min_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#min_disk_size ComputeImage#min_disk_size}
   */
   readonly minDiskSize?: number;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#name ComputeImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#name ComputeImage#name}
   */
   readonly name?: string;
   /**
   * Operating system type that is contained in the image. Possible values: `LINUX`, `WINDOWS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#os_type ComputeImage#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#os_type ComputeImage#os_type}
   */
   readonly osType?: string;
   /**
   * Optimize the image to create a disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#pooled ComputeImage#pooled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#pooled ComputeImage#pooled}
   */
   readonly pooled?: boolean | cdktf.IResolvable;
   /**
   * License IDs that indicate which licenses are attached to this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#product_ids ComputeImage#product_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#product_ids ComputeImage#product_ids}
   */
   readonly productIds?: string[];
   /**
   * The ID of a disk to use as the source of the image. Changing this ID forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#source_disk ComputeImage#source_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#source_disk ComputeImage#source_disk}
   */
   readonly sourceDisk?: string;
   /**
   * The name of the family to use as the source of the new image. The ID of the latest image is taken from the `standard-images` folder. Changing the family forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#source_family ComputeImage#source_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#source_family ComputeImage#source_family}
   */
   readonly sourceFamily?: string;
   /**
   * The ID of an existing image to use as the source of the image. Changing this ID forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#source_image ComputeImage#source_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#source_image ComputeImage#source_image}
   */
   readonly sourceImage?: string;
   /**
   * The ID of a snapshot to use as the source of the image. Changing this ID forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#source_snapshot ComputeImage#source_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#source_snapshot ComputeImage#source_snapshot}
   */
   readonly sourceSnapshot?: string;
   /**
   * The URL to use as the source of the image. Changing this URL forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#source_url ComputeImage#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#source_url ComputeImage#source_url}
   */
   readonly sourceUrl?: string;
   /**
   * hardware_generation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#hardware_generation ComputeImage#hardware_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#hardware_generation ComputeImage#hardware_generation}
   */
   readonly hardwareGeneration?: ComputeImageHardwareGeneration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#timeouts ComputeImage#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#timeouts ComputeImage#timeouts}
   */
   readonly timeouts?: ComputeImageTimeouts;
 }
@@ -164,7 +164,7 @@ export interface ComputeImageHardwareGenerationLegacyFeatures {
   /**
   * A variant of PCI topology, one of `PCI_TOPOLOGY_V1` or `PCI_TOPOLOGY_V2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#pci_topology ComputeImage#pci_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#pci_topology ComputeImage#pci_topology}
   */
   readonly pciTopology?: string;
 }
@@ -250,13 +250,13 @@ export interface ComputeImageHardwareGeneration {
   /**
   * generation2_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#generation2_features ComputeImage#generation2_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#generation2_features ComputeImage#generation2_features}
   */
   readonly generation2Features?: ComputeImageHardwareGenerationGeneration2Features;
   /**
   * legacy_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#legacy_features ComputeImage#legacy_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#legacy_features ComputeImage#legacy_features}
   */
   readonly legacyFeatures?: ComputeImageHardwareGenerationLegacyFeatures;
 }
@@ -369,15 +369,15 @@ export class ComputeImageHardwareGenerationOutputReference extends cdktf.Complex
 }
 export interface ComputeImageTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#create ComputeImage#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#create ComputeImage#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#delete ComputeImage#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#delete ComputeImage#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#update ComputeImage#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#update ComputeImage#update}
   */
   readonly update?: string;
 }
@@ -529,7 +529,7 @@ export class ComputeImageTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image yandex_compute_image}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image yandex_compute_image}
 */
 export class ComputeImage extends cdktf.TerraformResource {
 
@@ -545,7 +545,7 @@ export class ComputeImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeImage to import
-  * @param importFromId The id of the existing ComputeImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class ComputeImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_image yandex_compute_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_image yandex_compute_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class ComputeImage extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_image',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

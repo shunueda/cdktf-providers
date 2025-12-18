@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface StorageBucketGrantAConfig extends cdktf.TerraformMetaArguments 
   /**
   * The access key to use when applying changes. This value can also be provided as `storage_access_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#access_key StorageBucketGrantA#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#access_key StorageBucketGrantA#access_key}
   */
   readonly accessKey?: string;
   /**
@@ -19,25 +19,25 @@ export interface StorageBucketGrantAConfig extends cdktf.TerraformMetaArguments 
   * ~> To change ACL after creation, service account with `storage.admin` role should be used, though this role is not necessary to create a bucket with any ACL.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#acl StorageBucketGrantA#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#acl StorageBucketGrantA#acl}
   */
   readonly acl?: string;
   /**
   * The name of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#bucket StorageBucketGrantA#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#bucket StorageBucketGrantA#bucket}
   */
   readonly bucket: string;
   /**
   * The secret key to use when applying changes. This value can also be provided as `storage_secret_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#secret_key StorageBucketGrantA#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#secret_key StorageBucketGrantA#secret_key}
   */
   readonly secretKey?: string;
   /**
   * grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#grant StorageBucketGrantA#grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#grant StorageBucketGrantA#grant}
   */
   readonly grant?: StorageBucketGrantGrant[] | cdktf.IResolvable;
 }
@@ -45,7 +45,7 @@ export interface StorageBucketGrantGrant {
   /**
   * Canonical user id to grant for. Used only when type is `CanonicalUser`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#id StorageBucketGrantA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#id StorageBucketGrantA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,19 +54,19 @@ export interface StorageBucketGrantGrant {
   /**
   * List of permissions to apply for grantee. Valid values are `READ`, `WRITE`, `FULL_CONTROL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#permissions StorageBucketGrantA#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#permissions StorageBucketGrantA#permissions}
   */
   readonly permissions: string[];
   /**
   * Type of grantee to apply for. Valid values are `CanonicalUser` and `Group`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#type StorageBucketGrantA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#type StorageBucketGrantA#type}
   */
   readonly type: string;
   /**
   * URI address to grant for. Used only when type is Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#uri StorageBucketGrantA#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#uri StorageBucketGrantA#uri}
   */
   readonly uri?: string;
 }
@@ -263,7 +263,7 @@ export class StorageBucketGrantGrantList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant yandex_storage_bucket_grant}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant yandex_storage_bucket_grant}
 */
 export class StorageBucketGrantA extends cdktf.TerraformResource {
 
@@ -279,7 +279,7 @@ export class StorageBucketGrantA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageBucketGrantA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageBucketGrantA to import
-  * @param importFromId The id of the existing StorageBucketGrantA that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageBucketGrantA that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageBucketGrantA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class StorageBucketGrantA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/storage_bucket_grant yandex_storage_bucket_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/storage_bucket_grant yandex_storage_bucket_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,8 +302,8 @@ export class StorageBucketGrantA extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_storage_bucket_grant',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

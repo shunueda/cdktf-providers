@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MdbKafkaUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#cluster_id MdbKafkaUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#cluster_id MdbKafkaUser#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#id MdbKafkaUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#id MdbKafkaUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface MdbKafkaUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#name MdbKafkaUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#name MdbKafkaUser#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#password MdbKafkaUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#password MdbKafkaUser#password}
   */
   readonly password: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#permission MdbKafkaUser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#permission MdbKafkaUser#permission}
   */
   readonly permission?: MdbKafkaUserPermission[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#timeouts MdbKafkaUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#timeouts MdbKafkaUser#timeouts}
   */
   readonly timeouts?: MdbKafkaUserTimeouts;
 }
@@ -49,19 +49,19 @@ export interface MdbKafkaUserPermission {
   /**
   * Set of hosts, to which this permission grants access to. Only ip-addresses allowed as value of single host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#allow_hosts MdbKafkaUser#allow_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#allow_hosts MdbKafkaUser#allow_hosts}
   */
   readonly allowHosts?: string[];
   /**
   * The role type to grant to the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#role MdbKafkaUser#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#role MdbKafkaUser#role}
   */
   readonly role: string;
   /**
   * The name of the topic that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#topic_name MdbKafkaUser#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#topic_name MdbKafkaUser#topic_name}
   */
   readonly topicName: string;
 }
@@ -229,19 +229,19 @@ export class MdbKafkaUserPermissionList extends cdktf.ComplexList {
 }
 export interface MdbKafkaUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#create MdbKafkaUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#create MdbKafkaUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#delete MdbKafkaUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#delete MdbKafkaUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#read MdbKafkaUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#read MdbKafkaUser#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#update MdbKafkaUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#update MdbKafkaUser#update}
   */
   readonly update?: string;
 }
@@ -422,7 +422,7 @@ export class MdbKafkaUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user yandex_mdb_kafka_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user yandex_mdb_kafka_user}
 */
 export class MdbKafkaUser extends cdktf.TerraformResource {
 
@@ -438,7 +438,7 @@ export class MdbKafkaUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbKafkaUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbKafkaUser to import
-  * @param importFromId The id of the existing MdbKafkaUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbKafkaUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbKafkaUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -450,7 +450,7 @@ export class MdbKafkaUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_user yandex_mdb_kafka_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_user yandex_mdb_kafka_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,8 +461,8 @@ export class MdbKafkaUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_kafka_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

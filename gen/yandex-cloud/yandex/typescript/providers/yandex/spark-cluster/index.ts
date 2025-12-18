@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SparkClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configuration of the Spark cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#config SparkCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#config SparkCluster#config}
   */
   readonly config: SparkClusterConfigA;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#deletion_protection SparkCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#deletion_protection SparkCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the cluster. 0-256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#description SparkCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#description SparkCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the cloud folder that the cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#folder_id SparkCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#folder_id SparkCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Cluster labels as key/value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#labels SparkCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#labels SparkCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cloud Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#logging SparkCluster#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#logging SparkCluster#logging}
   */
   readonly logging: SparkClusterLogging;
   /**
   * Configuration of the window for maintenance operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#maintenance_window SparkCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#maintenance_window SparkCluster#maintenance_window}
   */
   readonly maintenanceWindow?: SparkClusterMaintenanceWindow;
   /**
   * Name of the cluster. The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#name SparkCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#name SparkCluster#name}
   */
   readonly name: string;
   /**
   * Network configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#network SparkCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#network SparkCluster#network}
   */
   readonly network: SparkClusterNetwork;
   /**
   * The service account used by the cluster to access cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#service_account_id SparkCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#service_account_id SparkCluster#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#timeouts SparkCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#timeouts SparkCluster#timeouts}
   */
   readonly timeouts?: SparkClusterTimeouts;
 }
@@ -78,13 +78,13 @@ export interface SparkClusterConfigDependencies {
   /**
   * Deb-packages that need to be installed using system package manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#deb_packages SparkCluster#deb_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#deb_packages SparkCluster#deb_packages}
   */
   readonly debPackages?: string[];
   /**
   * Python packages that need to be installed using pip (in pip requirement format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#pip_packages SparkCluster#pip_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#pip_packages SparkCluster#pip_packages}
   */
   readonly pipPackages?: string[];
 }
@@ -209,7 +209,7 @@ export interface SparkClusterConfigHistoryServer {
   /**
   * Enable Spark History Server. Default: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#enabled SparkCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#enabled SparkCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -305,7 +305,7 @@ export interface SparkClusterConfigMetastore {
   /**
   * Metastore cluster ID for default spark configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#cluster_id SparkCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#cluster_id SparkCluster#cluster_id}
   */
   readonly clusterId?: string;
 }
@@ -401,25 +401,25 @@ export interface SparkClusterConfigResourcePoolsDriver {
   /**
   * Maximum node count for the driver pool with autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#max_size SparkCluster#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#max_size SparkCluster#max_size}
   */
   readonly maxSize?: number;
   /**
   * Minimum node count for the driver pool with autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#min_size SparkCluster#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#min_size SparkCluster#min_size}
   */
   readonly minSize?: number;
   /**
   * Resource preset ID for the driver pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#resource_preset_id SparkCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#resource_preset_id SparkCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
   /**
   * Node count for the driver pool with fixed size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#size SparkCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#size SparkCluster#size}
   */
   readonly size?: number;
 }
@@ -599,25 +599,25 @@ export interface SparkClusterConfigResourcePoolsExecutor {
   /**
   * Maximum node count for the executor pool with autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#max_size SparkCluster#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#max_size SparkCluster#max_size}
   */
   readonly maxSize?: number;
   /**
   * Minimum node count for the executor pool with autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#min_size SparkCluster#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#min_size SparkCluster#min_size}
   */
   readonly minSize?: number;
   /**
   * Resource preset ID for the executor pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#resource_preset_id SparkCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#resource_preset_id SparkCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
   /**
   * Node count for the executor pool with fixed size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#size SparkCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#size SparkCluster#size}
   */
   readonly size?: number;
 }
@@ -797,13 +797,13 @@ export interface SparkClusterConfigResourcePools {
   /**
   * Computational resources for the driver pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#driver SparkCluster#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#driver SparkCluster#driver}
   */
   readonly driver: SparkClusterConfigResourcePoolsDriver;
   /**
   * Computational resources for the executor pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#executor SparkCluster#executor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#executor SparkCluster#executor}
   */
   readonly executor: SparkClusterConfigResourcePoolsExecutor;
 }
@@ -922,31 +922,31 @@ export interface SparkClusterConfigA {
   /**
   * Environment dependencies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#dependencies SparkCluster#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#dependencies SparkCluster#dependencies}
   */
   readonly dependencies?: SparkClusterConfigDependencies;
   /**
   * History Server configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#history_server SparkCluster#history_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#history_server SparkCluster#history_server}
   */
   readonly historyServer?: SparkClusterConfigHistoryServer;
   /**
   * Metastore configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#metastore SparkCluster#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#metastore SparkCluster#metastore}
   */
   readonly metastore?: SparkClusterConfigMetastore;
   /**
   * Computational resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#resource_pools SparkCluster#resource_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#resource_pools SparkCluster#resource_pools}
   */
   readonly resourcePools: SparkClusterConfigResourcePools;
   /**
   * Version of Apache Spark. Format: Major.Minor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#spark_version SparkCluster#spark_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#spark_version SparkCluster#spark_version}
   */
   readonly sparkVersion?: string;
 }
@@ -1155,19 +1155,19 @@ export interface SparkClusterLogging {
   /**
   * Enable log delivery to Cloud Logging. Default: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#enabled SparkCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#enabled SparkCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Logs will be written to **default log group** of specified folder. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#folder_id SparkCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#folder_id SparkCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Logs will be written to the **specified log group**. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#log_group_id SparkCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#log_group_id SparkCluster#log_group_id}
   */
   readonly logGroupId?: string;
 }
@@ -1321,19 +1321,19 @@ export interface SparkClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window. One of `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#day SparkCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#day SparkCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#hour SparkCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#hour SparkCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. If `WEEKLY`, day and hour must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#type SparkCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#type SparkCluster#type}
   */
   readonly type?: string;
 }
@@ -1487,13 +1487,13 @@ export interface SparkClusterNetwork {
   /**
   * Network security groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#security_group_ids SparkCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#security_group_ids SparkCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Network subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#subnet_ids SparkCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#subnet_ids SparkCluster#subnet_ids}
   */
   readonly subnetIds: string[];
 }
@@ -1615,19 +1615,19 @@ export interface SparkClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#create SparkCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#create SparkCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#delete SparkCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#delete SparkCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#update SparkCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#update SparkCluster#update}
   */
   readonly update?: string;
 }
@@ -1779,7 +1779,7 @@ export class SparkClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster yandex_spark_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster yandex_spark_cluster}
 */
 export class SparkCluster extends cdktf.TerraformResource {
 
@@ -1795,7 +1795,7 @@ export class SparkCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SparkCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SparkCluster to import
-  * @param importFromId The id of the existing SparkCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SparkCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SparkCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1807,7 +1807,7 @@ export class SparkCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/spark_cluster yandex_spark_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/spark_cluster yandex_spark_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1818,8 +1818,8 @@ export class SparkCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_spark_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

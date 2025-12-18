@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/webhook
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOrcasecurityWebhookConfig extends cdktf.TerraformMetaArgume
   /**
   * Human-friendly name that you've selected for the Webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/webhook#name DataOrcasecurityWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/webhook#name DataOrcasecurityWebhook#name}
   */
   readonly name: string;
 }
@@ -81,7 +81,7 @@ export class DataOrcasecurityWebhookConfigAOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/webhook orcasecurity_webhook}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/webhook orcasecurity_webhook}
 */
 export class DataOrcasecurityWebhook extends cdktf.TerraformDataSource {
 
@@ -97,7 +97,7 @@ export class DataOrcasecurityWebhook extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOrcasecurityWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOrcasecurityWebhook to import
-  * @param importFromId The id of the existing DataOrcasecurityWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOrcasecurityWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOrcasecurityWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class DataOrcasecurityWebhook extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/webhook orcasecurity_webhook} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/webhook orcasecurity_webhook} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class DataOrcasecurityWebhook extends cdktf.TerraformDataSource {
       terraformResourceType: 'orcasecurity_webhook',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface CustomDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#extra_params CustomDashboard#extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#extra_params CustomDashboard#extra_params}
   */
   readonly extraParams: CustomDashboardExtraParams;
   /**
   * Should be left empty for custom dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#filter_data CustomDashboard#filter_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#filter_data CustomDashboard#filter_data}
   */
   readonly filterData: { [key: string]: string };
   /**
   * Custom dashboard title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#name CustomDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#name CustomDashboard#name}
   */
   readonly name: string;
   /**
   * If set to true, it is a shared dashboard (can be viewed by any member of your Orca org). If set to false, it is a personal dashboard (can be viewed only by you, not other members of your Orca org).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#organization_level CustomDashboard#organization_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#organization_level CustomDashboard#organization_level}
   */
   readonly organizationLevel: boolean | cdktf.IResolvable;
   /**
   * Should be set to 'dashboard' for custom dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#view_type CustomDashboard#view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#view_type CustomDashboard#view_type}
   */
   readonly viewType: string;
 }
@@ -40,7 +40,7 @@ export interface CustomDashboardExtraParamsWidgetsConfig {
   /**
   * ID of the identified widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#id CustomDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#id CustomDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ export interface CustomDashboardExtraParamsWidgetsConfig {
   /**
   * Size of the identified widget. Possible values are sm (small), md (medium), or lg (large).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#size CustomDashboard#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#size CustomDashboard#size}
   */
   readonly size: string;
 }
@@ -188,11 +188,11 @@ export class CustomDashboardExtraParamsWidgetsConfigList extends cdktf.ComplexLi
 }
 export interface CustomDashboardExtraParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#description CustomDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#description CustomDashboard#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#widgets_config CustomDashboard#widgets_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#widgets_config CustomDashboard#widgets_config}
   */
   readonly widgetsConfig: CustomDashboardExtraParamsWidgetsConfig[] | cdktf.IResolvable;
 }
@@ -309,7 +309,7 @@ export class CustomDashboardExtraParamsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard orcasecurity_custom_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard orcasecurity_custom_dashboard}
 */
 export class CustomDashboard extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class CustomDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomDashboard to import
-  * @param importFromId The id of the existing CustomDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class CustomDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_dashboard orcasecurity_custom_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_dashboard orcasecurity_custom_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class CustomDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_custom_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

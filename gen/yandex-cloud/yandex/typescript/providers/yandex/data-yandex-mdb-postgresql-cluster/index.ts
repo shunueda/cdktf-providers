@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataYandexMdbPostgresqlClusterConfig extends cdktf.TerraformMet
   /**
   * The ID of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#cluster_id DataYandexMdbPostgresqlCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#cluster_id DataYandexMdbPostgresqlCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#deletion_protection DataYandexMdbPostgresqlCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#deletion_protection DataYandexMdbPostgresqlCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#description DataYandexMdbPostgresqlCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#description DataYandexMdbPostgresqlCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#disk_encryption_key_id DataYandexMdbPostgresqlCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#disk_encryption_key_id DataYandexMdbPostgresqlCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#folder_id DataYandexMdbPostgresqlCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#folder_id DataYandexMdbPostgresqlCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#id DataYandexMdbPostgresqlCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#id DataYandexMdbPostgresqlCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface DataYandexMdbPostgresqlClusterConfig extends cdktf.TerraformMet
   /**
   * The name of the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#name DataYandexMdbPostgresqlCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#name DataYandexMdbPostgresqlCluster#name}
   */
   readonly name?: string;
 }
@@ -1233,7 +1233,7 @@ export class DataYandexMdbPostgresqlClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster}
 */
 export class DataYandexMdbPostgresqlCluster extends cdktf.TerraformDataSource {
 
@@ -1249,7 +1249,7 @@ export class DataYandexMdbPostgresqlCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbPostgresqlCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbPostgresqlCluster to import
-  * @param importFromId The id of the existing DataYandexMdbPostgresqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbPostgresqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbPostgresqlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1261,7 +1261,7 @@ export class DataYandexMdbPostgresqlCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_postgresql_cluster yandex_mdb_postgresql_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1272,8 +1272,8 @@ export class DataYandexMdbPostgresqlCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_postgresql_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

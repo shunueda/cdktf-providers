@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MittwaldProviderConfig {
   /**
   * API key for the mittwald API; if omitted, the `MITTWALD_API_TOKEN` environment variable will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs#api_key MittwaldProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs#api_key MittwaldProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Whether to log request bodies when debugging is enabled. CAUTION: This will log sensitive data such as passwords in plain text!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs#debug_request_bodies MittwaldProvider#debug_request_bodies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs#debug_request_bodies MittwaldProvider#debug_request_bodies}
   */
   readonly debugRequestBodies?: boolean | cdktf.IResolvable;
   /**
   * API endpoint for the mittwald API. Default to `https://api.mittwald.de/v2` if omitted. During regular usage, you probably won't need this. However, it can be useful for testing against a different API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs#endpoint MittwaldProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs#endpoint MittwaldProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs#alias MittwaldProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs#alias MittwaldProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs mittwald}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs mittwald}
 */
 export class MittwaldProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class MittwaldProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MittwaldProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MittwaldProvider to import
-  * @param importFromId The id of the existing MittwaldProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MittwaldProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MittwaldProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class MittwaldProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs mittwald} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs mittwald} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class MittwaldProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'mittwald',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       terraformProviderSource: 'mittwald/mittwald'
     });

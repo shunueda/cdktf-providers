@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataMittwaldContainerImageConfig extends cdktf.TerraformMetaArg
   /**
   * The image to use for the container. Follows the usual Docker image format, e.g. `nginx:latest` or `registry.example.com/my-image:latest`. You _can_ omit the tag, in which case `latest` will be used. This will trigger a warning, however.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image#image DataMittwaldContainerImage#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image#image DataMittwaldContainerImage#image}
   */
   readonly image: string;
   /**
   * The ID of the project where the image is stored. This attribute (or `registry_id`)  is required if the image is not public.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image#project_id DataMittwaldContainerImage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image#project_id DataMittwaldContainerImage#project_id}
   */
   readonly projectId?: string;
   /**
   * The ID of the registry where the image is stored. This attribute (or `project_id`) is required if the image is not public.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image#registry_id DataMittwaldContainerImage#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image#registry_id DataMittwaldContainerImage#registry_id}
   */
   readonly registryId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image mittwald_container_image}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image mittwald_container_image}
 */
 export class DataMittwaldContainerImage extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataMittwaldContainerImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMittwaldContainerImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMittwaldContainerImage to import
-  * @param importFromId The id of the existing DataMittwaldContainerImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMittwaldContainerImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMittwaldContainerImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataMittwaldContainerImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/container_image mittwald_container_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/container_image mittwald_container_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataMittwaldContainerImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'mittwald_container_image',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

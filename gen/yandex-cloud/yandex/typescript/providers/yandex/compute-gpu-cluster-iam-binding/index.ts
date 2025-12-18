@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ComputeGpuClusterIamBindingConfig extends cdktf.TerraformMetaAr
   /**
   * The ID of the compute `gpu_cluster` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding#gpu_cluster_id ComputeGpuClusterIamBinding#gpu_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding#gpu_cluster_id ComputeGpuClusterIamBinding#gpu_cluster_id}
   */
   readonly gpuClusterId: string;
   /**
@@ -29,25 +29,25 @@ export interface ComputeGpuClusterIamBindingConfig extends cdktf.TerraformMetaAr
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding#members ComputeGpuClusterIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding#members ComputeGpuClusterIamBinding#members}
   */
   readonly members: string[];
   /**
   * The role that should be assigned. Only one yandex_compute_gpu_cluster_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding#role ComputeGpuClusterIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding#role ComputeGpuClusterIamBinding#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding#sleep_after ComputeGpuClusterIamBinding#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding#sleep_after ComputeGpuClusterIamBinding#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding yandex_compute_gpu_cluster_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding yandex_compute_gpu_cluster_iam_binding}
 */
 export class ComputeGpuClusterIamBinding extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ComputeGpuClusterIamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeGpuClusterIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeGpuClusterIamBinding to import
-  * @param importFromId The id of the existing ComputeGpuClusterIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeGpuClusterIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeGpuClusterIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ComputeGpuClusterIamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_gpu_cluster_iam_binding yandex_compute_gpu_cluster_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_gpu_cluster_iam_binding yandex_compute_gpu_cluster_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ComputeGpuClusterIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_gpu_cluster_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

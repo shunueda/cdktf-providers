@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MdbShardedPostgresqlShardConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the Sharded PostgreSQL cluster. Provided by the client when the shard is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard#cluster_id MdbShardedPostgresqlShard#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard#cluster_id MdbShardedPostgresqlShard#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Name of the Sharded PostgreSQL shard. Provided by the client when the shard is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard#name MdbShardedPostgresqlShard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard#name MdbShardedPostgresqlShard#name}
   */
   readonly name: string;
   /**
   * Shard specification required to add shard into cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard#shard_spec MdbShardedPostgresqlShard#shard_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard#shard_spec MdbShardedPostgresqlShard#shard_spec}
   */
   readonly shardSpec: MdbShardedPostgresqlShardShardSpec;
 }
@@ -30,7 +30,7 @@ export interface MdbShardedPostgresqlShardShardSpec {
   /**
   * ID of the Managed PostgreSQL cluster in Yandex Cloud. Provided by the client when the shard is added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard#mdb_postgresql MdbShardedPostgresqlShard#mdb_postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard#mdb_postgresql MdbShardedPostgresqlShard#mdb_postgresql}
   */
   readonly mdbPostgresql?: string;
 }
@@ -124,7 +124,7 @@ export class MdbShardedPostgresqlShardShardSpecOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard yandex_mdb_sharded_postgresql_shard}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard yandex_mdb_sharded_postgresql_shard}
 */
 export class MdbShardedPostgresqlShard extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class MdbShardedPostgresqlShard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbShardedPostgresqlShard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbShardedPostgresqlShard to import
-  * @param importFromId The id of the existing MdbShardedPostgresqlShard that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbShardedPostgresqlShard that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbShardedPostgresqlShard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class MdbShardedPostgresqlShard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_sharded_postgresql_shard yandex_mdb_sharded_postgresql_shard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_sharded_postgresql_shard yandex_mdb_sharded_postgresql_shard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class MdbShardedPostgresqlShard extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_sharded_postgresql_shard',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

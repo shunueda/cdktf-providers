@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrganizationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the CloudSecure organization policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy#description OrganizationPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy#description OrganizationPolicy#description}
   */
   readonly description?: string;
   /**
   * Indicates whether the organization policy is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy#enabled OrganizationPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy#enabled OrganizationPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Display name for the CloudSecure organization policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy#name OrganizationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy#name OrganizationPolicy#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy illumio-cloudsecure_organization_policy}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy illumio-cloudsecure_organization_policy}
 */
 export class OrganizationPolicy extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationPolicy to import
-  * @param importFromId The id of the existing OrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy illumio-cloudsecure_organization_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy illumio-cloudsecure_organization_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class OrganizationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_organization_policy',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

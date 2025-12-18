@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CloudregistryRegistryIpPermissionConfig extends cdktf.Terraform
   /**
   * List of configured CIDRs from which `pull` operations are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#pull CloudregistryRegistryIpPermission#pull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#pull CloudregistryRegistryIpPermission#pull}
   */
   readonly pull?: string[];
   /**
   * List of configured CIDRs from which `push` operations are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#push CloudregistryRegistryIpPermission#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#push CloudregistryRegistryIpPermission#push}
   */
   readonly push?: string[];
   /**
   * The ID of the registry that IP restrictions are applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#registry_id CloudregistryRegistryIpPermission#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#registry_id CloudregistryRegistryIpPermission#registry_id}
   */
   readonly registryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#timeouts CloudregistryRegistryIpPermission#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#timeouts CloudregistryRegistryIpPermission#timeouts}
   */
   readonly timeouts?: CloudregistryRegistryIpPermissionTimeouts;
 }
@@ -34,25 +34,25 @@ export interface CloudregistryRegistryIpPermissionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#create CloudregistryRegistryIpPermission#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#create CloudregistryRegistryIpPermission#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#delete CloudregistryRegistryIpPermission#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#delete CloudregistryRegistryIpPermission#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#read CloudregistryRegistryIpPermission#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#read CloudregistryRegistryIpPermission#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#update CloudregistryRegistryIpPermission#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#update CloudregistryRegistryIpPermission#update}
   */
   readonly update?: string;
 }
@@ -233,7 +233,7 @@ export class CloudregistryRegistryIpPermissionTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission yandex_cloudregistry_registry_ip_permission}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission yandex_cloudregistry_registry_ip_permission}
 */
 export class CloudregistryRegistryIpPermission extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class CloudregistryRegistryIpPermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudregistryRegistryIpPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudregistryRegistryIpPermission to import
-  * @param importFromId The id of the existing CloudregistryRegistryIpPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudregistryRegistryIpPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudregistryRegistryIpPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class CloudregistryRegistryIpPermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/cloudregistry_registry_ip_permission yandex_cloudregistry_registry_ip_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/cloudregistry_registry_ip_permission yandex_cloudregistry_registry_ip_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class CloudregistryRegistryIpPermission extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cloudregistry_registry_ip_permission',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

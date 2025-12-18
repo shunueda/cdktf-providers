@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,32 +11,32 @@ export interface OrganizationmanagerIdpApplicationOauthApplicationConfig extends
   * ID of the OAuth application to return.
   *  To get the OAuth application ID, make a [ApplicationService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#application_id OrganizationmanagerIdpApplicationOauthApplication#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#application_id OrganizationmanagerIdpApplicationOauthApplication#application_id}
   */
   readonly applicationId?: string;
   /**
   * Represents current connection to the OAuth client with specified scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#client_grant OrganizationmanagerIdpApplicationOauthApplication#client_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#client_grant OrganizationmanagerIdpApplicationOauthApplication#client_grant}
   */
   readonly clientGrant?: OrganizationmanagerIdpApplicationOauthApplicationClientGrant;
   /**
   * Description of the application. 0-256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#description OrganizationmanagerIdpApplicationOauthApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#description OrganizationmanagerIdpApplicationOauthApplication#description}
   */
   readonly description?: string;
   /**
   * Settings of the group claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#group_claims_settings OrganizationmanagerIdpApplicationOauthApplication#group_claims_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#group_claims_settings OrganizationmanagerIdpApplicationOauthApplication#group_claims_settings}
   */
   readonly groupClaimsSettings?: OrganizationmanagerIdpApplicationOauthApplicationGroupClaimsSettings;
   /**
   * ID of the OAuth application to return.
   *  To get the OAuth application ID, make a [ApplicationService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#id OrganizationmanagerIdpApplicationOauthApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#id OrganizationmanagerIdpApplicationOauthApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,24 +45,24 @@ export interface OrganizationmanagerIdpApplicationOauthApplicationConfig extends
   /**
   * Resource labels as `` key:value `` pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#labels OrganizationmanagerIdpApplicationOauthApplication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#labels OrganizationmanagerIdpApplicationOauthApplication#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the application.
   *  The name is unique within the organization. 3-63 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#name OrganizationmanagerIdpApplicationOauthApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#name OrganizationmanagerIdpApplicationOauthApplication#name}
   */
   readonly name: string;
   /**
   * ID of the organization that the application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#organization_id OrganizationmanagerIdpApplicationOauthApplication#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#organization_id OrganizationmanagerIdpApplicationOauthApplication#organization_id}
   */
   readonly organizationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#timeouts OrganizationmanagerIdpApplicationOauthApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#timeouts OrganizationmanagerIdpApplicationOauthApplication#timeouts}
   */
   readonly timeouts?: OrganizationmanagerIdpApplicationOauthApplicationTimeouts;
 }
@@ -70,13 +70,13 @@ export interface OrganizationmanagerIdpApplicationOauthApplicationClientGrant {
   /**
   * List of authorized client scopes by the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#authorized_scopes OrganizationmanagerIdpApplicationOauthApplication#authorized_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#authorized_scopes OrganizationmanagerIdpApplicationOauthApplication#authorized_scopes}
   */
   readonly authorizedScopes?: string[];
   /**
   * OAuth client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#client_id OrganizationmanagerIdpApplicationOauthApplication#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#client_id OrganizationmanagerIdpApplicationOauthApplication#client_id}
   */
   readonly clientId: string;
 }
@@ -198,7 +198,7 @@ export interface OrganizationmanagerIdpApplicationOauthApplicationGroupClaimsSet
   /**
   * Represents current distribution type of the groups. I.e. which groups are visible for the application users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#group_distribution_type OrganizationmanagerIdpApplicationOauthApplication#group_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#group_distribution_type OrganizationmanagerIdpApplicationOauthApplication#group_distribution_type}
   */
   readonly groupDistributionType?: string;
 }
@@ -294,25 +294,25 @@ export interface OrganizationmanagerIdpApplicationOauthApplicationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#create OrganizationmanagerIdpApplicationOauthApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#create OrganizationmanagerIdpApplicationOauthApplication#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#delete OrganizationmanagerIdpApplicationOauthApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#delete OrganizationmanagerIdpApplicationOauthApplication#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#read OrganizationmanagerIdpApplicationOauthApplication#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#read OrganizationmanagerIdpApplicationOauthApplication#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#update OrganizationmanagerIdpApplicationOauthApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#update OrganizationmanagerIdpApplicationOauthApplication#update}
   */
   readonly update?: string;
 }
@@ -493,7 +493,7 @@ export class OrganizationmanagerIdpApplicationOauthApplicationTimeoutsOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application yandex_organizationmanager_idp_application_oauth_application}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application yandex_organizationmanager_idp_application_oauth_application}
 */
 export class OrganizationmanagerIdpApplicationOauthApplication extends cdktf.TerraformResource {
 
@@ -509,7 +509,7 @@ export class OrganizationmanagerIdpApplicationOauthApplication extends cdktf.Ter
   * Generates CDKTF code for importing a OrganizationmanagerIdpApplicationOauthApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerIdpApplicationOauthApplication to import
-  * @param importFromId The id of the existing OrganizationmanagerIdpApplicationOauthApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerIdpApplicationOauthApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerIdpApplicationOauthApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class OrganizationmanagerIdpApplicationOauthApplication extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_idp_application_oauth_application yandex_organizationmanager_idp_application_oauth_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_idp_application_oauth_application yandex_organizationmanager_idp_application_oauth_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class OrganizationmanagerIdpApplicationOauthApplication extends cdktf.Ter
       terraformResourceType: 'yandex_organizationmanager_idp_application_oauth_application',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

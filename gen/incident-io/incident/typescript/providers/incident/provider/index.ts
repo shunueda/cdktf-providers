@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs
+// https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IncidentProviderConfig {
   /**
   * API key for incident.io (https://app.incident.io/settings/api-keys). Sourced from the `INCIDENT_API_KEY` environment variable, if set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs#api_key IncidentProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs#api_key IncidentProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * URL of the incident.io API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs#endpoint IncidentProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs#endpoint IncidentProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs#alias IncidentProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs#alias IncidentProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs incident}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs incident}
 */
 export class IncidentProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class IncidentProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a IncidentProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IncidentProvider to import
-  * @param importFromId The id of the existing IncidentProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IncidentProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IncidentProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class IncidentProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class IncidentProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'incident',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.22.0',
-        providerVersionConstraint: '5.22.0'
+        providerVersion: '5.23.0',
+        providerVersionConstraint: '5.23.0'
       },
       terraformProviderSource: 'incident-io/incident'
     });

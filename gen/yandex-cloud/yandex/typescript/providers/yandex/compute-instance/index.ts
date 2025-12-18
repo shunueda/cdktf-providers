@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#allow_recreate ComputeInstance#allow_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#allow_recreate ComputeInstance#allow_recreate}
   */
   readonly allowRecreate?: boolean | cdktf.IResolvable;
   /**
   * If `true`, allows Terraform to stop the instance in order to update its properties. If you try to update a property that requires stopping the instance without setting this field, the update will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#allow_stopping_for_update ComputeInstance#allow_stopping_for_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#allow_stopping_for_update ComputeInstance#allow_stopping_for_update}
   */
   readonly allowStoppingForUpdate?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#description ComputeInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#description ComputeInstance#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#folder_id ComputeInstance#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#folder_id ComputeInstance#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the GPU cluster to attach this instance to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#gpu_cluster_id ComputeInstance#gpu_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#gpu_cluster_id ComputeInstance#gpu_cluster_id}
   */
   readonly gpuClusterId?: string;
   /**
   * Host name for the instance. This field is used to generate the instance `fqdn` value. The host name must be unique within the network and region. If not specified, the host name will be equal to `id` of the instance and `fqdn` will be `<id>.auto.internal`. Otherwise FQDN will be `<hostname>.<region_id>.internal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#hostname ComputeInstance#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#hostname ComputeInstance#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#id ComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#id ComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,115 +51,115 @@ export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#labels ComputeInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#labels ComputeInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Time between notification via metadata service and maintenance. E.g., `60s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#maintenance_grace_period ComputeInstance#maintenance_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#maintenance_grace_period ComputeInstance#maintenance_grace_period}
   */
   readonly maintenanceGracePeriod?: string;
   /**
   * Behavior on maintenance events. Can be: `unspecified`, `migrate`, `restart`. The default is `unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#maintenance_policy ComputeInstance#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#maintenance_policy ComputeInstance#maintenance_policy}
   */
   readonly maintenancePolicy?: string;
   /**
   * Metadata key/value pairs to make available from within the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#metadata ComputeInstance#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#metadata ComputeInstance#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#name ComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#name ComputeInstance#name}
   */
   readonly name?: string;
   /**
   * Type of network acceleration. Can be `standard` or `software_accelerated`. The default is `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#network_acceleration_type ComputeInstance#network_acceleration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#network_acceleration_type ComputeInstance#network_acceleration_type}
   */
   readonly networkAccelerationType?: string;
   /**
   * The type of virtual machine to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#platform_id ComputeInstance#platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#platform_id ComputeInstance#platform_id}
   */
   readonly platformId?: string;
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#service_account_id ComputeInstance#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#service_account_id ComputeInstance#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#zone ComputeInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#zone ComputeInstance#zone}
   */
   readonly zone?: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#boot_disk ComputeInstance#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#boot_disk ComputeInstance#boot_disk}
   */
   readonly bootDisk: ComputeInstanceBootDisk;
   /**
   * filesystem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#filesystem ComputeInstance#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#filesystem ComputeInstance#filesystem}
   */
   readonly filesystem?: ComputeInstanceFilesystem[] | cdktf.IResolvable;
   /**
   * local_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#local_disk ComputeInstance#local_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#local_disk ComputeInstance#local_disk}
   */
   readonly localDisk?: ComputeInstanceLocalDisk[] | cdktf.IResolvable;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#metadata_options ComputeInstance#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#metadata_options ComputeInstance#metadata_options}
   */
   readonly metadataOptions?: ComputeInstanceMetadataOptions;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#network_interface ComputeInstance#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#network_interface ComputeInstance#network_interface}
   */
   readonly networkInterface: ComputeInstanceNetworkInterface[] | cdktf.IResolvable;
   /**
   * placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#placement_policy ComputeInstance#placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#placement_policy ComputeInstance#placement_policy}
   */
   readonly placementPolicy?: ComputeInstancePlacementPolicy;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#resources ComputeInstance#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#resources ComputeInstance#resources}
   */
   readonly resources: ComputeInstanceResources;
   /**
   * scheduling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#scheduling_policy ComputeInstance#scheduling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#scheduling_policy ComputeInstance#scheduling_policy}
   */
   readonly schedulingPolicy?: ComputeInstanceSchedulingPolicy;
   /**
   * secondary_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#secondary_disk ComputeInstance#secondary_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#secondary_disk ComputeInstance#secondary_disk}
   */
   readonly secondaryDisk?: ComputeInstanceSecondaryDisk[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
   */
   readonly timeouts?: ComputeInstanceTimeouts;
 }
@@ -394,49 +394,49 @@ export interface ComputeInstanceBootDiskInitializeParams {
   /**
   * Block size of the disk, specified in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#block_size ComputeInstance#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#block_size ComputeInstance#block_size}
   */
   readonly blockSize?: number;
   /**
   * Description of the boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#description ComputeInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#description ComputeInstance#description}
   */
   readonly description?: string;
   /**
   * A disk image to initialize this disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#image_id ComputeInstance#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#image_id ComputeInstance#image_id}
   */
   readonly imageId?: string;
   /**
   * ID of KMS symmetric key used to encrypt disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#kms_key_id ComputeInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#kms_key_id ComputeInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Name of the boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#name ComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#name ComputeInstance#name}
   */
   readonly name?: string;
   /**
   * Size of the disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#size ComputeInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#size ComputeInstance#size}
   */
   readonly size?: number;
   /**
   * A snapshot to initialize this disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#snapshot_id ComputeInstance#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#snapshot_id ComputeInstance#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Disk type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#type ComputeInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#type ComputeInstance#type}
   */
   readonly type?: string;
 }
@@ -725,31 +725,31 @@ export interface ComputeInstanceBootDisk {
   /**
   * Defines whether the disk will be auto-deleted when the instance is deleted. The default value is `True`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#auto_delete ComputeInstance#auto_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#auto_delete ComputeInstance#auto_delete}
   */
   readonly autoDelete?: boolean | cdktf.IResolvable;
   /**
   * Name that can be used to access an attached disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#device_name ComputeInstance#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#device_name ComputeInstance#device_name}
   */
   readonly deviceName?: string;
   /**
   * The ID of the existing disk (such as those managed by `yandex_compute_disk`) to attach as a boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#disk_id ComputeInstance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#disk_id ComputeInstance#disk_id}
   */
   readonly diskId?: string;
   /**
   * Type of access to the disk resource. By default, a disk is attached in `READ_WRITE` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#mode ComputeInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#mode ComputeInstance#mode}
   */
   readonly mode?: string;
   /**
   * initialize_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#initialize_params ComputeInstance#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#initialize_params ComputeInstance#initialize_params}
   */
   readonly initializeParams?: ComputeInstanceBootDiskInitializeParams;
 }
@@ -951,19 +951,19 @@ export interface ComputeInstanceFilesystem {
   /**
   * Name of the device representing the filesystem on the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#device_name ComputeInstance#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#device_name ComputeInstance#device_name}
   */
   readonly deviceName?: string;
   /**
   * ID of the filesystem that should be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#filesystem_id ComputeInstance#filesystem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#filesystem_id ComputeInstance#filesystem_id}
   */
   readonly filesystemId: string;
   /**
   * Mode of access to the filesystem that should be attached. By default, filesystem is attached in `READ_WRITE` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#mode ComputeInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#mode ComputeInstance#mode}
   */
   readonly mode?: string;
 }
@@ -1136,7 +1136,7 @@ export interface ComputeInstanceLocalDisk {
   /**
   * Size of the disk, specified in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#size_bytes ComputeInstance#size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#size_bytes ComputeInstance#size_bytes}
   */
   readonly sizeBytes: number;
 }
@@ -1254,19 +1254,19 @@ export class ComputeInstanceLocalDiskList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#aws_v1_http_endpoint ComputeInstance#aws_v1_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#aws_v1_http_endpoint ComputeInstance#aws_v1_http_endpoint}
   */
   readonly awsV1HttpEndpoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#aws_v1_http_token ComputeInstance#aws_v1_http_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#aws_v1_http_token ComputeInstance#aws_v1_http_token}
   */
   readonly awsV1HttpToken?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#gce_http_endpoint ComputeInstance#gce_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#gce_http_endpoint ComputeInstance#gce_http_endpoint}
   */
   readonly gceHttpEndpoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#gce_http_token ComputeInstance#gce_http_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#gce_http_token ComputeInstance#gce_http_token}
   */
   readonly gceHttpToken?: number;
 }
@@ -1439,25 +1439,25 @@ export interface ComputeInstanceNetworkInterfaceDnsRecord {
   /**
   * DNS zone ID (if not set, private zone used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#dns_zone_id ComputeInstance#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#dns_zone_id ComputeInstance#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN (must have a dot at the end).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#fqdn ComputeInstance#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#fqdn ComputeInstance#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create a PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ptr ComputeInstance#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ptr ComputeInstance#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ttl ComputeInstance#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ttl ComputeInstance#ttl}
   */
   readonly ttl?: number;
 }
@@ -1659,25 +1659,25 @@ export interface ComputeInstanceNetworkInterfaceIpv6DnsRecord {
   /**
   * DNS zone ID (if not set, private zone used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#dns_zone_id ComputeInstance#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#dns_zone_id ComputeInstance#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN (must have a dot at the end).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#fqdn ComputeInstance#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#fqdn ComputeInstance#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create a PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ptr ComputeInstance#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ptr ComputeInstance#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ttl ComputeInstance#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ttl ComputeInstance#ttl}
   */
   readonly ttl?: number;
 }
@@ -1879,25 +1879,25 @@ export interface ComputeInstanceNetworkInterfaceNatDnsRecord {
   /**
   * DNS zone ID (if not set, private zone used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#dns_zone_id ComputeInstance#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#dns_zone_id ComputeInstance#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN (must have a dot at the end).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#fqdn ComputeInstance#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#fqdn ComputeInstance#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create a PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ptr ComputeInstance#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ptr ComputeInstance#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ttl ComputeInstance#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ttl ComputeInstance#ttl}
   */
   readonly ttl?: number;
 }
@@ -2099,73 +2099,73 @@ export interface ComputeInstanceNetworkInterface {
   /**
   * Index of network interface, will be calculated automatically for instance create or update operations if not specified. Required for attach/detach operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#index ComputeInstance#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#index ComputeInstance#index}
   */
   readonly index?: number;
   /**
   * The private IP address to assign to the instance. If empty, the address will be automatically assigned from the specified subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ip_address ComputeInstance#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ip_address ComputeInstance#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Allocate an IPv4 address for the interface. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ipv4 ComputeInstance#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ipv4 ComputeInstance#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * If `true`, allocate an IPv6 address for the interface. The address will be automatically assigned from the specified subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ipv6 ComputeInstance#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ipv6 ComputeInstance#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The private IPv6 address to assign to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ipv6_address ComputeInstance#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ipv6_address ComputeInstance#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Provide a public address, for instance, to access the internet over NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#nat ComputeInstance#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#nat ComputeInstance#nat}
   */
   readonly nat?: boolean | cdktf.IResolvable;
   /**
   * Provide a public address, for instance, to access the internet over NAT. Address should be already reserved in web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#nat_ip_address ComputeInstance#nat_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#nat_ip_address ComputeInstance#nat_ip_address}
   */
   readonly natIpAddress?: string;
   /**
   * Security Group (SG) IDs for network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#security_group_ids ComputeInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * ID of the subnet to attach this interface to. The subnet must exist in the same zone where this instance will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#subnet_id ComputeInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#subnet_id ComputeInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#dns_record ComputeInstance#dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#dns_record ComputeInstance#dns_record}
   */
   readonly dnsRecord?: ComputeInstanceNetworkInterfaceDnsRecord[] | cdktf.IResolvable;
   /**
   * ipv6_dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#ipv6_dns_record ComputeInstance#ipv6_dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#ipv6_dns_record ComputeInstance#ipv6_dns_record}
   */
   readonly ipv6DnsRecord?: ComputeInstanceNetworkInterfaceIpv6DnsRecord[] | cdktf.IResolvable;
   /**
   * nat_dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#nat_dns_record ComputeInstance#nat_dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#nat_dns_record ComputeInstance#nat_dns_record}
   */
   readonly natDnsRecord?: ComputeInstanceNetworkInterfaceNatDnsRecord[] | cdktf.IResolvable;
 }
@@ -2607,15 +2607,15 @@ export class ComputeInstanceNetworkInterfaceList extends cdktf.ComplexList {
 }
 export interface ComputeInstancePlacementPolicyHostAffinityRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#key ComputeInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#key ComputeInstance#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#op ComputeInstance#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#op ComputeInstance#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#values ComputeInstance#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#values ComputeInstance#values}
   */
   readonly values?: string[];
 }
@@ -2798,17 +2798,17 @@ export interface ComputeInstancePlacementPolicy {
   *     host_affinity_rules = []
   * }
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#host_affinity_rules ComputeInstance#host_affinity_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#host_affinity_rules ComputeInstance#host_affinity_rules}
   */
   readonly hostAffinityRules?: ComputeInstancePlacementPolicyHostAffinityRules[] | cdktf.IResolvable;
   /**
   * Specifies the id of the Placement Group to assign to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#placement_group_id ComputeInstance#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#placement_group_id ComputeInstance#placement_group_id}
   */
   readonly placementGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#placement_group_partition ComputeInstance#placement_group_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#placement_group_partition ComputeInstance#placement_group_partition}
   */
   readonly placementGroupPartition?: number;
 }
@@ -2952,25 +2952,25 @@ export interface ComputeInstanceResources {
   /**
   * If provided, specifies baseline performance for a core as a percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#core_fraction ComputeInstance#core_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#core_fraction ComputeInstance#core_fraction}
   */
   readonly coreFraction?: number;
   /**
   * CPU cores for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#cores ComputeInstance#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#cores ComputeInstance#cores}
   */
   readonly cores: number;
   /**
   * If provided, specifies the number of GPU devices for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#gpus ComputeInstance#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#gpus ComputeInstance#gpus}
   */
   readonly gpus?: number;
   /**
   * Memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#memory ComputeInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#memory ComputeInstance#memory}
   */
   readonly memory: number;
 }
@@ -3137,7 +3137,7 @@ export interface ComputeInstanceSchedulingPolicy {
   /**
   * Specifies if the instance is preemptible. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#preemptible ComputeInstance#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#preemptible ComputeInstance#preemptible}
   */
   readonly preemptible?: boolean | cdktf.IResolvable;
 }
@@ -3223,25 +3223,25 @@ export interface ComputeInstanceSecondaryDisk {
   /**
   * Whether the disk is auto-deleted when the instance is deleted. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#auto_delete ComputeInstance#auto_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#auto_delete ComputeInstance#auto_delete}
   */
   readonly autoDelete?: boolean | cdktf.IResolvable;
   /**
   * Name that can be used to access an attached disk under `/dev/disk/by-id/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#device_name ComputeInstance#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#device_name ComputeInstance#device_name}
   */
   readonly deviceName?: string;
   /**
   * ID of the disk that is attached to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#disk_id ComputeInstance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#disk_id ComputeInstance#disk_id}
   */
   readonly diskId: string;
   /**
   * Type of access to the disk resource. By default, a disk is attached in `READ_WRITE` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#mode ComputeInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#mode ComputeInstance#mode}
   */
   readonly mode?: string;
 }
@@ -3441,15 +3441,15 @@ export class ComputeInstanceSecondaryDiskList extends cdktf.ComplexList {
 }
 export interface ComputeInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#create ComputeInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#create ComputeInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#delete ComputeInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#delete ComputeInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#update ComputeInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#update ComputeInstance#update}
   */
   readonly update?: string;
 }
@@ -3601,7 +3601,7 @@ export class ComputeInstanceTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance yandex_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance yandex_compute_instance}
 */
 export class ComputeInstance extends cdktf.TerraformResource {
 
@@ -3617,7 +3617,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInstance to import
-  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3629,7 +3629,7 @@ export class ComputeInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_instance yandex_compute_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_instance yandex_compute_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3640,8 +3640,8 @@ export class ComputeInstance extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

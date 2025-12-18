@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CustomSonarAlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alert category. Valid values are `Access control`, `Authentication`, `Best practices`, `Data at risk`, `Data protection`, `IAM misconfigurations`, `Lateral movement`, `Logging and monitoring`, `Malicious activity`, `Malware`, `Neglected assets`, `Network misconfigurations`, `Source code vulnerabilities`, `Suspicious activity`, `System integrity`, `Vendor services misconfigurations`, `Vulnerabilities`, and `Workload misconfigurations`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#category CustomSonarAlert#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#category CustomSonarAlert#category}
   */
   readonly category: string;
   /**
   * The custom compliance framework(s) that this alert relates to. In the context of a compliance framework, alerts correspond to controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#compliance_frameworks CustomSonarAlert#compliance_frameworks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#compliance_frameworks CustomSonarAlert#compliance_frameworks}
   */
   readonly complianceFrameworks?: CustomSonarAlertComplianceFrameworks[] | cdktf.IResolvable;
   /**
   * Allow Orca to adjust the score using asset context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#context_score CustomSonarAlert#context_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#context_score CustomSonarAlert#context_score}
   */
   readonly contextScore: boolean | cdktf.IResolvable;
   /**
   * Custom alert description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#description CustomSonarAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#description CustomSonarAlert#description}
   */
   readonly description?: string;
   /**
   * Custom alert name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#name CustomSonarAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#name CustomSonarAlert#name}
   */
   readonly name: string;
   /**
   * Alert score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#orca_score CustomSonarAlert#orca_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#orca_score CustomSonarAlert#orca_score}
   */
   readonly orcaScore: number;
   /**
   * A container for the remediation instructions that will appear on the 'Remediation' tab for the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#remediation_text CustomSonarAlert#remediation_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#remediation_text CustomSonarAlert#remediation_text}
   */
   readonly remediationText?: CustomSonarAlertRemediationText;
   /**
   * Sonar query that defines the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#rule CustomSonarAlert#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#rule CustomSonarAlert#rule}
   */
   readonly rule: string;
 }
@@ -60,19 +60,19 @@ export interface CustomSonarAlertComplianceFrameworks {
   /**
   * Custom framework name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#name CustomSonarAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#name CustomSonarAlert#name}
   */
   readonly name: string;
   /**
   * Custom framework control priority. Valid values are `high`, `medium`, and `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#priority CustomSonarAlert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#priority CustomSonarAlert#priority}
   */
   readonly priority: string;
   /**
   * Custom framework section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#section CustomSonarAlert#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#section CustomSonarAlert#section}
   */
   readonly section: string;
 }
@@ -239,13 +239,13 @@ export interface CustomSonarAlertRemediationText {
   /**
   * Whether or not all users are able to see the remediation instructions for this alert. To enable all users to see them, set this to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#enable CustomSonarAlert#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#enable CustomSonarAlert#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Remediation description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#text CustomSonarAlert#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#text CustomSonarAlert#text}
   */
   readonly text: string;
 }
@@ -365,7 +365,7 @@ export class CustomSonarAlertRemediationTextOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert orcasecurity_custom_sonar_alert}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert orcasecurity_custom_sonar_alert}
 */
 export class CustomSonarAlert extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class CustomSonarAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomSonarAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomSonarAlert to import
-  * @param importFromId The id of the existing CustomSonarAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomSonarAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomSonarAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class CustomSonarAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_sonar_alert orcasecurity_custom_sonar_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_sonar_alert orcasecurity_custom_sonar_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class CustomSonarAlert extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_custom_sonar_alert',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

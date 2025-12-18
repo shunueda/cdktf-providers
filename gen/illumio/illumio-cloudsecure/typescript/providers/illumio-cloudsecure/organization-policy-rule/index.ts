@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface OrganizationPolicyRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The action to take for flows matched by the organization policy rule. Must be `"Allow"`, `"Deny"` or `"OverrideDeny"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#action OrganizationPolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#action OrganizationPolicyRule#action}
   */
   readonly action: string;
   /**
   * Description of the organization policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#description OrganizationPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#description OrganizationPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Indicates whether the organization policy rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#enabled OrganizationPolicyRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#enabled OrganizationPolicyRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of IDs of IP lists to allow/deny traffic from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#from_ip_list_ids OrganizationPolicyRule#from_ip_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#from_ip_list_ids OrganizationPolicyRule#from_ip_list_ids}
   */
   readonly fromIpListIds?: string[];
   /**
   * List of CloudSecure labels of sources to allow/deny traffic from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#from_labels OrganizationPolicyRule#from_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#from_labels OrganizationPolicyRule#from_labels}
   */
   readonly fromLabels?: OrganizationPolicyRuleFromLabels[] | cdktf.IResolvable;
   /**
   * ID of the CloudSecure organization policy to contain this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#organization_policy_id OrganizationPolicyRule#organization_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#organization_policy_id OrganizationPolicyRule#organization_policy_id}
   */
   readonly organizationPolicyId: string;
   /**
   * List of IDs of IP lists to allow/deny traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#to_ip_list_ids OrganizationPolicyRule#to_ip_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#to_ip_list_ids OrganizationPolicyRule#to_ip_list_ids}
   */
   readonly toIpListIds?: string[];
   /**
   * List of CloudSecure labels of destinations to allow/deny traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#to_labels OrganizationPolicyRule#to_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#to_labels OrganizationPolicyRule#to_labels}
   */
   readonly toLabels?: OrganizationPolicyRuleToLabels[] | cdktf.IResolvable;
   /**
   * List of transport protocol ports to allow/deny traffic to. The `protocol` for each port must be `"TCP"` or `"UDP"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#to_port_ranges OrganizationPolicyRule#to_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#to_port_ranges OrganizationPolicyRule#to_port_ranges}
   */
   readonly toPortRanges: OrganizationPolicyRuleToPortRanges[] | cdktf.IResolvable;
 }
 export interface OrganizationPolicyRuleFromLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#key OrganizationPolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#key OrganizationPolicyRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#value OrganizationPolicyRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#value OrganizationPolicyRule#value}
   */
   readonly value?: string;
 }
@@ -213,11 +213,11 @@ export class OrganizationPolicyRuleFromLabelsList extends cdktf.ComplexList {
 }
 export interface OrganizationPolicyRuleToLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#key OrganizationPolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#key OrganizationPolicyRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#value OrganizationPolicyRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#value OrganizationPolicyRule#value}
   */
   readonly value?: string;
 }
@@ -362,15 +362,15 @@ export class OrganizationPolicyRuleToLabelsList extends cdktf.ComplexList {
 }
 export interface OrganizationPolicyRuleToPortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#from_port OrganizationPolicyRule#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#from_port OrganizationPolicyRule#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#protocol OrganizationPolicyRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#protocol OrganizationPolicyRule#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#to_port OrganizationPolicyRule#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#to_port OrganizationPolicyRule#to_port}
   */
   readonly toPort: number;
 }
@@ -535,7 +535,7 @@ export class OrganizationPolicyRuleToPortRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule illumio-cloudsecure_organization_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule illumio-cloudsecure_organization_policy_rule}
 */
 export class OrganizationPolicyRule extends cdktf.TerraformResource {
 
@@ -551,7 +551,7 @@ export class OrganizationPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationPolicyRule to import
-  * @param importFromId The id of the existing OrganizationPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class OrganizationPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/organization_policy_rule illumio-cloudsecure_organization_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/organization_policy_rule illumio-cloudsecure_organization_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class OrganizationPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_organization_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

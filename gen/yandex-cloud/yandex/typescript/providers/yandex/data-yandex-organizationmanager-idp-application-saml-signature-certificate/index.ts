@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertifi
   /**
   * ID of the signature certificate to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#id DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#id DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,11 +19,11 @@ export interface DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertifi
   /**
   * ID of the signature certificate to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#signature_certificate_id DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#signature_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#signature_certificate_id DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#signature_certificate_id}
   */
   readonly signatureCertificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#timeouts DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#timeouts DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#timeouts}
   */
   readonly timeouts?: DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificateTimeouts;
 }
@@ -31,25 +31,25 @@ export interface DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertifi
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#create DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#create DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#delete DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#delete DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#read DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#read DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#update DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#update DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate#update}
   */
   readonly update?: string;
 }
@@ -230,7 +230,7 @@ export class DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate yandex_organizationmanager_idp_application_saml_signature_certificate}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate yandex_organizationmanager_idp_application_saml_signature_certificate}
 */
 export class DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate extends cdktf.TerraformDataSource {
 
@@ -246,7 +246,7 @@ export class DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate
   * Generates CDKTF code for importing a DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate to import
-  * @param importFromId The id of the existing DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate yandex_organizationmanager_idp_application_saml_signature_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_idp_application_saml_signature_certificate yandex_organizationmanager_idp_application_saml_signature_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class DataYandexOrganizationmanagerIdpApplicationSamlSignatureCertificate
       terraformResourceType: 'yandex_organizationmanager_idp_application_saml_signature_certificate',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

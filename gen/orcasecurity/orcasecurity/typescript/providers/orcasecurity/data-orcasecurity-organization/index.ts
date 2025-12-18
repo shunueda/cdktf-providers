@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/organization
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataOrcasecurityOrganizationConfig extends cdktf.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/organization orcasecurity_organization}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/organization orcasecurity_organization}
 */
 export class DataOrcasecurityOrganization extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataOrcasecurityOrganization extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOrcasecurityOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOrcasecurityOrganization to import
-  * @param importFromId The id of the existing DataOrcasecurityOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOrcasecurityOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOrcasecurityOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataOrcasecurityOrganization extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/data-sources/organization orcasecurity_organization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/data-sources/organization orcasecurity_organization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataOrcasecurityOrganization extends cdktf.TerraformDataSource {
       terraformResourceType: 'orcasecurity_organization',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

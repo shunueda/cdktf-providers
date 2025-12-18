@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface RemoteFileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the app to connect to. Either container_id+stack_id or app_id must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#app_id RemoteFile#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#app_id RemoteFile#app_id}
   */
   readonly appId?: string;
   /**
   * The ID of the container to connect to. Either container_id+stack_id or app_id must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#container_id RemoteFile#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#container_id RemoteFile#container_id}
   */
   readonly containerId?: string;
   /**
   * The contents of the file; use the file function to read from a file on the local filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#contents RemoteFile#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#contents RemoteFile#contents}
   */
   readonly contents?: string;
   /**
   * The URL to fetch the contents of the file from. If specified and contents is not set, the file will be fetched from this URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#contents_from_url RemoteFile#contents_from_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#contents_from_url RemoteFile#contents_from_url}
   */
   readonly contentsFromUrl?: string;
   /**
   * The path of the file on the remote server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#path RemoteFile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#path RemoteFile#path}
   */
   readonly path: string;
   /**
   * The SSH private key to use for the connection. If not specified, it will default to the contents ~/.ssh/id_rsa; use the file function to specify a file path instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#ssh_private_key RemoteFile#ssh_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#ssh_private_key RemoteFile#ssh_private_key}
   */
   readonly sshPrivateKey?: string;
   /**
   * The SSH username to use for the connection. If not specified, it will default to the currently authenticated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#ssh_user RemoteFile#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#ssh_user RemoteFile#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * The ID of the stack that the container belongs to. Required when container_id is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#stack_id RemoteFile#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#stack_id RemoteFile#stack_id}
   */
   readonly stackId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file mittwald_remote_file}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file mittwald_remote_file}
 */
 export class RemoteFile extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class RemoteFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteFile to import
-  * @param importFromId The id of the existing RemoteFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class RemoteFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/remote_file mittwald_remote_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/remote_file mittwald_remote_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class RemoteFile extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_remote_file',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

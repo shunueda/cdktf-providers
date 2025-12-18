@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection_service.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#connection_id ConnectionmanagerConnection#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#connection_id ConnectionmanagerConnection#connection_id}
   */
   readonly connectionId?: string;
   /**
@@ -20,7 +20,7 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#description ConnectionmanagerConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#description ConnectionmanagerConnection#description}
   */
   readonly description?: string;
   /**
@@ -28,7 +28,7 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#folder_id ConnectionmanagerConnection#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#folder_id ConnectionmanagerConnection#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -36,7 +36,7 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection_service.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#id ConnectionmanagerConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#id ConnectionmanagerConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#labels ConnectionmanagerConnection#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#labels ConnectionmanagerConnection#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -55,7 +55,7 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#name ConnectionmanagerConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#name ConnectionmanagerConnection#name}
   */
   readonly name?: string;
   /**
@@ -63,11 +63,11 @@ export interface ConnectionmanagerConnectionConfig extends cdktf.TerraformMetaAr
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#params ConnectionmanagerConnection#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#params ConnectionmanagerConnection#params}
   */
   readonly params?: ConnectionmanagerConnectionParams;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#timeouts ConnectionmanagerConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#timeouts ConnectionmanagerConnection#timeouts}
   */
   readonly timeouts?: ConnectionmanagerConnectionTimeouts;
 }
@@ -77,7 +77,7 @@ export interface ConnectionmanagerConnectionLockboxSecret {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#id ConnectionmanagerConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#id ConnectionmanagerConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,19 +181,19 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -201,26 +201,26 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -494,7 +494,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -502,7 +502,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -627,7 +627,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -636,7 +636,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -645,7 +645,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPass
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -801,7 +801,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsClickhouseAuthUserPasswordPassword;
   /**
@@ -809,7 +809,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -936,7 +936,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseAuth {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsClickhouseAuthUserPassword;
 }
@@ -1034,7 +1034,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -1042,7 +1042,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -1050,7 +1050,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#http_port ConnectionmanagerConnection#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#http_port ConnectionmanagerConnection#http_port}
   */
   readonly httpPort?: number;
   /**
@@ -1058,7 +1058,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#shard_name ConnectionmanagerConnection#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#shard_name ConnectionmanagerConnection#shard_name}
   */
   readonly shardName?: string;
   /**
@@ -1066,7 +1066,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tcp_port ConnectionmanagerConnection#tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tcp_port ConnectionmanagerConnection#tcp_port}
   */
   readonly tcpPort?: number;
 }
@@ -1302,7 +1302,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterShardGroups {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#name ConnectionmanagerConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#name ConnectionmanagerConnection#name}
   */
   readonly name?: string;
   /**
@@ -1310,7 +1310,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterShardGroups {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#shard_names ConnectionmanagerConnection#shard_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#shard_names ConnectionmanagerConnection#shard_names}
   */
   readonly shardNames?: string[];
 }
@@ -1518,7 +1518,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterTlsParamsTls 
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -1616,7 +1616,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsClickhouseClusterTlsParamsDisabled;
   /**
@@ -1624,7 +1624,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsClickhouseClusterTlsParamsTls;
 }
@@ -1751,7 +1751,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseCluster {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsClickhouseClusterHosts[] | cdktf.IResolvable;
   /**
@@ -1759,7 +1759,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseCluster {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#shard_groups ConnectionmanagerConnection#shard_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#shard_groups ConnectionmanagerConnection#shard_groups}
   */
   readonly shardGroups?: ConnectionmanagerConnectionParamsClickhouseClusterShardGroups[] | cdktf.IResolvable;
   /**
@@ -1767,7 +1767,7 @@ export interface ConnectionmanagerConnectionParamsClickhouseCluster {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsClickhouseClusterTlsParams;
 }
@@ -1923,14 +1923,14 @@ export interface ConnectionmanagerConnectionParamsClickhouse {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsClickhouseAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsClickhouseCluster;
   /**
@@ -1938,14 +1938,14 @@ export interface ConnectionmanagerConnectionParamsClickhouse {
   * filename: yandex/cloud/connectionmanager/v1/clickhouse.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: string[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -2128,19 +2128,19 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -2148,26 +2148,26 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -2441,7 +2441,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -2449,7 +2449,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -2574,7 +2574,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -2583,7 +2583,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -2592,7 +2592,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassw
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -2748,7 +2748,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsGreenplumAuthUserPasswordPassword;
   /**
@@ -2756,7 +2756,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -2883,7 +2883,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumAuth {
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsGreenplumAuthUserPassword;
 }
@@ -2981,7 +2981,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterCoordinatorHos
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -2989,7 +2989,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterCoordinatorHos
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -2997,7 +2997,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterCoordinatorHos
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -3005,7 +3005,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterCoordinatorHos
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
 }
@@ -3271,7 +3271,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -3369,7 +3369,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsGreenplumClusterTlsParamsDisabled;
   /**
@@ -3377,7 +3377,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsGreenplumClusterTlsParamsTls;
 }
@@ -3504,7 +3504,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumCluster {
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#coordinator_hosts ConnectionmanagerConnection#coordinator_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#coordinator_hosts ConnectionmanagerConnection#coordinator_hosts}
   */
   readonly coordinatorHosts?: ConnectionmanagerConnectionParamsGreenplumClusterCoordinatorHosts[] | cdktf.IResolvable;
   /**
@@ -3512,7 +3512,7 @@ export interface ConnectionmanagerConnectionParamsGreenplumCluster {
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsGreenplumClusterTlsParams;
 }
@@ -3639,14 +3639,14 @@ export interface ConnectionmanagerConnectionParamsGreenplum {
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsGreenplumAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsGreenplumCluster;
   /**
@@ -3654,14 +3654,14 @@ export interface ConnectionmanagerConnectionParamsGreenplum {
   * filename: yandex/cloud/connectionmanager/v1/greenplum.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: string[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -3903,19 +3903,19 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPasswordPasswordG
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -3923,26 +3923,26 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPasswordPasswordG
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -4216,7 +4216,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPasswordPasswordG
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -4224,7 +4224,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPasswordPasswordG
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsKafkaAuthSaslPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -4349,7 +4349,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPassword {
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -4358,7 +4358,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPassword {
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsKafkaAuthSaslPasswordPasswordGenerationOptions;
   /**
@@ -4367,7 +4367,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSaslPassword {
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -4523,7 +4523,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSasl {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsKafkaAuthSaslPassword;
   /**
@@ -4531,7 +4531,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSasl {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#supported_mechanisms ConnectionmanagerConnection#supported_mechanisms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#supported_mechanisms ConnectionmanagerConnection#supported_mechanisms}
   */
   readonly supportedMechanisms?: string[];
   /**
@@ -4539,7 +4539,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuthSasl {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -4695,7 +4695,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuth {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsKafkaAuthDisabled;
   /**
@@ -4703,7 +4703,7 @@ export interface ConnectionmanagerConnectionParamsKafkaAuth {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#sasl ConnectionmanagerConnection#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#sasl ConnectionmanagerConnection#sasl}
   */
   readonly sasl?: ConnectionmanagerConnectionParamsKafkaAuthSasl;
 }
@@ -4830,7 +4830,7 @@ export interface ConnectionmanagerConnectionParamsKafkaClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -4838,7 +4838,7 @@ export interface ConnectionmanagerConnectionParamsKafkaClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -4846,7 +4846,7 @@ export interface ConnectionmanagerConnectionParamsKafkaClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
 }
@@ -5083,7 +5083,7 @@ export interface ConnectionmanagerConnectionParamsKafkaClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -5181,7 +5181,7 @@ export interface ConnectionmanagerConnectionParamsKafkaClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsKafkaClusterTlsParamsDisabled;
   /**
@@ -5189,7 +5189,7 @@ export interface ConnectionmanagerConnectionParamsKafkaClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsKafkaClusterTlsParamsTls;
 }
@@ -5316,7 +5316,7 @@ export interface ConnectionmanagerConnectionParamsKafkaCluster {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsKafkaClusterHosts[] | cdktf.IResolvable;
   /**
@@ -5324,7 +5324,7 @@ export interface ConnectionmanagerConnectionParamsKafkaCluster {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsKafkaClusterTlsParams;
 }
@@ -5451,21 +5451,21 @@ export interface ConnectionmanagerConnectionParamsKafka {
   * filename: yandex/cloud/connectionmanager/v1/kafka.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsKafkaAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsKafkaCluster;
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -5619,19 +5619,19 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -5639,26 +5639,26 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -5932,7 +5932,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -5940,7 +5940,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -6065,7 +6065,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -6074,7 +6074,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -6083,7 +6083,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPasswor
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -6239,7 +6239,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsMongodbAuthUserPasswordPassword;
   /**
@@ -6247,7 +6247,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -6374,7 +6374,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuth {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth_source ConnectionmanagerConnection#auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth_source ConnectionmanagerConnection#auth_source}
   */
   readonly authSource?: string;
   /**
@@ -6382,7 +6382,7 @@ export interface ConnectionmanagerConnectionParamsMongodbAuth {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsMongodbAuthUserPassword;
 }
@@ -6509,7 +6509,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -6517,7 +6517,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -6525,7 +6525,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -6533,7 +6533,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
   /**
@@ -6541,7 +6541,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#type ConnectionmanagerConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#type ConnectionmanagerConnection#type}
   */
   readonly type?: string;
 }
@@ -6836,7 +6836,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -6934,7 +6934,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsMongodbClusterTlsParamsDisabled;
   /**
@@ -6942,7 +6942,7 @@ export interface ConnectionmanagerConnectionParamsMongodbClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsMongodbClusterTlsParamsTls;
 }
@@ -7069,7 +7069,7 @@ export interface ConnectionmanagerConnectionParamsMongodbCluster {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsMongodbClusterHosts[] | cdktf.IResolvable;
   /**
@@ -7077,7 +7077,7 @@ export interface ConnectionmanagerConnectionParamsMongodbCluster {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsMongodbClusterTlsParams;
 }
@@ -7204,14 +7204,14 @@ export interface ConnectionmanagerConnectionParamsMongodb {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsMongodbAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsMongodbCluster;
   /**
@@ -7219,14 +7219,14 @@ export interface ConnectionmanagerConnectionParamsMongodb {
   * filename: yandex/cloud/connectionmanager/v1/mongodb.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: string[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -7409,19 +7409,19 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPasswordP
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -7429,26 +7429,26 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPasswordP
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -7722,7 +7722,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPasswordP
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -7730,7 +7730,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPasswordP
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -7855,7 +7855,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPassword 
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -7864,7 +7864,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPassword 
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -7873,7 +7873,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPassword 
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -8029,7 +8029,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsMysqlAuthUserPasswordPassword;
   /**
@@ -8037,7 +8037,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -8164,7 +8164,7 @@ export interface ConnectionmanagerConnectionParamsMysqlAuth {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsMysqlAuthUserPassword;
 }
@@ -8262,7 +8262,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -8270,7 +8270,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -8278,7 +8278,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -8286,7 +8286,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
 }
@@ -8552,7 +8552,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -8650,7 +8650,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsMysqlClusterTlsParamsDisabled;
   /**
@@ -8658,7 +8658,7 @@ export interface ConnectionmanagerConnectionParamsMysqlClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsMysqlClusterTlsParamsTls;
 }
@@ -8785,7 +8785,7 @@ export interface ConnectionmanagerConnectionParamsMysqlCluster {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsMysqlClusterHosts[] | cdktf.IResolvable;
   /**
@@ -8793,7 +8793,7 @@ export interface ConnectionmanagerConnectionParamsMysqlCluster {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsMysqlClusterTlsParams;
 }
@@ -8920,14 +8920,14 @@ export interface ConnectionmanagerConnectionParamsMysql {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsMysqlAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsMysqlCluster;
   /**
@@ -8935,14 +8935,14 @@ export interface ConnectionmanagerConnectionParamsMysql {
   * filename: yandex/cloud/connectionmanager/v1/mysql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: string[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -9125,19 +9125,19 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -9145,26 +9145,26 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -9438,7 +9438,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -9446,7 +9446,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -9571,7 +9571,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -9580,7 +9580,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -9589,7 +9589,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPass
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -9745,7 +9745,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsOpensearchAuthUserPasswordPassword;
   /**
@@ -9753,7 +9753,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -9880,7 +9880,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchAuth {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsOpensearchAuthUserPassword;
 }
@@ -9978,7 +9978,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -9986,7 +9986,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -9994,7 +9994,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -10002,7 +10002,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#roles ConnectionmanagerConnection#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#roles ConnectionmanagerConnection#roles}
   */
   readonly roles?: string[];
 }
@@ -10268,7 +10268,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterTlsParamsTls 
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -10366,7 +10366,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsOpensearchClusterTlsParamsDisabled;
   /**
@@ -10374,7 +10374,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsOpensearchClusterTlsParamsTls;
 }
@@ -10501,7 +10501,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchCluster {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsOpensearchClusterHosts[] | cdktf.IResolvable;
   /**
@@ -10509,7 +10509,7 @@ export interface ConnectionmanagerConnectionParamsOpensearchCluster {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsOpensearchClusterTlsParams;
 }
@@ -10636,21 +10636,21 @@ export interface ConnectionmanagerConnectionParamsOpensearch {
   * filename: yandex/cloud/connectionmanager/v1/opensearch.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsOpensearchAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsOpensearchCluster;
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -10804,19 +10804,19 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -10824,26 +10824,26 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -11117,7 +11117,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -11125,7 +11125,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -11250,7 +11250,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -11259,7 +11259,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -11268,7 +11268,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPass
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -11424,7 +11424,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsPostgresqlAuthUserPasswordPassword;
   /**
@@ -11432,7 +11432,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -11559,7 +11559,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlAuth {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsPostgresqlAuthUserPassword;
 }
@@ -11657,7 +11657,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -11665,7 +11665,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -11673,7 +11673,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -11681,7 +11681,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#replica_type ConnectionmanagerConnection#replica_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#replica_type ConnectionmanagerConnection#replica_type}
   */
   readonly replicaType?: string;
   /**
@@ -11689,7 +11689,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
 }
@@ -11984,7 +11984,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterTlsParamsTls 
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -12082,7 +12082,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsPostgresqlClusterTlsParamsDisabled;
   /**
@@ -12090,7 +12090,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsPostgresqlClusterTlsParamsTls;
 }
@@ -12217,7 +12217,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlCluster {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsPostgresqlClusterHosts[] | cdktf.IResolvable;
   /**
@@ -12225,7 +12225,7 @@ export interface ConnectionmanagerConnectionParamsPostgresqlCluster {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsPostgresqlClusterTlsParams;
 }
@@ -12352,14 +12352,14 @@ export interface ConnectionmanagerConnectionParamsPostgresql {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsPostgresqlAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsPostgresqlCluster;
   /**
@@ -12367,14 +12367,14 @@ export interface ConnectionmanagerConnectionParamsPostgresql {
   * filename: yandex/cloud/connectionmanager/v1/postgresql.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: string[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -12557,19 +12557,19 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPasswordP
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -12577,26 +12577,26 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPasswordP
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -12870,7 +12870,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPasswordP
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -12878,7 +12878,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPasswordP
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsRedisAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -13003,7 +13003,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPassword 
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -13012,7 +13012,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPassword 
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsRedisAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -13021,7 +13021,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPasswordPassword 
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -13177,7 +13177,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsRedisAuthUserPasswordPassword;
   /**
@@ -13185,7 +13185,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -13312,7 +13312,7 @@ export interface ConnectionmanagerConnectionParamsRedisAuth {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsRedisAuthUserPassword;
 }
@@ -13410,7 +13410,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -13418,7 +13418,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -13426,7 +13426,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -13434,7 +13434,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
   /**
@@ -13442,7 +13442,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#shard_name ConnectionmanagerConnection#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#shard_name ConnectionmanagerConnection#shard_name}
   */
   readonly shardName?: string;
 }
@@ -13737,7 +13737,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -13835,7 +13835,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsRedisClusterTlsParamsDisabled;
   /**
@@ -13843,7 +13843,7 @@ export interface ConnectionmanagerConnectionParamsRedisClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsRedisClusterTlsParamsTls;
 }
@@ -13970,7 +13970,7 @@ export interface ConnectionmanagerConnectionParamsRedisCluster {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsRedisClusterHosts[] | cdktf.IResolvable;
   /**
@@ -13978,7 +13978,7 @@ export interface ConnectionmanagerConnectionParamsRedisCluster {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#sentinel_port ConnectionmanagerConnection#sentinel_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#sentinel_port ConnectionmanagerConnection#sentinel_port}
   */
   readonly sentinelPort?: number;
   /**
@@ -13986,7 +13986,7 @@ export interface ConnectionmanagerConnectionParamsRedisCluster {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsRedisClusterTlsParams;
 }
@@ -14142,7 +14142,7 @@ export interface ConnectionmanagerConnectionParamsRedis {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsRedisAuth;
   /**
@@ -14150,7 +14150,7 @@ export interface ConnectionmanagerConnectionParamsRedis {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsRedisCluster;
   /**
@@ -14158,7 +14158,7 @@ export interface ConnectionmanagerConnectionParamsRedis {
   * filename: yandex/cloud/connectionmanager/v1/redis.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: number[];
 }
@@ -14312,19 +14312,19 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -14332,26 +14332,26 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -14625,7 +14625,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -14633,7 +14633,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -14758,7 +14758,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -14767,7 +14767,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -14776,7 +14776,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswo
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -14932,7 +14932,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsStoredocAuthUserPasswordPassword;
   /**
@@ -14940,7 +14940,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -15067,7 +15067,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuth {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth_source ConnectionmanagerConnection#auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth_source ConnectionmanagerConnection#auth_source}
   */
   readonly authSource?: string;
   /**
@@ -15075,7 +15075,7 @@ export interface ConnectionmanagerConnectionParamsStoredocAuth {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsStoredocAuthUserPassword;
 }
@@ -15202,7 +15202,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -15210,7 +15210,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -15218,7 +15218,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -15226,7 +15226,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
   /**
@@ -15234,7 +15234,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#type ConnectionmanagerConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#type ConnectionmanagerConnection#type}
   */
   readonly type?: string;
 }
@@ -15529,7 +15529,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -15627,7 +15627,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabled;
   /**
@@ -15635,7 +15635,7 @@ export interface ConnectionmanagerConnectionParamsStoredocClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls;
 }
@@ -15762,7 +15762,7 @@ export interface ConnectionmanagerConnectionParamsStoredocCluster {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsStoredocClusterHosts[] | cdktf.IResolvable;
   /**
@@ -15770,7 +15770,7 @@ export interface ConnectionmanagerConnectionParamsStoredocCluster {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsStoredocClusterTlsParams;
 }
@@ -15897,14 +15897,14 @@ export interface ConnectionmanagerConnectionParamsStoredoc {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsStoredocAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsStoredocCluster;
   /**
@@ -15912,14 +15912,14 @@ export interface ConnectionmanagerConnectionParamsStoredoc {
   * filename: yandex/cloud/connectionmanager/v1/storedoc.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: string[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is mutually
   *  exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -16102,19 +16102,19 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordP
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -16122,26 +16122,26 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordP
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -16415,7 +16415,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordP
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -16423,7 +16423,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordP
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -16548,7 +16548,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPassword 
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -16557,7 +16557,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPassword 
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -16566,7 +16566,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPassword 
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -16722,7 +16722,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsTrinoAuthUserPasswordPassword;
   /**
@@ -16730,7 +16730,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -16857,7 +16857,7 @@ export interface ConnectionmanagerConnectionParamsTrinoAuth {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsTrinoAuthUserPassword;
 }
@@ -16955,7 +16955,7 @@ export interface ConnectionmanagerConnectionParamsTrinoClusterCoordinator {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -16963,7 +16963,7 @@ export interface ConnectionmanagerConnectionParamsTrinoClusterCoordinator {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
 }
@@ -17149,7 +17149,7 @@ export interface ConnectionmanagerConnectionParamsTrinoClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -17247,7 +17247,7 @@ export interface ConnectionmanagerConnectionParamsTrinoClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsTrinoClusterTlsParamsDisabled;
   /**
@@ -17255,7 +17255,7 @@ export interface ConnectionmanagerConnectionParamsTrinoClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsTrinoClusterTlsParamsTls;
 }
@@ -17382,7 +17382,7 @@ export interface ConnectionmanagerConnectionParamsTrinoCluster {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#coordinator ConnectionmanagerConnection#coordinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#coordinator ConnectionmanagerConnection#coordinator}
   */
   readonly coordinator?: ConnectionmanagerConnectionParamsTrinoClusterCoordinator;
   /**
@@ -17390,7 +17390,7 @@ export interface ConnectionmanagerConnectionParamsTrinoCluster {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsTrinoClusterTlsParams;
 }
@@ -17517,7 +17517,7 @@ export interface ConnectionmanagerConnectionParamsTrino {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsTrinoAuth;
   /**
@@ -17525,7 +17525,7 @@ export interface ConnectionmanagerConnectionParamsTrino {
   * filename: yandex/cloud/connectionmanager/v1/trino.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsTrinoCluster;
 }
@@ -17650,19 +17650,19 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   /**
   * a string of punctuation characters to exclude from the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#excluded_punctuation ConnectionmanagerConnection#excluded_punctuation}
   */
   readonly excludedPunctuation?: string;
   /**
   * whether at least one 0..9 character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_digits ConnectionmanagerConnection#include_digits}
   */
   readonly includeDigits?: boolean | cdktf.IResolvable;
   /**
   * whether at least one a..z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_lowercase ConnectionmanagerConnection#include_lowercase}
   */
   readonly includeLowercase?: boolean | cdktf.IResolvable;
   /**
@@ -17670,26 +17670,26 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   *  punctuation characters by default: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
   *  to customize the punctuation characters, see included_punctuation and excluded_punctuation below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_punctuation ConnectionmanagerConnection#include_punctuation}
   */
   readonly includePunctuation?: boolean | cdktf.IResolvable;
   /**
   * whether at least one A..Z character is included in the password, true by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#include_uppercase ConnectionmanagerConnection#include_uppercase}
   */
   readonly includeUppercase?: boolean | cdktf.IResolvable;
   /**
   * If include_punctuation is true, one of these two fields (not both) may be used optionally to customize the punctuation:
   *  a string of specific punctuation characters to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#included_punctuation ConnectionmanagerConnection#included_punctuation}
   */
   readonly includedPunctuation?: string;
   /**
   * password length; by default, a reasonable length will be decided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#length ConnectionmanagerConnection#length}
   */
   readonly length?: number;
 }
@@ -17963,7 +17963,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   *  PasswordGenerationOptions, the password will be re-generated. If the
   *  same cookie is passed, the password will not change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cookie ConnectionmanagerConnection#cookie}
   */
   readonly cookie?: string;
   /**
@@ -17971,7 +17971,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_password_generation_options ConnectionmanagerConnection#lockbox_password_generation_options}
   */
   readonly lockboxPasswordGenerationOptions?: ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions;
 }
@@ -18096,7 +18096,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   /**
   * Read-only. Do not fill this field in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#lockbox_secret_key ConnectionmanagerConnection#lockbox_secret_key}
   */
   readonly lockboxSecretKey?: string;
   /**
@@ -18105,7 +18105,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   *  "password_generation_options" you have to explicitly clear the "raw"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password_generation_options ConnectionmanagerConnection#password_generation_options}
   */
   readonly passwordGenerationOptions?: ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPasswordPasswordGenerationOptions;
   /**
@@ -18114,7 +18114,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword
   *  password you have to explicitly clear the "password_generation_options"
   *  field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#raw ConnectionmanagerConnection#raw}
   */
   readonly raw?: string;
 }
@@ -18270,7 +18270,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#password ConnectionmanagerConnection#password}
   */
   readonly password?: ConnectionmanagerConnectionParamsValkeyAuthUserPasswordPassword;
   /**
@@ -18278,7 +18278,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuthUserPassword {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user ConnectionmanagerConnection#user}
   */
   readonly user?: string;
 }
@@ -18405,7 +18405,7 @@ export interface ConnectionmanagerConnectionParamsValkeyAuth {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#user_password ConnectionmanagerConnection#user_password}
   */
   readonly userPassword?: ConnectionmanagerConnectionParamsValkeyAuthUserPassword;
 }
@@ -18503,7 +18503,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#health ConnectionmanagerConnection#health}
   */
   readonly health?: string;
   /**
@@ -18511,7 +18511,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#host ConnectionmanagerConnection#host}
   */
   readonly host?: string;
   /**
@@ -18519,7 +18519,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#port ConnectionmanagerConnection#port}
   */
   readonly port?: number;
   /**
@@ -18527,7 +18527,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#role ConnectionmanagerConnection#role}
   */
   readonly role?: string;
   /**
@@ -18535,7 +18535,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterHosts {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#shard_name ConnectionmanagerConnection#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#shard_name ConnectionmanagerConnection#shard_name}
   */
   readonly shardName?: string;
 }
@@ -18830,7 +18830,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterTlsParamsTls {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#ca_certificate ConnectionmanagerConnection#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -18928,7 +18928,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#disabled ConnectionmanagerConnection#disabled}
   */
   readonly disabled?: ConnectionmanagerConnectionParamsValkeyClusterTlsParamsDisabled;
   /**
@@ -18936,7 +18936,7 @@ export interface ConnectionmanagerConnectionParamsValkeyClusterTlsParams {
   * filename: yandex/cloud/connectionmanager/v1/common.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls ConnectionmanagerConnection#tls}
   */
   readonly tls?: ConnectionmanagerConnectionParamsValkeyClusterTlsParamsTls;
 }
@@ -19063,7 +19063,7 @@ export interface ConnectionmanagerConnectionParamsValkeyCluster {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#hosts ConnectionmanagerConnection#hosts}
   */
   readonly hosts?: ConnectionmanagerConnectionParamsValkeyClusterHosts[] | cdktf.IResolvable;
   /**
@@ -19071,7 +19071,7 @@ export interface ConnectionmanagerConnectionParamsValkeyCluster {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#sentinel_port ConnectionmanagerConnection#sentinel_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#sentinel_port ConnectionmanagerConnection#sentinel_port}
   */
   readonly sentinelPort?: number;
   /**
@@ -19079,7 +19079,7 @@ export interface ConnectionmanagerConnectionParamsValkeyCluster {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#tls_params ConnectionmanagerConnection#tls_params}
   */
   readonly tlsParams?: ConnectionmanagerConnectionParamsValkeyClusterTlsParams;
 }
@@ -19235,14 +19235,14 @@ export interface ConnectionmanagerConnectionParamsValkey {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#auth ConnectionmanagerConnection#auth}
   */
   readonly auth?: ConnectionmanagerConnectionParamsValkeyAuth;
   /**
   * When creating/updating Connection, the field "cluster" is mutually
   *  exclusive with "managed_cluster_id".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#cluster ConnectionmanagerConnection#cluster}
   */
   readonly cluster?: ConnectionmanagerConnectionParamsValkeyCluster;
   /**
@@ -19250,14 +19250,14 @@ export interface ConnectionmanagerConnectionParamsValkey {
   * filename: yandex/cloud/connectionmanager/v1/valkey.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#databases ConnectionmanagerConnection#databases}
   */
   readonly databases?: number[];
   /**
   * When creating/updating Connection, the field "managed_cluster_id" is
   *  mutually exclusive with "cluster".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#managed_cluster_id ConnectionmanagerConnection#managed_cluster_id}
   */
   readonly managedClusterId?: string;
 }
@@ -19442,7 +19442,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#clickhouse ConnectionmanagerConnection#clickhouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#clickhouse ConnectionmanagerConnection#clickhouse}
   */
   readonly clickhouse?: ConnectionmanagerConnectionParamsClickhouse;
   /**
@@ -19450,7 +19450,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#greenplum ConnectionmanagerConnection#greenplum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#greenplum ConnectionmanagerConnection#greenplum}
   */
   readonly greenplum?: ConnectionmanagerConnectionParamsGreenplum;
   /**
@@ -19458,7 +19458,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#kafka ConnectionmanagerConnection#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#kafka ConnectionmanagerConnection#kafka}
   */
   readonly kafka?: ConnectionmanagerConnectionParamsKafka;
   /**
@@ -19466,7 +19466,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#mongodb ConnectionmanagerConnection#mongodb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#mongodb ConnectionmanagerConnection#mongodb}
   */
   readonly mongodb?: ConnectionmanagerConnectionParamsMongodb;
   /**
@@ -19474,7 +19474,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#mysql ConnectionmanagerConnection#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#mysql ConnectionmanagerConnection#mysql}
   */
   readonly mysql?: ConnectionmanagerConnectionParamsMysql;
   /**
@@ -19482,7 +19482,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#opensearch ConnectionmanagerConnection#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#opensearch ConnectionmanagerConnection#opensearch}
   */
   readonly opensearch?: ConnectionmanagerConnectionParamsOpensearch;
   /**
@@ -19490,7 +19490,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#postgresql ConnectionmanagerConnection#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#postgresql ConnectionmanagerConnection#postgresql}
   */
   readonly postgresql?: ConnectionmanagerConnectionParamsPostgresql;
   /**
@@ -19498,7 +19498,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#redis ConnectionmanagerConnection#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#redis ConnectionmanagerConnection#redis}
   */
   readonly redis?: ConnectionmanagerConnectionParamsRedis;
   /**
@@ -19506,7 +19506,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#storedoc ConnectionmanagerConnection#storedoc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#storedoc ConnectionmanagerConnection#storedoc}
   */
   readonly storedoc?: ConnectionmanagerConnectionParamsStoredoc;
   /**
@@ -19514,7 +19514,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#trino ConnectionmanagerConnection#trino}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#trino ConnectionmanagerConnection#trino}
   */
   readonly trino?: ConnectionmanagerConnectionParamsTrino;
   /**
@@ -19522,7 +19522,7 @@ export interface ConnectionmanagerConnectionParams {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#valkey ConnectionmanagerConnection#valkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#valkey ConnectionmanagerConnection#valkey}
   */
   readonly valkey?: ConnectionmanagerConnectionParamsValkey;
 }
@@ -19908,25 +19908,25 @@ export interface ConnectionmanagerConnectionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#create ConnectionmanagerConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#create ConnectionmanagerConnection#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#delete ConnectionmanagerConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#delete ConnectionmanagerConnection#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#read ConnectionmanagerConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#read ConnectionmanagerConnection#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#update ConnectionmanagerConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#update ConnectionmanagerConnection#update}
   */
   readonly update?: string;
 }
@@ -20107,7 +20107,7 @@ export class ConnectionmanagerConnectionTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection yandex_connectionmanager_connection}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection yandex_connectionmanager_connection}
 */
 export class ConnectionmanagerConnection extends cdktf.TerraformResource {
 
@@ -20123,7 +20123,7 @@ export class ConnectionmanagerConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectionmanagerConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectionmanagerConnection to import
-  * @param importFromId The id of the existing ConnectionmanagerConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectionmanagerConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectionmanagerConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20135,7 +20135,7 @@ export class ConnectionmanagerConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/connectionmanager_connection yandex_connectionmanager_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/connectionmanager_connection yandex_connectionmanager_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20146,8 +20146,8 @@ export class ConnectionmanagerConnection extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_connectionmanager_connection',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

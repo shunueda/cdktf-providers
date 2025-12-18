@@ -1,3 +1,3 @@
 # `yandex_kms_symmetric_key_iam_member`
 
-Refer to the Terraform Registry for docs: [`yandex_kms_symmetric_key_iam_member`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/kms_symmetric_key_iam_member).
+Refer to the Terraform Registry for docs: [`yandex_kms_symmetric_key_iam_member`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/kms_symmetric_key_iam_member).

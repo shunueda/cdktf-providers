@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface DataYandexMdbOpensearchClusterConfig extends cdktf.TerraformMet
   /**
   * Authentication settings for Dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#auth_settings DataYandexMdbOpensearchCluster#auth_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#auth_settings DataYandexMdbOpensearchCluster#auth_settings}
   */
   readonly authSettings?: DataYandexMdbOpensearchClusterAuthSettings;
   /**
   * The ID of the OpenSearch cluster that the resource belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#cluster_id DataYandexMdbOpensearchCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#cluster_id DataYandexMdbOpensearchCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#deletion_protection DataYandexMdbOpensearchCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#deletion_protection DataYandexMdbOpensearchCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#description DataYandexMdbOpensearchCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#description DataYandexMdbOpensearchCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#disk_encryption_key_id DataYandexMdbOpensearchCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#disk_encryption_key_id DataYandexMdbOpensearchCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#folder_id DataYandexMdbOpensearchCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#folder_id DataYandexMdbOpensearchCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#labels DataYandexMdbOpensearchCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#labels DataYandexMdbOpensearchCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the OpenSearch cluster. The name must be unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#name DataYandexMdbOpensearchCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#name DataYandexMdbOpensearchCluster#name}
   */
   readonly name?: string;
   /**
   * A set of security groups IDs which assigned to hosts of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#security_group_ids DataYandexMdbOpensearchCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#security_group_ids DataYandexMdbOpensearchCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * ID of the service account authorized for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#service_account_id DataYandexMdbOpensearchCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#service_account_id DataYandexMdbOpensearchCluster#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#config DataYandexMdbOpensearchCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#config DataYandexMdbOpensearchCluster#config}
   */
   readonly config?: DataYandexMdbOpensearchClusterConfigA;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#timeouts DataYandexMdbOpensearchCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#timeouts DataYandexMdbOpensearchCluster#timeouts}
   */
   readonly timeouts?: DataYandexMdbOpensearchClusterTimeouts;
 }
@@ -84,13 +84,13 @@ export interface DataYandexMdbOpensearchClusterAuthSettingsSaml {
   /**
   * Roles key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#roles_key DataYandexMdbOpensearchCluster#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#roles_key DataYandexMdbOpensearchCluster#roles_key}
   */
   readonly rolesKey?: string;
   /**
   * Subject key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#subject_key DataYandexMdbOpensearchCluster#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#subject_key DataYandexMdbOpensearchCluster#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -240,7 +240,7 @@ export interface DataYandexMdbOpensearchClusterAuthSettings {
   /**
   * SAML authentication options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#saml DataYandexMdbOpensearchCluster#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#saml DataYandexMdbOpensearchCluster#saml}
   */
   readonly saml?: DataYandexMdbOpensearchClusterAuthSettingsSaml;
 }
@@ -336,13 +336,13 @@ export interface DataYandexMdbOpensearchClusterHosts {
   /**
   * Sets whether the host should get a public IP address. Can be either `true` or `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#assign_public_ip DataYandexMdbOpensearchCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#assign_public_ip DataYandexMdbOpensearchCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#subnet_id DataYandexMdbOpensearchCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#subnet_id DataYandexMdbOpensearchCluster#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -573,19 +573,19 @@ export interface DataYandexMdbOpensearchClusterConfigDashboardsNodeGroupsResourc
   /**
   * Volume of the storage available to a host, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#disk_size DataYandexMdbOpensearchCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#disk_size DataYandexMdbOpensearchCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of OpenSearch hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#disk_type_id DataYandexMdbOpensearchCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#disk_type_id DataYandexMdbOpensearchCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-opensearch/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#resource_preset_id DataYandexMdbOpensearchCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#resource_preset_id DataYandexMdbOpensearchCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -730,37 +730,37 @@ export interface DataYandexMdbOpensearchClusterConfigDashboardsNodeGroups {
   /**
   * Sets whether the hosts should get a public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#assign_public_ip DataYandexMdbOpensearchCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#assign_public_ip DataYandexMdbOpensearchCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Number of hosts in this node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#hosts_count DataYandexMdbOpensearchCluster#hosts_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#hosts_count DataYandexMdbOpensearchCluster#hosts_count}
   */
   readonly hostsCount: number;
   /**
   * Name of OpenSearch node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#name DataYandexMdbOpensearchCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#name DataYandexMdbOpensearchCluster#name}
   */
   readonly name: string;
   /**
   * A set of the subnets, to which the hosts belongs. The subnets must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#subnet_ids DataYandexMdbOpensearchCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#subnet_ids DataYandexMdbOpensearchCluster#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * A set of availability zones where hosts of node group may be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#zone_ids DataYandexMdbOpensearchCluster#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#zone_ids DataYandexMdbOpensearchCluster#zone_ids}
   */
   readonly zoneIds?: string[];
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#resources DataYandexMdbOpensearchCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#resources DataYandexMdbOpensearchCluster#resources}
   */
   readonly resources: DataYandexMdbOpensearchClusterConfigDashboardsNodeGroupsResources;
 }
@@ -1014,7 +1014,7 @@ export interface DataYandexMdbOpensearchClusterConfigDashboards {
   /**
   * node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#node_groups DataYandexMdbOpensearchCluster#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#node_groups DataYandexMdbOpensearchCluster#node_groups}
   */
   readonly nodeGroups?: DataYandexMdbOpensearchClusterConfigDashboardsNodeGroups[] | cdktf.IResolvable;
 }
@@ -1110,13 +1110,13 @@ export interface DataYandexMdbOpensearchClusterConfigOpensearchNodeGroupsDiskSiz
   /**
   * Threshold of storage usage (in percent) that triggers immediate automatic scaling of the storage. Zero value means disabled threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#emergency_usage_threshold DataYandexMdbOpensearchCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#emergency_usage_threshold DataYandexMdbOpensearchCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Threshold of storage usage (in percent) that triggers automatic scaling of the storage during the maintenance window. Zero value means disabled threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#planned_usage_threshold DataYandexMdbOpensearchCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#planned_usage_threshold DataYandexMdbOpensearchCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -1246,19 +1246,19 @@ export interface DataYandexMdbOpensearchClusterConfigOpensearchNodeGroupsResourc
   /**
   * Volume of the storage available to a host, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#disk_size DataYandexMdbOpensearchCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#disk_size DataYandexMdbOpensearchCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of OpenSearch hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#disk_type_id DataYandexMdbOpensearchCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#disk_type_id DataYandexMdbOpensearchCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-opensearch/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#resource_preset_id DataYandexMdbOpensearchCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#resource_preset_id DataYandexMdbOpensearchCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1403,37 +1403,37 @@ export interface DataYandexMdbOpensearchClusterConfigOpensearchNodeGroups {
   /**
   * Sets whether the hosts should get a public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#assign_public_ip DataYandexMdbOpensearchCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#assign_public_ip DataYandexMdbOpensearchCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Node group disk size autoscaling settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#disk_size_autoscaling DataYandexMdbOpensearchCluster#disk_size_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#disk_size_autoscaling DataYandexMdbOpensearchCluster#disk_size_autoscaling}
   */
   readonly diskSizeAutoscaling?: DataYandexMdbOpensearchClusterConfigOpensearchNodeGroupsDiskSizeAutoscaling;
   /**
   * A set of OpenSearch roles assigned to hosts. Available roles are: `DATA`, `MANAGER`. Default: [`DATA`, `MANAGER`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#roles DataYandexMdbOpensearchCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#roles DataYandexMdbOpensearchCluster#roles}
   */
   readonly roles?: string[];
   /**
   * A set of the subnets, to which the hosts belongs. The subnets must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#subnet_ids DataYandexMdbOpensearchCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#subnet_ids DataYandexMdbOpensearchCluster#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * A set of availability zones where hosts of node group may be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#zone_ids DataYandexMdbOpensearchCluster#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#zone_ids DataYandexMdbOpensearchCluster#zone_ids}
   */
   readonly zoneIds?: string[];
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#resources DataYandexMdbOpensearchCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#resources DataYandexMdbOpensearchCluster#resources}
   */
   readonly resources: DataYandexMdbOpensearchClusterConfigOpensearchNodeGroupsResources;
 }
@@ -1703,13 +1703,13 @@ export interface DataYandexMdbOpensearchClusterConfigOpensearch {
   /**
   * A set of requested OpenSearch plugins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#plugins DataYandexMdbOpensearchCluster#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#plugins DataYandexMdbOpensearchCluster#plugins}
   */
   readonly plugins?: string[];
   /**
   * node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#node_groups DataYandexMdbOpensearchCluster#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#node_groups DataYandexMdbOpensearchCluster#node_groups}
   */
   readonly nodeGroups?: DataYandexMdbOpensearchClusterConfigOpensearchNodeGroups[] | cdktf.IResolvable;
 }
@@ -1834,25 +1834,25 @@ export interface DataYandexMdbOpensearchClusterConfigA {
   /**
   * Password for admin user of OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#admin_password DataYandexMdbOpensearchCluster#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#admin_password DataYandexMdbOpensearchCluster#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Version of OpenSearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#version DataYandexMdbOpensearchCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#version DataYandexMdbOpensearchCluster#version}
   */
   readonly version?: string;
   /**
   * dashboards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#dashboards DataYandexMdbOpensearchCluster#dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#dashboards DataYandexMdbOpensearchCluster#dashboards}
   */
   readonly dashboards?: DataYandexMdbOpensearchClusterConfigDashboards;
   /**
   * opensearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#opensearch DataYandexMdbOpensearchCluster#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#opensearch DataYandexMdbOpensearchCluster#opensearch}
   */
   readonly opensearch?: DataYandexMdbOpensearchClusterConfigOpensearch;
 }
@@ -2115,19 +2115,19 @@ export interface DataYandexMdbOpensearchClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#create DataYandexMdbOpensearchCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#create DataYandexMdbOpensearchCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#delete DataYandexMdbOpensearchCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#delete DataYandexMdbOpensearchCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#update DataYandexMdbOpensearchCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#update DataYandexMdbOpensearchCluster#update}
   */
   readonly update?: string;
 }
@@ -2279,7 +2279,7 @@ export class DataYandexMdbOpensearchClusterTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster yandex_mdb_opensearch_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster yandex_mdb_opensearch_cluster}
 */
 export class DataYandexMdbOpensearchCluster extends cdktf.TerraformDataSource {
 
@@ -2295,7 +2295,7 @@ export class DataYandexMdbOpensearchCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbOpensearchCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbOpensearchCluster to import
-  * @param importFromId The id of the existing DataYandexMdbOpensearchCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbOpensearchCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbOpensearchCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2307,7 +2307,7 @@ export class DataYandexMdbOpensearchCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_opensearch_cluster yandex_mdb_opensearch_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_opensearch_cluster yandex_mdb_opensearch_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2318,8 +2318,8 @@ export class DataYandexMdbOpensearchCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_opensearch_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface MdbMongodbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#cluster_id MdbMongodbCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#cluster_id MdbMongodbCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#deletion_protection MdbMongodbCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#deletion_protection MdbMongodbCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#description MdbMongodbCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#description MdbMongodbCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_encryption_key_id MdbMongodbCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_encryption_key_id MdbMongodbCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * Deployment environment of the MongoDB cluster. Can be either `PRESTABLE` or `PRODUCTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#environment MdbMongodbCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#environment MdbMongodbCluster#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#folder_id MdbMongodbCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#folder_id MdbMongodbCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#id MdbMongodbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#id MdbMongodbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,121 +53,121 @@ export interface MdbMongodbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#labels MdbMongodbCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#labels MdbMongodbCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#network_id MdbMongodbCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#network_id MdbMongodbCluster#network_id}
   */
   readonly networkId: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#security_group_ids MdbMongodbCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#security_group_ids MdbMongodbCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#cluster_config MdbMongodbCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#cluster_config MdbMongodbCluster#cluster_config}
   */
   readonly clusterConfig: MdbMongodbClusterClusterConfig;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#database MdbMongodbCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#database MdbMongodbCluster#database}
   */
   readonly database?: MdbMongodbClusterDatabase[] | cdktf.IResolvable;
   /**
   * disk_size_autoscaling_mongocfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongocfg MdbMongodbCluster#disk_size_autoscaling_mongocfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongocfg MdbMongodbCluster#disk_size_autoscaling_mongocfg}
   */
   readonly diskSizeAutoscalingMongocfg?: MdbMongodbClusterDiskSizeAutoscalingMongocfg;
   /**
   * disk_size_autoscaling_mongod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongod MdbMongodbCluster#disk_size_autoscaling_mongod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongod MdbMongodbCluster#disk_size_autoscaling_mongod}
   */
   readonly diskSizeAutoscalingMongod?: MdbMongodbClusterDiskSizeAutoscalingMongod;
   /**
   * disk_size_autoscaling_mongoinfra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongoinfra MdbMongodbCluster#disk_size_autoscaling_mongoinfra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongoinfra MdbMongodbCluster#disk_size_autoscaling_mongoinfra}
   */
   readonly diskSizeAutoscalingMongoinfra?: MdbMongodbClusterDiskSizeAutoscalingMongoinfra;
   /**
   * disk_size_autoscaling_mongos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongos MdbMongodbCluster#disk_size_autoscaling_mongos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_autoscaling_mongos MdbMongodbCluster#disk_size_autoscaling_mongos}
   */
   readonly diskSizeAutoscalingMongos?: MdbMongodbClusterDiskSizeAutoscalingMongos;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#host MdbMongodbCluster#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#host MdbMongodbCluster#host}
   */
   readonly host: MdbMongodbClusterHost[] | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#maintenance_window MdbMongodbCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#maintenance_window MdbMongodbCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MdbMongodbClusterMaintenanceWindow;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resources MdbMongodbCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resources MdbMongodbCluster#resources}
   */
   readonly resources?: MdbMongodbClusterResources;
   /**
   * resources_mongocfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resources_mongocfg MdbMongodbCluster#resources_mongocfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resources_mongocfg MdbMongodbCluster#resources_mongocfg}
   */
   readonly resourcesMongocfg?: MdbMongodbClusterResourcesMongocfg;
   /**
   * resources_mongod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resources_mongod MdbMongodbCluster#resources_mongod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resources_mongod MdbMongodbCluster#resources_mongod}
   */
   readonly resourcesMongod?: MdbMongodbClusterResourcesMongod;
   /**
   * resources_mongoinfra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resources_mongoinfra MdbMongodbCluster#resources_mongoinfra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resources_mongoinfra MdbMongodbCluster#resources_mongoinfra}
   */
   readonly resourcesMongoinfra?: MdbMongodbClusterResourcesMongoinfra;
   /**
   * resources_mongos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resources_mongos MdbMongodbCluster#resources_mongos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resources_mongos MdbMongodbCluster#resources_mongos}
   */
   readonly resourcesMongos?: MdbMongodbClusterResourcesMongos;
   /**
   * restore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#restore MdbMongodbCluster#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#restore MdbMongodbCluster#restore}
   */
   readonly restore?: MdbMongodbClusterRestore;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#timeouts MdbMongodbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#timeouts MdbMongodbCluster#timeouts}
   */
   readonly timeouts?: MdbMongodbClusterTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#user MdbMongodbCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#user MdbMongodbCluster#user}
   */
   readonly user?: MdbMongodbClusterUser[] | cdktf.IResolvable;
 }
@@ -175,19 +175,19 @@ export interface MdbMongodbClusterClusterConfigAccess {
   /**
   * Allow access for [Yandex DataLens](https://yandex.cloud/services/datalens).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#data_lens MdbMongodbCluster#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#data_lens MdbMongodbCluster#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [DataTransfer](https://yandex.cloud/services/data-transfer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#data_transfer MdbMongodbCluster#data_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#data_transfer MdbMongodbCluster#data_transfer}
   */
   readonly dataTransfer?: boolean | cdktf.IResolvable;
   /**
   * Allow access for [WebSQL](https://yandex.cloud/ru/docs/websql/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#web_sql MdbMongodbCluster#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#web_sql MdbMongodbCluster#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
 }
@@ -331,13 +331,13 @@ export interface MdbMongodbClusterClusterConfigBackupWindowStart {
   /**
   * The hour at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#hours MdbMongodbCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#hours MdbMongodbCluster#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#minutes MdbMongodbCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#minutes MdbMongodbCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -452,7 +452,7 @@ export interface MdbMongodbClusterClusterConfigMongocfgAuditLog {
   /**
   * Configuration of the audit log filter in JSON format. For more information see [auditLog.filter](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.filter) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
   */
   readonly filter?: string;
 }
@@ -538,7 +538,7 @@ export interface MdbMongodbClusterClusterConfigMongocfgNet {
   /**
   * The maximum number of simultaneous connections that host will accept. For more information, see the [net.maxIncomingConnections](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.maxIncomingConnections) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
   */
   readonly maxIncomingConnections?: number;
 }
@@ -624,13 +624,13 @@ export interface MdbMongodbClusterClusterConfigMongocfgOperationProfiling {
   /**
   * Specifies which operations should be profiled. The following profiler levels are available: off, slow_op, all. For more information, see the [operationProfiling.mode](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.mode) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
   */
   readonly mode?: string;
   /**
   * The slow operation time threshold, in milliseconds. Operations that run for longer than this threshold are considered slow. For more information, see the [operationProfiling.slowOpThresholdMs](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.slowOpThresholdMs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
   */
   readonly slowOpThreshold?: number;
 }
@@ -745,13 +745,13 @@ export interface MdbMongodbClusterClusterConfigMongocfgOplog {
   /**
   * The maximum size of the oplog, as a percentage of the total storage size. For more information, see the [oplog.oplogSizeMB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#max_size_percent MdbMongodbCluster#max_size_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#max_size_percent MdbMongodbCluster#max_size_percent}
   */
   readonly maxSizePercent?: number;
   /**
   * The minimum number of hours to preserve an oplog entry, where decimal values represent the fractions of an hour. For more information, see the [oplog.minRetentionHours](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#min_retention_hours MdbMongodbCluster#min_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#min_retention_hours MdbMongodbCluster#min_retention_hours}
   */
   readonly minRetentionHours?: number;
 }
@@ -866,13 +866,13 @@ export interface MdbMongodbClusterClusterConfigMongocfgSetParameter {
   /**
   * Enables the auditing of authorization successes. Can be either true or false. For more information, see the [auditAuthorizationSuccess](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.auditAuthorizationSuccess) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
   */
   readonly auditAuthorizationSuccess?: boolean | cdktf.IResolvable;
   /**
   * Enables the flow control. Can be either true or false. For more information, see the [enableFlowControl](https://www.mongodb.com/docs/rapid/reference/parameters/#mongodb-parameter-param.enableFlowControl) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
   */
   readonly enableFlowControl?: boolean | cdktf.IResolvable;
 }
@@ -1019,13 +1019,13 @@ export interface MdbMongodbClusterClusterConfigMongocfgStorageWiredTiger {
   /**
   * Defines the maximum size of the internal cache that WiredTiger will use for all data in percents. For more information, see the [storage.wiredTiger.engineConfig.cacheSize](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizePct) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#cache_size MdbMongodbCluster#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#cache_size MdbMongodbCluster#cache_size}
   */
   readonly cacheSize?: number;
   /**
   * Defines the maximum size of the internal cache that WiredTiger will use for all data. For more information, see the [storage.wiredTiger.engineConfig.cacheSizeGB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizeGB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
   */
   readonly cacheSizeGb?: number;
 }
@@ -1140,7 +1140,7 @@ export interface MdbMongodbClusterClusterConfigMongocfgStorage {
   /**
   * wired_tiger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
   */
   readonly wiredTiger?: MdbMongodbClusterClusterConfigMongocfgStorageWiredTiger;
 }
@@ -1226,43 +1226,43 @@ export interface MdbMongodbClusterClusterConfigMongocfg {
   /**
   * Chained replication setting. For more information, see the [chainingAllowed](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-chainingAllowed) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#chaining_allowed MdbMongodbCluster#chaining_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#chaining_allowed MdbMongodbCluster#chaining_allowed}
   */
   readonly chainingAllowed?: boolean | cdktf.IResolvable;
   /**
   * audit_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
   */
   readonly auditLog?: MdbMongodbClusterClusterConfigMongocfgAuditLog;
   /**
   * net block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
   */
   readonly net?: MdbMongodbClusterClusterConfigMongocfgNet;
   /**
   * operation_profiling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
   */
   readonly operationProfiling?: MdbMongodbClusterClusterConfigMongocfgOperationProfiling;
   /**
   * oplog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#oplog MdbMongodbCluster#oplog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#oplog MdbMongodbCluster#oplog}
   */
   readonly oplog?: MdbMongodbClusterClusterConfigMongocfgOplog;
   /**
   * set_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
   */
   readonly setParameter?: MdbMongodbClusterClusterConfigMongocfgSetParameter[] | cdktf.IResolvable;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
   */
   readonly storage?: MdbMongodbClusterClusterConfigMongocfgStorage;
 }
@@ -1522,13 +1522,13 @@ export interface MdbMongodbClusterClusterConfigMongodAuditLog {
   /**
   * Configuration of the audit log filter in JSON format. For more information see [auditLog.filter](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.filter) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
   */
   readonly filter?: string;
   /**
   * Specifies if a node allows runtime configuration of audit filters and the auditAuthorizationSuccess variable. For more information see [auditLog.runtimeConfiguration](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.runtimeConfiguration) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#runtime_configuration MdbMongodbCluster#runtime_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#runtime_configuration MdbMongodbCluster#runtime_configuration}
   */
   readonly runtimeConfiguration?: boolean | cdktf.IResolvable;
 }
@@ -1643,13 +1643,13 @@ export interface MdbMongodbClusterClusterConfigMongodNet {
   /**
   * Specifies the default compressor(s) to use for communication between this mongod or mongos. Accepts array of compressors. Order matters. Available compressors: snappy, zlib, zstd, disabled. To disable network compression, make `disabled` the only value. For more information, see the [net.Compression.Compressors](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.compression.compressors) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
   */
   readonly compressors?: string[];
   /**
   * The maximum number of simultaneous connections that host will accept. For more information, see the [net.maxIncomingConnections](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.maxIncomingConnections) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
   */
   readonly maxIncomingConnections?: number;
 }
@@ -1764,19 +1764,19 @@ export interface MdbMongodbClusterClusterConfigMongodOperationProfiling {
   /**
   * Specifies which operations should be profiled. The following profiler levels are available: off, slow_op, all. For more information, see the [operationProfiling.mode](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.mode) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#mode MdbMongodbCluster#mode}
   */
   readonly mode?: string;
   /**
   * The fraction of slow operations that should be profiled or logged. Accepts values between 0 and 1, inclusive. For more information, see the [operationProfiling.slowOpSampleRate](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.slowOpSampleRate) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#slow_op_sample_rate MdbMongodbCluster#slow_op_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#slow_op_sample_rate MdbMongodbCluster#slow_op_sample_rate}
   */
   readonly slowOpSampleRate?: number;
   /**
   * The slow operation time threshold, in milliseconds. Operations that run for longer than this threshold are considered slow. For more information, see the [operationProfiling.slowOpThresholdMs](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-operationProfiling.slowOpThresholdMs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#slow_op_threshold MdbMongodbCluster#slow_op_threshold}
   */
   readonly slowOpThreshold?: number;
 }
@@ -1920,13 +1920,13 @@ export interface MdbMongodbClusterClusterConfigMongodOplog {
   /**
   * The maximum size of the oplog, as a percentage of the total storage size. For more information, see the [oplog.oplogSizeMB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#max_size_percent MdbMongodbCluster#max_size_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#max_size_percent MdbMongodbCluster#max_size_percent}
   */
   readonly maxSizePercent?: number;
   /**
   * The minimum number of hours to preserve an oplog entry, where decimal values represent the fractions of an hour. For more information, see the [oplog.minRetentionHours](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-replication.oplogSizeMB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#min_retention_hours MdbMongodbCluster#min_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#min_retention_hours MdbMongodbCluster#min_retention_hours}
   */
   readonly minRetentionHours?: number;
 }
@@ -2041,31 +2041,31 @@ export interface MdbMongodbClusterClusterConfigMongodSecurityKmip {
   /**
   * String containing the client certificate used for authenticating MongoDB to the KMIP server. For more information see [security.kmip.clientCertificateFile](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.clientCertificateFile) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#client_certificate MdbMongodbCluster#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#client_certificate MdbMongodbCluster#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Unique KMIP identifier for an existing key within the KMIP server. For more information see [security.kmip.keyIdentifier](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.keyIdentifier) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#key_identifier MdbMongodbCluster#key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#key_identifier MdbMongodbCluster#key_identifier}
   */
   readonly keyIdentifier?: string;
   /**
   * Port number to use to communicate with the KMIP server. Default: 5696 For more information see [security.kmip.port](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.port) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#port MdbMongodbCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#port MdbMongodbCluster#port}
   */
   readonly port?: number;
   /**
   * Path to CA File. Used for validating secure client connection to KMIP server. For more information see [security.kmip.serverCAFile](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.serverCAFile) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#server_ca MdbMongodbCluster#server_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#server_ca MdbMongodbCluster#server_ca}
   */
   readonly serverCa?: string;
   /**
   * Hostname or IP address of the KMIP server to connect to. For more information see [security.kmip.serverName](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.kmip.serverName) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#server_name MdbMongodbCluster#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#server_name MdbMongodbCluster#server_name}
   */
   readonly serverName?: string;
 }
@@ -2267,13 +2267,13 @@ export interface MdbMongodbClusterClusterConfigMongodSecurity {
   /**
   * Enables the encryption for the WiredTiger storage engine. Can be either true or false. For more information see [security.enableEncryption](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-security.enableEncryption) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#enable_encryption MdbMongodbCluster#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#enable_encryption MdbMongodbCluster#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
   * kmip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#kmip MdbMongodbCluster#kmip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#kmip MdbMongodbCluster#kmip}
   */
   readonly kmip?: MdbMongodbClusterClusterConfigMongodSecurityKmip;
 }
@@ -2388,13 +2388,13 @@ export interface MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads {
   /**
   * The maximum time in milliseconds for the mirrored reads. For more information see [mirrorReads.maxTimeMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.mirrorReads) description in the official documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#max_time_ms MdbMongodbCluster#max_time_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#max_time_ms MdbMongodbCluster#max_time_ms}
   */
   readonly maxTimeMs?: number;
   /**
   * The sampling rate used to mirror a subset of operations that support mirroring. For more information see [mirrorReads.samplingRate](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.mirrorReads) description in the official documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sampling_rate MdbMongodbCluster#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sampling_rate MdbMongodbCluster#sampling_rate}
   */
   readonly samplingRate?: number;
 }
@@ -2509,73 +2509,73 @@ export interface MdbMongodbClusterClusterConfigMongodSetParameter {
   /**
   * Enables the auditing of authorization successes. Can be either true or false. For more information, see the [auditAuthorizationSuccess](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.auditAuthorizationSuccess) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
   */
   readonly auditAuthorizationSuccess?: boolean | cdktf.IResolvable;
   /**
   * Enables the flow control. Can be either true or false. For more information, see the [enableFlowControl](https://www.mongodb.com/docs/rapid/reference/parameters/#mongodb-parameter-param.enableFlowControl) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#enable_flow_control MdbMongodbCluster#enable_flow_control}
   */
   readonly enableFlowControl?: boolean | cdktf.IResolvable;
   /**
   * The target maximum majority committed lag when running with flow control. For more information, see the [flowControlTargetLagSeconds](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.flowControlTargetLagSeconds) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#flow_control_target_lag_seconds MdbMongodbCluster#flow_control_target_lag_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#flow_control_target_lag_seconds MdbMongodbCluster#flow_control_target_lag_seconds}
   */
   readonly flowControlTargetLagSeconds?: number;
   /**
   * The amount of time to wait to log a warning once the flow control mechanism detects the majority commit point has not moved. For more information, see the [flowControlWarnThresholdSeconds](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.flowControlWarnThresholdSeconds) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#flow_control_warn_threshold_seconds MdbMongodbCluster#flow_control_warn_threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#flow_control_warn_threshold_seconds MdbMongodbCluster#flow_control_warn_threshold_seconds}
   */
   readonly flowControlWarnThresholdSeconds?: number;
   /**
   * Time in milliseconds to wait between batches of insertions during cloning step of the migration process. For more information, see the [migrateCloneInsertionBatchDelayMs](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.migrateCloneInsertionBatchDelayMS) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#migrate_clone_insertion_batch_delay_ms MdbMongodbCluster#migrate_clone_insertion_batch_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#migrate_clone_insertion_batch_delay_ms MdbMongodbCluster#migrate_clone_insertion_batch_delay_ms}
   */
   readonly migrateCloneInsertionBatchDelayMs?: number;
   /**
   * The maximum number of documents to insert in a single batch during the cloning step of the migration process. For more information, see the [migrateCloneInsertionBatchSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.migrateCloneInsertionBatchSize) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#migrate_clone_insertion_batch_size MdbMongodbCluster#migrate_clone_insertion_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#migrate_clone_insertion_batch_size MdbMongodbCluster#migrate_clone_insertion_batch_size}
   */
   readonly migrateCloneInsertionBatchSize?: number;
   /**
   * The minimum time window in seconds for which the storage engine keeps the snapshot history. For more information, see the [minSnapshotHistoryWindowInSeconds](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.minSnapshotHistoryWindowInSeconds) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#min_snapshot_history_window_in_seconds MdbMongodbCluster#min_snapshot_history_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#min_snapshot_history_window_in_seconds MdbMongodbCluster#min_snapshot_history_window_in_seconds}
   */
   readonly minSnapshotHistoryWindowInSeconds?: number;
   /**
   * Minimum delay before a migrated chunk is deleted from the source shard. For more information, see the [orphanCleanupDelaySecs](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.orphanCleanupDelaySecs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#orphan_cleanup_delay_secs MdbMongodbCluster#orphan_cleanup_delay_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#orphan_cleanup_delay_secs MdbMongodbCluster#orphan_cleanup_delay_secs}
   */
   readonly orphanCleanupDelaySecs?: number;
   /**
   * Specifies the maximum batch size used for updating the persisted chunk cache. For more information, see the [persistedChunkCacheUpdateMaxBatchSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.persistedChunkCacheUpdateMaxBatchSize) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#persisted_chunk_cache_update_max_batch_size MdbMongodbCluster#persisted_chunk_cache_update_max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#persisted_chunk_cache_update_max_batch_size MdbMongodbCluster#persisted_chunk_cache_update_max_batch_size}
   */
   readonly persistedChunkCacheUpdateMaxBatchSize?: number;
   /**
   * The amount of time in milliseconds to wait before the next batch of deletion during the cleanup stage of chunk migration (or the cleanupOrphaned command). For more information, see the [rangeDeleterBatchDelayMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.rangeDeleterBatchDelayMS) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#range_deleter_batch_delay_ms MdbMongodbCluster#range_deleter_batch_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#range_deleter_batch_delay_ms MdbMongodbCluster#range_deleter_batch_delay_ms}
   */
   readonly rangeDeleterBatchDelayMs?: number;
   /**
   * The maximum number of documents in each batch to delete during the cleanup stage of chunk migration (or the cleanupOrphaned command). For more information, see the [rangeDeleterBatchSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.rangeDeleterBatchSize) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#range_deleter_batch_size MdbMongodbCluster#range_deleter_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#range_deleter_batch_size MdbMongodbCluster#range_deleter_batch_size}
   */
   readonly rangeDeleterBatchSize?: number;
   /**
   * mirror_reads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#mirror_reads MdbMongodbCluster#mirror_reads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#mirror_reads MdbMongodbCluster#mirror_reads}
   */
   readonly mirrorReads?: MdbMongodbClusterClusterConfigMongodSetParameterMirrorReads;
 }
@@ -2980,7 +2980,7 @@ export interface MdbMongodbClusterClusterConfigMongodStorageJournal {
   /**
   * The maximum amount of time in milliseconds that the mongod process allows between journal operations. For more information, see the [storage.journal.commitIntervalMs](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.journal.commitIntervalMs) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#commit_interval MdbMongodbCluster#commit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#commit_interval MdbMongodbCluster#commit_interval}
   */
   readonly commitInterval?: number;
 }
@@ -3066,25 +3066,25 @@ export interface MdbMongodbClusterClusterConfigMongodStorageWiredTiger {
   /**
   * Specifies the default compression for collection data. You can override this on a per-collection basis when creating collections. Available compressors are: none, snappy, zlib, zstd. This setting available only on `mongod` hosts. For more information, see the [storage.wiredTiger.collectionConfig.blockCompressor](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.collectionConfig.blockCompressor) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#block_compressor MdbMongodbCluster#block_compressor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#block_compressor MdbMongodbCluster#block_compressor}
   */
   readonly blockCompressor?: string;
   /**
   * Defines the maximum size of the internal cache that WiredTiger will use for all data in percents. For more information, see the [storage.wiredTiger.engineConfig.cacheSize](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizePct) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#cache_size MdbMongodbCluster#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#cache_size MdbMongodbCluster#cache_size}
   */
   readonly cacheSize?: number;
   /**
   * Defines the maximum size of the internal cache that WiredTiger will use for all data. For more information, see the [storage.wiredTiger.engineConfig.cacheSizeGB](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.engineConfig.cacheSizeGB) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#cache_size_gb MdbMongodbCluster#cache_size_gb}
   */
   readonly cacheSizeGb?: number;
   /**
   * Enables or disables prefix compression for index data. Сan be either true or false. For more information, see the [storage.wiredTiger.indexConfig.prefixCompression](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-storage.wiredTiger.indexConfig.prefixCompression) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#prefix_compression MdbMongodbCluster#prefix_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#prefix_compression MdbMongodbCluster#prefix_compression}
   */
   readonly prefixCompression?: boolean | cdktf.IResolvable;
 }
@@ -3257,13 +3257,13 @@ export interface MdbMongodbClusterClusterConfigMongodStorage {
   /**
   * journal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#journal MdbMongodbCluster#journal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#journal MdbMongodbCluster#journal}
   */
   readonly journal?: MdbMongodbClusterClusterConfigMongodStorageJournal;
   /**
   * wired_tiger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#wired_tiger MdbMongodbCluster#wired_tiger}
   */
   readonly wiredTiger?: MdbMongodbClusterClusterConfigMongodStorageWiredTiger;
 }
@@ -3378,49 +3378,49 @@ export interface MdbMongodbClusterClusterConfigMongod {
   /**
   * Chained replication setting. For more information, see the [chainingAllowed](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-chainingAllowed) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#chaining_allowed MdbMongodbCluster#chaining_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#chaining_allowed MdbMongodbCluster#chaining_allowed}
   */
   readonly chainingAllowed?: boolean | cdktf.IResolvable;
   /**
   * audit_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
   */
   readonly auditLog?: MdbMongodbClusterClusterConfigMongodAuditLog;
   /**
   * net block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
   */
   readonly net?: MdbMongodbClusterClusterConfigMongodNet;
   /**
   * operation_profiling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#operation_profiling MdbMongodbCluster#operation_profiling}
   */
   readonly operationProfiling?: MdbMongodbClusterClusterConfigMongodOperationProfiling;
   /**
   * oplog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#oplog MdbMongodbCluster#oplog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#oplog MdbMongodbCluster#oplog}
   */
   readonly oplog?: MdbMongodbClusterClusterConfigMongodOplog;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#security MdbMongodbCluster#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#security MdbMongodbCluster#security}
   */
   readonly security?: MdbMongodbClusterClusterConfigMongodSecurity;
   /**
   * set_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
   */
   readonly setParameter?: MdbMongodbClusterClusterConfigMongodSetParameter;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#storage MdbMongodbCluster#storage}
   */
   readonly storage?: MdbMongodbClusterClusterConfigMongodStorage;
 }
@@ -3709,7 +3709,7 @@ export interface MdbMongodbClusterClusterConfigMongosAuditLog {
   /**
   * Configuration of the audit log filter in JSON format. For more information see [auditLog.filter](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-auditLog.filter) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#filter MdbMongodbCluster#filter}
   */
   readonly filter?: string;
 }
@@ -3795,13 +3795,13 @@ export interface MdbMongodbClusterClusterConfigMongosNet {
   /**
   * Specifies the default compressor(s) to use for communication between this mongod or mongos. Accepts array of compressors. Order matters. Available compressors: snappy, zlib, zstd, disabled. To disable network compression, make `disabled` the only value. For more information, see the [net.Compression.Compressors](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.compression.compressors) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#compressors MdbMongodbCluster#compressors}
   */
   readonly compressors?: string[];
   /**
   * The maximum number of simultaneous connections that host will accept. For more information, see the [net.maxIncomingConnections](https://www.mongodb.com/docs/manual/reference/configuration-options/#mongodb-setting-net.maxIncomingConnections) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#max_incoming_connections MdbMongodbCluster#max_incoming_connections}
   */
   readonly maxIncomingConnections?: number;
 }
@@ -3916,79 +3916,79 @@ export interface MdbMongodbClusterClusterConfigMongosSetParameter {
   /**
   * Enables the auditing of authorization successes. Can be either true or false. For more information, see the [auditAuthorizationSuccess](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.auditAuthorizationSuccess) description in the official documentation. Available only in enterprise edition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#audit_authorization_success MdbMongodbCluster#audit_authorization_success}
   */
   readonly auditAuthorizationSuccess?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether mongos supports hedged reads for those read operations whose read preference have enabled the hedged read option. For more information, see the [readHedgingMode](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.readHedgingMode) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#read_hedging_mode MdbMongodbCluster#read_hedging_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#read_hedging_mode MdbMongodbCluster#read_hedging_mode}
   */
   readonly readHedgingMode?: string;
   /**
   * Maximum time that mongos goes without communication to a host before mongos drops all connections to the host. For more information, see the [shardingTaskExecutorPoolHostTimeoutMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolHostTimeoutMS) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_host_timeout_ms MdbMongodbCluster#sharding_task_executor_pool_host_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_host_timeout_ms MdbMongodbCluster#sharding_task_executor_pool_host_timeout_ms}
   */
   readonly shardingTaskExecutorPoolHostTimeoutMs?: number;
   /**
   * Maximum number of simultaneous initiating connections (including pending connections in setup/refresh state) each TaskExecutor connection pool can have to a mongod instance. For more information, see the [shardingTaskExecutorPoolMaxConnecting](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMaxConnecting) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_connecting MdbMongodbCluster#sharding_task_executor_pool_max_connecting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_connecting MdbMongodbCluster#sharding_task_executor_pool_max_connecting}
   */
   readonly shardingTaskExecutorPoolMaxConnecting?: number;
   /**
   * Maximum number of outbound connections each TaskExecutor connection pool can open to any given mongod instance. For more information, see the [shardingTaskExecutorPoolMaxSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMaxSize) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_size MdbMongodbCluster#sharding_task_executor_pool_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_size MdbMongodbCluster#sharding_task_executor_pool_max_size}
   */
   readonly shardingTaskExecutorPoolMaxSize?: number;
   /**
   * Optional override for ShardingTaskExecutorPoolMaxSize to set the maximum number of outbound connections each TaskExecutor connection pool can open to a configuration server. For more information, see the [shardingTaskExecutorPoolMaxSizeForConfigServers](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMaxSizeForConfigServers) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_size_for_config_servers MdbMongodbCluster#sharding_task_executor_pool_max_size_for_config_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_max_size_for_config_servers MdbMongodbCluster#sharding_task_executor_pool_max_size_for_config_servers}
   */
   readonly shardingTaskExecutorPoolMaxSizeForConfigServers?: number;
   /**
   * Minimum number of outbound connections each TaskExecutor connection pool can open to any given mongod instance. For more information, see the [shardingTaskExecutorPoolMinSize](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMinSize) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_min_size MdbMongodbCluster#sharding_task_executor_pool_min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_min_size MdbMongodbCluster#sharding_task_executor_pool_min_size}
   */
   readonly shardingTaskExecutorPoolMinSize?: number;
   /**
   * Optional override for ShardingTaskExecutorPoolMinSize to set the minimum number of outbound connections each TaskExecutor connection pool can open to a configuration server. For more information, see the [shardingTaskExecutorPoolMinSizeForConfigServers](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolMinSizeForConfigServers) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_min_size_for_config_servers MdbMongodbCluster#sharding_task_executor_pool_min_size_for_config_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_min_size_for_config_servers MdbMongodbCluster#sharding_task_executor_pool_min_size_for_config_servers}
   */
   readonly shardingTaskExecutorPoolMinSizeForConfigServers?: number;
   /**
   * Maximum time the mongos waits before attempting to heartbeat an idle connection in the pool. For more information, see the [shardingTaskExecutorPoolRefreshRequirementMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolRefreshRequirementMS) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_refresh_requirement_ms MdbMongodbCluster#sharding_task_executor_pool_refresh_requirement_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_refresh_requirement_ms MdbMongodbCluster#sharding_task_executor_pool_refresh_requirement_ms}
   */
   readonly shardingTaskExecutorPoolRefreshRequirementMs?: number;
   /**
   * Maximum time the mongos waits for a heartbeat before timing out the heartbeat. For more information, see the [shardingTaskExecutorPoolRefreshTimeoutMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolRefreshTimeoutMS) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_refresh_timeout_ms MdbMongodbCluster#sharding_task_executor_pool_refresh_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_refresh_timeout_ms MdbMongodbCluster#sharding_task_executor_pool_refresh_timeout_ms}
   */
   readonly shardingTaskExecutorPoolRefreshTimeoutMs?: number;
   /**
   * On a mongos instance, this parameter sets the policy that determines the minimum size limit of its connection pools to nodes within replica sets. For more information, see the [shardingTaskExecutorPoolReplicaSetMatching](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.ShardingTaskExecutorPoolReplicaSetMatching) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_replica_set_matching MdbMongodbCluster#sharding_task_executor_pool_replica_set_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#sharding_task_executor_pool_replica_set_matching MdbMongodbCluster#sharding_task_executor_pool_replica_set_matching}
   */
   readonly shardingTaskExecutorPoolReplicaSetMatching?: string;
   /**
   * Configures a mongos instance to prewarm its connection pool on startup. For more information, see the [warmMinConnectionsInShardingTaskExecutorPoolOnStartup](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.warmMinConnectionsInShardingTaskExecutorPoolOnStartup) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#warm_min_connections_in_sharding_task_executor_pool_on_startup MdbMongodbCluster#warm_min_connections_in_sharding_task_executor_pool_on_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#warm_min_connections_in_sharding_task_executor_pool_on_startup MdbMongodbCluster#warm_min_connections_in_sharding_task_executor_pool_on_startup}
   */
   readonly warmMinConnectionsInShardingTaskExecutorPoolOnStartup?: boolean | cdktf.IResolvable;
   /**
   * Sets the timeout threshold in milliseconds for a mongos to wait for ShardingTaskExecutorPoolMinSize connections to be established per shard host when using the warmMinConnectionsInShardingTaskExecutorPoolOnStartup parameter. For more information, see the [warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMS](https://www.mongodb.com/docs/manual/reference/parameters/#mongodb-parameter-param.warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMS) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms MdbMongodbCluster#warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms MdbMongodbCluster#warm_min_connections_in_sharding_task_executor_pool_on_startup_wait_ms}
   */
   readonly warmMinConnectionsInShardingTaskExecutorPoolOnStartupWaitMs?: number;
 }
@@ -4422,25 +4422,25 @@ export interface MdbMongodbClusterClusterConfigMongos {
   /**
   * The size of the chunk, in bytes. For more information, see the [chunkSize](https://www.mongodb.com/docs/manual/tutorial/modify-chunk-size-in-sharded-cluster) description in the official documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#chunk_size MdbMongodbCluster#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#chunk_size MdbMongodbCluster#chunk_size}
   */
   readonly chunkSize?: number;
   /**
   * audit_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#audit_log MdbMongodbCluster#audit_log}
   */
   readonly auditLog?: MdbMongodbClusterClusterConfigMongosAuditLog;
   /**
   * net block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#net MdbMongodbCluster#net}
   */
   readonly net?: MdbMongodbClusterClusterConfigMongosNet;
   /**
   * set_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#set_parameter MdbMongodbCluster#set_parameter}
   */
   readonly setParameter?: MdbMongodbClusterClusterConfigMongosSetParameter;
 }
@@ -4613,7 +4613,7 @@ export interface MdbMongodbClusterClusterConfigPerformanceDiagnostics {
   /**
   * Enable or disable performance diagnostics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#enabled MdbMongodbCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#enabled MdbMongodbCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -4699,55 +4699,55 @@ export interface MdbMongodbClusterClusterConfig {
   /**
   * Retain period of automatically created backup in days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#backup_retain_period_days MdbMongodbCluster#backup_retain_period_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#backup_retain_period_days MdbMongodbCluster#backup_retain_period_days}
   */
   readonly backupRetainPeriodDays?: number;
   /**
   * Feature compatibility version of MongoDB. If not provided version is taken. Can be either `6.0`, `5.0`, `4.4` and `4.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#feature_compatibility_version MdbMongodbCluster#feature_compatibility_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#feature_compatibility_version MdbMongodbCluster#feature_compatibility_version}
   */
   readonly featureCompatibilityVersion?: string;
   /**
   * Version of the MongoDB server software. Can be either `4.2`, `4.4`, `4.4-enterprise`, `5.0`, `5.0-enterprise`, `6.0` and `6.0-enterprise`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#version MdbMongodbCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#version MdbMongodbCluster#version}
   */
   readonly version: string;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#access MdbMongodbCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#access MdbMongodbCluster#access}
   */
   readonly access?: MdbMongodbClusterClusterConfigAccess;
   /**
   * backup_window_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#backup_window_start MdbMongodbCluster#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#backup_window_start MdbMongodbCluster#backup_window_start}
   */
   readonly backupWindowStart?: MdbMongodbClusterClusterConfigBackupWindowStart;
   /**
   * mongocfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#mongocfg MdbMongodbCluster#mongocfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#mongocfg MdbMongodbCluster#mongocfg}
   */
   readonly mongocfg?: MdbMongodbClusterClusterConfigMongocfg;
   /**
   * mongod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#mongod MdbMongodbCluster#mongod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#mongod MdbMongodbCluster#mongod}
   */
   readonly mongod?: MdbMongodbClusterClusterConfigMongod;
   /**
   * mongos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#mongos MdbMongodbCluster#mongos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#mongos MdbMongodbCluster#mongos}
   */
   readonly mongos?: MdbMongodbClusterClusterConfigMongos;
   /**
   * performance_diagnostics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#performance_diagnostics MdbMongodbCluster#performance_diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#performance_diagnostics MdbMongodbCluster#performance_diagnostics}
   */
   readonly performanceDiagnostics?: MdbMongodbClusterClusterConfigPerformanceDiagnostics;
 }
@@ -5062,7 +5062,7 @@ export interface MdbMongodbClusterDatabase {
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
   */
   readonly name: string;
 }
@@ -5177,19 +5177,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongocfg {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -5330,19 +5330,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongod {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -5483,19 +5483,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongoinfra {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -5636,19 +5636,19 @@ export interface MdbMongodbClusterDiskSizeAutoscalingMongos {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size_limit MdbMongodbCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#emergency_usage_threshold MdbMongodbCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#planned_usage_threshold MdbMongodbCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -5789,25 +5789,25 @@ export interface MdbMongodbClusterHostHostParameters {
   /**
   * Should this host be hidden in replicaset. Can be either `true` of `false`. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.hidden).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#hidden MdbMongodbCluster#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#hidden MdbMongodbCluster#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
   * A floating point number that indicates the relative likelihood of a replica set member to become the primary. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.priority).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#priority MdbMongodbCluster#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#priority MdbMongodbCluster#priority}
   */
   readonly priority?: number;
   /**
   * The number of seconds `behind` the primary that this replica set member should `lag`. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.secondaryDelaySecs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#secondary_delay_secs MdbMongodbCluster#secondary_delay_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#secondary_delay_secs MdbMongodbCluster#secondary_delay_secs}
   */
   readonly secondaryDelaySecs?: number;
   /**
   * A set of key/value pairs to assign for the replica set member. For more information see [the official documentation](https://www.mongodb.com/docs/current/reference/replica-configuration/#mongodb-rsconf-rsconf.members-n-.tags).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#tags MdbMongodbCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#tags MdbMongodbCluster#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -5980,43 +5980,43 @@ export interface MdbMongodbClusterHost {
   /**
   * Should this host have assigned public IP assigned. Can be either `true` or `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#assign_public_ip MdbMongodbCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#assign_public_ip MdbMongodbCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * The role of the cluster (either PRIMARY or SECONDARY).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#role MdbMongodbCluster#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#role MdbMongodbCluster#role}
   */
   readonly role?: string;
   /**
   * The name of the shard to which the host belongs. Only for sharded cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#shard_name MdbMongodbCluster#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#shard_name MdbMongodbCluster#shard_name}
   */
   readonly shardName?: string;
   /**
   * The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#subnet_id MdbMongodbCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#subnet_id MdbMongodbCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Type of Mongo daemon which runs on this host (mongod, mongos, mongocfg, mongoinfra). Defaults to `mongod`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
   */
   readonly type?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#zone_id MdbMongodbCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#zone_id MdbMongodbCluster#zone_id}
   */
   readonly zoneId: string;
   /**
   * host_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#host_parameters MdbMongodbCluster#host_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#host_parameters MdbMongodbCluster#host_parameters}
   */
   readonly hostParameters?: MdbMongodbClusterHostHostParameters;
 }
@@ -6312,19 +6312,19 @@ export interface MdbMongodbClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window if window type is weekly. Possible values: `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#day MdbMongodbCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#day MdbMongodbCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window if window type is weekly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#hour MdbMongodbCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#hour MdbMongodbCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. A day and hour of window need to be specified with weekly window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#type MdbMongodbCluster#type}
   */
   readonly type: string;
 }
@@ -6465,19 +6465,19 @@ export interface MdbMongodbClusterResources {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -6612,19 +6612,19 @@ export interface MdbMongodbClusterResourcesMongocfg {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -6759,19 +6759,19 @@ export interface MdbMongodbClusterResourcesMongod {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -6906,19 +6906,19 @@ export interface MdbMongodbClusterResourcesMongoinfra {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -7053,19 +7053,19 @@ export interface MdbMongodbClusterResourcesMongos {
   /**
   * Volume of the storage available to a MongoDB host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_size MdbMongodbCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of MongoDB hosts. For more information see [the official documentation](https://yandex.cloud/docs/managed-clickhouse/concepts/storage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#disk_type_id MdbMongodbCluster#disk_type_id}
   */
   readonly diskTypeId: string;
   /**
   * The ID of the preset for computational resources available to a MongoDB host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#resource_preset_id MdbMongodbCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -7200,13 +7200,13 @@ export interface MdbMongodbClusterRestore {
   /**
   * Backup ID. The cluster will be created from the specified backup. [How to get a list of PostgreSQL backups](https://yandex.cloud/docs/managed-mongodb/operations/cluster-backups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#backup_id MdbMongodbCluster#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#backup_id MdbMongodbCluster#backup_id}
   */
   readonly backupId: string;
   /**
   * Timestamp of the moment to which the MongoDB cluster should be restored. (Format: `2006-01-02T15:04:05` - UTC). When not set, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#time MdbMongodbCluster#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#time MdbMongodbCluster#time}
   */
   readonly time?: string;
 }
@@ -7316,15 +7316,15 @@ export class MdbMongodbClusterRestoreOutputReference extends cdktf.ComplexObject
 }
 export interface MdbMongodbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#create MdbMongodbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#create MdbMongodbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#delete MdbMongodbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#delete MdbMongodbCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#update MdbMongodbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#update MdbMongodbCluster#update}
   */
   readonly update?: string;
 }
@@ -7478,13 +7478,13 @@ export interface MdbMongodbClusterUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#database_name MdbMongodbCluster#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#database_name MdbMongodbCluster#database_name}
   */
   readonly databaseName: string;
   /**
   * The roles of the user in this database. For more information see [the official documentation](https://yandex.cloud/docs/managed-mongodb/concepts/users-and-roles).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#roles MdbMongodbCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#roles MdbMongodbCluster#roles}
   */
   readonly roles?: string[];
 }
@@ -7628,19 +7628,19 @@ export interface MdbMongodbClusterUser {
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#name MdbMongodbCluster#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#password MdbMongodbCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#password MdbMongodbCluster#password}
   */
   readonly password: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#permission MdbMongodbCluster#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#permission MdbMongodbCluster#permission}
   */
   readonly permission?: MdbMongodbClusterUserPermission[] | cdktf.IResolvable;
 }
@@ -7808,7 +7808,7 @@ export class MdbMongodbClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster}
 */
 export class MdbMongodbCluster extends cdktf.TerraformResource {
 
@@ -7824,7 +7824,7 @@ export class MdbMongodbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMongodbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMongodbCluster to import
-  * @param importFromId The id of the existing MdbMongodbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMongodbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMongodbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7836,7 +7836,7 @@ export class MdbMongodbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_cluster yandex_mdb_mongodb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7847,8 +7847,8 @@ export class MdbMongodbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mongodb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

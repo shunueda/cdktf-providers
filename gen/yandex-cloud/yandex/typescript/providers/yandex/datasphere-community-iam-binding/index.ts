@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DatasphereCommunityIamBindingConfig extends cdktf.TerraformMeta
   /**
   * The ID of the compute `community` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding#community_id DatasphereCommunityIamBinding#community_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding#community_id DatasphereCommunityIamBinding#community_id}
   */
   readonly communityId: string;
   /**
@@ -29,25 +29,25 @@ export interface DatasphereCommunityIamBindingConfig extends cdktf.TerraformMeta
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding#members DatasphereCommunityIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding#members DatasphereCommunityIamBinding#members}
   */
   readonly members: string[];
   /**
   * The role that should be assigned. Only one yandex_datasphere_community_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding#role DatasphereCommunityIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding#role DatasphereCommunityIamBinding#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding#sleep_after DatasphereCommunityIamBinding#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding#sleep_after DatasphereCommunityIamBinding#sleep_after}
   */
   readonly sleepAfter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding yandex_datasphere_community_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding yandex_datasphere_community_iam_binding}
 */
 export class DatasphereCommunityIamBinding extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DatasphereCommunityIamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatasphereCommunityIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasphereCommunityIamBinding to import
-  * @param importFromId The id of the existing DatasphereCommunityIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasphereCommunityIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasphereCommunityIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DatasphereCommunityIamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datasphere_community_iam_binding yandex_datasphere_community_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datasphere_community_iam_binding yandex_datasphere_community_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DatasphereCommunityIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_datasphere_community_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

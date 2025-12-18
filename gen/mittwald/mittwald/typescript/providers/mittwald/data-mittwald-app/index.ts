@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataMittwaldAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * The app name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app#name DataMittwaldApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app#name DataMittwaldApp#name}
   */
   readonly name: string;
   /**
   * Set this to just select the recommended version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app#recommended DataMittwaldApp#recommended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app#recommended DataMittwaldApp#recommended}
   */
   readonly recommended?: boolean | cdktf.IResolvable;
   /**
   * A version selector, such as `>= 13.4`; if omitted, this will default to `*` (all versions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app#selector DataMittwaldApp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app#selector DataMittwaldApp#selector}
   */
   readonly selector?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app mittwald_app}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app mittwald_app}
 */
 export class DataMittwaldApp extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataMittwaldApp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMittwaldApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMittwaldApp to import
-  * @param importFromId The id of the existing DataMittwaldApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMittwaldApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMittwaldApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataMittwaldApp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/data-sources/app mittwald_app} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/data-sources/app mittwald_app} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataMittwaldApp extends cdktf.TerraformDataSource {
       terraformResourceType: 'mittwald_app',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

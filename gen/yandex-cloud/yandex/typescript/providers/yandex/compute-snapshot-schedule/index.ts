@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ComputeSnapshotScheduleConfig extends cdktf.TerraformMetaArgume
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#description ComputeSnapshotSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#description ComputeSnapshotSchedule#description}
   */
   readonly description?: string;
   /**
   * IDs of the disk for snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#disk_ids ComputeSnapshotSchedule#disk_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#disk_ids ComputeSnapshotSchedule#disk_ids}
   */
   readonly diskIds?: string[];
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#folder_id ComputeSnapshotSchedule#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#folder_id ComputeSnapshotSchedule#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#id ComputeSnapshotSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#id ComputeSnapshotSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ComputeSnapshotScheduleConfig extends cdktf.TerraformMetaArgume
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#labels ComputeSnapshotSchedule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#labels ComputeSnapshotSchedule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#name ComputeSnapshotSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#name ComputeSnapshotSchedule#name}
   */
   readonly name?: string;
   /**
   * Time duration applied to snapshots created by this snapshot schedule. This is a signed sequence of decimal numbers, each with optional fraction and a unit suffix. Valid time units are `ns`, `us` (or `µs`), `ms`, `s`, `m`, `h`. Examples: `300ms`, `1.5h` or `2h45m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#retention_period ComputeSnapshotSchedule#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#retention_period ComputeSnapshotSchedule#retention_period}
   */
   readonly retentionPeriod?: string;
   /**
   * Maximum number of snapshots for every disk of the snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#snapshot_count ComputeSnapshotSchedule#snapshot_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#snapshot_count ComputeSnapshotSchedule#snapshot_count}
   */
   readonly snapshotCount?: number;
   /**
   * schedule_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#schedule_policy ComputeSnapshotSchedule#schedule_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#schedule_policy ComputeSnapshotSchedule#schedule_policy}
   */
   readonly schedulePolicy?: ComputeSnapshotScheduleSchedulePolicy;
   /**
   * snapshot_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#snapshot_spec ComputeSnapshotSchedule#snapshot_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#snapshot_spec ComputeSnapshotSchedule#snapshot_spec}
   */
   readonly snapshotSpec?: ComputeSnapshotScheduleSnapshotSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#timeouts ComputeSnapshotSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#timeouts ComputeSnapshotSchedule#timeouts}
   */
   readonly timeouts?: ComputeSnapshotScheduleTimeouts;
 }
@@ -79,13 +79,13 @@ export interface ComputeSnapshotScheduleSchedulePolicy {
   /**
   * Cron expression to schedule snapshots (in cron format `" * ****"`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#expression ComputeSnapshotSchedule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#expression ComputeSnapshotSchedule#expression}
   */
   readonly expression?: string;
   /**
   * Time to start the snapshot schedule (in format RFC3339 `2006-01-02T15:04:05Z07:00`). If empty current time will be used. Unlike an `expression` that specifies regularity rules, the `start_at` parameter determines from what point these rules will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#start_at ComputeSnapshotSchedule#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#start_at ComputeSnapshotSchedule#start_at}
   */
   readonly startAt?: string;
 }
@@ -200,13 +200,13 @@ export interface ComputeSnapshotScheduleSnapshotSpec {
   /**
   * Description to assign to snapshots created by this snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#description ComputeSnapshotSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#description ComputeSnapshotSchedule#description}
   */
   readonly description?: string;
   /**
   * A set of key/value label pairs to assign to snapshots created by this snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#labels ComputeSnapshotSchedule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#labels ComputeSnapshotSchedule#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -319,15 +319,15 @@ export class ComputeSnapshotScheduleSnapshotSpecOutputReference extends cdktf.Co
 }
 export interface ComputeSnapshotScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#create ComputeSnapshotSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#create ComputeSnapshotSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#delete ComputeSnapshotSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#delete ComputeSnapshotSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#update ComputeSnapshotSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#update ComputeSnapshotSchedule#update}
   */
   readonly update?: string;
 }
@@ -479,7 +479,7 @@ export class ComputeSnapshotScheduleTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule yandex_compute_snapshot_schedule}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule yandex_compute_snapshot_schedule}
 */
 export class ComputeSnapshotSchedule extends cdktf.TerraformResource {
 
@@ -495,7 +495,7 @@ export class ComputeSnapshotSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeSnapshotSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeSnapshotSchedule to import
-  * @param importFromId The id of the existing ComputeSnapshotSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeSnapshotSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeSnapshotSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +507,7 @@ export class ComputeSnapshotSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/compute_snapshot_schedule yandex_compute_snapshot_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/compute_snapshot_schedule yandex_compute_snapshot_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +518,8 @@ export class ComputeSnapshotSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_snapshot_schedule',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

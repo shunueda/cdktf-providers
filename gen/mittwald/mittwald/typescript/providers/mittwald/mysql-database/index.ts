@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#character_settings MysqlDatabase#character_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#character_settings MysqlDatabase#character_settings}
   */
   readonly characterSettings?: MysqlDatabaseCharacterSettings;
   /**
   * Description for your database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#description MysqlDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#description MysqlDatabase#description}
   */
   readonly description: string;
   /**
   * The ID of the project the database belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#project_id MysqlDatabase#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#project_id MysqlDatabase#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#user MysqlDatabase#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#user MysqlDatabase#user}
   */
   readonly user: MysqlDatabaseUser;
   /**
   * Version of the database, e.g. `5.7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#version MysqlDatabase#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#version MysqlDatabase#version}
   */
   readonly version: string;
 }
@@ -38,13 +38,13 @@ export interface MysqlDatabaseCharacterSettings {
   /**
   * Character set of the database, e.g. `utf8mb4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#character_set MysqlDatabase#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#character_set MysqlDatabase#character_set}
   */
   readonly characterSet?: string;
   /**
   * Collation of the database, e.g. `utf8mb4_general_ci`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#collation MysqlDatabase#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#collation MysqlDatabase#collation}
   */
   readonly collation?: string;
 }
@@ -169,31 +169,31 @@ export interface MysqlDatabaseUser {
   /**
   * Access level for the database user, e.g. `full` or `readonly`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#access_level MysqlDatabase#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#access_level MysqlDatabase#access_level}
   */
   readonly accessLevel: string;
   /**
   * Whether the database user should be accessible from outside the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#external_access MysqlDatabase#external_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#external_access MysqlDatabase#external_access}
   */
   readonly externalAccess: boolean | cdktf.IResolvable;
   /**
   * Password for the database user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#password MysqlDatabase#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#password MysqlDatabase#password}
   */
   readonly password?: string;
   /**
   * Password for the database user; this field is mutually exclusive with `password` and will be used instead of it. The password is not stored in the database, but only used to create the user. You can use the `mittwald_mysql_password` ephemeral resource to dynamically generate a valid password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#password_wo MysqlDatabase#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#password_wo MysqlDatabase#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * Version of the password for the database user; this is required when using `password_wo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#password_wo_version MysqlDatabase#password_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#password_wo_version MysqlDatabase#password_wo_version}
   */
   readonly passwordWoVersion?: number;
 }
@@ -407,7 +407,7 @@ export class MysqlDatabaseUserOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database mittwald_mysql_database}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database mittwald_mysql_database}
 */
 export class MysqlDatabase extends cdktf.TerraformResource {
 
@@ -423,7 +423,7 @@ export class MysqlDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlDatabase to import
-  * @param importFromId The id of the existing MysqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -435,7 +435,7 @@ export class MysqlDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/mysql_database mittwald_mysql_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.1/docs/resources/mysql_database mittwald_mysql_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,8 +446,8 @@ export class MysqlDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_mysql_database',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.5.0',
-        providerVersionConstraint: '1.5.0'
+        providerVersion: '1.5.1',
+        providerVersionConstraint: '1.5.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

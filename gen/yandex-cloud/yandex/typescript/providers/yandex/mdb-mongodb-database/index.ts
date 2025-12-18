@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MdbMongodbDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of MongoDB Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database#cluster_id MdbMongodbDatabase#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database#cluster_id MdbMongodbDatabase#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The name of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database#name MdbMongodbDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database#name MdbMongodbDatabase#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database#timeouts MdbMongodbDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database#timeouts MdbMongodbDatabase#timeouts}
   */
   readonly timeouts?: MdbMongodbDatabaseTimeouts;
 }
@@ -28,13 +28,13 @@ export interface MdbMongodbDatabaseTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database#create MdbMongodbDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database#create MdbMongodbDatabase#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database#delete MdbMongodbDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database#delete MdbMongodbDatabase#delete}
   */
   readonly delete?: string;
 }
@@ -157,7 +157,7 @@ export class MdbMongodbDatabaseTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database yandex_mdb_mongodb_database}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database yandex_mdb_mongodb_database}
 */
 export class MdbMongodbDatabase extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class MdbMongodbDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMongodbDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMongodbDatabase to import
-  * @param importFromId The id of the existing MdbMongodbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMongodbDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMongodbDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class MdbMongodbDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_mongodb_database yandex_mdb_mongodb_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_mongodb_database yandex_mdb_mongodb_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class MdbMongodbDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mongodb_database',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

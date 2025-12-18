@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CustomDiscoveryAlertConfig extends cdktf.TerraformMetaArguments
   /**
   * Alert category. Valid values are `Access control`, `Authentication`, `Best practices`, `Data at risk`, `Data protection`, `IAM misconfigurations`, `Lateral movement`, `Logging and monitoring`, `Malicious activity`, `Malware`, `Neglected assets`, `Network misconfigurations`, `Source code vulnerabilities`, `Suspicious activity`, `System integrity`, `Vendor services misconfigurations`, `Vulnerabilities`, and `Workload misconfigurations`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#category CustomDiscoveryAlert#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#category CustomDiscoveryAlert#category}
   */
   readonly category: string;
   /**
   * The custom compliance framework(s) that this alert relates to. In the context of a compliance framework, alerts correspond to controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#compliance_frameworks CustomDiscoveryAlert#compliance_frameworks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#compliance_frameworks CustomDiscoveryAlert#compliance_frameworks}
   */
   readonly complianceFrameworks?: CustomDiscoveryAlertComplianceFrameworks[] | cdktf.IResolvable;
   /**
   * Allows Orca to adjust the score using asset context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#context_score CustomDiscoveryAlert#context_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#context_score CustomDiscoveryAlert#context_score}
   */
   readonly contextScore: boolean | cdktf.IResolvable;
   /**
   * Custom alert description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#description CustomDiscoveryAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#description CustomDiscoveryAlert#description}
   */
   readonly description?: string;
   /**
   * Custom alert name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#name CustomDiscoveryAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#name CustomDiscoveryAlert#name}
   */
   readonly name: string;
   /**
   * The base score of the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#orca_score CustomDiscoveryAlert#orca_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#orca_score CustomDiscoveryAlert#orca_score}
   */
   readonly orcaScore: number;
   /**
   * A container for the remediation instructions that will appear on the 'Remediation' tab for the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#remediation_text CustomDiscoveryAlert#remediation_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#remediation_text CustomDiscoveryAlert#remediation_text}
   */
   readonly remediationText?: CustomDiscoveryAlertRemediationText;
   /**
   * The discovery query (JSON) used to define the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#rule_json CustomDiscoveryAlert#rule_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#rule_json CustomDiscoveryAlert#rule_json}
   */
   readonly ruleJson?: string;
 }
@@ -60,19 +60,19 @@ export interface CustomDiscoveryAlertComplianceFrameworks {
   /**
   * Custom framework name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#name CustomDiscoveryAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#name CustomDiscoveryAlert#name}
   */
   readonly name: string;
   /**
   * Custom framework control priority. Valid values are `high`, `medium`, and `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#priority CustomDiscoveryAlert#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#priority CustomDiscoveryAlert#priority}
   */
   readonly priority: string;
   /**
   * Custom framework section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#section CustomDiscoveryAlert#section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#section CustomDiscoveryAlert#section}
   */
   readonly section: string;
 }
@@ -239,13 +239,13 @@ export interface CustomDiscoveryAlertRemediationText {
   /**
   * Whether or not all users are able to see the remediation instructions for this alert. To enable all users to see them, set this to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#enable CustomDiscoveryAlert#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#enable CustomDiscoveryAlert#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Remediation description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#text CustomDiscoveryAlert#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#text CustomDiscoveryAlert#text}
   */
   readonly text: string;
 }
@@ -365,7 +365,7 @@ export class CustomDiscoveryAlertRemediationTextOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert orcasecurity_custom_discovery_alert}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert orcasecurity_custom_discovery_alert}
 */
 export class CustomDiscoveryAlert extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class CustomDiscoveryAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomDiscoveryAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomDiscoveryAlert to import
-  * @param importFromId The id of the existing CustomDiscoveryAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomDiscoveryAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomDiscoveryAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class CustomDiscoveryAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_discovery_alert orcasecurity_custom_discovery_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_discovery_alert orcasecurity_custom_discovery_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class CustomDiscoveryAlert extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_custom_discovery_alert',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

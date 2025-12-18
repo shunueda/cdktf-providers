@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface YtsaurusClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * CIDRs whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#cidr_blocks_whitelist YtsaurusCluster#cidr_blocks_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#cidr_blocks_whitelist YtsaurusCluster#cidr_blocks_whitelist}
   */
   readonly cidrBlocksWhitelist?: YtsaurusClusterCidrBlocksWhitelistStruct;
   /**
   * ID of the cluster to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#cluster_id YtsaurusCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#cluster_id YtsaurusCluster#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Description of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#description YtsaurusCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#description YtsaurusCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the folder that the cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#folder_id YtsaurusCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#folder_id YtsaurusCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the cluster to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#id YtsaurusCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#id YtsaurusCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,42 +43,42 @@ export interface YtsaurusClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster labels as `key:value` pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#labels YtsaurusCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#labels YtsaurusCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the cluster.
   *  The name is unique within the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#name YtsaurusCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#name YtsaurusCluster#name}
   */
   readonly name?: string;
   /**
   * Network interfaces security groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#security_group_ids YtsaurusCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#security_group_ids YtsaurusCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Cluster specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#spec YtsaurusCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#spec YtsaurusCluster#spec}
   */
   readonly spec?: YtsaurusClusterSpec;
   /**
   * ID of the subnet where the cluster resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#subnet_id YtsaurusCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#subnet_id YtsaurusCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#timeouts YtsaurusCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#timeouts YtsaurusCluster#timeouts}
   */
   readonly timeouts?: YtsaurusClusterTimeouts;
   /**
   * ID of the availability zone where the cluster resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#zone_id YtsaurusCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#zone_id YtsaurusCluster#zone_id}
   */
   readonly zoneId: string;
 }
@@ -86,7 +86,7 @@ export interface YtsaurusClusterCidrBlocksWhitelistStruct {
   /**
   * IPv4 CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#v4_cidr_blocks YtsaurusCluster#v4_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#v4_cidr_blocks YtsaurusCluster#v4_cidr_blocks}
   */
   readonly v4CidrBlocks?: string[];
 }
@@ -251,25 +251,25 @@ export interface YtsaurusClusterSpecClientLogging {
   /**
   * Enable audit logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#audit_logs_enabled YtsaurusCluster#audit_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#audit_logs_enabled YtsaurusCluster#audit_logs_enabled}
   */
   readonly auditLogsEnabled?: boolean | cdktf.IResolvable;
   /**
   * ID of cloud logging folder. Used default loging group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#folder_id YtsaurusCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#folder_id YtsaurusCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of cloud logging group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#log_group_id YtsaurusCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#log_group_id YtsaurusCluster#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * ID of Service account used for write logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#service_account_id YtsaurusCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#service_account_id YtsaurusCluster#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -454,7 +454,7 @@ export interface YtsaurusClusterSpecComputeDisks {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#locations YtsaurusCluster#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#locations YtsaurusCluster#locations}
   */
   readonly locations?: string[];
   /**
@@ -462,7 +462,7 @@ export interface YtsaurusClusterSpecComputeDisks {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#size_gb YtsaurusCluster#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#size_gb YtsaurusCluster#size_gb}
   */
   readonly sizeGb?: number;
   /**
@@ -470,7 +470,7 @@ export interface YtsaurusClusterSpecComputeDisks {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#type YtsaurusCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#type YtsaurusCluster#type}
   */
   readonly type?: string;
 }
@@ -648,7 +648,7 @@ export interface YtsaurusClusterSpecComputeScalePolicyAuto {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#max_size YtsaurusCluster#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#max_size YtsaurusCluster#max_size}
   */
   readonly maxSize?: number;
   /**
@@ -656,7 +656,7 @@ export interface YtsaurusClusterSpecComputeScalePolicyAuto {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#min_size YtsaurusCluster#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#min_size YtsaurusCluster#min_size}
   */
   readonly minSize?: number;
 }
@@ -783,7 +783,7 @@ export interface YtsaurusClusterSpecComputeScalePolicyFixed {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#size YtsaurusCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#size YtsaurusCluster#size}
   */
   readonly size?: number;
 }
@@ -881,7 +881,7 @@ export interface YtsaurusClusterSpecComputeScalePolicy {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#auto YtsaurusCluster#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#auto YtsaurusCluster#auto}
   */
   readonly auto?: YtsaurusClusterSpecComputeScalePolicyAuto;
   /**
@@ -889,7 +889,7 @@ export interface YtsaurusClusterSpecComputeScalePolicy {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#fixed YtsaurusCluster#fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#fixed YtsaurusCluster#fixed}
   */
   readonly fixed?: YtsaurusClusterSpecComputeScalePolicyFixed;
 }
@@ -1016,13 +1016,13 @@ export interface YtsaurusClusterSpecCompute {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#disks YtsaurusCluster#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#disks YtsaurusCluster#disks}
   */
   readonly disks?: YtsaurusClusterSpecComputeDisks[] | cdktf.IResolvable;
   /**
   * Name for exec pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#name YtsaurusCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#name YtsaurusCluster#name}
   */
   readonly name?: string;
   /**
@@ -1030,7 +1030,7 @@ export interface YtsaurusClusterSpecCompute {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#preset YtsaurusCluster#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#preset YtsaurusCluster#preset}
   */
   readonly preset?: string;
   /**
@@ -1038,7 +1038,7 @@ export interface YtsaurusClusterSpecCompute {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#scale_policy YtsaurusCluster#scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#scale_policy YtsaurusCluster#scale_policy}
   */
   readonly scalePolicy?: YtsaurusClusterSpecComputeScalePolicy;
 }
@@ -1243,25 +1243,25 @@ export interface YtsaurusClusterSpecCronClearTmp {
   /**
   * Per account max space usage ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#account_usage_ratio_save_per_owner YtsaurusCluster#account_usage_ratio_save_per_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#account_usage_ratio_save_per_owner YtsaurusCluster#account_usage_ratio_save_per_owner}
   */
   readonly accountUsageRatioSavePerOwner?: number;
   /**
   * Total max space usage ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#account_usage_ratio_save_total YtsaurusCluster#account_usage_ratio_save_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#account_usage_ratio_save_total YtsaurusCluster#account_usage_ratio_save_total}
   */
   readonly accountUsageRatioSaveTotal?: number;
   /**
   * Script starting interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#interval YtsaurusCluster#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#interval YtsaurusCluster#interval}
   */
   readonly interval?: string;
   /**
   * Max nodes in every directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#max_dir_node_count YtsaurusCluster#max_dir_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#max_dir_node_count YtsaurusCluster#max_dir_node_count}
   */
   readonly maxDirNodeCount?: number;
 }
@@ -1444,7 +1444,7 @@ export interface YtsaurusClusterSpecCron {
   /**
   * Cluster regular tmp-account cleaning settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#clear_tmp YtsaurusCluster#clear_tmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#clear_tmp YtsaurusCluster#clear_tmp}
   */
   readonly clearTmp?: YtsaurusClusterSpecCronClearTmp;
 }
@@ -1542,7 +1542,7 @@ export interface YtsaurusClusterSpecOdin {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#checks_ttl YtsaurusCluster#checks_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#checks_ttl YtsaurusCluster#checks_ttl}
   */
   readonly checksTtl?: string;
 }
@@ -1640,7 +1640,7 @@ export interface YtsaurusClusterSpecProxyHttp {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
   */
   readonly count?: number;
 }
@@ -1738,7 +1738,7 @@ export interface YtsaurusClusterSpecProxyRpc {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
   */
   readonly count?: number;
 }
@@ -1836,7 +1836,7 @@ export interface YtsaurusClusterSpecProxy {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#http YtsaurusCluster#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#http YtsaurusCluster#http}
   */
   readonly http?: YtsaurusClusterSpecProxyHttp;
   /**
@@ -1844,7 +1844,7 @@ export interface YtsaurusClusterSpecProxy {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#rpc YtsaurusCluster#rpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#rpc YtsaurusCluster#rpc}
   */
   readonly rpc?: YtsaurusClusterSpecProxyRpc;
 }
@@ -1971,7 +1971,7 @@ export interface YtsaurusClusterSpecStorageHdd {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
   */
   readonly count?: number;
   /**
@@ -1979,7 +1979,7 @@ export interface YtsaurusClusterSpecStorageHdd {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#size_gb YtsaurusCluster#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#size_gb YtsaurusCluster#size_gb}
   */
   readonly sizeGb?: number;
 }
@@ -2106,7 +2106,7 @@ export interface YtsaurusClusterSpecStorageSsd {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
   */
   readonly count?: number;
   /**
@@ -2114,7 +2114,7 @@ export interface YtsaurusClusterSpecStorageSsd {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#size_gb YtsaurusCluster#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#size_gb YtsaurusCluster#size_gb}
   */
   readonly sizeGb?: number;
   /**
@@ -2122,7 +2122,7 @@ export interface YtsaurusClusterSpecStorageSsd {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#type YtsaurusCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#type YtsaurusCluster#type}
   */
   readonly type?: string;
 }
@@ -2278,7 +2278,7 @@ export interface YtsaurusClusterSpecStorage {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#hdd YtsaurusCluster#hdd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#hdd YtsaurusCluster#hdd}
   */
   readonly hdd?: YtsaurusClusterSpecStorageHdd;
   /**
@@ -2286,7 +2286,7 @@ export interface YtsaurusClusterSpecStorage {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#ssd YtsaurusCluster#ssd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#ssd YtsaurusCluster#ssd}
   */
   readonly ssd?: YtsaurusClusterSpecStorageSsd;
 }
@@ -2413,7 +2413,7 @@ export interface YtsaurusClusterSpecTablet {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#count YtsaurusCluster#count}
   */
   readonly count?: number;
   /**
@@ -2421,7 +2421,7 @@ export interface YtsaurusClusterSpecTablet {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#preset YtsaurusCluster#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#preset YtsaurusCluster#preset}
   */
   readonly preset?: string;
 }
@@ -2546,7 +2546,7 @@ export interface YtsaurusClusterSpec {
   /**
   * Client Cloud logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#client_logging YtsaurusCluster#client_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#client_logging YtsaurusCluster#client_logging}
   */
   readonly clientLogging?: YtsaurusClusterSpecClientLogging;
   /**
@@ -2554,13 +2554,13 @@ export interface YtsaurusClusterSpec {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#compute YtsaurusCluster#compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#compute YtsaurusCluster#compute}
   */
   readonly compute?: YtsaurusClusterSpecCompute[] | cdktf.IResolvable;
   /**
   * Cluster regular processing settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#cron YtsaurusCluster#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#cron YtsaurusCluster#cron}
   */
   readonly cron?: YtsaurusClusterSpecCron;
   /**
@@ -2568,7 +2568,7 @@ export interface YtsaurusClusterSpec {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#flavor YtsaurusCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#flavor YtsaurusCluster#flavor}
   */
   readonly flavor?: string;
   /**
@@ -2576,7 +2576,7 @@ export interface YtsaurusClusterSpec {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#odin YtsaurusCluster#odin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#odin YtsaurusCluster#odin}
   */
   readonly odin?: YtsaurusClusterSpecOdin;
   /**
@@ -2584,7 +2584,7 @@ export interface YtsaurusClusterSpec {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#proxy YtsaurusCluster#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#proxy YtsaurusCluster#proxy}
   */
   readonly proxy?: YtsaurusClusterSpecProxy;
   /**
@@ -2592,7 +2592,7 @@ export interface YtsaurusClusterSpec {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#storage YtsaurusCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#storage YtsaurusCluster#storage}
   */
   readonly storage?: YtsaurusClusterSpecStorage;
   /**
@@ -2600,7 +2600,7 @@ export interface YtsaurusClusterSpec {
   * filename: yandex/cloud/ytsaurus/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#tablet YtsaurusCluster#tablet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#tablet YtsaurusCluster#tablet}
   */
   readonly tablet?: YtsaurusClusterSpecTablet;
 }
@@ -2899,25 +2899,25 @@ export interface YtsaurusClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#create YtsaurusCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#create YtsaurusCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#delete YtsaurusCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#delete YtsaurusCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#read YtsaurusCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#read YtsaurusCluster#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#update YtsaurusCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#update YtsaurusCluster#update}
   */
   readonly update?: string;
 }
@@ -3098,7 +3098,7 @@ export class YtsaurusClusterTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster yandex_ytsaurus_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster yandex_ytsaurus_cluster}
 */
 export class YtsaurusCluster extends cdktf.TerraformResource {
 
@@ -3114,7 +3114,7 @@ export class YtsaurusCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YtsaurusCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YtsaurusCluster to import
-  * @param importFromId The id of the existing YtsaurusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YtsaurusCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YtsaurusCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3126,7 +3126,7 @@ export class YtsaurusCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/ytsaurus_cluster yandex_ytsaurus_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/ytsaurus_cluster yandex_ytsaurus_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3137,8 +3137,8 @@ export class YtsaurusCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ytsaurus_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

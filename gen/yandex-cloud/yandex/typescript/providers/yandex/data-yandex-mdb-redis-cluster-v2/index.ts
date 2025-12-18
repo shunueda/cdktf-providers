@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexMdbRedisClusterV2Config extends cdktf.TerraformMetaAr
   /**
   * ID of the Redis cluster. This ID is assigned by MDB at creation time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#cluster_id DataYandexMdbRedisClusterV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#cluster_id DataYandexMdbRedisClusterV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#name DataYandexMdbRedisClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#name DataYandexMdbRedisClusterV2#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#timeouts DataYandexMdbRedisClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#timeouts DataYandexMdbRedisClusterV2#timeouts}
   */
   readonly timeouts?: DataYandexMdbRedisClusterV2Timeouts;
 }
@@ -850,19 +850,19 @@ export interface DataYandexMdbRedisClusterV2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#create DataYandexMdbRedisClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#create DataYandexMdbRedisClusterV2#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#delete DataYandexMdbRedisClusterV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#delete DataYandexMdbRedisClusterV2#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#update DataYandexMdbRedisClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#update DataYandexMdbRedisClusterV2#update}
   */
   readonly update?: string;
 }
@@ -1014,7 +1014,7 @@ export class DataYandexMdbRedisClusterV2TimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2 yandex_mdb_redis_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2 yandex_mdb_redis_cluster_v2}
 */
 export class DataYandexMdbRedisClusterV2 extends cdktf.TerraformDataSource {
 
@@ -1030,7 +1030,7 @@ export class DataYandexMdbRedisClusterV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbRedisClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbRedisClusterV2 to import
-  * @param importFromId The id of the existing DataYandexMdbRedisClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbRedisClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbRedisClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1042,7 +1042,7 @@ export class DataYandexMdbRedisClusterV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_redis_cluster_v2 yandex_mdb_redis_cluster_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_redis_cluster_v2 yandex_mdb_redis_cluster_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1053,8 +1053,8 @@ export class DataYandexMdbRedisClusterV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_redis_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

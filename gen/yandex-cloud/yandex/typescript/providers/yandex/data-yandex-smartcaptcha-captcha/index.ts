@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexSmartcaptchaCaptchaConfig extends cdktf.TerraformMeta
   /**
   * ID of the Captcha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha#captcha_id DataYandexSmartcaptchaCaptcha#captcha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha#captcha_id DataYandexSmartcaptchaCaptcha#captcha_id}
   */
   readonly captchaId?: string;
   /**
   * The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha#cloud_id DataYandexSmartcaptchaCaptcha#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha#cloud_id DataYandexSmartcaptchaCaptcha#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha#folder_id DataYandexSmartcaptchaCaptcha#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha#folder_id DataYandexSmartcaptchaCaptcha#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha#id DataYandexSmartcaptchaCaptcha#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha#id DataYandexSmartcaptchaCaptcha#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface DataYandexSmartcaptchaCaptchaConfig extends cdktf.TerraformMeta
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha#name DataYandexSmartcaptchaCaptcha#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha#name DataYandexSmartcaptchaCaptcha#name}
   */
   readonly name?: string;
 }
@@ -1440,7 +1440,7 @@ export class DataYandexSmartcaptchaCaptchaSecurityRuleList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha yandex_smartcaptcha_captcha}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha yandex_smartcaptcha_captcha}
 */
 export class DataYandexSmartcaptchaCaptcha extends cdktf.TerraformDataSource {
 
@@ -1456,7 +1456,7 @@ export class DataYandexSmartcaptchaCaptcha extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexSmartcaptchaCaptcha resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexSmartcaptchaCaptcha to import
-  * @param importFromId The id of the existing DataYandexSmartcaptchaCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexSmartcaptchaCaptcha that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexSmartcaptchaCaptcha to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1468,7 +1468,7 @@ export class DataYandexSmartcaptchaCaptcha extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/smartcaptcha_captcha yandex_smartcaptcha_captcha} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/smartcaptcha_captcha yandex_smartcaptcha_captcha} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1479,8 +1479,8 @@ export class DataYandexSmartcaptchaCaptcha extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_smartcaptcha_captcha',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule
+// https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface ApplicationPolicyRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * The action to take for flows matched by the application policy rule. Must be `"Allow"`, `"Deny"` or `"OverrideDeny"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#action ApplicationPolicyRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#action ApplicationPolicyRule#action}
   */
   readonly action: string;
   /**
   * ID of the CloudSecure application on which this rule is based.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#application_id ApplicationPolicyRule#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#application_id ApplicationPolicyRule#application_id}
   */
   readonly applicationId: string;
   /**
   * Description of the application policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#description ApplicationPolicyRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#description ApplicationPolicyRule#description}
   */
   readonly description?: string;
   /**
   * Specifies whether the application policy allow rule can be applied to scope outside the CloudSecure application. Applicable only for `"Allow"` action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#external_scope ApplicationPolicyRule#external_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#external_scope ApplicationPolicyRule#external_scope}
   */
   readonly externalScope?: boolean | cdktf.IResolvable;
   /**
   * List of IDs of IP lists to allow/deny traffic from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#from_ip_list_ids ApplicationPolicyRule#from_ip_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#from_ip_list_ids ApplicationPolicyRule#from_ip_list_ids}
   */
   readonly fromIpListIds?: string[];
   /**
   * List of Cloudsecure labels of sources to allow/deny traffic from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#from_labels ApplicationPolicyRule#from_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#from_labels ApplicationPolicyRule#from_labels}
   */
   readonly fromLabels?: ApplicationPolicyRuleFromLabels[] | cdktf.IResolvable;
   /**
   * List of IDs of IP lists to allow/deny traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#to_ip_list_ids ApplicationPolicyRule#to_ip_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#to_ip_list_ids ApplicationPolicyRule#to_ip_list_ids}
   */
   readonly toIpListIds?: string[];
   /**
   * List of Cloudsecure labels of destinations to allow/deny traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#to_labels ApplicationPolicyRule#to_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#to_labels ApplicationPolicyRule#to_labels}
   */
   readonly toLabels?: ApplicationPolicyRuleToLabels[] | cdktf.IResolvable;
   /**
   * List of transport protocol ports to allow/deny traffic to. The `protocol` for each port must be `"TCP"` or `"UDP"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#to_port_ranges ApplicationPolicyRule#to_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#to_port_ranges ApplicationPolicyRule#to_port_ranges}
   */
   readonly toPortRanges: ApplicationPolicyRuleToPortRanges[] | cdktf.IResolvable;
 }
 export interface ApplicationPolicyRuleFromLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#key ApplicationPolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#key ApplicationPolicyRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#value ApplicationPolicyRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#value ApplicationPolicyRule#value}
   */
   readonly value?: string;
 }
@@ -213,11 +213,11 @@ export class ApplicationPolicyRuleFromLabelsList extends cdktf.ComplexList {
 }
 export interface ApplicationPolicyRuleToLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#key ApplicationPolicyRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#key ApplicationPolicyRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#value ApplicationPolicyRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#value ApplicationPolicyRule#value}
   */
   readonly value?: string;
 }
@@ -362,15 +362,15 @@ export class ApplicationPolicyRuleToLabelsList extends cdktf.ComplexList {
 }
 export interface ApplicationPolicyRuleToPortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#from_port ApplicationPolicyRule#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#from_port ApplicationPolicyRule#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#protocol ApplicationPolicyRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#protocol ApplicationPolicyRule#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#to_port ApplicationPolicyRule#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#to_port ApplicationPolicyRule#to_port}
   */
   readonly toPort: number;
 }
@@ -535,7 +535,7 @@ export class ApplicationPolicyRuleToPortRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule illumio-cloudsecure_application_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule illumio-cloudsecure_application_policy_rule}
 */
 export class ApplicationPolicyRule extends cdktf.TerraformResource {
 
@@ -551,7 +551,7 @@ export class ApplicationPolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationPolicyRule to import
-  * @param importFromId The id of the existing ApplicationPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class ApplicationPolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.6.0/docs/resources/application_policy_rule illumio-cloudsecure_application_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/illumio/illumio-cloudsecure/1.7.0/docs/resources/application_policy_rule illumio-cloudsecure_application_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class ApplicationPolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'illumio-cloudsecure_application_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'illumio-cloudsecure',
-        providerVersion: '1.6.0',
-        providerVersionConstraint: '1.6.0'
+        providerVersion: '1.7.0',
+        providerVersionConstraint: '1.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

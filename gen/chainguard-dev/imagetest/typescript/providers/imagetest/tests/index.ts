@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface TestsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The driver to use for the test suite. Only one driver can be used at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#driver Tests#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#driver Tests#driver}
   */
   readonly driver: string;
   /**
   * The resource specific driver configuration. This is merged with the provider scoped drivers configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#drivers Tests#drivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#drivers Tests#drivers}
   */
   readonly drivers?: TestsDrivers;
   /**
   * Images to use for the test suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#images Tests#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#images Tests#images}
   */
   readonly images: { [key: string]: string };
   /**
   * Metadata to attach to the tests resource. Used for filtering and grouping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#labels Tests#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#labels Tests#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the test. If one is not provided, a random name will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#name Tests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#name Tests#name}
   */
   readonly name?: string;
   /**
   * The target repository the provider will use for pushing/pulling dynamically built images, overriding provider config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#repo Tests#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#repo Tests#repo}
   */
   readonly repo?: string;
   /**
   * Whether or not the tests were skipped. This is set to true if the tests were skipped, and false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#skipped Tests#skipped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#skipped Tests#skipped}
   */
   readonly skipped?: boolean | cdktf.IResolvable;
   /**
   * An ordered list of test suites to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#tests Tests#tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#tests Tests#tests}
   */
   readonly tests?: TestsTests[] | cdktf.IResolvable;
   /**
   * The maximum amount of time to wait for all tests to complete. This includes the time it takes to start and destroy the driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#timeout Tests#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#timeout Tests#timeout}
   */
   readonly timeout?: string;
 }
@@ -66,11 +66,11 @@ export interface TestsDriversDockerInDocker {
   /**
   * The image reference to use for the docker-in-docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#image Tests#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#image Tests#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#mirrors Tests#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#mirrors Tests#mirrors}
   */
   readonly mirrors?: string[];
 }
@@ -195,13 +195,13 @@ export interface TestsDriversEc2ExistingInstance {
   /**
   * IP address of the existing instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#ip Tests#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#ip Tests#ip}
   */
   readonly ip: string;
   /**
   * Path to the SSH private key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#ssh_key Tests#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#ssh_key Tests#ssh_key}
   */
   readonly sshKey: string;
 }
@@ -320,109 +320,109 @@ export interface TestsDriversEc2 {
   /**
   * The AMI ID to launch. Required unless using existing_instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#ami Tests#ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#ami Tests#ami}
   */
   readonly ami?: string;
   /**
   * Device mounts for the test container (format: src:dst).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#device_mounts Tests#device_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#device_mounts Tests#device_mounts}
   */
   readonly deviceMounts?: string[];
   /**
   * Environment variables for setup commands and container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#env Tests#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#env Tests#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Use an existing instance instead of creating new resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#existing_instance Tests#existing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#existing_instance Tests#existing_instance}
   */
   readonly existingInstance?: TestsDriversEc2ExistingInstance;
   /**
   * GPUs to mount in the test container. Use 'all' for all GPUs, or a number like '1' or '2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#gpus Tests#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#gpus Tests#gpus}
   */
   readonly gpus?: string;
   /**
   * IAM instance profile name. If not specified, one is created with ECR read-only permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#instance_profile_name Tests#instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#instance_profile_name Tests#instance_profile_name}
   */
   readonly instanceProfileName?: string;
   /**
   * The EC2 instance type (default: t3.medium).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#instance_type Tests#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#instance_type Tests#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Deprecated: use gpus = 'all' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#mount_all_gpus Tests#mount_all_gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#mount_all_gpus Tests#mount_all_gpus}
   */
   readonly mountAllGpus?: boolean | cdktf.IResolvable;
   /**
   * The AWS region (default: us-west-2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#region Tests#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#region Tests#region}
   */
   readonly region?: string;
   /**
   * Root volume size in GB (default: 50).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#root_volume_size Tests#root_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#root_volume_size Tests#root_volume_size}
   */
   readonly rootVolumeSize?: number;
   /**
   * Commands to run on the instance before tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#setup_commands Tests#setup_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#setup_commands Tests#setup_commands}
   */
   readonly setupCommands?: string[];
   /**
   * Shell to use for commands (default: bash).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#shell Tests#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#shell Tests#shell}
   */
   readonly shell?: string;
   /**
   * SSH port for connecting to the instance (default: 22).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#ssh_port Tests#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#ssh_port Tests#ssh_port}
   */
   readonly sshPort?: number;
   /**
   * SSH user for connecting to the instance (default: ubuntu).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#ssh_user Tests#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#ssh_user Tests#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * The CIDR block for the subnet. If not specified, an available /24 is auto-detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#subnet_cidr Tests#subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#subnet_cidr Tests#subnet_cidr}
   */
   readonly subnetCidr?: string;
   /**
   * Cloud-init user data (will be base64 encoded).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#user_data Tests#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#user_data Tests#user_data}
   */
   readonly userData?: string;
   /**
   * Volume mounts for the test container (format: src:dst).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#volume_mounts Tests#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#volume_mounts Tests#volume_mounts}
   */
   readonly volumeMounts?: string[];
   /**
   * The VPC ID to create resources in. Required unless using existing_instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#vpc_id Tests#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#vpc_id Tests#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1011,19 +1011,19 @@ export interface TestsDriversEksWithEksctlPodIdentityAssociations {
   /**
   * Kubernetes namespace of the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#namespace Tests#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#namespace Tests#namespace}
   */
   readonly namespace?: string;
   /**
   * ARN of the permission policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#permission_policy_arn Tests#permission_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#permission_policy_arn Tests#permission_policy_arn}
   */
   readonly permissionPolicyArn?: string;
   /**
   * Name of the Kubernetes service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#service_account_name Tests#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#service_account_name Tests#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -1199,13 +1199,13 @@ export interface TestsDriversEksWithEksctlStorage {
   /**
   * The size of the storage volume (e.g., '20Gi')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#size Tests#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#size Tests#size}
   */
   readonly size?: string;
   /**
   * The type of storage to use (e.g., 'gp2', 'gp3')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#type Tests#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#type Tests#type}
   */
   readonly type?: string;
 }
@@ -1330,49 +1330,49 @@ export interface TestsDriversEksWithEksctl {
   /**
   * The AWS CLI profile to use for eksctl and AWS CLI commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#aws_profile Tests#aws_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#aws_profile Tests#aws_profile}
   */
   readonly awsProfile?: string;
   /**
   * The AMI to use for the eks_with_eksctl driver (default is the latest EKS optimized AMI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#node_ami Tests#node_ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#node_ami Tests#node_ami}
   */
   readonly nodeAmi?: string;
   /**
   * The number of nodes to use for the eks_with_eksctl driver (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#node_count Tests#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#node_count Tests#node_count}
   */
   readonly nodeCount?: number;
   /**
   * The instance type to use for the eks_with_eksctl driver (default is m5.large)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#node_type Tests#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#node_type Tests#node_type}
   */
   readonly nodeType?: string;
   /**
   * Pod Identity Associations for the EKS driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#pod_identity_associations Tests#pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#pod_identity_associations Tests#pod_identity_associations}
   */
   readonly podIdentityAssociations?: TestsDriversEksWithEksctlPodIdentityAssociations[] | cdktf.IResolvable;
   /**
   * The AWS region to use for the eks_with_eksctl driver (default is us-west-2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#region Tests#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#region Tests#region}
   */
   readonly region?: string;
   /**
   * Storage configuration for the eks_with_eksctl driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#storage Tests#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#storage Tests#storage}
   */
   readonly storage?: TestsDriversEksWithEksctlStorage;
   /**
   * Additional tags to apply to all AWS resources created by the driver. Auto-generated tags (imagetest, imagetest:test-name, imagetest:cluster-name) are always included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#tags Tests#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#tags Tests#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1669,7 +1669,7 @@ export class TestsDriversEksWithEksctlOutputReference extends cdktf.ComplexObjec
 }
 export interface TestsDriversK3SInDockerHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#post_start Tests#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#post_start Tests#post_start}
   */
   readonly postStart?: string[];
 }
@@ -1763,7 +1763,7 @@ export class TestsDriversK3SInDockerHooksOutputReference extends cdktf.ComplexOb
 }
 export interface TestsDriversK3SInDockerRegistriesMirrors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#endpoints Tests#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#endpoints Tests#endpoints}
   */
   readonly endpoints?: string[];
 }
@@ -1859,7 +1859,7 @@ export interface TestsDriversK3SInDockerRegistries {
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#mirrors Tests#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#mirrors Tests#mirrors}
   */
   readonly mirrors?: TestsDriversK3SInDockerRegistriesMirrors;
 }
@@ -1975,49 +1975,49 @@ export interface TestsDriversK3SInDocker {
   /**
   * Enable the CNI plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#cni Tests#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#cni Tests#cni}
   */
   readonly cni?: boolean | cdktf.IResolvable;
   /**
   * Run commands at various lifecycle events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#hooks Tests#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#hooks Tests#hooks}
   */
   readonly hooks?: TestsDriversK3SInDockerHooks;
   /**
   * The image reference to use for the k3s_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#image Tests#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#image Tests#image}
   */
   readonly image?: string;
   /**
   * Enable the metrics server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#metrics_server Tests#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#metrics_server Tests#metrics_server}
   */
   readonly metricsServer?: boolean | cdktf.IResolvable;
   /**
   * Enable the network policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#network_policy Tests#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#network_policy Tests#network_policy}
   */
   readonly networkPolicy?: boolean | cdktf.IResolvable;
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#registries Tests#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#registries Tests#registries}
   */
   readonly registries?: { [key: string]: TestsDriversK3SInDockerRegistries } | cdktf.IResolvable;
   /**
   * The snapshotter to use for the k3s_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#snapshotter Tests#snapshotter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#snapshotter Tests#snapshotter}
   */
   readonly snapshotter?: string;
   /**
   * Enable the traefik ingress controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#traefik Tests#traefik}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#traefik Tests#traefik}
   */
   readonly traefik?: boolean | cdktf.IResolvable;
 }
@@ -2316,25 +2316,25 @@ export interface TestsDrivers {
   /**
   * The docker_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#docker_in_docker Tests#docker_in_docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#docker_in_docker Tests#docker_in_docker}
   */
   readonly dockerInDocker?: TestsDriversDockerInDocker;
   /**
   * The AWS EC2 driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#ec2 Tests#ec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#ec2 Tests#ec2}
   */
   readonly ec2?: TestsDriversEc2;
   /**
   * The eks_with_eksctl driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#eks_with_eksctl Tests#eks_with_eksctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#eks_with_eksctl Tests#eks_with_eksctl}
   */
   readonly eksWithEksctl?: TestsDriversEksWithEksctl;
   /**
   * The k3s_in_docker driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#k3s_in_docker Tests#k3s_in_docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#k3s_in_docker Tests#k3s_in_docker}
   */
   readonly k3SInDocker?: TestsDriversK3SInDocker;
 }
@@ -2586,13 +2586,13 @@ export interface TestsTestsContent {
   /**
   * The source path to use for the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#source Tests#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#source Tests#source}
   */
   readonly source: string;
   /**
   * The target path to use for the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#target Tests#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#target Tests#target}
   */
   readonly target?: string;
 }
@@ -2736,43 +2736,43 @@ export interface TestsTests {
   /**
   * The bundled artifact generated by the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#artifact Tests#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#artifact Tests#artifact}
   */
   readonly artifact?: TestsTestsArtifact;
   /**
   * When specified, will override the sandbox image's CMD (oci config).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#cmd Tests#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#cmd Tests#cmd}
   */
   readonly cmd?: string;
   /**
   * The content to use for the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#content Tests#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#content Tests#content}
   */
   readonly content?: TestsTestsContent[] | cdktf.IResolvable;
   /**
   * Environment variables to set on the test container. These will overwrite the environment variables set in the image's config on conflicts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#envs Tests#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#envs Tests#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
   * The image reference to use as the base image for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#image Tests#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#image Tests#image}
   */
   readonly image: string;
   /**
   * The name of the test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#name Tests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#name Tests#name}
   */
   readonly name: string;
   /**
   * The maximum amount of time to wait for the individual test to complete. This is encompassed by the overall timeout of the parent tests resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#timeout Tests#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#timeout Tests#timeout}
   */
   readonly timeout?: string;
 }
@@ -3056,7 +3056,7 @@ export class TestsTestsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests imagetest_tests}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests imagetest_tests}
 */
 export class Tests extends cdktf.TerraformResource {
 
@@ -3072,7 +3072,7 @@ export class Tests extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tests to import
-  * @param importFromId The id of the existing Tests that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tests that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3084,7 +3084,7 @@ export class Tests extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/tests imagetest_tests} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/tests imagetest_tests} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3095,8 +3095,8 @@ export class Tests extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_tests',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.108',
-        providerVersionConstraint: '0.0.108'
+        providerVersion: '0.0.109',
+        providerVersionConstraint: '0.0.109'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

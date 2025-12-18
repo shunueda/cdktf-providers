@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OrganizationmanagerMfaEnforcementConfig extends cdktf.Terraform
   /**
   * acr id of the MFA enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#acr_id OrganizationmanagerMfaEnforcement#acr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#acr_id OrganizationmanagerMfaEnforcement#acr_id}
   */
   readonly acrId: string;
   /**
   * the MFA enforcement application start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#apply_at OrganizationmanagerMfaEnforcement#apply_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#apply_at OrganizationmanagerMfaEnforcement#apply_at}
   */
   readonly applyAt?: string;
   /**
   * description of the MFA enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#description OrganizationmanagerMfaEnforcement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#description OrganizationmanagerMfaEnforcement#description}
   */
   readonly description?: string;
   /**
@@ -31,13 +31,13 @@ export interface OrganizationmanagerMfaEnforcementConfig extends cdktf.Terraform
   *  and the user's most recent successful authentication that falls under the rule 
   *  (or the user's creation time, if there has been no authentication).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#enroll_window OrganizationmanagerMfaEnforcement#enroll_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#enroll_window OrganizationmanagerMfaEnforcement#enroll_window}
   */
   readonly enrollWindow: string;
   /**
   * id of the MFA enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#id OrganizationmanagerMfaEnforcement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#id OrganizationmanagerMfaEnforcement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,36 +46,36 @@ export interface OrganizationmanagerMfaEnforcementConfig extends cdktf.Terraform
   /**
   * id of the MFA enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#mfa_enforcement_id OrganizationmanagerMfaEnforcement#mfa_enforcement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#mfa_enforcement_id OrganizationmanagerMfaEnforcement#mfa_enforcement_id}
   */
   readonly mfaEnforcementId?: string;
   /**
   * name of the MFA enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#name OrganizationmanagerMfaEnforcement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#name OrganizationmanagerMfaEnforcement#name}
   */
   readonly name: string;
   /**
   * organization id of the MFA enforcement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#organization_id OrganizationmanagerMfaEnforcement#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#organization_id OrganizationmanagerMfaEnforcement#organization_id}
   */
   readonly organizationId: string;
   /**
   * MFA enforcement status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#status OrganizationmanagerMfaEnforcement#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#status OrganizationmanagerMfaEnforcement#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#timeouts OrganizationmanagerMfaEnforcement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#timeouts OrganizationmanagerMfaEnforcement#timeouts}
   */
   readonly timeouts?: OrganizationmanagerMfaEnforcementTimeouts;
   /**
   * the period during which the entered MFA factor is considered valid and the 
   *  corresponding acr is regarded as satisfied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#ttl OrganizationmanagerMfaEnforcement#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#ttl OrganizationmanagerMfaEnforcement#ttl}
   */
   readonly ttl: string;
 }
@@ -83,25 +83,25 @@ export interface OrganizationmanagerMfaEnforcementTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#create OrganizationmanagerMfaEnforcement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#create OrganizationmanagerMfaEnforcement#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#delete OrganizationmanagerMfaEnforcement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#delete OrganizationmanagerMfaEnforcement#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#read OrganizationmanagerMfaEnforcement#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#read OrganizationmanagerMfaEnforcement#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#update OrganizationmanagerMfaEnforcement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#update OrganizationmanagerMfaEnforcement#update}
   */
   readonly update?: string;
 }
@@ -282,7 +282,7 @@ export class OrganizationmanagerMfaEnforcementTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement yandex_organizationmanager_mfa_enforcement}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement yandex_organizationmanager_mfa_enforcement}
 */
 export class OrganizationmanagerMfaEnforcement extends cdktf.TerraformResource {
 
@@ -298,7 +298,7 @@ export class OrganizationmanagerMfaEnforcement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationmanagerMfaEnforcement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerMfaEnforcement to import
-  * @param importFromId The id of the existing OrganizationmanagerMfaEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerMfaEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerMfaEnforcement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class OrganizationmanagerMfaEnforcement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_mfa_enforcement yandex_organizationmanager_mfa_enforcement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_mfa_enforcement yandex_organizationmanager_mfa_enforcement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class OrganizationmanagerMfaEnforcement extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_organizationmanager_mfa_enforcement',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

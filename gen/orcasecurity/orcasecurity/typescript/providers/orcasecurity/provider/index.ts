@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrcasecurityProviderConfig {
   /**
   * API endpoint. Alternatively set `ORCASECURITY_API_ENDPOINT` environment variable.  No default value provided. The provider will not start if none endpoint provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs#api_endpoint OrcasecurityProvider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs#api_endpoint OrcasecurityProvider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * API token. Alternatively, set `ORCASECURITY_API_TOKEN` environment variable.  Please make sure that API token has enough permissions to access Orca Security resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs#api_token OrcasecurityProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs#api_token OrcasecurityProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs#alias OrcasecurityProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs#alias OrcasecurityProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs orcasecurity}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs orcasecurity}
 */
 export class OrcasecurityProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class OrcasecurityProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OrcasecurityProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrcasecurityProvider to import
-  * @param importFromId The id of the existing OrcasecurityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrcasecurityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrcasecurityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class OrcasecurityProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs orcasecurity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs orcasecurity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class OrcasecurityProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'orcasecurity',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       terraformProviderSource: 'orcasecurity/orcasecurity'
     });

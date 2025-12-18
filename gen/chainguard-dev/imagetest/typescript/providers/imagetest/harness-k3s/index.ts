@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface HarnessK3SConfig extends cdktf.TerraformMetaArguments {
   /**
   * When true, the builtin (flannel) CNI will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#disable_cni HarnessK3S#disable_cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#disable_cni HarnessK3S#disable_cni}
   */
   readonly disableCni?: boolean | cdktf.IResolvable;
   /**
   * When true, the builtin metrics server will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#disable_metrics_server HarnessK3S#disable_metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#disable_metrics_server HarnessK3S#disable_metrics_server}
   */
   readonly disableMetricsServer?: boolean | cdktf.IResolvable;
   /**
   * When true, the builtin network policy controller will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#disable_network_policy HarnessK3S#disable_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#disable_network_policy HarnessK3S#disable_network_policy}
   */
   readonly disableNetworkPolicy?: boolean | cdktf.IResolvable;
   /**
   * When true, the builtin traefik ingress controller will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#disable_traefik HarnessK3S#disable_traefik}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#disable_traefik HarnessK3S#disable_traefik}
   */
   readonly disableTraefik?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#hooks HarnessK3S#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#hooks HarnessK3S#hooks}
   */
   readonly hooks?: HarnessK3SHooks;
   /**
   * The full image reference to use for the k3s container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#image HarnessK3S#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#image HarnessK3S#image}
   */
   readonly image?: string;
   /**
   * The inventory this harness belongs to. This is received as a direct input from a data.imagetest_inventory data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#inventory HarnessK3S#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#inventory HarnessK3S#inventory}
   */
   readonly inventory: HarnessK3SInventory;
   /**
   * The KubeletConfiguration to be applied to the underlying k3s cluster in YAML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#kubelet_config HarnessK3S#kubelet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#kubelet_config HarnessK3S#kubelet_config}
   */
   readonly kubeletConfig?: string;
   /**
   * The name of the harness. This must be unique within the scope of the provided inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#name HarnessK3S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#name HarnessK3S#name}
   */
   readonly name: string;
   /**
   * A map of existing networks to attach the harness containers to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#networks HarnessK3S#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#networks HarnessK3S#networks}
   */
   readonly networks?: { [key: string]: HarnessK3SNetworks } | cdktf.IResolvable;
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#registries HarnessK3S#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#registries HarnessK3S#registries}
   */
   readonly registries?: { [key: string]: HarnessK3SRegistries } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#resources HarnessK3S#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#resources HarnessK3S#resources}
   */
   readonly resources?: HarnessK3SResources;
   /**
   * A map of configuration for the sandbox container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#sandbox HarnessK3S#sandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#sandbox HarnessK3S#sandbox}
   */
   readonly sandbox?: HarnessK3SSandbox;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#timeouts HarnessK3S#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#timeouts HarnessK3S#timeouts}
   */
   readonly timeouts?: HarnessK3STimeouts;
 }
@@ -90,13 +90,13 @@ export interface HarnessK3SHooks {
   /**
   * A list of commands to run after the k3s container successfully starts (the api server is available)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#post_start HarnessK3S#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#post_start HarnessK3S#post_start}
   */
   readonly postStart?: string[];
   /**
   * Not supported for this harness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#pre_start HarnessK3S#pre_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#pre_start HarnessK3S#pre_start}
   */
   readonly preStart?: string[];
 }
@@ -219,7 +219,7 @@ export class HarnessK3SHooksOutputReference extends cdktf.ComplexObject {
 }
 export interface HarnessK3SInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#seed HarnessK3S#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#seed HarnessK3S#seed}
   */
   readonly seed: string;
 }
@@ -312,7 +312,7 @@ export interface HarnessK3SNetworks {
   /**
   * The name of the existing network to attach the harness containers to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#name HarnessK3S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#name HarnessK3S#name}
   */
   readonly name: string;
 }
@@ -423,15 +423,15 @@ export class HarnessK3SNetworksMap extends cdktf.ComplexMap {
 }
 export interface HarnessK3SRegistriesAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#auth HarnessK3S#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#auth HarnessK3S#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#password HarnessK3S#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#password HarnessK3S#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#username HarnessK3S#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#username HarnessK3S#username}
   */
   readonly username?: string;
 }
@@ -583,7 +583,7 @@ export class HarnessK3SRegistriesAuthOutputReference extends cdktf.ComplexObject
 }
 export interface HarnessK3SRegistriesMirror {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#endpoints HarnessK3S#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#endpoints HarnessK3S#endpoints}
   */
   readonly endpoints?: string[];
 }
@@ -677,15 +677,15 @@ export class HarnessK3SRegistriesMirrorOutputReference extends cdktf.ComplexObje
 }
 export interface HarnessK3SRegistriesTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#ca_file HarnessK3S#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#ca_file HarnessK3S#ca_file}
   */
   readonly caFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#cert_file HarnessK3S#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#cert_file HarnessK3S#cert_file}
   */
   readonly certFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#key_file HarnessK3S#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#key_file HarnessK3S#key_file}
   */
   readonly keyFile?: string;
 }
@@ -837,15 +837,15 @@ export class HarnessK3SRegistriesTlsOutputReference extends cdktf.ComplexObject 
 }
 export interface HarnessK3SRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#auth HarnessK3S#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#auth HarnessK3S#auth}
   */
   readonly auth?: HarnessK3SRegistriesAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#mirror HarnessK3S#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#mirror HarnessK3S#mirror}
   */
   readonly mirror?: HarnessK3SRegistriesMirror;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#tls HarnessK3S#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#tls HarnessK3S#tls}
   */
   readonly tls?: HarnessK3SRegistriesTls;
 }
@@ -1019,13 +1019,13 @@ export interface HarnessK3SResourcesCpu {
   /**
   * Limit of memory the harness container can consume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#limit HarnessK3S#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#limit HarnessK3S#limit}
   */
   readonly limit?: string;
   /**
   * Amount of memory requested for the harness container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#request HarnessK3S#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#request HarnessK3S#request}
   */
   readonly request?: string;
 }
@@ -1150,13 +1150,13 @@ export interface HarnessK3SResourcesMemory {
   /**
   * Limit of memory the harness container can consume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#limit HarnessK3S#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#limit HarnessK3S#limit}
   */
   readonly limit?: string;
   /**
   * Amount of memory requested for the harness container. The default is the bare minimum required by k3s. Anything lower should be used with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#request HarnessK3S#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#request HarnessK3S#request}
   */
   readonly request?: string;
 }
@@ -1279,11 +1279,11 @@ export class HarnessK3SResourcesMemoryOutputReference extends cdktf.ComplexObjec
 }
 export interface HarnessK3SResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#cpu HarnessK3S#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#cpu HarnessK3S#cpu}
   */
   readonly cpu?: HarnessK3SResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#memory HarnessK3S#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#memory HarnessK3S#memory}
   */
   readonly memory?: HarnessK3SResourcesMemory;
 }
@@ -1408,13 +1408,13 @@ export interface HarnessK3SSandboxLayers {
   /**
   * The relative or absolute path on the host to the source directory to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#source HarnessK3S#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#source HarnessK3S#source}
   */
   readonly source: string;
   /**
   * The absolute path on the container to mount the source directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#target HarnessK3S#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#target HarnessK3S#target}
   */
   readonly target: string;
 }
@@ -1555,19 +1555,19 @@ export interface HarnessK3SSandboxMounts {
   /**
   * The absolute path on the container to mount the source directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#destination HarnessK3S#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#destination HarnessK3S#destination}
   */
   readonly destination: string;
   /**
   * Whether the mount should be read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#read_only HarnessK3S#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#read_only HarnessK3S#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * The relative or absolute path on the host to the source directory to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#source HarnessK3S#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#source HarnessK3S#source}
   */
   readonly source: string;
 }
@@ -1737,7 +1737,7 @@ export interface HarnessK3SSandboxNetworks {
   /**
   * The name of the existing network to attach the container to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#name HarnessK3S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#name HarnessK3S#name}
   */
   readonly name: string;
 }
@@ -1850,53 +1850,53 @@ export interface HarnessK3SSandbox {
   /**
   * Environment variables to set on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#envs HarnessK3S#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#envs HarnessK3S#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
   * The full image reference to use for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#image HarnessK3S#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#image HarnessK3S#image}
   */
   readonly image?: string;
   /**
   * A list of keyrings to add to the sandbox container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#keyrings HarnessK3S#keyrings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#keyrings HarnessK3S#keyrings}
   */
   readonly keyrings?: string[];
   /**
   * A list of layers to add to the sandbox container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#layers HarnessK3S#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#layers HarnessK3S#layers}
   */
   readonly layers?: HarnessK3SSandboxLayers[] | cdktf.IResolvable;
   /**
   * The list of mounts to create on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#mounts HarnessK3S#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#mounts HarnessK3S#mounts}
   */
   readonly mounts?: HarnessK3SSandboxMounts[] | cdktf.IResolvable;
   /**
   * A map of existing networks to attach the container to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#networks HarnessK3S#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#networks HarnessK3S#networks}
   */
   readonly networks?: { [key: string]: HarnessK3SSandboxNetworks } | cdktf.IResolvable;
   /**
   * A list of packages to install in the sandbox container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#packages HarnessK3S#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#packages HarnessK3S#packages}
   */
   readonly packages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#privileged HarnessK3S#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#privileged HarnessK3S#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * A list of repositories to add to the sandbox container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#repositories HarnessK3S#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#repositories HarnessK3S#repositories}
   */
   readonly repositories?: string[];
 }
@@ -2224,7 +2224,7 @@ export interface HarnessK3STimeouts {
   /**
   * The maximum time to wait for the k3s harness to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#create HarnessK3S#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#create HarnessK3S#create}
   */
   readonly create?: string;
 }
@@ -2318,7 +2318,7 @@ export class HarnessK3STimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s imagetest_harness_k3s}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s imagetest_harness_k3s}
 */
 export class HarnessK3S extends cdktf.TerraformResource {
 
@@ -2334,7 +2334,7 @@ export class HarnessK3S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HarnessK3S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarnessK3S to import
-  * @param importFromId The id of the existing HarnessK3S that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarnessK3S that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarnessK3S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2346,7 +2346,7 @@ export class HarnessK3S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_k3s imagetest_harness_k3s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.109/docs/resources/harness_k3s imagetest_harness_k3s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2357,8 +2357,8 @@ export class HarnessK3S extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_harness_k3s',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.108',
-        providerVersionConstraint: '0.0.108'
+        providerVersion: '0.0.109',
+        providerVersionConstraint: '0.0.109'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

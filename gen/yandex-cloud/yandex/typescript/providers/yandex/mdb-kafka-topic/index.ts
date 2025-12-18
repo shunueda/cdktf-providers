@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MdbKafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#cluster_id MdbKafkaTopic#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#cluster_id MdbKafkaTopic#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#id MdbKafkaTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#id MdbKafkaTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface MdbKafkaTopicConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#name MdbKafkaTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#name MdbKafkaTopic#name}
   */
   readonly name: string;
   /**
   * The number of the topic's partitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#partitions MdbKafkaTopic#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#partitions MdbKafkaTopic#partitions}
   */
   readonly partitions: number;
   /**
   * Amount of data copies (replicas) for the topic in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#replication_factor MdbKafkaTopic#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#replication_factor MdbKafkaTopic#replication_factor}
   */
   readonly replicationFactor: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#timeouts MdbKafkaTopic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#timeouts MdbKafkaTopic#timeouts}
   */
   readonly timeouts?: MdbKafkaTopicTimeouts;
   /**
   * topic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#topic_config MdbKafkaTopic#topic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#topic_config MdbKafkaTopic#topic_config}
   */
   readonly topicConfig?: MdbKafkaTopicTopicConfig;
 }
 export interface MdbKafkaTopicTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#create MdbKafkaTopic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#create MdbKafkaTopic#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#delete MdbKafkaTopic#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#delete MdbKafkaTopic#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#read MdbKafkaTopic#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#read MdbKafkaTopic#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#update MdbKafkaTopic#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#update MdbKafkaTopic#update}
   */
   readonly update?: string;
 }
@@ -248,79 +248,79 @@ export interface MdbKafkaTopicTopicConfig {
   /**
   * Retention policy to use on log segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#cleanup_policy MdbKafkaTopic#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#cleanup_policy MdbKafkaTopic#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * Compression type of kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#compression_type MdbKafkaTopic#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#compression_type MdbKafkaTopic#compression_type}
   */
   readonly compressionType?: string;
   /**
   * The amount of time to retain delete tombstone markers for log compacted topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#delete_retention_ms MdbKafkaTopic#delete_retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#delete_retention_ms MdbKafkaTopic#delete_retention_ms}
   */
   readonly deleteRetentionMs?: string;
   /**
   * The time to wait before deleting a file from the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#file_delete_delay_ms MdbKafkaTopic#file_delete_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#file_delete_delay_ms MdbKafkaTopic#file_delete_delay_ms}
   */
   readonly fileDeleteDelayMs?: string;
   /**
   * This setting allows specifying an interval at which we will force an fsync of data written to the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#flush_messages MdbKafkaTopic#flush_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#flush_messages MdbKafkaTopic#flush_messages}
   */
   readonly flushMessages?: string;
   /**
   * This setting allows specifying a time interval at which we will force an fsync of data written to the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#flush_ms MdbKafkaTopic#flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#flush_ms MdbKafkaTopic#flush_ms}
   */
   readonly flushMs?: string;
   /**
   * The largest record batch size allowed by Kafka (after compression if compression is enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#max_message_bytes MdbKafkaTopic#max_message_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#max_message_bytes MdbKafkaTopic#max_message_bytes}
   */
   readonly maxMessageBytes?: string;
   /**
   * The minimum time a message will remain uncompacted in the log. Only applicable for logs that are being compacted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#min_compaction_lag_ms MdbKafkaTopic#min_compaction_lag_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#min_compaction_lag_ms MdbKafkaTopic#min_compaction_lag_ms}
   */
   readonly minCompactionLagMs?: string;
   /**
   * When a producer sets acks to "all" (or "-1"), this configuration specifies the minimum number of replicas that must acknowledge a write for the write to be considered successful. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#min_insync_replicas MdbKafkaTopic#min_insync_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#min_insync_replicas MdbKafkaTopic#min_insync_replicas}
   */
   readonly minInsyncReplicas?: string;
   /**
   * True if we should preallocate the file on disk when creating a new log segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#preallocate MdbKafkaTopic#preallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#preallocate MdbKafkaTopic#preallocate}
   */
   readonly preallocate?: boolean | cdktf.IResolvable;
   /**
   * This configuration controls the maximum size a partition (which consists of log segments) can grow to before we will discard old log segments to free up space if we are using the "delete" retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#retention_bytes MdbKafkaTopic#retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#retention_bytes MdbKafkaTopic#retention_bytes}
   */
   readonly retentionBytes?: string;
   /**
   * This configuration controls the maximum time we will retain a log before we will discard old log segments to free up space if we are using the "delete" retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#retention_ms MdbKafkaTopic#retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#retention_ms MdbKafkaTopic#retention_ms}
   */
   readonly retentionMs?: string;
   /**
   * This configuration controls the segment file size for the log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#segment_bytes MdbKafkaTopic#segment_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#segment_bytes MdbKafkaTopic#segment_bytes}
   */
   readonly segmentBytes?: string;
 }
@@ -752,7 +752,7 @@ export class MdbKafkaTopicTopicConfigOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic yandex_mdb_kafka_topic}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic yandex_mdb_kafka_topic}
 */
 export class MdbKafkaTopic extends cdktf.TerraformResource {
 
@@ -768,7 +768,7 @@ export class MdbKafkaTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbKafkaTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbKafkaTopic to import
-  * @param importFromId The id of the existing MdbKafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbKafkaTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbKafkaTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -780,7 +780,7 @@ export class MdbKafkaTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/mdb_kafka_topic yandex_mdb_kafka_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/mdb_kafka_topic yandex_mdb_kafka_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -791,8 +791,8 @@ export class MdbKafkaTopic extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_kafka_topic',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

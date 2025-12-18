@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OrganizationmanagerSamlFederationUserAccountConfig extends cdkt
   /**
   * ID of a SAML Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#federation_id OrganizationmanagerSamlFederationUserAccount#federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#federation_id OrganizationmanagerSamlFederationUserAccount#federation_id}
   */
   readonly federationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#id OrganizationmanagerSamlFederationUserAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#id OrganizationmanagerSamlFederationUserAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface OrganizationmanagerSamlFederationUserAccountConfig extends cdkt
   /**
   * Name ID of the SAML federated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#name_id OrganizationmanagerSamlFederationUserAccount#name_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#name_id OrganizationmanagerSamlFederationUserAccount#name_id}
   */
   readonly nameId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#timeouts OrganizationmanagerSamlFederationUserAccount#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#timeouts OrganizationmanagerSamlFederationUserAccount#timeouts}
   */
   readonly timeouts?: OrganizationmanagerSamlFederationUserAccountTimeouts;
 }
 export interface OrganizationmanagerSamlFederationUserAccountTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#create OrganizationmanagerSamlFederationUserAccount#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#create OrganizationmanagerSamlFederationUserAccount#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#delete OrganizationmanagerSamlFederationUserAccount#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#delete OrganizationmanagerSamlFederationUserAccount#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#read OrganizationmanagerSamlFederationUserAccount#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#read OrganizationmanagerSamlFederationUserAccount#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#update OrganizationmanagerSamlFederationUserAccount#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#update OrganizationmanagerSamlFederationUserAccount#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class OrganizationmanagerSamlFederationUserAccountTimeoutsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account}
 */
 export class OrganizationmanagerSamlFederationUserAccount extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class OrganizationmanagerSamlFederationUserAccount extends cdktf.Terrafor
   * Generates CDKTF code for importing a OrganizationmanagerSamlFederationUserAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerSamlFederationUserAccount to import
-  * @param importFromId The id of the existing OrganizationmanagerSamlFederationUserAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerSamlFederationUserAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerSamlFederationUserAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class OrganizationmanagerSamlFederationUserAccount extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class OrganizationmanagerSamlFederationUserAccount extends cdktf.Terrafor
       terraformResourceType: 'yandex_organizationmanager_saml_federation_user_account',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

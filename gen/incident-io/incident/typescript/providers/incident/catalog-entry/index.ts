@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry
+// https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CatalogEntryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional aliases that can be used to reference this entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#aliases CatalogEntry#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#aliases CatalogEntry#aliases}
   */
   readonly aliases?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#attribute_values CatalogEntry#attribute_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#attribute_values CatalogEntry#attribute_values}
   */
   readonly attributeValues: CatalogEntryAttributeValues[] | cdktf.IResolvable;
   /**
   * ID of this catalog type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#catalog_type_id CatalogEntry#catalog_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#catalog_type_id CatalogEntry#catalog_type_id}
   */
   readonly catalogTypeId: string;
   /**
   * An optional alternative ID for this entry, which is ensured to be unique for the type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#external_id CatalogEntry#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#external_id CatalogEntry#external_id}
   */
   readonly externalId?: string;
   /**
@@ -34,19 +34,19 @@ export interface CatalogEntryConfig extends cdktf.TerraformMetaArguments {
   * 
   * This can be used to allow other attributes of a catalog entry to be managed elsewhere, for example in another Terraform repository or the incident.io web UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#managed_attributes CatalogEntry#managed_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#managed_attributes CatalogEntry#managed_attributes}
   */
   readonly managedAttributes?: string[];
   /**
   * Name is the human readable name of this entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#name CatalogEntry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#name CatalogEntry#name}
   */
   readonly name: string;
   /**
   * When catalog type is ranked, this is used to help order things
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#rank CatalogEntry#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#rank CatalogEntry#rank}
   */
   readonly rank?: number;
 }
@@ -54,19 +54,19 @@ export interface CatalogEntryAttributeValues {
   /**
   * The value of this element of the array, in a format suitable for this attribute type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#array_value CatalogEntry#array_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#array_value CatalogEntry#array_value}
   */
   readonly arrayValue?: string[];
   /**
   * The ID of this attribute, usually loaded from the incident_catalog_type_attribute resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#attribute CatalogEntry#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#attribute CatalogEntry#attribute}
   */
   readonly attribute: string;
   /**
   * The value of this attribute, in a format suitable for this attribute type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#value CatalogEntry#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#value CatalogEntry#value}
   */
   readonly value?: string;
 }
@@ -237,7 +237,7 @@ export class CatalogEntryAttributeValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry incident_catalog_entry}
+* Represents a {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry incident_catalog_entry}
 */
 export class CatalogEntry extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class CatalogEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogEntry to import
-  * @param importFromId The id of the existing CatalogEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class CatalogEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.22.0/docs/resources/catalog_entry incident_catalog_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/incident-io/incident/5.23.0/docs/resources/catalog_entry incident_catalog_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class CatalogEntry extends cdktf.TerraformResource {
       terraformResourceType: 'incident_catalog_entry',
       terraformGeneratorMetadata: {
         providerName: 'incident',
-        providerVersion: '5.22.0',
-        providerVersionConstraint: '5.22.0'
+        providerVersion: '5.23.0',
+        providerVersionConstraint: '5.23.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

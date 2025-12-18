@@ -8,6 +8,8 @@ Object.defineProperty(exports, 'awsFlowLogsS3Bucket', { get: function () { retur
 Object.defineProperty(exports, 'azureFlowLogsStorageAccount', { get: function () { return require('./azure-flow-logs-storage-account'); } });
 Object.defineProperty(exports, 'azureSubscription', { get: function () { return require('./azure-subscription'); } });
 Object.defineProperty(exports, 'deployment', { get: function () { return require('./deployment'); } });
+Object.defineProperty(exports, 'gcpFlowLogsPubsubTopic', { get: function () { return require('./gcp-flow-logs-pubsub-topic'); } });
+Object.defineProperty(exports, 'gcpProject', { get: function () { return require('./gcp-project'); } });
 Object.defineProperty(exports, 'ipList', { get: function () { return require('./ip-list'); } });
 Object.defineProperty(exports, 'k8SCluster', { get: function () { return require('./k8s-cluster'); } });
 Object.defineProperty(exports, 'k8SClusterOnboardingCredential', { get: function () { return require('./k8s-cluster-onboarding-credential'); } });

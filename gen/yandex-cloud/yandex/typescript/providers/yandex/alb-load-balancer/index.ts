@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AlbLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies whether application load balancer is available to zonal shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#allow_zonal_shift AlbLoadBalancer#allow_zonal_shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#allow_zonal_shift AlbLoadBalancer#allow_zonal_shift}
   */
   readonly allowZonalShift?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#description AlbLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#description AlbLoadBalancer#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#folder_id AlbLoadBalancer#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#folder_id AlbLoadBalancer#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#id AlbLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#id AlbLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface AlbLoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#labels AlbLoadBalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#labels AlbLoadBalancer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#name AlbLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#name AlbLoadBalancer#name}
   */
   readonly name?: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#network_id AlbLoadBalancer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#network_id AlbLoadBalancer#network_id}
   */
   readonly networkId: string;
   /**
   * The region ID where Load Balancer is located at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#region_id AlbLoadBalancer#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#region_id AlbLoadBalancer#region_id}
   */
   readonly regionId?: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#security_group_ids AlbLoadBalancer#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#security_group_ids AlbLoadBalancer#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * allocation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#allocation_policy AlbLoadBalancer#allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#allocation_policy AlbLoadBalancer#allocation_policy}
   */
   readonly allocationPolicy: AlbLoadBalancerAllocationPolicy;
   /**
   * auto_scale_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#auto_scale_policy AlbLoadBalancer#auto_scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#auto_scale_policy AlbLoadBalancer#auto_scale_policy}
   */
   readonly autoScalePolicy?: AlbLoadBalancerAutoScalePolicy;
   /**
   * listener block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#listener AlbLoadBalancer#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#listener AlbLoadBalancer#listener}
   */
   readonly listener?: AlbLoadBalancerListener[] | cdktf.IResolvable;
   /**
   * log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#log_options AlbLoadBalancer#log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#log_options AlbLoadBalancer#log_options}
   */
   readonly logOptions?: AlbLoadBalancerLogOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#timeouts AlbLoadBalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#timeouts AlbLoadBalancer#timeouts}
   */
   readonly timeouts?: AlbLoadBalancerTimeouts;
 }
@@ -97,19 +97,19 @@ export interface AlbLoadBalancerAllocationPolicyLocation {
   /**
   * If set, will disable all L7 instances in the zone for request handling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#disable_traffic AlbLoadBalancer#disable_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#disable_traffic AlbLoadBalancer#disable_traffic}
   */
   readonly disableTraffic?: boolean | cdktf.IResolvable;
   /**
   * ID of the subnet that location is located at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#subnet_id AlbLoadBalancer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#subnet_id AlbLoadBalancer#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#zone_id AlbLoadBalancer#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#zone_id AlbLoadBalancer#zone_id}
   */
   readonly zoneId: string;
 }
@@ -279,7 +279,7 @@ export interface AlbLoadBalancerAllocationPolicy {
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#location AlbLoadBalancer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#location AlbLoadBalancer#location}
   */
   readonly location: AlbLoadBalancerAllocationPolicyLocation[] | cdktf.IResolvable;
 }
@@ -362,13 +362,13 @@ export interface AlbLoadBalancerAutoScalePolicy {
   /**
   * Upper limit for total instance count (across all zones)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#max_size AlbLoadBalancer#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#max_size AlbLoadBalancer#max_size}
   */
   readonly maxSize?: number;
   /**
   * Lower limit for instance count in each zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#min_zone_size AlbLoadBalancer#min_zone_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#min_zone_size AlbLoadBalancer#min_zone_size}
   */
   readonly minZoneSize?: number;
 }
@@ -483,7 +483,7 @@ export interface AlbLoadBalancerListenerEndpointAddressExternalIpv4Address {
   /**
   * Provided by the client or computed automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
   */
   readonly address?: string;
 }
@@ -569,7 +569,7 @@ export interface AlbLoadBalancerListenerEndpointAddressExternalIpv6Address {
   /**
   * Provided by the client or computed automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
   */
   readonly address?: string;
 }
@@ -655,13 +655,13 @@ export interface AlbLoadBalancerListenerEndpointAddressInternalIpv4Address {
   /**
   * Provided by the client or computed automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
   */
   readonly address?: string;
   /**
   * ID of the subnet that the address belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#subnet_id AlbLoadBalancer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#subnet_id AlbLoadBalancer#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -776,19 +776,19 @@ export interface AlbLoadBalancerListenerEndpointAddress {
   /**
   * external_ipv4_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#external_ipv4_address AlbLoadBalancer#external_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#external_ipv4_address AlbLoadBalancer#external_ipv4_address}
   */
   readonly externalIpv4Address?: AlbLoadBalancerListenerEndpointAddressExternalIpv4Address;
   /**
   * external_ipv6_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#external_ipv6_address AlbLoadBalancer#external_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#external_ipv6_address AlbLoadBalancer#external_ipv6_address}
   */
   readonly externalIpv6Address?: AlbLoadBalancerListenerEndpointAddressExternalIpv6Address;
   /**
   * internal_ipv4_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#internal_ipv4_address AlbLoadBalancer#internal_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#internal_ipv4_address AlbLoadBalancer#internal_ipv4_address}
   */
   readonly internalIpv4Address?: AlbLoadBalancerListenerEndpointAddressInternalIpv4Address;
 }
@@ -964,13 +964,13 @@ export interface AlbLoadBalancerListenerEndpoint {
   /**
   * One or more ports to listen on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#ports AlbLoadBalancer#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#ports AlbLoadBalancer#ports}
   */
   readonly ports: number[];
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#address AlbLoadBalancer#address}
   */
   readonly address: AlbLoadBalancerListenerEndpointAddress[] | cdktf.IResolvable;
 }
@@ -1111,7 +1111,7 @@ export interface AlbLoadBalancerListenerHttpHandlerHttp2Options {
   /**
   * Maximum number of concurrent streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#max_concurrent_streams AlbLoadBalancer#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#max_concurrent_streams AlbLoadBalancer#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
 }
@@ -1197,25 +1197,25 @@ export interface AlbLoadBalancerListenerHttpHandler {
   /**
   * If set, will enable only HTTP1 protocol with HTTP1.0 support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#allow_http10 AlbLoadBalancer#allow_http10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#allow_http10 AlbLoadBalancer#allow_http10}
   */
   readonly allowHttp10?: boolean | cdktf.IResolvable;
   /**
   * HTTP router id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_router_id AlbLoadBalancer#http_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_router_id AlbLoadBalancer#http_router_id}
   */
   readonly httpRouterId?: string;
   /**
   * When unset, will preserve the incoming `x-request-id` header, otherwise would rewrite it with a new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#rewrite_request_id AlbLoadBalancer#rewrite_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#rewrite_request_id AlbLoadBalancer#rewrite_request_id}
   */
   readonly rewriteRequestId?: boolean | cdktf.IResolvable;
   /**
   * http2_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http2_options AlbLoadBalancer#http2_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http2_options AlbLoadBalancer#http2_options}
   */
   readonly http2Options?: AlbLoadBalancerListenerHttpHandlerHttp2Options;
 }
@@ -1388,7 +1388,7 @@ export interface AlbLoadBalancerListenerHttpRedirects {
   /**
   * If set redirects all unencrypted HTTP requests to the same URI with scheme changed to `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_to_https AlbLoadBalancer#http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_to_https AlbLoadBalancer#http_to_https}
   */
   readonly httpToHttps?: boolean | cdktf.IResolvable;
 }
@@ -1474,13 +1474,13 @@ export interface AlbLoadBalancerListenerHttp {
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#handler AlbLoadBalancer#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#handler AlbLoadBalancer#handler}
   */
   readonly handler?: AlbLoadBalancerListenerHttpHandler;
   /**
   * redirects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#redirects AlbLoadBalancer#redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#redirects AlbLoadBalancer#redirects}
   */
   readonly redirects?: AlbLoadBalancerListenerHttpRedirects;
 }
@@ -1595,13 +1595,13 @@ export interface AlbLoadBalancerListenerStreamHandler {
   /**
   * Backend Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#backend_group_id AlbLoadBalancer#backend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#backend_group_id AlbLoadBalancer#backend_group_id}
   */
   readonly backendGroupId?: string;
   /**
   * The idle timeout is the interval after which the connection will be forcibly closed if no data has been transmitted or received on either the upstream or downstream connection. If not configured, the default idle timeout is 1 hour. Setting it to 0 disables the timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#idle_timeout AlbLoadBalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#idle_timeout AlbLoadBalancer#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -1716,7 +1716,7 @@ export interface AlbLoadBalancerListenerStream {
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#handler AlbLoadBalancer#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#handler AlbLoadBalancer#handler}
   */
   readonly handler?: AlbLoadBalancerListenerStreamHandler;
 }
@@ -1802,7 +1802,7 @@ export interface AlbLoadBalancerListenerTlsDefaultHandlerHttpHandlerHttp2Options
   /**
   * Maximum number of concurrent streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#max_concurrent_streams AlbLoadBalancer#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#max_concurrent_streams AlbLoadBalancer#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
 }
@@ -1888,25 +1888,25 @@ export interface AlbLoadBalancerListenerTlsDefaultHandlerHttpHandler {
   /**
   * If set, will enable only HTTP1 protocol with HTTP1.0 support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#allow_http10 AlbLoadBalancer#allow_http10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#allow_http10 AlbLoadBalancer#allow_http10}
   */
   readonly allowHttp10?: boolean | cdktf.IResolvable;
   /**
   * HTTP router id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_router_id AlbLoadBalancer#http_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_router_id AlbLoadBalancer#http_router_id}
   */
   readonly httpRouterId?: string;
   /**
   * When unset, will preserve the incoming `x-request-id` header, otherwise would rewrite it with a new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#rewrite_request_id AlbLoadBalancer#rewrite_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#rewrite_request_id AlbLoadBalancer#rewrite_request_id}
   */
   readonly rewriteRequestId?: boolean | cdktf.IResolvable;
   /**
   * http2_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http2_options AlbLoadBalancer#http2_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http2_options AlbLoadBalancer#http2_options}
   */
   readonly http2Options?: AlbLoadBalancerListenerTlsDefaultHandlerHttpHandlerHttp2Options;
 }
@@ -2079,13 +2079,13 @@ export interface AlbLoadBalancerListenerTlsDefaultHandlerStreamHandler {
   /**
   * Backend Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#backend_group_id AlbLoadBalancer#backend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#backend_group_id AlbLoadBalancer#backend_group_id}
   */
   readonly backendGroupId?: string;
   /**
   * The idle timeout is the interval after which the connection will be forcibly closed if no data has been transmitted or received on either the upstream or downstream connection. If not configured, the default idle timeout is 1 hour. Setting it to 0 disables the timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#idle_timeout AlbLoadBalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#idle_timeout AlbLoadBalancer#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -2200,19 +2200,19 @@ export interface AlbLoadBalancerListenerTlsDefaultHandler {
   /**
   * Certificate IDs in the Certificate Manager. Multiple TLS certificates can be associated with the same context to allow both RSA and ECDSA certificates. Only the first certificate of each type will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#certificate_ids AlbLoadBalancer#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#certificate_ids AlbLoadBalancer#certificate_ids}
   */
   readonly certificateIds: string[];
   /**
   * http_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_handler AlbLoadBalancer#http_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_handler AlbLoadBalancer#http_handler}
   */
   readonly httpHandler?: AlbLoadBalancerListenerTlsDefaultHandlerHttpHandler;
   /**
   * stream_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#stream_handler AlbLoadBalancer#stream_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#stream_handler AlbLoadBalancer#stream_handler}
   */
   readonly streamHandler?: AlbLoadBalancerListenerTlsDefaultHandlerStreamHandler;
 }
@@ -2353,7 +2353,7 @@ export interface AlbLoadBalancerListenerTlsSniHandlerHandlerHttpHandlerHttp2Opti
   /**
   * Maximum number of concurrent streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#max_concurrent_streams AlbLoadBalancer#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#max_concurrent_streams AlbLoadBalancer#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
 }
@@ -2439,25 +2439,25 @@ export interface AlbLoadBalancerListenerTlsSniHandlerHandlerHttpHandler {
   /**
   * If set, will enable only HTTP1 protocol with HTTP1.0 support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#allow_http10 AlbLoadBalancer#allow_http10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#allow_http10 AlbLoadBalancer#allow_http10}
   */
   readonly allowHttp10?: boolean | cdktf.IResolvable;
   /**
   * HTTP router id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_router_id AlbLoadBalancer#http_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_router_id AlbLoadBalancer#http_router_id}
   */
   readonly httpRouterId?: string;
   /**
   * When unset, will preserve the incoming `x-request-id` header, otherwise would rewrite it with a new value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#rewrite_request_id AlbLoadBalancer#rewrite_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#rewrite_request_id AlbLoadBalancer#rewrite_request_id}
   */
   readonly rewriteRequestId?: boolean | cdktf.IResolvable;
   /**
   * http2_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http2_options AlbLoadBalancer#http2_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http2_options AlbLoadBalancer#http2_options}
   */
   readonly http2Options?: AlbLoadBalancerListenerTlsSniHandlerHandlerHttpHandlerHttp2Options;
 }
@@ -2630,13 +2630,13 @@ export interface AlbLoadBalancerListenerTlsSniHandlerHandlerStreamHandler {
   /**
   * Backend Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#backend_group_id AlbLoadBalancer#backend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#backend_group_id AlbLoadBalancer#backend_group_id}
   */
   readonly backendGroupId?: string;
   /**
   * The idle timeout is the interval after which the connection will be forcibly closed if no data has been transmitted or received on either the upstream or downstream connection. If not configured, the default idle timeout is 1 hour. Setting it to 0 disables the timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#idle_timeout AlbLoadBalancer#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#idle_timeout AlbLoadBalancer#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -2751,19 +2751,19 @@ export interface AlbLoadBalancerListenerTlsSniHandlerHandler {
   /**
   * Certificate IDs in the Certificate Manager. Multiple TLS certificates can be associated with the same context to allow both RSA and ECDSA certificates. Only the first certificate of each type will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#certificate_ids AlbLoadBalancer#certificate_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#certificate_ids AlbLoadBalancer#certificate_ids}
   */
   readonly certificateIds: string[];
   /**
   * http_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_handler AlbLoadBalancer#http_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_handler AlbLoadBalancer#http_handler}
   */
   readonly httpHandler?: AlbLoadBalancerListenerTlsSniHandlerHandlerHttpHandler;
   /**
   * stream_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#stream_handler AlbLoadBalancer#stream_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#stream_handler AlbLoadBalancer#stream_handler}
   */
   readonly streamHandler?: AlbLoadBalancerListenerTlsSniHandlerHandlerStreamHandler;
 }
@@ -2904,19 +2904,19 @@ export interface AlbLoadBalancerListenerTlsSniHandler {
   /**
   * Name of the SNI handler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#name AlbLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#name AlbLoadBalancer#name}
   */
   readonly name: string;
   /**
   * Server names that are matched by the SNI handler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#server_names AlbLoadBalancer#server_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#server_names AlbLoadBalancer#server_names}
   */
   readonly serverNames: string[];
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#handler AlbLoadBalancer#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#handler AlbLoadBalancer#handler}
   */
   readonly handler: AlbLoadBalancerListenerTlsSniHandlerHandler;
 }
@@ -3083,13 +3083,13 @@ export interface AlbLoadBalancerListenerTls {
   /**
   * default_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#default_handler AlbLoadBalancer#default_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#default_handler AlbLoadBalancer#default_handler}
   */
   readonly defaultHandler: AlbLoadBalancerListenerTlsDefaultHandler;
   /**
   * sni_handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#sni_handler AlbLoadBalancer#sni_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#sni_handler AlbLoadBalancer#sni_handler}
   */
   readonly sniHandler?: AlbLoadBalancerListenerTlsSniHandler[] | cdktf.IResolvable;
 }
@@ -3201,31 +3201,31 @@ export interface AlbLoadBalancerListener {
   /**
   * Name of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#name AlbLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#name AlbLoadBalancer#name}
   */
   readonly name: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#endpoint AlbLoadBalancer#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#endpoint AlbLoadBalancer#endpoint}
   */
   readonly endpoint?: AlbLoadBalancerListenerEndpoint[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http AlbLoadBalancer#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http AlbLoadBalancer#http}
   */
   readonly http?: AlbLoadBalancerListenerHttp;
   /**
   * stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#stream AlbLoadBalancer#stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#stream AlbLoadBalancer#stream}
   */
   readonly stream?: AlbLoadBalancerListenerStream;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#tls AlbLoadBalancer#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#tls AlbLoadBalancer#tls}
   */
   readonly tls?: AlbLoadBalancerListenerTls;
 }
@@ -3456,25 +3456,25 @@ export interface AlbLoadBalancerLogOptionsDiscardRule {
   /**
   * The percent of logs which will be discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#discard_percent AlbLoadBalancer#discard_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#discard_percent AlbLoadBalancer#discard_percent}
   */
   readonly discardPercent?: number;
   /**
   * list of grpc codes by name, e.g, [**NOT_FOUND**, **RESOURCE_EXHAUSTED**].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#grpc_codes AlbLoadBalancer#grpc_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#grpc_codes AlbLoadBalancer#grpc_codes}
   */
   readonly grpcCodes?: string[];
   /**
   * List of http code intervals *1XX*-*5XX* or *ALL*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_code_intervals AlbLoadBalancer#http_code_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_code_intervals AlbLoadBalancer#http_code_intervals}
   */
   readonly httpCodeIntervals?: string[];
   /**
   * List of http codes *100*-*599*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#http_codes AlbLoadBalancer#http_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#http_codes AlbLoadBalancer#http_codes}
   */
   readonly httpCodes?: number[];
 }
@@ -3679,19 +3679,19 @@ export interface AlbLoadBalancerLogOptions {
   /**
   * Set to `true` to disable Cloud Logging for the balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#disable AlbLoadBalancer#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#disable AlbLoadBalancer#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Cloud Logging group ID to send logs to. Leave empty to use the balancer folder default log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#log_group_id AlbLoadBalancer#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#log_group_id AlbLoadBalancer#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * discard_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#discard_rule AlbLoadBalancer#discard_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#discard_rule AlbLoadBalancer#discard_rule}
   */
   readonly discardRule?: AlbLoadBalancerLogOptionsDiscardRule[] | cdktf.IResolvable;
 }
@@ -3833,15 +3833,15 @@ export class AlbLoadBalancerLogOptionsOutputReference extends cdktf.ComplexObjec
 }
 export interface AlbLoadBalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#create AlbLoadBalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#create AlbLoadBalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#delete AlbLoadBalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#delete AlbLoadBalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#update AlbLoadBalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#update AlbLoadBalancer#update}
   */
   readonly update?: string;
 }
@@ -3993,7 +3993,7 @@ export class AlbLoadBalancerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer yandex_alb_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer yandex_alb_load_balancer}
 */
 export class AlbLoadBalancer extends cdktf.TerraformResource {
 
@@ -4009,7 +4009,7 @@ export class AlbLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbLoadBalancer to import
-  * @param importFromId The id of the existing AlbLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4021,7 +4021,7 @@ export class AlbLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/alb_load_balancer yandex_alb_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/alb_load_balancer yandex_alb_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4032,8 +4032,8 @@ export class AlbLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_alb_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

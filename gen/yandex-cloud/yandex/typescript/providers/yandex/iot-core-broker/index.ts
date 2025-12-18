@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IotCoreBrokerConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of certificate's fingerprints for the IoT Core Broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#certificates IotCoreBroker#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#certificates IotCoreBroker#certificates}
   */
   readonly certificates?: string[];
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#description IotCoreBroker#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#description IotCoreBroker#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#folder_id IotCoreBroker#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#folder_id IotCoreBroker#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#id IotCoreBroker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#id IotCoreBroker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface IotCoreBrokerConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#labels IotCoreBroker#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#labels IotCoreBroker#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#name IotCoreBroker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#name IotCoreBroker#name}
   */
   readonly name: string;
   /**
   * log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#log_options IotCoreBroker#log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#log_options IotCoreBroker#log_options}
   */
   readonly logOptions?: IotCoreBrokerLogOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#timeouts IotCoreBroker#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#timeouts IotCoreBroker#timeouts}
   */
   readonly timeouts?: IotCoreBrokerTimeouts;
 }
@@ -61,25 +61,25 @@ export interface IotCoreBrokerLogOptions {
   /**
   * Is logging for broker disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#disabled IotCoreBroker#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#disabled IotCoreBroker#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Log entries are written to default log group for specified folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#folder_id IotCoreBroker#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#folder_id IotCoreBroker#folder_id}
   */
   readonly folderId?: string;
   /**
   * Log entries are written to specified log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#log_group_id IotCoreBroker#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#log_group_id IotCoreBroker#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum log entry level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#min_level IotCoreBroker#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#min_level IotCoreBroker#min_level}
   */
   readonly minLevel?: string;
 }
@@ -250,15 +250,15 @@ export class IotCoreBrokerLogOptionsOutputReference extends cdktf.ComplexObject 
 }
 export interface IotCoreBrokerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#create IotCoreBroker#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#create IotCoreBroker#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#delete IotCoreBroker#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#delete IotCoreBroker#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#update IotCoreBroker#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#update IotCoreBroker#update}
   */
   readonly update?: string;
 }
@@ -410,7 +410,7 @@ export class IotCoreBrokerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker yandex_iot_core_broker}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker yandex_iot_core_broker}
 */
 export class IotCoreBroker extends cdktf.TerraformResource {
 
@@ -426,7 +426,7 @@ export class IotCoreBroker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IotCoreBroker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCoreBroker to import
-  * @param importFromId The id of the existing IotCoreBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCoreBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCoreBroker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -438,7 +438,7 @@ export class IotCoreBroker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iot_core_broker yandex_iot_core_broker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iot_core_broker yandex_iot_core_broker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,8 +449,8 @@ export class IotCoreBroker extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iot_core_broker',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

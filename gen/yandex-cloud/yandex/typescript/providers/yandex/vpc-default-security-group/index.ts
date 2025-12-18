@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcDefaultSecurityGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#description VpcDefaultSecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#description VpcDefaultSecurityGroup#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#folder_id VpcDefaultSecurityGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#folder_id VpcDefaultSecurityGroup#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#id VpcDefaultSecurityGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#id VpcDefaultSecurityGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface VpcDefaultSecurityGroupConfig extends cdktf.TerraformMetaArgume
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#labels VpcDefaultSecurityGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#labels VpcDefaultSecurityGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ID of the network this security group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#network_id VpcDefaultSecurityGroup#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#network_id VpcDefaultSecurityGroup#network_id}
   */
   readonly networkId: string;
   /**
   * egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#egress VpcDefaultSecurityGroup#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#egress VpcDefaultSecurityGroup#egress}
   */
   readonly egress?: VpcDefaultSecurityGroupEgress[] | cdktf.IResolvable;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#ingress VpcDefaultSecurityGroup#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#ingress VpcDefaultSecurityGroup#ingress}
   */
   readonly ingress?: VpcDefaultSecurityGroupIngress[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#timeouts VpcDefaultSecurityGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#timeouts VpcDefaultSecurityGroup#timeouts}
   */
   readonly timeouts?: VpcDefaultSecurityGroupTimeouts;
 }
@@ -61,61 +61,61 @@ export interface VpcDefaultSecurityGroupEgress {
   /**
   * Description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#description VpcDefaultSecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#description VpcDefaultSecurityGroup#description}
   */
   readonly description?: string;
   /**
   * Minimum port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#from_port VpcDefaultSecurityGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#from_port VpcDefaultSecurityGroup#from_port}
   */
   readonly fromPort?: number;
   /**
   * Labels to assign to this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#labels VpcDefaultSecurityGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#labels VpcDefaultSecurityGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Port number (if applied to a single port).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#port VpcDefaultSecurityGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#port VpcDefaultSecurityGroup#port}
   */
   readonly port?: number;
   /**
   * Special-purpose targets. `self_security_group` refers to this particular security group. `loadbalancer_healthchecks` represents [loadbalancer health check nodes](https://yandex.cloud/docs/network-load-balancer/concepts/health-check).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#predefined_target VpcDefaultSecurityGroup#predefined_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#predefined_target VpcDefaultSecurityGroup#predefined_target}
   */
   readonly predefinedTarget?: string;
   /**
   * One of `ANY`, `TCP`, `UDP`, `ICMP`, `IPV6_ICMP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#protocol VpcDefaultSecurityGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#protocol VpcDefaultSecurityGroup#protocol}
   */
   readonly protocol: string;
   /**
   * Target security group ID for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#security_group_id VpcDefaultSecurityGroup#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#security_group_id VpcDefaultSecurityGroup#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * Maximum port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#to_port VpcDefaultSecurityGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#to_port VpcDefaultSecurityGroup#to_port}
   */
   readonly toPort?: number;
   /**
   * The blocks of IPv4 addresses for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#v4_cidr_blocks VpcDefaultSecurityGroup#v4_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#v4_cidr_blocks VpcDefaultSecurityGroup#v4_cidr_blocks}
   */
   readonly v4CidrBlocks?: string[];
   /**
   * The blocks of IPv6 addresses for this rule. `v6_cidr_blocks` argument is currently not supported. It will be available in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#v6_cidr_blocks VpcDefaultSecurityGroup#v6_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#v6_cidr_blocks VpcDefaultSecurityGroup#v6_cidr_blocks}
   */
   readonly v6CidrBlocks?: string[];
 }
@@ -496,61 +496,61 @@ export interface VpcDefaultSecurityGroupIngress {
   /**
   * Description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#description VpcDefaultSecurityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#description VpcDefaultSecurityGroup#description}
   */
   readonly description?: string;
   /**
   * Minimum port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#from_port VpcDefaultSecurityGroup#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#from_port VpcDefaultSecurityGroup#from_port}
   */
   readonly fromPort?: number;
   /**
   * Labels to assign to this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#labels VpcDefaultSecurityGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#labels VpcDefaultSecurityGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Port number (if applied to a single port).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#port VpcDefaultSecurityGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#port VpcDefaultSecurityGroup#port}
   */
   readonly port?: number;
   /**
   * Special-purpose targets. `self_security_group` refers to this particular security group. `loadbalancer_healthchecks` represents [loadbalancer health check nodes](https://yandex.cloud/docs/network-load-balancer/concepts/health-check).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#predefined_target VpcDefaultSecurityGroup#predefined_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#predefined_target VpcDefaultSecurityGroup#predefined_target}
   */
   readonly predefinedTarget?: string;
   /**
   * One of `ANY`, `TCP`, `UDP`, `ICMP`, `IPV6_ICMP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#protocol VpcDefaultSecurityGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#protocol VpcDefaultSecurityGroup#protocol}
   */
   readonly protocol: string;
   /**
   * Target security group ID for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#security_group_id VpcDefaultSecurityGroup#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#security_group_id VpcDefaultSecurityGroup#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * Maximum port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#to_port VpcDefaultSecurityGroup#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#to_port VpcDefaultSecurityGroup#to_port}
   */
   readonly toPort?: number;
   /**
   * The blocks of IPv4 addresses for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#v4_cidr_blocks VpcDefaultSecurityGroup#v4_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#v4_cidr_blocks VpcDefaultSecurityGroup#v4_cidr_blocks}
   */
   readonly v4CidrBlocks?: string[];
   /**
   * The blocks of IPv6 addresses for this rule. `v6_cidr_blocks` argument is currently not supported. It will be available in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#v6_cidr_blocks VpcDefaultSecurityGroup#v6_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#v6_cidr_blocks VpcDefaultSecurityGroup#v6_cidr_blocks}
   */
   readonly v6CidrBlocks?: string[];
 }
@@ -929,19 +929,19 @@ export class VpcDefaultSecurityGroupIngressList extends cdktf.ComplexList {
 }
 export interface VpcDefaultSecurityGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#create VpcDefaultSecurityGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#create VpcDefaultSecurityGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#delete VpcDefaultSecurityGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#delete VpcDefaultSecurityGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#read VpcDefaultSecurityGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#read VpcDefaultSecurityGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#update VpcDefaultSecurityGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#update VpcDefaultSecurityGroup#update}
   */
   readonly update?: string;
 }
@@ -1122,7 +1122,7 @@ export class VpcDefaultSecurityGroupTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group yandex_vpc_default_security_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group yandex_vpc_default_security_group}
 */
 export class VpcDefaultSecurityGroup extends cdktf.TerraformResource {
 
@@ -1138,7 +1138,7 @@ export class VpcDefaultSecurityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcDefaultSecurityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcDefaultSecurityGroup to import
-  * @param importFromId The id of the existing VpcDefaultSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcDefaultSecurityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcDefaultSecurityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1150,7 +1150,7 @@ export class VpcDefaultSecurityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_default_security_group yandex_vpc_default_security_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_default_security_group yandex_vpc_default_security_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1161,8 +1161,8 @@ export class VpcDefaultSecurityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_vpc_default_security_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

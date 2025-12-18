@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataYandexTrinoClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster#folder_id DataYandexTrinoCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster#folder_id DataYandexTrinoCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster#id DataYandexTrinoCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster#id DataYandexTrinoCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataYandexTrinoClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster#name DataYandexTrinoCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster#name DataYandexTrinoCluster#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster#timeouts DataYandexTrinoCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster#timeouts DataYandexTrinoCluster#timeouts}
   */
   readonly timeouts?: DataYandexTrinoClusterTimeouts;
 }
@@ -635,7 +635,7 @@ export interface DataYandexTrinoClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster#read DataYandexTrinoCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster#read DataYandexTrinoCluster#read}
   */
   readonly read?: string;
 }
@@ -729,7 +729,7 @@ export class DataYandexTrinoClusterTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster yandex_trino_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster yandex_trino_cluster}
 */
 export class DataYandexTrinoCluster extends cdktf.TerraformDataSource {
 
@@ -745,7 +745,7 @@ export class DataYandexTrinoCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexTrinoCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexTrinoCluster to import
-  * @param importFromId The id of the existing DataYandexTrinoCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexTrinoCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexTrinoCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -757,7 +757,7 @@ export class DataYandexTrinoCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/trino_cluster yandex_trino_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/trino_cluster yandex_trino_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -768,8 +768,8 @@ export class DataYandexTrinoCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_trino_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -874,6 +874,17 @@ export class DataYandexTrinoCluster extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // query_properties - computed: true, optional: false, required: false
+  private _queryProperties = new cdktf.StringMap(this, "query_properties");
+  public get queryProperties() {
+    return this._queryProperties;
+  }
+
+  // resource_groups_json - computed: true, optional: false, required: false
+  public get resourceGroupsJson() {
+    return this.getStringAttribute('resource_groups_json');
   }
 
   // retry_policy - computed: true, optional: false, required: false

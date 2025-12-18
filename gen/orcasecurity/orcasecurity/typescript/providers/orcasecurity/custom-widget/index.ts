@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget
+// https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface CustomWidgetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#extra_params CustomWidget#extra_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#extra_params CustomWidget#extra_params}
   */
   readonly extraParams: CustomWidgetExtraParams;
   /**
   * An internal, unique name for the widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#name CustomWidget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#name CustomWidget#name}
   */
   readonly name: string;
   /**
   * If set to true, it is a shared widget (can be viewed by any member of your Orca org). If set to false, it is a personal widget (can be viewed only by you, not other members of your Orca org).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#organization_level CustomWidget#organization_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#organization_level CustomWidget#organization_level}
   */
   readonly organizationLevel: boolean | cdktf.IResolvable;
 }
@@ -28,13 +28,13 @@ export interface CustomWidgetExtraParamsSettingsField {
   /**
   * Name of the grouping method. For inventory-based queries, a common value is 'CloudAccount.Name'. To see other options, please use Chrome DevTools and the Orca UI to monitor what values this can be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#name CustomWidget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#name CustomWidget#name}
   */
   readonly name: string;
   /**
   * The name's type (normally 'str' for string).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#type CustomWidget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#type CustomWidget#type}
   */
   readonly type: string;
 }
@@ -151,41 +151,41 @@ export class CustomWidgetExtraParamsSettingsFieldOutputReference extends cdktf.C
 }
 export interface CustomWidgetExtraParamsSettingsRequestParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#enable_pagination CustomWidget#enable_pagination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#enable_pagination CustomWidget#enable_pagination}
   */
   readonly enablePagination?: boolean | cdktf.IResolvable;
   /**
   * How to group the returned results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#group_by CustomWidget#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#group_by CustomWidget#group_by}
   */
   readonly groupBy: string[];
   /**
   * How to group the returned results. Do not use this option with the table-type widget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#group_by_list CustomWidget#group_by_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#group_by_list CustomWidget#group_by_list}
   */
   readonly groupByList?: string[];
   /**
   * Number of items returned in query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#limit CustomWidget#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#limit CustomWidget#limit}
   */
   readonly limit?: number;
   /**
   * How the returned items are ordered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#order_by CustomWidget#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#order_by CustomWidget#order_by}
   */
   readonly orderBy?: string[];
   /**
   * Discovery query that the widget will use for its data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#query CustomWidget#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#query CustomWidget#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#start_at_index CustomWidget#start_at_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#start_at_index CustomWidget#start_at_index}
   */
   readonly startAtIndex?: number;
 }
@@ -449,19 +449,19 @@ export interface CustomWidgetExtraParamsSettings {
   /**
   * Columns of the table. Required for table-type widgets. Not supported for donut-type widgets. First column to appear in the list will be the first column in the table widget; same thing for the next column in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#columns CustomWidget#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#columns CustomWidget#columns}
   */
   readonly columns?: string[];
   /**
   * The name and type are also required here for grouping. This field is only required for donut-type widgets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#field CustomWidget#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#field CustomWidget#field}
   */
   readonly field?: CustomWidgetExtraParamsSettingsField;
   /**
   * These settings define the query and the grouping for the widget. For inventory-based queries, a common setting is to set 'group_by' to 'Type' and 'group_by_list' to 'CloudAccount.Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#request_params CustomWidget#request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#request_params CustomWidget#request_params}
   */
   readonly requestParams: CustomWidgetExtraParamsSettingsRequestParams;
 }
@@ -612,43 +612,43 @@ export interface CustomWidgetExtraParams {
   /**
   * Default size of the widget. Possible values are sm (small), md (medium), or lg (large).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#default_size CustomWidget#default_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#default_size CustomWidget#default_size}
   */
   readonly defaultSize: string;
   /**
   * Custom widget description (the text that appears in the info bubble).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#description CustomWidget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#description CustomWidget#description}
   */
   readonly description: string;
   /**
   * When no objects are returned by the widget's underlying Discovery query, the widget would present this message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#empty_state_message CustomWidget#empty_state_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#empty_state_message CustomWidget#empty_state_message}
   */
   readonly emptyStateMessage: string;
   /**
   * Should be set to true for a widget you are creating for the first time in Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#is_new CustomWidget#is_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#is_new CustomWidget#is_new}
   */
   readonly isNew: boolean | cdktf.IResolvable;
   /**
   * These are the settings for the custom widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#settings CustomWidget#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#settings CustomWidget#settings}
   */
   readonly settings: CustomWidgetExtraParamsSettings;
   /**
   * Custom widget subtitle that will be presented in the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#subtitle CustomWidget#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#subtitle CustomWidget#subtitle}
   */
   readonly subtitle: string;
   /**
   * Type of custom widget to create. Valid values are `donut` and `table`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#type CustomWidget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#type CustomWidget#type}
   */
   readonly type: string;
 }
@@ -905,7 +905,7 @@ export class CustomWidgetExtraParamsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget orcasecurity_custom_widget}
+* Represents a {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget orcasecurity_custom_widget}
 */
 export class CustomWidget extends cdktf.TerraformResource {
 
@@ -921,7 +921,7 @@ export class CustomWidget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomWidget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomWidget to import
-  * @param importFromId The id of the existing CustomWidget that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomWidget that should be imported. Refer to the {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomWidget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -933,7 +933,7 @@ export class CustomWidget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.23/docs/resources/custom_widget orcasecurity_custom_widget} Resource
+  * Create a new {@link https://registry.terraform.io/providers/orcasecurity/orcasecurity/0.0.25/docs/resources/custom_widget orcasecurity_custom_widget} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,8 +944,8 @@ export class CustomWidget extends cdktf.TerraformResource {
       terraformResourceType: 'orcasecurity_custom_widget',
       terraformGeneratorMetadata: {
         providerName: 'orcasecurity',
-        providerVersion: '0.0.23',
-        providerVersionConstraint: '0.0.23'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

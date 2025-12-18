@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DatatransferTransferConfig extends cdktf.TerraformMetaArguments
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#description DatatransferTransfer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#description DatatransferTransfer#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#folder_id DatatransferTransfer#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#folder_id DatatransferTransfer#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#id DatatransferTransfer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#id DatatransferTransfer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DatatransferTransferConfig extends cdktf.TerraformMetaArguments
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#labels DatatransferTransfer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#labels DatatransferTransfer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#name DatatransferTransfer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#name DatatransferTransfer#name}
   */
   readonly name?: string;
   /**
   * Activation action on create a new incremental transfer. It is not part of the transfer parameter and is used only on create. One of `sync_activate`, `async_activate`, `dont_activate`. The default is `sync_activate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#on_create_activate_mode DatatransferTransfer#on_create_activate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#on_create_activate_mode DatatransferTransfer#on_create_activate_mode}
   */
   readonly onCreateActivateMode?: string;
   /**
   * ID of the source endpoint for the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#source_id DatatransferTransfer#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#source_id DatatransferTransfer#source_id}
   */
   readonly sourceId?: string;
   /**
   * ID of the target endpoint for the transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#target_id DatatransferTransfer#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#target_id DatatransferTransfer#target_id}
   */
   readonly targetId?: string;
   /**
   * Type of the transfer. One of `SNAPSHOT_ONLY`, `INCREMENT_ONLY`, `SNAPSHOT_AND_INCREMENT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#type DatatransferTransfer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#type DatatransferTransfer#type}
   */
   readonly type?: string;
   /**
   * runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#runtime DatatransferTransfer#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#runtime DatatransferTransfer#runtime}
   */
   readonly runtime?: DatatransferTransferRuntime;
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#transformation DatatransferTransfer#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#transformation DatatransferTransfer#transformation}
   */
   readonly transformation?: DatatransferTransferTransformation;
 }
@@ -79,13 +79,13 @@ export interface DatatransferTransferRuntimeYcRuntimeUploadShardParams {
   /**
   * Number of workers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#job_count DatatransferTransfer#job_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#job_count DatatransferTransfer#job_count}
   */
   readonly jobCount?: number;
   /**
   * Number of threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#process_count DatatransferTransfer#process_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#process_count DatatransferTransfer#process_count}
   */
   readonly processCount?: number;
 }
@@ -200,13 +200,13 @@ export interface DatatransferTransferRuntimeYcRuntime {
   /**
   * Number of workers in parallel replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#job_count DatatransferTransfer#job_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#job_count DatatransferTransfer#job_count}
   */
   readonly jobCount?: number;
   /**
   * upload_shard_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#upload_shard_params DatatransferTransfer#upload_shard_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#upload_shard_params DatatransferTransfer#upload_shard_params}
   */
   readonly uploadShardParams?: DatatransferTransferRuntimeYcRuntimeUploadShardParams;
 }
@@ -321,7 +321,7 @@ export interface DatatransferTransferRuntime {
   /**
   * yc_runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#yc_runtime DatatransferTransfer#yc_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#yc_runtime DatatransferTransfer#yc_runtime}
   */
   readonly ycRuntime?: DatatransferTransferRuntimeYcRuntime;
 }
@@ -407,13 +407,13 @@ export interface DatatransferTransferTransformationTransformersConvertToStringCo
   /**
   * List of columns that will be excluded to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_columns DatatransferTransfer#exclude_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_columns DatatransferTransfer#exclude_columns}
   */
   readonly excludeColumns?: string[];
   /**
   * List of columns that will be included to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_columns DatatransferTransfer#include_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_columns DatatransferTransfer#include_columns}
   */
   readonly includeColumns?: string[];
 }
@@ -528,13 +528,13 @@ export interface DatatransferTransferTransformationTransformersConvertToStringTa
   /**
   * List of tables that will be excluded to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
   * List of tables that will be included to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -649,13 +649,13 @@ export interface DatatransferTransferTransformationTransformersConvertToString {
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
   */
   readonly columns?: DatatransferTransferTransformationTransformersConvertToStringColumns;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersConvertToStringTables;
 }
@@ -768,11 +768,11 @@ export class DatatransferTransferTransformationTransformersConvertToStringOutput
 }
 export interface DatatransferTransferTransformationTransformersFilterColumnsColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_columns DatatransferTransfer#exclude_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_columns DatatransferTransfer#exclude_columns}
   */
   readonly excludeColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_columns DatatransferTransfer#include_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_columns DatatransferTransfer#include_columns}
   */
   readonly includeColumns?: string[];
 }
@@ -885,11 +885,11 @@ export class DatatransferTransferTransformationTransformersFilterColumnsColumnsO
 }
 export interface DatatransferTransferTransformationTransformersFilterColumnsTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -1004,13 +1004,13 @@ export interface DatatransferTransferTransformationTransformersFilterColumns {
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
   */
   readonly columns?: DatatransferTransferTransformationTransformersFilterColumnsColumns;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersFilterColumnsTables;
 }
@@ -1123,11 +1123,11 @@ export class DatatransferTransferTransformationTransformersFilterColumnsOutputRe
 }
 export interface DatatransferTransferTransformationTransformersFilterRowsTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -1242,13 +1242,13 @@ export interface DatatransferTransferTransformationTransformersFilterRows {
   /**
   * Filtering criterion. This can be comparison operators for numeric, string, and Boolean values, comparison to NULL, and checking whether a substring is part of a string. See details [here](https://yandex.cloud/docs/data-transfer/concepts/data-transformation#append-only-sources).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#filter DatatransferTransfer#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#filter DatatransferTransfer#filter}
   */
   readonly filter?: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersFilterRowsTables;
 }
@@ -1363,7 +1363,7 @@ export interface DatatransferTransferTransformationTransformersMaskFieldFunction
   /**
   * This string will be used in the HMAC(sha256, salt) function applied to the column data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#user_defined_salt DatatransferTransfer#user_defined_salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#user_defined_salt DatatransferTransfer#user_defined_salt}
   */
   readonly userDefinedSalt?: string;
 }
@@ -1449,7 +1449,7 @@ export interface DatatransferTransferTransformationTransformersMaskFieldFunction
   /**
   * mask_function_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#mask_function_hash DatatransferTransfer#mask_function_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#mask_function_hash DatatransferTransfer#mask_function_hash}
   */
   readonly maskFunctionHash?: DatatransferTransferTransformationTransformersMaskFieldFunctionMaskFunctionHash;
 }
@@ -1533,11 +1533,11 @@ export class DatatransferTransferTransformationTransformersMaskFieldFunctionOutp
 }
 export interface DatatransferTransferTransformationTransformersMaskFieldTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -1652,19 +1652,19 @@ export interface DatatransferTransferTransformationTransformersMaskField {
   /**
   * List of strings that specify the name of the column for data masking (a regular expression).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
   */
   readonly columns?: string[];
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#function DatatransferTransfer#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#function DatatransferTransfer#function}
   */
   readonly function?: DatatransferTransferTransformationTransformersMaskFieldFunction;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersMaskFieldTables;
 }
@@ -1806,11 +1806,11 @@ export class DatatransferTransferTransformationTransformersMaskFieldOutputRefere
 }
 export interface DatatransferTransferTransformationTransformersRenameTablesRenameTablesNewName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#name DatatransferTransfer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#name DatatransferTransfer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#name_space DatatransferTransfer#name_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#name_space DatatransferTransfer#name_space}
   */
   readonly nameSpace?: string;
 }
@@ -1923,11 +1923,11 @@ export class DatatransferTransferTransformationTransformersRenameTablesRenameTab
 }
 export interface DatatransferTransferTransformationTransformersRenameTablesRenameTablesOriginalName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#name DatatransferTransfer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#name DatatransferTransfer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#name_space DatatransferTransfer#name_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#name_space DatatransferTransfer#name_space}
   */
   readonly nameSpace?: string;
 }
@@ -2042,13 +2042,13 @@ export interface DatatransferTransferTransformationTransformersRenameTablesRenam
   /**
   * new_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#new_name DatatransferTransfer#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#new_name DatatransferTransfer#new_name}
   */
   readonly newName?: DatatransferTransferTransformationTransformersRenameTablesRenameTablesNewName;
   /**
   * original_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#original_name DatatransferTransfer#original_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#original_name DatatransferTransfer#original_name}
   */
   readonly originalName?: DatatransferTransferTransformationTransformersRenameTablesRenameTablesOriginalName;
 }
@@ -2195,7 +2195,7 @@ export interface DatatransferTransferTransformationTransformersRenameTables {
   /**
   * rename_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#rename_tables DatatransferTransfer#rename_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#rename_tables DatatransferTransfer#rename_tables}
   */
   readonly renameTables?: DatatransferTransferTransformationTransformersRenameTablesRenameTables[] | cdktf.IResolvable;
 }
@@ -2279,11 +2279,11 @@ export class DatatransferTransferTransformationTransformersRenameTablesOutputRef
 }
 export interface DatatransferTransferTransformationTransformersReplacePrimaryKeyTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -2398,13 +2398,13 @@ export interface DatatransferTransferTransformationTransformersReplacePrimaryKey
   /**
   * List of columns to be used as primary keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#keys DatatransferTransfer#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#keys DatatransferTransfer#keys}
   */
   readonly keys?: string[];
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersReplacePrimaryKeyTables;
 }
@@ -2517,11 +2517,11 @@ export class DatatransferTransferTransformationTransformersReplacePrimaryKeyOutp
 }
 export interface DatatransferTransferTransformationTransformersSharderTransformerColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_columns DatatransferTransfer#exclude_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_columns DatatransferTransfer#exclude_columns}
   */
   readonly excludeColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_columns DatatransferTransfer#include_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_columns DatatransferTransfer#include_columns}
   */
   readonly includeColumns?: string[];
 }
@@ -2634,11 +2634,11 @@ export class DatatransferTransferTransformationTransformersSharderTransformerCol
 }
 export interface DatatransferTransferTransformationTransformersSharderTransformerTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -2753,19 +2753,19 @@ export interface DatatransferTransferTransformationTransformersSharderTransforme
   /**
   * Number of shards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#shards_count DatatransferTransfer#shards_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#shards_count DatatransferTransfer#shards_count}
   */
   readonly shardsCount?: number;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
   */
   readonly columns?: DatatransferTransferTransformationTransformersSharderTransformerColumns;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersSharderTransformerTables;
 }
@@ -2907,11 +2907,11 @@ export class DatatransferTransferTransformationTransformersSharderTransformerOut
 }
 export interface DatatransferTransferTransformationTransformersTableSplitterTransformerTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#exclude_tables DatatransferTransfer#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#include_tables DatatransferTransfer#include_tables}
   */
   readonly includeTables?: string[];
 }
@@ -3026,19 +3026,19 @@ export interface DatatransferTransferTransformationTransformersTableSplitterTran
   /**
   * List of strings that specify the columns in the tables to be partitioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#columns DatatransferTransfer#columns}
   */
   readonly columns?: string[];
   /**
   * Specify the split string to be used for merging components in a new table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#splitter DatatransferTransfer#splitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#splitter DatatransferTransfer#splitter}
   */
   readonly splitter?: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#tables DatatransferTransfer#tables}
   */
   readonly tables?: DatatransferTransferTransformationTransformersTableSplitterTransformerTables;
 }
@@ -3182,49 +3182,49 @@ export interface DatatransferTransferTransformationTransformers {
   /**
   * convert_to_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#convert_to_string DatatransferTransfer#convert_to_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#convert_to_string DatatransferTransfer#convert_to_string}
   */
   readonly convertToString?: DatatransferTransferTransformationTransformersConvertToString;
   /**
   * filter_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#filter_columns DatatransferTransfer#filter_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#filter_columns DatatransferTransfer#filter_columns}
   */
   readonly filterColumns?: DatatransferTransferTransformationTransformersFilterColumns;
   /**
   * filter_rows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#filter_rows DatatransferTransfer#filter_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#filter_rows DatatransferTransfer#filter_rows}
   */
   readonly filterRows?: DatatransferTransferTransformationTransformersFilterRows;
   /**
   * mask_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#mask_field DatatransferTransfer#mask_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#mask_field DatatransferTransfer#mask_field}
   */
   readonly maskField?: DatatransferTransferTransformationTransformersMaskField;
   /**
   * rename_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#rename_tables DatatransferTransfer#rename_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#rename_tables DatatransferTransfer#rename_tables}
   */
   readonly renameTables?: DatatransferTransferTransformationTransformersRenameTables;
   /**
   * replace_primary_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#replace_primary_key DatatransferTransfer#replace_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#replace_primary_key DatatransferTransfer#replace_primary_key}
   */
   readonly replacePrimaryKey?: DatatransferTransferTransformationTransformersReplacePrimaryKey;
   /**
   * sharder_transformer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#sharder_transformer DatatransferTransfer#sharder_transformer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#sharder_transformer DatatransferTransfer#sharder_transformer}
   */
   readonly sharderTransformer?: DatatransferTransferTransformationTransformersSharderTransformer;
   /**
   * table_splitter_transformer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#table_splitter_transformer DatatransferTransfer#table_splitter_transformer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#table_splitter_transformer DatatransferTransfer#table_splitter_transformer}
   */
   readonly tableSplitterTransformer?: DatatransferTransferTransformationTransformersTableSplitterTransformer;
 }
@@ -3545,7 +3545,7 @@ export interface DatatransferTransferTransformation {
   /**
   * transformers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#transformers DatatransferTransfer#transformers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#transformers DatatransferTransfer#transformers}
   */
   readonly transformers?: DatatransferTransferTransformationTransformers[] | cdktf.IResolvable;
 }
@@ -3629,7 +3629,7 @@ export class DatatransferTransferTransformationOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer yandex_datatransfer_transfer}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer yandex_datatransfer_transfer}
 */
 export class DatatransferTransfer extends cdktf.TerraformResource {
 
@@ -3645,7 +3645,7 @@ export class DatatransferTransfer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatatransferTransfer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatatransferTransfer to import
-  * @param importFromId The id of the existing DatatransferTransfer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatatransferTransfer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatatransferTransfer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3657,7 +3657,7 @@ export class DatatransferTransfer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/datatransfer_transfer yandex_datatransfer_transfer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/datatransfer_transfer yandex_datatransfer_transfer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3668,8 +3668,8 @@ export class DatatransferTransfer extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_datatransfer_transfer',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

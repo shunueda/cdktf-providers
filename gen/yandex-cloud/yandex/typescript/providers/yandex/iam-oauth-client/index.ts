@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,14 +10,14 @@ export interface IamOauthClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the folder oauth client belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#folder_id IamOauthClient#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#folder_id IamOauthClient#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the OAuthClient resource to return.
   *  To get the oauth client ID, use a [OAuthClientService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#id IamOauthClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#id IamOauthClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,30 +26,30 @@ export interface IamOauthClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name for the oauth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#name IamOauthClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#name IamOauthClient#name}
   */
   readonly name: string;
   /**
   * ID of the OAuthClient resource to return.
   *  To get the oauth client ID, use a [OAuthClientService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#oauth_client_id IamOauthClient#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#oauth_client_id IamOauthClient#oauth_client_id}
   */
   readonly oauthClientId?: string;
   /**
   * List of redirect uries allowed for the oauth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#redirect_uris IamOauthClient#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#redirect_uris IamOauthClient#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
   * List of oauth scopes requested by the oauth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#scopes IamOauthClient#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#scopes IamOauthClient#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#timeouts IamOauthClient#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#timeouts IamOauthClient#timeouts}
   */
   readonly timeouts?: IamOauthClientTimeouts;
 }
@@ -57,25 +57,25 @@ export interface IamOauthClientTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#create IamOauthClient#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#create IamOauthClient#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#delete IamOauthClient#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#delete IamOauthClient#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#read IamOauthClient#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#read IamOauthClient#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#update IamOauthClient#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#update IamOauthClient#update}
   */
   readonly update?: string;
 }
@@ -256,7 +256,7 @@ export class IamOauthClientTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client yandex_iam_oauth_client}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client yandex_iam_oauth_client}
 */
 export class IamOauthClient extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class IamOauthClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamOauthClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamOauthClient to import
-  * @param importFromId The id of the existing IamOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamOauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamOauthClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class IamOauthClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_oauth_client yandex_iam_oauth_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_oauth_client yandex_iam_oauth_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class IamOauthClient extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iam_oauth_client',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataYandexComputeInstanceConfig extends cdktf.TerraformMetaArgu
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#folder_id DataYandexComputeInstance#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#folder_id DataYandexComputeInstance#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the GPU cluster to attach this instance to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#gpu_cluster_id DataYandexComputeInstance#gpu_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#gpu_cluster_id DataYandexComputeInstance#gpu_cluster_id}
   */
   readonly gpuClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#id DataYandexComputeInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#id DataYandexComputeInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface DataYandexComputeInstanceConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of a specific instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#instance_id DataYandexComputeInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#instance_id DataYandexComputeInstance#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Time between notification via metadata service and maintenance. E.g., `60s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#maintenance_grace_period DataYandexComputeInstance#maintenance_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#maintenance_grace_period DataYandexComputeInstance#maintenance_grace_period}
   */
   readonly maintenanceGracePeriod?: string;
   /**
   * Behavior on maintenance events. Can be: `unspecified`, `migrate`, `restart`. The default is `unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#maintenance_policy DataYandexComputeInstance#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#maintenance_policy DataYandexComputeInstance#maintenance_policy}
   */
   readonly maintenancePolicy?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#name DataYandexComputeInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#name DataYandexComputeInstance#name}
   */
   readonly name?: string;
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#service_account_id DataYandexComputeInstance#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#service_account_id DataYandexComputeInstance#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * filesystem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#filesystem DataYandexComputeInstance#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#filesystem DataYandexComputeInstance#filesystem}
   */
   readonly filesystem?: DataYandexComputeInstanceFilesystem[] | cdktf.IResolvable;
   /**
   * local_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#local_disk DataYandexComputeInstance#local_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#local_disk DataYandexComputeInstance#local_disk}
   */
   readonly localDisk?: DataYandexComputeInstanceLocalDisk[] | cdktf.IResolvable;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#metadata_options DataYandexComputeInstance#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#metadata_options DataYandexComputeInstance#metadata_options}
   */
   readonly metadataOptions?: DataYandexComputeInstanceMetadataOptions;
   /**
   * placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#placement_policy DataYandexComputeInstance#placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#placement_policy DataYandexComputeInstance#placement_policy}
   */
   readonly placementPolicy?: DataYandexComputeInstancePlacementPolicy;
 }
@@ -1184,7 +1184,7 @@ export class DataYandexComputeInstanceSecondaryDiskList extends cdktf.ComplexLis
 }
 export interface DataYandexComputeInstanceFilesystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#mode DataYandexComputeInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#mode DataYandexComputeInstance#mode}
   */
   readonly mode?: string;
 }
@@ -1310,7 +1310,7 @@ export class DataYandexComputeInstanceFilesystemList extends cdktf.ComplexList {
 }
 export interface DataYandexComputeInstanceLocalDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#size_bytes DataYandexComputeInstance#size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#size_bytes DataYandexComputeInstance#size_bytes}
   */
   readonly sizeBytes: number;
 }
@@ -1428,19 +1428,19 @@ export class DataYandexComputeInstanceLocalDiskList extends cdktf.ComplexList {
 }
 export interface DataYandexComputeInstanceMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#aws_v1_http_endpoint DataYandexComputeInstance#aws_v1_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#aws_v1_http_endpoint DataYandexComputeInstance#aws_v1_http_endpoint}
   */
   readonly awsV1HttpEndpoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#aws_v1_http_token DataYandexComputeInstance#aws_v1_http_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#aws_v1_http_token DataYandexComputeInstance#aws_v1_http_token}
   */
   readonly awsV1HttpToken?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#gce_http_endpoint DataYandexComputeInstance#gce_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#gce_http_endpoint DataYandexComputeInstance#gce_http_endpoint}
   */
   readonly gceHttpEndpoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#gce_http_token DataYandexComputeInstance#gce_http_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#gce_http_token DataYandexComputeInstance#gce_http_token}
   */
   readonly gceHttpToken?: number;
 }
@@ -1611,15 +1611,15 @@ export class DataYandexComputeInstanceMetadataOptionsOutputReference extends cdk
 }
 export interface DataYandexComputeInstancePlacementPolicyHostAffinityRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#key DataYandexComputeInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#key DataYandexComputeInstance#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#op DataYandexComputeInstance#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#op DataYandexComputeInstance#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#values DataYandexComputeInstance#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#values DataYandexComputeInstance#values}
   */
   readonly values?: string[];
 }
@@ -1793,15 +1793,15 @@ export class DataYandexComputeInstancePlacementPolicyHostAffinityRulesList exten
 }
 export interface DataYandexComputeInstancePlacementPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#host_affinity_rules DataYandexComputeInstance#host_affinity_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#host_affinity_rules DataYandexComputeInstance#host_affinity_rules}
   */
   readonly hostAffinityRules?: DataYandexComputeInstancePlacementPolicyHostAffinityRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#placement_group_id DataYandexComputeInstance#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#placement_group_id DataYandexComputeInstance#placement_group_id}
   */
   readonly placementGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#placement_group_partition DataYandexComputeInstance#placement_group_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#placement_group_partition DataYandexComputeInstance#placement_group_partition}
   */
   readonly placementGroupPartition?: number;
 }
@@ -1943,7 +1943,7 @@ export class DataYandexComputeInstancePlacementPolicyOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance yandex_compute_instance}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance yandex_compute_instance}
 */
 export class DataYandexComputeInstance extends cdktf.TerraformDataSource {
 
@@ -1959,7 +1959,7 @@ export class DataYandexComputeInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexComputeInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexComputeInstance to import
-  * @param importFromId The id of the existing DataYandexComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexComputeInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexComputeInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1971,7 +1971,7 @@ export class DataYandexComputeInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/compute_instance yandex_compute_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/compute_instance yandex_compute_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1982,8 +1982,8 @@ export class DataYandexComputeInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_compute_instance',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

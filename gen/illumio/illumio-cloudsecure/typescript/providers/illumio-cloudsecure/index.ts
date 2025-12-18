@@ -8,6 +8,8 @@ export * as awsFlowLogsS3Bucket from './aws-flow-logs-s3-bucket';
 export * as azureFlowLogsStorageAccount from './azure-flow-logs-storage-account';
 export * as azureSubscription from './azure-subscription';
 export * as deployment from './deployment';
+export * as gcpFlowLogsPubsubTopic from './gcp-flow-logs-pubsub-topic';
+export * as gcpProject from './gcp-project';
 export * as ipList from './ip-list';
 export * as k8SCluster from './k8s-cluster';
 export * as k8SClusterOnboardingCredential from './k8s-cluster-onboarding-credential';

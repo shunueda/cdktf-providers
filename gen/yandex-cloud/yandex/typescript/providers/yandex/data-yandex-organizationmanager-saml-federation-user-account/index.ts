@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexOrganizationmanagerSamlFederationUserAccountConfig ex
   /**
   * ID of a SAML Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account#federation_id DataYandexOrganizationmanagerSamlFederationUserAccount#federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account#federation_id DataYandexOrganizationmanagerSamlFederationUserAccount#federation_id}
   */
   readonly federationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account#id DataYandexOrganizationmanagerSamlFederationUserAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account#id DataYandexOrganizationmanagerSamlFederationUserAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataYandexOrganizationmanagerSamlFederationUserAccountConfig ex
   /**
   * Name ID of the SAML federated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account#name_id DataYandexOrganizationmanagerSamlFederationUserAccount#name_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account#name_id DataYandexOrganizationmanagerSamlFederationUserAccount#name_id}
   */
   readonly nameId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account}
 */
 export class DataYandexOrganizationmanagerSamlFederationUserAccount extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataYandexOrganizationmanagerSamlFederationUserAccount extends cdkt
   * Generates CDKTF code for importing a DataYandexOrganizationmanagerSamlFederationUserAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexOrganizationmanagerSamlFederationUserAccount to import
-  * @param importFromId The id of the existing DataYandexOrganizationmanagerSamlFederationUserAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexOrganizationmanagerSamlFederationUserAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexOrganizationmanagerSamlFederationUserAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataYandexOrganizationmanagerSamlFederationUserAccount extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/organizationmanager_saml_federation_user_account yandex_organizationmanager_saml_federation_user_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataYandexOrganizationmanagerSamlFederationUserAccount extends cdkt
       terraformResourceType: 'yandex_organizationmanager_saml_federation_user_account',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

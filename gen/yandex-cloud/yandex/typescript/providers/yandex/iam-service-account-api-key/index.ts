@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IamServiceAccountApiKeyConfig extends cdktf.TerraformMetaArgume
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#description IamServiceAccountApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#description IamServiceAccountApiKey#description}
   */
   readonly description?: string;
   /**
   * The key will be no longer valid after expiration timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#expires_at IamServiceAccountApiKey#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#expires_at IamServiceAccountApiKey#expires_at}
   */
   readonly expiresAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#id IamServiceAccountApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#id IamServiceAccountApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface IamServiceAccountApiKeyConfig extends cdktf.TerraformMetaArgume
   /**
   * An optional PGP key to encrypt the resulting secret key material. May either be a base64-encoded public key or a keybase username in the form `keybase:keybaseusername`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#pgp_key IamServiceAccountApiKey#pgp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#pgp_key IamServiceAccountApiKey#pgp_key}
   */
   readonly pgpKey?: string;
   /**
   * The scope of the key. Use `lifecycle {ignore_changes = [scope]}` directive to avoid false changes on apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#scope IamServiceAccountApiKey#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#scope IamServiceAccountApiKey#scope}
   */
   readonly scope?: string;
   /**
   * The list of scopes of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#scopes IamServiceAccountApiKey#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#scopes IamServiceAccountApiKey#scopes}
   */
   readonly scopes?: string[];
   /**
   * ID of the service account to an API key for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#service_account_id IamServiceAccountApiKey#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#service_account_id IamServiceAccountApiKey#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * output_to_lockbox block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#output_to_lockbox IamServiceAccountApiKey#output_to_lockbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#output_to_lockbox IamServiceAccountApiKey#output_to_lockbox}
   */
   readonly outputToLockbox?: IamServiceAccountApiKeyOutputToLockbox;
 }
@@ -61,13 +61,13 @@ export interface IamServiceAccountApiKeyOutputToLockbox {
   /**
   * entry that will store the value of secret_key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#entry_for_secret_key IamServiceAccountApiKey#entry_for_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#entry_for_secret_key IamServiceAccountApiKey#entry_for_secret_key}
   */
   readonly entryForSecretKey: string;
   /**
   * ID of the Lockbox secret where to store the sensible values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#secret_id IamServiceAccountApiKey#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#secret_id IamServiceAccountApiKey#secret_id}
   */
   readonly secretId: string;
 }
@@ -174,7 +174,7 @@ export class IamServiceAccountApiKeyOutputToLockboxOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key yandex_iam_service_account_api_key}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key yandex_iam_service_account_api_key}
 */
 export class IamServiceAccountApiKey extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class IamServiceAccountApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamServiceAccountApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamServiceAccountApiKey to import
-  * @param importFromId The id of the existing IamServiceAccountApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamServiceAccountApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamServiceAccountApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class IamServiceAccountApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/iam_service_account_api_key yandex_iam_service_account_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/iam_service_account_api_key yandex_iam_service_account_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class IamServiceAccountApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iam_service_account_api_key',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

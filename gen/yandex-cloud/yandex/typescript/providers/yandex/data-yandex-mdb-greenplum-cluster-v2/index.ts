@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataYandexMdbGreenplumClusterV2Config extends cdktf.TerraformMe
   /**
   * ID of the folder that the Greenplum® cluster belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#folder_id DataYandexMdbGreenplumClusterV2#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#folder_id DataYandexMdbGreenplumClusterV2#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -18,7 +18,7 @@ export interface DataYandexMdbGreenplumClusterV2Config extends cdktf.TerraformMe
   * 
   *  To get the cluster ID, use a [ClusterService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#id DataYandexMdbGreenplumClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#id DataYandexMdbGreenplumClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,11 +27,11 @@ export interface DataYandexMdbGreenplumClusterV2Config extends cdktf.TerraformMe
   /**
   * Service account that will be used to access a Yandex Cloud resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#service_account_id DataYandexMdbGreenplumClusterV2#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#service_account_id DataYandexMdbGreenplumClusterV2#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#timeouts DataYandexMdbGreenplumClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#timeouts DataYandexMdbGreenplumClusterV2#timeouts}
   */
   readonly timeouts?: DataYandexMdbGreenplumClusterV2Timeouts;
 }
@@ -1234,7 +1234,7 @@ export interface DataYandexMdbGreenplumClusterV2Logging {
   * filename: yandex/cloud/mdb/greenplum/v1/cluster.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#folder_id DataYandexMdbGreenplumClusterV2#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#folder_id DataYandexMdbGreenplumClusterV2#folder_id}
   */
   readonly folderId?: string;
 }
@@ -1896,25 +1896,25 @@ export interface DataYandexMdbGreenplumClusterV2Timeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#create DataYandexMdbGreenplumClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#create DataYandexMdbGreenplumClusterV2#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#delete DataYandexMdbGreenplumClusterV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#delete DataYandexMdbGreenplumClusterV2#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#read DataYandexMdbGreenplumClusterV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#read DataYandexMdbGreenplumClusterV2#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#update DataYandexMdbGreenplumClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#update DataYandexMdbGreenplumClusterV2#update}
   */
   readonly update?: string;
 }
@@ -2095,7 +2095,7 @@ export class DataYandexMdbGreenplumClusterV2TimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2}
 */
 export class DataYandexMdbGreenplumClusterV2 extends cdktf.TerraformDataSource {
 
@@ -2111,7 +2111,7 @@ export class DataYandexMdbGreenplumClusterV2 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexMdbGreenplumClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexMdbGreenplumClusterV2 to import
-  * @param importFromId The id of the existing DataYandexMdbGreenplumClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexMdbGreenplumClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexMdbGreenplumClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2123,7 +2123,7 @@ export class DataYandexMdbGreenplumClusterV2 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/data-sources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/data-sources/mdb_greenplum_cluster_v2 yandex_mdb_greenplum_cluster_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2134,8 +2134,8 @@ export class DataYandexMdbGreenplumClusterV2 extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_mdb_greenplum_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

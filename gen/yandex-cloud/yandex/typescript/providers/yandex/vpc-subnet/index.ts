@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#description VpcSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#description VpcSubnet#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#folder_id VpcSubnet#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#folder_id VpcSubnet#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#id VpcSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#id VpcSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface VpcSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#labels VpcSubnet#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#labels VpcSubnet#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#name VpcSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#name VpcSubnet#name}
   */
   readonly name?: string;
   /**
   * ID of the network this subnet belongs to. Only networks that are in the distributed mode can have subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#network_id VpcSubnet#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#network_id VpcSubnet#network_id}
   */
   readonly networkId: string;
   /**
   * The ID of the route table to assign to this subnet. Assigned route table should belong to the same network as this subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#route_table_id VpcSubnet#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#route_table_id VpcSubnet#route_table_id}
   */
   readonly routeTableId?: string;
   /**
   * A list of blocks of internal IPv4 addresses that are owned by this subnet. Provide this property when you create the subnet. For example, `10.0.0.0/22` or `192.168.0.0/16`. Blocks of addresses must be unique and non-overlapping within a network. Minimum subnet size is `/28`, and maximum subnet size is `/16`. Only IPv4 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#v4_cidr_blocks VpcSubnet#v4_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#v4_cidr_blocks VpcSubnet#v4_cidr_blocks}
   */
   readonly v4CidrBlocks: string[];
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#zone VpcSubnet#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#zone VpcSubnet#zone}
   */
   readonly zone?: string;
   /**
   * dhcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#dhcp_options VpcSubnet#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#dhcp_options VpcSubnet#dhcp_options}
   */
   readonly dhcpOptions?: VpcSubnetDhcpOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#timeouts VpcSubnet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#timeouts VpcSubnet#timeouts}
   */
   readonly timeouts?: VpcSubnetTimeouts;
 }
@@ -79,19 +79,19 @@ export interface VpcSubnetDhcpOptions {
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#domain_name VpcSubnet#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#domain_name VpcSubnet#domain_name}
   */
   readonly domainName?: string;
   /**
   * Domain name server IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#domain_name_servers VpcSubnet#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#domain_name_servers VpcSubnet#domain_name_servers}
   */
   readonly domainNameServers?: string[];
   /**
   * NTP server IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#ntp_servers VpcSubnet#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#ntp_servers VpcSubnet#ntp_servers}
   */
   readonly ntpServers?: string[];
 }
@@ -233,15 +233,15 @@ export class VpcSubnetDhcpOptionsOutputReference extends cdktf.ComplexObject {
 }
 export interface VpcSubnetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#create VpcSubnet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#create VpcSubnet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#delete VpcSubnet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#delete VpcSubnet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#update VpcSubnet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#update VpcSubnet#update}
   */
   readonly update?: string;
 }
@@ -393,7 +393,7 @@ export class VpcSubnetTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet yandex_vpc_subnet}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet yandex_vpc_subnet}
 */
 export class VpcSubnet extends cdktf.TerraformResource {
 
@@ -409,7 +409,7 @@ export class VpcSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcSubnet to import
-  * @param importFromId The id of the existing VpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class VpcSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.176.0/docs/resources/vpc_subnet yandex_vpc_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.177.0/docs/resources/vpc_subnet yandex_vpc_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class VpcSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_vpc_subnet',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.176.0',
-        providerVersionConstraint: '0.176.0'
+        providerVersion: '0.177.0',
+        providerVersionConstraint: '0.177.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
